@@ -1,0 +1,38 @@
+name: Fetcher
+
+on:
+  push:
+  schedule:
+    - cron: '1 15 * * *'
+
+jobs:
+  crawl:
+    name: CalConnect documents fetching
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Use Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+      - name: Use cahed gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Update gems
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - name: Fetch documents
+        run: bundle exec ruby fetcher.rb
+      - name: Push data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/* Gemfile.lock
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
