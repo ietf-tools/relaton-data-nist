@@ -178,7 +178,7 @@ def parse_doc(doc) # rubocop:disable Metrics/MethodLength
     date: fetch_date(doc), edition: fetch_edition(doc),
     contributor: fetch_contributor(doc), relation: fetch_relation(doc),
     place: fetch_place(doc),
-    language: [doc['language']], script: ['Latn'], doctype: 'document'
+    language: [doc['language']], script: ['Latn'], doctype: 'standard'
   )
   write_file item
 rescue StandardError => e
