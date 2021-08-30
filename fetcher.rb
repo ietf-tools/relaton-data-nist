@@ -67,7 +67,7 @@ def fetch_title(doc)
   t = doc.xpath('titles/title|titles/subtitle')
   return [] unless t.any?
 
-  RelatonBib::TypedTitleString.from_string t.map(&:text).join(' ')
+  RelatonBib::TypedTitleString.from_string t.map(&:text).join(' '), 'en', 'Latn'
 end
 
 # @param doc [Nokogiri::XML::Element]
@@ -140,7 +140,9 @@ def fetch_contributor(doc) # rubocop:disable Metrics/AbcSize,Metrics/MethodLengt
     ident = p.xpath('ORCID').map do |id|
       RelatonBib::PersonIdentifier.new 'orcid', id.text
     end
-    fullname = RelatonBib::FullName.new surname: surname, forename: forename, initial: initial, identifier: ident
+    fullname = RelatonBib::FullName.new(
+      surname: surname, forename: forename, initial: initial, identifier: ident
+    )
     person = RelatonBib::Person.new name: fullname
     { entity: person, role: [{ type: p['contributor_role'] }] }
   end
