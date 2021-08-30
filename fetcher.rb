@@ -159,8 +159,8 @@ end
 
 # @param bib [RelatonItu::ItuBibliographicItem]
 def write_file(bib)
-  id = bib.docidentifier[0].id.gsub(%r{[/\s:.]}, '_')
-  file = "data/#{id.upcase}.yaml"
+  id = bib.docidentifier[0].id.gsub(%r{[/\s:.]}, '_').upcase.sub(/^NIST_IR/, 'NISTIR')
+  file = "data/#{id}.yaml"
   if File.exist? file
     warn "File #{file} exists. Docid: #{bib.docidentifier[0].id}"
     # warn "Link: #{bib.link.detect { |l| l.type == 'src' }.content}"
