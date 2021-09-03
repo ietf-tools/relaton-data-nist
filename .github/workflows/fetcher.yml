@@ -32,6 +32,7 @@ jobs:
         run: bundle exec ./vendor/bundle/ruby/3.0.0/bin/relaton fetch-data nist-tech-pubs
       - name: Push data
         run: |
+          echo `date` > flag.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data/* Gemfile.lock
