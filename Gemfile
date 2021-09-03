@@ -4,4 +4,4 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'relaton-cli', '>= 1.9.1'
+gem 'relaton-cli', '>= 1.9.2'
