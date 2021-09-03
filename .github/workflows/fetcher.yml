@@ -25,11 +25,11 @@ jobs:
             ${{ runner.os }}-gems-
       - name: Update gems
         run: |
-          gem install bundler -v 2.2.21
+          gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
       - name: Fetch documents
-        run: ./vendor/bundle/ruby/3.0.0/bin/relaton fetch-data nist-tech-pubs
+        run: bundle exec ./vendor/bundle/ruby/3.0.0/bin/relaton fetch-data nist-tech-pubs
       - name: Push data
         run: |
           git config user.name github-actions
