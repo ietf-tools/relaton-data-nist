@@ -20,11 +20,12 @@ jobs:
         run: |
           gem install relaton-cli
       - name: Fetch documents
-        run: relaton fetch-data nist-tech-pubs
+        run: |
+          rm -f data/*
+          relaton fetch-data nist-tech-pubs
       - name: Push data
         run: |
           echo `date` > flag.txt
-          rm -f data/*
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data/* flag.txt
