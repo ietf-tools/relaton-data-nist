@@ -4,6 +4,7 @@ on:
   push:
   schedule:
     - cron: '1 15 * * *'
+  workflow_dispatch:
 
 jobs:
   crawl:
