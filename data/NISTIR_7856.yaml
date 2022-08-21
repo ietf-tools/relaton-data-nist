@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: F
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R.F.
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: F
+        formatted_initials:
+          content: R.F.
+          script:
+          - Latn
       surname:
         content: Boisvert
         script:
@@ -41,7 +46,7 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
   role:
   - publisher
 revdate: 2012-05
@@ -51,7 +56,8 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7856'
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

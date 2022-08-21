@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F C
+          language:
+          - en
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: C
+        formatted_initials:
+          content: F C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rose
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: Y
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D Y
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: Y
+        formatted_initials:
+          content: D Y
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cornog
         language:
@@ -68,8 +78,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -86,9 +97,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: 262-1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

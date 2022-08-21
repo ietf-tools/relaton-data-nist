@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Frances G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Frances G
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bell
         language:
@@ -41,12 +43,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Frances G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Frances G
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bell
         language:
@@ -57,17 +61,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W G
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: G
+        formatted_initials:
+          content: W G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mott
         language:
@@ -78,12 +87,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Nancy
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nancy
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Chaconas
         language:
@@ -94,8 +105,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -112,9 +124,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '769'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

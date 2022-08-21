@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J.S.
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: S
+        formatted_initials:
+          content: J.S.
+          script:
+          - Latn
       surname:
         content: Taurozzi
         script:
@@ -40,18 +45,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V.A.
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: A
+        formatted_initials:
+          content: V.A.
+          script:
+          - Latn
       surname:
         content: Hackley
         script:
@@ -59,18 +69,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M.R.
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: R
+        formatted_initials:
+          content: M.R.
+          script:
+          - Latn
       surname:
         content: Wiesner
         script:
@@ -78,13 +93,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -99,9 +115,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 1200-5r1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

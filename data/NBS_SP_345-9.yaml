@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Daniel V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Daniel V
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: De Simone
         language:
@@ -41,8 +43,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -59,9 +62,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 345-9
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

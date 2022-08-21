@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Franklin P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Franklin P
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Tamborello
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Kristen K
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kristen K
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Greene
         script:
@@ -53,13 +57,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -74,9 +79,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '8194'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

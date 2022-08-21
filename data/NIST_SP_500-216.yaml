@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D R
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: R
+        formatted_initials:
+          content: D R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wallace
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B B
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: B
+        formatted_initials:
+          content: B B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cuthill
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L M
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: M
+        formatted_initials:
+          content: L M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ippolito
         language:
@@ -89,12 +104,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Beltracchi
         language:
@@ -105,8 +128,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -123,9 +147,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 500-216
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

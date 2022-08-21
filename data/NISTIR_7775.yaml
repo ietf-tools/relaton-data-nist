@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Indovina
         language:
@@ -42,17 +50,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R A
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: A
+        formatted_initials:
+          content: R A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hicklin
         language:
@@ -63,17 +76,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G I
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: I
+        formatted_initials:
+          content: G I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kiebuzinski
         language:
@@ -84,8 +102,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -102,9 +121,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7775'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

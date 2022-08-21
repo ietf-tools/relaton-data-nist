@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Nyyssonen
         language:
@@ -42,8 +50,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -60,9 +69,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 87-3618
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

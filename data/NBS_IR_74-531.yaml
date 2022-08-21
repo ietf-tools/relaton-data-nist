@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R S
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: S
+        formatted_initials:
+          content: R S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wyly
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W J
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: J
+        formatted_initials:
+          content: W J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Parker
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rorrer
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J R
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: R
+        formatted_initials:
+          content: J R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Shaver
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G C
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: C
+        formatted_initials:
+          content: G C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sherline
         language:
@@ -131,12 +156,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Max
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Max
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Tryon
         language:
@@ -147,8 +174,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -165,9 +193,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 74-531
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

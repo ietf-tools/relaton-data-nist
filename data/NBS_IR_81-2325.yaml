@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R C
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: C
+        formatted_initials:
+          content: R C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Larrabee
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W E
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: E
+        formatted_initials:
+          content: W E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Phillips
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Thurber
         language:
@@ -89,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 81-2325
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: DJ
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: J
+        formatted_initials:
+          content: DJ
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Brown
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: LR
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: R
+        formatted_initials:
+          content: LR
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wescott
         language:
@@ -67,12 +77,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Robert O
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Robert O
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stone
         language:
@@ -83,8 +95,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +114,10 @@ series:
 - title:
     content: NBS Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '41'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

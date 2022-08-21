@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: C Douglas
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C Douglas
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Faison
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Reenie
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Reenie
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: M.Parris
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Stanley D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Stanley D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Rasberry
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: 150-19
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

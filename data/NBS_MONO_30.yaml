@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Poland
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J W
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: W
+        formatted_initials:
+          content: J W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Green
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J L
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: L
+        formatted_initials:
+          content: J L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Margrave
         language:
@@ -88,8 +103,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -106,9 +122,10 @@ series:
 - title:
     content: NBS Monographs
     format: text/plain
-  abbreviation: MONO
+  abbreviation:
+    content: MONO
   number: '30'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

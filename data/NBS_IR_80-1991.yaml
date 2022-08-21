@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L H
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: H
+        formatted_initials:
+          content: L H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bennett
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C K
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: K
+        formatted_initials:
+          content: C K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Chiang
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M I
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: I
+        formatted_initials:
+          content: M I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cohen
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A L
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: L
+        formatted_initials:
+          content: A L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Dragoo
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A D
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: D
+        formatted_initials:
+          content: A D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Franklin
         language:
@@ -130,17 +155,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A J
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: J
+        formatted_initials:
+          content: A J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McAlister
         language:
@@ -151,8 +181,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -169,9 +200,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 80-1991
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

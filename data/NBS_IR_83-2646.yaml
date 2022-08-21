@@ -25,22 +25,24 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H P R
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: P
+        - content: 
+          initial: R
+        formatted_initials:
+          content: H P R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Frederickse
         language:
@@ -51,17 +53,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A L
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: L
+        formatted_initials:
+          content: A L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Dragoo
         language:
@@ -72,17 +79,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A H
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: H
+        formatted_initials:
+          content: A H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kahn
         language:
@@ -93,17 +105,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hosler
         language:
@@ -114,8 +131,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -132,9 +150,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 83-2646
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

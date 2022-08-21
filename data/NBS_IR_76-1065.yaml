@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R D
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: D
+        formatted_initials:
+          content: R D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kilmer
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W A
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: A
+        formatted_initials:
+          content: W A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Leasure
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D M
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: M
+        formatted_initials:
+          content: D M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Corley
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mathews
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: O
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C O
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: O
+        formatted_initials:
+          content: C O
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Shoemaker
         language:
@@ -131,8 +156,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -149,9 +175,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 76-1065
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

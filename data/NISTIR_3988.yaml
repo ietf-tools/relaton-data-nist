@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D A
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: A
+        formatted_initials:
+          content: D A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hill
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M L
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: L
+        formatted_initials:
+          content: M L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Crawford
         language:
@@ -67,12 +77,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kanda
         language:
@@ -83,17 +101,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D I
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: I
+        formatted_initials:
+          content: D I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wu
         language:
@@ -104,8 +127,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -122,9 +146,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '3988'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: David
-        script:
-        - Latn
+      given:
+        forename:
+        - content: David
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Flater
         script:
@@ -37,13 +39,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: KC
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: C
+        formatted_initials:
+          content: KC
+          script:
+          - Latn
       surname:
         content: Morris
         script:
@@ -52,8 +59,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -68,9 +76,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6429'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

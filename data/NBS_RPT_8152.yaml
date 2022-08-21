@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K D
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: D
+        formatted_initials:
+          content: K D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Nekrasov
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A E
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: E
+        formatted_initials:
+          content: A E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fedorov
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V I
+          language:
+          - en
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: I
+        formatted_initials:
+          content: V I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Yastrubinskiy
         language:
@@ -88,8 +103,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -106,9 +122,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '8152'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

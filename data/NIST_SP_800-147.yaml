@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D A
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: A
+        formatted_initials:
+          content: D A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cooper
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W T
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: T
+        formatted_initials:
+          content: W T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Polk
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A R
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: R
+        formatted_initials:
+          content: A R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Regenscheid
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M P
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: P
+        formatted_initials:
+          content: M P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Souppaya
         language:
@@ -109,8 +129,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -127,9 +148,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-147
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

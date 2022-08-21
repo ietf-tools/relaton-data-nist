@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C H
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: H
+        formatted_initials:
+          content: C H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hahner
         language:
@@ -47,12 +52,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Irvine C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Irvine C
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gardner
         language:
@@ -63,8 +70,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -81,9 +89,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '194'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

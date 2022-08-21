@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: William I
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William I
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Whiddon
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: David B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: David B
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hattis
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Chi J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Chi J
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Leng
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7064'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: John
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Kimmins
         language:
@@ -41,17 +43,19 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Charles
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Dinkel
         language:
@@ -61,17 +65,19 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Dale
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Dale
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Walters
         language:
@@ -81,13 +87,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -104,9 +111,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-13
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

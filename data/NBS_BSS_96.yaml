@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kusuda
         language:
@@ -42,12 +50,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ishii
         language:
@@ -58,8 +74,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -76,9 +93,10 @@ series:
 - title:
     content: NBS Building Science Series
     format: text/plain
-  abbreviation: BSS
+  abbreviation:
+    content: BSS
   number: '96'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

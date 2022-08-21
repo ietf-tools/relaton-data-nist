@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R K
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: K
+        formatted_initials:
+          content: R K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Eby
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M G
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: G
+        formatted_initials:
+          content: M G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Broadhurst
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J M
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: M
+        formatted_initials:
+          content: J M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cassel
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B M
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: M
+        formatted_initials:
+          content: B M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fanconi
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: I C
+          language:
+          - en
+          script:
+          - Latn
+          initial: I
+        - content: 
+          initial: C
+        formatted_initials:
+          content: I C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sanchez
         language:
@@ -130,17 +155,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L E
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: E
+        formatted_initials:
+          content: L E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Smith
         language:
@@ -151,8 +181,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -169,9 +200,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 82-2452
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

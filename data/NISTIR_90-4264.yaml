@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: I
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P I
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: I
+        formatted_initials:
+          content: P I
+          script:
+          - Latn
       surname:
         content: Lacey
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S M
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: M
+        formatted_initials:
+          content: S M
+          script:
+          - Latn
       surname:
         content: Hsu
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R S
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: S
+        formatted_initials:
+          content: R S
+          script:
+          - Latn
       surname:
         content: Gates
         script:
@@ -71,10 +86,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          script:
+          - Latn
       surname:
         content: Lee
         script:
@@ -83,10 +104,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L
+          script:
+          - Latn
       surname:
         content: Ives
         script:
@@ -95,10 +122,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C
+          script:
+          - Latn
       surname:
         content: Ku
         script:
@@ -107,10 +140,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P
+          script:
+          - Latn
       surname:
         content: Pei
         script:
@@ -119,10 +158,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: Y
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Y
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y
+          script:
+          - Latn
       surname:
         content: Wang
         script:
@@ -131,13 +176,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E P
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: P
+        formatted_initials:
+          content: E P
+          script:
+          - Latn
       surname:
         content: Whitenton
         script:
@@ -146,13 +196,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R G
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: G
+        formatted_initials:
+          content: R G
+          script:
+          - Latn
       surname:
         content: Munro
         script:
@@ -161,8 +216,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -177,9 +233,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 90-4264
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

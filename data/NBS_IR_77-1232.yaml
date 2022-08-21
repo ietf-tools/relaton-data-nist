@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kruger
         language:
@@ -42,12 +50,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: U
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: U
+          language:
+          - en
+          script:
+          - Latn
+          initial: U
+        formatted_initials:
+          content: U
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bertocci
         language:
@@ -58,12 +74,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Escalante
         language:
@@ -74,17 +98,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J L
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: L
+        formatted_initials:
+          content: J L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mullen
         language:
@@ -95,8 +124,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +143,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 77-1232
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

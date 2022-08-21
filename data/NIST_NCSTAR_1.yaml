@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: S Shyam
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S Shyam
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Sunder
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Richard G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard G
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gann
         language:
@@ -58,12 +62,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: William L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William L
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Grosshandler
         language:
@@ -74,17 +80,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H S
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: S
+        formatted_initials:
+          content: H S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Lew
         language:
@@ -95,12 +106,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Richard W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard W
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bukowski
         language:
@@ -111,12 +124,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Fahim
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Fahim
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Sadek
         language:
@@ -127,12 +142,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Frank W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Frank W
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gayle
         language:
@@ -143,12 +160,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John L
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gross
         language:
@@ -159,12 +178,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Therese P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Therese P
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: McAllister
         language:
@@ -175,12 +196,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Jason D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Jason D
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Averill
         language:
@@ -191,12 +214,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: J Randall
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J Randall
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Lawson
         language:
@@ -207,12 +232,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Harold E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harold E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Nelson
         language:
@@ -223,12 +250,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Stephen A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Stephen A
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Cauffman
         language:
@@ -239,8 +268,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -257,9 +287,10 @@ series:
 - title:
     content: NIST National Construction Safety Team Act Reports
     format: text/plain
-  abbreviation: NCSTAR
+  abbreviation:
+    content: NCSTAR
   number: '1'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

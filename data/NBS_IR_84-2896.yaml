@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H E
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: E
+        formatted_initials:
+          content: H E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Nelson
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A J
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: J
+        formatted_initials:
+          content: A J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Shibe
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B M
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: M
+        formatted_initials:
+          content: B M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Levin
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B D
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: D
+        formatted_initials:
+          content: B D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Thorne
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: Y
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L Y
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: Y
+        formatted_initials:
+          content: L Y
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cooper
         language:
@@ -130,8 +155,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -148,9 +174,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 84-2896
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

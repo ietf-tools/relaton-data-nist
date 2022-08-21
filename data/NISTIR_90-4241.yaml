@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Mary
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Mary
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Mitchell
         script:
@@ -37,10 +39,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Yuhwei
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Yuhwei
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Yang
         script:
@@ -49,10 +53,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Steve
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Steve
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ryan
         script:
@@ -61,10 +67,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Bryan
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Bryan
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Martin
         script:
@@ -73,8 +81,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -89,9 +98,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 90-4241
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

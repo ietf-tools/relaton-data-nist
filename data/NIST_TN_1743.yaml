@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A.P.
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: P
+        formatted_initials:
+          content: A.P.
+          script:
+          - Latn
       surname:
         content: Robbins
         script:
@@ -40,16 +45,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
-      - content: V
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S.M.V.
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: M
+        - content: 
+          initial: V
+        formatted_initials:
+          content: S.M.V.
+          script:
+          - Latn
       surname:
         content: Gwynne
         script:
@@ -58,13 +67,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E.D.
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: D
+        formatted_initials:
+          content: E.D.
+          script:
+          - Latn
       surname:
         content: Kuligowski
         script:
@@ -73,7 +87,7 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
   role:
   - publisher
 revdate: 2012-05
@@ -83,7 +97,8 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1743'
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Grother
         language:
@@ -42,12 +50,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Salamon
         language:
@@ -58,12 +74,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Indovina
         language:
@@ -74,12 +98,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Flanagan
         language:
@@ -90,8 +122,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -108,9 +141,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7477'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

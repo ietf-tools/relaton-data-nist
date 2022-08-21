@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: John
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Strassburger
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Alphonse F
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Alphonse F
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Forziati
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Claire L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Claire L
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Burns
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '6308'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

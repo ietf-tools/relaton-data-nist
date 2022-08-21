@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Harry D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harry D
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Foster
         language:
@@ -41,12 +43,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Earl R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Earl R
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Pinkston
         language:
@@ -57,17 +61,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S H
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: H
+        formatted_initials:
+          content: S H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ingberg
         language:
@@ -78,8 +87,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -96,9 +106,10 @@ series:
 - title:
     content: NBS Building Materials and Structures Reports
     format: text/plain
-  abbreviation: BMS
+  abbreviation:
+    content: BMS
   number: '120'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Christopher D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Christopher D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Zangmeister
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: James G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: James G
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Radney
         script:
@@ -53,13 +57,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -74,9 +79,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1989'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

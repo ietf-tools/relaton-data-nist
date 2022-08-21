@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Frederick T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Frederick T
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Carson
         language:
@@ -42,8 +44,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -60,9 +63,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '127'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

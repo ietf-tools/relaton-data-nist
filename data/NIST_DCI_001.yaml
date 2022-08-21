@@ -27,10 +27,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Jennifer F
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Jennifer F
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Helgeson
         script:
@@ -38,15 +40,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Eleanor D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Eleanor D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Pierel
         script:
@@ -54,15 +58,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Kirstin
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kirstin
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Dow
         script:
@@ -70,13 +76,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -91,9 +98,10 @@ series:
 - title:
     content: NIST DCI
     format: text/plain
-  abbreviation: DCI
+  abbreviation:
+    content: DCI
   number: '001'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

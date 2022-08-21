@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Maria
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Maria
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Garlock
         script:
@@ -36,15 +38,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Joel
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joel
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Kruppa
         script:
@@ -52,15 +56,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Guo-Qiang
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Guo-Qiang
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Li
         script:
@@ -68,15 +74,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Bin
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Bin
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Zhao
         script:
@@ -84,13 +92,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -105,9 +114,10 @@ series:
 - title:
     content: NIST Grant/Contractor Reports
     format: text/plain
-  abbreviation: GCR
+  abbreviation:
+    content: GCR
   number: 15-984
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

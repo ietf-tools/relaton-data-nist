@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Ernest K.
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Ernest K.
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Smith
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Donald H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Donald H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Menzel
         language:
@@ -58,8 +62,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -76,9 +81,10 @@ series:
 - title:
     content: NBS Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '211'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

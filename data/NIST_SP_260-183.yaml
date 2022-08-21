@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K. M.
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: M
+        formatted_initials:
+          content: K. M.
+          script:
+          - Latn
       surname:
         content: Garrity
         script:
@@ -39,21 +44,26 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D. C.
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: C
+        formatted_initials:
+          content: D. C.
+          script:
+          - Latn
       surname:
         content: Ripple
         script:
@@ -61,21 +71,26 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W. L.
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: L
+        formatted_initials:
+          content: W. L.
+          script:
+          - Latn
       surname:
         content: Tew
         script:
@@ -83,16 +98,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-183
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

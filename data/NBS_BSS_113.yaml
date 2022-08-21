@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Rosalie T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Rosalie T
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ruegg
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John S
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: McConnaughey
         language:
@@ -58,17 +62,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G T
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: T
+        formatted_initials:
+          content: G T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sav
         language:
@@ -79,12 +88,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Kimberly A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kimberly A
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hockenbery
         language:
@@ -95,8 +106,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +125,10 @@ series:
 - title:
     content: NBS Building Science Series
     format: text/plain
-  abbreviation: BSS
+  abbreviation:
+    content: BSS
   number: '113'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

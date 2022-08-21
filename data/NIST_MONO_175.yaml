@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Burns
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M G
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: G
+        formatted_initials:
+          content: M G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scroger
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G F
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: F
+        formatted_initials:
+          content: G F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Strouse
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M C
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: C
+        formatted_initials:
+          content: M C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Croarkin
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W F
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: F
+        formatted_initials:
+          content: W F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Guthrie
         language:
@@ -131,8 +156,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -149,9 +175,10 @@ series:
 - title:
     content: NIST Monographs
     format: text/plain
-  abbreviation: MONO
+  abbreviation:
+    content: MONO
   number: '175'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

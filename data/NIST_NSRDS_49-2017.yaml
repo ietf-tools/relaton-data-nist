@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: JS
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: S
+        formatted_initials:
+          content: JS
+          script:
+          - Latn
       surname:
         content: Brown
         script:
@@ -40,18 +45,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: PA
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: A
+        formatted_initials:
+          content: PA
+          script:
+          - Latn
       surname:
         content: Domanski
         script:
@@ -59,18 +69,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: EW
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: W
+        formatted_initials:
+          content: EW
+          script:
+          - Latn
       surname:
         content: Lemmon
         script:
@@ -78,13 +93,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -99,9 +115,10 @@ series:
 - title:
     content: NIST National Standard Reference Data Series
     format: text/plain
-  abbreviation: NSRDS
+  abbreviation:
+    content: NSRDS
   number: 49-2017
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

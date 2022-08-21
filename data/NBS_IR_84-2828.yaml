@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G E
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: E
+        formatted_initials:
+          content: G E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Turner
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: Y
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J Y
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: Y
+        formatted_initials:
+          content: J Y
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kao
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G E
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: E
+        formatted_initials:
+          content: G E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kelly
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L W
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: W
+        formatted_initials:
+          content: L W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Masters
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A I
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: I
+        formatted_initials:
+          content: A I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rubin
         language:
@@ -131,17 +156,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S T
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: T
+        formatted_initials:
+          content: S T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wu
         language:
@@ -152,17 +182,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S L
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: L
+        formatted_initials:
+          content: S L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Yaniv
         language:
@@ -173,17 +208,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H E
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: E
+        formatted_initials:
+          content: H E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Nelson
         language:
@@ -194,8 +234,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -212,9 +253,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 84-2828
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M E
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: E
+        formatted_initials:
+          content: M E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McCabe
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C E
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: E
+        formatted_initials:
+          content: C E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hancock
         language:
@@ -67,12 +77,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Van Migom
         language:
@@ -83,8 +101,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +120,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 84-2920
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

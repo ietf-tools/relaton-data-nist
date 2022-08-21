@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Nada
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nada
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Golmie
         script:
@@ -36,15 +38,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Communications Technology Laboratory
+        - content: Communications Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: David
-        script:
-        - Latn
+      given:
+        forename:
+        - content: David
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Cypher
         script:
@@ -52,15 +56,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Communications Technology Laboratory
+        - content: Communications Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Marc
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Marc
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Leh
         script:
@@ -68,15 +74,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Communications Technology Laboratory
+        - content: Communications Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Darcy
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Darcy
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ziegler
         script:
@@ -84,13 +92,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Communications Technology Laboratory
+        - content: Communications Technology Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -105,9 +114,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '1219'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

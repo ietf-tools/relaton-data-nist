@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: N
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: N H
+          language:
+          - en
+          script:
+          - Latn
+          initial: N
+        - content: 
+          initial: H
+        formatted_initials:
+          content: N H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Jason
         language:
@@ -46,12 +51,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: David
         language:
@@ -62,8 +75,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -80,9 +94,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 85-3118
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

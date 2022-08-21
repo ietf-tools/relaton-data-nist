@@ -25,12 +25,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Horlick
         language:
@@ -41,12 +49,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Stevenson
         language:
@@ -57,17 +73,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bullman
         language:
@@ -78,17 +99,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bullman
         language:
@@ -99,8 +125,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -117,9 +144,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 78-1339
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

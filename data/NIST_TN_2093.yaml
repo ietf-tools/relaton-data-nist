@@ -27,10 +27,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Nicolas
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nicolas
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bouvet
         script:
@@ -38,15 +40,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Eric D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Eric D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Link
         script:
@@ -54,15 +58,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Stephen A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Stephen A
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Fink
         script:
@@ -70,13 +76,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -91,9 +98,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '2093'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Steven J.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Steven J.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Emmerich
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Brian J.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Brian J.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Polidoro
         script:
@@ -53,15 +57,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: William Stuart S.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William Stuart S.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Dols
         script:
@@ -69,13 +75,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -90,9 +97,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1925'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

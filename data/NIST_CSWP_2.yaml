@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Kelley
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kelley
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Dempsey
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Greg
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Greg
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Witte
         script:
@@ -53,15 +57,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Doug
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Doug
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Rike
         script:
@@ -69,12 +75,12 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
     contact:
     - address:
         city: Gaithersburg
@@ -86,15 +92,15 @@ revdate: '2014'
 script:
 - Latn
 abstract:
-- content: ''
-  script:
+- script:
   - Latn
   format: text/plain
 series:
 - title:
     content: NIST Cybersecurity White Papers
     format: text/plain
-  abbreviation: CSWP
+  abbreviation:
+    content: CSWP
   number: '2'
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

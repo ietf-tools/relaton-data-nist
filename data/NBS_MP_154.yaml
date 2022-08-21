@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B W
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: W
+        formatted_initials:
+          content: B W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scribner
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A E
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: E
+        formatted_initials:
+          content: A E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kimberly
         language:
@@ -67,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -85,9 +96,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '154'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

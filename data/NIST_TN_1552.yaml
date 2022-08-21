@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D G
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: G
+        formatted_initials:
+          content: D G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Camell
         language:
@@ -47,12 +52,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Sander
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Sander
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Floris
         language:
@@ -63,12 +70,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Andrea
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Garuti
         language:
@@ -79,12 +88,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Chriss A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Chriss A
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Grosvenor
         language:
@@ -95,12 +106,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Christopher L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Christopher L
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Holloway
         language:
@@ -111,12 +124,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Galen H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Galen H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Koepke
         language:
@@ -127,12 +142,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John M
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ladbury
         language:
@@ -143,12 +160,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Wouter
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Wouter
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Numan
         language:
@@ -159,12 +178,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Kate A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kate A
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Remley
         language:
@@ -175,12 +196,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: William F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William F
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Young
         language:
@@ -191,8 +214,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -209,9 +233,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1552'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

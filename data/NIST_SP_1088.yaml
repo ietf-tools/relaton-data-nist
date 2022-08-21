@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C D
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: D
+        formatted_initials:
+          content: C D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cross
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W W
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: W
+        formatted_initials:
+          content: W W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Miller
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D C
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: C
+        formatted_initials:
+          content: D C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ripple
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G F
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: F
+        formatted_initials:
+          content: G F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Strouse
         language:
@@ -109,8 +129,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -127,9 +148,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '1088'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

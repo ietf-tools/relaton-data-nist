@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: I
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L I
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: I
+        formatted_initials:
+          content: L I
+          script:
+          - Latn
       surname:
         content: Knab
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M M
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: M
+        formatted_initials:
+          content: M M
+          script:
+          - Latn
       surname:
         content: Sprinkel
         script:
@@ -56,10 +66,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: O J Jr
-        script:
-        - Latn
+      given:
+        forename:
+        - content: O J Jr
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Lane
         script:
@@ -68,8 +80,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -84,9 +97,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 89-4156
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

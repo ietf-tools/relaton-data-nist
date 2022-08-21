@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Gregory T
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Gregory T
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Linteris
         script:
@@ -36,18 +38,20 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Materials Measurement Laboratory
+        - content: Materials Measurement Laboratory
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Jeffrey A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Jeffrey A
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Manion
         script:
@@ -55,16 +59,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Materials Measurement Laboratory
+        - content: Materials Measurement Laboratory
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -79,9 +84,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1871'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

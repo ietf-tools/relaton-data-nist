@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L K
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: K
+        formatted_initials:
+          content: L K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ives
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L J
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: J
+        formatted_initials:
+          content: L J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Swartzendruber
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W J
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: J
+        formatted_initials:
+          content: W J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Boettinger
         language:
@@ -89,12 +104,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rosen
         language:
@@ -105,17 +128,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S D
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: D
+        formatted_initials:
+          content: S D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ridder
         language:
@@ -126,17 +154,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F S
+          language:
+          - en
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: S
+        formatted_initials:
+          content: F S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Biancaniello
         language:
@@ -147,17 +180,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R C
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: C
+        formatted_initials:
+          content: R C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Reno
         language:
@@ -168,17 +206,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D B
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: B
+        formatted_initials:
+          content: D B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ballard
         language:
@@ -189,12 +232,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mehrabian
         language:
@@ -205,8 +256,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -223,9 +275,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 83-2669
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

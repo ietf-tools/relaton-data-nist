@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A. L.
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: L
+        formatted_initials:
+          content: A. L.
+          script:
+          - Latn
       surname:
         content: Sallaska
         script:
@@ -40,15 +45,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L.
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          script:
+          - Latn
       surname:
         content: Pibida
         script:
@@ -56,15 +67,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B.
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          script:
+          - Latn
       surname:
         content: Minniti
         script:
@@ -72,18 +89,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C. M.
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: M
+        formatted_initials:
+          content: C. M.
+          script:
+          - Latn
       surname:
         content: O'Brien
         script:
@@ -91,13 +113,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Physical Measurement Laboratory
+        - content: Physical Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -112,9 +135,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1916'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

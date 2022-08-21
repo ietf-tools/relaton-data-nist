@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Ralph
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Ralph
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stair
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John K
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John K
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Jackson
         script:
@@ -50,8 +54,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -66,9 +71,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '9034'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

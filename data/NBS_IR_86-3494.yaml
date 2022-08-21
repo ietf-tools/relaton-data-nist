@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Geraldine S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Geraldine S
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Cheok
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: William C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William C
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stone
         language:
@@ -58,8 +62,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -76,9 +81,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 86-3494
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M W
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: W
+        formatted_initials:
+          content: M W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sandholzer
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: J
+        formatted_initials:
+          content: J J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Loftus
         language:
@@ -67,12 +77,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Daniel
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gross
         language:
@@ -83,8 +95,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +114,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '8308'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

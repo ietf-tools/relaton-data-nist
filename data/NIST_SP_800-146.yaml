@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M L
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: L
+        formatted_initials:
+          content: M L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Badger
         language:
@@ -46,12 +51,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Grance
         language:
@@ -62,12 +75,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Patt-Corner
         language:
@@ -78,12 +99,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Voas
         language:
@@ -94,8 +123,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -112,9 +142,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-146
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

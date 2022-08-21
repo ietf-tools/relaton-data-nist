@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Mahn-Hee
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Mahn-Hee
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hahn
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: M Alkan
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M Alkan
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Donmez
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Johannes A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Johannes A
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Soons
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7292'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

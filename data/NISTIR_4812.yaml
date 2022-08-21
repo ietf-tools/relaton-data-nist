@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P D
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: D
+        formatted_initials:
+          content: P D
+          script:
+          - Latn
       surname:
         content: Higgens
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F H
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: H
+        formatted_initials:
+          content: F H
+          script:
+          - Latn
       surname:
         content: Attix
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J H
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: H
+        formatted_initials:
+          content: J H
+          script:
+          - Latn
       surname:
         content: Hubbell
         script:
@@ -71,13 +86,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S M
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: M
+        formatted_initials:
+          content: S M
+          script:
+          - Latn
       surname:
         content: Seltzer
         script:
@@ -86,13 +106,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M J
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: J
+        formatted_initials:
+          content: M J
+          script:
+          - Latn
       surname:
         content: Berger
         script:
@@ -101,13 +126,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C H
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: H
+        formatted_initials:
+          content: C H
+          script:
+          - Latn
       surname:
         content: Sibata
         script:
@@ -116,8 +146,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -132,9 +163,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '4812'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

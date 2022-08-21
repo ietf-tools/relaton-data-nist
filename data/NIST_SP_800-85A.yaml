@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Chandramouli
         language:
@@ -41,17 +49,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Eyuboglu
         language:
@@ -61,17 +77,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mehta
         language:
@@ -81,13 +105,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -104,9 +129,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-85a
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

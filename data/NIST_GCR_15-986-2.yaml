@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Bilal
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Bilal
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ayyub
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Gerald
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Gerald
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Galloway
         script:
@@ -53,15 +57,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Richard
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Wright
         script:
@@ -69,13 +75,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -90,9 +97,10 @@ series:
 - title:
     content: NIST Grant/Contractor Reports
     format: text/plain
-  abbreviation: GCR
+  abbreviation:
+    content: GCR
   number: 15-986-2
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

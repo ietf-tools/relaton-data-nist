@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T C
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: C
+        formatted_initials:
+          content: T C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rains
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C D
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: D
+        formatted_initials:
+          content: C D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Olson
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R A
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: A
+        formatted_initials:
+          content: R A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Velapoldi
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S A
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: A
+        formatted_initials:
+          content: S A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wicks
         language:
@@ -110,12 +130,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: O
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: O
+          language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Menis
         language:
@@ -126,17 +154,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J K
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: K
+        formatted_initials:
+          content: J K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Taylor
         language:
@@ -147,8 +180,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -165,9 +199,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 74-439
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

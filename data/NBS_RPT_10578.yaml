@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Argentar
         language:
@@ -42,17 +50,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R L
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: L
+        formatted_initials:
+          content: R L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bowen
         language:
@@ -63,8 +76,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -81,9 +95,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '10578'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

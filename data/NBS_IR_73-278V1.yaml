@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R D
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: D
+        formatted_initials:
+          content: R D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Dikkers
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H R
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: R
+        formatted_initials:
+          content: H R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Trechsel
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P W
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: W
+        formatted_initials:
+          content: P W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cooke
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H K
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: K
+        formatted_initials:
+          content: H K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Tejuja
         language:
@@ -110,8 +130,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -128,9 +149,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 73-278v1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

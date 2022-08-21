@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B J
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: J
+        formatted_initials:
+          content: B J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hockey
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S M
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: M
+        formatted_initials:
+          content: S M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wiederhorn
         language:
@@ -67,12 +77,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Johnson
         language:
@@ -83,8 +101,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +120,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 77-1396
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

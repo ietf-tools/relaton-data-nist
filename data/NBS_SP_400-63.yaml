@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R D
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: D
+        formatted_initials:
+          content: R D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Larrabee
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Thurber
         language:
@@ -68,12 +78,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: W Murray
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W Murray
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bullis
         language:
@@ -84,8 +96,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -102,9 +115,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 400-63
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

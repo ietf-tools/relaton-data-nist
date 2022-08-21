@@ -27,10 +27,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Katharine
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Katharine
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Way
         script:
@@ -39,10 +41,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Lilla
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Lilla
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Fano
         script:
@@ -51,10 +55,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Millicent R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Millicent R
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Scott
         script:
@@ -63,10 +69,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Karin
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Karin
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Thew
         script:
@@ -75,8 +83,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -91,9 +100,10 @@ series:
 - title:
     content: NBS Circulars
     format: text/plain
-  abbreviation: CIRC
+  abbreviation:
+    content: CIRC
   number: '499'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,10 +25,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          script:
+          - Latn
       surname:
         content: deWit
         script:
@@ -37,10 +43,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: S R, III
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S R, III
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Low
         script:
@@ -49,13 +57,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G E
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: E
+        formatted_initials:
+          content: G E
+          script:
+          - Latn
       surname:
         content: Hicho
         script:
@@ -64,13 +77,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          script:
+          - Latn
       surname:
         content: Harne
         script:
@@ -79,13 +97,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R J
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: J
+        formatted_initials:
+          content: R J
+          script:
+          - Latn
       surname:
         content: Fields
         script:
@@ -94,8 +117,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -110,9 +134,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 84-2965
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

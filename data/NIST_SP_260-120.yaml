@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S D
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: D
+        formatted_initials:
+          content: S D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Phillips
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D S
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: S
+        formatted_initials:
+          content: D S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sawyer
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ward
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Caskey
         language:
@@ -109,8 +129,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -127,9 +148,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-120
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

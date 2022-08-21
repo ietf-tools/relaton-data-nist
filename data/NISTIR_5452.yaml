@@ -25,10 +25,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          script:
+          - Latn
       surname:
         content: Janet
         script:
@@ -37,13 +43,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P J
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: J
+        formatted_initials:
+          content: P J
+          script:
+          - Latn
       surname:
         content: Grother
         script:
@@ -52,10 +63,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B
+          script:
+          - Latn
       surname:
         content: Hammond
         script:
@@ -64,13 +81,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: N
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: N W
+          script:
+          - Latn
+          initial: N
+        - content: 
+          initial: W
+        formatted_initials:
+          content: N W
+          script:
+          - Latn
       surname:
         content: Larsen
         script:
@@ -79,13 +101,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R M
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: M
+        formatted_initials:
+          content: R M
+          script:
+          - Latn
       surname:
         content: Klear
         script:
@@ -94,13 +121,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M J
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: J
+        formatted_initials:
+          content: M J
+          script:
+          - Latn
       surname:
         content: Matsko
         script:
@@ -109,16 +141,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C J C
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: J
+        - content: 
+          initial: C
+        formatted_initials:
+          content: C J C
+          script:
+          - Latn
       surname:
         content: Burges
         script:
@@ -127,10 +163,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          script:
+          - Latn
       surname:
         content: Creecy
         script:
@@ -139,13 +181,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J J
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: J
+        formatted_initials:
+          content: J J
+          script:
+          - Latn
       surname:
         content: Hull
         script:
@@ -154,13 +201,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T P
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: P
+        formatted_initials:
+          content: T P
+          script:
+          - Latn
       surname:
         content: Vogl
         script:
@@ -169,13 +221,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C L
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: L
+        formatted_initials:
+          content: C L
+          script:
+          - Latn
       surname:
         content: Wilson
         script:
@@ -184,8 +241,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -200,9 +258,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '5452'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

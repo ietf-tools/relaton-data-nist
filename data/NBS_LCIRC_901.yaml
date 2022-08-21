@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: FB
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: B
+        formatted_initials:
+          content: FB
+          script:
+          - Latn
       surname:
         content: Silsbee
         script:
@@ -41,8 +46,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NBS
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -57,9 +63,10 @@ series:
 - title:
     content: NBS Letter Circular
     format: text/plain
-  abbreviation: LCIRC
+  abbreviation:
+    content: LCIRC
   number: '901'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

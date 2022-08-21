@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Walter J Jr
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Walter J Jr
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Rositer
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: James F Jr
-        script:
-        - Latn
+      given:
+        forename:
+        - content: James F Jr
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Seiler
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Paul E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Paul E
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stutzman
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 89-4155
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

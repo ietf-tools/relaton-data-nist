@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Harvey Lincoln
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harvey Lincoln
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Curtis
         script:
@@ -37,13 +39,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H. C.
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: C
+        formatted_initials:
+          content: H. C.
+          script:
+          - Latn
       surname:
         content: Richards
         script:
@@ -52,10 +59,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C.
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          script:
+          - Latn
       surname:
         content: Snow
         script:
@@ -64,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -80,9 +94,10 @@ series:
 - title:
     content: NBS Special Interior Ballistics Studies
     format: text/plain
-  abbreviation: SIBS
+  abbreviation:
+    content: SIBS
   number: '1'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

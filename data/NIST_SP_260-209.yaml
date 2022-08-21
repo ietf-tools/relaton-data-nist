@@ -26,10 +26,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: Y
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Y.
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          script:
+          - Latn
       surname:
         content: Ramaye
         script:
@@ -37,15 +43,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V.
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          script:
+          - Latn
       surname:
         content: Kestens
         script:
@@ -53,15 +65,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J.
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          script:
+          - Latn
       surname:
         content: Charoud-Got
         script:
@@ -69,15 +87,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S.
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          script:
+          - Latn
       surname:
         content: Mazoua
         script:
@@ -85,15 +109,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G.
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          script:
+          - Latn
       surname:
         content: Auclair
         script:
@@ -101,18 +131,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T. J.
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: J
+        formatted_initials:
+          content: T. J.
+          script:
+          - Latn
       surname:
         content: Cho
         script:
@@ -120,15 +155,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B.
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          script:
+          - Latn
       surname:
         content: Toman
         script:
@@ -136,18 +177,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V. A.
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: A
+        formatted_initials:
+          content: V. A.
+          script:
+          - Latn
       surname:
         content: Hackley
         script:
@@ -155,15 +201,21 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T.
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          script:
+          - Latn
       surname:
         content: Linsinger
         script:
@@ -171,13 +223,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -192,9 +245,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-209
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

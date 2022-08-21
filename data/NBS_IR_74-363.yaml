@@ -25,12 +25,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V
+          language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Arp
         language:
@@ -41,17 +49,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P J
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: J
+        formatted_initials:
+          content: P J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Giarratano
         language:
@@ -62,17 +75,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R C
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: C
+        formatted_initials:
+          content: R C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hess
         language:
@@ -83,17 +101,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M C
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: C
+        formatted_initials:
+          content: M C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Jones
         language:
@@ -104,8 +127,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -122,9 +146,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 74-363
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Ion
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Ion
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Matei
         script:
@@ -37,10 +39,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Conrad E.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Conrad E.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bock
         script:
@@ -49,7 +53,7 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
   role:
   - publisher
 revdate: 2012-08
@@ -59,7 +63,8 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7875'
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

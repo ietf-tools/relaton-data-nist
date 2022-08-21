@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ross
         language:
@@ -41,22 +49,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L A
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: A
+        formatted_initials:
+          content: L A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Johnson
         language:
@@ -66,17 +79,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Katzke
         language:
@@ -86,17 +107,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Toth
         language:
@@ -106,17 +135,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Stoneburner
         language:
@@ -126,17 +163,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rogers
         language:
@@ -146,13 +191,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -169,9 +215,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-53a
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

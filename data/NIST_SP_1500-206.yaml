@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Kathryn
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kathryn
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Beers
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Kelsea
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kelsea
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Schumacher
         script:
@@ -53,15 +57,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Kalman
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kalman
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Migler
         script:
@@ -69,18 +75,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: KC
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: C
+        formatted_initials:
+          content: KC
+          script:
+          - Latn
       surname:
         content: Morris
         script:
@@ -88,15 +99,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Joshua
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joshua
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Kneifel
         script:
@@ -104,13 +117,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Material Measurement Laboratory
+        - content: Material Measurement Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -125,9 +139,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 1500-206
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

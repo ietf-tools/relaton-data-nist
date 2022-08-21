@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P T
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: T
+        formatted_initials:
+          content: P T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Purtscher
         language:
@@ -47,12 +52,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Austin
         language:
@@ -63,12 +76,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kim
         language:
@@ -79,12 +100,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rule
         language:
@@ -95,8 +124,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +143,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '3986'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

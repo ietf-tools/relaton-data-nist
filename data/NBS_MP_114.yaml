@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K S
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: S
+        formatted_initials:
+          content: K S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gibson
         language:
@@ -47,12 +52,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Raymond
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Raymond
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Davis
         language:
@@ -63,8 +70,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -81,9 +89,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '114'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

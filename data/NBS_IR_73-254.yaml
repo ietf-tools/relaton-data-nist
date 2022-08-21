@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E P
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: P
+        formatted_initials:
+          content: E P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scheide
         language:
@@ -46,12 +51,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Alvarez
         language:
@@ -62,12 +75,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Greifer
         language:
@@ -78,17 +99,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E E
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: E
+        formatted_initials:
+          content: E E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hughes
         language:
@@ -99,8 +125,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -117,9 +144,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 73-254
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

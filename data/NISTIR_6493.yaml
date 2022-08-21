@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Patrick
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Patrick
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Cooke
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Barbara
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Barbara
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Meigs
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Belinda
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Belinda
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Collins
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6493'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C E
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: E
+        formatted_initials:
+          content: C E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Burns
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T E
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: E
+        formatted_initials:
+          content: T E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gills
         language:
@@ -68,12 +78,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: I
+          language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Roelandts
         language:
@@ -84,17 +102,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E S
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: S
+        formatted_initials:
+          content: E S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gladney
         language:
@@ -105,8 +128,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -123,9 +147,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-88
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

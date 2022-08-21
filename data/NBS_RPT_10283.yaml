@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J B
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: B
+        formatted_initials:
+          content: J B
+          script:
+          - Latn
       surname:
         content: Fang
         script:
@@ -40,8 +45,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -56,9 +62,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '10283'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

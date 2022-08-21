@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Nicole
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nicole
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Gingrich
         script:
@@ -36,13 +38,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - National Institute of Standards and Technology
+        - content: National Institute of Standards and Technology
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -57,9 +60,10 @@ series:
 - title:
     content: NIST Technology Transfer Brief
     format: text/plain
-  abbreviation: TTB
+  abbreviation:
+    content: TTB
   number: '1'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A I
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: I
+        formatted_initials:
+          content: A I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Forsythe
         language:
@@ -46,12 +51,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: George E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: George E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Forsythe
         language:
@@ -62,8 +69,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -80,9 +88,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '1643'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

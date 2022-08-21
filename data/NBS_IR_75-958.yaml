@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J K
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: K
+        formatted_initials:
+          content: J K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Taylor
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E R
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: R
+        formatted_initials:
+          content: E R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Deardorff
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R A
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: A
+        formatted_initials:
+          content: R A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Durst
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E J
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: J
+        formatted_initials:
+          content: E J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Maienthal
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T C
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: C
+        formatted_initials:
+          content: T C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Rains
         language:
@@ -130,17 +155,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E P
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: P
+        formatted_initials:
+          content: E P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scheide
         language:
@@ -151,8 +181,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -169,9 +200,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 75-958
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

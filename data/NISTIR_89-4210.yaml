@@ -25,10 +25,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          script:
+          - Latn
       surname:
         content: McClain
         script:
@@ -37,10 +43,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A
+          script:
+          - Latn
       surname:
         content: Feldman
         script:
@@ -49,10 +61,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D
+          script:
+          - Latn
       surname:
         content: Kahaner
         script:
@@ -61,13 +79,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: X
-        script:
-        - Latn
-      - content: T
-        script:
-        - Latn
+      given:
+        forename:
+        - content: X T
+          script:
+          - Latn
+          initial: X
+        - content: 
+          initial: T
+        formatted_initials:
+          content: X T
+          script:
+          - Latn
       surname:
         content: Ying
         script:
@@ -76,8 +99,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -92,9 +116,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 89-4210
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

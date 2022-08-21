@@ -27,10 +27,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Georgia L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Georgia L
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Harris
         script:
@@ -39,8 +41,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -55,9 +58,10 @@ series:
 - title:
     content: NBS Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: 105-2e1996
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

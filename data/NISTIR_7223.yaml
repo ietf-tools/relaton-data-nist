@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E F
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: F
+        formatted_initials:
+          content: E F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Begley
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M E
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: E
+        formatted_initials:
+          content: M E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Palmer
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K A
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: A
+        formatted_initials:
+          content: K A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Reed
         language:
@@ -89,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7223'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

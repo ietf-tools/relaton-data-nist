@@ -25,12 +25,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Grother
         language:
@@ -41,17 +49,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Quinn
         language:
@@ -62,17 +75,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J R
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: R
+        formatted_initials:
+          content: J R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Matey
         language:
@@ -83,12 +101,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ngan
         language:
@@ -99,12 +125,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Salamon
         language:
@@ -115,12 +149,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fiumara
         language:
@@ -131,12 +173,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Watson
         language:
@@ -147,8 +197,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -165,9 +216,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7836'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

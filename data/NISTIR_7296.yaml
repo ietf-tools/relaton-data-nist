@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Patrick
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Grother
         language:
@@ -41,12 +43,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: R Michael
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R Michael
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: McCabe
         language:
@@ -57,17 +61,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C I
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: I
+        formatted_initials:
+          content: C I
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Watson
         language:
@@ -78,12 +87,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Michael D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Michael D
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Indovina
         language:
@@ -94,12 +105,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Wayne J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Wayne J
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Salamon
         language:
@@ -110,12 +123,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Patricia
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Patricia
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Flanagan
         language:
@@ -126,12 +141,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Elham
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Elham
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Tabassi
         language:
@@ -142,12 +159,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Elaine
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Elaine
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Newton
         language:
@@ -158,12 +177,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Charels
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Charels
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Wilson
         language:
@@ -174,8 +195,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -192,9 +214,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7296'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

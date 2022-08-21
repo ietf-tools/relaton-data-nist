@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S W
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: W
+        formatted_initials:
+          content: S W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Freiman
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T W
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: W
+        formatted_initials:
+          content: T W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Coyle
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E R
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: R
+        formatted_initials:
+          content: E R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fuller
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P L
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: L
+        formatted_initials:
+          content: P L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Swanson
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D C
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: C
+        formatted_initials:
+          content: D C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cranmer
         language:
@@ -130,12 +155,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Haller
         language:
@@ -146,8 +179,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -164,9 +198,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 88-3798
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L A
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: A
+        formatted_initials:
+          content: L A
+          script:
+          - Latn
       surname:
         content: Wood
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: F
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J F
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: F
+        formatted_initials:
+          content: J F
+          script:
+          - Latn
       surname:
         content: Ward
         script:
@@ -55,13 +65,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K G
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: G
+        formatted_initials:
+          content: K G
+          script:
+          - Latn
       surname:
         content: Kreider
         script:
@@ -70,8 +85,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -86,9 +102,10 @@ series:
 - title:
     content: NBS Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: '124'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McCallister
         language:
@@ -41,17 +49,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Grance
         language:
@@ -61,22 +77,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K A
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: A
+        formatted_initials:
+          content: K A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scarfone
         language:
@@ -86,13 +107,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -109,9 +131,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-122
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

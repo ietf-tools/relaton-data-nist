@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: Q
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W Q
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: Q
+        formatted_initials:
+          content: W Q
+          script:
+          - Latn
       surname:
         content: Crichlow
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: N
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R N
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: N
+        formatted_initials:
+          content: R N
+          script:
+          - Latn
       surname:
         content: Morton
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          script:
+          - Latn
       surname:
         content: Corliss
         script:
@@ -71,8 +86,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -87,9 +103,10 @@ series:
 - title:
     content: NBS Circulars
     format: text/plain
-  abbreviation: CIRC
+  abbreviation:
+    content: CIRC
   number: '557'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

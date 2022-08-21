@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W L
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: L
+        formatted_initials:
+          content: W L
+          script:
+          - Latn
       surname:
         content: Gans
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: N
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: N S
+          script:
+          - Latn
+          initial: N
+        - content: 
+          initial: S
+        formatted_initials:
+          content: N S
+          script:
+          - Latn
       surname:
         content: Nahman
         script:
@@ -55,13 +65,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J R
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: R
+        formatted_initials:
+          content: J R
+          script:
+          - Latn
       surname:
         content: Andrew
         script:
@@ -70,13 +85,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E E
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: E
+        formatted_initials:
+          content: E E
+          script:
+          - Latn
       surname:
         content: Baldwin
         script:
@@ -85,8 +105,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +122,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6550'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

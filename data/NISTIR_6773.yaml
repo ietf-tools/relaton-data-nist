@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P M
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: M
+        formatted_initials:
+          content: P M
+          script:
+          - Latn
       surname:
         content: Chu
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G C
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: C
+        formatted_initials:
+          content: G C
+          script:
+          - Latn
       surname:
         content: Rhoderick
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P A
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: A
+        formatted_initials:
+          content: P A
+          script:
+          - Latn
       surname:
         content: Johnson
         script:
@@ -71,8 +86,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -87,9 +103,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6773'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

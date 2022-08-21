@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Earle K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Earle K
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Plyler
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Alfred
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Alfred
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Danti
         language:
@@ -58,17 +62,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L R
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: R
+        formatted_initials:
+          content: L R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Blaine
         language:
@@ -79,17 +88,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E D
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: D
+        formatted_initials:
+          content: E D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Tidwell
         language:
@@ -100,8 +114,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -118,9 +133,10 @@ series:
 - title:
     content: NBS Monographs
     format: text/plain
-  abbreviation: MONO
+  abbreviation:
+    content: MONO
   number: '16'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

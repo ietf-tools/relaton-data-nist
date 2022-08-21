@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Kurt B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kurt B
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Fischer
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Electronics and Electrical Engineering Laboratory
+        - content: Electronics and Electrical Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Eric D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Eric D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Nelson
         script:
@@ -53,13 +57,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Electronics and Electrical Engineering Laboratory
+        - content: Electronics and Electrical Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -74,9 +79,10 @@ series:
 - title:
     content: NIST Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: 153-2007
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

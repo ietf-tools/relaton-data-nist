@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L E
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: E
+        formatted_initials:
+          content: L E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Smith
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G T
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: T
+        formatted_initials:
+          content: G T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Davis
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F W
+          language:
+          - en
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: W
+        formatted_initials:
+          content: F W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wang
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B M
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: M
+        formatted_initials:
+          content: B M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fanconi
         language:
@@ -109,17 +129,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J A
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: A
+        formatted_initials:
+          content: J A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Tesk
         language:
@@ -130,12 +155,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: I C,
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: I C,
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Sanchez
         language:
@@ -146,8 +173,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -164,9 +192,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 84-2813
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J.S.
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: S
+        formatted_initials:
+          content: J.S.
+          script:
+          - Latn
       surname:
         content: Taurozzi
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V.A.
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: A
+        formatted_initials:
+          content: V.A.
+          script:
+          - Latn
       surname:
         content: Hackley
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M.R.
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: R
+        formatted_initials:
+          content: M.R.
+          script:
+          - Latn
       surname:
         content: Wiesner
         script:
@@ -71,7 +86,7 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
   role:
   - publisher
 revdate: 2012-06
@@ -81,7 +96,8 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 1200-5
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

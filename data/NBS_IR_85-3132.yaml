@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E J
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: J
+        formatted_initials:
+          content: E J
+          script:
+          - Latn
       surname:
         content: Parks
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G J
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: J
+        formatted_initials:
+          content: G J
+          script:
+          - Latn
       surname:
         content: Olson
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F E
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: E
+        formatted_initials:
+          content: F E
+          script:
+          - Latn
       surname:
         content: Brinckman
         script:
@@ -71,8 +86,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -87,9 +103,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 85-3132
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

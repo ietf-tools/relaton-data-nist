@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S E
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: E
+        formatted_initials:
+          content: S E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Frankel
         language:
@@ -45,17 +50,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Eydt
         language:
@@ -65,17 +78,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Owens
         language:
@@ -85,22 +106,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K A
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        - content: 
+          initial: A
+        formatted_initials:
+          content: K A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scarfone
         language:
@@ -110,13 +136,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -133,9 +160,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-97
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

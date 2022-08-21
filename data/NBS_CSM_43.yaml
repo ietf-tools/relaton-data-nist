@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S F
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: F
+        formatted_initials:
+          content: S F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Tillman
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R M
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: M
+        formatted_initials:
+          content: R M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hudson
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E W
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: W
+        formatted_initials:
+          content: E W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ely
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: I
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: I J
+          language:
+          - en
+          script:
+          - Latn
+          initial: I
+        - content: 
+          initial: J
+        formatted_initials:
+          content: I J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fairchild
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A S
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: S
+        formatted_initials:
+          content: A S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McAllister
         language:
@@ -131,17 +156,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A V
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: V
+        formatted_initials:
+          content: A V
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Bouillon
         language:
@@ -152,8 +182,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -170,9 +201,10 @@ series:
 - title:
     content: NBS Commercial Standards Monthly
     format: text/plain
-  abbreviation: CSM
+  abbreviation:
+    content: CSM
   number: '43'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

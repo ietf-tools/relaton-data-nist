@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D R
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: R
+        formatted_initials:
+          content: D R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kuhn
         language:
@@ -45,17 +50,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sriram
         language:
@@ -65,22 +78,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D C
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: C
+        formatted_initials:
+          content: D C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Montgomery
         language:
@@ -90,13 +108,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +132,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-54
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

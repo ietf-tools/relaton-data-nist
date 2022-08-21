@@ -26,10 +26,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F
+          script:
+          - Latn
       surname:
         content: Khoury
         script:
@@ -38,13 +44,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J M
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: M
+        formatted_initials:
+          content: J M
+          script:
+          - Latn
       surname:
         content: Crissman
         script:
@@ -53,13 +64,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J D
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: D
+        formatted_initials:
+          content: J D
+          script:
+          - Latn
       surname:
         content: Barnes
         script:
@@ -68,13 +84,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B M
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: M
+        formatted_initials:
+          content: B M
+          script:
+          - Latn
       surname:
         content: Fanconi
         script:
@@ -83,13 +104,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H L
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: L
+        formatted_initials:
+          content: H L
+          script:
+          - Latn
       surname:
         content: Wagner
         script:
@@ -98,13 +124,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C M
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: M
+        formatted_initials:
+          content: C M
+          script:
+          - Latn
       surname:
         content: Guttman
         script:
@@ -113,13 +144,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J R
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: R
+        formatted_initials:
+          content: J R
+          script:
+          - Latn
       surname:
         content: Maurey
         script:
@@ -128,13 +164,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C A
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: A
+        formatted_initials:
+          content: C A
+          script:
+          - Latn
       surname:
         content: Harding
         script:
@@ -143,13 +184,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L H
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: H
+        formatted_initials:
+          content: L H
+          script:
+          - Latn
       surname:
         content: Bolz
         script:
@@ -158,8 +204,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -174,9 +221,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 86-3353
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: DR
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: R
+        formatted_initials:
+          content: DR
+          script:
+          - Latn
       surname:
         content: Miller
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: I
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: IH
+          script:
+          - Latn
+          initial: I
+        - content: 
+          initial: H
+        formatted_initials:
+          content: IH
+          script:
+          - Latn
       surname:
         content: Fullmer
         script:
@@ -56,8 +66,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NBS
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -72,9 +83,10 @@ series:
 - title:
     content: NBS Letter Circular
     format: text/plain
-  abbreviation: LCIRC
+  abbreviation:
+    content: LCIRC
   number: '108'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

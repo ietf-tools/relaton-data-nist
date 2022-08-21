@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T T
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: T
+        formatted_initials:
+          content: T T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Yeh
         language:
@@ -46,12 +51,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Jes�s
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Jes�s
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Aguilera
         language:
@@ -62,12 +69,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John D
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Wright
         language:
@@ -78,8 +87,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -96,9 +106,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 250-1039
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

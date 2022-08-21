@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W E
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: E
+        formatted_initials:
+          content: W E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Burr
         language:
@@ -45,22 +50,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D F
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: F
+        formatted_initials:
+          content: D F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Dodson
         language:
@@ -70,22 +80,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E M
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: M
+        formatted_initials:
+          content: E M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Newton
         language:
@@ -95,22 +110,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R A
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: A
+        formatted_initials:
+          content: R A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Perlner
         language:
@@ -120,22 +140,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W T
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: T
+        formatted_initials:
+          content: W T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Polk
         language:
@@ -145,17 +170,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gupta
         language:
@@ -165,22 +198,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E A
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: A
+        formatted_initials:
+          content: E A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Nabbus
         language:
@@ -190,13 +228,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -213,9 +252,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-63-1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

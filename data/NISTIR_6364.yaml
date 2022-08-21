@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Amy
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Knutilla
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Craig
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Craig
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Schlenoff
         language:
@@ -58,12 +62,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Steven R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Steven R
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ray
         language:
@@ -74,8 +80,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -92,9 +99,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6364'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

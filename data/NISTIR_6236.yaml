@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R J
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: J
+        formatted_initials:
+          content: R J
+          script:
+          - Latn
       surname:
         content: Fields
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T J
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: J
+        formatted_initials:
+          content: T J
+          script:
+          - Latn
       surname:
         content: Foecke
         script:
@@ -55,10 +65,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          script:
+          - Latn
       surname:
         content: deWi;t
         script:
@@ -67,13 +83,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G E
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: E
+        formatted_initials:
+          content: G E
+          script:
+          - Latn
       surname:
         content: Hicho
         script:
@@ -82,13 +103,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L E
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: E
+        formatted_initials:
+          content: L E
+          script:
+          - Latn
       surname:
         content: Levine
         script:
@@ -97,8 +123,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +140,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6236'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

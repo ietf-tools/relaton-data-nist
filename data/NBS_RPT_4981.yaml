@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L R
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: R
+        formatted_initials:
+          content: L R
+          script:
+          - Latn
       surname:
         content: Noffsinger
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W A
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: A
+        formatted_initials:
+          content: W A
+          script:
+          - Latn
       surname:
         content: Hall
         script:
@@ -55,8 +65,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -71,9 +82,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '4981'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

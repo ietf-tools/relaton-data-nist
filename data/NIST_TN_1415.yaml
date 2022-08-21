@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Schechter
         language:
@@ -42,12 +50,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Emil
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Emil
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Simiu
         language:
@@ -58,17 +68,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: M
+        formatted_initials:
+          content: M M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Schechter
         language:
@@ -79,8 +94,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -97,9 +113,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1415'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

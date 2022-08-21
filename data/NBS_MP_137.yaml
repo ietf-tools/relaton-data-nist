@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E F
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: F
+        formatted_initials:
+          content: E F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hickson
         language:
@@ -46,12 +51,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Percy H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Percy H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Walker
         language:
@@ -62,8 +69,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -80,9 +88,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '137'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

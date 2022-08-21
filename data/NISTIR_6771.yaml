@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J S
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: S
+        formatted_initials:
+          content: J S
+          script:
+          - Latn
       surname:
         content: Albus
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H A
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: A
+        formatted_initials:
+          content: H A
+          script:
+          - Latn
       surname:
         content: Scott
         script:
@@ -56,10 +66,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E
+          script:
+          - Latn
       surname:
         content: Messina
         script:
@@ -68,13 +84,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H M
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: M
+        formatted_initials:
+          content: H M
+          script:
+          - Latn
       surname:
         content: Huang
         script:
@@ -83,13 +104,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A J
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: J
+        formatted_initials:
+          content: A J
+          script:
+          - Latn
       surname:
         content: Horst
         script:
@@ -98,13 +124,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J L
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: L
+        formatted_initials:
+          content: J L
+          script:
+          - Latn
       surname:
         content: Michaloski
         script:
@@ -113,13 +144,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T R
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: R
+        formatted_initials:
+          content: T R
+          script:
+          - Latn
       surname:
         content: Kramer
         script:
@@ -128,13 +164,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F M
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: M
+        formatted_initials:
+          content: F M
+          script:
+          - Latn
       surname:
         content: Proctor
         script:
@@ -143,10 +184,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A
+          script:
+          - Latn
       surname:
         content: Meystel
         script:
@@ -155,13 +202,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E J
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: J
+        formatted_initials:
+          content: E J
+          script:
+          - Latn
       surname:
         content: Barkmeyer
         script:
@@ -170,13 +222,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: K
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M K
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: K
+        formatted_initials:
+          content: M K
+          script:
+          - Latn
       surname:
         content: Senehi
         script:
@@ -185,8 +242,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -201,9 +259,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6771'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

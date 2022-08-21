@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A G
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: G
+        formatted_initials:
+          content: A G
+          script:
+          - Latn
       surname:
         content: Hanson
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L R
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: R
+        formatted_initials:
+          content: L R
+          script:
+          - Latn
       surname:
         content: Bloom
         script:
@@ -55,13 +65,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A H
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: H
+        formatted_initials:
+          content: A H
+          script:
+          - Latn
       surname:
         content: Cherin
         script:
@@ -70,13 +85,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G W
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: W
+        formatted_initials:
+          content: G W
+          script:
+          - Latn
       surname:
         content: Day
         script:
@@ -85,13 +105,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R L
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: L
+        formatted_initials:
+          content: R L
+          script:
+          - Latn
       surname:
         content: Gallawa
         script:
@@ -100,13 +125,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E M
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: M
+        formatted_initials:
+          content: E M
+          script:
+          - Latn
       surname:
         content: Gray
         script:
@@ -115,10 +145,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C
+          script:
+          - Latn
       surname:
         content: Kao
         script:
@@ -127,13 +163,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F P
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: P
+        formatted_initials:
+          content: F P
+          script:
+          - Latn
       surname:
         content: Kapron
         script:
@@ -142,13 +183,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B S
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: S
+        formatted_initials:
+          content: B S
+          script:
+          - Latn
       surname:
         content: Kawasaki
         script:
@@ -157,13 +203,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: PP
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: P
+        formatted_initials:
+          content: PP
+          script:
+          - Latn
       surname:
         content: Reitz
         script:
@@ -172,10 +223,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          script:
+          - Latn
       surname:
         content: Young
         script:
@@ -184,8 +241,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -200,9 +258,10 @@ series:
 - title:
     content: NBS Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: '140'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

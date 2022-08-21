@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Randall J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Randall J
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: McDermott
         script:
@@ -36,15 +38,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory.
+        - content: Engineering Laboratory.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Nelson P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nelson P
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bryner
         script:
@@ -52,15 +56,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory.
+        - content: Engineering Laboratory.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Jon A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Jon A
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Heintz
         script:
@@ -68,13 +74,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory.
+        - content: Engineering Laboratory.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -89,9 +96,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '1245'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

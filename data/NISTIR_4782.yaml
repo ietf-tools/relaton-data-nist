@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Long T
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Long T
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Phan
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Erik M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Erik M
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hendrickson
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Richard D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard D
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Marshall
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '4782'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

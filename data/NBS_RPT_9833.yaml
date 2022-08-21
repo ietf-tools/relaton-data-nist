@@ -26,10 +26,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H
+          script:
+          - Latn
       surname:
         content: Oettel
         script:
@@ -38,8 +44,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -54,9 +61,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '9833'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

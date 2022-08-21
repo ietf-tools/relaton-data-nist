@@ -27,10 +27,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Keith
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Keith
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stouffer
         script:
@@ -38,18 +40,20 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Intelligent Systems Division, Engineering Laboratory
+        - content: Intelligent Systems Division, Engineering Laboratory
     - organization:
         name:
-        - Computer Security Division, Information Technology Laboratory
+        - content: Computer Security Division, Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Joe
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joe
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Falco
         script:
@@ -57,18 +61,20 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Intelligent Systems Division, Engineering Laboratory
+        - content: Intelligent Systems Division, Engineering Laboratory
     - organization:
         name:
-        - Computer Security Division, Information Technology Laboratory
+        - content: Computer Security Division, Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Karen
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Scarfone
         script:
@@ -76,16 +82,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Intelligent Systems Division, Engineering Laboratory
+        - content: Intelligent Systems Division, Engineering Laboratory
     - organization:
         name:
-        - Computer Security Division, Information Technology Laboratory
+        - content: Computer Security Division, Information Technology Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -100,9 +107,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-82r1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

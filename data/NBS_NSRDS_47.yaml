@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Max
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Max
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Klein
         language:
@@ -42,22 +44,24 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H J M
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: J
+        - content: 
+          initial: M
+        formatted_initials:
+          content: H J M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hanley
         language:
@@ -68,12 +72,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Francis J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Francis J
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Smith
         language:
@@ -84,12 +90,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Paul
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Holland
         language:
@@ -100,8 +108,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -118,9 +127,10 @@ series:
 - title:
     content: NBS National Standard Reference Data Series
     format: text/plain
-  abbreviation: NSRDS
+  abbreviation:
+    content: NSRDS
   number: '47'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

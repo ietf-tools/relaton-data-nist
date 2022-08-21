@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Masayoshi
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Masayoshi
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ohashi
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: John W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John W
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Stanford
         script:
@@ -50,8 +54,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -66,9 +71,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '8654'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

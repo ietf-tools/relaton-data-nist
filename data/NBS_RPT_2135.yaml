@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W J
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: J
+        formatted_initials:
+          content: W J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Youden
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W S
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: S
+        formatted_initials:
+          content: W S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Connor
         language:
@@ -67,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -85,9 +96,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '2135'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

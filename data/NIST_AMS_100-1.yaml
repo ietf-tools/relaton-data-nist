@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Joan
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joan
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Pellegrino
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Yannick
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Yannick
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Tamm
         script:
@@ -53,15 +57,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Allison
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Allison
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Barnard Feeney
         script:
@@ -69,15 +75,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Thomas D.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Thomas D.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hedberg
         script:
@@ -85,13 +93,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Engineering Laboratory
+        - content: Engineering Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -106,9 +115,10 @@ series:
 - title:
     content: NIST Advanced Manufacturing Series
     format: text/plain
-  abbreviation: AMS
+  abbreviation:
+    content: AMS
   number: 100-1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

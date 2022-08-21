@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H J
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: J
+        formatted_initials:
+          content: H J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Caul
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J A
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: A
+        formatted_initials:
+          content: J A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Barton
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R C
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: C
+        formatted_initials:
+          content: R C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Manuszewski
         language:
@@ -89,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '9984'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

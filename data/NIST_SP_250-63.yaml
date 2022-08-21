@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: John D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John D
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Wright
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Aaron N
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Aaron N
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Johnson
         language:
@@ -58,12 +62,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Michael R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Michael R
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Moldover
         language:
@@ -74,12 +80,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Gina M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Gina M
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Kline
         language:
@@ -90,8 +98,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -108,9 +117,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 250-63
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

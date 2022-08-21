@@ -25,10 +25,16 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          script:
+          - Latn
       surname:
         content: Jahanmir
         script:
@@ -37,13 +43,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M B
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: B
+        formatted_initials:
+          content: M B
+          script:
+          - Latn
       surname:
         content: Peterson
         script:
@@ -52,8 +63,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -68,9 +80,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 89-4112
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

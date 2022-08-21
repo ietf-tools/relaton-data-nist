@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F D
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: D
+        formatted_initials:
+          content: F D
+          script:
+          - Latn
       surname:
         content: Martzloff
         script:
@@ -40,10 +45,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E
+          script:
+          - Latn
       surname:
         content: Simmon
         script:
@@ -52,13 +63,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J P
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: P
+        formatted_initials:
+          content: J P
+          script:
+          - Latn
       surname:
         content: Steiner
         script:
@@ -67,10 +83,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: R J Van
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R J Van
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Brunt
         script:
@@ -79,8 +97,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -95,9 +114,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '4487'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

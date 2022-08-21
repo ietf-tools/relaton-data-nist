@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Joaquin V Martinez de
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joaquin V Martinez de
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Pinillos
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Stephen
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Stephen
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Knight
         script:
@@ -50,10 +54,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Alice
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Alice
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Settle-Raskin
         script:
@@ -62,8 +68,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -78,9 +85,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6522'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

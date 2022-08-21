@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: J
+        formatted_initials:
+          content: J J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hsia
         language:
@@ -47,12 +52,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: P Yvonne
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P Yvonne
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Barnes
         language:
@@ -63,8 +70,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -81,9 +89,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1413'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

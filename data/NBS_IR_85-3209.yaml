@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C E
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: E
+        formatted_initials:
+          content: C E
+          script:
+          - Latn
       surname:
         content: Dick
         script:
@@ -40,10 +45,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D
+          script:
+          - Latn
       surname:
         content: Polansky
         script:
@@ -52,13 +63,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C G
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: G
+        formatted_initials:
+          content: C G
+          script:
+          - Latn
       surname:
         content: Soares
         script:
@@ -67,13 +83,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S M
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: M
+        formatted_initials:
+          content: S M
+          script:
+          - Latn
       surname:
         content: Seltzer
         script:
@@ -82,8 +103,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -98,9 +120,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 85-3209
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

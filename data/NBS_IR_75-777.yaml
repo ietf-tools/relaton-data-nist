@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: John V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: John V
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Fechter
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Valom J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Valom J
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Pezoldt
         language:
@@ -58,17 +62,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: J
+        formatted_initials:
+          content: J J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Persensky
         language:
@@ -79,12 +88,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: J Richard
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J Richard
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Lepkowski
         language:
@@ -95,8 +106,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -113,9 +125,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 75-777
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

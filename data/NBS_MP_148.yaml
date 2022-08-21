@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C B
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: B
+        formatted_initials:
+          content: C B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Overman
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E R
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: R
+        formatted_initials:
+          content: E R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Whittemore
         language:
@@ -67,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -85,9 +96,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '148'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Joan C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Joan C
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Sauerwein
         script:
@@ -37,8 +39,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -53,9 +56,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 708-1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

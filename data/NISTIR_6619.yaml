@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J D
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: D
+        formatted_initials:
+          content: J D
+          script:
+          - Latn
       surname:
         content: McCloskey
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: N
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C N
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: N
+        formatted_initials:
+          content: C N
+          script:
+          - Latn
       surname:
         content: McCowan
         script:
@@ -55,13 +65,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R L
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: L
+        formatted_initials:
+          content: R L
+          script:
+          - Latn
       surname:
         content: Santoyo
         script:
@@ -70,8 +85,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -86,9 +102,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6619'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

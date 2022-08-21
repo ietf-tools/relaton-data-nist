@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Mary F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Mary F
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Donaldson
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Nathalie
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nathalie
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Rioux
         language:
@@ -58,8 +62,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -76,9 +81,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7789'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

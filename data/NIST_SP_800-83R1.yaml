@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Murugiah
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Murugiah
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Souppaya
         script:
@@ -36,15 +38,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Karen
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Scarfone
         script:
@@ -52,13 +56,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Information Technology Laboratory
+        - content: Information Technology Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -73,9 +78,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-83r1
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Harold E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harold E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bennett
         language:
@@ -41,12 +43,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Harold E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harold E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Bennett
         language:
@@ -57,12 +61,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Arthur H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Arthur H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Guenther
         language:
@@ -73,12 +79,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Brian E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Brian E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Newnam
         language:
@@ -89,17 +97,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M J
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: J
+        formatted_initials:
+          content: M J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Soileau
         language:
@@ -110,8 +123,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -128,9 +142,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '775'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

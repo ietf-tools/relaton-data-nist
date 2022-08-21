@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Preston
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Preston
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: McNall
         language:
@@ -42,12 +44,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: George
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: George
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Walton
         language:
@@ -58,12 +62,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Samuel
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Samuel
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Silberstein
         language:
@@ -74,12 +80,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: James
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Axley
         language:
@@ -90,12 +98,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Kunimichi
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Kunimichi
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Ishiguro
         language:
@@ -106,12 +116,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Richard
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Grot
         language:
@@ -122,12 +134,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Kusuda
         language:
@@ -138,8 +158,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -156,9 +177,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 85-3265
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

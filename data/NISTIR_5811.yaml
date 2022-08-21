@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M A
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: A
+        formatted_initials:
+          content: M A
+          script:
+          - Latn
       surname:
         content: Anuta
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D W
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: W
+        formatted_initials:
+          content: D W
+          script:
+          - Latn
       surname:
         content: Lozier
         script:
@@ -55,10 +65,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: N
-        script:
-        - Latn
+      given:
+        forename:
+        - content: N
+          script:
+          - Latn
+          initial: N
+        formatted_initials:
+          content: N
+          script:
+          - Latn
       surname:
         content: Schabanel
         script:
@@ -67,13 +83,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        script:
-        - Latn
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P R
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: R
+        formatted_initials:
+          content: P R
+          script:
+          - Latn
       surname:
         content: Turner
         script:
@@ -82,8 +103,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -98,9 +120,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '5811'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

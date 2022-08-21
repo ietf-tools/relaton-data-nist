@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M A
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: A
+        formatted_initials:
+          content: M A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mornis
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T P
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: P
+        formatted_initials:
+          content: T P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Quinn
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T A
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: A
+        formatted_initials:
+          content: T A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Siewert
         language:
@@ -88,22 +103,24 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J P H
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: P
+        - content: 
+          initial: H
+        formatted_initials:
+          content: J P H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Steele
         language:
@@ -114,8 +131,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -132,9 +150,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '3996'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

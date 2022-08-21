@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Richard S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Richard S
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Dill
         script:
@@ -37,10 +39,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Douglas E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Douglas E
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Parsons
         script:
@@ -49,8 +53,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NBS
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -65,9 +70,10 @@ series:
 - title:
     content: NBS Letter Circular
     format: text/plain
-  abbreviation: LCIRC
+  abbreviation:
+    content: LCIRC
   number: '813'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

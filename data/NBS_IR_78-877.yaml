@@ -26,12 +26,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V
+          language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Arp
         language:
@@ -42,17 +50,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J A
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: A
+        formatted_initials:
+          content: J A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Brennan
         language:
@@ -63,17 +76,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Parrish
         language:
@@ -84,17 +102,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W G
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: G
+        formatted_initials:
+          content: W G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Steward
         language:
@@ -105,17 +128,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W G
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: G
+        formatted_initials:
+          content: W G
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Steward
         language:
@@ -126,17 +154,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T R
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: R
+        formatted_initials:
+          content: T R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Strobridge
         language:
@@ -147,17 +180,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: O
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R O
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: O
+        formatted_initials:
+          content: R O
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Voth
         language:
@@ -168,8 +206,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -186,9 +225,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 78-877
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

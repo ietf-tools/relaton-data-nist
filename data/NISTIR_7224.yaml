@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Clifford
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Clifford
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Neuman
         script:
@@ -37,10 +39,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Nelson E
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Nelson E
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hastings
         script:
@@ -49,10 +53,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: William T
-        script:
-        - Latn
+      given:
+        forename:
+        - content: William T
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Polk
         script:
@@ -61,8 +67,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -77,9 +84,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7224'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

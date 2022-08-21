@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: S
+        formatted_initials:
+          content: S S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wang
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: S
+        formatted_initials:
+          content: S S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wang
         language:
@@ -67,12 +77,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Dale W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Dale W
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Fitting
         language:
@@ -83,8 +95,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -101,9 +114,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '887'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

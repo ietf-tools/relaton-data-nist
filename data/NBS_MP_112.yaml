@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W E
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: E
+        formatted_initials:
+          content: W E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Emley
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: O
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: O R
+          language:
+          - en
+          script:
+          - Latn
+          initial: O
+        - content: 
+          initial: R
+        formatted_initials:
+          content: O R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Sweeney
         language:
@@ -67,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -85,9 +96,10 @@ series:
 - title:
     content: NBS Miscellaneous Publications
     format: text/plain
-  abbreviation: MP
+  abbreviation:
+    content: MP
   number: '112'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

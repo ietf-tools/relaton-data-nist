@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: L
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C L
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: L
+        formatted_initials:
+          content: C L
+          script:
+          - Latn
       surname:
         content: Wilson
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        script:
-        - Latn
-      - content: I
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C I
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: I
+        formatted_initials:
+          content: C I
+          script:
+          - Latn
       surname:
         content: Watson
         script:
@@ -56,13 +66,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        script:
-        - Latn
-      - content: G
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E G
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: G
+        formatted_initials:
+          content: E G
+          script:
+          - Latn
       surname:
         content: Paek
         script:
@@ -71,8 +86,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -87,9 +103,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6184'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

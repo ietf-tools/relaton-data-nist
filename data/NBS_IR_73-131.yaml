@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V J
+          language:
+          - en
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: J
+        formatted_initials:
+          content: V J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Pezoldt
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J J
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: J
+        formatted_initials:
+          content: J J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Persensky
         language:
@@ -67,8 +77,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -85,9 +96,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 73-131
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

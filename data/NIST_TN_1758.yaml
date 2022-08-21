@@ -25,12 +25,20 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L.
+          language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Pibida
         language:
@@ -40,17 +48,26 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Radiation and Biomolecular Physics Division, Physical Measurement Laboratory
+        - content: Radiation and Biomolecular Physics Division, Physical Measurement
+            Laboratory
   role:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Unterweger
         language:
@@ -60,13 +77,15 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Radiation and Biomolecular Physics Division, Physical Measurement Laboratory
+        - content: Radiation and Biomolecular Physics Division, Physical Measurement
+            Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -83,9 +102,10 @@ series:
 - title:
     content: NIST Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: '1758'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

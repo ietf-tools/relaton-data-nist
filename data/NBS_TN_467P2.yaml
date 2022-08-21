@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: G
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G J
+          language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: J
+        formatted_initials:
+          content: G J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Lutz
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R J
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: J
+        formatted_initials:
+          content: R J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Boreni
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R S
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: S
+        formatted_initials:
+          content: R S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Maddock
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W W
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: W
+        formatted_initials:
+          content: W W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Meinke
         language:
@@ -109,8 +129,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -127,9 +148,10 @@ series:
 - title:
     content: NBS Technical Notes
     format: text/plain
-  abbreviation: TN
+  abbreviation:
+    content: TN
   number: 467p2
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

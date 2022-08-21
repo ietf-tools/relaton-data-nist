@@ -25,10 +25,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Bert W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Bert W
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Rust
         script:
@@ -37,10 +39,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Dianne P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Dianne P
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: O'Leary
         script:
@@ -49,8 +53,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -65,9 +70,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '4720'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

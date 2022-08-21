@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A M
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - content: 
+          initial: M
+        formatted_initials:
+          content: A M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ghose
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D V
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: V
+        formatted_initials:
+          content: D V
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gopinath
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J H
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: H
+        formatted_initials:
+          content: J H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hubbell
         language:
@@ -88,17 +103,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S C
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: C
+        formatted_initials:
+          content: S C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Roy
         language:
@@ -109,8 +129,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -127,9 +148,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: '461'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

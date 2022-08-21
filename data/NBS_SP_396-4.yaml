@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M J
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: J
+        formatted_initials:
+          content: M J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Carr
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R B
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: B
+        formatted_initials:
+          content: R B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Gavert
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R L
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: L
+        formatted_initials:
+          content: R L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Moore
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H W
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: W
+        formatted_initials:
+          content: H W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wawrousek
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J H
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: H
+        formatted_initials:
+          content: J H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Westbrook
         language:
@@ -131,8 +156,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -149,9 +175,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 396-4
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

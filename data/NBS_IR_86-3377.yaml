@@ -26,13 +26,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        script:
-        - Latn
-      - content: M
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D M
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: M
+        formatted_initials:
+          content: D M
+          script:
+          - Latn
       surname:
         content: Burch
         script:
@@ -41,13 +46,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: N
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G N
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: N
+        formatted_initials:
+          content: G N
+          script:
+          - Latn
       surname:
         content: Walton
         script:
@@ -56,10 +66,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          script:
+          - Latn
       surname:
         content: Cavanaugh
         script:
@@ -68,13 +84,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B A
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: A
+        formatted_initials:
+          content: B A
+          script:
+          - Latn
       surname:
         content: Licitra
         script:
@@ -83,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -99,9 +121,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 86-3377
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

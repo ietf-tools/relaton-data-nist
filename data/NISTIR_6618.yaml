@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M E
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: E
+        formatted_initials:
+          content: M E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: DeWeese
         language:
@@ -46,17 +51,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M A
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: A
+        formatted_initials:
+          content: M A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Luebs
         language:
@@ -67,17 +77,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H L
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: L
+        formatted_initials:
+          content: H L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McCullough
         language:
@@ -88,8 +103,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -106,9 +122,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '6618'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

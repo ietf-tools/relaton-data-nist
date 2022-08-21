@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        script:
-        - Latn
-      - content: H
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H H
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: H
+        formatted_initials:
+          content: H H
+          script:
+          - Latn
       surname:
         content: Ku
         script:
@@ -40,8 +45,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -56,9 +62,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 90-4272
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M C
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: C
+        formatted_initials:
+          content: M C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Jones
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V D
+          language:
+          - en
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: D
+        formatted_initials:
+          content: V D
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Arp
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W R
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: R
+        formatted_initials:
+          content: W R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Parrish
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D E
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: E
+        formatted_initials:
+          content: D E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Daney
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P R
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: R
+        formatted_initials:
+          content: P R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ludtke
         language:
@@ -131,17 +156,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: N
-        language:
-        - en
-        script:
-        - Latn
-      - content: V
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: N V
+          language:
+          - en
+          script:
+          - Latn
+          initial: N
+        - content: 
+          initial: V
+        formatted_initials:
+          content: N V
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Frederick
         language:
@@ -152,17 +182,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B A
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: A
+        formatted_initials:
+          content: B A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hands
         language:
@@ -173,8 +208,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -191,9 +227,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 77-853
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

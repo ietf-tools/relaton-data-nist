@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Harold J
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Harold J
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Caul
         script:
@@ -38,10 +40,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: W Dean
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W Dean
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Kimmel
         script:
@@ -50,13 +54,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: C
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G C
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: C
+        formatted_initials:
+          content: G C
+          script:
+          - Latn
       surname:
         content: Paffenbarger
         script:
@@ -65,8 +74,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -81,9 +91,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '8507'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: James W.
-        script:
-        - Latn
+      given:
+        forename:
+        - content: James W.
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Axley
         script:
@@ -37,13 +39,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Building and Fire Research Laboratory
+        - content: Building and Fire Research Laboratory
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -58,9 +61,10 @@ series:
 - title:
     content: NIST Grant/Contractor Reports
     format: text/plain
-  abbreviation: GCR
+  abbreviation:
+    content: GCR
   number: 01-820
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

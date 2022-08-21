@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W L
+          language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: L
+        formatted_initials:
+          content: W L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wiese
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: W
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M W
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: W
+        formatted_initials:
+          content: M W
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Smith
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B M
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: M
+        formatted_initials:
+          content: B M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Glennon
         language:
@@ -89,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NBS National Standard Reference Data Series
     format: text/plain
-  abbreviation: NSRDS
+  abbreviation:
+    content: NSRDS
   number: '4'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

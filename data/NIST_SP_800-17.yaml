@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Sharon
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Sharon
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Keller
         language:
@@ -40,17 +42,19 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Miles
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Miles
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Smid
         language:
@@ -60,13 +64,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - Computer Security Division.
+        - content: Computer Security Division.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -83,9 +88,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 800-17
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

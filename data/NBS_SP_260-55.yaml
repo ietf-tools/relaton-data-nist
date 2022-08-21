@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: D
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: D A
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - content: 
+          initial: A
+        formatted_initials:
+          content: D A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ditmars
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T B
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: B
+        formatted_initials:
+          content: T B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Douglas
         language:
@@ -68,12 +78,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: A
+          language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cezariliyan
         language:
@@ -84,12 +102,20 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: S
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S
+          language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Ishihara
         language:
@@ -100,8 +126,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -118,9 +145,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-55
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

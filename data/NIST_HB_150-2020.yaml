@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Dana S
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Dana S
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Leaman
         script:
@@ -37,15 +39,17 @@ contributor:
     affiliation:
     - organization:
         name:
-        - National Institute of Standards and Technology.
+        - content: National Institute of Standards and Technology.
   role:
   - author
 - person:
     name:
-      forename:
-      - content: Bethany
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Bethany
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hackett
         script:
@@ -53,13 +57,14 @@ contributor:
     affiliation:
     - organization:
         name:
-        - National Institute of Standards and Technology.
+        - content: National Institute of Standards and Technology.
   role:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -74,9 +79,10 @@ series:
 - title:
     content: NIST Handbooks
     format: text/plain
-  abbreviation: HB
+  abbreviation:
+    content: HB
   number: 150-2020
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

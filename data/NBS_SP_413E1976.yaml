@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: L
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: H L
+          language:
+          - en
+          script:
+          - Latn
+          initial: H
+        - content: 
+          initial: L
+        formatted_initials:
+          content: H L
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Mason
         language:
@@ -46,12 +51,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Iris M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Iris M
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Lloyd
         language:
@@ -62,8 +69,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -80,9 +88,10 @@ series:
 - title:
     content: NBS Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 413e1976
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

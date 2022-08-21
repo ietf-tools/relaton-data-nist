@@ -25,12 +25,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Thomas H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Thomas H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Boone
         language:
@@ -41,12 +43,14 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: Edgar H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Edgar H
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: MacArthur
         language:
@@ -57,8 +61,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -75,9 +80,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '7173'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

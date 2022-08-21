@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Charlotte E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Charlotte E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Moore
         language:
@@ -42,8 +44,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -60,9 +63,10 @@ series:
 - title:
     content: NBS National Standard Reference Data Series
     format: text/plain
-  abbreviation: NSRDS
+  abbreviation:
+    content: NSRDS
   number: 3sec11
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

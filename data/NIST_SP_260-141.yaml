@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: T
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: T A
+          language:
+          - en
+          script:
+          - Latn
+          initial: T
+        - content: 
+          initial: A
+        formatted_initials:
+          content: T A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Siewert
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C M
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: M
+        formatted_initials:
+          content: C M
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Wang
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
-      - content: N
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: C N
+          language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - content: 
+          initial: N
+        formatted_initials:
+          content: C N
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: McCowan
         language:
@@ -89,8 +104,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -107,9 +123,10 @@ series:
 - title:
     content: NIST Special Publications (General)
     format: text/plain
-  abbreviation: SP
+  abbreviation:
+    content: SP
   number: 260-141
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: S
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: S W
+          script:
+          - Latn
+          initial: S
+        - content: 
+          initial: W
+        formatted_initials:
+          content: S W
+          script:
+          - Latn
       surname:
         content: Stiefel
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: W
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R W
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: W
+        formatted_initials:
+          content: R W
+          script:
+          - Latn
       surname:
         content: Bukowski
         script:
@@ -55,10 +65,12 @@ contributor:
   - author
 - person:
     name:
-      forename:
-      - content: J R Jr
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J R Jr
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Hall
         script:
@@ -67,13 +79,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        script:
-        - Latn
-      - content: B
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F B
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: B
+        formatted_initials:
+          content: F B
+          script:
+          - Latn
       surname:
         content: Clarke
         script:
@@ -82,8 +99,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -98,9 +116,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 90-4244
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

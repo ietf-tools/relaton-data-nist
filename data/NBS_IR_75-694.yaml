@@ -25,17 +25,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P B
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: B
+        formatted_initials:
+          content: P B
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Saunders
         language:
@@ -46,22 +51,24 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R H F
+          language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: H
+        - content: 
+          initial: F
+        formatted_initials:
+          content: R H F
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Jackson
         language:
@@ -72,17 +79,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P R
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: R
+        formatted_initials:
+          content: P R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Meyers
         language:
@@ -93,17 +105,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: H
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M H
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: H
+        formatted_initials:
+          content: M H
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Pearl
         language:
@@ -114,8 +131,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -132,9 +150,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 75-694
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

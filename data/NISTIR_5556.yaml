@@ -25,13 +25,18 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: L
-        script:
-        - Latn
-      - content: P
-        script:
-        - Latn
+      given:
+        forename:
+        - content: L P
+          script:
+          - Latn
+          initial: L
+        - content: 
+          initial: P
+        formatted_initials:
+          content: L P
+          script:
+          - Latn
       surname:
         content: Gor'kov
         script:
@@ -40,13 +45,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: W
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: W A
+          script:
+          - Latn
+          initial: W
+        - content: 
+          initial: A
+        formatted_initials:
+          content: W A
+          script:
+          - Latn
       surname:
         content: Little
         script:
@@ -55,10 +65,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: K
-        script:
-        - Latn
+      given:
+        forename:
+        - content: K
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K
+          script:
+          - Latn
       surname:
         content: Kellermann
         script:
@@ -67,13 +83,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
-      - content: Z
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V Z
+          script:
+          - Latn
+          initial: V
+        - content: 
+          initial: Z
+        formatted_initials:
+          content: V Z
+          script:
+          - Latn
       surname:
         content: Kresin
         script:
@@ -82,13 +103,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        script:
-        - Latn
-      - content: D
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J D
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: D
+        formatted_initials:
+          content: J D
+          script:
+          - Latn
       surname:
         content: Kurfess
         script:
@@ -97,10 +123,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R
+          script:
+          - Latn
       surname:
         content: Ramaty
         script:
@@ -109,8 +141,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
-    abbreviation: NIST
+    - content: National Institute of Standards and Technology
+    abbreviation:
+      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -125,9 +158,10 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '5556'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

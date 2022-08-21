@@ -26,10 +26,12 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Michael
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Indovina
         script:
@@ -38,10 +40,16 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: V
-        script:
-        - Latn
+      given:
+        forename:
+        - content: V.
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          script:
+          - Latn
       surname:
         content: Dvornychenko
         script:
@@ -50,13 +58,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: R
-        script:
-        - Latn
-      - content: A
-        script:
-        - Latn
+      given:
+        forename:
+        - content: R.A.
+          script:
+          - Latn
+          initial: R
+        - content: 
+          initial: A
+        formatted_initials:
+          content: R.A.
+          script:
+          - Latn
       surname:
         content: Hicklin
         script:
@@ -65,13 +78,18 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: G
-        script:
-        - Latn
-      - content: I
-        script:
-        - Latn
+      given:
+        forename:
+        - content: G.I
+          script:
+          - Latn
+          initial: G
+        - content: 
+          initial: I
+        formatted_initials:
+          content: G.I
+          script:
+          - Latn
       surname:
         content: Kiebuzinski
         script:
@@ -80,7 +98,7 @@ contributor:
   - author
 - organization:
     name:
-    - National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology
   role:
   - publisher
 revdate: 2012-05
@@ -90,7 +108,8 @@ series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: '7859'
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

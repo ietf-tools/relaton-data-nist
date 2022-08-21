@@ -26,12 +26,14 @@ date:
 contributor:
 - person:
     name:
-      forename:
-      - content: Henry E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: Henry E
+          language:
+          - en
+          script:
+          - Latn
+        formatted_initials: 
       surname:
         content: Robinson
         language:
@@ -42,17 +44,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: F
-        language:
-        - en
-        script:
-        - Latn
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: F J
+          language:
+          - en
+          script:
+          - Latn
+          initial: F
+        - content: 
+          initial: J
+        formatted_initials:
+          content: F J
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Powlitch
         language:
@@ -63,17 +70,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: M
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: M A
+          language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - content: 
+          initial: A
+        formatted_initials:
+          content: M A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Barron
         language:
@@ -84,17 +96,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: R
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P R
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: R
+        formatted_initials:
+          content: P R
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Achenbach
         language:
@@ -105,8 +122,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -123,9 +141,10 @@ series:
 - title:
     content: NBS NBS Reports
     format: text/plain
-  abbreviation: RPT
+  abbreviation:
+    content: RPT
   number: '2947'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard

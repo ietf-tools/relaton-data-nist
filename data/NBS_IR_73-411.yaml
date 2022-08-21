@@ -26,17 +26,22 @@ date:
 contributor:
 - person:
     name:
-      initial:
-      - content: B
-        language:
-        - en
-        script:
-        - Latn
-      - content: C
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: B C
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+        - content: 
+          initial: C
+        formatted_initials:
+          content: B C
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Cadoff
         language:
@@ -47,17 +52,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
-      - content: A
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: P A
+          language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - content: 
+          initial: A
+        formatted_initials:
+          content: P A
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Pella
         language:
@@ -68,17 +78,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E E
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: E
+        formatted_initials:
+          content: E E
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Hughes
         language:
@@ -89,17 +104,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: E
-        language:
-        - en
-        script:
-        - Latn
-      - content: P
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: E P
+          language:
+          - en
+          script:
+          - Latn
+          initial: E
+        - content: 
+          initial: P
+        formatted_initials:
+          content: E P
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Scheide
         language:
@@ -110,17 +130,22 @@ contributor:
   - author
 - person:
     name:
-      initial:
-      - content: J
-        language:
-        - en
-        script:
-        - Latn
-      - content: K
-        language:
-        - en
-        script:
-        - Latn
+      given:
+        forename:
+        - content: J K
+          language:
+          - en
+          script:
+          - Latn
+          initial: J
+        - content: 
+          initial: K
+        formatted_initials:
+          content: J K
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Taylor
         language:
@@ -131,8 +156,9 @@ contributor:
   - author
 - organization:
     name:
-    - National Bureau of Standards
-    abbreviation: NBS
+    - content: National Bureau of Standards
+    abbreviation:
+      content: NBS
     contact:
     - address:
         city: Gaithersburg
@@ -149,9 +175,10 @@ series:
 - title:
     content: NBS NISTIRs (Interagency/Internal Reports)
     format: text/plain
-  abbreviation: IR
+  abbreviation:
+    content: IR
   number: 73-411
 place:
 - Gaithersburg, MD
-fetched: '2022-08-20'
+fetched: '2022-08-21'
 doctype: standard
