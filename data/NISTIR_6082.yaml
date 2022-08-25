@@ -48,7 +48,9 @@ contributor:
         - content: T -H
           script:
           - Latn
-        formatted_initials: 
+        formatted_initials:
+          script:
+          - Latn
       surname:
         content: Hong
         script:
@@ -99,7 +101,8 @@ contributor:
           script:
           - Latn
           initial: W
-        - content: 
+        - script:
+          - Latn
           initial: G
         formatted_initials:
           content: W G
@@ -135,5 +138,5 @@ series:
   number: '6082'
 place:
 - Gaithersburg, MD
-fetched: '2022-08-24'
+fetched: '2022-08-25'
 doctype: standard
