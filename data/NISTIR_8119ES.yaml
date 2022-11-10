@@ -34,10 +34,6 @@ contributor:
         content: Reczek
         script:
         - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
   role:
   - type: author
 - person:
@@ -51,17 +47,11 @@ contributor:
         content: Benson
         script:
         - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
     contact:
     - address:
         city: Gaithersburg
@@ -72,6 +62,17 @@ contributor:
 revdate: 2016-12
 script:
 - Latn
+relation:
+- type: translatedFrom
+  bibitem:
+    id: NISTIR8119
+    docid:
+    - id: NIST IR 8119
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8119
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -79,7 +80,5 @@ series:
   abbreviation:
     content: IR
   number: 8119es
-place:
-- Gaithersburg, MD
-fetched: '2022-11-09'
+fetched: '2022-11-10'
 doctype: standard
