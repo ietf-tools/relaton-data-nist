@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2162
 title:
-- content: Velocity and Temperature Structure of Medium-Scale Pool Fires
+- content: Velocity and temperature structure of medium-scale pool fires
   language:
   - en
   script:
@@ -77,9 +77,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -90,6 +88,39 @@ contributor:
 revdate: '2021-06-22'
 script:
 - Latn
+abstract:
+- content: A series of measurements was conducted using a bidirectional probe to characterize
+    the upward speed in the plumes of medium-scale pool fires burning a variety of
+    gaseous and liquid fuels. Time-averaged local measurements of the upward velocity
+    were conducted in the plumes of methanol, ethanol, and acetone pool fires burning
+    in a 30 cm diameter liquid pool burner and methane and propane gaseous pool fires
+    established on a 37 cm diameter gas burner. The gas-phase thermocouple temperature
+    was measured separately using many kinds of fine bare-wire thermocouples with
+    different data acquisition rate, which temperatures were corrected considering
+    radiative loss and thermal inertia effects. The bidirectional probes were connected
+    to multiple pressure transducers with various time responses, ranging from 20
+    ms to 160 ms. A 25 ?m wire diameter, bare-bead, Type R or S, thermocouple with
+    an approximately spherical bead of diameter 125 ?m was positioned about 0.5 cm
+    upstream of the probe. The time series of temperature was corrected for radiative
+    loss only. The Bernoulli equation was solved using the time series of pressure,
+    the corrected temperature time series, and the calculated K factor based on the
+    Re (and its properties) calculated from the instantaneous velocity and temperature.
+    The spatial separation between the probe and thermocouple was assumed to be of
+    negligible importance. The experiments were typically repeated 2 to 3 times and
+    the results were repeatable to within a few percent. The upward component of the
+    velocity on the plume centerline in the methanol pool fire compared favorably
+    to previous measurements and Baum's plume velocity correlation. The results showed
+    that the upward velocity increased with distance above the plume for about 1 to
+    2 diameters above the fuel surface and then decreased with distance. The upward
+    component of the velocity on the plume centerline in the methanol pool fire compared
+    favorably to previous measurements and followed the general trends of Baum and
+    McCaffrey's plume theory. A single location radiative heat flux measurement was
+    used to determine the radiative fraction in 30 cm diameter methanol pool fires.
+    The results were favorably compared to previous measurements using multi-location
+    and single-location heat flux measurements.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -97,8 +128,6 @@ series:
   abbreviation:
     content: TN
   number: '2162'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

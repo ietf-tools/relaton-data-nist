@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2164
 title:
-- content: On Computing Elastic Shape Distances between Curves in d-dimensional Space
+- content: On computing elastic shape distances between curves in d-dimensional space
   language:
   - en
   script:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +105,29 @@ contributor:
 revdate: '2021-06-21'
 script:
 - Latn
+abstract:
+- content: The computation of the elastic registration of two simple curves in higher
+    dimensions and therefore of the elastic shape distance between them has been investigated
+    by Srivastava et al. Assuming the first curve has one or more starting points,
+    and the second curve has only one, they accomplish the computation, one starting
+    point of the first curve at a time, by minimizing an L2 type distance between
+    them based on alternating computations of optimal diffeomorphisms of the unit
+    interval and optimal rotation matrices that reparametrize and rotate, respectively,
+    one of the curves. We recreate the work by Srivastava et al., but in contrast
+    to it, again for curves in any dimension, we present a Dynamic Programming algorithm
+    for computing optimal diffeomorphisms that is linear, and justify in a purely
+    algebraic manner the usual algorithm for computing optimal rotation matrices,
+    the Kabsch-Umeyama algorithm, which is based on the computation of the singular
+    value decomposition of a matrix. In addition, we minimize the L2 type distance
+    with a procedure that alternates computations of optimal diffeomorphisms with
+    successive computations of optimal rotation matrices for all starting points of
+    the first curve. Carrying out computations this way is not only more efficient
+    all by itself, but, if both curves are closed, allows applications of the Fast
+    Fourier Transform for computing successively in an even more efficient manner,
+    optimal rotation matrices for all starting points of the first curve.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -114,8 +135,6 @@ series:
   abbreviation:
     content: TN
   number: '2164'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

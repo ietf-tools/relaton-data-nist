@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8372
 title:
-- content: Study of 5G New Radio (NR) Support for Direct Mode Communications
+- content: Study of 5G New Radio (NR) support for direct mode communications
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Fernando J.
+        - content: Fernando J
           script:
           - Latn
       surname:
@@ -45,7 +45,7 @@ contributor:
     name:
       given:
         forename:
-        - content: David W.
+        - content: David W
           script:
           - Latn
       surname:
@@ -196,9 +196,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -209,6 +207,49 @@ contributor:
 revdate: '2021-05-07'
 script:
 - Latn
+abstract:
+- content: 'In public safety communications, direct mode communication is essential
+    to keep first responders connected, especially when there is no network coverage.
+    Direct mode communication is supported in Third Generation Partnership Project
+    (3GPP) Long Term Evolution (LTE) via Sidelink (SL). With 3GPP advancing from LTE
+    to Fifth Generation (5G), in this study we explore new 3GPP 5G New Radio (NR)
+    SL features and evaluate its support for direct mode communications. This study
+    focuses on five major topics that are essential to public safety communications
+    over 5G New Radio (NR) SL: resource management, physical layer, capacity, Quality
+    of Service (QoS), and LTE/NR coexistence. First, on resource management, we analyze
+    the supported mapping between applications and SL resources, control of communication
+    type (unicast, multicast, and broadcast), together with SL physical resource pools.
+    We then identify several areas for further research, including resource provision
+    for different types of applications and management of concurrent applications.
+    Second, on physical layer, we highlight NR s new features that are expected to
+    improve performance, including NR s flexible numerology, feedback channel, advanced
+    channel coding mechanism, and channel sensing. Third, on capacity, we use maximal
+    achievable data rate as the measure and analyze in detail the factors that impact
+    NR SL capacity, including various parameters and overheads. We then study SL capacity
+    under various NR operational configurations and device capabilities. Using Band
+    n14 for numerical analyses, we also analyze LTE capacity for comparison purpose,
+    and further quantify NR capacity improvements over LTE brought by each of the
+    NR new features. Fourth, on QoS, we notice that compared with the relatively simplified
+    LTE QoS operations, NR SL has much enhanced QoS support by inheriting various
+    Uu QoS operations and by introducing new features, such as the new layer Service
+    Data Application Protocol (SDAP) and the new parameter Range. The NR SL QoS parameters
+    are also backwards compatible with QoS parameters of LTE Proximity Services (ProSe).
+    We describe these enhancements in detail, as well as the ongoing 3GPP standardization
+    efforts in supporting public safety communications. Fifth, on LTE/NR coexistence,
+    we address the transition from LTE to NR before re-farming the full bands. We
+    discuss in detail Dynamic Spectrum Sharing (DSS), such as the exchange of configurations
+    between LTE and NR, then point out the limitations in supporting sharing over
+    SL, and possible solutions in 3GPP standard efforts. Last but not least, we provide
+    an overview of ongoing 3GPP study items and work items related to the NR SL, including
+    NR ProSe, direct discovery, direct communication, and UE-based relays, as well
+    as enhancements to NR SL power efficiency, reliability, and latency. While our
+    study shows the potential of a promising performance improvement on direct mode
+    communications for 5G NR SL over LTE SL, the study also identifies its limitations.
+    Addressing these limitations to better support first responder needs, plus developing
+    measurement tools to quantify performance, will be our next steps.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -216,8 +257,6 @@ series:
   abbreviation:
     content: IR
   number: '8372'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

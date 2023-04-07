@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2154
 title:
-- content: Iris Recognition on Noah Kalina’s Everyday
+- content: Iris recognition on Noah Kalina s Everyday
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: James R.
+        - content: James R
           script:
           - Latn
       surname:
@@ -43,9 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -56,6 +54,27 @@ contributor:
 revdate: '2021-04-26'
 script:
 - Latn
+abstract:
+- content: 'In January 2000, Noah Kalina began taking a photograph of himself every
+    day and has continued for more than 20 years. A time-lapse video of his images
+    can be seen online: EveryDay. These images, and images from similar projects,
+    provide us with interesting opportunities to explore the effects of time lapse
+    on iris recognition employed on images that were not originally intended for iris
+    recognition. NIST obtained a license from Kalina to use a subset (7 half years
+    from 2009-2015) of original, high resolution, digital images in biometric studies.
+    This paper is our first published analysis of those images. Our license does not
+    permit redistribution of the high resolution images. Our analysis demonstrates
+    that over a period of at least 6 years, even though the majority of the images
+    in this dataset did not provide solid matches, there are instances where mated
+    iris image pairs from visible light images that were not obtained for the purpose
+    of iris recognition match with match scores corresponding to a false match rate
+    of 0:1% at a true accept rate of 1% . Though such performance is not useful in
+    applications such as access control, there are cases where it may be useful. We
+    note that the algorithms used in this analysis were not designed to work with
+    the iris images that we extracted from the EveryDay project.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -63,8 +82,6 @@ series:
   abbreviation:
     content: TN
   number: '2154'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2147
 title:
-- content: Characterizing LTE User Equipment Emissions Under Closed-Loop Power Control
+- content: Characterizing LTE user equipment emissions under closed-loop power control
   language:
   - en
   script:
@@ -196,9 +196,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -209,6 +207,24 @@ contributor:
 revdate: '2021-04-06'
 script:
 - Latn
+abstract:
+- content: This report presents a laboratory-based characterization of Long Term Evolution
+    (LTE) User Equipment (UE) emissions under closed-loop power control, building
+    on our prior work (NIST TN 2069), which assessed the impact of a large number
+    of factors affecting UE emissions. Specifically, this investigation aims to shed
+    light on real-world UE behavior through rigorous measurements of uplink power
+    per physical resource block under a variety of realistic conditions and settings.
+    In addition, this work provides insight into the relationship between the UE-reported
+    uplink power and the actual power radiated by the UE. Although the results presented
+    here pertain to LTE equipment operating in a specific frequency band, LTE Band
+    66 (1710 MHz - 1780 MHz), the measurement method is presented in enough detail
+    that additional investigations can be performed in other bands of interest. The
+    report concludes with a summary of contributions on a variety of uplink emissions
+    topics of common interest to those developing interference models and coexistence
+    strategies.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -216,8 +232,6 @@ series:
   abbreviation:
     content: TN
   number: '2147'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

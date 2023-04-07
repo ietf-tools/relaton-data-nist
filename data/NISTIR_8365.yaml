@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8365
 title:
-- content: A Collaborative Robot Work-Cell Testbed for Industrial Wireless Communications
+- content: A collaborative robot work-cell testbed for industrial wireless communications
   language:
   - en
   script:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +105,24 @@ contributor:
 revdate: '2021-05-19'
 script:
 - Latn
+abstract:
+- content: We propose a new testbed for assessing the performance of wireless techniques
+    in support of industrial operations. We developed a collaborative robot work-cell
+    manufacturing scenario as the emulated cyber-physical system (CPS) model. Specifically,
+    data flows between networked work-cell components, e.g., programmable logic controllers
+    (PLC), robotic arms, and machining tools, were identified by specific industrial
+    communication protocols; network connections were also defined for both Ethernet-based
+    wired links and alternative wireless interfaces. A measurement framework was introduced
+    to collect various system events from both work-cell operations and network traffics;
+    a distributed clock synchronization scheme was developed to ensure the consistency
+    of measurement record timing at different sources. To facilitate offline performance
+    analysis and data exploration, a new data pipeline was adopted that uses the graph
+    database (GDB) for testbed data management. The developed testbed has been in
+    use in evaluating industrial wireless performance by the NIST team and industrial
+    partners.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -114,8 +130,6 @@ series:
   abbreviation:
     content: IR
   number: '8365'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

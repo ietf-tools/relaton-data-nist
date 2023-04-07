@@ -2,8 +2,8 @@
 schema-version: v1.2.3
 id: NISTTN2142
 title:
-- content: An Evaluation Design for Comparing Netflow Based Network Anomaly Detection
-    Systems Using Synthetic Malicious Traffic
+- content: An evaluation design for comparing netflow based network anomaly detection
+    systems using synthetic malicious traffic
   language:
   - en
   script:
@@ -112,9 +112,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -125,6 +123,19 @@ contributor:
 revdate: '2021-03-02'
 script:
 - Latn
+abstract:
+- content: In this paper, we present a procedure to evaluate and compare multiple
+    netflow based network anomaly detection (NF-NAD) systems based on accuracy of
+    detection and mean time of detection. Conventionally, different variations of
+    benign or normal traffic have been used to evaluate NF-NAD systems. Here we showcase
+    a methodology where benign traffic is constant through the entirety of the experiment.
+    We create different variations of synthetic malicious traffic to evaluate and
+    compare NF-NAD systems. A two-phase approach is used to measure the accuracy and
+    learning capability of the NF-NAD system. We have created a designed experiment
+    (having factors, levels and design points) to showcase our methodology.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -132,8 +143,6 @@ series:
   abbreviation:
     content: TN
   number: '2142'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

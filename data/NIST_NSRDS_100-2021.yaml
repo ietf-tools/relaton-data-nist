@@ -2,8 +2,8 @@
 schema-version: v1.2.3
 id: NISTNSRDS100-2021
 title:
-- content: Simulation of Electron Spectra for Surface Analysis (SESSA) Version 2.2.0
-    User’s Guide
+- content: Simulation of electron spectra for surface analysis (SESSA) version 2.2.0
+    user s guide
   language:
   - en
   script:
@@ -29,7 +29,7 @@ contributor:
     name:
       given:
         forename:
-        - content: W. S. M.
+        - content: W S M
           script:
           - Latn
           initial: W
@@ -40,7 +40,7 @@ contributor:
           - Latn
           initial: M
         formatted_initials:
-          content: W. S. M.
+          content: W S M
           script:
           - Latn
       surname:
@@ -57,12 +57,12 @@ contributor:
     name:
       given:
         forename:
-        - content: W.
+        - content: W
           script:
           - Latn
           initial: W
         formatted_initials:
-          content: W.
+          content: W
           script:
           - Latn
       surname:
@@ -79,7 +79,7 @@ contributor:
     name:
       given:
         forename:
-        - content: C. J.
+        - content: C J
           script:
           - Latn
           initial: C
@@ -87,7 +87,7 @@ contributor:
           - Latn
           initial: J
         formatted_initials:
-          content: C. J.
+          content: C J
           script:
           - Latn
       surname:
@@ -102,9 +102,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -115,6 +113,21 @@ contributor:
 revdate: '2021-03-02'
 script:
 - Latn
+abstract:
+- script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTNSRDS100-2020;
+    docid:
+    - id: NIST NSRDS 100-2020;
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST NSRDS 100-2020;
+      format: text/plain
 series:
 - title:
     content: NIST National Standard Reference Data Series
@@ -122,8 +135,6 @@ series:
   abbreviation:
     content: NSRDS
   number: 100-2021
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

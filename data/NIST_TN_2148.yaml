@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2148
 title:
-- content: Data Reduction Tool for Spherical Constant Volume Flame Experiments
+- content: Data reduction tool for spherical constant volume flame experiments
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Michael J.
+        - content: Michael J
           script:
           - Latn
       surname:
@@ -45,7 +45,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregory T.
+        - content: Gregory T
           script:
           - Latn
       surname:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,22 @@ contributor:
 revdate: '2021-04-02'
 script:
 - Latn
+abstract:
+- content: A data reduction tool was developed to conveniently post-process spherical
+    constant volume flame experiments. Such experiments are employed to obtain laminar
+    flame velocities in a premixed gas mixture. The setup is relatively simple and
+    the only recorded physical quantities are pressure and time. Under various model
+    assumption this so called pressure trace can be used to deduce the flame velocity.
+    Many such models with different levels of complexity are available in the literature.
+    One category of models are the shell models where the vessel content is divided
+    in grid shells and the flame history is reconstructed employing physical models.
+    Three of those shell models are implemented in the present tool. This technical
+    note describes the installation and provides a user guide with additional details
+    about the models and the algorithms. Its purpose is to help users efficiently
+    use the tool and obtain physically meaningful results.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -80,8 +94,6 @@ series:
   abbreviation:
     content: TN
   number: '2148'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

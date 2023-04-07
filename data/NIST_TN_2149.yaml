@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2149
 title:
-- content: UE-to-Network Relay Model B Discovery in ProSe-Enabled LTE Networks
+- content: UE-to-network relay model B discovery in ProSe-enabled LTE networks
   language:
   - en
   script:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +105,18 @@ contributor:
 revdate: '2021-04-06'
 script:
 - Latn
+abstract:
+- content: In this paper, we expand previous analytical models to offer a more complete
+    representation of Model B ProSe direct discovery. Using these models, we can obtain
+    performance metrics such as the average time a given Remote User Equipment (UE)
+    takes to discover a Relay UE, and we can examine the sensitivity of the relay
+    performance to various input parameters such as the number of Remote UEs, the
+    number of Relay UEs, and the Discovery message transmission rate. We use ns- 3
+    system level simulations to validate our analytical model and determine the optimal
+    strategy for UEs to use in various deployment scenarios.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -114,8 +124,6 @@ series:
   abbreviation:
     content: TN
   number: '2149'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

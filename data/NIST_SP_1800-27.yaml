@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTSP1800-27
 title:
-- content: Securing Property Management Systems
+- content: Securing property management systems
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-03-29'
+  value: '2021-03-30'
 contributor:
 - person:
     name:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -104,9 +102,32 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-03-29'
+revdate: '2021-03-30'
 script:
 - Latn
+abstract:
+- content: Hotels have become targets for malicious actors wishing to exfiltrate sensitive
+    data, deliver malware, or profit from undetected fraud. Property management systems,
+    which are central to hotel operations, present attractive attack surfaces. This
+    example implementation strives to increase the cybersecurity of the Property Management
+    System (PMS) and offer privacy protections for the data in the PMS. The objective
+    of this guide was to build a standards-based example implementation that utilizes
+    readily available commercial off-the-shelf components that enhance the security
+    of a PMS. The NCCoE at NIST built a PMS reference design in a laboratory environment
+    to demonstrate methods to improve the cybersecurity of a PMS. The PMS reference
+    design included the PMS, a credit card payment platform, and an analogous ancillary
+    hotel system. In this example implementation, a physical access control system
+    was used as the ancillary system. The principal capabilities include protecting
+    sensitive data, enforcing role-based access control, and monitoring for anomalies.
+    The principal recommendations include implementing cybersecurity concepts such
+    as zero trust architecture, moving target defense, tokenization of credit card
+    data, and role-based authentication. The PMS environment outlined in this guide
+    encourages hoteliers and similar stakeholders to adopt effective cybersecurity
+    and privacy concepts by using standard components that are composed of open-source
+    and commercially available components.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -114,8 +135,6 @@ series:
   abbreviation:
     content: SP
   number: 1800-27
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

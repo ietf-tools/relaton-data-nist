@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2146
 title:
-- content: Recalibration Intervals for Radiation Detection Instruments
+- content: Recalibration intervals for radiation detection instruments
   language:
   - en
   script:
@@ -28,12 +28,12 @@ contributor:
     name:
       given:
         forename:
-        - content: L.
+        - content: L
           script:
           - Latn
           initial: L
         formatted_initials:
-          content: L.
+          content: L
           script:
           - Latn
       surname:
@@ -50,12 +50,12 @@ contributor:
     name:
       given:
         forename:
-        - content: B.
+        - content: B
           script:
           - Latn
           initial: B
         formatted_initials:
-          content: B.
+          content: B
           script:
           - Latn
       surname:
@@ -72,12 +72,12 @@ contributor:
     name:
       given:
         forename:
-        - content: M.
+        - content: M
           script:
           - Latn
           initial: M
         formatted_initials:
-          content: M.
+          content: M
           script:
           - Latn
       surname:
@@ -94,12 +94,12 @@ contributor:
     name:
       given:
         forename:
-        - content: G.
+        - content: G
           script:
           - Latn
           initial: G
         formatted_initials:
-          content: G.
+          content: G
           script:
           - Latn
       surname:
@@ -114,9 +114,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -127,6 +125,17 @@ contributor:
 revdate: '2021-04-02'
 script:
 - Latn
+abstract:
+- content: In this work we provide a summary of the National Conference of Standards
+    Laboratories (NCSL) Recommended Practice RP-1 calibration interval analysis method,
+    and examples of the method applied to three sets of available NIST data (two models
+    of radiation survey meters and an electronic dosimeter). Information is provided
+    for how to develop control charts to monitor individual instruments' performance
+    over time in order to determine when instrument requires recalibration; examples
+    are provided for a survey meter and a gamma-ray spectrometer.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -134,8 +143,6 @@ series:
   abbreviation:
     content: TN
   number: '2146'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

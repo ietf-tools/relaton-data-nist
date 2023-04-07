@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2152
 title:
-- content: Neural Networks for Classifying Probability Distributions
+- content: Neural networks for classifying probability distributions
   language:
   - en
   script:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +105,21 @@ contributor:
 revdate: '2021-04-19'
 script:
 - Latn
+abstract:
+- content: Probability distribution fitting of an unknown stochastic process is an
+    important preliminary step for any further analysis in science or engineering.
+    However, it requires some background in statistics and prior considerations of
+    the process or phenomenon under study. As such, this paper presents an alternative
+    approach which doesn't require prior knowledge of statistical methods nor previous
+    assumption on the available data. Instead, using Deep Learning, the correct distributional
+    model is extracted from the output of a neural network that was previously trained
+    on a large suitable dataset in order to classify any array of observations into
+    a matching distributional model. We find that our classifier can perform this
+    task comparably to using maximum likelihood estimation with an Anderson-Darling
+    goodness of fit.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -114,8 +127,6 @@ series:
   abbreviation:
     content: TN
   number: '2152'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,8 +2,8 @@
 schema-version: v1.2.3
 id: NISTSP500-300-upd
 title:
-- content: JPEG 2000 CODEC Certification Guidance for 1000 ppi Fingerprint Friction
-    Ridge Imagery
+- content: JPEG 2000 CODEC certification guidance for 1000 ppi fingerprint friction
+    ridge imagery
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-06-10'
+  value: '2021-05-05'
 contributor:
 - person:
     name:
@@ -112,9 +112,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -122,9 +120,35 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-06-10'
+revdate: '2021-05-05'
 script:
 - Latn
+abstract:
+- content: The document describes the procedure by which applications of JPEG 2000
+    CODECs will be evaluated with respect to conformance to the NIST guidance for
+    compression of 1000 ppi friction ridge images as detailed in NIST Special Publication
+    500-289 [NIST3]. The document describes the attributes of a set of fingerprint
+    images selected for conformance testing and the rationale for selection of these
+    images based on both examiner assessment of image quality over increasing degrees
+    of JPEG 2000 compression and relative fidelity based on computational metrics
+    described SP 500-289 and supporting studies. The document provides background
+    behind the conformance testing, describes the CODEC pathways to be tested and
+    the metrics used to measure conformance, and provides instructions on how to run
+    the protocol and submit results to NIST for evaluation.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP500-300
+    docid:
+    - id: NIST SP 500-300
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 500-300
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -132,8 +156,6 @@ series:
   abbreviation:
     content: SP
   number: 500-300-upd
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

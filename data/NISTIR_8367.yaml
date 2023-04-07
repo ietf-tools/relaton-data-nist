@@ -2,8 +2,8 @@
 schema-version: v1.2.3
 id: NISTIR8367
 title:
-- content: Psychological Foundations of Explainability and Interpretability in Artificial
-    Intelligence
+- content: Psychological foundations of explainability and interpretability in artificial
+    intelligence
   language:
   - en
   script:
@@ -29,7 +29,7 @@ contributor:
     name:
       given:
         forename:
-        - content: David A.
+        - content: David A
           script:
           - Latn
       surname:
@@ -44,9 +44,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -57,6 +55,25 @@ contributor:
 revdate: '2021-04-12'
 script:
 - Latn
+abstract:
+- content: In this paper, we make the case that interpretability and explainability
+    are distinct requirements for machine learning systems. To make this case, we
+    provide an overview of the literature in experimental psychology pertaining to
+    interpretation (especially of numerical stimuli) and comprehension. We find that
+    interpretation refers to the ability to contextualize a model s output in a manner
+    that relates it to the system s designed functional purpose, and the goals, values,
+    and preferences of end users. In contrast, explanation refers to the ability to
+    accurately describe the mechanism, or implementation, that led to an algorithm
+    s output, often so that the algorithm can be improved in some way. Beyond these
+    definitions, our review shows that humans differ from one another in systematic
+    ways, that affect the extent to which they prefer to make decisions based on detailed
+    explanations versus less precise interpretations. These individual differences,
+    such as personality traits and skills, are associated with their abilities to
+    derive meaningful interpretations from precise explanations of model output. This
+    implies that system output should be tailored to different types of users.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -64,8 +81,6 @@ series:
   abbreviation:
     content: IR
   number: '8367'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

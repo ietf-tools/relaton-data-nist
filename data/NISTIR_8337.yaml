@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8337
 title:
-- content: An Integrated Set of XML Tools – User Guide
+- content: An integrated set of XML tools :user guide
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Thomas R.
+        - content: Thomas R
           script:
           - Latn
       surname:
@@ -77,9 +77,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -90,6 +88,23 @@ contributor:
 revdate: '2020-12-16'
 script:
 - Latn
+abstract:
+- content: 'This user guide describes an integrated set of C++ software tools for
+    manipulating XML (eXtensible Markup Language) schemas and XML instance files.
+    The tools are: - xmlSchemaParser - parses and reformats XML schema files, prints
+    type derivation hierarchies - xmlInstanceParserGenerator - generates C++ classes
+    and a YACC/Lex instance file parser from an XML schema - it''s a software tool
+    that writes software tools - orphanFinder - identifies unused types and undefined
+    types in one to many XML schema files - xmlSchemaAttributeConverter - rewrites
+    an XML schema file, converting attributes to elements All of the tools are invoked
+    by giving a command in a terminal window. The tools were built at the National
+    Institute of Standards and Technology. The xmlSchemaParser and the xmlInstanceParserGenerator
+    were originally built in support of the Agility Performance of Robotic Systems
+    project. They have been greatly extended since that time. The orphanFinder and
+    xmlSchemaAttributeConverter are more recent.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -97,8 +112,6 @@ series:
   abbreviation:
     content: IR
   number: '8337'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

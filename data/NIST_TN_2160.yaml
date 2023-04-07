@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2160
 title:
-- content: VEMOS:A GUI for Evaluation of Similarity Metrics on Complex Data Sets
+- content: VEMOS :a GUI for evaluation of similarity metrics on complex data sets
   language:
   - en
   script:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,23 @@ contributor:
 revdate: '2021-06-07'
 script:
 - Latn
+abstract:
+- content: Similarity and dissimilarity metrics are a fundamental component of many
+    tasks requiring the analysis and comparison of complex, often visual data. Applications
+    from deep learning to forensics require ways to effectively identify images, find
+    clusters or outliers in data sets, or retrieve data items similar to a query item.
+    However, finding an effective metric for a specific task is challenging due to
+    the complexity of modern datasets and the myriad possible similarity metrics arising
+    from that complexity. We present VEMOS, a Python package that provides an accessible
+    graphical user interface (GUI) for the evaluation of comparison metrics. VEMOS
+    provides user-friendly ways to examine individual data items or groups in a data
+    set alongside analyses of metrics' performance on the whole data set, such as
+    clustering, multi-dimensional scaling, and retrieval performance analyses. VEMOS
+    aims to help researchers and practitioners evaluate multiple comparison metrics
+    on rich, diverse data sets.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -80,8 +95,6 @@ series:
   abbreviation:
     content: TN
   number: '2160'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

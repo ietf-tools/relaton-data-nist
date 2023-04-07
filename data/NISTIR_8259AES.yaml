@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8259Aes
 title:
-- content: Referencia básica de las capacidades de ciberseguridad de los dispositivos
+- content: Referencia b sica de las capacidades de ciberseguridad de los dispositivos
     de IoT
   language:
   - en
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-03-31'
+  value: '2020-05-29'
 contributor:
 - person:
     name:
@@ -46,7 +46,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Katerina N.
+        - content: Katerina N
           script:
           - Latn
       surname:
@@ -95,9 +95,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -105,9 +103,44 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-03-31'
+revdate: '2020-05-29'
 script:
 - Latn
+abstract:
+- content: Device cybersecurity capabilities are cybersecurity features or functions
+    that computing devices provide through their own technical means (i.e., device
+    hardware and software). This publication defines an Internet of Things (IoT) device
+    cybersecurity capability core baseline, which is a set of device capabilities
+    generally needed to support common cybersecurity controls that protect an organization
+    s devices as well as device data, systems, and ecosystems. The purpose of this
+    publication is to provide organizations a starting point to use in identifying
+    the device cybersecurity capabilities for new IoT devices they will manufacture,
+    integrate, or acquire. This publication can be used in conjunction with NISTIR
+    8259, Foundational Cybersecurity Activities for IoT Device Manufacturers.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: translatedFrom
+  bibitem:
+    id: NISTIR8259A
+    docid:
+    - id: NIST IR 8259A
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8259A
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: NISTIR8259
+    docid:
+    - id: NIST IR 8259
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8259
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -115,8 +148,6 @@ series:
   abbreviation:
     content: IR
   number: 8259Aes
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

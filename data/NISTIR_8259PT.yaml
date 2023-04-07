@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8259pt
 title:
-- content: Atividades Fundamentais de Cibersegurança para Fabricantes de Dispositivos
+- content: Atividades fundamentais de ciberseguran a para fabricantes de dispositivos
     IoT
   language:
   - en
@@ -46,7 +46,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Katerina N.
+        - content: Katerina N
           script:
           - Latn
       surname:
@@ -95,9 +95,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -108,6 +106,32 @@ contributor:
 revdate: '2021-03-31'
 script:
 - Latn
+abstract:
+- content: Internet of Things (IoT) devices often lack device cybersecurity capabilities
+    their customers-- organizations and individuals--can use to help mitigate their
+    cybersecurity risks. Manufacturers can help their customers by improving how securable
+    the IoT devices they make are by providing necessary cybersecurity functionality
+    and by providing customers with the cybersecurity-related information they need.
+    This publication describes recommended activities related to cybersecurity that
+    manufacturers should consider performing before their IoT devices are sold to
+    customers. These foundational cybersecurity activities can help manufacturers
+    lessen the cybersecurity-related efforts needed by customers, which in turn can
+    reduce the prevalence and severity of IoT device compromises and the attacks performed
+    using compromised devices.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: translatedFrom
+  bibitem:
+    id: NISTIR8259
+    docid:
+    - id: NIST IR 8259
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8259
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -115,8 +139,6 @@ series:
   abbreviation:
     content: IR
   number: 8259pt
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

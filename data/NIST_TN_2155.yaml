@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2155
 title:
-- content: 'The NIST IrisDaily Dataset: Description and Initial Analysis'
+- content: The NIST IrisDaily dataset :description and initial analysis
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: James R.
+        - content: James R
           script:
           - Latn
       surname:
@@ -43,9 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -56,6 +54,16 @@ contributor:
 revdate: '2021-05-04'
 script:
 - Latn
+abstract:
+- content: This paper describes a dataset, IrisDaily-NIST, that is under construction
+    by NIST. At the present, this dataset has (nearly) daily iris images of a single
+    subject collected with a commercial iris camera over a period of approximately
+    4 months. The purpose of the dataset is to enable evaluation of long and short
+    term variability in match scores under optimal conditions. We present initial
+    analysis of the data using two commercially available algorithms.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -63,8 +71,6 @@ series:
   abbreviation:
     content: TN
   number: '2155'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

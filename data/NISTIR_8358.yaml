@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8358
 title:
-- content: 'Deconstructing UML, Part 1: Modeling Classes with Categories'
+- content: Deconstructing UML, part 1 :modeling classes with categories
   language:
   - en
   script:
@@ -79,7 +79,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Ram D.
+        - content: Ram D
           script:
           - Latn
       surname:
@@ -94,18 +94,33 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
-        city: Gaithersburg,MD
+        city: Gaithersburg
+        state: MD
         country: US
   role:
   - type: publisher
 revdate: '2021-05-13'
 script:
 - Latn
+abstract:
+- content: In this paper we analyze elements of the Unified Modeling Language (UML),
+    specifically the class diagram, and propose an simplified alternative language
+    based on a branch of mathematics called category theory (CT). We argue that modeling
+    in CT provides a richer and more precise formal structure than UML, while still
+    supporting many of the intuitive and diagrammatic features which engineers appreciate
+    in UML. Deep ties connect CT to formal logic, physics and computer science, helping
+    to connect our CT-based models to simulation and implementation. We proceed by
+    walking through the constructs of the class diagram and showing how the same information
+    can be captured using CT constructions. As we do, we see that some UML constructs
+    are redundant while others smuggle in assumptions which ought to be made explicit.
+    Thus we argue that the use of CT in information modeling can make our models less
+    ambiguous, more precise and more formal.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -113,8 +128,6 @@ series:
   abbreviation:
     content: IR
   number: '8358'
-place:
-- Gaithersburg,MD
 doctype: standard
 ext:
   schema-version: v1.0.0

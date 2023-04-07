@@ -2,8 +2,8 @@
 schema-version: v1.2.3
 id: NISTSP1800-15
 title:
-- content: 'Securing Small-Business and Home Internet of Things (IoT) Devices: Mitigating
-    Network-Based Attacks Using Manufacturer Usage Description (MUD)'
+- content: Securing small-business and home internet of things (IoT) devices :mitigating
+    network-based attacks using manufacturer usage description (MUD)
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-05-25'
+  value: '2021-05-26'
 contributor:
 - person:
     name:
@@ -233,7 +233,7 @@ contributor:
     name:
       given:
         forename:
-        - content: William C.
+        - content: William C
           script:
           - Latn
       surname:
@@ -486,9 +486,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -496,9 +494,30 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-05-25'
+revdate: '2021-05-26'
 script:
 - Latn
+abstract:
+- content: The goal of the Internet Engineering Task Force's Manufacturer Usage Description
+    (MUD) specification is for Internet of Things (IoT) devices to behave as intended
+    by the manufacturers of the devices. MUD provides a standard way for manufacturers
+    to indicate the network communications that a device requires to perform its intended
+    function. When MUD is used, the network will automatically permit the IoT device
+    to send and receive only the traffic it requires to perform as intended, and the
+    network will prohibit all other communication with the device, thereby increasing
+    the device's resilience to network based attacks. In this project, the NCCoE demonstrated
+    the ability to ensure that when an IoT device connects to a home or small-business
+    network, MUD can automatically permit the device to send and receive only the
+    traffic it requires to perform its intended function. This NIST Cybersecurity
+    Practice Guide explains how MUD protocols and tools can reduce the vulnerability
+    of IoT devices to botnets and other network-based threats as well as reduce the
+    potential for harm from exploited IoT devices. It also shows IoT device developers
+    and manufacturers, network equipment developers and manufacturers, and service
+    providers who employ MUD-capable components how to integrate and use MUD to satisfy
+    IoT users' security requirements.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -506,8 +525,6 @@ series:
   abbreviation:
     content: SP
   number: 1800-15
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

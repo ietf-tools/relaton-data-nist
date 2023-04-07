@@ -22,11 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2019-07-19'
-- type: published
-  value: '2019-07-19'
-- type: confirmed
-  value: '2019-07-18'
+  value: '2021-06-01'
 contributor:
 - person:
     name:
@@ -64,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -74,23 +68,21 @@ contributor:
         country: US
   role:
   - type: publisher
-edition:
-  content: r1
-revdate: '2019-07-19'
+revdate: '2021-06-01'
 script:
 - Latn
+abstract:
+- content: 'Cryptography is often used in an information technology security environment
+    to protect data that is sensitive, has a high value, or is vulnerable to unauthorized
+    disclosure or undetected modification during transmission or while in storage.
+    Cryptography relies upon two basic components: an algorithm (or cryptographic
+    methodology) and a cryptographic key. This Recommendation discusses the generation
+    of the keys to be managed and used by the approved cryptographic algorithms.'
+  script:
+  - Latn
+  format: text/plain
 relation:
 - type: obsoletes
-  bibitem:
-    id: NISTSP800-133
-    docid:
-    - id: NIST SP 800-133
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-133
-      format: text/plain
-- type: editionOf
   bibitem:
     id: NISTSP800-133
     docid:
@@ -107,8 +99,6 @@ series:
   abbreviation:
     content: SP
   number: 800-133r1
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

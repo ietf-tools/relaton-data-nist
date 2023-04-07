@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTTN2083r1
 title:
-- content: The Thermal Character of a 1 m Methanol Pool Fire
+- content: The thermal character of a 1 m methanol pool fire
   language:
   - en
   script:
@@ -111,9 +111,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -124,6 +122,52 @@ contributor:
 revdate: '2021-06-15'
 script:
 - Latn
+abstract:
+- content: A series of measurements was conducted to characterize the structure of
+    a 1 m diameter methanol pool fire steadily burning with a constant lip height
+    in a well-ventilated quiescent environment. Time-averaged local measurements of
+    gas-phase temperature were conducted using 50 ?m diameter, Type S, bare wire,
+    thermocouples with a bead that was approximately spherical with a diameter of
+    about 150 ?m. The thermocouple bead temperature was corrected for radiative loss
+    and thermal inertia effects. The contribution of the radiative loss correction
+    and thermal inertia correction terms to uncertainty of the gas velocity was analyzed.
+    A simulation of the 1 m methanol pool fire was conducted using the Fire Dynamics
+    Simulator (FDS) to obtain the gas velocity distribution above the burner which
+    helped correct the thermocouple temperature measurement to obtain the gas temperature.
+    The gas temperature distribution profile above the burner centerline was compared
+    to previous studies of a 30 cm methanol fire. The maximum mean gas temperature
+    was 1371 K, which occurred 30 cm above the burner on the centerline. Careful analysis
+    determined that the average combined uncertainty of the mean and the standard
+    deviation of the measured gas temperature was 5 % and 26 %, respectively. The
+    actual heat release rate was measured using oxygen consumption calorimetry and
+    compared favorably with the ideal heat release rate calculated from the measured
+    mass burning rate. The heat flux distribution about the pool fire was measured
+    using fourteen wide-angle view, water-cooled, Gardon-type, total heat flux gauges.
+    The radiative emission from the fire was estimated by considering the radiative
+    heat flux through a virtual cylinder about the fire and by a single point estimate.
+    The radiative emission measurements coupled with the mass loss measurement allowed
+    determination of the radiative fraction, which was equal to 0.22 16 % and 0.20
+    34 % for the multi-location and single-location measurements, respectively. Flame
+    characteristics, such as, the mean flame height, pulsation frequency and the flame
+    instability near the fuel surface, were analyzed using the 30 Hz video record
+    of the fire. The mean flame height was measured as 1.10 m 0.22 m above the burner
+    rim and the puffing frequency was about 1.37 Hz, which was consistent with a Fourier
+    analysis of the transient thermocouple measurements (=1.39 Hz 0.013 Hz). The pool
+    surface temperature was measured to be nearly the fuel boiling point.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTTN2083
+    docid:
+    - id: NIST TN 2083
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST TN 2083
+      format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -131,8 +175,6 @@ series:
   abbreviation:
     content: TN
   number: 2083r1
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

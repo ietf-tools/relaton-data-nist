@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTIR8347
 title:
-- content: NIST Test Personal Identity Verification (PIV) Cards Version 2
+- content: NIST test personal identity verification (PIV) cards version 2
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: David A.
+        - content: David
           script:
           - Latn
       surname:
@@ -43,9 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -56,6 +54,19 @@ contributor:
 revdate: '2021-04-02'
 script:
 - Latn
+abstract:
+- content: In order to facilitate the development of applications and middleware that
+    support the Personal Identity Verification (PIV) Card, NIST has developed a set
+    of test PIV Cards and a supporting public key infrastructure (PKI). This set of
+    test cards includes not only examples that are similar to cards issued today but
+    also examples of cards with features that are expected to appear in cards that
+    will be issued in the future. This document provides an overview of the test cards,
+    the infrastructure that has been developed to support their use, and detailed
+    specifications for each test card and for each certificate issued by the test
+    PKI.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -63,8 +74,6 @@ series:
   abbreviation:
     content: IR
   number: '8347'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

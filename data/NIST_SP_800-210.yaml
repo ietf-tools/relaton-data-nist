@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: NISTSP800-210
 title:
-- content: General Access Control Guidance for Cloud Systems
+- content: General access control guidance for cloud systems
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Vincent C.
+        - content: Vincent C
           script:
           - Latn
       surname:
@@ -128,9 +128,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -141,6 +139,21 @@ contributor:
 revdate: '2020-07-31'
 script:
 - Latn
+abstract:
+- content: 'This document presents cloud access control characteristics and a set
+    of general access control guidance for cloud service models: IaaS (Infrastructure
+    as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service).
+    Different service delivery models require managing different types of access on
+    offered service components. Such service models can be considered hierarchical,
+    thus the access control guidance of functional components in a lower-level service
+    model are also applicable to the same functional components in a higher-level
+    service model. In general, access control guidance for IaaS is also applicable
+    to PaaS and SaaS, and access control guidance for IaaS and PaaS is also applicable
+    to SaaS. However, each service model has its own focus with regard to access control
+    requirements for its service.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -148,8 +161,6 @@ series:
   abbreviation:
     content: SP
   number: 800-210
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0
