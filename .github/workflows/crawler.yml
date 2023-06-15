@@ -21,3 +21,4 @@ jobs:
     uses: relaton/support/.github/workflows/crawler.yml@master
     with:
       args: ${{ github.event.inputs.args }}
+      commit-indexes: false
