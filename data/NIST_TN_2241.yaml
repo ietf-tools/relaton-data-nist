@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2241
 title:
-- content: Comparison of Two Approaches for Managing Building Flexibility Using Energy
-    Market Prices
+- content: Comparison of two approaches for managing building flexibility using energy
+    market prices
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-10-19'
 contributor:
 - person:
     name:
@@ -42,9 +42,43 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Farhad
+          script:
+          - Latn
+      surname:
+        content: Omar
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          script:
+          - Latn
+      surname:
+        content: Roth
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +86,41 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-10-19'
 script:
 - Latn
 abstract:
-- script:
+- content: Transactive energy may provide a way to support integration of customer
+    distributed energy resources (DER) into the electric grid and to help manage DER
+    flexibility to support distribution system and bulk grid needs. Use of DER flexibility
+    includes peak shifting in response to forward market prices, real-time regulation
+    in response to 5-minute prices, and, potentially, voltage regulation in response
+    to distribution nodal prices. The work presented here compares two approaches
+    for managing heat pump cooling to provide grid services. The first approach implements
+    a rule-based real-time controller that manages power consumption based on 5-minute
+    real-time prices. The second controller uses a model-based approach to optimize
+    load based on day-ahead hourly prices. These approaches are evaluated on two reference
+    grids using GridLAB-D with the same weather and price information. The real-time
+    controller reacts to a volatile price signal to reduce homeowner energy use and
+    energy costs. The model-based controller minimizes energy use by pre-cooling before
+    the price peak and allowing indoor temperature to drift up during peak price times.
+    The model-based controller strategy results in cost savings when temperatures
+    are allowed to move farther from the desired setpoint. Because this controller
+    does not respond to real-time price volatility, there are no cost savings during
+    sub-hourly real-time price spikes. Simulation results show both controllers adjusting
+    temperature setpoints in response to price movement, reducing customer cost while
+    staying within pre-defined comfort boundaries. These temperature adjustments resulted
+    in significant power flow volatility at the substation. The average power flow
+    change for the real-time controller, time step to time step, was approximately
+    10 % of the peak load. Some observed power flow changes were equivalent to simultaneously
+    turning off or on all price-responsive loads on the grid. This power flow volatility
+    resulted in voltage volatility at customer meters and greatly increased voltage
+    regulator and capacitor bank actions on one of the tested grids. Analysis suggests
+    that power flow volatility may be expected when many devices are price-responsive
+    and controllers have the goal of reducing cost without considering voltage. Care
+    must be taken to reduce the volatility of the price signal and boost hosting capacity
+    to support synchronized price response by a large percentage of load.
+  script:
   - Latn
   format: text/plain
 series:

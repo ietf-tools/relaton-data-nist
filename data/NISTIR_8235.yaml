@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8235
 title:
-- content: Security Guidance for First Responder Mobile and Wearable Devices
+- content: Security guidance for first responder mobile and wearable devices
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-07-20'
 contributor:
 - person:
     name:
@@ -38,12 +38,63 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Scott
+          script:
+          - Latn
+      surname:
+        content: Ledgerwood
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kevin G
+          script:
+          - Latn
+      surname:
+        content: Brady Jr.
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Donald
+          script:
+          - Latn
+      surname:
+        content: Harriss
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +102,22 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-07-20'
 script:
 - Latn
 abstract:
-- script:
+- content: Public safety officials utilizing the forthcoming public safety broadband
+    networks will have access to devices, such as mobile devices, tablets and wearables.
+    These devices offer new ways for first responders to complete their missions but
+    may also introduce new security vulnerabilities to their work environment. To
+    investigate this impact, the security objectives identified in NIST Interagency
+    Report (NISTIR) 8196, Security Analysis of First Responder Mobile and Wearable
+    Devices, were used to scope the analysis of public safety mobile and wearable
+    devices and the current capabilities that meet those security objectives. The
+    ultimate goal of this effort is to provide guidance that enables jurisdictions
+    to select and purchase secure devices and assist industry to design and build
+    secure devices tailored to the needs of first responders.
+  script:
   - Latn
   format: text/plain
 series:

@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8428
 title:
-- content: Digital Forensics and Incident Response (DFIR) Framework for Operational
+- content: Digital Forensics and Incident Response (DFIR) framework for Operational
     Technology (OT)
   language:
   - en
@@ -39,7 +39,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Communications Technology Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - person:
@@ -56,14 +56,12 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Communications Technology Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -74,6 +72,17 @@ contributor:
 revdate: '2022-06-22'
 script:
 - Latn
+abstract:
+- content: This document provides a new Incident Handling framework dedicated to Operational
+    Technology. This framework expands the traditional technical steps by giving an
+    Incident Response procedure based on the event escalation and provides techniques
+    for OT Digital Forensics. It includes an overview with general terms explanation
+    and a list of unique properties of OT DFIR, the preparation that should be done
+    to establish an OT Incident Response Team, and finally, the suggested OT Incident
+    Handling framework in detail.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -81,8 +90,6 @@ series:
   abbreviation:
     content: IR
   number: '8428'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

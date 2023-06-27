@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-204B
 title:
-- content: Attribute-based Access Control for Microservices-based Applications Using
-    a Service Mesh
+- content: Attribute-based access control for microservices-based applications using
+    a service mesh
   language:
   - en
   script:
@@ -78,9 +78,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -91,6 +89,24 @@ contributor:
 revdate: '2021-08-06'
 script:
 - Latn
+abstract:
+- content: Deployment architecture in cloud-native applications now consists of loosely
+    coupled components, called microservices, with all application services provided
+    through a dedicated infrastructure, called a service mesh, independent of the
+    application code. Two critical security requirements in this architecture are
+    to build (1) the concept of zero trust by enabling mutual authentication in communication
+    between any pair of services and (2) a robust access control mechanism based on
+    an access control such as attribute-based access control (ABAC) that can be used
+    to express a wide set of policies and is scalable in terms of user base, objects
+    (resources), and deployment environment. This document provides deployment guidance
+    for building an authentication and authorization framework within the service
+    mesh that meets these requirements. A reference platform for hosting the microservices-based
+    application and a reference platform for the service mesh are included to illustrate
+    the concepts in the recommendations and provide the context in terms of the components
+    used in real-world deployments.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -98,8 +114,6 @@ series:
   abbreviation:
     content: SP
   number: 800-204B
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

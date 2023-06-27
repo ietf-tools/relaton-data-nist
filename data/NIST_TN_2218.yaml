@@ -2,8 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2218
 title:
-- content: 'DeepFit:automated distribution fitting for building stochastic modelsDeepFit:
-    automated distribution fitting for building stochastic models'
+- content: DeepFit :automated distribution fitting for building stochastic models
   language:
   - en
   script:
@@ -23,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-04-22'
 contributor:
 - person:
     name:
@@ -42,9 +41,60 @@ contributor:
         - content: Communications Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alan
+          script:
+          - Latn
+      surname:
+        content: Heckert
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Abdella
+          script:
+          - Latn
+      surname:
+        content: Battou
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Saddek
+          script:
+          - Latn
+      surname:
+        content: Bensalem
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +102,29 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-04-22'
 script:
 - Latn
 abstract:
-- script:
+- content: 'Statistical model checking (SMC) is a formal verification method that
+    combines simulations with statistical techniques to provide quantitative answers
+    on whether a stochastic system satisfies some requirements with a controllable
+    accuracy. SMC takes three inputs: a stochastic model, a linear-time/Metric Temporal
+    Logic property to verify and a set of required confidence parameters. The stochastic
+    model is generally obtained by modeling the functional behavior of a system then
+    adding probabilistic variables to it, which are updated via probability distributions
+    (PD). The latter is, typically, obtained by analyzing measurements from the system''s
+    execution using statistical tests to select the best fit distribution. However,
+    this task requires a good statistical background and familiarity with several
+    distributions which is beyond the expertise of some analysts. Hence, in the case
+    of SMC, assuming an incorrect distributional model for the data can lead to inappropriate
+    statistical analysis as well as inaccurate verification of the system under study.
+    As such, this paper presents DeepFit, a tool that uses deep learning in addition
+    to traditional statistics to automate the distributional modeling process. DeepFit
+    was evaluated against synthetic data and real world data and it can perform comparably
+    to using maximum likelihood estimation with an Anderson-Darling, Kolmogorov-smirnov
+    and Probability plot correlation coefficient plot goodness of fit tests.'
+  script:
   - Latn
   format: text/plain
 series:

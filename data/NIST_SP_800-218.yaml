@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-218
 title:
-- content: 'Secure Software Development Framework (SSDF) Version 1.1: (Draft)Recommendations
-    for Mitigating the Risk of Software Vulnerabilities'
+- content: Secure Software Development Framework (SSDF) version 1.1 :recommendations
+    for mitigating the risk of software vulnerabilities
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2022-02
+  value: '2022-02-03'
 contributor:
 - person:
     name:
@@ -78,9 +78,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -88,9 +86,25 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: 2022-02
+revdate: '2022-02-03'
 script:
 - Latn
+abstract:
+- content: Few software development life cycle (SDLC) models explicitly address software
+    security in detail, so secure software development practices usually need to be
+    added to each SDLC model to ensure that the software being developed is well-secured.
+    This document recommends the Secure Software Development Framework (SSDF) a core
+    set of high-level secure software development practices that can be integrated
+    into each SDLC implementation. Following such practices should help software producers
+    reduce the number of vulnerabilities in released software, mitigate the potential
+    impact of the exploitation of undetected or unaddressed vulnerabilities, and address
+    the root causes of vulnerabilities to prevent future recurrences. Because the
+    framework provides a common vocabulary for secure software development, software
+    acquirers can also use it to foster communications with suppliers in acquisition
+    processes and other management activities.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -98,8 +112,6 @@ series:
   abbreviation:
     content: SP
   number: 800-218
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

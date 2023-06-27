@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP800-108r1
 title:
-- content: Recommendation for Key Derivation Using Pseudorandom Functions
+- content: Recommendation for key derivation using pseudorandom functions
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-08-17'
 contributor:
 - person:
     name:
@@ -43,7 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,13 +51,28 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-08-17'
 script:
 - Latn
 abstract:
-- script:
+- content: 'This Recommendation specifies techniques for the derivation of additional
+    keying material from a secret key either established through a key-establishment
+    scheme or shared through some other manner using pseudorandom functions: HMAC,
+    CMAC, and KMAC.'
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-108
+    docid:
+    - id: NIST SP 800-108
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-108
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)

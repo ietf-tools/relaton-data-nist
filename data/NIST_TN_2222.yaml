@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2222
 title:
-- content: Agile Robotic Planning with Gwendolen
+- content: Agile robotic planning with Gwendolen
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-31'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: John L
+        - content: John
           script:
           - Latn
       surname:
@@ -41,9 +41,60 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Craig
+          script:
+          - Latn
+      surname:
+        content: Schlenoff
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Rafael C
+          script:
+          - Latn
+      surname:
+        content: Cardoso
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Fisher
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +102,31 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-31'
 script:
 - Latn
 abstract:
-- script:
+- content: The future of robotics foresees autonomous behavior that can complete tasks
+    intelligently, with a focus on adaptability, flexibility, and versatility. In
+    such systems, it is critical for robots to quickly and safely perform an operation.
+    However, such aptitude is not limited to the speed of solving tasks, but also
+    requires other qualities such as adeptly detecting and recovering from task irregularities,
+    overcoming unforeseen task barriers by replanning to achieve stated goals, and
+    adroitly adapting to dynamic environments such as changing light illumination,
+    noisy sensors, or unexpected conditions. These intelligent characteristics define
+    robot agility (not to be confused with robot agility akin to dexterity), and refer
+    to approaches that allow robotic systems to be flexible and capable of re-tasking
+    in the face of a changing and often unpredictable environment. Because robot task
+    agility requires sophisticated dynamic and continuous planning and replanning,
+    the Gwendolen intelligent agent programming language is studied as a high-level
+    robot planner. In this report, we develop a manufacturing kitting case study to
+    research the operation of Gwendolen planning. The case study uses the combination
+    of Gwendolen, Canonical Robot Command Language (CRCL), Robot Operating System
+    (ROS), and Gazebo software components to simulate and evaluate robot planning.
+    Several Agile Robotics for Industrial Applications Competition (ARIAC) kitting
+    agility challenges are used to evaluate Gwendolen planning under various levels
+    of operational duress. Both the benefits and shortcomings will be reviewed.
+  script:
   - Latn
   format: text/plain
 series:

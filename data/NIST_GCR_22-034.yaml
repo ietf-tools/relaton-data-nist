@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTGCR22-034
 title:
-- content: Recommendations for Voting System Interoperability
+- content: Gap analysis for key interoperability scenarios in election technology
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-08-01'
 contributor:
 - person:
     name:
@@ -32,7 +32,7 @@ contributor:
           script:
           - Latn
       surname:
-        content: Dziurłaj
+        content: Dziurlaj
         script:
         - Latn
     affiliation:
@@ -43,7 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +51,25 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-08-01'
 script:
 - Latn
 abstract:
-- script:
+- content: There is currently no common data format for ballot styles and associated
+    use-cases. This white paper investigates this and other potential interoperability
+    gaps within the voting system in a holistic manner, by considering previous voting
+    interoperability work and how it fits within thirteen key functions of a voting
+    system. Gap analysis is performed by identifying data flows that cross functions,
+    functions that might cross component boundaries and thus may significantly benefit
+    from common data interfaces. Each data flow identified as significant for interoperability
+    is treated in detail, describing the potential benefits of supporting interoperable
+    interfaces in voting system components and a roadmap to their development. The
+    gap analysis shows lack of support for data flows that involve ballot data, particularly
+    ballot styles. These gaps preclude effective componentization of voting system
+    devices such as ballot marking devices, election management systems and scanners.
+    Identified solutions include standardization of ballot components, such as barcodes,
+    and development of a ballot styles common data format.
+  script:
   - Latn
   format: text/plain
 series:

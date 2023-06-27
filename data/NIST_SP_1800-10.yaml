@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP1800-10
 title:
-- content: 'Protecting Information and System Integrity in Industrial Control System
-    Environments: Cybersecurity for the Manufacturing Sector'
+- content: Protecting information and system integrity in industrial control system
+    environments :cybersecurity for the manufacturing sector
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022-03-15'
+  value: '2022-03-16'
 contributor:
 - person:
     name:
@@ -231,9 +231,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -241,9 +239,31 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022-03-15'
+revdate: '2022-03-16'
 script:
 - Latn
+abstract:
+- content: 'Today''s manufacturing organizations rely on industrial control systems
+    (ICS) to conduct their operations. Increasingly, ICS are facing more frequent,
+    sophisticated cyber attacks making manufacturing the second-most-targeted industry.
+    Cyber attacks against ICS threaten operations and worker safety, resulting in
+    financial loss and harm to the organization''s reputation. The architecture and
+    solutions presented in this guide are built upon standards-based, commercially
+    available products, and represent some of the possible solutions. The solutions
+    implement standard cybersecurity capabilities such as behavioral anomaly detection
+    (BAD), application allowlisting (AAL), file integrity-checking, change control
+    management, and user authentication and authorization. The solution was tested
+    in two distinct lab settings: a discrete manufacturing workcell, which represents
+    an assembly line production, and a continuous process control system (PCS), which
+    represents chemical manufacturing industries. An organization that is interested
+    in protecting the integrity of a manufacturing system and information from destructive
+    malware, insider threats, and unauthorized software should first conduct a risk
+    assessment and determine the appropriate security capabilities required to mitigate
+    those risks. Once the security capabilities are identified, the sample architecture
+    and solution presented in this document may be used.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -251,8 +271,6 @@ series:
   abbreviation:
     content: SP
   number: 1800-10
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

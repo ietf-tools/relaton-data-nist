@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2181
 title:
-- content: Load Forecasting Tool for NIST Transactive Energy Market
+- content: Load forecasting tool for NIST transactive energy market
   language:
   - en
   script:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,33 @@ contributor:
 revdate: '2021-09-27'
 script:
 - Latn
+abstract:
+- content: Customers and transactive energy (TE) market managers may rely on load
+    forecasting algorithms to purchase or sell power in a forward market environment,
+    using day-ahead and real-time pricing structures. Accurate load forecasting becomes
+    necessary when a local controller or aggregator interacts with a market to purchase
+    energy for future use. This study introduces a load forecasting tool (LFT) that
+    estimates the next-day energy consumption of residential house models in GridLAB
+    D. The LFT is an integral part of the National Institute of Standards and Technology
+    (NIST) TE simulation testbed which provides a platform for conducting TE experiments.
+    The LFT is comprised of two main components, a learning algorithm and a load forecasting
+    algorithm utilizing a first-order lumped capacitance model to forecast the next
+    day indoor temperature and energy consumption. The lumped capacitance model simulates
+    the thermal characteristics of a residential house in response to heat gains or
+    losses due to the heat pump operation and other environmental conditions, such
+    as outdoor air temperature and solar irradiance. The learning algorithm uses simulated
+    indoor temperature from GridLAB-D and historical weather data for Tucson Arizona
+    to estimate critical parameters of a residential house such as thermal time constant,
+    solar heat gain coefficient, effective window area, and the heat pump coefficient
+    of performance. The load forecasting algorithm utilizes these parameters to optimize
+    the operation of a residential heat pump while minimizing cost and maintaining
+    thermal comfort. The load forecasting algorithm resulted in average energy savings
+    of 9.4 % and average cost savings of 19.4 % compared to simulated baseline energy
+    consumption in GridLAB-D. The LFT s forecast temperature and energy consumption
+    profiles have been integrated into a co-simulation experiment for validation.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -80,8 +105,6 @@ series:
   abbreviation:
     content: TN
   number: '2181'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

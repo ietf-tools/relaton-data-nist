@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8380
 title:
-- content: Aerial LTE Demonstration Report
+- content: Aerial LTE demonstration report
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Maxwell K.
+        - content: Maxwell K
           script:
           - Latn
       surname:
@@ -45,7 +45,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Samuel L.
+        - content: Samuel L
           script:
           - Latn
       surname:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,19 @@ contributor:
 revdate: '2021-07-14'
 script:
 - Latn
+abstract:
+- content: In this paper, we investigate a Long Term Evolution (LTE) network mounted
+    on an airborne small unmanned aircraft system (sUAS) to provide broadband connectivity
+    to smartphone devices on the ground. The use case is a public safety scenario
+    where users require broadband connectivity in an isolated area. We evaluate practical
+    constraints for the delivery platform and the LTE system. We propose research
+    questions on how the orbit of a fixed-wing sUAS would affect the coverage area
+    provided by the airborne small cell, and we describe the test plan used to investigate
+    our questions. We present data on multiple field experiments and provide recommendations
+    for future realistic deployments.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -80,8 +91,6 @@ series:
   abbreviation:
     content: IR
   number: '8380'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

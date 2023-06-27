@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP260-227
 title:
-- content: Certification of Standard Reference Material® 3461 Reference Cantilevers
-    for AFM Spring Constant Calibration
+- content: Certification of Standard Reference Material 3461 reference cantilevers
+    for AFM spring constant calibration
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-08-15'
 contributor:
 - person:
     name:
@@ -42,9 +42,77 @@ contributor:
         - content: Material Measurement Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: William A
+          script:
+          - Latn
+      surname:
+        content: Osborn
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mark J
+          script:
+          - Latn
+      surname:
+        content: McLean
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Gordon A
+          script:
+          - Latn
+      surname:
+        content: Shaw
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: James J
+          script:
+          - Latn
+      surname:
+        content: Filliben
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +120,29 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-08-15'
 script:
 - Latn
 abstract:
-- script:
+- content: A batch of 94 silicon chips containing arrays of uniform rectangular cantilevers
+    were microfabricated from a single silicon wafer and their stiffnesses and resonance
+    frequencies calibrated using a laser Doppler vibrometer (LDV). The cantilevers
+    are 50 m wide, (about the width of a human hair), and vary in length from 600
+    m to 300 m. They have stiffness values nominally ranging from 0.03 N/m to 0.2
+    N/m and nominal first flexural resonance frequencies in the range of 5 kHz to
+    21 kHz respectively. The LDV cantilever stiffness calibration measurements proved
+    very reliable and combined expanded uncertainties better than 3% in stiffness
+    were obtained for individual devices. These devices can be used as reference artifacts
+    to validate atomic force microscopy (AFM) cantilever stiffness measurement methods
+    as well as directly calibrating AFM test cantilever stiffness using the reference
+    cantilever method. This NIST SP-260 provides details on the source and preparation
+    of the devices as well as the analytical approach of using a laser Doppler vibrometer
+    to accurately measure both stiffness (k), resonance frequency (f0), and Quality
+    factor (Q) of each cantilever. The statistical analysis applied to the data sets
+    is described. An example of the reference cantilever method is also provided for
+    individuals wishing to use these devices to make direct calibrations of AFM test
+    cantilevers.
+  script:
   - Latn
   format: text/plain
 series:

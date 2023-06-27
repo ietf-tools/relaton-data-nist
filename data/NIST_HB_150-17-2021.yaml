@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTHB150-17-2021
 title:
-- content: NVLAP Cryptographic and Security Testing
+- content: NVLAP cryptographic and security testing
   language:
   - en
   script:
@@ -38,24 +38,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Beverly
-          script:
-          - Latn
-      surname:
-        content: Trapnell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+        - content: Laboratory Programs
   role:
   - type: author
 - person:
@@ -72,7 +55,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology
+        - content: Laboratory Programs
   role:
   - type: author
 - person:
@@ -89,14 +72,46 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology
+        - content: Laboratory Programs
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bradley
+          script:
+          - Latn
+      surname:
+        content: Moore
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Laboratory Programs
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Beverly
+          script:
+          - Latn
+      surname:
+        content: Trapnell
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Laboratory Programs
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +122,33 @@ contributor:
 revdate: '2021-06-30'
 script:
 - Latn
+abstract:
+- content: NIST Handbook 150-17 presents the technical requirements and guidance for
+    the accreditation of laboratories under the National Voluntary Laboratory Accreditation
+    Program (NVLAP) Cryptographic and Security Testing (CST) program. It is intended
+    for information and use by accredited laboratories, laboratories seeking accreditation,
+    laboratory accreditation systems, users of laboratory services, and others needing
+    information on the requirements for accreditation under this program. The March
+    2021 edition of NIST Handbook 150-17 includes a consolidation of the Cryptographic
+    Modules test methods (17/CM), revisions for alignment with FIPS 140-3, as well
+    as editorial improvements. The requirements of NIST Handbook 150 and the specific
+    requirements and interpretations in NIST Handbook 150-17 must be combined to produce
+    the criteria for accreditation in the NVLAP Cryptographic and Security Testing
+    (CST) program. For more information, visit the NVLAP website.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTHB150-17;106028-NISTHB150-17-2020
+    docid:
+    - id: NIST HB 150-17; 10 6028/NIST HB 150-17-2020
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST HB 150-17; 10 6028/NIST HB 150-17-2020
+      format: text/plain
 series:
 - title:
     content: NIST Handbooks
@@ -114,8 +156,6 @@ series:
   abbreviation:
     content: HB
   number: 150-17-2021
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2060
 title:
-- content: 'BGP Secure Routing Extension (BGP-SRx): Reference Implementation and Test
-    Tools for Emerging BGP Security Standards'
+- content: BGP secure routing extension (BGP-SRx) :reference implementation and test
+    tools for emerging BGP security standards
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-09-15'
+  value: '2021-07-22'
 contributor:
 - person:
     name:
@@ -129,9 +129,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -139,9 +137,29 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-09-15'
+revdate: '2021-07-22'
 script:
 - Latn
+abstract:
+- content: In this paper, we first describe the problem space. Following that, we
+    describe the design and implementation of the NIST reference implementation for
+    RPKI-based route origin validation (BGP-OV) and BGPsec path validation (BGP-PV)
+    within a BGP router. The system we developed is called BGP Secure Routing Extension
+    (BGP-SRx). We describe the system design, explain the design choices, communications
+    between all components, and present the performance measurements obtained during
+    the implementation stages. This paper is organized so that it first explains the
+    high-level system design with a brief explanation of all components and how they
+    interact. We will explain why we chose this design and provide a discussion of
+    its benefits as well as shortcomings. Furthermore, we show which open-source components
+    we chose and how we extended them for this project. The BGP-SRx implementation
+    is a reference implementation for RPKI-OV with all its router side components
+    as specified in RFC 6811, RFC 6810, and RFC 8210 as well as for BGPsec path validation
+    as specified in RFC 8205 and RFC 8608. The implementation allowed early identification
+    of issues while the specifications were still under development, hence provided
+    important feedback to the development of the different IETF RFCs.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -149,8 +167,6 @@ series:
   abbreviation:
     content: TN
   number: '2060'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

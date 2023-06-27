@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8381
 title:
-- content: 'Face Recognition Vendor Test (FRVT) Part 7: Identification for Paperless
-    Travel and Immigration'
+- content: Face recognition vendor test (FRVT) part 7 :identification for paperless
+    travel and immigration
   language:
   - en
   script:
@@ -95,9 +95,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -108,6 +106,28 @@ contributor:
 revdate: '2021-07-13'
 script:
 - Latn
+abstract:
+- content: 'One-to-many biometric search systems are discussed in their role of positive
+    and negative identification - the former refers to the expectation that person
+    in a probe sample is present in the database (as in access to an office) while
+    the latter presumes the person is not (as in compulsive gamblers entering a casino).
+    The distinction is useful because the application differ in their tolerance for
+    false negatives and false positives. This report addresses the positive use of
+    one-to-many facial recognition in airport transit settings in which travelers''
+    faces are matched against galleries of individuals expected to be present. We
+    primarily consider the case where face recognition serves double-duty for access
+    control (to an aircraft) and facilitation (of recording a visa-holder''s exit).
+    This report summarizes three NIST activities: First, to describe the biometric
+    aspects of the immigration exit application and factors that are expected to affect
+    its performance; second, to document results from running offline simulations
+    in which recent accurate face recognition algorithms are applied to actual ENTRY
+    and EXIT images with the goals of establishing a methodology, estimating accuracy,
+    and exposing some factors that will affect those estimates; third to consider
+    whether the use of face recognition at other airport touchpoints airport where
+    higher populations are expected.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -115,8 +135,6 @@ series:
   abbreviation:
     content: IR
   number: '8381'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2217
 title:
-- content: IEC 61850 Profile for Distributed Energy Resources Supporting IEEE 1547
+- content: IEC 61850 profile for distributed energy resources supporting IEEE 1547
   language:
   - en
   script:
@@ -28,11 +28,96 @@ contributor:
     name:
       given:
         forename:
-        - content: Oral
+        - content: Hasan Giray
           script:
           - Latn
       surname:
-        content: Hasan Giray
+        content: Oral
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Dhananjay
+          script:
+          - Latn
+      surname:
+        content: Anand
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Cuong
+          script:
+          - Latn
+      surname:
+        content: Nguyen
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Avi
+          script:
+          - Latn
+      surname:
+        content: Gopstein
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christoph
+          script:
+          - Latn
+      surname:
+        content: Brunner
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alexander
+          script:
+          - Latn
+      surname:
+        content: Apostolov
         script:
         - Latn
     affiliation:
@@ -43,9 +128,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -56,6 +139,19 @@ contributor:
 revdate: '2022-05-04'
 script:
 - Latn
+abstract:
+- content: This document provides an IEC 61850 profile for a Distributed Energy Resource
+    supporting IEEE 1547 and the grid support functions therein. The profile utilizes
+    the IEC 61850 data object model and maps the requirements of IEEE 1547 to the
+    data object model for the integration of DERs in the electric power system. By
+    establishing a required subset of data objects and data attributes from the IEC
+    61850 model, the profile reduces model complexity and aims to improve the interoperability,
+    and the engineering, testing and maintenance of IEC 61850 based protection, automation
+    and control systems. A description of how the profile maps the IEEE 1547 requirements
+    to the required IEC 61850 data objects is provided and use case examples are given.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -63,8 +159,6 @@ series:
   abbreviation:
     content: TN
   number: '2217'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

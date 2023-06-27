@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2233
 title:
-- content: Validation of and Optimization with a Vapor Compression Cycle Model Accounting
-    for Refrigerant Thermodynamic and Transport Properties
+- content: Validation of and optimization with a vapor compression cycle model accounting
+    for refrigerant thermodynamic and transport properties
   language:
   - en
   script:
@@ -23,13 +23,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-09-02'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Harrison M
+        - content: Harrison
           script:
           - Latn
       surname:
@@ -42,9 +42,77 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Piotr
+          script:
+          - Latn
+      surname:
+        content: Domanski
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Riccardo
+          script:
+          - Latn
+      surname:
+        content: Brignoli
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Sanghun
+          script:
+          - Latn
+      surname:
+        content: Lee
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Heunghee
+          script:
+          - Latn
+      surname:
+        content: Bae
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +120,31 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-09-02'
 script:
 - Latn
 abstract:
-- script:
+- content: 'CYCLE_D-HX is a semi-theoretical model that simulates the performance
+    of a vapor-compression cycle with forced-convection heat exchangers for specified
+    temperature profiles of the heat source and heat sink. In this study, we validated
+    CYCLE_D-HX using experimental measurements from a small (< 4 kW capacity) heat
+    pump test apparatus operated in cooling mode. We also applied the model to simulate
+    the performance of selected refrigerants in a system with optimized refrigerant
+    circuitries in the evaporator and condenser. The tested refrigerants included
+    the medium-pressure refrigerant R-134a and candidate replacements with a lower
+    global-warming potential (GWP): R-513A, R-450A, R-134a/1234yf/1234ze(E) (49.2/33.8/17.0
+    mass %), R-515B, and R-1234yf. We also tested high-pressure refrigerant R-410A
+    and candidate replacements with lower-GWP: R-32, R-452B, and R-454B. The model
+    generally agreed with experimental results, with COP and Qvol overpredicted by
+    (0 to 3) % for the basic cycle, and by (0 to 5) % for the cycle with the liquid-line/suction-line
+    heat exchanger (LLSL-HX). Simulations with equal compressor efficiency and optimized
+    tube circuitry showed the COP spread among medium-pressure refrigerants could
+    be reduced to 3 % with proper design, compared to (12 to 33) % from the experiments.
+    In optimized systems, the high-pressure refrigerants'' COP was (1 to 6) % higher
+    than the COP of the medium-pressure refrigerants. The LLSL-HX improved performance
+    of refrigerants with high molar heat capacity (here, the medium-pressure refrigerants)
+    by (1.0 to 1.5) %.'
+  script:
   - Latn
   format: text/plain
 series:

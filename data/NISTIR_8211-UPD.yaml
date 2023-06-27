@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8211-upd
 title:
-- content: New Software for the Statistical Analysis and Qualification of NIST Charpy
-    Verification Specimen Lots
+- content: New software for the statistical analysis and qualification of NIST Charpy
+    verification specimen lots
   language:
   - en
   script:
@@ -44,9 +44,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -57,6 +55,33 @@ contributor:
 revdate: '2021-12-06'
 script:
 - Latn
+abstract:
+- content: New software, in the form of Microsoft Excel 2016 spreadsheets, has been
+    created for the analysis and qualification of Charpy Verification Lots, to be
+    used by personnel of the Charpy Verification Program at NIST in Boulder, Colorado.
+    The new spreadsheets replace the previously used statistical software (in SYSTAT
+    and R-code), adding a more detailed outlier analysis. Of the two spreadsheet templates,
+    the first one assesses the acceptability of a Charpy pilot or production lot by
+    calculating its sample size and identifying statistical outliers. The second spreadsheet
+    establishes the reference value of absorbed energy and the associated uncertainty
+    for the whole Charpy Verification Lot. Both spreadsheets have been checked and
+    validated against calculations performed on several lots by means of the previously
+    used R-language codes, which had been prepared by Jolene Splett of the Statistical
+    Engineering Division of NIST.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTIR8211
+    docid:
+    - id: NIST IR 8211
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8211
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -64,8 +89,6 @@ series:
   abbreviation:
     content: IR
   number: 8211-upd
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

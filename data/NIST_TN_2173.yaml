@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2173
 title:
-- content: Validation Capabilities of the NIST Campus Power System to Evaluate Distributed
-    Control of Grid-Edge Distributed Energy Resources
+- content: Validation capabilities of the NIST campus power system to evaluate distributed
+    control of grid-edge distributed energy resources
   language:
   - en
   script:
@@ -112,9 +112,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -125,6 +123,31 @@ contributor:
 revdate: '2021-08-11'
 script:
 - Latn
+abstract:
+- content: This report outlines NIST s validation tools, developed to help address
+    the smart grid semergent needs and complement research and standards coordination
+    efforts. Rapid ad-vances have enabled an opportunity for the grid to autonomously
+    and simultaneously con-trol generation, balance load, and regulate power quality.
+    The grid will need this coordi-nated control to regulate power voltage, in real-
+    time, to meet fast-changing power demands,especially with increasing distributed
+    energy resources. To do this, the grid needs mea- surements from across the distribution
+    network to accurately assess demand and preventnegative impacts. It also needs
+    improved situational awareness, which Advanced MeteringInfrastructure (AMI) and
+    other technologies can enable. Moreover, lessons from AMI usecan aid research
+    and development of a coordinated control system. Additionally, such acoordinated
+    control system depends a new operating paradigm with new two-way infor-mation
+    flows between aspects of the grid, or domains. NIST offers such a paradigm in
+    itsSmart Grid Framework 4.0.In going forward, industry has concerns which must
+    be addressed. Distribution systemoperators (DSO) need centralized functions to
+    coordinate distributed assets. To imple-ment such centralization, DSOs need an
+    understanding of bandwidth, security and integrityconsiderations, while also ensuring
+    performances at the grid s edges. Industry is also con-cerned with how to represent
+    uncertainties in a complex cyber-physical system, like latencyand cyber- vulnerabilities.And,
+    industry is concerned that standards are focused more on de-vices, than on coordinated
+    control systems.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -132,8 +155,6 @@ series:
   abbreviation:
     content: TN
   number: '2173'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

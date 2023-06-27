@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTAMS100-45r1
 title:
-- content: Performance Measurement of a Mobile Manipulator-on-a-Cart and Coordinate
-    Registration Methods for Manufacturing Applications
+- content: Performance measurement of a mobile manipulator-on-a-cart and coordinate
+    registration methods for manufacturing applications
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-04-06'
 contributor:
 - person:
     name:
@@ -42,9 +42,60 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Roger
+          script:
+          - Latn
+      surname:
+        content: Bostelman
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Ya-Shian
+          script:
+          - Latn
+      surname:
+        content: Li-Baboud
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mili
+          script:
+          - Latn
+      surname:
+        content: Shah
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,13 +103,43 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-04-06'
 script:
 - Latn
 abstract:
-- script:
+- content: Mobile manipulators, which consist of a robotic manipulator arm on a vehicular
+    base, enable more flexible and dynamic workflows in manufacturing processes by
+    freeing the manipulator arm from the restriction of working on a single, calibrated
+    workspace. A mobile manipulator-on-cart further enhances job concurrency since
+    the manipulator arm is mounted to a detachable cart rather than directly to the
+    vehicle payload structure. With this increase in flexibility, there is a need
+    to understand new sources of position and orientation uncertainty. This uncertainty
+    can degrade the accuracy and precision of the mobile manipulator position and
+    orientation in addition to the coordination capability between the manipulator
+    and vehicle. To facilitate performance evaluation and uncertainty characterization,
+    the National Institute of Standards and Technology (NIST) has developed an artifact-based
+    measurement methodology for mobile manipulator-on-a-cart systems. The artifact,
+    which is re-configurable, simulates mock-assembly tasks for manufacturing applications,
+    and is compared to a ground truth consisting of an optical tracking system (OTS).
+    This report documents experimental procedures, data analysis methods, and results
+    in measuring the performance of the manipulator-on-a-cart system. The speed and
+    accuracy of two example coordinate registration techniques to be used by the mobile
+    manipulator-on-a-cart to reduce position and orientation uncertainty are also
+    compared.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTAMS100-45
+    docid:
+    - id: NIST AMS 100-45
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST AMS 100-45
+      format: text/plain
 series:
 - title:
     content: NIST Advanced Manufacturing Series

@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTAMS100-46
 title:
-- content: Design and Application of the Reconfigurable Mobile Manipulator Artifact
+- content: Design and application of the Reconfigurable Mobile Manipulator Artifact
     (RMMA)
   language:
   - en
@@ -23,13 +23,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-08-30'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Roger V
+        - content: Roger
           script:
           - Latn
       surname:
@@ -42,9 +42,60 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Omar
+          script:
+          - Latn
+      surname:
+        content: Aboul-Enein
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Soocheol
+          script:
+          - Latn
+      surname:
+        content: Yoon
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Ya-Shian
+          script:
+          - Latn
+      surname:
+        content: Li-Baboud
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +103,28 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-08-30'
 script:
 - Latn
 abstract:
-- script:
+- content: Robot arms onboard mobile bases, or mobile manipulators, are advancing
+    and measurement of these systems is critical for robust safety and performance.
+    As mobile manipulators flexibly fixture (i.e., do not fasten) to a worktable or
+    object, they require advanced systems to measure how well they can perform tasks,
+    such as assembly or inspection. The National Institute of Standards and Technology
+    (NIST) has developed a measurement concept that uses the NIST-designed, Reconfigurable
+    Mobile Manipulator Artifact (RMMA) as the worktable/object. The RMMA includes
+    fiducials with relatively high uncertainty, as compared to the mobile manipulator
+    pose performance, that are measured using a mobile manipulator wielded camera
+    or laser retroreflector sensor as the end-effector. The intent of developing the
+    RMMA is for mobile manipulator manufacturers, users, and researchers to perform
+    in-situ measurement during production or research for frequent system calibration.
+    This paper describes the RMMA design and past RMMA evaluation using an automatic
+    guided vehicle and a mobile robot, each supporting a six degree-of-freedom industrial
+    robot arm, and RMMA/mobile manipulator ground truth measurement using an optical
+    tracking system, also with relatively high uncertainty as compared to the mobile
+    manipulator.
+  script:
   - Latn
   format: text/plain
 series:

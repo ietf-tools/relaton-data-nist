@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2229
 title:
-- content: Tensile Tests at 77 K and 4 K on 316L Stainless Steel Welded Plates
+- content: Tensile tests at 77 K and 4 K on 316L stainless steel welded plates
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-07-19'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Dash
+        - content: Timothy
           script:
           - Latn
       surname:
@@ -41,9 +41,43 @@ contributor:
         - content: Material Measurement Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Nicholas
+          script:
+          - Latn
+      surname:
+        content: Derimow
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jake
+          script:
+          - Latn
+      surname:
+        content: Benzing
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +85,24 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-07-19'
 script:
 - Latn
 abstract:
-- script:
+- content: Based on the collaborative framework established between ASME, NASA, and
+    NIST, quasi-static tensile tests were performed in liquid nitrogen (77 K) and
+    liquid helium (4 K) on tensile specimens extracted from the centers of four welded
+    316L stainless steel plates, each produced by a different vendor. Relatively large
+    differences in strength, elongation, and reduction in area were observed between
+    the welds with the strongest two welds (W4 and W2) exhibiting a nearly 20 % difference
+    in 4 K ultimate tensile strength when compared to the welds with the lowest 4
+    K tensile strength (W1 and W3). As the testing temperature decreases from 77 K
+    to 4 K, all welds exhibit an increase in yield strength, plus an attenuation in
+    total elongation and reduction in area. Serrated yielding was observed at every
+    test conducted at 4 K. The tensile properties reported in this work will be used
+    during analysis of future fracture toughness (single edge notch bending) testing
+    conducted at 77 K and 4 K on the same four sets of welded plates.
+  script:
   - Latn
   format: text/plain
 series:

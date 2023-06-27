@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8383
 title:
-- content: Standard Errors and Significance Testing in Data Analysis for Testing Classifiers
+- content: Standard errors and significance testing in data analysis for testing classifiers
   language:
   - en
   script:
@@ -45,7 +45,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Raghu N.
+        - content: Raghu N
           script:
           - Latn
       surname:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,24 @@ contributor:
 revdate: '2021-07-19'
 script:
 - Latn
+abstract:
+- content: The one-classifier and two-classifier significance testing for evaluation
+    and comparison of classifiers are conducted to investigate the statistical significance
+    of differences and provide quantitative information in terms of the significance
+    level, i.e., p-value, in a new ROC analysis where three score distributions and
+    two decision thresholds are employed, and data dependency caused by multiple use
+    of the same subjects is involved. To analyze the performance of classifiers, the
+    standard error of the cost function is estimated using the nonparametric three-sample
+    two-layer bootstrap algorithm on a two-layer data structure constructed after
+    dataset optimization, based on our prior rigorous statistical research in ROC
+    analysis on large datasets with data dependency. In comparison, the positive correlation
+    coefficient must be taken into consideration, which is computed using a synchronized
+    resampling algorithm; otherwise, the likelihood of detecting the statistical significance
+    of difference between the performance levels of two classifiers can be wrongly
+    reduced.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -80,8 +96,6 @@ series:
   abbreviation:
     content: IR
   number: '8383'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

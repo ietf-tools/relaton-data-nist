@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8354
 title:
-- content: Digital Investigation Techniques:A NIST Scientific Foundation Review
+- content: Digital investigation techniques :a NIST scientific foundation review
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-11-21'
 contributor:
 - person:
     name:
@@ -38,12 +38,97 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Barbara
+          script:
+          - Latn
+      surname:
+        content: Guttman
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: John M
+          script:
+          - Latn
+      surname:
+        content: Butler
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kelly
+          script:
+          - Latn
+      surname:
+        content: Sauerwein
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christina
+          script:
+          - Latn
+      surname:
+        content: Reed
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Corrine E
+          script:
+          - Latn
+      surname:
+        content: Lloyd
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +136,31 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-11-21'
 script:
 - Latn
 abstract:
-- script:
+- content: 'This document is an assessment of the current scientific foundations of
+    digital forensics. We examined descriptions of digital investigation techniques
+    from peer-reviewed sources, academic and classroom materials, technical guidance
+    from professional organizations, and independently published sources. Digital
+    investigation techniques are based on established computer science methods and
+    when used appropriately are considered reliable. The process of evaluating, for
+    example, the contents of a computer hard drive does not create information that
+    was not there before the investigation started. However, because the field is
+    rapidly changing, there are limitations that practitioners and stakeholders need
+    to be aware of: (1) as with any crime scene not all evidence may be discovered;
+    (2) when recovering deleted files, the results may include extraneous material;
+    (3) examiners need to understand that as software (operating systems and applications)
+    is revised the meaning and significance of digital artifacts created by different
+    versions of the software can be different. In addition, because there are often
+    multiple ways to search for information, two examiners may find different subsets
+    of all potentially relevant information. The methods used in digital investigations
+    are often not peer-reviewed in a formal process, but trustworthiness is established
+    by members of the digital forensic community trying out proposed methods, testing,
+    and circulating updates within the community. This process strengthens an examiner
+    s awareness of the capabilities and limitations of their techniques.'
+  script:
   - Latn
   format: text/plain
 series:

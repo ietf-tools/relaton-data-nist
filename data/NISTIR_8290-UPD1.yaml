@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8290-upd1
 title:
-- content: SCAP Composer User Guide
+- content: SCAP composer user guide
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-17'
 contributor:
 - person:
     name:
@@ -38,12 +38,12 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Engineering Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,13 +51,35 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-17'
 script:
 - Latn
 abstract:
-- script:
+- content: SCAP Composer is a software application from the National Institute of
+    Standards and Technology (NIST) for creating Security Content Automation Protocol
+    (SCAP pronounced ess-cap) source data stream collections. A source data stream
+    collection is a bundle of Extensible Markup Language (XML) documents, each of
+    which must be valid with respect to a schema defined in an SCAP component specification.
+    SCAP Composer's limited scope and small footprint make it easy to install, use,
+    and integrate with other SCAP content development tools. SCAP Composer uses the
+    DITA Open Toolkit, an open source publishing engine for content authored in the
+    Darwin Information Typing Architecture (DITA). SCAP Composer may be used with
+    the NIST SCAP Content Validation Tool to check the conformance of SCAP source
+    data stream components to content requirements and recommendations.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTIR8290
+    docid:
+    - id: NIST IR 8290
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8290
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)

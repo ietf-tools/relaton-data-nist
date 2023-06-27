@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2197
 title:
-- content: Report on High Energy Arcing Fault ExperimentsExperimental Results from
-    Low-Voltage Switchgear Enclosures
+- content: Report on high energy arcing fault experiments :experimental results from
+    low-voltage switchgear enclosures
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2021-12
+  value: '2021-12-29'
 contributor:
 - person:
     name:
@@ -231,9 +231,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -241,9 +239,42 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: 2021-12
+revdate: '2021-12-29'
 script:
 - Latn
+abstract:
+- content: This report documents an experimental program designed to investigate High
+    Energy Arcing Fault (HEAF) phenomena for low-voltage metal enclosed switchgear
+    containing aluminum conductors. This report covers full-scale laboratory experiments
+    using representative nuclear power plant (NPP) three-phase electrical equipment.
+    Electrical, thermal, and pressure data were recorded for each experiment and documented
+    in this report. This report covers experiments performed on two low-voltage switchgear
+    units with each unit consisting of two vertical sections. The data collected supports
+    characterization of the low-voltage HEAF hazard, and these results will be used
+    to support potential improvements in fire probabilistic risk assessment (PRA)
+    methods. The experiments were performed at KEMA Labs located in Chalfont, Pennsylvania.
+    The experimental design, setup, and execution were completed by staff from the
+    NRC, the National Institute of Standards and Technology (NIST), Sandia National
+    Laboratories (SNL) and KEMA. In addition, representatives from the Electric Power
+    Research Institute (EPRI) observed some of the experimental setup and execution.
+    The HEAF experiments were performed between August 26 and August 29, 2019 on near-identical
+    Westinghouse Type DS low-voltage metal-enclosed indoor switchgear. The three-phase
+    arcing fault was initiated on the aluminum main bus or in select cases on the
+    copper bus stabs near the breaker. These experiments used either nominal 480 V
+    (AC) or 600 V (AC). Durations of the experiments ranged from approximately 0.4
+    s to 8.3 s with fault currents ranging from approximately 9.2 kA to 19.3 kA. Real-time
+    electrical operating conditions, including voltage, current, and frequency, were
+    measured during the experiments. Heat fluxes and incident energies were measured
+    with plate thermometers, radiometers, and slug calorimeters at various locations
+    around the electrical enclosures. Environmental measurements of breakdown, conductivity,
+    and electromagnetics were also taken. The experiments were documented with normal
+    and high-speed videography, infrared imaging, and photography. The results, while
+    limited, indicated the difficulty in maintaining and sustaining low-voltage arcs
+    on aluminum components of sufficient duration and at a single point as observed
+    from operating experience.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -251,8 +282,6 @@ series:
   abbreviation:
     content: TN
   number: '2197'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

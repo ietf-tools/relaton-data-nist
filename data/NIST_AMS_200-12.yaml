@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTAMS200-12
 title:
-- content: STEP File Analyzer and Viewer User Guide (Update 7)
+- content: STEP file analyzer and viewer user guide (update 7)
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Robert R.
+        - content: Robert R
           script:
           - Latn
       surname:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,17 @@ contributor:
 revdate: '2021-10-13'
 script:
 - Latn
+abstract:
+- content: The STEP File Analyzer and Viewer opens a STEP (ISO 10303 - STandard for
+    Exchange of Product model data) Part 21 file and (1) generates a spreadsheet or
+    CSV files of all entity and attribute information, (2) creates a visualization
+    (view) of part geometry, sketch geometry, graphical PMI annotations, supplemental
+    geometry, and datum targets that is displayed in a web browser, (3) reports and
+    analyzes any semantic PMI, graphical PMI, and validation properties for conformance
+    to recommended practices, and (4) checks for basic STEP file format errors.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Advanced Manufacturing Series
@@ -80,8 +89,6 @@ series:
   abbreviation:
     content: AMS
   number: 200-12
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

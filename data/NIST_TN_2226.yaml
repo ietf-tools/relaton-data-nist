@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2226
 title:
-- content: Forensic Iris:A Review, 2022
+- content: Forensic Iris :a review, 2022
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-07-18'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: James
+        - content: James R
           script:
           - Latn
       surname:
@@ -41,9 +41,43 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: George W
+          script:
+          - Latn
+      surname:
+        content: Quinn
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Patrick
+          script:
+          - Latn
+      surname:
+        content: Grother
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +85,40 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-07-18'
 script:
 - Latn
 abstract:
-- script:
+- content: 'John Daugman correctly summarized the state of forensic iris recognition
+    circa 2006 for the book Forensic Human Identification: an Introduction by Thompson
+    (CRC Press, 2006). Iris recognition has limited forensic value, because (unlike
+    fingerprints or DNA, for example) (1) iris patterns are not left behind at crime
+    scenes; (2) and in death the pupil usually dilates significantly, the cornea clouds,
+    and the iris tissue degrades relatively rapidly. (3) Moreover, currently available
+    iris databases are quite small (only a few million digitized samples of iris patterns
+    exist today); and because of the novelty of this biometric, (4) such data currently
+    has no legal or established forensic status as admissible evidence. [Numbers ()
+    added.] In the intervening ?15 years, all of Daugman s observations, save one,
+    have been overtaken by events: (1) The advent of ubiquitous high resolution video/photography
+    has led to widespread collection/retention/dissemination of imagery of sufficient
+    resolution for iris recognition. (2) Demonstrations of post-mortem iris recognition
+    have been made. (3) Large iris databases have been constructed. The last issue
+    (4) regarding admissible evidence remains to be resolved. Forensic iris was a
+    topic at the June 2018 Iris Experts Group Meeting1. Key issues discussed there
+    were: measurements and analysis that need to be done to provide the underpinnings
+    for a resolution of the forensic status of iris recognition and the development
+    of documentation for such measurements and analysis that will enable explanation
+    of iris collection and recognition to lay audiences, including those in a courtroom.
+    An important point was that the perceptions of the public and the popular media
+    with respect to biometrics and to iris recognition in particular are frequently
+    inaccurate and must be considered in any development of materials designed to
+    explain iris recognition to the lay public. To help resolve the questions discussed
+    at that meeting, this paper reviews the current state of the art in iris recognition,
+    the perceptions of the public regarding iris recognition, and makes suggestions
+    regarding measurements and analysis that will help enable use of forensic iris
+    in appropriate settings going forward. We welcome comments for the next revision
+    of this document. Please send comments to james.matey@nist.gov.'
+  script:
   - Latn
   format: text/plain
 series:

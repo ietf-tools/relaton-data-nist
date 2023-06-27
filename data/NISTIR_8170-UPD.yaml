@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8170-upd
 title:
-- content: Approaches for Federal Agencies to Use the Cybersecurity Framework
+- content: Approaches for federal agencies to use the Cybersecurity Framework
   language:
   - en
   script:
@@ -145,9 +145,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -158,6 +156,45 @@ contributor:
 revdate: '2021-08-17'
 script:
 - Latn
+abstract:
+- content: The document highlights examples for implementing the Framework for Improving
+    Critical Infrastructure Cybersecurity (known as the Cybersecurity Framework) in
+    a manner that complements the use of other NIST security and privacy risk management
+    standards, guidelines, and practices. These examples include support for an Enterprise
+    Risk Management (ERM) approach in alignment with OMB and FISMA requirements that
+    agency heads manage risk commensurate with the magnitude of harm that would result
+    from unauthorized access, use, disclosure, disruption, modification, or destruction
+    of a federal information system or federal information. The use of the Cybersecurity
+    Framework's components enable discussion about the various types of risk that
+    might occur within federal organizations and promote conversations about how to
+    determine the likelihood and potential consequences of risk events. These activities
+    can then be combined with those described in NIST Special Publication (SP) 800-37,
+    Revision 2, Risk Management Framework for Information Systems and Organizations;
+    SP 800-39, Managing Information Security Risk; and other guidelines to form a
+    comprehensive risk-based approach for security and privacy. This risk-based approach
+    will assist agencies in determining the risks that are relevant to its mission
+    throughout the operational lifecycle and apply an appropriate type and degree
+    of resources to treat those risks to an acceptable level. Examples in this publication
+    will demonstrate the use of the Cybersecurity Framework, the NIST Risk Management
+    Framework (RMF), and other models to evaluate and report agency goals and progress
+    and to inform tailoring activities for managing cybersecurity risk appropriately.
+    Use of a comprehensive cybersecurity risk-based approach, as demonstrated through
+    these examples, supports agencies' activities to meet their concurrent obligations
+    to comply with the requirements of FISMA and Executive Order (EO) 13800.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTIR8170
+    docid:
+    - id: NIST IR 8170
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8170
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -165,8 +202,6 @@ series:
   abbreviation:
     content: IR
   number: 8170-upd
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

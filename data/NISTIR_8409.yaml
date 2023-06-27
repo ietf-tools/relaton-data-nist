@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8409
 title:
-- content: Measuring the Common Vulnerability Scoring System Base Score Equation
+- content: Measuring the Common Vulnerability Scoring System base score equation
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-11-15'
 contributor:
 - person:
     name:
@@ -38,12 +38,216 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jonathan
+          script:
+          - Latn
+      surname:
+        content: Spring
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Dave
+          script:
+          - Latn
+      surname:
+        content: Dugal
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Srividya
+          script:
+          - Latn
+      surname:
+        content: Ananthakrishna
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Francesco
+          script:
+          - Latn
+      surname:
+        content: Casotto
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Troy
+          script:
+          - Latn
+      surname:
+        content: Fridley
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christopher
+          script:
+          - Latn
+      surname:
+        content: Ganas
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Arkadeep
+          script:
+          - Latn
+      surname:
+        content: Kundu
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Phillip
+          script:
+          - Latn
+      surname:
+        content: Nordwall
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Vijayamurugan
+          script:
+          - Latn
+      surname:
+        content: Pushpanathan
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Daniel
+          script:
+          - Latn
+      surname:
+        content: Sommerfeld
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Matt
+          script:
+          - Latn
+      surname:
+        content: Tesauro
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Chris
+          script:
+          - Latn
+      surname:
+        content: Turner
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +255,30 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-11-15'
 script:
 - Latn
 abstract:
-- script:
+- content: This work evaluates the validity of the Common Vulnerability Scoring System
+    (CVSS) Version 3 ''base score'' equation in capturing the expert opinion of its
+    maintainers. CVSS is a widely used industry standard for rating the severity of
+    information technology vulnerabilities; it is based on human expert opinion. This
+    study is important because the equation design has been questioned since it has
+    features that are both non-intuitive and unjustified by the CVSS specification.
+    If one can show that the equation reflects CVSS expert opinion, then that study
+    justifies the equation and the security community can treat the equation as an
+    opaque box that functions as described. This work shows that the CVSS base score
+    equation closely though not perfectly represents the CVSS maintainers' expert
+    opinion. The CVSS specification itself provides a measurement of error called
+    ''acceptable deviation'' (with a value of 0.5 points). In this work, the distance
+    between the CVSS base scores and the closest consistent scoring systems (ones
+    that completely conform to the recorded expert opinion) is measured. The authors
+    calculate that the mean scoring distance is 0.13 points and the maximum scoring
+    distance is 0.40 points. The acceptable deviation was also measured to be 0.20
+    points (lower than claimed by the specification). These findings validate that
+    the CVSS base score equation represents the CVSS maintainers' domain knowledge
+    to the extent described by these measurements.
+  script:
   - Latn
   format: text/plain
 series:

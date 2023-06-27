@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8392
 title:
-- content: Evaluating the Impact of Contactless Fingerprint Imagery Spatial Loss on
-    Matcher Performance
+- content: Evaluating the impact of contactless fingerprint imagery spatial loss on
+    matcher performance
   language:
   - en
   script:
@@ -146,9 +146,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -159,6 +157,18 @@ contributor:
 revdate: '2021-09-23'
 script:
 - Latn
+abstract:
+- content: Observations in previous studies have shown that contactless capture devices
+    may be prone to capturing superfluous data (e.g., fingernail or finger background),
+    distortion and imaging artifacts especially around the periphery of the captured
+    fingerprint images, as well as not being able to consistently capture certain
+    fingers from each hand. This study tests the hypothesis that eliminating certain
+    error prone fingers, or eliminating some of the periphery of all fingerprint images,
+    may yield an improvement in the matcher s ability to make an identification as
+    well as possibly improving the service time from the matcher.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -166,8 +176,6 @@ series:
   abbreviation:
     content: IR
   number: '8392'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

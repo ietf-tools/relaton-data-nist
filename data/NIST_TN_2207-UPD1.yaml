@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-19'
 contributor:
 - person:
     name:
@@ -43,7 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,13 +51,41 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-19'
 script:
 - Latn
 abstract:
-- script:
+- content: Image segmentation is the first step in a complex process of object recognition.
+    This report presents a method to gauge the difficulty of segmentation by calculating
+    a scalar parameter Q for an image. This parameter depends on a distribution of
+    the intensity of the grayscale image and the distribution of the clustering of
+    pixels. It is assumed that images with a smaller number of clusters are easier
+    to segment than images with a large number of clusters. Since segmentation precedes
+    any human perception and categorization, the distribution of parameter Q introduced
+    in this study may be useful in characterizing the variability of images collected
+    in a training database for the development of object recognition algorithms which
+    use Machine Learning (ML) methods. Parameter Q can be especially useful for building
+    a representative dataset of images for training ML algorithms. To demonstrate
+    a link between particular values of Q and different segmentation conditions, a
+    few grayscale images were distorted by some common transformations (like Gaussian
+    noise, median filtering, reduction in grayscale) and the corresponding values
+    of parameter Q were calculated. To demonstrate a possible use of the parameter
+    Q on data other than grayscale images, depth images of flat planar targets taken
+    by two depth cameras were also processed.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTTN2207
+    docid:
+    - id: NIST TN 2207
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST TN 2207
+      format: text/plain
 series:
 - title:
     content: NIST Technical Notes

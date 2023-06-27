@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8320B
 title:
-- content: Hardware-Enabled Security:Policy-Based Governance in Trusted Container
-    Platforms
+- content: Hardware-enabled security :policy-based governance in trusted container
+    platforms
   language:
   - en
   script:
@@ -23,8 +23,25 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-04-20'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Bartock
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -39,12 +56,182 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Haidong
+          script:
+          - Latn
+      surname:
+        content: Xia
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Raghu
+          script:
+          - Latn
+      surname:
+        content: Yeluri
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Uttam
+          script:
+          - Latn
+      surname:
+        content: Shetty
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Brandon
+          script:
+          - Latn
+      surname:
+        content: Lum
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mariusz
+          script:
+          - Latn
+      surname:
+        content: Sabath
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Harmeet
+          script:
+          - Latn
+      surname:
+        content: Singh
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alaa
+          script:
+          - Latn
+      surname:
+        content: Youssef
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Gosia
+          script:
+          - Latn
+      surname:
+        content: Steinder
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Yu
+          script:
+          - Latn
+      surname:
+        content: Cao
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jayashree
+          script:
+          - Latn
+      surname:
+        content: Ramanathan
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +239,22 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-04-20'
 script:
 - Latn
 abstract:
-- script:
+- content: In today's cloud data centers and edge computing, attack surfaces have
+    significantly increased, cyber attacks are industrialized, and most security control
+    implementations are not coherent or consistent. The foundation of any data center
+    or edge computing security strategy should be securing the platform on which data
+    and workloads will be executed and accessed. The physical platform represents
+    the foundation for any layered security approach and provides the initial protections
+    to help ensure that higher-layer security controls can be trusted. This report
+    explains an approach based on hardware-enabled security techniques and technologies
+    for safeguarding container deployments in multi-tenant cloud environments. It
+    also describes a prototype implementation of the approach intended to be a blueprint
+    or template for the general security community.
+  script:
   - Latn
   format: text/plain
 series:

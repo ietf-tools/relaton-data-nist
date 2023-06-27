@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2234
 title:
-- content: Using a Single-Zone Residential Model to Evaluate Virus Particle Exposure
+- content: Using a single-zone residential model to evaluate virus particle exposure
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-09-20'
 contributor:
 - person:
     name:
@@ -41,9 +41,77 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Brian
+          script:
+          - Latn
+      surname:
+        content: Polidoro
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Lisa
+          script:
+          - Latn
+      surname:
+        content: Ng
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: W Stuart
+          script:
+          - Latn
+      surname:
+        content: Dols
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Steven
+          script:
+          - Latn
+      surname:
+        content: Emmerich
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +119,31 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-09-20'
 script:
 - Latn
 abstract:
-- script:
+- content: On March 11, 2020, the World Health Organization declared the novel coronavirus
+    (COVID-19) outbreak a global pandemic. As noted by ASHRAE and the Centers for
+    Disease Control and Prevention (CDC), engineering and other controls should be
+    part of a broader, layered risk reduction strategy that includes hand washing,
+    surface cleaning, social distancing, and reduced occupant density (ASHRAE 2020;
+    CDC 2021). To date, many recommendations for operating buildings during and re-opening
+    them post-pandemic have been based upon limited or no data. Much of the public
+    discussion of re-opening buildings has focused on commercial and institutional
+    buildings in the U.S., but there are almost 20 times more residences in the U.S.
+    than there are commercial buildings. Major questions exist regarding the development
+    of recommendations targeting residences, in part because dwellings can be a major
+    source of virus transmission. To help more people leverage ventilation and filtration
+    in their homes effectively, the authors used the Fate and Transport of Indoor
+    Microbial Particles (FaTIMA) tool to evaluate the effects of ventilation and filtration
+    strategies on particle exposure in homes of various sizes, with different ventilation
+    systems, and with a contagious visitor in the home for various durations. After
+    comparing particle exposure in a set of base cases for all home sizes and ventilation
+    systems, a 297 CADR portable air cleaner was most effective for reducing particle
+    exposure compared to the other mitigation measures simulated (average 45 % reduction
+    in exposure).
+  script:
   - Latn
   format: text/plain
 series:

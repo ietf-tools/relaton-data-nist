@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8401
 title:
-- content: Satellite Ground Segment:Applying the Cybersecurity Framework to Assure
-    Satellite Command and Control
+- content: Satellite ground segment :applying the cybersecurity framework to assure
+    satellite command and control
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-12-30'
 contributor:
 - person:
     name:
@@ -39,12 +39,46 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Theresa
+          script:
+          - Latn
+      surname:
+        content: Suloway
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Joseph
+          script:
+          - Latn
+      surname:
+        content: Brule
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +86,22 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-12-30'
 script:
 - Latn
 abstract:
-- script:
+- content: Space operations are increasingly important to the national and economic
+    security of the United States. Commercial space's contribution to the critical
+    infrastructure is growing in both volume and diversity of services as illustrated
+    by the increased use of commercial communications satellite (COMSAT) bandwidth,
+    purchase of commercial imagery, and the hosting of government payloads on commercial
+    satellites. The U.S. government recognizes and supports space resilience as illustrated
+    by numerous space policies, executive orders, and the National Cyber Strategy.
+    The space cyber-ecosystem is an inherently risky, high-cost, and often inaccessible
+    environment consisting of distinct yet interdependent segments. This report applies
+    the NIST Cybersecurity Framework to the ground segment of space operations with
+    an emphasis on the command and control of satellite buses and payloads.
+  script:
   - Latn
   format: text/plain
 series:

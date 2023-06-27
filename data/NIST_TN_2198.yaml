@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2198
 title:
-- content: Report on High Energy Arcing Fault ExperimentsExperimental Results from
-    Open Box Enclosures
+- content: Report on high energy arcing fault experiments :experimental results from
+    open box enclosures
   language:
   - en
   script:
@@ -23,13 +23,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2021-12
+  value: '2021-12-29'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Anthony
+        - content: Anthony;
           script:
           - Latn
       surname:
@@ -401,9 +401,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -411,9 +409,36 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: 2021-12
+revdate: '2021-12-29'
 script:
 - Latn
+abstract:
+- content: This report documents an experimental program to investigate High Energy
+    Arcing Fault (HEAF) phenomena. The experiments provide data to better characterize
+    the arc to improve the prediction of arc energy emitted during a HEAF event. An
+    open box allows for direct observation of the arc, jet, enclosure breach, material
+    loss, and electrical properties. The experiments were performed at KEMA Labs located
+    in Chalfont, Pennsylvania. The experimental design, setup, and execution were
+    completed by staff from the U.S. Nuclear Regulatory Commission (NRC), the U.S.
+    National Institute of Standards and Technology (NIST), Sandia National Laboratories
+    (SNL) and KEMA Labs. In addition, representatives from the Electric Power Research
+    Institute (EPRI) observed some of the experimental setup and execution. The HEAF
+    experiments were performed between August 22, 2019 and September 18, 2019 on near-identical
+    51 cm (20 in) cubic metal boxes suspended from a Unistrut support structure. A
+    three-phase arcing fault was initiated at the ends of the conductors oriented
+    vertically and located at the center of the box. Either aluminum or copper was
+    used for the conductors. The low voltage experiments used 1000 volts AC, while
+    the medium voltage experiments used 6900 volts AC consistent with other recently
+    completed experiments. Durations of the experiment ranged from 1 s to 5 s with
+    fault currents ranging from 1 kA to 30 kA. Real-time electrical operating conditions,
+    including voltage, current, and frequency, were measured during the experiments.
+    Heat fluxes and incident energies were measured with plate thermometers, plate
+    calorimeters, and slug calorimeters at various locations around the electrical
+    enclosures. The experiments were documented with normal and high-speed videography,
+    infrared imaging, and photography.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -421,8 +446,6 @@ series:
   abbreviation:
     content: TN
   number: '2198'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

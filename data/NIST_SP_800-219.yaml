@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP800-219
 title:
-- content: Automated Secure Configuration Guidance from the macOS Security Compliance
+- content: Automated secure configuration guidance from the macOS Security Compliance
     Project (mSCP)
   language:
   - en
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-06-24'
 contributor:
 - person:
     name:
@@ -42,9 +42,77 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Eric
+          script:
+          - Latn
+      surname:
+        content: Trapnell
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Murugiah
+          script:
+          - Latn
+      surname:
+        content: Souppaya
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bob
+          script:
+          - Latn
+      surname:
+        content: Gendler
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+      surname:
+        content: Scarfone
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +120,20 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-06-24'
 script:
 - Latn
 abstract:
-- script:
+- content: The macOS Security Compliance Project (mSCP) provides resources that system
+    administrators, security professionals, security policy authors, information security
+    officers, and auditors can leverage to secure and assess macOS desktop and laptop
+    system security in an automated way. This publication introduces the mSCP and
+    gives an overview of the resources available from the project's GitHub site, which
+    is continuously curated and updated to support each new release of macOS. The
+    GitHub site provides practical, actionable recommendations in the form of secure
+    baselines and associated rules. This publication also describes use cases for
+    leveraging the mSCP content.
+  script:
   - Latn
   format: text/plain
 series:

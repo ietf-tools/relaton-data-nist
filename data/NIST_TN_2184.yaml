@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2184
 title:
-- content: The Design and Performance of a Second-Generation Phi Meter
+- content: The design and performance of a second-generation phi meter
   language:
   - en
   script:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,33 @@ contributor:
 revdate: '2022-01-05'
 script:
 - Latn
+abstract:
+- content: This report documents the design and performance of a second-generation
+    phi meter used in multi-scale experimental applications. A constructed second-generation
+    phi meter is implemented in bench and 2/5th scale experiments to demonstrate the
+    instrument s ability to conduct global and local equivalence ratio measurements
+    and gas species concentrations of combustion products (i.e., carbon dioxide, water
+    vapor, and oxygen) without knowledge of the sampled fuel composition. Bench-scale
+    experiments evaluated the second-generation phi meter s functionality by introducing
+    known fuel-air ratios into the instrument and verifying measurements via the carbon
+    to hydrogen ratio and mass balance. The bench-scale experiments selected methane,
+    propane, and propene as the fuels of interest. The 2/5th scale experiments implemented
+    two second-generation phi meters in a series of 25 kW methane backdraft experiments.
+    Backdraft experiments provided an ideal setting to test the phi meter s performance
+    by subjecting the instrument to a transient heterogeneous gas mixture. The phi
+    meters sampling location was positioned such that the extracted gas samples fed
+    into the instrument were unknown. Global and local equivalence ratio measurements
+    made in the 2/5th scale compartment were compared to independent gas analyzer
+    and gas chromatograph measurements. In the bench-scale experiments, the global
+    equivalence ratio, water vapor concentration, and carbon to hydrogen ratio measurements
+    are in fair agreement with their expected values. Real-time global and local equivalence
+    ratio and carbon to hydrogen ratio measurements obtained during a backdraft experiment
+    were observed to increase as the fuel concentration within the 2/5th scale compartment
+    increased. Real-time global and local equivalence ratios were verified by the
+    independent instrumentation.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -80,8 +105,6 @@ series:
   abbreviation:
     content: TN
   number: '2184'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

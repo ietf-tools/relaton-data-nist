@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP260-223
 title:
-- content: Certification of Standard Reference Material® 915c Calcium Carbonate
+- content: Certification of Standard Reference Material 915c calcium carbonate
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-09-20'
 contributor:
 - person:
     name:
@@ -41,9 +41,43 @@ contributor:
         - content: Material Measurement Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jason F
+          script:
+          - Latn
+      surname:
+        content: Waters
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Adam L
+          script:
+          - Latn
+      surname:
+        content: Pintar
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +85,18 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-09-20'
 script:
 - Latn
 abstract:
-- script:
+- content: Standard Reference Material (SRM) 915c Calcium Carbonate is certified as
+    a chemical substance of known purity. It is intended for use in the calibration
+    and standardization of procedures for calcium (Ca) determinations employed in
+    clinical analysis and for routine critical evaluation of the daily working standards
+    used in these procedures. A unit of SRM 915c consists of a single glass bottle
+    containing 20 g of the material. This publication documents the production, analytical
+    methods, and computations involved in characterizing this product.
+  script:
   - Latn
   format: text/plain
 series:

@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP250-99
 title:
-- content: Diffuse Visual Transmission Density
+- content: Diffuse visual transmission density
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-08-17'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Clarence
+        - content: Clarence J
           script:
           - Latn
       surname:
@@ -41,9 +41,43 @@ contributor:
         - content: Physical Measurement Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Robert E
+          script:
+          - Latn
+      surname:
+        content: Vest
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Physical Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Maria E
+          script:
+          - Latn
+      surname:
+        content: Nadal
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Physical Measurement Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +85,19 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-08-17'
 script:
 - Latn
 abstract:
-- script:
+- content: 'This document, SP250-99 (2022), NIST Measurement Services: Diffuse Visual
+    Transmission Density, describes the instrument used to measure diffuse visual
+    transmission density of both x-ray and photographic film step tablets. These step
+    tablets replace former Standard Reference Material (SRM) offerings SRM1001 and
+    SRM1008. The instrument is fully automated and is designed and characterized to
+    comply with the international standards for measuring transmission density using
+    the diffuse influx mode. Transmission densities as great as four can be measured
+    with an expanded uncertainty (k = 2) of 0.006.'
+  script:
   - Latn
   format: text/plain
 series:

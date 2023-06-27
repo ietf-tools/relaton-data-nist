@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP1800-32
 title:
-- content: 'Securing the Industrial Internet of Things: Cybersecurity for Distributed
-    Energy Resources'
+- content: Securing the industrial internet of things :cybersecurity for distributed
+    energy resources
   language:
   - en
   script:
@@ -23,13 +23,113 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2022-02
+  value: '2022-02-02'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Jim
+          script:
+          - Latn
+      surname:
+        content: McCarthy
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Eileen
+          script:
+          - Latn
+      surname:
+        content: Division
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Don
+          script:
+          - Latn
+      surname:
+        content: Faatz
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Nik
+          script:
+          - Latn
+      surname:
+        content: Urlaub
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: John
+          script:
+          - Latn
+      surname:
+        content: Wiltberger
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Tsion
+          script:
+          - Latn
+      surname:
+        content: Yimer
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -37,9 +137,21 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: 2022-02
+revdate: '2022-02-02'
 script:
 - Latn
+abstract:
+- content: The Industrial Internet of Things (IIoT) refers to the application of instrumentation
+    and connected sensors and other devices to machinery and vehicles in the transport,
+    energy, and other critical infrastructure sectors. In the energy sector, distributed
+    energy resources (DERs) such as solar photovoltaics including sensors, data transfer
+    and communications systems, instruments, and other commercially available devices
+    that are networked together. DERs introduce information exchanges between a utility's
+    distribution control system and the DERs to manage the flow of energy in the distribution
+    grid.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -47,8 +159,6 @@ series:
   abbreviation:
     content: SP
   number: 1800-32
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

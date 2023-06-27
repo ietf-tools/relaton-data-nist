@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2231
 title:
-- content: Stabilograms:Testbed Stability in a Pilot Experiment for Cellular Communication
-    Anomaly Detection
+- content: Stabilograms :testbed stability in a pilot experiment for cellular communication
+    anomaly detection
   language:
   - en
   script:
@@ -23,8 +23,110 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-10-26'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Frey
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mary
+          script:
+          - Latn
+      surname:
+        content: Gregg
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jacob D
+          script:
+          - Latn
+      surname:
+        content: Rezac
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jason B
+          script:
+          - Latn
+      surname:
+        content: Coder
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Aziz
+          script:
+          - Latn
+      surname:
+        content: Kord
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Anna
+          script:
+          - Latn
+      surname:
+        content: Otterstetter
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -42,9 +144,26 @@ contributor:
         - content: Communications Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alec
+          script:
+          - Latn
+      surname:
+        content: Weiss
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Communications Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +171,26 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-10-26'
 script:
 - Latn
 abstract:
-- script:
+- content: The National Institute of Standards and Technology's Communications Technology
+    Laboratory conducted a cellular communication system pilot experiment in the summer
+    of 2021. This pilot experiment was done to prepare for a broad-scope experiment
+    to demonstrate anomaly detection from radiated emissions, possibly due to cyberattack.
+    A goal of the pilot experiment was to check the experiment testbed for instabilities.
+    A testbed is stable if measurements made over time with identical experiment settings
+    exhibit no systematic variation. The data collected in the pilot experiment evidenced
+    strong instabilities in the testbed's operation. These instabilities are seen
+    in sequence plots of the experiment responses and, especially, in stabilograms
+    devised expressly for this purpose in this work. Stabilograms are an intuitive
+    and easy way to assess testbed instability. The instabilities reflected in the
+    stabilograms are large enough to foreclose further analysis of the pilot data.
+    The stabilograms from this study, though, suggest that if the testbed's instabilities
+    can be effectively addressed, anomaly detection might be accomplished in the scenario
+    under consideration.
+  script:
   - Latn
   format: text/plain
 series:

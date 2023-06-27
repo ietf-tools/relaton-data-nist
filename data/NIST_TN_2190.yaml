@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2190
 title:
-- content: 'NIST Special Database 302: Supplemental Release of Latent Annotations'
+- content: NIST Special Database 302 :supplemental release of latent annotations
   language:
   - en
   script:
@@ -128,9 +128,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -141,6 +139,18 @@ contributor:
 revdate: '2021-11-02'
 script:
 - Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) released a collection
+    of latent fingerprint images as part of Special Database (SD) 302 in December
+    2019. While the dataset included 10 000 never-before-seen operational quality
+    images from 200 study participants, SD 302 has been of somewhat limited usability,
+    in part due to the omission of study participant finger position ground truth.
+    To help make SD 302 as robust and useful to the community as possible, NIST has
+    funded certified latent print examiners to annotate and determine the source of
+    the latent fingerprint images distributed as part of SD 302.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -148,8 +158,6 @@ series:
   abbreviation:
     content: TN
   number: '2190'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

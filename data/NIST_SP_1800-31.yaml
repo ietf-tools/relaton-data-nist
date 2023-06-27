@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP1800-31
 title:
-- content: Improving Enterprise Patching for General IT Systems:Utilizing Existing
-    Tools and Performing Processes in Better Ways
+- content: Improving enterprise patching for general IT systems :utilizing existing
+    tools and performing processes in better ways
   language:
   - en
   script:
@@ -23,8 +23,42 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-04-06'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Tyler
+          script:
+          - Latn
+      surname:
+        content: Diamond
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alper
+          script:
+          - Latn
+      surname:
+        content: Kerman
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -42,9 +76,128 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kevin
+          script:
+          - Latn
+      surname:
+        content: Stine
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Brian
+          script:
+          - Latn
+      surname:
+        content: Johnson
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Chris
+          script:
+          - Latn
+      surname:
+        content: Peloquin
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Vanessa
+          script:
+          - Latn
+      surname:
+        content: Ruffin
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mark
+          script:
+          - Latn
+      surname:
+        content: Simos
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Sean
+          script:
+          - Latn
+      surname:
+        content: Sweeney
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+      surname:
+        content: Scarfone
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +205,24 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-04-06'
 script:
 - Latn
 abstract:
-- script:
+- content: Despite widespread recognition that patching is effective and attackers
+    regularly exploit unpatched software, many organizations do not adequately patch.
+    There are myriad reasons why, not the least of which are that it's resource-intensive
+    and that the act of patching can reduce system and service availability. Also,
+    many organizations struggle to prioritize patches, test patches before deployment,
+    and adhere to policies for how quickly patches are applied in different situations.
+    To address these challenges, the NCCoE is collaborating with cybersecurity technology
+    providers to develop an example solution that addresses these challenges. This
+    NIST Cybersecurity Practice Guide explains how tools can be used to implement
+    the patching and inventory capabilities organizations need to handle both routine
+    and emergency patching situations, as well as implement workarounds, isolation
+    methods, or other alternatives to patching. It also explains recommended security
+    practices for patch management systems themselves.
+  script:
   - Latn
   format: text/plain
 series:

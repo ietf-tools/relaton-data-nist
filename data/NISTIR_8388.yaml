@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8388
 title:
-- content: Verifying Executability of SysML Behavior Models Using Alloy Analyzere
+- content: Verifying executability of SysML behavior models using Alloy Analyzer
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022-02-22'
+  value: '2021-08-24'
 contributor:
 - person:
     name:
@@ -38,7 +38,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Engineering Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - person:
@@ -55,7 +55,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Engineering Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - person:
@@ -72,14 +72,12 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Engineering Laboratory
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -87,9 +85,25 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022-02-22'
+revdate: '2021-08-24'
 script:
 - Latn
+abstract:
+- content: This report presents an approach to verifying executability of system behavior
+    models by treating them as logical constraint problems solved using Alloy Analyzer,
+    a non-proprietary software tool supporting a textual language for logical constraints
+    and underlying solvers. With behavior models interpreted as constraints on execution
+    order, Alloy can determine whether the models are executable by attempting to
+    find executions that meet those constraints. The approach relies on a logical
+    interpretation of behavior modeling in the Systems Modeling Language (SysML) by
+    Ontological Behavior Modeling method that unifies SysML behavior modeling based
+    on its classification elements. This paper proposes translation between logical
+    versions of SysML behavioral models and logical constructs in Alloy. Finally,
+    the approach is demonstrated by translating and solving example SysML behavior
+    models.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -97,8 +111,6 @@ series:
   abbreviation:
     content: IR
   number: '8388'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP1800-13
 title:
-- content: 'Mobile Application Single Sign-On: Improving Authentication for Public
-    Safety First Responders'
+- content: Mobile application single sign-on :improving authentication for public
+    safety first responders
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-08-24'
+  value: '2021-08-25'
 contributor:
 - person:
     name:
@@ -63,7 +63,7 @@ contributor:
     name:
       given:
         forename:
-        - content: William C.
+        - content: William C
           script:
           - Latn
       surname:
@@ -80,7 +80,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Spike E.
+        - content: Spike E
           script:
           - Latn
       surname:
@@ -197,9 +197,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -207,9 +205,32 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-08-24'
+revdate: '2021-08-25'
 script:
 - Latn
+abstract:
+- content: On-demand access to public safety data is critical to ensuring that public
+    safety and first responders (PSFRs) can protect life and property during an emergency.
+    This public safety information, often needing to be accessed via mobile or portable
+    devices, routinely includes sensitive information, such as personally identifiable
+    information, law enforcement sensitive information, and protected health information.
+    Because the communications are critical to public safety and may include sensitive
+    information, robust and reliable authentication mechanisms that do not hinder
+    delivery of emergency services are required. In collaboration with the National
+    Institute of Standards and Technology (NIST) Public Safety Communications Research
+    laboratory and industry stakeholders, the National Cybersecurity Center of Excellence
+    (NCCoE) at NIST built a laboratory environment to demonstrate standards-based
+    technologies that can enable PSFRs to gain access to public safety information
+    efficiently and securely by using mobile devices. The technologies demonstrated
+    are currently available and include (1) single sign-on (SSO) capabilities that
+    reduce the number of credentials that need to be managed by public safety personnel,
+    and reduce the time and effort that individuals spend authenticating themselves;
+    (2) identity federation that can improve the ability to authenticate personnel
+    across public safety organization (PSO) boundaries; and (3) multifactor authentication
+    (MFA) that enables authentication with a high level of assurance.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -217,8 +238,6 @@ series:
   abbreviation:
     content: SP
   number: 1800-13
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

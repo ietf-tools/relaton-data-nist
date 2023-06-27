@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8413-upd1
 title:
-- content: Status Report on the Third Round of the NIST Post-Quantum Cryptography
-    Standardization Process
+- content: Status report on the third round of the NIST Post-Quantum Cryptography
+    Standardization process
   language:
   - en
   script:
@@ -23,8 +23,161 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-09-29'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Gorjan
+          script:
+          - Latn
+      surname:
+        content: Alagic
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Daniel
+          script:
+          - Latn
+      surname:
+        content: Apon
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          script:
+          - Latn
+      surname:
+        content: Cooper
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Quynh
+          script:
+          - Latn
+      surname:
+        content: Dang
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Thinh
+          script:
+          - Latn
+      surname:
+        content: Dang
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: John
+          script:
+          - Latn
+      surname:
+        content: Kelsey
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jacob
+          script:
+          - Latn
+      surname:
+        content: Lichtinger
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Yi-Kai
+          script:
+          - Latn
+      surname:
+        content: Liu
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Carl
+          script:
+          - Latn
+      surname:
+        content: Miller
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -39,12 +192,80 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Rene
+          script:
+          - Latn
+      surname:
+        content: Peralta
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Ray
+          script:
+          - Latn
+      surname:
+        content: Perlner
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Angela
+          script:
+          - Latn
+      surname:
+        content: Robinson
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Daniel
+          script:
+          - Latn
+      surname:
+        content: Smith-Tone
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,13 +273,55 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-09-29'
 script:
 - Latn
 abstract:
-- script:
+- content: 'The National Institute of Standards and Technology is in the process of
+    selecting public-key cryptographic algorithms through a public, competition-like
+    process. The new public-key cryptography standards will specify additional digital
+    signature, public-key encryption, and key-establishment algorithms to augment
+    Federal Information Processing Standard (FIPS) 186-4, Digital Signature Standard
+    (DSS), as well as NIST Special Publication (SP) 800-56A Revision 3, Recommendation
+    for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography,
+    and SP 800-56B Revision 2, Recommendation for Pair-Wise Key Establishment Using
+    Integer Factorization Cryptography. It is intended that these algorithms will
+    be capable of protecting sensitive information well into the foreseeable future,
+    including after the advent of quantum computers. The first round of the NIST Post-Quantum
+    Cryptography Standardization Process began in December 2017 with 69 candidate
+    algorithms that met both the minimum acceptance criteria and submission requirements.
+    The first round lasted until January 2019, during which candidate algorithms were
+    evaluated based on their security, performance, and other characteristics. NIST
+    selected 26 algorithms to advance to the second round for more analysis. The second
+    round continued until July 2020, after which seven ''finalist'' and eight ''alternate''
+    candidate algorithms were selected to move into the third round. This report describes
+    the evaluation and selection process, based on public feedback and internal review,
+    of the third-round candidates. The report summarizes each of the 15 third-round
+    candidate algorithms and identifies those selected for standardization, as well
+    as those that will continue to be evaluated in a fourth round of analysis. The
+    public-key encryption and key-establishment algorithm that will be standardized
+    is CRYSTALS-Kyber. The digital signatures that will be standardized are CRYSTALS-Dilithium,
+    Falcon, and SPHINCS+. While there are multiple signature algorithms selected,
+    NIST recommends CRYSTALS-Dilithium as the primary algorithm to be implemented.
+    In addition, four of the alternate key-establishment candidate algorithms will
+    advance to a fourth round of evaluation: BIKE, Classic McEliece, HQC, and SIKE.
+    These candidates are still being considered for future standardization. NIST will
+    also issue a new Call for Proposals for public-key digital signature algorithms
+    to augment and diversify its signature portfolio.'
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTIR8413
+    docid:
+    - id: NIST IR 8413
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST IR 8413
+      format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)

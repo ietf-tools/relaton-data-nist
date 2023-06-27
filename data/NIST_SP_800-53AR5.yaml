@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP800-53Ar5
 title:
-- content: Assessing Security and Privacy Controls in Information Systems and Organizations
+- content: Assessing security and privacy controls in information systems and organizations
   language:
   - en
   script:
@@ -22,13 +22,11 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2022-01
+  value: '2022-01-25'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -36,11 +34,35 @@ contributor:
         country: US
   role:
   - type: publisher
-edition:
-  content: r5
-revdate: 2022-01
+revdate: '2022-01-25'
 script:
 - Latn
+abstract:
+- content: This publication provides a methodology and set of procedures for conducting
+    assessments of security and privacy controls employed within systems and organizations
+    within an effective risk management framework. The assessment procedures, executed
+    at various phases of the system development life cycle, are consistent with the
+    security and privacy controls in NIST Special Publication 800-53, Revision 5.
+    The procedures are customizable and can be easily tailored to provide organizations
+    with the needed flexibility to conduct security and privacy control assessments
+    that support organizational risk management processes and are aligned with the
+    stated risk tolerance of the organization. Information on building effective security
+    and privacy assessment plans is also provided with guidance on analyzing assessment
+    results.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-53Ar4;106028-NISTSP800-53Ar1;106028-NISTSP800-53A
+    docid:
+    - id: NIST SP 800-53Ar4; 10 6028/NIST SP 800-53Ar1; 10 6028/NIST SP 800-53A
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-53Ar4; 10 6028/NIST SP 800-53Ar1; 10 6028/NIST SP 800-53A
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -48,8 +70,6 @@ series:
   abbreviation:
     content: SP
   number: 800-53Ar5
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

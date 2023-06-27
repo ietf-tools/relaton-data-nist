@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTFIPS201-3
 title:
-- content: Personal Identity Verification (PIV) of Federal Employees and Contractors
+- content: Personal identity verification (PIV) of federal employees and contractors
   language:
   - en
   script:
@@ -22,13 +22,28 @@ docid:
   type: DOI
 date:
 - type: published
-  value: 2022-01
+  value: '2022-01-24'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Charles H
+          script:
+          - Latn
+      surname:
+        content: Romine
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -36,11 +51,23 @@ contributor:
         country: US
   role:
   - type: publisher
-edition:
-  content: '3'
-revdate: 2022-01
+revdate: '2022-01-24'
 script:
 - Latn
+abstract:
+- content: 'FIPS 201 establishes a standard for a Personal Identity Verification (PIV)
+    system (Standard) that meets the control and security objectives of Homeland Security
+    Presidential Directive-12 (HSPD-12). It is based on secure and reliable forms
+    of identity credentials issued by the Federal Government to its employees and
+    contractors. These credentials are used by mechanisms that authenticate individuals
+    who require access to federally controlled facilities, information systems, and
+    applications. This Standard addresses requirements for initial identity proofing,
+    infrastructure to support interoperability of identity credentials, and accreditation
+    of organizations issuing PIV credentials. [Supersedes FIPS 201-2 (August 2013
+    ): https://doi.org/10.6028/NIST.FIPS.201-2]'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Federal Information Processing Standards Publications
@@ -48,8 +75,6 @@ series:
   abbreviation:
     content: FIPS
   number: 201-3
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

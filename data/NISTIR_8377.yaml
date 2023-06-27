@@ -1,0 +1,192 @@
+---
+schema-version: v1.2.1
+id: NISTIR8377
+title:
+- content: User guide for NIST Media Forensic Challenge (MFC) datasets
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://doi.org/10.6028/NIST.IR.8377
+  type: doi
+- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8377.pdf
+  type: pdf
+type: standard
+docid:
+- id: NIST IR 8377
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8377
+  type: DOI
+date:
+- type: published
+  value: '2021-07-06'
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Haiying
+          script:
+          - Latn
+      surname:
+        content: Guan
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Andrew
+          script:
+          - Latn
+      surname:
+        content: Delgado
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Yooyoung
+          script:
+          - Latn
+      surname:
+        content: Lee
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Amy N
+          script:
+          - Latn
+      surname:
+        content: Yates
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Daniel
+          script:
+          - Latn
+      surname:
+        content: Zhou
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Timothee
+          script:
+          - Latn
+      surname:
+        content: Kheyrkhah
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Jon
+          script:
+          - Latn
+      surname:
+        content: Fiscus
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    contact:
+    - address:
+        city: Gaithersburg
+        state: MD
+        country: US
+  role:
+  - type: publisher
+revdate: '2021-07-06'
+script:
+- Latn
+abstract:
+- content: 'More than 300 individuals from 150 organizations across 26 countries and
+    regions use the NIST released Media Forensic Challenge (MFC) datasets for their
+    research. The MFC datasets were created for use in the DARPA MediFor (Media Forensics)
+    program. Since their release, multiple questions have been fielded regarding the
+    dataset properties, including contents, metadata definitions, usage, data repurposing,
+    etc. For example: what do the datasets contain? What are the definitions of the
+    different kinds of metadata? How does one label the data with the reference information
+    to build the training data for machine learning algorithms? How would one modify/extract
+    the data for their own research purposes? This document serves as a user guide
+    for the MFC datasets, including those used in the Nimble Challenge (NC). This
+    guide includes: 1) a description about MFC datasets including background, evolution
+    history, and the dataset summary by the evaluation tasks; 2) user access and permissions
+    of MFC datasets; 3) an introduction to the MFC data by providing a simple example
+    of a manipulation journal graph and its detailed corresponding MFC dataset reference
+    files; 4) an introduction to a flexible subset selection approach, Selective Scoring,
+    to sample the test probes from the entire test set for the particular task evaluation;
+    5) information to help users gain a deeper understanding of the metadata by presenting
+    two commonly used approaches to illustrate the manipulation operation statistic
+    histogram distributions, and 6) a general template of the NIST MFC evaluation
+    dataset to facilitate the future dataset generation.'
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST NISTIRs (Interagency/Internal Reports)
+    format: text/plain
+  abbreviation:
+    content: IR
+  number: '8377'
+doctype: standard
+ext:
+  schema-version: v1.0.0

@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP800-160v1r1
 title:
-- content: Engineering Trustworthy Secure Systems
+- content: Engineering trustworthy secure systems
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-11-16'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Ronald S
+        - content: Ron
           script:
           - Latn
       surname:
@@ -41,9 +41,43 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mark
+          script:
+          - Latn
+      surname:
+        content: Winstead
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: McEvilley
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,13 +85,34 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-11-16'
 script:
 - Latn
 abstract:
-- script:
+- content: This publication describes a basis for establishing principles, concepts,
+    activities, and tasks for engineering trustworthy secure systems. Such principles,
+    concepts, activities, and tasks can be effectively applied within systems engineering
+    efforts to foster a common mindset to deliver security for any system, regardless
+    of the system's purpose, type, scope, size, complexity, or the stage of its system
+    life cycle. The intent of this publication is to advance systems engineering in
+    developing trustworthy systems for contested operational environments (generally
+    referred to as systems security engineering) and to serve as a basis for developing
+    educational and training programs, professional certifications, and other assessment
+    criteria.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-160v1
+    docid:
+    - id: NIST SP 800-160v1
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-160v1
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)

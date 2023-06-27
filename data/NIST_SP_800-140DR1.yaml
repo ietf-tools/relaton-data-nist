@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-140Dr1
 title:
-- content: CMVP Approved Sensitive Security Parameter Generation and Establishment
-    Methods:CMVP Validation Authority Updates to ISO/IEC 24759
+- content: CMVP approved sensitive security parameter generation and establishment
+    methods :CMVP validation authority updates to ISOIEC 24759
   language:
   - en
   script:
@@ -23,13 +23,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-20'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Kim B
+        - content: Kim
           script:
           - Latn
       surname:
@@ -42,9 +42,26 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alexander
+          script:
+          - Latn
+      surname:
+        content: Calis
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,13 +69,29 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-20'
 script:
 - Latn
 abstract:
-- script:
+- content: The approved sensitive security parameter generation and establishment
+    methods listed in this publication replace the ones listed in ISO/IEC 19790 Annex
+    D and ISO/IEC 24759 paragraph 6.16, within the context of the Cryptographic Module
+    Validation Program (CMVP). As a validation authority, the CMVP may supersede Annex
+    D in its entirety.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-140D
+    docid:
+    - id: NIST SP 800-140D
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-140D
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)

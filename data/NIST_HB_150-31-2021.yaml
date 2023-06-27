@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTHB150-31-2021
 title:
-- content: NVLAP Health Information Technology Testing
+- content: NVLAP health information technology testing
   language:
   - en
   script:
@@ -22,7 +22,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-11-30'
+  value: '2021-08-05'
 contributor:
 - person:
     name:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -70,9 +68,37 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-11-30'
+revdate: '2021-08-05'
 script:
 - Latn
+abstract:
+- content: NIST Handbook 150-31 presents the technical requirements and guidance for
+    the accreditation of laboratories under the National Voluntary Laboratory Accreditation
+    Program (NVLAP) Healthcare Information Technology program. It is intended for
+    information and use by accredited laboratories, laboratories seeking accreditation,
+    laboratory accreditation systems, users of laboratory services, and others needing
+    information on the requirements for accreditation under this program. The 2021
+    edition of NIST Handbook 150-31 incorporates changes resulting from the clause
+    numbering updates to reflect that used by ISO/IEC 17025:2017, all references to
+    applicable international guides and standards have been updated, as well as editorial
+    improvements. The requirements of NIST Handbook 150 and the specific requirements
+    and interpretations in NIST Handbook 150-31 must be combined to produce the criteria
+    for accreditation in the NVLAP Healthcare Information Technology program. For
+    more information, visit the NVLAP website.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTHB150-31-2017
+    docid:
+    - id: NIST HB 150-31-2017
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST HB 150-31-2017
+      format: text/plain
 series:
 - title:
     content: NIST Handbooks
@@ -80,8 +106,6 @@ series:
   abbreviation:
     content: HB
   number: 150-31-2021
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP500-336
 title:
-- content: Specification for Interoperability Testing of Contactless Fingerprint Acquisition
-    Devices
+- content: Specification for interoperability testing of contactless fingerprint acquisition
+    devices
   language:
   - en
   script:
@@ -23,13 +23,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-06-08'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: John M
+        - content: John
           script:
           - Latn
       surname:
@@ -42,9 +42,128 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Shahram
+          script:
+          - Latn
+      surname:
+        content: Orandi
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: John
+          script:
+          - Latn
+      surname:
+        content: Grantham
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bruce
+          script:
+          - Latn
+      surname:
+        content: Bandini
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kenneth
+          script:
+          - Latn
+      surname:
+        content: Ko
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christopher
+          script:
+          - Latn
+      surname:
+        content: Stafford
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Matthew
+          script:
+          - Latn
+      surname:
+        content: Staymates
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Craig
+          script:
+          - Latn
+      surname:
+        content: Watson
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +171,23 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-06-08'
 script:
 - Latn
 abstract:
-- script:
+- content: This guidance specifies a protocol and associated metrics for the evaluation
+    of contactless fingerprint acquisition device, and their interoperability with
+    legacy devices. This protocol enables contactless fingerprint developers seeking
+    certification of their devices to perform an integral role in the collection of
+    measurements by which their device will be evaluated by the certifying authority
+    or other stakeholders. The NIST Fingerprint Registration and Comparison Tool (NFRaCT)
+    enables interested parties seeking testing for certification to collect fingerprint
+    images and performance measurements using the NFRaCT and provide those measurements
+    to the certifying authority for analysis and evaluation without requiring the
+    exchange of any underlying fingerprint images. The protocol provides flexibility
+    in that device performance can be evaluated and validated using live fingerprint
+    impressions or three-dimensional (3D) fingerprint target artifacts.
+  script:
   - Latn
   format: text/plain
 series:

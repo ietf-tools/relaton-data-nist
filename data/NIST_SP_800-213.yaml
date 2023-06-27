@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-213
 title:
-- content: IoT Device Cybersecurity Guidance for the Federal GovernmentEstablishing
-    IoT Device Cybersecurity Requirements
+- content: IoT device cybersecurity guidance for the federal government :establishing
+    IoT device cybersecurity requirements
   language:
   - en
   script:
@@ -23,9 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-11-24'
-- type: confirmed
-  value: '2021-11-24'
+  value: '2021-11-29'
 contributor:
 - person:
     name:
@@ -131,9 +129,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -141,30 +137,23 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-11-24'
+revdate: '2021-11-29'
 script:
 - Latn
-relation:
-- type: hasReprint
-  bibitem:
-    id: NISTSP800-213-draft
-    docid:
-    - id: NIST SP 800-213-draft
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-213-draft
-      format: text/plain
-- type: hasPart
-  bibitem:
-    id: NISTSP800-213A
-    docid:
-    - id: NIST SP 800-213A
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-213A
-      format: text/plain
+abstract:
+- content: Organizations will increasingly use Internet of Things (IoT) devices for
+    the mission benefits they can offer, but care must be taken in the acquisition
+    and implementation of IoT devices. This publication contains background and recommendations
+    to help organizations consider how an IoT device they plan to acquire can integrate
+    into a system. IoT devices and their support for security controls are presented
+    in the context of organizational and system risk management. This publication
+    provides guidance on considering system security from the device perspective.
+    This allows for the identification of device cybersecurity requirements the abilities
+    and actions an organization will expect from an IoT device and its manufacturer
+    and/or third parties, respectively.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -172,8 +161,6 @@ series:
   abbreviation:
     content: SP
   number: 800-213
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,9 +2,9 @@
 schema-version: v1.2.1
 id: NISTTN2187
 title:
-- content: 'A Resilient Architecture for the Realization and Distribution of Coordinated
-    Universal Time to Critical Infrastructure Systems in the United States: Methodologies
-    and Recommendations from the National Institute of Standards and Technology (NIST)'
+- content: A resilient architecture for the realization and distribution of coordinated
+    universal time to critical infrastructure systems in the United States :methodologies
+    and recommendations from the National Institute of Standards and Technology (NIST)
   language:
   - en
   script:
@@ -30,7 +30,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Jeffrey A.
+        - content: Jeffrey A
           script:
           - Latn
       surname:
@@ -64,7 +64,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Roger C.
+        - content: Roger C
           script:
           - Latn
       surname:
@@ -81,7 +81,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Matthew J.
+        - content: Matthew J
           script:
           - Latn
       surname:
@@ -98,7 +98,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Elizabeth A.
+        - content: Elizabeth A
           script:
           - Latn
       surname:
@@ -149,7 +149,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Glenn K.
+        - content: Glenn K
           script:
           - Latn
       surname:
@@ -166,7 +166,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Andrew N.
+        - content: Andrew N
           script:
           - Latn
       surname:
@@ -183,7 +183,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Bijunath R.
+        - content: Bijunath R
           script:
           - Latn
       surname:
@@ -200,7 +200,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Thomas E.
+        - content: Thomas E
           script:
           - Latn
       surname:
@@ -217,7 +217,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Benjamin K.
+        - content: Benjamin K
           script:
           - Latn
       surname:
@@ -234,7 +234,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Douglas D.
+        - content: Douglas D
           script:
           - Latn
       surname:
@@ -268,7 +268,7 @@ contributor:
     name:
       given:
         forename:
-        - content: William C.
+        - content: William C
           script:
           - Latn
       surname:
@@ -302,7 +302,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Michael A.
+        - content: Michael A
           script:
           - Latn
       surname:
@@ -317,9 +317,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -330,6 +328,27 @@ contributor:
 revdate: '2021-11-03'
 script:
 - Latn
+abstract:
+- content: The Time and Frequency Division of the National Institute of Standards
+    and Technology (NIST), an agency of the United States Department of Commerce (DOC),
+    was tasked with fulfilling Section 4, Part (i) of the Position, Navigation and
+    Timing (PNT) Executive Order that was signed by the President on February 12,
+    2020. The Executive Order states that Within 180 days of the date of this order,
+    the Secretary of Commerce shall make available a GNSS-independent source of Coordinated
+    Universal Time, to support the needs of critical infrastructure owners and operators,
+    for the public and private sectors to access. Although the Executive Order does
+    not specifically provide an accuracy requirement, this report assumes an accuracy
+    requirement of 1 ?s with respect to Coordinated Universal Time (UTC). This specification
+    is assumed because numerous critical infrastructure timing systems in the United
+    States are now heavily dependent on signals received from the Global Positioning
+    System (GPS) satellites that routinely provide sub-microsecond accuracy, and other
+    UTC sources that deliver time at comparable accuracy levels are needed to alleviate
+    or reduce these dependencies. This report was written to describe, propose, and
+    recommend technical methods that NIST has already implemented, or can potentially
+    implement, to fulfill Section 4, Part (i) of the PNT Executive Order.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -337,8 +356,6 @@ series:
   abbreviation:
     content: TN
   number: '2187'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

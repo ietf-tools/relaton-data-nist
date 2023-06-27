@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2225
 title:
-- content: Economic Evaluation Engine (E3) Technical Manual
+- content: Economic Evaluation Engine (E3) technical manual
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-19'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Joshua D
+        - content: Joshua
           script:
           - Latn
       surname:
@@ -41,9 +41,60 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          script:
+          - Latn
+      surname:
+        content: Webb
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Luke
+          script:
+          - Latn
+      surname:
+        content: Donmoyer
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Tasha
+          script:
+          - Latn
+      surname:
+        content: Kim
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,11 +102,43 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-19'
 script:
 - Latn
 abstract:
-- script:
+- content: The Engineering Laboratory (EL) of the National Institute of Standards
+    and Technology (NIST) has developed a variety of tools that provide some level
+    of economic analysis, many of which have been developed by EL s Applied Economics
+    Office (AEO). AEO-developed tools range across topic areas and economic metrics.
+    Each tool is targeting government agencies and organizations that fall under NIST
+    s mission. Stakeholders need different levels of details and functionality because
+    of the diverse backgrounds across stakeholders. As a result, AEO has developed
+    these software tools in a one-off approach on an as needed basis. As a result,
+    each software has its own unique set of code even though these tools have some
+    key underlying components that are common across tools, including methodology
+    documented in standards. To improve the efficiency of the tools developed by AEO
+    and its stakeholders, AEO has developed an economic service/engine with an associated
+    Application Programming Interface (API) that provides consistent, standardized,
+    transparent, reproducible economic analysis calculations should be developed,
+    maintained, and made publicly available for internal and external researchers,
+    analysts, and software developers called the Economic Evaluation Engine (E3).
+    E3 provides economic evaluation capabilities based on ASTM building economic standards
+    including life-cycle cost analysis, benefit-cost analysis, profit maximization
+    / cost-minimization, and risk-cost analysis. E3 could be leveraged by NIST as
+    well as other federal agencies and national laboratories, state and local governments,
+    academia, and the private sector to improve their tool development by using a
+    federally developed and validated calculations to provide standard-consistent
+    analysis. E3 is publicly accessible on a NIST server as well as on GitHub for
+    anyone to use for economic analysis, whether it s through a basic script calling
+    on the E3 API, online interface that connects to the E3 API, or an executable
+    program that is built on E3 s capabilities. Additionally, users of E3 could provide
+    expansions to the capabilities by developing the code and submitting it to NIST
+    for review and incorporation. This technical manual describes E3, including the
+    underlying standards on which its based, the data flow through the tool, details
+    on the code libraries, classes, and file structure, development tools used, guidance
+    on how to use the tool, limitations, planned release, and the development of its
+    future capabilities.
+  script:
   - Latn
   format: text/plain
 series:

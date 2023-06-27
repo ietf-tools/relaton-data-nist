@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8360
 title:
-- content: Machine Learning for Access Control Policy Verification
+- content: Machine learning for access control policy verification
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Vincent C.
+        - content: Vincent C
           script:
           - Latn
       surname:
@@ -43,9 +43,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -56,6 +54,28 @@ contributor:
 revdate: '2021-09-16'
 script:
 - Latn
+abstract:
+- content: Access control policy verification ensures that there are no faults within
+    the policy that leak or block access privileges. As a software test, access control
+    policy verification relies on methods such as model proof, data structure, system
+    simulation, and test oracle to verify that the policy logic functions as expected.
+    However, these methods have capability and performance issues related to inaccuracy
+    and complexity limited by applied technologies. For instance, model proof, test
+    oracle, and data structure methods initially assume that the policy under verification
+    is faultless unless the policy model cannot hold for test cases. Thus, the challenge
+    of the method is to compose test cases that can comprehensively discover all faults.
+    Alternatively, a system simulation method requires translating the policy to a
+    simulated system. The translation between systems may be difficult or impractical
+    to implement if the policy logic is complicated or the number of policy rules
+    is large. To answer these challenges, this internal report (IR) proposes an efficient
+    and straightforward method for access control policy verification by applying
+    a classification algorithm of machine learning, which does not require comprehensive
+    test cases, oracle, or system translation but rather checks the logic of policy
+    rules directly, making it more efficient and feasible compared to traditional
+    methods.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -63,8 +83,6 @@ series:
   abbreviation:
     content: IR
   number: '8360'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

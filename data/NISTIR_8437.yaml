@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8437
 title:
-- content: On the Feasibility of COVID-19 Proximity Detection Using Bluetooth Low
-    Energy Signals
+- content: On the feasibility of COVID-19 proximity detection using Bluetooth low
+    energy signals
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-11-29'
 contributor:
 - person:
     name:
@@ -39,12 +39,46 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Communications Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Chang
+          script:
+          - Latn
+      surname:
+        content: Li
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Lu
+          script:
+          - Latn
+      surname:
+        content: Shi
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +86,45 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-11-29'
 script:
 - Latn
 abstract:
-- script:
+- content: The Corona VIrus Disease 2019 (COVID-19) pandemic has had a profound effect
+    on the entire world. With the onset of the pandemic in 2020, also started various
+    efforts around the world to automate the contact tracing process to increase its
+    efficacy. Most of these efforts and the smartphone apps that were developed used
+    the Bluetooth Low Energy (BLE) Received Signal Strength Indicator (RSSI) to detect
+    proximity between people. This was facilitated by the development of the Google-Apple
+    Exposure Notification (GAEN) system that made it possible for Android phones and
+    iPhones to exchange standardized BLE messages seamlessly so that RSSI could be
+    measured by both types of phones. In the summer of 2020, we carried out a five-week
+    long BLE RSSI data collection campaign using wearable devices developed at NIST
+    and running on a Raspberry Pi platform. The data collection was comprehensive,
+    because it included a wide variety of operational scenarios including situations
+    where the two devices were not in line-of-site of each other. To the best of our
+    knowledge, there are no publicly reported repositories of BLE RSSI data that includes
+    non-line-of-site (NLOS) scenarios. Such scenarios are important, because they
+    can lead to false alarms in detecting situations where virus transmission between
+    two people is possible. The paper presents a classical analytical framework for
+    proximity detection in the context of electronic contact tracing for COVID-19.
+    We make a distinction between instantaneous and after the fact proximity detection.
+    In the former case, the purpose is to instantaneously warn people that they are
+    violating social distancing rules. In the latter case, the purpose is to notify
+    people after the fact that they had a close contact of certain duration with an
+    individual who has tested positive for COVID-19 and was capable of transmitting
+    the virus at the time of the contact. We evaluate the performance of various methods
+    for instantaneous proximity detection. In after the fact proximity detection,
+    we are interested in identifying periods of time where two people were too close
+    to each other with no barriers between them. We propose a method that applies
+    the Viterbi Algorithm to a time series of BLE RSSI data to solve this problem.
+    The method exploits the fact that humans do not move faster than certain speed.
+    In both cases of instantaneous and after the fact proximity detection, we show
+    that methods based on BLE RSSI data leave a lot of room for improvement. Therefore,
+    the problem of proximity detection for electronic contact tracing and blunting
+    the spread of highly infectious diseases is far from solved. We also know that
+    the next pandemic is not a matter of if but when.
+  script:
   - Latn
   format: text/plain
 series:

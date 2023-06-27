@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-40r4
 title:
-- content: Guide to Enterprise Patch Management Planning:Preventive Maintenance for
-    Technology
+- content: Guide to enterprise patch management planning :preventive maintenance for
+    technology
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-04-06'
 contributor:
 - person:
     name:
@@ -42,9 +42,26 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+      surname:
+        content: Scarfone
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,13 +69,37 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-04-06'
 script:
 - Latn
 abstract:
-- script:
+- content: Enterprise patch management is the process of identifying, prioritizing,
+    acquiring, installing, and verifying the installation of patches, updates, and
+    upgrades throughout an organization. Patching is more important than ever because
+    of the increasing reliance on technology, but there is often a divide between
+    business/mission owners and security/technology management about the value of
+    patching. This publication frames patching as a critical component of preventive
+    maintenance for computing technologies a cost of doing business, and a necessary
+    part of what organizations need to do in order to achieve their missions. This
+    publication also discusses common factors that affect enterprise patch management
+    and recommends creating an enterprise strategy to simplify and operationalize
+    patching while also improving reduction of risk. Preventive maintenance through
+    enterprise patch management helps prevent compromises, data breaches, operational
+    disruptions, and other adverse events.
+  script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-40r3;106028-NISTSP800-40ver2;106028-NISTSP800-40
+    docid:
+    - id: NIST SP 800-40r3; 10 6028/NIST SP 800-40ver2; 10 6028/NIST SP 800-40
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-40r3; 10 6028/NIST SP 800-40ver2; 10 6028/NIST SP 800-40
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)

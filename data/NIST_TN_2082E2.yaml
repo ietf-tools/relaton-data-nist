@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2082e2
 title:
-- content: The Structure of Medium-Scale Pool Fires
+- content: The structure of medium-scale pool fires
   language:
   - en
   script:
@@ -111,9 +111,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -124,6 +122,31 @@ contributor:
 revdate: '2022-01-05'
 script:
 - Latn
+abstract:
+- content: This report documents a series of time-averaged gas species measurements
+    made along the centerline of methanol, ethanol, acetone, methane, and propane
+    pool fires steadily burning in a quiescent environment. All gas species measurements
+    are obtained using a Gas Chromatograph/ Mass Spectrometer System (GC/MS) for gas
+    samples extracted at various heights above the fire and repeated at least twice
+    at each location. Gas species volume fractions are determined via the GC/MS using
+    predetermined calibration factors. Soot mass fractions are simultaneously measured
+    during the gas sampling process. The gas species volume and soot mass fractions
+    are compared at different heights within the fire and across a variety of different
+    fuels. Other fire parameters are measured as well, including time-averaged temperature
+    and velocity measurements and mass burning rates.
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: ''
+    docid:
+    - id: ''
+      type: NIST
+      primary: true
+    formattedref:
+      format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -131,8 +154,6 @@ series:
   abbreviation:
     content: TN
   number: 2082e2
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

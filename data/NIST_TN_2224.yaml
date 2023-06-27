@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2224
 title:
-- content: A Simple Correlation for Horizontal Micro-Fin Tube Convective Boiling;
-    with Example Calculation
+- content: A simple correlation for horizontal micro-fin tube convective boiling with
+    example calculation
   language:
   - en
   script:
@@ -23,7 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-06-03'
 contributor:
 - person:
     name:
@@ -42,9 +42,26 @@ contributor:
         - content: Engineering Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Lingnan
+          script:
+          - Latn
+      surname:
+        content: Lin
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Engineering Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +69,24 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-06-03'
 script:
 - Latn
 abstract:
-- script:
+- content: This paper presents a simple correlation containing nine dimensionless
+    parameters to predict the local convective boiling heat transfer within a micro-fin
+    tube that was developed from a dataset that included a wide range of refrigerants,
+    flow conditions, and hydraulic diameters. Flow boiling measurements from 36 studies
+    were gathered to produce a dataset containing 29 refrigerants and 15 different
+    hydraulic diameters ranging from 1.8 mm to 6.7 mm. The database was adjusted so
+    that the definition of the Nusselt number, the Reynolds number, the heat flux,
+    and heat transfer coefficient were all defined in the same way for each study.
+    In addition, values for the most recent fluid properties were used for the calculation
+    of dimensionless parameters that were used in the new correlation. The new correlation
+    for micro-fin convective boiling predicted the measurements from the database
+    to within 10.3 % for pure-refrigerants and azeotropic mixtures and 12.3 % for
+    zeotropic mixtures.
+  script:
   - Latn
   format: text/plain
 series:

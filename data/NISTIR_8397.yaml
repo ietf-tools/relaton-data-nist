@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8397
 title:
-- content: Guidelines on Minimum Standards for Developer Verification of Software
+- content: Guidelines on minimum standards for developer verification of software
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Paul E.
+        - content: Paul E
           script:
           - Latn
       surname:
@@ -77,9 +77,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -90,6 +88,27 @@ contributor:
 revdate: '2021-10-06'
 script:
 - Latn
+abstract:
+- content: 'Executive Order (EO) 14028, Improving the Nation s Cybersecurity, 12 May
+    2021, directs the National Institute of Standards and Technology (NIST) to recommend
+    minimum standards for software testing within 60 days. This document describes
+    eleven recommendations for software verification techniques as well as providing
+    supplemental information about the techniques and references for further information.
+    It recommends the following techniques: Threat modeling to look for design-level
+    security issues Automated testing for consistency and to minimize human effort
+    Static code scanning to look for top bugs Heuristic tools to look for possible
+    hardcoded secrets Use of built-in checks and protections Black box test cases
+    Code-based structural test cases Historical test cases Fuzzing Web app scanners,
+    if applicable Address included code (libraries, packages, services) The document
+    does not address the totality of software verification, but instead recommends
+    techniques that are broadly applicable and form the minimum standards. The document
+    was developed by NIST in consultation with the National Security Agency. Additionally,
+    we received input from numerous outside organizations through papers submitted
+    to a NIST workshop on the Executive Order held in early June, 2021 and discussion
+    at the workshop as well as follow up with several of the submitters.'
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -97,8 +116,6 @@ series:
   abbreviation:
     content: IR
   number: '8397'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTSP800-213A
 title:
-- content: IoT Device Cybersecurity Guidance for the Federal GovernmentIoT Device
-    Cybersecurity Requirement Catalog
+- content: IoT device cybersecurity guidance for the federal government :IoT device
+    cybersecurity requirement catalog
   language:
   - en
   script:
@@ -23,9 +23,7 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2021-11-24'
-- type: confirmed
-  value: '2021-11-24'
+  value: '2021-11-29'
 contributor:
 - person:
     name:
@@ -70,6 +68,23 @@ contributor:
           - Latn
       surname:
         content: Marron
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Eric
+          script:
+          - Latn
+      surname:
+        content: Link
         script:
         - Latn
     affiliation:
@@ -165,9 +180,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -175,20 +188,22 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2021-11-24'
+revdate: '2021-11-29'
 script:
 - Latn
-relation:
-- type: partOf
-  bibitem:
-    id: NISTSP800-213
-    docid:
-    - id: NIST SP 800-213
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-213
-      format: text/plain
+abstract:
+- content: This publication provides a catalog of internet of things (IoT) device
+    cybersecurity capabilities (i.e., features and functions needed from a device
+    to support security controls) and non-technical supporting capabilities (i.e.,
+    actions and support needed from device manufacturers and other supporting entities
+    to support security controls) that can help organizations as they use Special
+    Publication (SP) 800-213 to determine and establish device cybersecurity requirements.
+    This catalog cross references the capabilities in the catalog to the cybersecurity
+    controls in NIST SP 800-53. Organizations should refer to SP 800-213 as that publication
+    provides necessary context to effectively use this catalog and related material.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)
@@ -196,8 +211,6 @@ series:
   abbreviation:
     content: SP
   number: 800-213A
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

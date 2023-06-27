@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8312
 title:
-- content: Four Principles of Explainable Artificial Intelligence
+- content: Four principles of explainable artificial intelligence
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: P. Jonathon
+        - content: P Jonathon
           script:
           - Latn
       surname:
@@ -45,7 +45,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Carina A.
+        - content: Carina A
           script:
           - Latn
       surname:
@@ -62,7 +62,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Peter C.
+        - content: Peter C
           script:
           - Latn
       surname:
@@ -79,7 +79,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Amy N.
+        - content: Amy N
           script:
           - Latn
       surname:
@@ -113,7 +113,7 @@ contributor:
     name:
       given:
         forename:
-        - content: David A.
+        - content: David A
           script:
           - Latn
       surname:
@@ -130,7 +130,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Mark A.
+        - content: Mark A
           script:
           - Latn
       surname:
@@ -145,9 +145,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -158,6 +156,27 @@ contributor:
 revdate: '2021-09-29'
 script:
 - Latn
+abstract:
+- content: We introduce four principles for explainable artificial intelligence (AI)
+    that comprise fundamental properties for explainable AI systems. We propose that
+    explainable AI systems deliver accompanying evidence or reasons for outcomes and
+    processes; provide explanations that are understandable to individual users; provide
+    explanations that correctly reflect the system s process for generating the output;
+    and that a system only operates under conditions for which it was designed and
+    when it reaches sufficient confidence in its output. We have termed these four
+    principles as explanation, meaningful, explanation accuracy, and knowledge limits,
+    respectively. Through significant stakeholder engagement, these four principles
+    were developed to encompass the multidisciplinary nature of explainable AI, including
+    the fields of computer science, engineering, and psychology. Because one-sizefits-all
+    explanations do not exist, different users will require different types of explanations.
+    We present five categories of explanation and summarize theories of explainable
+    AI. We give an overview of the algorithms in the field that cover the major classes
+    of explainable algorithms. As a baseline comparison, we assess how well explanations
+    provided by people follow our four principles. This assessment provides insights
+    to the challenges of designing explainable AI systems.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -165,8 +184,6 @@ series:
   abbreviation:
     content: IR
   number: '8312'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

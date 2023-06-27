@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2150-upd
 title:
-- content: Single-Zone Simulations Using FaTIMA for Reducing Aerosol Exposure in Educational
-    Spaces
+- content: Single-zone simulations using FaTIMA for reducing aerosol exposure in educational
+    spaces
   language:
   - en
   script:
@@ -80,7 +80,7 @@ contributor:
     name:
       given:
         forename:
-        - content: W. Stuart
+        - content: W Stuart
           script:
           - Latn
       surname:
@@ -129,9 +129,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -142,6 +140,56 @@ contributor:
 revdate: '2021-09-02'
 script:
 - Latn
+abstract:
+- content: 'On March 11, 2020, the World Health Organization declared the novel coronavirus
+    (COVID-19) outbreak a global pandemic. Following this announcement, school closures
+    around the United States began, and starting in June 2020, many schools decided
+    to reopen for the next academic year or were planning to reopen. Guidance from
+    ASHRAE and other organizations for reoccupying school buildings include wearing
+    masks, increasing ventilation, increasing filtration, and using portable air cleaners
+    (PAC).This report describes a simulation study that: (1) compares the relative
+    reduction in aerosol exposure in education spaces as a result of changes to the
+    operation of heating, ventilating, and air conditioning (HVAC) systems and inclusion
+    of non-HVAC controls (e.g., wearing of masks and operating PAC) and (2) estimates
+    the uncertainties in effectiveness associated with these controls and combinations
+    of controls. This analysis used Fate and Transport of Indoor Microbial Aerosols
+    (FaTIMA), a tool developed by the National Institute of Standards and Technology
+    (NIST), to evaluate aerosol exposure in ventilated spaces. FaTIMA was used to
+    model the release of biological aerosols in two classrooms and an assembly room
+    with four different types of HVAC systems, including central air handling systems
+    (CAHS), dedicated outdoor air systems (DOAS), terminal unit systems (TUS), and
+    wall unit systems (WUS). Exposure was evaluated for 1 ?m particles (or aerosols)
+    by which viruses are transported. In the classrooms, exposure was evaluated for
+    6 h of continuous exposure to a continuous source. In the assembly room, exposure
+    was evaluated for 1 h of continuous exposure, where the source was present for
+    the 5 h prior to the exposure period. For all the spaces and HVAC systems, the
+    wearing of masks alone (assuming a protection efficiency of 25 % for both intake
+    and exhalation) reduced exposure by 44 % relative to the base cases without masks.
+    Masks with higher protection efficiencies (85 % to 90 %) reduced exposure 99 %,
+    and masks with lower protection efficiencies reduced exposure 15 %. Masks with
+    inhalation and exhalation protection efficiencies of 25 % combined with MERV 13
+    filtration in the HVAC systems reduced exposure by an average 71 % for the CAHS,
+    DOAS, and TUS. For the CAHS, these masks combined with 100 % outdoor air (OA)
+    intake reduced exposure by an average of 70 %. Using either a 297 clean air delivery
+    rate (CADR) PAC or a 569 L?s-1 (1?200 cfm) exhaust fan with these masks, exposure
+    was reduced by an average of 68 %. Combining all these controls, exposure was
+    reduced by an average of 85 % assuming all controls were performing as intended.
+    The results of this analysis may be useful in the selection of control options
+    in educational facilities.'
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTTN2150
+    docid:
+    - id: NIST TN 2150
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST TN 2150
+      format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -149,8 +197,6 @@ series:
   abbreviation:
     content: TN
   number: 2150-upd
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

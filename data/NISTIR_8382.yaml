@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8382
 title:
-- content: NFIQ 2 NIST Fingerprint Image Quality
+- content: NFIQ 2 NIST fingerprint image quality
   language:
   - en
   script:
@@ -213,9 +213,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -226,6 +224,17 @@ contributor:
 revdate: '2021-07-13'
 script:
 - Latn
+abstract:
+- content: NIST Fingerprint Image Quality (NFIQ 2) is open source software that links
+    image quality of optical and ink 500 pixel per inch fingerprints to operational
+    recognition performance. This allows quality values to be tightly defined and
+    then numerically calibrated, which in turn allows for the standardization needed
+    to support a worldwide deployment of fingerprint sensors with universally interpretable
+    image qualities. NFIQ 2 quality features are formally standardized as part of
+    ISO/IEC 29794-4 and serve as the reference implementation of the standard.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -233,8 +242,6 @@ series:
   abbreviation:
     content: IR
   number: '8382'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

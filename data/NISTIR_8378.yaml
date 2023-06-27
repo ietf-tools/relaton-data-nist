@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTIR8378
 title:
-- content: Model of Operational Control of Discrete Event Logistics Systems (DELS)
+- content: Model of operational control of discrete event logistics systems (DELS)
   language:
   - en
   script:
@@ -60,9 +60,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -73,6 +71,27 @@ contributor:
 revdate: '2021-07-08'
 script:
 - Latn
+abstract:
+- content: Operations management systems manage flows of work, resources, and information
+    through production and logistics systems, ensuring the correct and efficient execution
+    of requested work. These systems can leverage recent advances in data availability,
+    analytical capabilities, and industrial automation to substantially improve overall
+    system performance. Additional improvements include streamlining flows of work,
+    resources, and information across functionally heterogeneous components of production
+    and logistics systems, which often have their own planning, execution, and data
+    management systems. These smart manufacturing capabilities may simplify system
+    implementation and improve its operation. However, they also introduce additional
+    complexity to the system and design process. This paper proposes a model of operational
+    control capable of supporting an integrated approach to design, analysis, and
+    operation across functionally heterogeneous systems, classified as discrete event
+    logistics systems. The model identifies and formalizes operational control decision-making
+    and actuation functions required by these systems. It then provides logical modeling
+    components that can be reused, specialized, and assembled into operational control
+    system models. These models can be linked and integrated with other models and
+    views of the system as part of an overall model-based engineering effort.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)
@@ -80,8 +99,6 @@ series:
   abbreviation:
     content: IR
   number: '8378'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

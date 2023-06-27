@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8320
 title:
-- content: Hardware-Enabled Security:Enabling a Layered Approach to Platform Security
-    for Cloud and Edge Computing Use Cases
+- content: Hardware-enabled security :enabling a layered approach to platform security
+    for cloud and edge computing use cases
   language:
   - en
   script:
@@ -23,8 +23,25 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-04'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Bartock
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -39,12 +56,224 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Ryan
+          script:
+          - Latn
+      surname:
+        content: Savino
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Tim
+          script:
+          - Latn
+      surname:
+        content: Knoll
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Uttam
+          script:
+          - Latn
+      surname:
+        content: Shetty
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mourad
+          script:
+          - Latn
+      surname:
+        content: Cherfaoui
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Raghu
+          script:
+          - Latn
+      surname:
+        content: Yeluri
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Akash
+          script:
+          - Latn
+      surname:
+        content: Malhotra
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Don
+          script:
+          - Latn
+      surname:
+        content: Banks
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Jordan
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Dimitrios
+          script:
+          - Latn
+      surname:
+        content: Pendarakis
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: J R
+          script:
+          - Latn
+          initial: J
+        - script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: J R
+          script:
+          - Latn
+      surname:
+        content: Rao
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Peter
+          script:
+          - Latn
+      surname:
+        content: Romness
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Karen
+          script:
+          - Latn
+      surname:
+        content: Scarfone
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,11 +281,21 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-04'
 script:
 - Latn
 abstract:
-- script:
+- content: In today's cloud data centers and edge computing, attack surfaces have
+    shifted and, in some cases, significantly increased. At the same time, hacking
+    has become industrialized, and most security control implementations are not coherent
+    or consistent. The foundation of any data center or edge computing security strategy
+    should be securing the platform on which data and workloads will be executed and
+    accessed. The physical platform represents the first layer for any layered security
+    approach and provides the initial protections to help ensure that higher-layer
+    security controls can be trusted. This report explains hardware-enabled security
+    techniques and technologies that can improve platform security and data protection
+    for cloud data centers and edge computing.
+  script:
   - Latn
   format: text/plain
 series:

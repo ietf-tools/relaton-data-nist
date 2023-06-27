@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTIR8431
 title:
-- content: 'Workshop Summary Report for Building on the NIST Foundations: Next Steps
-    in IoT Cybersecurity'
+- content: Workshop summary report for Building on the NIST Foundations :Next Steps
+    in IoT Cybersecurity
   language:
   - en
   script:
@@ -23,8 +23,42 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022-09-20'
+  value: '2022-09-30'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Katerina N
+          script:
+          - Latn
+      surname:
+        content: Megas
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Michael
+          script:
+          - Latn
+      surname:
+        content: Fagan
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -39,12 +73,63 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Information Technology Laboratory
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Brad
+          script:
+          - Latn
+      surname:
+        content: Hoehn
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          script:
+          - Latn
+      surname:
+        content: Lemire
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Rebecca
+          script:
+          - Latn
+      surname:
+        content: Herold
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Material Measurement Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -52,9 +137,24 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022-09-20'
+revdate: '2022-09-30'
 script:
 - Latn
+abstract:
+- content: This report summarizes the feedback received on the work of the NIST Cybersecurity
+    for the Internet of Things (IoT) program on IoT product cybersecurity criteria
+    at a virtual workshop in June 2022. The purpose of this workshop was to obtain
+    feedback on specific considerations and techniques for addressing those considerations
+    around cybersecurity in IoT products. These considerations have broad applicability
+    across IoT product sectors, including the consumer IoT products sector and the
+    industrial IoT sector. For consumer IoT, these considerations arose in moving
+    the criteria presented in Recommended Criteria for Cybersecurity Labeling for
+    Consumer Internet of Things (IoT) Products into draft NIST IR 8425, Profile of
+    the IoT Core Baseline for Consumer IoT Products, along with a discussion paper
+    on the complexity of risk identification for IoT published before the workshop.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST NISTIRs (Interagency/Internal Reports)

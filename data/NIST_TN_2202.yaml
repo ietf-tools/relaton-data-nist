@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTTN2202
 title:
-- content: Simulation of Residential CO Exposures from Portable Generators with and
-    without CO Hazard Mitigation Systems Meeting Requirements of Voluntary Standards
+- content: Simulation of residential CO exposures from portable generators with and
+    without CO hazard mitigation systems meeting requirements of voluntary standards
   language:
   - en
   script:
@@ -29,7 +29,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Steven
+        - content: Steven J
           script:
           - Latn
       surname:
@@ -97,7 +97,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Matthew
+        - content: Matthew J
           script:
           - Latn
       surname:
@@ -112,19 +112,48 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
-        state: Md
+        state: MD
         country: US
   role:
   - type: publisher
 revdate: '2022-02-16'
 script:
 - Latn
+abstract:
+- content: This report documents work performed by the U.S. National Institute of
+    Standards and Technology (NIST) and the U.S. Consumer Product Safety Commission
+    (CPSC) under an interagency agreement in support of the Commission's effort to
+    address the carbon monoxide (CO) poisoning hazard associated with consumer use
+    of portable generators. This report documents the plan, developed by NIST and
+    CPSC staff, for a computer simulation study performed by NIST and provides examples
+    of the study results. CPSC staff will use the study's results to evaluate the
+    effectiveness of CO hazard mitigation requirements that were adopted in two voluntary
+    standards in 2018. These two ANSI-approved standards are ANSI/PGMA G300-2018,
+    Safety and Performance of Portable Generators (referred to as PGMA G300) and UL
+    2201, Standard for Carbon Monoxide (CO) Emission Rate of Portable Generators,
+    Second Edition (referred to as UL 2201). Both voluntary standards have requirements
+    for a system that will shut the generator off when specific CO concentrations
+    are present near the generator. PGMA G300 also has other requirements, including
+    a notification to alert the user of the presence of CO after the generator has
+    shut off, while UL 2201 has a reduced CO emission rate requirement. The methodology
+    of the simulation study was largely similar to that used by CPSC staff to evaluate
+    the benefits of the proposed rule issued by the Commission in 2016 to address
+    the hazard of CO poisoning from portable generators. This simulation study used
+    the same forty buildings, weather conditions, and generator characteristics to
+    study the rate at which the CO emitted from the generator accumulates in, transports
+    within, and leaves the homes and detached garages for generators with and without
+    the CO mitigation requirements prescribed in the voluntary standards. The plan
+    involved performing approximately 140,000 simulations using NIST's indoor air
+    quality modeling program CONTAM. This report presents the simulation plan and
+    detailed CO and COHb simulation results for sample scenarios from two of the houses
+    and one of the detached garages.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -132,8 +161,6 @@ series:
   abbreviation:
     content: TN
   number: '2202'
-place:
-- Gaithersburg, Md
 doctype: standard
 ext:
   schema-version: v1.0.0

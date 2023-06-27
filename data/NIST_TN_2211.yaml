@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2211
 title:
-- content: A Tool to Model Virus Particle Exposure in Residences (ViPER)
+- content: A tool to model Virus Particle Exposure in Residences (ViPER)
   language:
   - en
   script:
@@ -28,7 +28,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Stephen
+        - content: Stephen M
           script:
           - Latn
       surname:
@@ -62,7 +62,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Lisa
+        - content: Lisa C
           script:
           - Latn
       surname:
@@ -79,7 +79,7 @@ contributor:
     name:
       given:
         forename:
-        - content: William Stuart
+        - content: W Stuart
           script:
           - Latn
       surname:
@@ -111,9 +111,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -124,6 +122,28 @@ contributor:
 revdate: '2022-03-09'
 script:
 - Latn
+abstract:
+- content: Virus Particle Exposure in Residences (ViPER) is a web-based, single zone
+    indoor air quality and ventilation analysis tool developed by the National Institute
+    of Standards and Technology (NIST) for evaluating an occupant's relative exposure
+    to virus-laden particles exhaled by a temporary, contagious visitor inside a dwelling
+    (i.e., subsequently referred to as the home). This tool is specifically designed
+    for use in a residential environment. When an occupant (the home's resident) anticipates
+    having a visitor (a potential, temporary and continuous source of virus-laden
+    particles), this tool can be used to vary a set of input parameters and then compare
+    the changes to either particle concentration or integrated exposure. Some such
+    parameters include home size, visit duration, and portable air cleaner effectiveness,
+    as well as mechanical ventilation rates and heating, ventilating and air-conditioning
+    system operation strategies. This tool is based on a database of 1,296 CONTAM
+    simulation results. CONTAM is a multizone indoor air quality and airflow analysis
+    program developed by NIST. ViPER allows users to compare a base scenario meant
+    to represent their home against multiple what-if scenarios meant to mitigate their
+    exposure to virus-laden particles. ViPER is available, along with CONTAM and other
+    NIST-developed software, on the NIST Multizone Modeling Website https://www.nist.gov/el/energy-and-environment-division-73200/nist-mult
+    .
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -131,8 +151,6 @@ series:
   abbreviation:
     content: TN
   number: '2211'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

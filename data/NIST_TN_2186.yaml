@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTTN2186
 title:
-- content: 'Modeling Public Safety Communication Scenarios: School Shooting Incident'
+- content: Modeling public safety communication scenarios :school shooting incident
   language:
   - en
   script:
@@ -94,9 +94,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -107,6 +105,21 @@ contributor:
 revdate: '2021-10-15'
 script:
 - Latn
+abstract:
+- content: Public safety practitioners performing day-to-day activities and responding
+    to incidents communicate in ways that are very different from the general public.
+    In order to determine if a particular technology or network deployment can meet
+    the performance requirements critical to first responders, sound and detailed
+    scenarios are needed. In this document, we present a fictional school shooting
+    scenario involving a large number of responders, vehicles, and applications, over
+    a 4-hour period. We describe, in detail, the location of the users, the type of
+    applications used and their usage patterns. We also present a basic net-work deployment
+    using Long Term Evolution (LTE) and describe the implementation of such a scenario
+    in the open-source ns-3 simulation platform so it can serve as a baseline for
+    future research.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Technical Notes
@@ -114,8 +127,6 @@ series:
   abbreviation:
     content: TN
   number: '2186'
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0

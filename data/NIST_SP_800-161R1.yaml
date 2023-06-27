@@ -2,7 +2,7 @@
 schema-version: v1.2.1
 id: NISTSP800-161r1
 title:
-- content: Cybersecurity Supply Chain Risk Management for Systems and Organizations
+- content: Cybersecurity supply chain risk management for systems and organizations
   language:
   - en
   script:
@@ -22,13 +22,13 @@ docid:
   type: DOI
 date:
 - type: published
-  value: '2022'
+  value: '2022-05-05'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Jon M
+        - content: Jon
           script:
           - Latn
       surname:
@@ -41,9 +41,94 @@ contributor:
         - content: Information Technology Laboratory
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Angela
+          script:
+          - Latn
+      surname:
+        content: Smith
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Nadya
+          script:
+          - Latn
+      surname:
+        content: Bartol
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kris
+          script:
+          - Latn
+      surname:
+        content: Winkler
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Alex
+          script:
+          - Latn
+      surname:
+        content: Holbrook
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Matthew
+          script:
+          - Latn
+      surname:
+        content: Fallon
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: Information Technology Laboratory
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -51,14 +136,14 @@ contributor:
         country: US
   role:
   - type: publisher
-revdate: '2022'
+revdate: '2022-05-05'
 script:
 - Latn
 abstract:
 - content: Organizations are concerned about the risks associated with products and
     services that may contain potentially malicious functionality, are counterfeit,
     or are vulnerable due to poor manufacturing and development practices within the
-    supply chain. These risks are associated with an enterprise’s decreased visibility
+    supply chain. These risks are associated with an enterprise's decreased visibility
     into, and understanding of, how the technology they acquire is developed, integrated,
     and deployed, or the processes, procedures, standards, and practices used to ensure
     the security, resilience, reliability, safety, integrity, and quality of the products
@@ -68,10 +153,21 @@ abstract:
     chain risk management (C-SCRM) into risk management activities by applying a multilevel,
     C-SCRM-specific approach, including guidance on development of C-SCRM strategy
     implementation plans, C-SCRM policies, C-SCRM plans, and risk assessments for
-    products and services
+    products and services.
   script:
   - Latn
   format: text/plain
+relation:
+- type: obsoletes
+  bibitem:
+    id: NISTSP800-161
+    docid:
+    - id: NIST SP 800-161
+      type: NIST
+      primary: true
+    formattedref:
+      content: NIST SP 800-161
+      format: text/plain
 series:
 - title:
     content: NIST Special Publications (General)

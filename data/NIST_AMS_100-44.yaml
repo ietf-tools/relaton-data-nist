@@ -2,8 +2,8 @@
 schema-version: v1.2.1
 id: NISTAMS100-44
 title:
-- content: 'Understanding Anisotropic Tensile Properties of Laser Powder Bed Fusion
-    Additive Metals: A Detailed Review of Select Examples'
+- content: Understanding anisotropic tensile properties of laser powder bed fusion
+    additive metals :a detailed review of select examples
   language:
   - en
   script:
@@ -29,7 +29,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Jordan S.
+        - content: Jordan S
           script:
           - Latn
       surname:
@@ -61,9 +61,7 @@ contributor:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
+    - content: National Institute of Standards and Technology (U.S.)
     contact:
     - address:
         city: Gaithersburg
@@ -74,6 +72,35 @@ contributor:
 revdate: '2021-11-18'
 script:
 - Latn
+abstract:
+- content: There are several physical reasons for anisotropic mechanical properties
+    in additively manufactured metals. These include but are not limited to directionally
+    dependent grain and phase morphology; crystallographic texture; directional porosity/defects;
+    and heterogeneity associated with the melt pool, layer wise microstructure. All
+    of these are prevalent in most additive manufacturing processes, and it is difficult
+    to separate out the role that each play in the mechanical anisotropy. This review
+    focuses on studies that have attempted to or reasonably isolate one or two of
+    these sources rather than simply report on trends in mechanical properties. This
+    is not an exhaustive review covering all additive process or mechanical properties;
+    the main assessment is on laser powder bed fusion (LPBF) metals and tensile test
+    results (modulus, yield strength, ultimate tensile strength (UTS), elongation,
+    and fracture surface analysis). In summary, the primary sources of anisotropic
+    tensile properties for LPBF alloys are crystallographic texture, anisotropic microstructure
+    morphologies, lack of fusion defects, and the melt pool macrostructure. Within
+    anisotropic microstructures, elongated grains appear to be secondary compared
+    to the preferential distribution of phases and features (e.g., grain boundary
+    alpha, precipitates, etc.). Anisotropic modulus and yield strength are primarily
+    caused by crystallographic texture. This is supported by crystal plasticity simulations.
+    Anisotropic elongation is primarily caused by anisotropic microstructure morphologies,
+    lack of fusion defects, and melt pool macrostructure. The evidence to support
+    this comes from fracture surfaces that follow these features. Melt pool macrostructure
+    is the most challenging to experimentally isolate from the list of other sources
+    of anisotropy. Strategies to characterize and manipulate crystallographic texture,
+    porosity, grain and phase morphology, and melt pool macrostructures are required
+    to better understand and control mechanical anisotropy in AM metals.
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
     content: NIST Advanced Manufacturing Series
@@ -81,8 +108,6 @@ series:
   abbreviation:
     content: AMS
   number: 100-44
-place:
-- Gaithersburg, MD
 doctype: standard
 ext:
   schema-version: v1.0.0
