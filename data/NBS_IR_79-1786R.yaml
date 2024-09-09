@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR79-1786R
 title:
 - content: Temperature dependence of the responsivity of indium-doped silicon infrared
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.79-1786R
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir79-1786R.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 79-1786R
@@ -22,93 +21,51 @@ docid:
 - id: 10.6028/NBS.IR.79-1786R
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R D
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Larrabee
+      completename:
+        content: Larrabee, R. D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80154390
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W R
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: W R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thurber
+      completename:
+        content: Thurber, W. Robert.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78012579
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 79-1786R
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

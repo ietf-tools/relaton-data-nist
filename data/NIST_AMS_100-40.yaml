@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-40
 title:
 - content: Agile for model-based-standards development
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-40
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-40.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-40
@@ -21,131 +20,74 @@ docid:
 - id: 10.6028/NIST.AMS.100-40
   type: DOI
 date:
-- type: published
-  value: '2021-03-29'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          script:
-          - Latn
-      surname:
-        content: Sapp
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sapp, Brandon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa
-          script:
-          - Latn
-      surname:
-        content: Harvey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harvey, Melissa.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marion
-          script:
-          - Latn
-      surname:
-        content: Toussaint
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Toussaint, Marion.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Barnard Feeney, Allison.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sylvere
-          script:
-          - Latn
-      surname:
-        content: Krima
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Krima, Sylvere.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Herve
-          script:
-          - Latn
-      surname:
-        content: Panetto
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Panetto, Herve.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-03-29'
-script:
-- Latn
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-40
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

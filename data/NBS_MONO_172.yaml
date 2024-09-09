@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO172
 title:
-- content: Liquefied natural gas densities :summary of research program at the National
+- content: Liquefied natural gas densities
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: summary of research program at the National Bureau of Standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Liquefied natural gas densities - summary of research program at the National
     Bureau of Standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.172
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph172.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 172
@@ -22,122 +35,62 @@ docid:
 - id: 10.6028/NBS.MONO.172
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W M
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: W M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Haynes
+      completename:
+        content: Haynes, William M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82139470
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R D
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarty
+      completename:
+        content: McCarty, Robert D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81103507
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hiza
+      completename:
+        content: Hiza, M. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82055052
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '172'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

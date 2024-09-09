@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8465
 title:
-- content: Influence of Final Tempering Temperature on Side-Grooved Super-High Energy
-    Charpy Specimens of 9310 Steel (second phase)
+- content: Influence of final tempering temperature on side-grooved super-high energy
+    Charpy specimens of 9310 steel (second phase)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8465
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8465.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8465
@@ -22,46 +21,59 @@ docid:
 - id: 10.6028/NIST.IR.8465
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3021-4785"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: During Fiscal Year (FY) 2022, a study (presented in NIST IR8424) was conducted
+    at NIST to identify the optimal combination of heat treatment (specifically, final
+    tempering temperature) and side-groove depth for super-high energy reference Charpy
+    specimens of 9310 steel. During FY23, a second phase of this investigation took
+    place, wherein two additional values of the final tempering temperature were tested,
+    while keeping the side-groove depth at the value previously established (0.9 mm/side,
+    corresponding to 18 % of the original thickness). In consideration of the overall
+    activities performed, final recommendations concerning the final tempering temperature
+    and the side-groove depth are formulated for future NIST reference specimens of
+    super-high energy level, manufactured from 9310 steel.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8465'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8465'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

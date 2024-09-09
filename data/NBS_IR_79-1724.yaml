@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR79-1724
 title:
-- content: Selecting rail properties for improvement :a plan for analysis
+- content: Selecting rail properties for improvement
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a plan for analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Selecting rail properties for improvement - a plan for analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.79-1724
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir79-1724.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 79-1724
@@ -21,209 +34,88 @@ docid:
 - id: 10.6028/NBS.IR.79-1724
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R E
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: R E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schofer
+      completename:
+        content: Schofer, R. E.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gilsinn
+      completename:
+        content: Gilsinn, J. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W G
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: W G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hall
+      completename:
+        content: Hall, W. G.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2013040639
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C R
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: C R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, C. R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82008536
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J M
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: J M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McLynn
+      completename:
+        content: McLynn, J. M.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88094768
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R H
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: R H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Watkins
+      completename:
+        content: Watkins, R. H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009021554
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 79-1724
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

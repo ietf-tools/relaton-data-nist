@@ -1,8 +1,24 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC998
 title:
-- content: Letter Circular 998:electric batteries and standard cells publications
+- content: Letter Circular 998
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: electric batteries and standard cells publications by the staff of the
+    National Bureau of Standards and references to other sources of information (supersedes
+    Letter Circular 904)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 998 - electric batteries and standard cells publications
     by the staff of the National Bureau of Standards and references to other sources
     of information (supersedes Letter Circular 904)
   language:
@@ -10,11 +26,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.998
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular998.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 998
@@ -23,33 +38,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.998
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1951'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1951'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '998'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

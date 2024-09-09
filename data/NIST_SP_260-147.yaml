@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-147
 title:
-- content: Standard reference materials :certification of the rheological behavior
-    of SRM 2491, polydimethylsiloxane
+- content: Certification of the rheological behavior of SRM 2491, polydimethylsiloxane
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-147
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-147.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-147
@@ -22,86 +20,61 @@ docid:
 - id: 10.6028/NIST.SP.260-147
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Carl R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schultheisz
+      completename:
+        content: Schultheisz, Carl R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022081065
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kathleen M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Flynn
+      completename:
+        content: Flynn, Kathleen M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90011843
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stefan D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Leigh
+      completename:
+        content: Leigh, Stefan D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83125869
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-147
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

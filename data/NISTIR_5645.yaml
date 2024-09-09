@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5645
 title:
 - content: Evaluation of thermal wave imaging for detection of machining damage in
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5645
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5645.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5645
@@ -22,93 +21,52 @@ docid:
 - id: 10.6028/NIST.IR.5645
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          script:
-          - Latn
-      surname:
-        content: Wei
-        script:
-        - Latn
+      completename:
+        content: Wei, L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H H K
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: H H K
-          script:
-          - Latn
-      surname:
-        content: Xu
-        script:
-        - Latn
+      completename:
+        content: Xu, H. H. K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          script:
-          - Latn
-      surname:
-        content: Jahanmir
-        script:
-        - Latn
+      completename:
+        content: Jahanmir, S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5645'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

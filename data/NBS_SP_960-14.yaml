@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP960-14
 title:
-- content: NIST recommended practice guideWWVB radio controlled clocks
+- content: NIST recommended practice guide
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: WWVB radio controlled clocks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST recommended practice guide - WWVB radio controlled clocks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.960-14
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication960-14.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 960-14
@@ -21,154 +34,90 @@ docid:
 - id: 10.6028/NBS.SP.960-14
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Deutsch
+      completename:
+        content: Deutsch, Matthew J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Glenn K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nelson
+      completename:
+        content: Nelson, Glenn K.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Novick
+      completename:
+        content: Novick, Andrew N.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003055467
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D Wayne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hanson
+      completename:
+        content: Hanson, D. Wayne.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105970
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lombardi
+      completename:
+        content: Lombardi, Michael A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sutton
+      completename:
+        content: Sutton, Douglas S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yates
+      completename:
+        content: Yates, William C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 960-14
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

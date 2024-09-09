@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6410
 title:
-- content: APEC 17th ISTWG special seminar on emerging infections in Asia Pacific:proceedings,
-    Monday, August 16, 1999, Seattle, Washington, USA
+- content: APEC 17th ISTWG special seminar on emerging infections in Asia Pacific
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: proceedings, Monday, August 16, 1999, Seattle, Washington, USA
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: APEC 17th ISTWG special seminar on emerging infections in Asia Pacific
+    - proceedings, Monday, August 16, 1999, Seattle, Washington, USA
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6410
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6410.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6410
@@ -22,59 +35,47 @@ docid:
 - id: 10.6028/NIST.IR.6410
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ann Marie
-          script:
-          - Latn
-      surname:
-        content: Kimball
-        script:
-        - Latn
+      completename:
+        content: Kimball, Ann Marie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006183239
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tiffany G
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
+      completename:
+        content: Harris, Tiffany G.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6410'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

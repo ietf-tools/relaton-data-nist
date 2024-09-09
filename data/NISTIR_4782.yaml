@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4782
 title:
-- content: Measurement of structural response characteristics of full-scale buildings:analytical
-    modeling of the San Bruno Commercial Office Building
+- content: Measurement of structural response characteristics of full-scale buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: analytical modeling of the San Bruno Commercial Office Building
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Measurement of structural response characteristics of full-scale buildings
+    - analytical modeling of the San Bruno Commercial Office Building
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4782
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4782.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4782
@@ -22,72 +35,58 @@ docid:
 - id: 10.6028/NIST.IR.4782
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Long T
-          script:
-          - Latn
-      surname:
-        content: Phan
-        script:
-        - Latn
+      completename:
+        content: Phan, Long T. (Long Thanh),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no98084569
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erik M
-          script:
-          - Latn
-      surname:
-        content: Hendrickson
-        script:
-        - Latn
+      completename:
+        content: Hendrickson, Erik M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          script:
-          - Latn
-      surname:
-        content: Marshall
-        script:
-        - Latn
+      completename:
+        content: Marshall, Richard D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50046024
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4782'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

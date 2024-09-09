@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-307
 title:
 - content: Cloud computing service metrics description
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-307
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-307.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-307
@@ -21,84 +20,81 @@ docid:
 - id: 10.6028/NIST.SP.500-307
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frederic
-          script:
-          - Latn
-      surname:
-        content: de Vaulx
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: De Vaulx, Frederic.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022086179
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: Simmon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Simmon, Eric.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142263
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert
-          script:
-          - Latn
-      surname:
-        content: Bohn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Bohn, Robert.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr90002794
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: With cloud computing in the mainstream, there is a preponderance of cloud
+    based services in the market and the choices for consumers increase daily. However,
+    comparing the service offerings between cloud service providers is not a straightforward
+    exercise. As part of the decision-making framework for moving to the cloud, having
+    data on measurable capabilities, for example - quality of service, availability
+    and reliability, give the cloud service customer the tools and opportunity to
+    make informed choices and to gain an understanding of the service being delivered.
+    A metric provides knowledge about characteristics of a cloud property through
+    both its definition (e.g. expression, unit, rules) and the values resulting from
+    the measurement of the property. This document proposes concepts and a model to
+    represent cloud service metrics. This model represents the information needed
+    to understand a targeted cloud property and which constraints should be applied
+    during measurement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-307
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

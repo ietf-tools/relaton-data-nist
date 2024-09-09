@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2094
 title:
-- content: Effect of Fire-Retardant Coatings and Accelerated-Weathering on the Flammability
-    of Wood-Based Materials in Wildland-Urban Interface (WUI) Communities
+- content: Effect of fire-retardant coatings and accelerated-weathering on the flammability
+    of wood-based materials in Wildland-Urban Interface (WUI) communities
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2094
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2094.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2094
@@ -22,84 +21,50 @@ docid:
 - id: 10.6028/NIST.TN.2094
   type: DOI
 date:
-- type: published
-  value: '2020-11-10'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Laura
-          script:
-          - Latn
-      surname:
-        content: Dubrulle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dubrulle, Laura.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mauro
-          script:
-          - Latn
-      surname:
-        content: Zammarano
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zammarano, Mauro.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick D.
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-11-10'
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2094'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

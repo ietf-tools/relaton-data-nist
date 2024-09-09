@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP324
 title:
-- content: The NBS alloy data center :permuted materials index
+- content: The NBS alloy data center
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: permuted materials index
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The NBS alloy data center - permuted materials index
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.324
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication324.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 324
@@ -21,180 +34,81 @@ docid:
 - id: 10.6028/NBS.SP.324
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G C
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: G C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carter
+      completename:
+        content: Carter, Gesina C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50058768
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D J
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: D J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kahan
+      completename:
+        content: Kahan, D. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85184076
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L H
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: L H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bennett
+      completename:
+        content: Bennett, L. H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cuthill
+      completename:
+        content: Cuthill, J. R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88663038
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R C
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: R C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dobbyn
+      completename:
+        content: Dobbyn, Ronald C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80105357
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1971'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '324'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

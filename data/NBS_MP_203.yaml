@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP203
 title:
 - content: Index to the reports of the National Conference on Weights and Measures
-    :from the first to the thirty-sixth 1905 to 1951/
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: from the first to the thirty-sixth 1905 to 1951
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Index to the reports of the National Conference on Weights and Measures
+    - from the first to the thirty-sixth 1905 to 1951
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.203
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub203.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 203
@@ -22,69 +35,48 @@ docid:
 - id: 10.6028/NBS.MP.203
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1952'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Malcolm W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jensen
+      completename:
+        content: Bussey, William S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00088404
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bussey
+      completename:
+        content: Jensen, Malcolm W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1952'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '203'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

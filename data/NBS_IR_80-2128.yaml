@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2128
 title:
-- content: The NBS Energy Model Assessment project :summary and overview
+- content: The NBS Energy Model Assessment project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary and overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The NBS Energy Model Assessment project - summary and overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2128
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2128.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2128
@@ -21,185 +34,81 @@ docid:
 - id: 10.6028/NBS.IR.80-2128
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S I
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: S I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gass
+      completename:
+        content: Gass, Saul I.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80001422
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K L
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: K L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoffman
+      completename:
+        content: Hoffman, K. L. (Karla L.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87872676
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R H F
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: R H F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jackson
+      completename:
+        content: Jackson, Richard Henry Frymuth.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86822535
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L S
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: L S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Joel
+      completename:
+        content: Joel, Lambert S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021033626
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P B
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: P B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Saunders
+      completename:
+        content: Saunders, P. B.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2128
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

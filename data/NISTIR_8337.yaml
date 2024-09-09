@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8337
 title:
-- content: An integrated set of XML tools :user guide
+- content: An integrated set of XML tools
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: user guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: An integrated set of XML tools - user guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8337
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8337.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8337
@@ -21,73 +34,39 @@ docid:
 - id: 10.6028/NIST.IR.8337
   type: DOI
 date:
-- type: published
-  value: '2020-12-16'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas R
-          script:
-          - Latn
-      surname:
-        content: Kramer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kramer, Thomas R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zeid
-          script:
-          - Latn
-      surname:
-        content: Kootbally
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kootbally, Zeid.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Schlenoff
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Schlenoff, Craig.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-12-16'
-script:
-- Latn
 abstract:
 - content: 'This user guide describes an integrated set of C++ software tools for
     manipulating XML (eXtensible Markup Language) schemas and XML instance files.
@@ -102,16 +81,24 @@ abstract:
     were originally built in support of the Agility Performance of Robotic Systems
     project. They have been greatly extended since that time. The orphanFinder and
     xmlSchemaAttributeConverter are more recent.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8337'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

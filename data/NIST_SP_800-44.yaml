@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-44
 title:
 - content: Guidelines on securing public web servers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-44
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-44.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-44
@@ -21,112 +20,72 @@ docid:
 - id: 10.6028/NIST.SP.800-44
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M C
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: M C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tracy
+      completename:
+        content: Tracy, M. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jansen
+      completename:
+        content: Jansen, W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009004133
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McLarnon
+      completename:
+        content: McLarnon, M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'Web servers maintained for public use are normally the most targeted and
+    attacked hosts on an organization''s network. Thus, it is essential to secure
+    Web servers and the network infrastructure that supports them. This document has
+    been developed to assist federal departments and agencies, state agencies, and
+    commercial organizations in installing, configuring, and maintaining secure public
+    Web servers. It presents generic security principles and covers details specific
+    to the various components of Web content, Web applications, and Web servers. It
+    also includes examples that address two of the more popular Web server applications
+    running respectively on Unix and Microsoft Windows operating systems: Apache and
+    Internet Information Server.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-44
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

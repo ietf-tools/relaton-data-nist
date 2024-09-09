@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8263
 title:
 - content: Thermophysical properties of polyol ester lubricants
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8263
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8263.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8263
@@ -21,220 +20,146 @@ docid:
 - id: 10.6028/NIST.IR.8263
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas J
-          script:
-          - Latn
-      surname:
-        content: Bruno
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bruno, Thomas J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85351255
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tara J
-          script:
-          - Latn
-      surname:
-        content: Fortin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Fortin, Tara J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marcia L
-          script:
-          - Latn
-      surname:
-        content: Huber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Huber, Marcia L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022032592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Arno
-          script:
-          - Latn
-      surname:
-        content: Laesecke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Laesecke, Arno.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022044471
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric W
-          script:
-          - Latn
-      surname:
-        content: Lemmon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lemmon, Eric W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97003163
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elisabeth
-          script:
-          - Latn
-      surname:
-        content: Mansfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Mansfield, Elisabeth.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark O
-          script:
-          - Latn
-      surname:
-        content: McLinden
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: McLinden, Mark O.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephanie L
-          script:
-          - Latn
-      surname:
-        content: Outcalt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Outcalt, Stephanie L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          script:
-          - Latn
-      surname:
-        content: Perkins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Perkins, Richard A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kimberly N
-          script:
-          - Latn
-      surname:
-        content: Urness
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Urness, Kimberly N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason A
-          script:
-          - Latn
-      surname:
-        content: Widegren
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Widegren, Jason A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: This report summarizes the results of work performed for the Naval Air
+    Warfare Center Aircraft Division by the National Institute of Standards and Technology
+    (NIST), Applied Chemicals and Materials Division on the properties of polyol ester
+    lubricants under interagency agreement number N0042115IP00008. The works includes
+    purity analysis and assessment, decomposition studies, experimental measurements
+    on density, isobaric heat capacity, speed of sound, vapor pressure, viscosity,
+    thermal conductivity, and distillation curve measurement. Models were developed
+    for the thermodynamic properties, viscosity, and thermal conductivity that represent
+    these properties to nearly within their experimental uncertainty for three pure
+    polyol ester base fluids (pentaerythritol tetrapentanoate (POE5), pentaerythritol
+    tetraheptanoate (POE7), pentaerythritol tetranonanoate (POE9), and a fully qualified
+    lubricant meeting military specification MIL-PRF-23699.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8263'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

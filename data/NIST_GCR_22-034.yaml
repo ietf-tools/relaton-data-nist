@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR22-034
 title:
 - content: Gap analysis for key interoperability scenarios in election technology
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.22-034
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2022/NIST.GCR.22-034.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 22-034
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.GCR.22-034
   type: DOI
 date:
-- type: published
-  value: '2022-08-01'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Dziurlaj
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dziurlaj, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-08-01'
-script:
-- Latn
 abstract:
 - content: There is currently no common data format for ballot styles and associated
     use-cases. This white paper investigates this and other potential interoperability
@@ -69,16 +52,24 @@ abstract:
     devices such as ballot marking devices, election management systems and scanners.
     Identified solutions include standardization of ballot components, such as barcodes,
     and development of a ballot styles common data format.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 22-034
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

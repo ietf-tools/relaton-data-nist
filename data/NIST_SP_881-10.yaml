@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP881-10
 title:
 - content: Federal implementation guideline for electronic data interchange
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.881-10
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication881-10.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 881-10
@@ -21,69 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.881-10
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jean-Philippe
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Favreau
+      completename:
+        content: Favreau, Jean-Philippe.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Jean-Philippe
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Favreau
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96033719
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 881-10
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

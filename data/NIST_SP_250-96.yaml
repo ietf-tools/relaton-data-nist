@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-96
 title:
 - content: Dimensional measurement of nanostructures with scanning electron microscopy
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-96
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-96.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-96
@@ -21,58 +20,52 @@ docid:
 - id: 10.6028/NIST.SP.250-96
   type: DOI
 date:
-- type: published
-  value: '2017-09-20'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K.A.
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K.A.
-          script:
-          - Latn
-      surname:
-        content: Bertness
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Bertness, Kristine Ann.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88675787
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: '2017-09-20'
-script:
-- Latn
+abstract:
+- content: Scanning electron microscopy (SEM) is widely used for the measurement of
+    dimensions of nanostructures. This document describes the calibration of SEM magnification
+    using the ASTM E766-14 practice with NIST Reference Material (RM) 8820 and the
+    calculation of dimensional uncertainty in the use of the calibrated SEM to measure
+    dimensions of a fabricated nanostructure. The dimensional measurements are part
+    of NIST Special Test 15510S.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-96
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

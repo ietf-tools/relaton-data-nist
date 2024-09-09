@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR88-3731
 title:
-- content: Internal discontinuity sensor needs for steel :report of workshop July
+- content: Internal discontinuity sensor needs for steel
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: report of workshop July 16, 1986
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Internal discontinuity sensor needs for steel - report of workshop July
     16, 1986
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.88-3731
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir88-3731.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 88-3731
@@ -22,98 +35,51 @@ docid:
 - id: 10.6028/NBS.IR.88-3731
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H N G
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: N
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: H N G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wadley
+      completename:
+        content: Wadley, H. N. G. (Haydn N. G.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85346478
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C D
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: C D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rogers
+      completename:
+        content: Rogers, Colin,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81124875
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-3731
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1914
 title:
-- content: 2015 Location-Based Services R [and] D Summit Report
+- content: 2015 Location-Based Services R&D Summit
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1914
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1914.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1914
@@ -21,67 +20,51 @@ docid:
 - id: 10.6028/NIST.TN.1914
   type: DOI
 date:
-- type: published
-  value: 2016-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harris
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Feldman, Harris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022003498
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Danielson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: McElvaney, Tracy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116844
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Advanced Communications Research Group.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-04
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1914'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

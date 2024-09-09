@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1790
 title:
 - content: Configuration of profiling tools for C/C++ applications under 64-bit Linux
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1790
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1790.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1790
@@ -21,50 +20,40 @@ docid:
 - id: 10.6028/NIST.TN.1790
   type: DOI
 date:
-- type: published
-  value: 2013-03
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Flater
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory, Software and Systems Division
+      completename:
+        content: Flater, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002019519
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2013-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1790'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

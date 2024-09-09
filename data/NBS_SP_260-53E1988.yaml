@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP260-53e1988
 title:
-- content: Standard reference materials :standardization of pH measurements
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: standardization of pH measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - standardization of pH measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.260-53e1988
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-53e1988.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 260-53e1988
@@ -21,86 +34,62 @@ docid:
 - id: 10.6028/NBS.SP.260-53e1988
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yung Chi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wu
+      completename:
+        content: Wu, Y. C. (Yung Chi)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022052915
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koch
+      completename:
+        content: Koch, William F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87843677
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Durst
+      completename:
+        content: Durst, Richard A.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80153857
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-53e1988
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

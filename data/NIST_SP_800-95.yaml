@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-95
 title:
 - content: Guide to secure web services
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-95
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-95
@@ -21,124 +20,73 @@ docid:
 - id: 10.6028/NIST.SP.800-95
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Singhal
+      completename:
+        content: Singhal, A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Winograd
+      completename:
+        content: Winograd, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The advance of Web services technologies promises to have far-reaching
+    effects on the Internet and enterprise networks. Web services based on the eXtensible
+    Markup Language (XML), SOAP, and related open standards, and deployed in Service
+    Oriented Architectures (SOA) allow data and applications to interact without human
+    intervention through dynamic and ad hoc connections. The security challenges presented
+    by the Web services approach are formidable and unavoidable. Many of the features
+    that make Web services attractive, including greater accessibility of data, dynamic
+    application-to-application connections, and relative autonomy are at odds with
+    traditional security models and controls. Ensuring the security of Web services
+    involves augmenting traditional security mechanisms with security frameworks based
+    on use of authentication, authorization, confidentiality, and integrity mechanisms.
+    This document describes how to implement those security mechanisms in Web services.
+    It also discusses how to make Web services and portal applications robust against
+    the attacks to which they are subject.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-95
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

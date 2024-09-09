@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR21-028
 title:
 - content: Prospective economic impacts of allowing government-operated federal laboratories
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.21-028
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2021/NIST.GCR.21-028.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 21-028
@@ -22,56 +21,31 @@ docid:
 - id: 10.6028/NIST.GCR.21-028
   type: DOI
 date:
-- type: published
-  value: '2021-05-01'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David P
-          script:
-          - Latn
-      surname:
-        content: Leech
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Leech, David P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John T
-          script:
-          - Latn
-      surname:
-        content: Scott
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Scott, John T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-05-01'
-script:
-- Latn
 abstract:
 - content: U.S. copyright laws do not allow government-owned government-operated (GOGO)
     laboratories of Federal agencies to obtain copyright protection for the software
@@ -95,16 +69,24 @@ abstract:
     the software made available will increase the productivity of its users. This
     report provides a first look at software activity that has not previously been
     systematically tracked and reported.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 21-028
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

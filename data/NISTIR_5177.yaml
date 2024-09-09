@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5177
 title:
-- content: The ENDFB-VI neutron cross section measurement standards
+- content: The ENDF / B-VI neutron cross section measurement standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5177
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5177.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5177
@@ -21,135 +20,83 @@ docid:
 - id: 10.6028/NIST.IR.5177
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G M
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: G M
-          script:
-          - Latn
-      surname:
-        content: Hale
-        script:
-        - Latn
+      completename:
+        content: Carlson, A. D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R W
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: R W
-          script:
-          - Latn
-      surname:
-        content: Peelle
-        script:
-        - Latn
+      completename:
+        content: Poenitz, W. P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D C
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: D C
-          script:
-          - Latn
-      surname:
-        content: Dodder
-        script:
-        - Latn
+      completename:
+        content: Hale, G. M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C Y
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: Y
-        formatted_initials:
-          content: C Y
-          script:
-          - Latn
-      surname:
-        content: Fu
-        script:
-        - Latn
+      completename:
+        content: Peelle, R. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          script:
-          - Latn
-      surname:
-        content: Mannhart
-        script:
-        - Latn
+      completename:
+        content: Dodder, D. C.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Fu, C. Y.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mannhart, W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5177'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

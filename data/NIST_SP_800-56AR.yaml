@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-56ar
 title:
 - content: Recommendation for pair-wise key establishment schemes using discrete logarithm
@@ -9,11 +9,25 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: "(revised)"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Recommendation for pair-wise key establishment schemes using discrete logarithm
+    cryptography - (revised)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-56ar
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-56ar.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-56ar
@@ -22,129 +36,63 @@ docid:
 - id: 10.6028/NIST.SP.800-56ar
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E B
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: E B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barker
+      completename:
+        content: Barker, Elaine B.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006135973
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, Don.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87150508
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M E
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: M E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smid
+      completename:
+        content: Smid, Miles E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79137208
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 800-56ar
+  number: 800-56AR
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

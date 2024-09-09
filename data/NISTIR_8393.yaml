@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8393
 title:
 - content: Sensitivity to x-ray computed tomography instrument geometry errors as
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8393
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8393.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8393
@@ -22,90 +21,47 @@ docid:
 - id: 10.6028/NIST.IR.8393
   type: DOI
 date:
-- type: published
-  value: '2021-09-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bala
-          script:
-          - Latn
-      surname:
-        content: Muralikrishnan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Muralikrishnan, Bala.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Prashanth
-          script:
-          - Latn
-      surname:
-        content: Jaganmoha
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Jaganmoha, Prashanth.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Meghan
-          script:
-          - Latn
-      surname:
-        content: Shilling
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Shilling, Meghan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ed
-          script:
-          - Latn
-      surname:
-        content: Morse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Morse, Ed.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-09-28'
-script:
-- Latn
 abstract:
 - content: In two prior National Institute of Standards and Technology (NIST) Journal
     of Research publications (Parts I and II) [1,2], we presented test procedures
@@ -120,16 +76,24 @@ abstract:
     only. This internal report presents the underlying data generated from the simulations
     performed for the Part III publication and may therefore be considered an addendum
     to that publication.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8393'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

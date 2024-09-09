@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7919
 title:
-- content: Explosives Standards Forum Recommendations
+- content: Explosives standards forum recommendations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7919
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7919.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7919
@@ -21,67 +20,45 @@ docid:
 - id: 10.6028/NIST.IR.7919
   type: DOI
 date:
-- type: published
-  value: 2013-03
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William G.
-          script:
-          - Latn
-      surname:
-        content: Billotte
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Office of Special Programs, Laboratory Programsm
+      completename:
+        content: Billotte, William G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sharon B.
-          script:
-          - Latn
-      surname:
-        content: Nakich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Office of Special Programs, Laboratory Programsm
+      completename:
+        content: Nakich, Sharon, B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Laboratory Programs, Office of Special Programs.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-03
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7919'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

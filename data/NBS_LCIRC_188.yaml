@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC188
 title:
-- content: Letter Circular 188:sound proof partitions
+- content: Letter Circular 188
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: sound proof partitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 188 - sound proof partitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.188
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular188.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 188
@@ -21,54 +34,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.188
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1925'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: PR
-          script:
-          - Latn
-          initial: P
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: PR
-          script:
-          - Latn
-      surname:
-        content: Heyl
-        script:
-        - Latn
+      completename:
+        content: '"Heyl, P. R."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1925'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '188'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

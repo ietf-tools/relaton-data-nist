@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2083
 title:
 - content: The thermal character of a 1 m methanol pool fire
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2083
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2083.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2083
@@ -21,118 +20,100 @@ docid:
 - id: 10.6028/NIST.TN.2083
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kunhyuk
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Kunhyuk.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jian
-          script:
-          - Latn
-      surname:
-        content: Chen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chen, Jian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2020037913
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Bundy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bundy, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021146338
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marco
-          script:
-          - Latn
-      surname:
-        content: Fernandez
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fernandez, Marco.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: A series of measurements were made to investigate the thermal character
+    of a 1 m diameter methyl alcohol (methanol; CH3OH) pool fire steadily burning
+    with a constant lip height in a quiescent environment. The mass burning rate was
+    measured by monitoring the mass loss in the methanol reservoir feeding the liquid
+    pool. The heat release rate was measured using oxygen consumption calorimetry.
+    Time-averaged local measurements of gas-phase temperature were conducted using
+    50 Âèym diameter, Type S, bare wires, with a bead that was approximately spherical
+    with a diameter of about 150 Âèym. The thermocouple signals were corrected for
+    radiative loss and thermal inertia effects. The heat flux was measured in the
+    radial and vertical directions and the radiative fraction was determined. The
+    average steady-state mass burning rate was measured as 12.8 g/s ± 0.2 g/s, which
+    yields an idealized heat release rate of 254 kW ± 7 kW. The measured heat release
+    rate was 256 kW ± 20 kW, which was consistent with the mass burning rate measurement.
+    The maximum corrected mean and RMS temperature measured in the fire was 1371 K
+    ± 247, which occurred on the centerline, 30 cm above the burner rim. The results
+    showed that the radiative fraction was 0.22 ± 45% consistent with previous results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2083'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

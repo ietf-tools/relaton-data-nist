@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1205
 title:
-- content: Evaluating the Sustainability Performance of Alternative Residential Building
-    Designs using the BIRDS Low-Energy Residential Database
+- content: Evaluating the sustainability performance of alternative residential building
+    designs using BIRDS Low-Energy Residential Database
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1205
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1205.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1205
@@ -22,84 +21,90 @@ docid:
 - id: 10.6028/NIST.SP.1205
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua D.
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric G.
-          script:
-          - Latn
-      surname:
-        content: O'Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David H.
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84072142
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: The recent release of Building Industry Reporting and Design for Sustainability
+    (BIRDS) v3.0 incorporated the energy, environmental, and cost measurements for
+    240 000 residential building designs for a 2-story colonial house based on the
+    NIST Net-Zero Energy Residential Test Facility (NZERTF) located in Gaithersburg,
+    MD for study period lengths ranging from 1 year to 40 years. Focusing on a single
+    location allows for consideration of incremental building energy efficiency improvements
+    instead of the suite of energy efficiency requirements specified in the International
+    Energy Conservation Code (IECC) as was the focus of the residential database incorporated
+    in BIRDS v2.0. Building design specifications included in the database span the
+    five most recent IECC editions through net-zero energy performance. Additional
+    options not included in previous versions of BIRDS are input alternatives for
+    discount rate, home loan financing, and construction quality for a total of 8
+    cases. The 240 000 designs across 8 cases (sets of assumptions) and 40 study periods
+    allows for comparisons across over 75 million records to determine the effects
+    of improving building energy efficiency on the overall sustainability performance.
+    The purpose of this study is to utilize similar methodology as that used in prior
+    analysis of BIRDS databases to analyze the BIRDS low-energy residential database.
+    Our analysis will entail making comparisons between a Maryland residential code-compliant
+    design (based on 2015 IECC), serving as our baseline, and a series of alternative
+    designs with varying levels of energy efficiency based on energy, economic, and
+    environmental performance. Findings from this study will shed light on the effects
+    of incremental improvements in residential building energy efficiency, as well
+    as the effects of varying the investor s time horizon and other assumptions, on
+    overall sustainability performance in terms of energy efficiency, life-cycle assessment
+    score coupled with life-cycle cost considerations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1205'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

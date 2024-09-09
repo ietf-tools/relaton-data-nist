@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1290
 title:
-- content: NIST Metric Recipes
+- content: Metric recipes
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1290
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1290.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1290
@@ -21,46 +20,62 @@ docid:
 - id: 10.6028/NIST.SP.1290
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth
-          script:
-          - Latn
-      surname:
-        content: Benham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Benham, Elizabeth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-2751-7881"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Nguyen, Tanna.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Cooking and baking using a kitchen scale is a fun way to build metric system
+    abilities and apply measurement techniques. This recipe series is ideal for both
+    new and experienced chefs. Completing a NIST metric recipe is an opportunity to
+    apply culinary math, develop measurement skills, interpret instructions, complete
+    steps in a necessary sequence, troubleshoot, build self-confidence, and enjoy
+    the delicious results. Cooking and baking activities develop fine motor skills
+    and coordination, practice selecting appropriate cooking tools, opening containers,
+    mixing, pouring without spilling, counting, weighing, as well as reading and interpreting
+    a digital scale readout or oven thermometer. This printable recipe card series
+    is best when printed on cardstock. Companion resources are available on the NIST
+    Metric Cooking website.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1290'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

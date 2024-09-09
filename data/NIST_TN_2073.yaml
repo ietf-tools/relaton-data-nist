@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2073
 title:
 - content: Guidebook for standards-based testing of radiation-detection systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2073
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2073.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2073
@@ -21,121 +20,78 @@ docid:
 - id: 10.6028/NIST.TN.2073
   type: DOI
 date:
-- type: published
-  value: 2019-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          script:
-          - Latn
-      surname:
-        content: Pibida
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Pibida, Leticia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022071928
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C
-          script:
-          - Latn
-      surname:
-        content: Forrester
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Forrester, C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          script:
-          - Latn
-      surname:
-        content: Chiaro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Chiaro, P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          script:
-          - Latn
-      surname:
-        content: Potter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Potter, D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-11
-script:
-- Latn
+abstract:
+- content: This guide describes the test setups and processes needed to perform standards-based
+    testing of radiological and nuclear detection systems. This guide is intended
+    to reduce the potential for misinterpretation of performance requirements, test
+    methods, and to improve uniformity of testing methods used at different testing
+    organizations. This guide does not address safety concerns, if any, associated
+    with its use. It is the responsibility of the user of this guide to establish
+    appropriate safety and health practices and determine the applicability of regulatory
+    limitations prior to use.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2073'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

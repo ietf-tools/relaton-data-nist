@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7971
 title:
-- content: Roadmap for Developing Measurement Science for Predicting the Service Life
-    of Polymers Used in Photovoltaic (PV) Systems
+- content: Roadmap for developing measurement science for predicting the service life
+    of polymers used in photovoltaic (PV) systems / Xiaohong Gu, Joannie W. Chin
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7971
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2014/NIST.IR.7971.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7971
@@ -22,67 +21,48 @@ docid:
 - id: 10.6028/NIST.IR.7971
   type: DOI
 date:
-- type: published
-  value: 2014-02
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Xiaohong
-          script:
-          - Latn
-      surname:
-        content: Gu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gu, Xiaohong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joannie W.
-          script:
-          - Latn
-      surname:
-        content: Chin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chin, Joannie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107282
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-02
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7971'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

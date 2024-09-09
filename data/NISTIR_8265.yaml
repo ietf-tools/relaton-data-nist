@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8265
 title:
 - content: A new method for tensile testing UHMMPE single fibers at high temperatures
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8265
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8265.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8265
@@ -22,101 +21,80 @@ docid:
 - id: 10.6028/NIST.IR.8265
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Donald R
-          script:
-          - Latn
-      surname:
-        content: Jenket
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Jenket, Donald R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amy E
-          script:
-          - Latn
-      surname:
-        content: Engelbrecht-Wiggans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Engelbrecht-Wiggans, Amy E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda L
-          script:
-          - Latn
-      surname:
-        content: Forster
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Forster, Amanda L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mohamad
-          script:
-          - Latn
-      surname:
-        content: Al-Sheikhly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Al-Sheikhly, Mohamad.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: The performance of body armor made of ultra-high molecular weight polyethylene
+    (UHMMPE) is dependent on the tensile strength of UHMMPE fibers. UHMMPE is known
+    to exhibit different mechanical properties when tested at different strain rates
+    and different temperatures. The high tensile strength and low surface energy make
+    it difficult to securely grip single fibers while testing without any slippage.
+    Consequently, making accurate measurements of the tensile strength of this material
+    is challenging. Efforts to simultaneously interrogate strain-rate and temperature
+    conditions have been complicated by the difficulty in gripping the fiber, and
+    in consistently heating a small (? 15 m diameter) fiber. In this paper, a method
+    is described for tensile testing single UHMMPE fibers at high rates and high temperatures,
+    focusing on an innovative clamp design and a specialized single fiber heater that
+    can be coupled to traditional tools for measuring mechanical properties of fibers.
+    Metrics of success for the single fiber clamps are described based on the percentage
+    of failures observed at the jaw grips and the strain to failure.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8265'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

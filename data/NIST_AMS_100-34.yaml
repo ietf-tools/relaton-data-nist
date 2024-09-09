@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-34
 title:
-- content: Economics of manufacturing machinery maintenance:a survey and analysis
+- content: Economics of manufacturing machinery maintenance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a survey and analysis of U.S. costs and benefits
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Economics of manufacturing machinery maintenance - a survey and analysis
     of U.S. costs and benefits
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-34
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-34.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-34
@@ -22,67 +35,67 @@ docid:
 - id: 10.6028/NIST.AMS.100-34
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113838
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian A
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weiss, Brian A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: This report examines costs of machinery maintenance along with losses due
+    to inadequate maintenance strategies in discrete manufacturing (NAICS 321-339,
+    excluding NAICS 324 and 325) using data collected from U.S. manufacturers. The
+    report further examined the perceived and observed benefits of investing in and
+    advancing maintenance strategies. Estimates for costs and losses are annual values
+    for 2016. Machinery maintenance expenditures for NAICS 321- 339 (excluding 324
+    and 325) were estimated to be $5 7.3 billion for 2016. Losses due to preventable
+    maintenance issues amounted to $1 19.1 billion. The top 25 % of those establishments
+    relying on reactive maintenance was associated with 3.3 times more downtime than
+    those in the bottom 25 %. They were also associated with 16.0 times more defects,
+    2.8 more lost sales due to defects from maintenance, 2.4 times more lost sales
+    due to delays from maintenance, and 4.9 times more inventory increases due to
+    maintenance issues.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-34
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

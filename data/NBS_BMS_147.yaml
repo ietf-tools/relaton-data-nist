@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBMS147
 title:
 - content: Effects of mineral additives on the durability of coating-grade roofing
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BMS.147
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BMS/nbsbuildingmaterialsstructures147.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BMS 147
@@ -22,52 +21,37 @@ docid:
 - id: 10.6028/NBS.BMS.147
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sidney H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Greenfield
+      completename:
+        content: Greenfield, Sidney H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1956'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Materials and Structures Reports
+    content: NBS building materials and structures report; NBS BMS
     format: text/plain
-  abbreviation:
-    content: BMS
   number: '147'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

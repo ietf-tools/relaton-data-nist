@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-22-2021
 title:
 - content: NVLAP voting system testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-22-2021
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2021/NIST.HB.150-22-2021.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-22-2021
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.HB.150-22-2021
   type: DOI
 date:
-- type: published
-  value: '2021-10-19'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bradley
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Moore, Bradley.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Wack
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Wack, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-10-19'
-script:
-- Latn
 abstract:
 - content: NIST Handbook 150-22 presents the technical requirements and guidance for
     the accreditation of laboratories under the National Voluntary Laboratory Accreditation
@@ -82,28 +56,23 @@ abstract:
     2.0, as well as editorial improvements. The requirements of NIST Handbook 150
     and the specific requirements and interpretations in NIST Handbook 150-22 must
     be combined to produce the criteria for accreditation in the NVLAP Voting Systems
-    Testing program. For more information, visit the NVLAP website.
+    Testing program. For more information, visit the NVLAP website, <http://www.nist.gov/nvlap>.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
-relation:
-- type: obsoletes
-  bibitem:
-    id: NISTHB150-22-2017;106028-NISTHB150-22-2005
-    docid:
-    - id: NIST HB 150-22-2017; 10 6028/NIST HB 150-22-2005
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST HB 150-22-2017; 10 6028/NIST HB 150-22-2005
-      format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-22-2021
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC554
 title:
-- content: Circular of the Bureau of Standards no. 554:Cheyenne Mountain tropospheric
+- content: Circular of the Bureau of Standards no. 554
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Cheyenne Mountain tropospheric propagation experiments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 554 - Cheyenne Mountain tropospheric
     propagation experiments
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.554
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular554.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 554
@@ -22,75 +35,56 @@ docid:
 - id: 10.6028/NBS.CIRC.554
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1955'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A P
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, A. P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80006175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K O
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: O
-        formatted_initials:
-          content: K O
-          script:
-          - Latn
-      surname:
-        content: Hornberg
-        script:
-        - Latn
+      completename:
+        content: Hornberg, K. O.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1955'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '554'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

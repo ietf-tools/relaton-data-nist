@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8471
 title:
-- content: Cloud Test Data Creation and Population Document
+- content: Cloud test data creation and population document
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Cloud test data creation and population document - version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8471
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8471.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8471
@@ -21,46 +34,58 @@ docid:
 - id: 10.6028/NIST.IR.8471
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Ayers
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ayers, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3468-7472"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: 'This test data creation and population document provides an overview of
+    data creation, population and documentation of artifacts created for cloud-based
+    applications specified in Version 1 of Cloud & Remotely Stored Data Extraction
+    (CDX) Using Account Credentials: Specification, Test Assertions, and Test Cases.
+    Due to the frequency of application updates that may occur during testing, it
+    is advised to document the version number of the current application under test
+    to maintain the fairness and integrity of the tool verification process. Comments
+    and feedback are welcome. This document, and future revisions, are available for
+    download at: https:\\www.cftt.nist.gov.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8471'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8471'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

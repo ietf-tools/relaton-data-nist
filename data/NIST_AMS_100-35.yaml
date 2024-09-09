@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-35
 title:
 - content: Thermal calibration of commercial melt pool monitoring sensors on a laser
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-35
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-35.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-35
@@ -22,101 +21,82 @@ docid:
 - id: 10.6028/NIST.AMS.100-35
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          script:
-          - Latn
-      surname:
-        content: Lane
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lane, Brandon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lars
-          script:
-          - Latn
-      surname:
-        content: Jacquemetton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Jacquemetton, Lars.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Piltch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Piltch, Martin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Darren
-          script:
-          - Latn
-      surname:
-        content: Beckett
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Beckett, Darren.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: Co-axial melt pool monitoring in laser powder bed fusion (LPBF) additive
+    manufacturing (AM) often utilizes various photodetectors to acquire signals relatable
+    to the dynamic thermal melt pool phenomena. In turn, it is expected that these
+    thermal signatures are relatable to the quality of the fabrication and can therefore
+    the final AM part. To relate these signal values to real, physical temperatures,
+    a thermal calibration must be done. However, the relatively high temperatures
+    and small size of typical LPBF melt pools cannot be easily replicated by most
+    thermal calibration sources. This paper describes a potential method for thermal
+    calibration, which uses a lower temperature, commercial off-the-shelf calibration
+    blackbody. The method calculates an ⁰́₈effective⁰́₉ temperature for a hypothetical
+    small source of any diameter, which would have the same radiance temperature of
+    the larger, lower temperature blackbody. The paper details the theoretical rationale,
+    provides a proof-of-concept calculation, then demonstrates the procedures conducted
+    on a commercial LPBF melt pool monitoring system. Finally, while this method itself
+    does not provide an absolute calibration nor ability to ascribe real melt pool
+    temperatures to the melt pool monitoring sensor signals, discussion is provided
+    that details the practical utility, details why the measured calibration values
+    are realistic, and describes future improvements to the methodology.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-35
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

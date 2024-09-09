@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-104
 title:
 - content: A scheme for PIV visual card topography
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-104
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-104.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-104
@@ -21,124 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-104
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W I
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: W I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: MacGregor
+      completename:
+        content: MacGregor, W. I.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwarzhoff
+      completename:
+        content: Schwarzhoff, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mehta
+      completename:
+        content: Mehta, K.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to provide additional recommendations on
+    the Personal Identity Verification (PIV) Card color-coding for designating employee
+    affiliation. The recommendations in this document complement FIPS 201 in order
+    to increase the reliability of PIV card visual verification.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-104
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

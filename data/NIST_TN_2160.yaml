@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2160
 title:
-- content: VEMOS :a GUI for evaluation of similarity metrics on complex data sets
+- content: VEMOS
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a GUI for evaluation of similarity metrics on complex data sets
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: VEMOS - a GUI for evaluation of similarity metrics on complex data sets
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2160
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2160.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2160
@@ -21,56 +34,31 @@ docid:
 - id: 10.6028/NIST.TN.2160
   type: DOI
 date:
-- type: published
-  value: '2021-06-07'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gunay
-          script:
-          - Latn
-      surname:
-        content: Dogan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dogan, Gunay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eve
-          script:
-          - Latn
-      surname:
-        content: Fleisig
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fleisig, Eve.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-06-07'
-script:
-- Latn
 abstract:
 - content: Similarity and dissimilarity metrics are a fundamental component of many
     tasks requiring the analysis and comparison of complex, often visual data. Applications
@@ -85,16 +73,22 @@ abstract:
     clustering, multi-dimensional scaling, and retrieval performance analyses. VEMOS
     aims to help researchers and practitioners evaluate multiple comparison metrics
     on rich, diverse data sets.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2160'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1884
 title:
-- content: Instructions in Using GSAS Rietveld Software for Quantitative X-ray Diffraction
-    Analysis of Portland Clinker and Cement
+- content: Instructions in using GSAS Rietveld software for quantitative X-ray diffraction
+    analysis of portland clinker and cement
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1884
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1884.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1884
@@ -22,67 +21,72 @@ docid:
 - id: 10.6028/NIST.TN.1884
   type: DOI
 date:
-- type: published
-  value: 2015-06
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Stutzman, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007151334
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Leslie
-          script:
-          - Latn
-      surname:
-        content: Struble
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Struble, Leslie.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-06
-script:
-- Latn
+abstract:
+- content: X-ray powder diffraction analysis is used in the cement industry as a direct
+    analytical method for phase identification and quantitative analysis of clinker
+    and cements. Quantitative methods initially relied on the development of calibration
+    curves, employing multiple reference mixtures of cement phases with an internal
+    standard to develop a plot of diffraction peak intensity ratios vs. mass fraction
+    ratios. Obstacles to this approach were the availability of reference standards
+    that adequately replicated those phases in the clinker or cement, and the ability
+    to accurately measure diffraction peak intensities because of severe peak overlap.
+    The Rietveld method for analysis of powder diffraction data addresses both of
+    these difficulties through use of refineable crystal structure models to calculate
+    the individual phase diffraction patterns and a whole-pattern fitting procedure
+    to minimize the difference between the measured diffraction pattern and set of
+    calculated phase patterns. This approach has revolutionized the application of
+    X-ray powder diffraction in many scientific disciplines, including that of hydraulic
+    cements, but can be a complicated method to learn. This tutorial is intended to
+    provide an introduction to the application of Rietveld analysis to portland cement
+    clinker and cements using examples developed from one of the NIST SRM clinkers
+    and two portland cements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1884'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

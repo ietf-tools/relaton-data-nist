@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-131a
 title:
-- content: Transitions :recommendation for transitioning the use of cryptographic
+- content: Transitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: recommendation for transitioning the use of cryptographic algorithms and
+    key lengths
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Transitions - recommendation for transitioning the use of cryptographic
     algorithms and key lengths
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-131a
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-131a.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-131a
@@ -22,93 +36,64 @@ docid:
 - id: 10.6028/NIST.SP.800-131a
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E B
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: E B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barker
+      completename:
+        content: Barker, E. B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2015019673
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A L
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: A L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Roginsky
+      completename:
+        content: Roginsky, A. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: At the start of the 21st century, the National Institute of Standards and
+    Technology (NIST) began the task of providing cryptographic key management guidance,
+    which includes defining and implementing appropriate key management procedures,
+    using algorithms that adequately protect sensitive information, and planning ahead
+    for possible changes in the use of cryptography because of algorithm breaks or
+    the availability of more powerful computing techniques. NIST Special Publication
+    (SP) 800-57, Part 1 was the first document produced in this effort, and includes
+    a general approach for transitioning from one algorithm or key length to another.
+    This Recommendation (SP 800-131A) provides more specific guidance for transitions
+    to the use of stronger cryptographic keys and more robust algorithms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-131a
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

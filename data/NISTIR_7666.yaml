@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7666
 title:
 - content: An other race effect for face recognition algorithms
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7666
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7666.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7666
@@ -21,120 +20,77 @@ docid:
 - id: 10.6028/NIST.IR.7666
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P Jonathon
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Phillips
+      completename:
+        content: Phillips, P. Jonathon.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98036715
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fang
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jiang
+      completename:
+        content: Jiang, Fang.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2002030294
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Abhijit
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Narvekar
+      completename:
+        content: Narvekar, Abhijit.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Julianne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ayyad
+      completename:
+        content: Ayyad, Julianne.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alice J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: O'Toole
+      completename:
+        content: O'Toole, A. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020090376
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7666'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

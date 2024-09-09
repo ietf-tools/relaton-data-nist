@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS201-3
 title:
 - content: Personal identity verification (PIV) of federal employees and contractors
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.201-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 201-3
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.FIPS.201-3
   type: DOI
 date:
-- type: published
-  value: '2022-01-24'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles H
-          script:
-          - Latn
-      surname:
-        content: Romine
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Romine, Charles H.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-01-24'
-script:
-- Latn
 abstract:
 - content: 'FIPS 201 establishes a standard for a Personal Identity Verification (PIV)
     system (Standard) that meets the control and security objectives of Homeland Security
@@ -65,16 +48,24 @@ abstract:
     infrastructure to support interoperability of identity credentials, and accreditation
     of organizations issuing PIV credentials. [Supersedes FIPS 201-2 (August 2013
     ): https://doi.org/10.6028/NIST.FIPS.201-2]'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: |-
+      NIST federal information processing standards publication; NIST
+                      FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: 201-3
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

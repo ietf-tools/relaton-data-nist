@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8262
 title:
-- content: Theory of Discrete Event Logistics Systems (DELS) specification
+- content: Theory of discrete event logistics systems (DELS) specification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8262
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8262.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8262
@@ -21,101 +20,96 @@ docid:
 - id: 10.6028/NIST.IR.8262
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Sprock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sprock, Timothy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          script:
-          - Latn
-      surname:
-        content: Thiers
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thiers, George.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Leon F
-          script:
-          - Latn
-      surname:
-        content: McGinnis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McGinnis, Leon F. (Leon Franklin),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86821984
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Conrad
-          script:
-          - Latn
-      surname:
-        content: Bock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bock, C. (Conrad)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87943852
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: System models and model-based engineering methods have the promise of transforming
+    the way that industrial engineers interact with production and logistics systems.
+    Model-based methods play a role in improving communication between stakeholders,
+    interoperability between systems, automated access to consistent analysis models,
+    and multi-disciplinary design methods for complex systems. However, there remains
+    a need for a foundation for modeling these kinds of systems ⁰₃ a foundation that
+    tailors methods and tools developed in other engineering domains to the unique
+    concepts and semantics of production and logistics. This foundation is the topic
+    of this report. This report documents a framework and model libraries for modeling
+    discrete event logistics systems (DELS), an abstraction that covers manufacturing
+    plants, material handling and transportation systems, warehouses, supply chains,
+    etc. The DELS abstraction was created by identifying and modeling commonalities
+    across the kinds of systems that industrial engineers typically encounter, and
+    analysis models they use to analyze those system. It extends well-known product,
+    process, and resource (PPR) ontologies to incorporate a library of operational
+    control model components, and is connected to Commodity Flow Network (CFN), modeling
+    networks, flow networks, and process networks. The relationship between DELS and
+    CFN formally links system models to abstractions used to create analysis models,
+    such as discrete event simulation. This report is the first public release of
+    models and documentation capturing many years of refinement and application by
+    the authors. As a first release, the goal is to solicit additional use cases and
+    feedback from the community to improve the models and make them the foundation
+    for the model-based industrial and systems engineering community.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8262'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

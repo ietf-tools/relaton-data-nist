@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC502
 title:
-- content: Circular of the Bureau of Standards no. 502:bibliography of electron microscopy
+- content: Circular of the Bureau of Standards no. 502
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: bibliography of electron microscopy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 502 - bibliography of electron
+    microscopy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.502
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular502.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 502
@@ -21,85 +35,78 @@ docid:
 - id: 10.6028/NBS.CIRC.502
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1950'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Claire
-          script:
-          - Latn
-      surname:
-        content: Marton
-        script:
-        - Latn
+      completename:
+        content: Marton, C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80052084
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Max
-          script:
-          - Latn
-      surname:
-        content: Swerdlow
-        script:
-        - Latn
+      completename:
+        content: Swerdlow, Max,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr92012800
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          script:
-          - Latn
-      surname:
-        content: VanBronkhorst
-        script:
-        - Latn
+      completename:
+        content: VanBronkhorst, Alan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harold
-          script:
-          - Latn
-      surname:
-        content: Meryman
-        script:
-        - Latn
+      completename:
+        content: Meryman, Harold Thayer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81011139
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1950'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '502'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

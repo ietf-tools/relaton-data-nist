@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8039
 title:
-- content: 'Nationwide Public Safety Broadband Network Deployment: Network Parameter
-    Sensitivity Analysis'
+- content: Nationwide public safety broadband network deployment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: network parameter sensitivity analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Nationwide public safety broadband network deployment - network parameter
+    sensitivity analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8039
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8039.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8039
@@ -22,118 +35,82 @@ docid:
 - id: 10.6028/NIST.IR.8039
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Rouil
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Rouil, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio
-          script:
-          - Latn
-      surname:
-        content: Izquierdo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Izquierdo, Antonio.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80046556
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Camillo
-          script:
-          - Latn
-      surname:
-        content: Gentile
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Gentile, Camillo.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015072420
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Griffith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Griffith, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79138012
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nada
-          script:
-          - Latn
-      surname:
-        content: Golmie
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Golmie, Nada.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2007021499
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    - content: Wireless Networks Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8039'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

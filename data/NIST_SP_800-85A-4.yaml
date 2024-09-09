@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-85A-4
 title:
-- content: PIV Card Application and Middleware Interface Test Guidelines (SP 800-73-4
+- content: PIV card application and middleware interface test guidelines (SP 800-73-4
     compliance)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-85A-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-85A-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-85A-4
@@ -22,101 +21,84 @@ docid:
 - id: 10.6028/NIST.SP.800-85A-4
   type: DOI
 date:
-- type: published
-  value: 2016-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David A.
-          script:
-          - Latn
-      surname:
-        content: Cooper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cooper, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77001780
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hildegard
-          script:
-          - Latn
-      surname:
-        content: Ferraiolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ferraiolo, Hildegard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017398
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Mohler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mohler, Jason.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062236
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-04
-script:
-- Latn
+abstract:
+- content: NIST Special Publication (SP) 800-73 contains the technical specifications
+    to interface with the smart card to retrieve and use the Personal Identity Verification
+    (PIV) identity credentials. This document, SP 800-85A, contains the test assertions
+    and test procedures for testing smart card middleware as well as the card application.
+    The tests reflect the design goals of interoperability and PIV Card functions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-85A-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

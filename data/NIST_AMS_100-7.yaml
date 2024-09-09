@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-7
 title:
 - content: Summary of the symposium on data analytics for advanced manufacturing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-7
@@ -21,118 +20,93 @@ docid:
 - id: 10.6028/NIST.AMS.100-7
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Anantha
-          script:
-          - Latn
-      surname:
-        content: Narayanan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Narayanan, Anantha,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004088587
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ronay
-          script:
-          - Latn
-      surname:
-        content: Ak
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ak, Ronay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yung-Tsun Tina
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lee, Yung-Tsun Tina.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rumi
-          script:
-          - Latn
-      surname:
-        content: Ghosh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ghosh, Rumi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sudarsan
-          script:
-          - Latn
-      surname:
-        content: Rachuri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rachuri, Sudarsan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2005010837
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: The Symposium on Data Analytics for Advanced Manufacturing was held in
+    conjunction with the 2016 IEEE International Conference on Big Data in Washington
+    D.C. on December 6-7, 2016. The Symposium's goal was to address manufacturing
+    industries' issues, needs, and challenges related to data analytics solutions
+    for advanced manufacturing. The Symposium was themed From Sensing to Decision-Making.
+    The Symposium brought industry, government, and academic organizations together
+    to exchange ideas and provide a common platform to build partnerships. This report
+    summarizes the keynote presentations, technical paper presentations, and panel
+    discussion of this symposium. The Symposium also hosted a manufacturing data challenge,
+    which is summarized in this report. This report also elicits the lessons learned
+    from this symposium, and presents action items for future research on data analytics
+    for advanced manufacturing.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-7
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

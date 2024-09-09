@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1921
 title:
+- content: Characterization of emissions from spray polyurethane foam
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: final report to U.S. Consumer Product Safety Commission
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: Characterization of emissions from spray polyurethane foam - final report
     to U.S. Consumer Product Safety Commission
   language:
@@ -9,11 +23,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1921
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1921.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1921
@@ -22,84 +35,89 @@ docid:
 - id: 10.6028/NIST.TN.1921
   type: DOI
 date:
-- type: published
-  value: '2017-09-08'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mengyan
-          script:
-          - Latn
-      surname:
-        content: Gong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gong, Mengyan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-09-08'
-script:
-- Latn
+abstract:
+- content: Spray polyurethane foam (SPF) insulation increases building energy efficiency
+    by reducing conductive and convective heat losses through the building envelope
+    and is used in both new construction and retrofit applications. Health complaints
+    relating to emissions from SPF installations have spurred a joint industry and
+    federal effort to develop standard methods to quantify airborne emissions from
+    SPF. As part of this effort, the Consumer Product Safety Commission (CPSC) tasked
+    the National Institute of Standards and Technology (NIST) with developing testing
+    and measurement protocols to determine the quantities and properties of compounds
+    released from SPF, such as amine catalysts and aldehydes, as it is applied in
+    residential settings. Specifically, this effort examined if micro-chamber emission
+    results can be used to determine concentrations in indoor environments and to
+    quantify the emissions from a SPF sample that was applied in a potentially non-ideal
+    manner. The data demonstrate that emissions from SPF are chemical, temperature,
+    flow, and foam type dependent. Micro-chamber data can be used to compare chemical
+    emission profiles from various foams, but micro-chamber emission rates for flame
+    retardants cannot be directly applied to full scale emissions in a building. The
+    results from examining SPF in a residential test home suggest that occupants may
+    be exposed to measureable concentrations of the flame retardant tris (1-chloro-2-propyl)
+    phosphate (TCPP) two years after application of open cell foam. CPSC submitted
+    a SPF sample suggestive of being applied in a non-ideal manner. When the submitted
+    SPF was tested in the micro-chamber, over 17 different chemicals were identified
+    with a spectrum match, seven of which had not been previously identified in literature
+    emitting from other foams. Of the chemicals for which concentrations were quantified
+    in the micro-chamber experiments, triethylenediamine concentrations were the highest.
+    The emission rates of six chemicals were quantified from the SPF. The emission
+    rates of all chemicals except for TCPP decreased in a negative exponential manner.
+    More information on chemicals emitted from SPF in buildings are needed to determine
+    if the tested foam is indeed a misapplied foam. Emission rates in this document
+    apply only to micro-chamber conditions. This data should not be used to predict
+    full-scale emissions until further testing has determined mass transfer parameters.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1921'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

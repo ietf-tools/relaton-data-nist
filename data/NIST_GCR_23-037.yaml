@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR23-037
 title:
-- content: Resilience for Critical Facilities
+- content: Resilience for critical facilities
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.23-037
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2023/NIST.GCR.23-037.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 23-037
@@ -21,46 +20,75 @@ docid:
 - id: 10.6028/NIST.GCR.23-037
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Donald R
-          script:
-          - Latn
-      surname:
-        content: Scott
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Scott, Donald R.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Cerino, A. Christopher.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Pekelnicky, Robert G.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Yu, Kent.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The three categories of critical facilities addressed in this document
+    are hospitals, K-12 educational facilities, and data centers. This review focuses
+    on both requirements for new building design as well as for existing building
+    renovations or additions for the flood, wind, and seismic hazards. An overall
+    review of current design practices for these three categories of critical facilities
+    within our communities is discussed, along with some of the best practices currently
+    being utilized to provide more resilience within these facilities. The target
+    audience of this report includes industry associations, design professionals,
+    building code officials, city planners, and researchers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 23-037
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1954
 title:
 - content: '3.5 GHz radar waveform capture at point loma: final test report'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1954
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1954.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1954
@@ -21,135 +20,101 @@ docid:
 - id: 10.6028/NIST.TN.1954
   type: DOI
 date:
-- type: published
-  value: 2017-05
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Hale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hale, Paul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87811858
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          script:
-          - Latn
-      surname:
-        content: Jargon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jargon, Jeffrey.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          script:
-          - Latn
-      surname:
-        content: Jeavons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jeavons, Peter.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Souryal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Souryal, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Wunderlich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wunderlich, Adam.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          script:
-          - Latn
-      surname:
-        content: Lofquist
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Lofquist, Mark.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2017-05
-script:
-- Latn
+abstract:
+- content: We describe measurements to create a library of high-fidelity waveforms
+    of federal incumbent radar signals currently operating in the 3550 MHz - 3650
+    MHz (3.5 GHz) band. In the first phase of assembling this library, measurements
+    were collected at Point Loma continuously over a two- month period. The measurements
+    consist of 60-second power spectral measurements collected every 10 minutes as
+    well as high-resolution in-phase and quadrature sampled waveforms covering the
+    entire band in question and portions of adjacent bands. The spectral measurements
+    were used to characterize normal and anomalous behaviors. A subset of the high-resolution
+    I/Q waveforms containing no adjacent-band or other in-band emissions was selected
+    for statistical analysis of key parameters of the target radar that could aid
+    detection, namely, the antenna rotation period, pulse repetition interval, pulse
+    duration, and center frequency. The subset of approximately 800 acquisitions of
+    in-band radar consisted of about 12 000 sweeps of the main beam and nearly 223
+    000 individual pulses ranging in peak power by over 40 dB. Distributions of the
+    parameters are reported along with percentiles.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1954'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR90-4246
 title:
-- content: Fire risk assessment method:case study 4, interior finish in restaurants
+- content: Fire risk assessment method
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: case study 4, interior finish in restaurants
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fire risk assessment method - case study 4, interior finish in restaurants
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.90-4246
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4246.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 90-4246
@@ -21,109 +34,66 @@ docid:
 - id: 10.6028/NIST.IR.90-4246
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R W
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: R W
-          script:
-          - Latn
-      surname:
-        content: Bukowski
-        script:
-        - Latn
+      completename:
+        content: Bukowski, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84003199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W W
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W W
-          script:
-          - Latn
-      surname:
-        content: Jones
-        script:
-        - Latn
+      completename:
+        content: Jones, W. W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79143746
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R Jr
-          script:
-          - Latn
-      surname:
-        content: Hall
-        script:
-        - Latn
+      completename:
+        content: Hall, J. R. Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F B
-          script:
-          - Latn
-          initial: F
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: F B
-          script:
-          - Latn
-      surname:
-        content: Clarke
-        script:
-        - Latn
+      completename:
+        content: Clarke, F. B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 90-4246
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

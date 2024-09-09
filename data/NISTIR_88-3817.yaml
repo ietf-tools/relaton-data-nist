@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR88-3817
 title:
 - content: Structural reliability and damage tolerance of ceramic composites for high-temperature
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.88-3817
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir88-3817.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 88-3817
@@ -22,151 +21,63 @@ docid:
 - id: 10.6028/NIST.IR.88-3817
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E R
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: E R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fuller
+      completename:
+        content: Fuller, E. R., Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T W
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: T W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Coyle
+      completename:
+        content: Coyle, T. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T R
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: T R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Palamides
+      completename:
+        content: Palamides, T. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R F
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: R F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Krause
+      completename:
+        content: Krause, R. F.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021036101
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-3817
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

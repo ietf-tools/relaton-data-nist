@@ -1,21 +1,37 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR83-2673
 title:
-- content: Proceedings of the first LAN-transport workshop :report of the first workshop
-    for local area network implementors of the NBS specifications of the international
-    standards organization transport class 4 protocol, the IEEE 802.2 type 1 class
-    1 link protocol, and the IEEE 802.3 10 megabit CSMACD specification
+- content: Proceedings of the first LAN-transport workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: report of the first workshop for local area network implementors of the
+    NBS specifications of the international standards organization transport class
+    4 protocol, the IEEE 802.2 type 1 class 1 link protocol, and the IEEE 802.3 10
+    megabit CSMA/CD specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Proceedings of the first LAN-transport workshop - report of the first workshop
+    for local area network implementors of the NBS specifications of the international
+    standards organization transport class 4 protocol, the IEEE 802.2 type 1 class
+    1 link protocol, and the IEEE 802.3 10 megabit CSMA/CD specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.83-2673
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir83-2673.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 83-2673
@@ -24,35 +40,38 @@ docid:
 - id: 10.6028/NBS.IR.83-2673
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 83-2673
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

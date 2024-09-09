@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7681
 title:
 - content: A semantic product modeling framework and language for behavior evaluation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7681
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7681.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7681
@@ -21,154 +20,96 @@ docid:
 - id: 10.6028/NIST.IR.7681
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jae Hyun
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lee
+      completename:
+        content: Lee, Jae Hyun.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2009075417
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fenves
+      completename:
+        content: Fenves, Steven J. (Steven Joseph)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84805394
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Conrad
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bock
+      completename:
+        content: Bock, C. (Conrad)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87943852
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hyo Won
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Suh
+      completename:
+        content: Suh, Hyo Won.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sudarsan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rachuri
+      completename:
+        content: Rachuri, Sudarsan.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2005010837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Xenia
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fiorentini
+      completename:
+        content: Fiorentini, Xenia.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ram
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sriram
+      completename:
+        content: Sriram, Ram.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7681'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

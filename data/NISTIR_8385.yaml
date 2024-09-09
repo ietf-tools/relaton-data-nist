@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8385
 title:
-- content: Cannabis quality assurance program :exercise 1 final report
+- content: Cannabis quality assurance program
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: exercise 1 final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Cannabis quality assurance program - exercise 1 final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8385
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8385.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8385
@@ -21,73 +34,39 @@ docid:
 - id: 10.6028/NIST.IR.8385
   type: DOI
 date:
-- type: published
-  value: '2021-07-27'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Maryam
-          script:
-          - Latn
-      surname:
-        content: Abdur-Rahman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Abdur-Rahman, Maryam.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa M
-          script:
-          - Latn
-      surname:
-        content: Phillips
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phillips, Melissa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter B
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wilson, Walter B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-07-27'
-script:
-- Latn
 abstract:
 - content: NIST launched a CannaQAP in 2020 to improve the comparability of the analytical
     measurements in forensic and Cannabis (hemp and marijuana) testing laboratories.
@@ -99,16 +78,24 @@ abstract:
     including ?9-THC, THCA, total THC, CBD, CBDA, total CBD, and up to 13 additional
     cannabinoids in two hemp oils. This report provides a detailed description of
     the results of this exercise.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8385'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

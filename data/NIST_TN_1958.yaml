@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1958
 title:
 - content: Numerical modeling and analysis of heat transfer in composite slabs with
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1958
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1958.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1958
@@ -22,101 +21,97 @@ docid:
 - id: 10.6028/NIST.TN.1958
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jian
-          script:
-          - Latn
-      surname:
-        content: Jiang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Jiang, Jian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001064512
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph A
-          script:
-          - Latn
-      surname:
-        content: Main
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Main, Joseph A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fahim H
-          script:
-          - Latn
-      surname:
-        content: Sadek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sadek, Fahim H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan M
-          script:
-          - Latn
-      surname:
-        content: Weigand
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weigand, Jonathan M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015167354
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: This report presents detailed and reduced-order finite element modeling
+    of heat transfer in composite floor slabs with profiled steel decking. The detailed
+    modeling approach uses solid elements for the concrete slab and shell elements
+    for the steel decking. The reduced-order modeling approach represents the thick
+    and thin parts of a composite slab with alternating strips of layered shell elements.
+    In the reduced-order modeling approach, a linear gradient in the density of concrete
+    in the rib is used to represent the tapered profile of the rib. In order to more
+    accurately account for the heat input through web of the steel decking in the
+    reduced-order models, the specific heat of concrete in the rib is modified and
+    a dummy material with low specific heat and high thermal conductivity is added
+    in the thin part of the slab. The detailed modeling approach is validated against
+    experimental results available in the literature, and the reduced-order modeling
+    approach is calibrated against the detailed model results and validated against
+    experimental data. A parametric study using the detailed modeling approach is
+    carried out to investigate the influence of the thermal boundary conditions, thermal
+    properties of materials, and slab geometry on the temperature distribution in
+    the composite slab. The results show that the rib height of the decking and the
+    width at the top of the rib are key factors governing the temperature distribution
+    in the rib. In addition, a mesh-sensitivity analysis is performed to investigate
+    the extent to which the mesh size could be increased while maintaining sufficient
+    accuracy.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1958'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

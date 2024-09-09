@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2044
 title:
 - content: Unreliable evidence in binary classification problems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2044
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2044.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2044
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.TN.2044
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Flater
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Flater, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002019519
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: Binary classification problems include such things as classifying email
+    messages as spam or non-spam and screening for the presence of disease (which
+    can be seen as classifying a subject as disease-positive or disease- negative).
+    Both Bayesian and frequentist approaches have been applied to these problems.
+    Both kinds of approaches provide poor estimates of the predictive value of tests
+    for which the number of positive results in the sample is either very small or
+    very large. A classifier that does not account for the uncertainty of these estimates
+    is vulnerable to making inferences from unreliable evidence. This report explains
+    the problem and explores options for accounting for the often-neglected uncertainty.
+    A neat solution that does no harm to less uncertain cases remains elusive.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2044'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

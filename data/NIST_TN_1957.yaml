@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1957
 title:
 - content: BIRDS v3.1 Tutorial for Low Energy Residential Database
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1957
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1957.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1957
@@ -21,84 +20,102 @@ docid:
 - id: 10.6028/NIST.TN.1957
   type: DOI
 date:
-- type: published
-  value: 2017-03
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua D
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric G
-          script:
-          - Latn
-      surname:
-        content: O'Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022066603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Priya D
-          script:
-          - Latn
-      surname:
-        content: Lavappa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavappa, Priya.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113180
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-03
-script:
-- Latn
+abstract:
+- content: Building stakeholders need practical metrics, data, and tools to support
+    decisions related to sustainable building designs, technologies, standards, and
+    codes. The Engineering Laboratory of the National Institute of Standards and Technology
+    (NIST) has addressed this high priority national need by extending its metrics
+    and tools for sustainable building products, known as Building for Environmental
+    and Economic Sustainability (BEES), to whole buildings. Whole building sustainability
+    metrics have been developed based on innovative extensions to life-cycle assessment
+    (LCA) and life-cycle costing (LCC) approaches involving whole building energy
+    simulations. The measurement system evaluates the sustainability of both the materials
+    and the energy used by buildings over time. It assesses the ⁰₋carbon footprint⁰₊
+    of buildings as well as 11 other environmental performance metrics, and integrates
+    economic performance metrics to yield science-based measures of the business case
+    for investment choices in high-performance green buildings. Building Industry
+    Reporting and Design for Sustainability (BIRDS) applies the sustainability measurement
+    system to an extensive whole building performance database NIST has compiled for
+    this purpose. Based on the NIST Net Zero Energy Residential Test Facility (NZERTF),
+    the BIRDS low energy residential building database includes energy, environmental,
+    and cost measurements for 480 000 residential building designs for Gaithersburg,
+    MD for study period lengths ranging from 1 year to 40 years. Focusing on a single
+    location allows for the consideration of incremental building energy efficiency
+    measures, both those specified in most recent editions of the International Energy
+    Conservation Code (IECC) as well as those adopted in the NZERTF design that lead
+    to net-zero energy performance. The sustainability performance of buildings designed
+    to meet current energy codes can be compared to a number of alternative building
+    designs to determine the impacts of improving building energy efficiency on overall
+    sustainability performance. The initial version of this database was introduced
+    in BIRDS v3.0 and has been expanded in BIRDS v3.1 to include additional metrics
+    related to indoor environmental quality (thermal comfort of occupants and indoor
+    air quality) and an additional exterior wall finish option. The BIRDS interface
+    now includes additional graphing features not available in previous versions of
+    BIRDS. This document is a tutorial to assist BIRDS users in understanding and
+    using the BIRDS Low Energy Residential Buildings Database Web Interface, including
+    detailed definitions for and explanation of the purpose of each input and output
+    option.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1957'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

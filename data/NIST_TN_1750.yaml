@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1750
 title:
 - content: Annex 47 Extended Project Summary
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1750
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1750.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1750
@@ -21,77 +20,66 @@ docid:
 - id: 10.6028/NIST.TN.1750
   type: DOI
 date:
-- type: published
-  value: 2012-09
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Choiniére
+      completename:
+        content: Ferretti, Natascha Milesi.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152806
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Natascha
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Milesi Ferretti
+      completename:
+        content: Choinière, Daniel.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152802
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-09
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'In 2006, researchers from 22 organizations in ten countries began a joint
+    effort to enable the cost-effective commissioning of existing and future buildings
+    to improve the buildings'' operating performance. The commissioning techniques
+    developed through this Annex are intended to help transition the industry from
+    the intuitive approach, currently employed in the operation of buildings, to more
+    systematic operation focusing on achieving significant energy savings. Key outputs
+    of IEA - ECBCS Annex 47 include: - Methods and tools for commissioning advanced
+    systems and low energy buildings; - Methods and tools for field application; -
+    Information on the costs and benefits that can be used to promote the wider use
+    of commissioning. This report presents an extended summary of the research results.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1750'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

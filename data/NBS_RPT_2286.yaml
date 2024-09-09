@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT2286
 title:
-- content: Report on dental research at the National Bureau of Standards :for the
+- content: Report on dental research at the National Bureau of Standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: for the half year ending December 31, 1952
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on dental research at the National Bureau of Standards - for the
     half year ending December 31, 1952
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.2286
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport2286.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 2286
@@ -22,35 +35,34 @@ docid:
 - id: 10.6028/NBS.RPT.2286
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1953'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Dental Research Laboratory.
   role:
   - type: publisher
-revdate: '1953'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '2286'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

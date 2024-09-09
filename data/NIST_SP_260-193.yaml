@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-193
 title:
-- content: Reference Material 8634:ethylene tetrafluoroethylene for particle size
+- content: Reference Material 8634
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: ethylene tetrafluoroethylene for particle size distribution and morphology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Reference Material 8634 - ethylene tetrafluoroethylene for particle size
     distribution and morphology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-193
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-193.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-193
@@ -22,173 +35,127 @@ docid:
 - id: 10.6028/NIST.SP.260-193
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dean
-          script:
-          - Latn
-      surname:
-        content: Ripple
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ripple, Dean.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Srivalli
-          script:
-          - Latn
-      surname:
-        content: Telikepalli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Telikepalli, Srivalli.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen
-          script:
-          - Latn
-      surname:
-        content: Steffens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Steffens, Kristen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Carrier
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Carrier, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2009000375
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Montgomery, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99062227
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: Ritchie
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ritchie, Nicholas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79124531
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Lu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lu, Zeng.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2007202655
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: Reference Material (RM) 8634 is a NIST particle standard produced from
+    abraded ethylene tetrafluoroethylene (ETFE), a chemically inert polymer, that
+    will help standardize and allow more accurate monitoring of subvisible proteinaceous
+    particles in biotherapeutics. These ETFE particles resemble proteinaceous particles
+    in biotherapeutics because they are translucent, with a refractive index similar
+    to that of proteinaceous particles and have irregular morphology. RM 8634 has
+    reference values for particle size distribution (PSD), in the range of (1 to 30)
+    ?m, and morphology (aspect ratio, compactness, ellipse ratio). The PSD values
+    were obtained using flow imaging (FI), an in-house-devised stop-flow microscope
+    (SFM), and a static optical microscopic technique. For morphological assessment
+    of the particles, SFM, scanning electron microscopy (SEM), and static optical
+    microscopy techniques were employed. All techniques employed were highly characterized
+    for instrument biases and appropriate corrections were made; rigorous statistical
+    analysis of the data was performed to obtain the reference values. This document
+    briefly describes the preparation of the RM, data collection, data analysis, data
+    compilation, and reference value assignment. Detailed procedures of how the analyst
+    can use this RM to obtain PSD and morphology information, qualify instruments,
+    reduce variability, and correct for instrument biases are presented. The document
+    also describes how the analyst will be able to apply corrections, obtained from
+    RM analysis, to protein-like samples to obtain more accurate PSD and morphology
+    information than if the correction is based solely on polystyrene microspheres.
+    Such a standard is the first-of-its-kind available to the industry. We envision
+    that RM 8634 will drive industrial collaboration to better characterize and in
+    turn, understand the implications of proteinaceous particles in biotherapeutics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-193
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

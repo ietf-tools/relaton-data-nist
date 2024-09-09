@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-6
 title:
 - content: Automated tools for testing computer system vulnerability
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-6
@@ -21,56 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-6
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Timothy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, Tim,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90727805
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Computer security incidents occur with alarming frequency. The incidents
+    range from direct attacks by both hackers and insiders to automated attacks such
+    as network worms. Weak system controls are frequently cited as the cause, but
+    many of these incidents are the result of improper use of existing control mechanisms.
+    For example, improper access control specifications for key system files could
+    open the entire system to unauthorized access. Moreover, many computer systems
+    are delivered with default settings that, if left unchanged, leave the system
+    exposed. This document discusses automated tools for testing computer system vulnerability.
+    By analyzing factors affecting the security of a computer system, a system manager
+    can identify common vulnerabilities stemming from administrative errors. Using
+    automated tools, this process may examine the content and protections of hundreds
+    of files on a multi-user system and identify subtle vulnerabilities. By acting
+    on this information, system administrators can significantly reduce their systems'
+    security exposure. This document examines basic requirements for vulnerability
+    testing tools and describes the different functional classes of tools. Finally,
+    the document offers general recommendations about the selection and distribution
+    of such tools.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-6
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

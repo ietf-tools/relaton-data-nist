@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2164
 title:
 - content: On computing elastic shape distances between curves in d-dimensional space
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2164
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2164.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2164
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.TN.2164
   type: DOI
 date:
-- type: published
-  value: '2021-06-21'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Javier
-          script:
-          - Latn
-      surname:
-        content: Bernal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bernal, Javier; ; Dogan, Gunay;
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          script:
-          - Latn
-      surname:
-        content: Lawrence
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lawrence, Jim.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gunay
-          script:
-          - Latn
-      surname:
-        content: Dogan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dogan, Gunay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          script:
-          - Latn
-      surname:
-        content: Hagwood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hagwood, Charles.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-06-21'
-script:
-- Latn
 abstract:
 - content: The computation of the elastic registration of two simple curves in higher
     dimensions and therefore of the elastic shape distance between them has been investigated
@@ -125,16 +81,22 @@ abstract:
     all by itself, but, if both curves are closed, allows applications of the Fast
     Fourier Transform for computing successively in an even more efficient manner,
     optimal rotation matrices for all starting points of the first curve.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2164'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

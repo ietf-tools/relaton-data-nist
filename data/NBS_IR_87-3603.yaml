@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR87-3603
 title:
-- content: Hazard I. Volume 2 :representative example case documentation
+- content: Hazard I. Volume 2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: representative example case documentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Hazard I. Volume 2 - representative example case documentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.87-3603
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir87-3603.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 87-3603
@@ -21,93 +34,51 @@ docid:
 - id: 10.6028/NBS.IR.87-3603
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R W
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: R W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bukowski
+      completename:
+        content: Bukowski, Richard.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84003199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A J
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: A J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Shibe
+      completename:
+        content: Shibe, A. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79041174
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 87-3603
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

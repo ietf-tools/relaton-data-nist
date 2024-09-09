@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5271
 title:
-- content: Portsmouth fastener manufacturing workstation:fastener engraving system
+- content: Portsmouth fastener manufacturing workstation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: fastener engraving system (design, construction, and operation)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Portsmouth fastener manufacturing workstation - fastener engraving system
     (design, construction, and operation)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5271
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5271.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5271
@@ -22,33 +35,43 @@ docid:
 - id: 10.6028/NIST.IR.5271
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
+- person:
+    name:
+      completename:
+        content: Hahn, Mahn Hee.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Huff, Michael.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5271'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

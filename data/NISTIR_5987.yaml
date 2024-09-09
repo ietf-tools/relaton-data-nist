@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5987
 title:
-- content: Hurricane Marilyn in the Caribbean:measured wind speeds and design wind
+- content: Hurricane Marilyn in the Caribbean
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: measured wind speeds and design wind speeds compared
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Hurricane Marilyn in the Caribbean - measured wind speeds and design wind
     speeds compared
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5987
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5987.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5987
@@ -22,59 +35,47 @@ docid:
 - id: 10.6028/NIST.IR.5987
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          script:
-          - Latn
-      surname:
-        content: Marshall
-        script:
-        - Latn
+      completename:
+        content: Marshall, Richard D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50046024
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Schroeder
-        script:
-        - Latn
+      completename:
+        content: Schroeder, John L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5987'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

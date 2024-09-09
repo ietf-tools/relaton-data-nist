@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2056
 title:
-- content: LTE handset emissions:radiation pattern measurements final test report
+- content: LTE handset emissions
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: radiation pattern measurements final test report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: LTE handset emissions - radiation pattern measurements final test report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2056
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2056.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2056
@@ -21,84 +34,75 @@ docid:
 - id: 10.6028/NIST.TN.2056
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert D
-          script:
-          - Latn
-      surname:
-        content: Horansky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Horansky, Robert D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason B
-          script:
-          - Latn
-      surname:
-        content: Coder
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Coder, Jason B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          script:
-          - Latn
-      surname:
-        content: Ladbury
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Ladbury, John M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007055627
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: 'This report describes work that measured the three dimensional emission
+    patterns for a variety of user equipment (UE) handset devices operating on long-term
+    evolution (LTE) protocols. This effort was part of a National Advanced Spectrum
+    and Communication Test Network (NASCTN) project sponsored by the Defense Spectrum
+    Organization (DSO) to investigate the factors that influence aggregate LTE UE
+    emissions in the advanced wireless service 3 (AWS-3) band and the sensitivity
+    of the emissions to those factors. The work presented in this technical note supported
+    the NASCTN''s ''Aggregate LTE: Characterizing UE Emissions'' project outcomes
+    by ensuring the best orientation and associated uncertainty for transmission was
+    known for each UE tested. Due to the potential benefit to the broader spectrum
+    community, this work is being released as a stand-along technical report as well
+    as an appendix to the final ''Aggregate LTE: Characterizing UE Emissions'' technical
+    report'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2056'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

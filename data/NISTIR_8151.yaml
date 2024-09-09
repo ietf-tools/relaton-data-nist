@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8151
 title:
 - content: 'Dramatically reducing software vulnerabilities: Report to the White House
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8151
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8151.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8151
@@ -22,101 +21,89 @@ docid:
 - id: 10.6028/NIST.IR.8151
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Black
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lee
-          script:
-          - Latn
-      surname:
-        content: Badger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Badger, Lee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142246
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          script:
-          - Latn
-      surname:
-        content: Guttman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guttman, Barbara.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92114452
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth
-          script:
-          - Latn
-      surname:
-        content: Fong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fong, Elizabeth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50023905
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: 'The call for a dramatic reduction in software vulnerability is heard from
+    multiple sources, recently from the February 2016 Federal Cybersecurity Research
+    and Development Strategic Plan. This plan starts by describing well known risks:
+    current systems perform increasingly vital tasks and are widely known to possess
+    vulnerabilities. These vulnerabilities are often not easy to discover and difficult
+    to correct. Cybersecurity has not kept pace, and the pace that is needed is rapidly
+    accelerating. The goal of this report is to present a list of specific technical
+    approaches that have the potential to make a dramatic difference in reducing vulnerabilities
+    by stopping them before they occur, by finding them before they are exploited
+    or by reducing their impact.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8151'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

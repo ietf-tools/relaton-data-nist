@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-141
 title:
-- content: Standard Reference MaterialsSecondary ferrite number reference materials
+- content: Standard reference materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: secondary ferrite number reference materials gage calibration and assignment
+    of values
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - secondary ferrite number reference materials
     gage calibration and assignment of values
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-141
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-141.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-141
@@ -22,122 +36,61 @@ docid:
 - id: 10.6028/NIST.SP.260-141
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T A
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: T A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Siewert
+      completename:
+        content: Siewert, T. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085876
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C M
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: C M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wang
+      completename:
+        content: Wang, C. M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88672735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C N
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: C N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCowan
+      completename:
+        content: McCowan, C. N. (Christopher N.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001003693
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-141
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

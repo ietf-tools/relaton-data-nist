@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-213A
 title:
-- content: IoT device cybersecurity guidance for the federal government :IoT device
+- content: IoT device cybersecurity guidance for the federal government
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: IoT device cybersecurity requirement catalog
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: IoT device cybersecurity guidance for the federal government - IoT device
     cybersecurity requirement catalog
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-213A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-213A
@@ -22,175 +35,87 @@ docid:
 - id: 10.6028/NIST.SP.800-213A
   type: DOI
 date:
-- type: published
-  value: '2021-11-29'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Fagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fagan, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katerina
-          script:
-          - Latn
-      surname:
-        content: Megas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Megas, Katerina.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          script:
-          - Latn
-      surname:
-        content: Marron
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Marron, Jeffrey.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: Link
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Link, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Brady
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brady, Kevin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          script:
-          - Latn
-      surname:
-        content: Cuthill
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cuthill, Barbara.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca
-          script:
-          - Latn
-      surname:
-        content: Herold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Herold, Rebecca.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Lemire
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lemire, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brad
-          script:
-          - Latn
-      surname:
-        content: Hoehn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hoehn, Brad.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-11-29'
-script:
-- Latn
 abstract:
 - content: This publication provides a catalog of internet of things (IoT) device
     cybersecurity capabilities (i.e., features and functions needed from a device
@@ -201,16 +126,22 @@ abstract:
     This catalog cross references the capabilities in the catalog to the cybersecurity
     controls in NIST SP 800-53. Organizations should refer to SP 800-213 as that publication
     provides necessary context to effectively use this catalog and related material.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-213A
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

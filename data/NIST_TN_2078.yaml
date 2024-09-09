@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2078
 title:
 - content: The economics of firefighter injuries in the United States
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2078
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2078.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2078
@@ -21,101 +20,98 @@ docid:
 - id: 10.6028/NIST.TN.2078
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84072142
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96024300
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Taylor, Jennifer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002033464
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: This report identifies, summarizes, and evaluates the available data and
+    the literature describing the economic costs associated with non-fatal firefighter
+    injuries, illnesses, health exposures, and occupational disease ('health outcomes')
+    resulting from line-of-duty activities. National firefighter non-fatal health
+    outcome data, published by the National Fire Protection Association (NFPA), U.S.
+    Fire Administration (USFA), and the Bureau of Labor Statistics (BLS), are compared
+    and contrasted in terms of coverage and detail provided. A survey of the economic
+    injury literature is used to estimate the direct and indirect costs of non-fatal
+    health outcomes. A matching procedure is introduced to combine the statistical
+    and economic data to produce an annual estimate of firefighter non-fatal health
+    outcome costs. The conclusion provides a discussion of the current measurement
+    challenges that prevent a complete and throughout accounting of those costs associated
+    with non-fatal firefighter injuries, illnesses, health exposures, and occupational
+    disease. Data gaps exist, largely due to latency issues, in capturing the incidence
+    and economic consequences associated with firefighter cancer and other occupational
+    diseases, including post- traumatic stress injuries. The estimated cost of firefighter
+    injury is estimated to range between $1.6 billion and $5.9 billion annually. This
+    cost result in a loss equivalent of approximately $50,000 to $200,000 per fire
+    department per year or $1,500 to $5,500 per firefighter per year.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2078'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

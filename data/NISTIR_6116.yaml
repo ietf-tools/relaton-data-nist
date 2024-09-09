@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6116
 title:
 - content: NGIS SIM Specification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6116
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6116.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6116
@@ -21,137 +20,104 @@ docid:
 - id: 10.6028/NIST.IR.6116
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William G
-          script:
-          - Latn
-      surname:
-        content: Rippey
-        script:
-        - Latn
+      completename:
+        content: Rippey, William G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021049171
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Michaloski
-        script:
-        - Latn
+      completename:
+        content: Michaloski, John L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Herman
-        script:
-        - Latn
+      completename:
+        content: Herman, Martin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandor
-          script:
-          - Latn
-      surname:
-        content: Szabo
-        script:
-        - Latn
+      completename:
+        content: Szabó, Sándor.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88065472
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William DeWys;Nathaniel
-          script:
-          - Latn
-      surname:
-        content: Frampton
-        script:
-        - Latn
+      completename:
+        content: Frampton, William DeWys;Nathaniel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Herbert
-          script:
-          - Latn
-      surname:
-        content: Lau
-        script:
-        - Latn
+      completename:
+        content: Lau, Herbert.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eun Soo
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
+      completename:
+        content: Lee, Eun Soo,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006039754
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Rose
-        script:
-        - Latn
+      completename:
+        content: Rose, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86102745
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6116'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

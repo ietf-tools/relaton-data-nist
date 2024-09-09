@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-137A
 title:
-- content: 'Assessing Information Security Continuous Monitoring (ISCM) Programs:
-    Developing an ISCM Program Assessment'
+- content: Assessing Information Security Continuous Monitoring (ISCM) programs
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: developing an ISCM program assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Assessing Information Security Continuous Monitoring (ISCM) programs -
+    developing an ISCM program assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-137A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-137A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-137A
@@ -22,135 +35,99 @@ docid:
 - id: 10.6028/NIST.SP.800-137A
   type: DOI
 date:
-- type: published
-  value: '2020-05-21'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dempsey, Kelley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000344
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victoria Yan
-          script:
-          - Latn
-      surname:
-        content: Pillitteri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Pillitteri, Victoria Yan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chad
-          script:
-          - Latn
-      surname:
-        content: Baer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Baer, Chad.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert
-          script:
-          - Latn
-      surname:
-        content: Niemeyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Niemeyer, Robert.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ron
-          script:
-          - Latn
-      surname:
-        content: Rudman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Rudman, Ron.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan
-          script:
-          - Latn
-      surname:
-        content: Urban
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Urban, Susan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no95029289
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2020-05-21'
-script:
-- Latn
+abstract:
+- content: This publication describes an approach for the development of Information
+    Security Continuous Monitoring (ISCM) program assessments that can be used to
+    evaluate ISCM programs within federal, state, and local governmental organizations
+    and commercial enterprises. An ISCM program assessment provides organizational
+    leadership with information on the effectiveness and completeness of the organization's
+    ISCM program, including the review of ISCM strategies, policies, procedures, operations,
+    and analysis of continuous monitoring data. The ISCM assessment approach can be
+    used as presented or as the starting point for an organization-specific methodology.
+    It includes example evaluation criteria and assessment procedures that can be
+    applied to organizations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-137A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

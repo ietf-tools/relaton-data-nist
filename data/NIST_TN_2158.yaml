@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2158
 title:
 - content: NIST software package for obtaining Charpy transition curves
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2158
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2158.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2158
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.TN.2158
   type: DOI
 date:
-- type: published
-  value: '2021-05-11'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jolene
-          script:
-          - Latn
-      surname:
-        content: Splett
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Splett, Jolene.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda
-          script:
-          - Latn
-      surname:
-        content: Koepke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Koepke, Amanda.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Newton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Newton, David.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-05-11'
-script:
-- Latn
 abstract:
 - content: 'NIST has developed a software package that allows users to fit test results
     obtained from Charpy or toughness tests as a function of test temperature, thereby
@@ -122,16 +78,22 @@ abstract:
     simulated dataset generated from predetermined model parameters. These datasets
     allow a thorough demonstration of the NIST software. The software is freely available
     to the scientific community for research purposes.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2158'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

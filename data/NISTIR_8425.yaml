@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8425
 title:
 - content: Profile of the IoT core baseline for consumer IoT products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8425
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8425.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8425
@@ -21,107 +20,55 @@ docid:
 - id: 10.6028/NIST.IR.8425
   type: DOI
 date:
-- type: published
-  value: '2022-09-20'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Fagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Fagan, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katerina
-          script:
-          - Latn
-      surname:
-        content: Megas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Megas, Katerina.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Watrobski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Watrobski, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffery
-          script:
-          - Latn
-      surname:
-        content: Marron
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Marron, Jeffery.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          script:
-          - Latn
-      surname:
-        content: Cuthill
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Cuthill, Barbara.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-09-20'
-script:
-- Latn
 abstract:
 - content: This publication documents the consumer profile of NIST's Internet of Things
     (IoT) core baseline and identifies cybersecurity capabilities commonly needed
@@ -135,16 +82,24 @@ abstract:
     the recommended consumer profile and related considerations. NIST reviewed a landscape
     of relevant source documents to inform the consumer profile and engaged with stakeholders
     across a year-long effort to develop the recommendations.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8425'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

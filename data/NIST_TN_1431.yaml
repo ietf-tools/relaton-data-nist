@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1431
 title:
-- content: A technical reference for CFAST :an engineering tool for estimating fire
+- content: A technical reference for CFAST
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: an engineering tool for estimating fire and smoke transport
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A technical reference for CFAST - an engineering tool for estimating fire
     and smoke transport
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1431
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1431.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1431
@@ -22,103 +35,72 @@ docid:
 - id: 10.6028/NIST.TN.1431
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Walter W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jones
+      completename:
+        content: Jones, Walter W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105945
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Glenn P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Forney
+      completename:
+        content: Forney, Glenn P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88098650
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Peacock, Richard D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reneke
+      completename:
+        content: Reneke, Paul A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008048705
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1431'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

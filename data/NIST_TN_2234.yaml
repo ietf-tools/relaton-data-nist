@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2234
 title:
 - content: Using a single-zone residential model to evaluate virus particle exposure
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2234
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2234.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2234
@@ -21,107 +20,55 @@ docid:
 - id: 10.6028/NIST.TN.2234
   type: DOI
 date:
-- type: published
-  value: '2022-09-20'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Zimmerman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zimmerman, Stephen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Ng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ng, Lisa.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Stuart
-          script:
-          - Latn
-      surname:
-        content: Dols
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dols, W. Stuart.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-09-20'
-script:
-- Latn
 abstract:
 - content: On March 11, 2020, the World Health Organization declared the novel coronavirus
     (COVID-19) outbreak a global pandemic. As noted by ASHRAE and the Centers for
@@ -143,16 +90,22 @@ abstract:
     systems, a 297 CADR portable air cleaner was most effective for reducing particle
     exposure compared to the other mitigation measures simulated (average 45 % reduction
     in exposure).
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2234'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

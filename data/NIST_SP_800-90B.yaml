@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-90B
 title:
 - content: Recommendation for the entropy sources used for random bit generation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-90B
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90B.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-90B
@@ -21,135 +20,94 @@ docid:
 - id: 10.6028/NIST.SP.800-90B
   type: DOI
 date:
-- type: published
-  value: 2018-01
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Meltem Sönmez
-          script:
-          - Latn
-      surname:
-        content: Turan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Turan, Meltem Sönmez.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Kelsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kelsey, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014038767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kerry A
-          script:
-          - Latn
-      surname:
-        content: McKay
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McKay, Kerry A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary L
-          script:
-          - Latn
-      surname:
-        content: Baish
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Baish, Mary L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          script:
-          - Latn
-      surname:
-        content: Boyle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boyle, Mike.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb98085056
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-01
-script:
-- Latn
+abstract:
+- content: This Recommendation specifies the design principles and requirements for
+    the entropy sources used by Random Bit Generators, and the tests for the validation
+    of entropy sources. These entropy sources are intended to be combined with Deterministic
+    Random Bit Generator mechanisms that are specified in SP 800-90A to construct
+    Random Bit Generators, as specified in SP 800-90C.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 800-90B
+  number: 800-90b
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

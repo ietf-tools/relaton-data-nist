@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR21-027
 title:
-- content: Survey of Federal Community Resilience Programs and Available Resilience
-    Planning Tools
+- content: Survey of federal community resilience programs and available resilience
+    planning tools
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.21-027
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2021/NIST.GCR.21-027.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 21-027
@@ -22,84 +21,52 @@ docid:
 - id: 10.6028/NIST.GCR.21-027
   type: DOI
 date:
-- type: published
-  value: '2021-02-18'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Olszewski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Olszewski, Thomas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Irina
-          script:
-          - Latn
-      surname:
-        content: Liu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Liu, Irina.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Cunningham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cunningham, Allison.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-02-18'
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 21-027
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

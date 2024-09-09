@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP921
 title:
-- content: A user's guide for FAST :engineering tools for estimating fire growth and
-    smoke transport
+- content: A user's guide for FAST
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: engineering tools for estimating fire growth and smoke transport
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A user's guide for FAST - engineering tools for estimating fire growth
+    and smoke transport
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.921
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication921.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 921
@@ -22,120 +35,83 @@ docid:
 - id: 10.6028/NIST.SP.921
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Peacock, Richard D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reneke
+      completename:
+        content: Reneke, Paul A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008048705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jones
+      completename:
+        content: Jones, Walter W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105945
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bukowski
+      completename:
+        content: Bukowski, Richard.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84003199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Glenn P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Forney
+      completename:
+        content: Forney, Glenn P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88098650
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '921'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

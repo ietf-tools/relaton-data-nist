@@ -1,20 +1,19 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-295
 title:
-- content: Conformance Testing Methodology for ANSI/NIST-ITL 1-2011, Data Format for
-    the Interchange of Fingerprint, Facial and Other Biometric Information (Release
+- content: Conformance testing methodology for ANSI/NIST-ITL 1-2011, data format for
+    the interchange of fingerprint, facial & other biometric information (release
     1.0)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-295
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-295.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-295
@@ -23,98 +22,80 @@ docid:
 - id: 10.6028/NIST.SP.500-295
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Fernando L.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Podio
+      completename:
+        content: Podio, Fernando.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dylan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yaga
+      completename:
+        content: Yaga, Dylan.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141697
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christofer J.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McGinnis
+      completename:
+        content: McGinnis, Christofer J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021043974
   role:
-  - type: editor
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Conformance testing measures whether an implementation faithfully implements
+    the technical requirements defined in a standard. Conformance testing provides
+    developers, users, and purchasers with increased levels of confidence in product
+    quality and increases the probability of successful interoperability. The Information
+    Technology Laboratory of NIST (NIST/ITL) sponsored the development of a conformance
+    testing methodology for ANSI/NIST-ITL 2011, Data Format for the Interchange of
+    Fingerprint, Facial & Other Biometric Information(AN-2011) under the NIST/ITL
+    Conformance Testing Methodology Working Group. This testing methodology supports
+    the development of conformance test tools designed to test implementations of
+    AN-2011 transactions and promotes biometrics conformity assessment efforts. The
+    first release includes comprehensive tables of AN-2011 requirements and test assertions
+    for a set of supported AN-2011 Record Types. The tables of requirements and assertions
+    indicate which assertions apply to the traditional encoding format, the National
+    Information Exchange Model (NIEM)-compliant encoding format, or both encoding
+    formats. The testing methodology makes use of specific test assertion syntax to
+    clearly define the assertions associated with each requirement.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 500-295
+  number: no. 500-295
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

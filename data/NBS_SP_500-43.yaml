@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP500-43
 title:
-- content: A guide to major job accounting systems :the logger system of the UNIVAC
+- content: A guide to major job accounting systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the logger system of the UNIVAC 1100 series operating system
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A guide to major job accounting systems - the logger system of the UNIVAC
     1100 series operating system
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.500-43
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication500-43.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 500-43
@@ -22,122 +35,62 @@ docid:
 - id: 10.6028/NBS.SP.500-43
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J M
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: J M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mohr
+      completename:
+        content: Mohr, Jeffrey Myron,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79023415
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A K
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: A K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Agrawala
+      completename:
+        content: Agrawala, Ashok K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82216710
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Flannagan
+      completename:
+        content: Flannagan, J. F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79020035
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-43
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

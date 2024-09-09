@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1043
 title:
 - content: Workshop on reliability issues in nanomaterials
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1043
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1043.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1043
@@ -21,103 +20,58 @@ docid:
 - id: 10.6028/NIST.SP.1043
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Keller
+      completename:
+        content: Keller, Robert R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022038983
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Keller
+      completename:
+        content: Read, D. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82208926
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Read
+      completename:
+        content: Mahajan, Roop.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Roop
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mahajan
-        language:
-        - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1043'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

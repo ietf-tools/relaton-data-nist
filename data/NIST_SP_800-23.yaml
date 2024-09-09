@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-23
 title:
-- content: Guidelines to federal organizations on security assurance and acquisitionuse
-    of testedevaluated products
+- content: Guidelines to federal organizations on security assurance and acquisition/use
+    of tested/evaluated products
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-23
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-23.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-23
@@ -22,56 +21,55 @@ docid:
 - id: 10.6028/NIST.SP.800-23
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Roback
+      completename:
+        content: Roback, Edward A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'Computer security assurance provides a basis for one to have confidence
+    that security measures, both technical and operational, work as intended. Use
+    of products with an appropriate degree of assurance contributes to security and
+    assurance of the system as a whole and thus should be an important factor in IT
+    procurement decisions. Two Government programs are of particular interest: the
+    National Information Assurance Partnership (NIAP)''s Common Criteria Evaluation
+    and Validation Program and NIST''s Cryptographic Module Validation Program (CMVP).
+    The NIAP program focuses on evaluations of products (e.g., a firewall or operating
+    system) against a set of security specifications. The CMVP program focuses on
+    security conformance testing of a cryptographic module against Federal Information
+    Processing Standard 140-1, Security Requirements for Cryptographic Modules and
+    related federal cryptographic algorithm standards.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-23
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

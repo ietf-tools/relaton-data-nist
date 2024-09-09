@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP625
 title:
 - content: X-Ray measurements and protection, 1913-1964
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.625
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication625.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 625
@@ -21,69 +20,74 @@ docid:
 - id: 10.6028/NBS.SP.625
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lauriston Sale
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
+      completename:
+        content: Taylor, Lauriston S. (Lauriston Sale),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79089358
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Reeves
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tilley
+      completename:
+        content: Tilley, W. Reeves.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81014779
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: An account of the initial U.S. concerns with, and subsequent efforts to
+    cope with, the safe use of ionizing radiation is given. National interest was
+    focused in the National Bureau of Standards where radiation programs were established
+    at the urging of, and with the close cooperation of, the radiological profession.
+    The National Bureau of Standards' ionizing radiation research programs, the first
+    in the U.S. Government, were dedicated to establishing a sound scientific base
+    for x-ray measurement and protection. Along with the support and constant efforts
+    of the national and international radiological organizations, the Bureau played
+    a critially important role in the Nation's ability to use radiation effectively
+    and safely. Based on widely scattered files assembled from both Government and
+    non-government sources, this document represents a single source record of significant
+    committee papers, correspondence, and decisions during the period 1913 to 1964,
+    along with the author's summary of National Bureau of Standards' work, and the
+    interrelated efforts of many others in the scientific community. A complete listing
+    of the published output of the National Bureau of Standards' radiation staff is
+    also included in this document. These papers contribute significantly to our understanding
+    of ionizing radiation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '625'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

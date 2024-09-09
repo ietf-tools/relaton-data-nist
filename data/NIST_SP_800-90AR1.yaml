@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-90Ar1
 title:
-- content: Recommendation for Random Number Generation Using Deterministic Random
-    Bit Generators
+- content: Recommendation for random number generation using deterministic random
+    bit generators
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-90Ar1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90Ar1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-90Ar1
@@ -22,67 +21,49 @@ docid:
 - id: 10.6028/NIST.SP.800-90Ar1
   type: DOI
 date:
-- type: published
-  value: 2015-06
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine B.
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John M.
-          script:
-          - Latn
-      surname:
-        content: Kelsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kelsey, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014038767
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: 2015-06
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-90Ar1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

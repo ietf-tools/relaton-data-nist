@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8422
 title:
-- content: Augmented reality (AR) usability evaluation framework :the case of public
+- content: Augmented reality (AR) usability evaluation framework
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the case of public safety communications research
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Augmented reality (AR) usability evaluation framework - the case of public
     safety communications research
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8422
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8421.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8422
@@ -22,73 +35,39 @@ docid:
 - id: 10.6028/NIST.IR.8422
   type: DOI
 date:
-- type: published
-  value: '2022-04-05'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Choong, Yee-Yin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kurtis
-          script:
-          - Latn
-      surname:
-        content: Goad
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Goad, Kurtis.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin C
-          script:
-          - Latn
-      surname:
-        content: Mangold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Mangold, Kevin C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-04-05'
-script:
-- Latn
 abstract:
 - content: 'Augmented Reality (AR) is an enhanced version of reality created by the
     use of technology to overlay digital information on an image of something being
@@ -113,16 +92,24 @@ abstract:
     improvement. It will help reduce development cost and bring the product faster
     to market while providing good usability for users that are easy, quick, comfortable,
     and safe to use with minimal errors.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8422'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

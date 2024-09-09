@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-15
 title:
-- content: '2017 NIST OAGi workshop: enabling composable service-oriented manufacturing
-    systems'
+- content: 2017 NIST/OAGi workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: enabling composable service-oriented manufacturing systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 2017 NIST/OAGi workshop - enabling composable service-oriented manufacturing
+    systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-15
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-15.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-15
@@ -22,203 +35,145 @@ docid:
 - id: 10.6028/NIST.AMS.100-15
   type: DOI
 date:
-- type: published
-  value: 2017-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nenad
-          script:
-          - Latn
-      surname:
-        content: Ivezic
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ivezic, Nenad.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Boonserm
-          script:
-          - Latn
-      surname:
-        content: Kulvatunyou
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kulvatunyou, Boonserm.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Brandl
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brandl, Dennis.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006082353
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marco
-          script:
-          - Latn
-      surname:
-        content: Macchi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Macchi, Marco.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yan
-          script:
-          - Latn
-      surname:
-        content: Lu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lu, Yan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79011775
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Noller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Noller, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Jim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2003012487
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thorsten
-          script:
-          - Latn
-      surname:
-        content: Wuest
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wuest, Thorsten.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019156765
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dimitris
-          script:
-          - Latn
-      surname:
-        content: Kiritsis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kiritsis, Dimitris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011073862
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Witherell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Witherell, Paul.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-06
-script:
-- Latn
+abstract:
+- content: 'This report summarizes the results from the 2017 NIST/OAGi Workshop: Enabling
+    Composable Service-Oriented Manufacturing Systems, which was held at the National
+    Institute of Standards and Technology campus in Gaithersburg, MD, on April 10-11,
+    2017. This was the third in a new series of workshops begun in 2015 to foster
+    a shared vision of a new Smart Manufacturing (SM) platform to support Composable
+    Service-Oriented Manufacturing (SOM) systems. The purpose of the workshop series
+    is to identify and discuss challenges in advancing the vision of open cloud service
+    platforms for Smart Manufacturing systems. As in the previous workshop reports,
+    the document describes (1) the vision of Composable Service-Oriented Manufacturing
+    systems as a basis for achieving easily assembled and re-configurable Smart Manufacturing
+    systems, (2) the five breakout sessions, each addressing the vision from a unique
+    perspective, and (3) the key findings from the workshop as well as the next steps
+    planned for the workshop series. The breakout session descriptions provide an
+    overview of respective research and development areas, their goals, capability
+    gaps, proposed technology characteristics, and priority working items.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-15
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

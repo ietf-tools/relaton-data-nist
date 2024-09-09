@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-56a
 title:
 - content: Recommendation for pair-wise key establishment schemes using discrete logarithm
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-56a
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-56a.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-56a
@@ -22,35 +21,67 @@ docid:
 - id: 10.6028/NIST.SP.800-56a
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
+- person:
+    name:
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Johnson, Don.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87150508
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Smid, Miles.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'This Recommendation specifies key establishment schemes using discrete
+    logarithm cryptography, based on standards developed by the Accredited Standards
+    Committee (ASC) X9, Inc.: ANS X9.42 (Agreement of Symmetric Keys Using Discrete
+    Logarithm Cryptography) and ANS X9.63 (Key Agreement and Key Transport Using Elliptic
+    Curve Cryptography).'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-56a
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

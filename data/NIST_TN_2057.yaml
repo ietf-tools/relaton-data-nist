@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2057
 title:
-- content: Effect of strain rate on glass fiber failure process in a glass fiberepoxy
+- content: Effect of strain rate on glass fiber failure process in a glass fiber/epoxy
     model composite
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2057
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2057.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2057
@@ -22,118 +21,82 @@ docid:
 - id: 10.6028/NIST.TN.2057
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jae Hyun
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Kim, Jae Hyun.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven P
-          script:
-          - Latn
-      surname:
-        content: Mates
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Mates, Steven P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeremiah W
-          script:
-          - Latn
-      surname:
-        content: Woodcock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Woodcock, Jeremiah W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gale A
-          script:
-          - Latn
-      surname:
-        content: Holmes
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Holmes, Gale A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: In this study, we elongated glass-fiber model composites in tension to
+    monitor local fiber breakage in the epoxy matrix under quasi-static loading (approximately
+    0.00001 s-1) and high rate loading (approximately 200 s-1). Strains for the initial
+    fiber breaks were around 2 % under the quasi-static loading, while the strains
+    for the initial fiber breaks were around 4 % to 5 % for the high strain rate loading,
+    indicating significant rate dependent characteristics on tensile failure strains
+    of the glass fibers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2057'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

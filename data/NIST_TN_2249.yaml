@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2249
 title:
-- content: A Gray-Box Model of a Two-Stage Heat Pump for Electrical Load Forecasting
-    in a Single-Family Residence
+- content: A gray-box model of a two-stage heat pump for electrical load forecasting
+    in a single-family residence
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2249
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2249.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2249
@@ -22,46 +21,70 @@ docid:
 - id: 10.6028/NIST.TN.2249
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Farhad
-          script:
-          - Latn
-      surname:
-        content: Omar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0618-0060"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Buildings as a set of electric loads and generation resources can play
+    an essential role in managing the stability of the power system in a smart grid.
+    Traditionally, buildings assumed a passive rule in the day-to-day operation of
+    the electric grid. Utilities control the supply of energy to match the demand
+    for buildings. However, the dynamics of the power distribution grid are rapidly
+    changing. A critical aspect of managing the balance between supply and demand
+    in the distribution grid is estimating future demand through load forecasting.
+    Loading forecasting requires accurate, adaptive, and simple models to account
+    for the dynamic behavior of the electrical demand. In residential buildings, heat
+    pumps are a significant source of energy consumption. This document describes
+    a novel gray-box model (RL Model) to forecast a two-stage air-source heat pump's
+    steady-state and transient current consumption in heating and cooling seasons.
+    The RL Model is based on the solution of a first-order differential equation describing
+    the characteristics of a resistor-inductor equivalent circuit and the steady-state
+    power consumption of a heat pump. The steady-state power consumption of the heat
+    pump is a strong function of the outdoor temperature. Key parameters of the RL
+    Model were estimated using a learning algorithm. The performance of the RL Model
+    is validated using measurement data from the Net-Zero Energy Residential Test
+    Facility located on the National Institute of Standards and Technology (NIST)
+    campus in Gaithersburg, MD. The predicted output of the RL Model, current consumption,
+    is used to estimate the heat pump's real and reactive power consumption for different
+    operating stages and seasons. A list of key parameters, like the time constant
+    and temperature-dependent coefficients of the RL Model, are tabulated. Knowledge
+    of the time constant provides critical information for analyzing the aggregated
+    effect of controlling many heat pumps, as flexible loads, on grid stability and
+    provision of ancillary services. The average root mean squared error between the
+    RL Model's predicted current output and the measured current consumption is 0.06.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2249'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

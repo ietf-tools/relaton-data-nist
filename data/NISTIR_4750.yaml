@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4750
 title:
 - content: Massively parallel implementation of character recognition systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4750
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4750.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4750
@@ -21,174 +20,99 @@ docid:
 - id: 10.6028/NIST.IR.4750
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M D
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: M D
-          script:
-          - Latn
-      surname:
-        content: Garris
-        script:
-        - Latn
+      completename:
+        content: Garris, Michael D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007101728
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C L
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: C L
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        script:
-        - Latn
+      completename:
+        content: Wilson, C. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2008004194
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J L
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: J L
-          script:
-          - Latn
-      surname:
-        content: Blue
-        script:
-        - Latn
+      completename:
+        content: Blue, J. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016061
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G T
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: G T
-          script:
-          - Latn
-      surname:
-        content: Candela
-        script:
-        - Latn
+      completename:
+        content: Candela, G. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          script:
-          - Latn
-      surname:
-        content: Janet
-        script:
-        - Latn
+      completename:
+        content: Janet, Stanley A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151240
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R A
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: R A
-          script:
-          - Latn
-      surname:
-        content: Wilkinson
-        script:
-        - Latn
+      completename:
+        content: Wilkinson, R. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4750'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

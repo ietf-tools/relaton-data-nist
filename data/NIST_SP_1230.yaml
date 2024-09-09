@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1230
 title:
 - content: Community resilience-focused technical investigation of the 2016 Lumberton,
-    North Carolina flood:multi-disciplinary approach
+    North Carolina flood
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: multi-disciplinary approach
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Community resilience-focused technical investigation of the 2016 Lumberton,
+    North Carolina flood - multi-disciplinary approach
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1230
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1230.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1230
@@ -22,84 +36,85 @@ docid:
 - id: 10.6028/NIST.SP.1230
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          script:
-          - Latn
-      surname:
-        content: van de Lindt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Van de Lindt, John W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004026648
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter
-          script:
-          - Latn
-      surname:
-        content: Gillis Peacock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gillis Peacock, Walter.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Judith
-          script:
-          - Latn
-      surname:
-        content: Mitrani-Reiser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mitrani-Reiser, Judith.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: 'In early October 2016 Hurricane Matthew crossed North Caroline as a category
+    1 storm with some areas receiving 15-18 inches of rainfall on already saturated
+    soil. The NIST-funded Center for Risk-Based Community Resilience Planning teamed
+    with researchers from NIST''s Community Resilience and Applied Economics programs
+    to conduct a quick response field study focused on the small city of Lumberton,
+    NC and the flooding they experienced from the Lumber River. Lumberton is an ethnically
+    diverse community with a higher than average poverty and unemployment rate, an
+    average civil infrastructure for a city of 22,000, and possesses an organized
+    governance structure. This field study is the first of a series of annual field
+    studies to document and better understand Lumberton''s recovery. This type of
+    longitudinal is critical to study community resilience and ultimately provide
+    data and insight into making U.S. communities more resilient to natural hazards.
+    This community resilience-focused field study presented herein as Volume 1 of
+    a report series, had two major objectives: First, to establish and document initial
+    conditions for the longitudinal resilience field study of Lumberton''s recovery
+    with a focus on the most heavily affected area located within a particular school
+    zone; and secondly, to facilitate and document the development and first application
+    of a combined engineering-social science field study protocol that provides a
+    quantitative linkage between flood damage and socio-economics including race/ethnicity,
+    income, tenancy status, and education level. Population dislocation probabilities
+    were found to be higher for black and Native American households than for white
+    households given the presence of the same residential damage state following the
+    flood.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1230'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

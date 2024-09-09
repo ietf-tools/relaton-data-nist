@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8314
 title:
 - content: Voices of first responders--nationwide public safety communication survey
-    findings:mobile devices, applications, and futuristic technology, phase 2, volume
+    findings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: mobile devices, applications, and futuristic technology, phase 2, volume
     2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-part
+- content: Voices of first responders--nationwide public safety communication survey
+    findings - mobile devices, applications, and futuristic technology, phase 2, volume
+    2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8314
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8314.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8314
@@ -23,84 +38,82 @@ docid:
 - id: 10.6028/NIST.IR.8314
   type: DOI
 date:
-- type: published
-  value: 2020-08
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shanee
-          script:
-          - Latn
-      surname:
-        content: Dawkins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dawkins, Shanee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen K
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra Spickard
-          script:
-          - Latn
-      surname:
-        content: Prettyman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Prettyman, Sandra Spickard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-08
-script:
-- Latn
+abstract:
+- content: 'With the newly created Nationwide Public Safety Broadband Network, the
+    public safety community is in the process of supplementing the use of land mobile
+    radios with the use of a broader spectrum of technologies. As these technologies
+    are being developed, researchers and industry alike need to focus on the end users
+    - the first responders - in order to ensure successful and usable systems. Understanding
+    the user population of first responders is key to improved usability. The NIST
+    PSCR Usability Team conducted a multi-phase, mixed methods research project in
+    order to provide greater understanding of public safety users, their experiences,
+    and their technology needs and problems. This report, Phase 2, Volume 2, is the
+    second in a series of reports on the data from the Phase 2 large-scale, nationwide
+    survey of 7 182 first responders. Three specific topics in the first responder
+    communication technology space, drawing on data from both Phase 1 and Phase 2
+    of the project are presented: 1) mobile devices, apps, and software, 2) futuristic
+    technology and virtual reality, and 3) technology used in large incidents. Findings
+    suggest that broader access to affordable devices, particularly work-issued smartphones,
+    and data through smartphone apps, most essential being email and mapping/navigation,
+    could fill significant gaps in the public safety technology space, making the
+    NPSBN build-out so important for public safety. It is also important to understand
+    that what many first responders want for the future of public safety is technology
+    that already exists for the general public, it just is not yet widespread in the
+    public safety domain, e.g., single sign-on (SSO). Lastly, researchers and developers
+    in the public safety domain should focus on solving the problems that first responders
+    have with technology used for daily incident response, as it will also help them
+    during large events.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8314'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

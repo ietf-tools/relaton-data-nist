@@ -1,21 +1,19 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-301
 title:
-- content: Simple Guide for Evaluating and Expressing the Uncertainty of NIST MeasuremenMaps
-    of Non-hurricane Non-tornadic Wind Speeds With Specified Mean Recurrence Intervals
-    for the Contiguous United States Using a Two-Dimensional Poisson Process Extreme
-    Value Model and Local Regressiont Results
+- content: Maps of non-hurricane non-tornadic wind speeds with specified mean recurrence
+    intervals for the contiguous United States using a two-dimensional poisson process
+    extreme value model and local regression
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-301
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-301.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-301
@@ -24,113 +22,81 @@ docid:
 - id: 10.6028/NIST.SP.500-301
   type: DOI
 date:
-- type: published
-  value: 2015-11
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Adam L.
-          script:
-          - Latn
-      surname:
-        content: Pintar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pintar, Adam L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116838
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          script:
-          - Latn
-      surname:
-        content: Simiu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Simiu, Emil.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79085114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Franklin T.
-          script:
-          - Latn
-      surname:
-        content: Lombardo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lombardo, Franklin T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022049516
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc L.
-          script:
-          - Latn
-      surname:
-        content: Levitan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Levitan, Marc.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Statistical Engineering Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004015936
   role:
   - type: publisher
-revdate: 2015-11
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Materials and Structural Systems Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-301
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

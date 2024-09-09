@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN120A
 title:
 - content: A tabulation of the thermodynamic properties of normal hydrogen from low
-    temperatures to 540* R and from 10 to 1500 psia:supplement A (British units)
+    temperatures to 540* R and from 10 to 1500 psia
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: supplement A (British units)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A tabulation of the thermodynamic properties of normal hydrogen from low
+    temperatures to 540* R and from 10 to 1500 psia - supplement A (British units)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.120A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote120A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 120A
@@ -22,52 +36,37 @@ docid:
 - id: 10.6028/NBS.TN.120A
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dean
+      completename:
+        content: Dean, John W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 120A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

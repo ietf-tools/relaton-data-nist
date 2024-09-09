@@ -1,19 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7819
 title:
 - content: Interlaboratory analytical comparison study to support deepwater horizon
-    natural resource damage assessment:description and results for mussel tissue QA10TIS01
+    natural resource damage assessment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: description and results for mussel tissue QA10TIS01
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Interlaboratory analytical comparison study to support deepwater horizon
+    natural resource damage assessment - description and results for mussel tissue
+    QA10TIS01
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7819
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7819.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7819
@@ -22,59 +37,50 @@ docid:
 - id: 10.6028/NIST.IR.7819
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michele M
-          script:
-          - Latn
-      surname:
-        content: Schantz
-        script:
-        - Latn
+      completename:
+        content: Schantz, Michele M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007089499
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John R
-          script:
-          - Latn
-      surname:
-        content: Kucklick
-        script:
-        - Latn
+      completename:
+        content: Kucklick, John R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017142157
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7819'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

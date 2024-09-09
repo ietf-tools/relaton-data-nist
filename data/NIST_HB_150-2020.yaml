@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-2020
 title:
-- content: National Voluntary LaboratoryAccreditation Program procedures and general
+- content: National Voluntary Laboratory Accreditation Program procedures and general
     requirements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-2020
@@ -22,67 +21,53 @@ docid:
 - id: 10.6028/NIST.HB.150-2020
   type: DOI
 date:
-- type: published
-  value: 2020-08
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dana S
-          script:
-          - Latn
-      surname:
-        content: Leaman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Leaman, Dana S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bethany
-          script:
-          - Latn
-      surname:
-        content: Hackett
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Hackett, Bethany.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: 2020-08
-script:
-- Latn
+abstract:
+- content: NIST Handbook 150 contains the general procedures and requirements under
+    which NVLAP operates as an unbiased third-party accreditation body. This handbook
+    contains the general requirements that testing and calibration laboratories must
+    meet to demonstrate that they operate an appropriate management system, are technically
+    competent, and are able to generate technically valid results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

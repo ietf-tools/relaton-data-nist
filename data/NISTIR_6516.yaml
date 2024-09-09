@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6516
 title:
 - content: Internet commerce for manufacturing, activity model
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6516
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6516.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6516
@@ -21,72 +20,55 @@ docid:
 - id: 10.6028/NIST.IR.6516
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Barkmeyer
-        script:
-        - Latn
+      completename:
+        content: Barkmeyer, Edward.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86135755
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Nell
-        script:
-        - Latn
+      completename:
+        content: Nell, James.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Curtis
-          script:
-          - Latn
-      surname:
-        content: Parks
-        script:
-        - Latn
+      completename:
+        content: Parks, Curtis.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6516'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

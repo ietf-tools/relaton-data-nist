@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP817
 title:
 - content: Research. Services. Facilities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.817
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication817.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 817
@@ -21,86 +20,67 @@ docid:
 - id: 10.6028/NIST.SP.817
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bello
+      completename:
+        content: Bello, Mark A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143266
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bello
+      completename:
+        content: Porter, Gail.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Gail
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Porter
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97002738
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'Each year more than 1,000 researchers from industry, universities, or
+    other government agencies come to NIST to conduct cooperative research projects
+    lasting from a few weeks to A several years. The document describes the full spectrum
+    of NIST programs and facilities available for industry participation and use.
+    Each item includes the name and phone number of a NIST program manager or researcher
+    to contact for more information. Contents: Gaining the competitive edge; Serving
+    the customer; Technology services; Electronics and Electrical Engineering Laboratory;
+    Manufacturing Engineering Laboratory; Chemical Science and Technology Laboratory;
+    Physics Laboratory; Materials Science and Engineering Laboratory; Building and
+    Fire Research Laboratory; Computer Systems Laboratory; Computing and Applied Mathematics
+    Laboratory; Facilities index; Subject index.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '817'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

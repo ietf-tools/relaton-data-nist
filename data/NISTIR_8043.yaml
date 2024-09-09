@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8043
 title:
-- content: Determination of the Compliance of NIST Charpy Impact Machines
+- content: Determination of the compliance of NIST charpy impact machines
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8043
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8043.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8043
@@ -21,50 +20,40 @@ docid:
 - id: 10.6028/NIST.IR.8043
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Applied Chemicals and Materials Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8043'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

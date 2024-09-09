@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-115
 title:
-- content: Technical guide to information security testing and assessment.
+- content: Technical guide to information security testing and assessment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-115
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-115
@@ -21,162 +20,78 @@ docid:
 - id: 10.6028/NIST.SP.800-115
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M P
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: M P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
+      completename:
+        content: Souppaya, M. P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cody
+      completename:
+        content: Cody, A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A D
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: A D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orebaugh
+      completename:
+        content: Orebaugh, A. D.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to assist organizations in planning and
+    conducting technical information security tests and examinations, analyzing findings,
+    and developing mitigation strategies. The guide provides practical recommendations
+    for designing, implementing, and maintaining technical information security test
+    and examination processes and procedures. These can be used for several purposes,
+    such as finding vulnerabilities in a system or network and verifying compliance
+    with a policy or other requirements. The guide is not intended to present a comprehensive
+    information security testing and examination program but rather an overview of
+    key elements of technical security testing and examination, with an emphasis on
+    specific technical techniques, the benefits and limitations of each, and recommendations
+    for their use.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-115
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

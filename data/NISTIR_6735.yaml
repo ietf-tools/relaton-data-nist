@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6735
 title:
-- content: Seabird Tissue and Monitoring Project:protocol for collecting and banking
+- content: Seabird Tissue and Monitoring Project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: protocol for collecting and banking seabird eggs
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Seabird Tissue and Monitoring Project - protocol for collecting and banking
     seabird eggs
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6735
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6735.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6735
@@ -22,137 +35,107 @@ docid:
 - id: 10.6028/NIST.IR.6735
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Geoff Weston
-          script:
-          - Latn
-      surname:
-        content: York
-        script:
-        - Latn
+      completename:
+        content: York, Geoff Weston.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara J
-          script:
-          - Latn
-      surname:
-        content: Porter
-        script:
-        - Latn
+      completename:
+        content: Porter, Barbara J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82144872
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca S
-          script:
-          - Latn
-      surname:
-        content: Pugh
-        script:
-        - Latn
+      completename:
+        content: Pugh, Rebecca S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078510
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David G
-          script:
-          - Latn
-      surname:
-        content: Roseneau
-        script:
-        - Latn
+      completename:
+        content: Roseneau, D. G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81139896
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristin
-          script:
-          - Latn
-      surname:
-        content: Simac
-        script:
-        - Latn
+      completename:
+        content: Simac, Kristin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul R
-          script:
-          - Latn
-      surname:
-        content: Becker
-        script:
-        - Latn
+      completename:
+        content: Becker, Paul R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085576
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lyman K
-          script:
-          - Latn
-      surname:
-        content: Thorsteinson
-        script:
-        - Latn
+      completename:
+        content: Thorsteinson, Lyman K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84165469
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
+      completename:
+        content: Wise, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6735'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

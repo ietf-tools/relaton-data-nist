@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-994
 title:
-- content: 'Community Resilience Workshop: Release of Draft Community Resilience Planning
-    Guide for Public Comment April 27, 2015'
+- content: Community resilience workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: release of draft community resilience planning guide for public comment
+    April 27, 2015
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Community resilience workshop - release of draft community resilience planning
+    guide for public comment April 27, 2015
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-994
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-994.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-994
@@ -22,46 +36,40 @@ docid:
 - id: 10.6028/NIST.GCR.15-994
   type: DOI
 date:
-- type: published
-  value: 2015-08
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David R.
-          script:
-          - Latn
-      surname:
-        content: Mizzen
-        script:
-        - Latn
+      completename:
+        content: Mizzen, David R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022059387
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Operating Unit.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-994
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

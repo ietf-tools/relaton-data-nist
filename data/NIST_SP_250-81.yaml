@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-81
 title:
-- content: Standard Platinum Resistance Thermometer Calibrations from the Ar TP to
+- content: Standard platinum resistance thermometer calibrations from the Ar TP to
     the Ag FP
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-81
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-81.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-81
@@ -22,58 +21,39 @@ docid:
 - id: 10.6028/NIST.SP.250-81
   type: DOI
 date:
-- type: published
-  value: 2008-01
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G. F.
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: G. F.
-          script:
-          - Latn
-      surname:
-        content: Strouse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Chemical Science and Technology Laboratory
+      completename:
+        content: Strouse, Gregory F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n99039361
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Chemical Science and Technology Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no92016806
   role:
   - type: publisher
-revdate: 2008-01
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-81
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-224
 title:
 - content: Certification of Standard Reference Material 3655 glycans in solution (frozen)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-224
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-224.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-224
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.SP.260-224
   type: DOI
 date:
-- type: published
-  value: '2022-04-12'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark S
-          script:
-          - Latn
-      surname:
-        content: Lowenthal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lowenthal, Mark S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian E
-          script:
-          - Latn
-      surname:
-        content: Lang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lang, Brian E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen W
-          script:
-          - Latn
-      surname:
-        content: Phinney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phinney, Karen W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-04-12'
-script:
-- Latn
 abstract:
 - content: Standard Reference Material (SRM) 3655 is intended primarily for use as
     a calibration standard for the measurement of enzymatically released N-linked
@@ -119,16 +75,22 @@ abstract:
     a color-coded screw cap with a Teflon liner. This publication documents the production,
     analytical methods, measurement results, and statistical evaluations involved
     in characterizing these glycan materials.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-224
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

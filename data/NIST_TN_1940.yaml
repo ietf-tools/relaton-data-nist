@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1940
 title:
-- content: Database-assisted Design and second-order effects on the wind-induced structural
+- content: Database-Assisted Design and second-order effects on the wind-induced structural
     behavior of high-rise steel buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1940
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1940.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1940
@@ -22,67 +21,82 @@ docid:
 - id: 10.6028/NIST.TN.1940
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sejun
-          script:
-          - Latn
-      surname:
-        content: Park
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Park, Sejun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152839
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2018048920
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: This work presents an investigation into second-order effects on the wind-induced
+    structural dynamic behavior of high-rise steel structure, as considered within
+    a Database-assisted Design (DAD) context. A geometric stiffness method that accounts
+    for second-order effects and allows the dynamic analysis to be performed without
+    iterations is shown to be applicable in conjunction with DAD and is used in a
+    study of the response of a 60-story building, known as the CAARC building. Datasets
+    of the aerodynamic pressure on the CAARC building for suburban exposure are used
+    to calculate overturning moments and shear forces at the base, as well as members'
+    demand-to-capacity indexes (DCIs), inter-story drift ratios, and resultant accelerations.
+    Dynamic analyses are performed using five reference mean hourly wind speeds at
+    the rooftop for suburban terrain exposure (Uref = 20 m/s, 40 m/s, 60 m/s, 80 m/s,
+    and 100 m/s). The first three and the last three wind speeds are used in analyses
+    for serviceability and strength, respectively. The second-order effects decrease
+    natural frequencies of vibration of the building by up to 12 %. If the resonant
+    response is not taken into account and for Uref = 80 m/s, second-order effects
+    increase the non-directional peak base shears by up to 9 %, the torsional moments
+    by up to 10 %, and the overturning moments by up to 15 %. If resonance is accounted
+    for, (i) for Uref = 100 m/s normal to a building face, the vortex shedding frequency
+    is close to the 2nd and the 3rd natural frequencies of the building, and those
+    effects are increased by 40 % to 56 %; for Uref = 80 m/s and a typical set of
+    21 structural members, the DCIs for the interaction of axial forces and bending
+    moments, BijPM, are increased by up to 9 % for columns, 22 % for beams, and 19
+    % for diagonal bracings, while the DCIs for the shear forces, BijV are increased
+    by up to 33 % for columns, 14 % for beams, and 21 % for diagonal bracings; (iii)
+    for Uref = 60 m/s, second-order effects [...]
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1940'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

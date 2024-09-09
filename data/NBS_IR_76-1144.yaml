@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR76-1144
 title:
-- content: NBS InterAgency Transducer Project :Progress report no. 5
+- content: NBS interagency transducer project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report no. 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NBS interagency transducer project - progress report no. 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.76-1144
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir76-1144.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 76-1144
@@ -21,151 +34,61 @@ docid:
 - id: 10.6028/NBS.IR.76-1144
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J S
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: J S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hilten
+      completename:
+        content: Hilten, J. S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C F
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: C F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Vezzetti
+      completename:
+        content: Vezzetti, C. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mayo-Wells
+      completename:
+        content: Mayo-Wells, J. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P S
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: P S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lederer
+      completename:
+        content: Lederer, P. S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 76-1144
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

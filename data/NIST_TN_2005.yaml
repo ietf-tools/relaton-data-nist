@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2005
 title:
 - content: Thermal energy storage for the NIST net-zero house heat pump
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2005
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2005.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2005
@@ -21,108 +20,94 @@ docid:
 - id: 10.6028/NIST.TN.2005
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M A
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: M A
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W V
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: W V
-          script:
-          - Latn
-      surname:
-        content: Payne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078668
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H M
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H M
-          script:
-          - Latn
-      surname:
-        content: Skye
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Skye, Harrison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022084007
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: This report investigates the viability of thermal energy storage by using
+    a phase-change material (PCM) for residential air-conditioning. The air-conditioning
+    performance and the associated external and internal heat loads to the National
+    Institute of Standards and Technology's Net-Zero Energy Residential Test Facility
+    (NZERTF) were modelled for a single day near the summer solstice. The transient
+    model predicted the frequency and the duration of the cooling cycles for the air-source
+    heat pump with and without PCM. The model was used to examine two different PCM
+    energy storage configurations for their efficacy in improving energy efficiency
+    and/or in meeting the entire peak cooling load for the house. The first configuration
+    limited the mass of the PCM to minimize the required changes to a conventional
+    cooling system. The main component of the first type of cooling system was the
+    integrated PCM evaporator, where a limited amount of PCM was made an integral
+    part of the evaporator and placed within an annulus that surrounded the refrigerant
+    tube. The system with the integral PCM evaporator showed no potential advantage
+    over a conventional system with a larger evaporator and a smaller compressor.
+    The system with the integral PCM evaporator also failed to deliver improved energy
+    savings and peak load shifting due to insufficient amount of PCM and a significant
+    resistance to heat transfer through the PCM within the annulus. In contrast, the
+    second configuration for the residential cooling system, which used remotely stored
+    PCM, exhibited significant energy savings while shifting the entire peak thermal
+    building load to the PCM energy storage with minimal electricity used during the
+    peak load. The remote PCM system achieved between a 6 % and a 33 % reduction in
+    the required electrical energy for the entire cooling day, depending on the PCM
+    thermal resistance, while maintaining acceptable indoor humidity ratios. The performance
+    was best when the heat transfer resistance between the PCM and the evaporating
+    refrigerant was minimized.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2005'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

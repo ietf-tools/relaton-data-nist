@@ -1,8 +1,24 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC564
 title:
-- content: Circular of the Bureau of Standards no. 564:tables of thermal properties
+- content: Circular of the Bureau of Standards no. 564
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: tables of thermal properties of gases comprising tables of thermodynamic
+    and transport properties of air, argon, carbon dioxide, carbon monoxide hydrogen,
+    nitrogen, oxygen, and steam
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 564 - tables of thermal properties
     of gases comprising tables of thermodynamic and transport properties of air, argon,
     carbon dioxide, carbon monoxide hydrogen, nitrogen, oxygen, and steam
   language:
@@ -10,11 +26,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.564
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular564.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 564
@@ -23,137 +38,110 @@ docid:
 - id: 10.6028/NBS.CIRC.564
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1955'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          script:
-          - Latn
-      surname:
-        content: Hilsenrath
-        script:
-        - Latn
+      completename:
+        content: Hilsenrath, Joseph.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82012175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William S
-          script:
-          - Latn
-      surname:
-        content: Benedict
-        script:
-        - Latn
+      completename:
+        content: Benedict, William S. (William Sidney),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87808901
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lilla
-          script:
-          - Latn
-      surname:
-        content: Fano
-        script:
-        - Latn
+      completename:
+        content: Fano, Lilla.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harold J
-          script:
-          - Latn
-      surname:
-        content: Hoge
-        script:
-        - Latn
+      completename:
+        content: Hoge, Harold J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph F
-          script:
-          - Latn
-      surname:
-        content: masa
-        script:
-        - Latn
+      completename:
+        content: masa, Joseph F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ralph L
-          script:
-          - Latn
-      surname:
-        content: Nuttall
-        script:
-        - Latn
+      completename:
+        content: Nuttall, Ralph L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yeram S
-          script:
-          - Latn
-      surname:
-        content: Touloukian
-        script:
-        - Latn
+      completename:
+        content: Touloukian, Yeram S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harold W
-          script:
-          - Latn
-      surname:
-        content: Woolley
-        script:
-        - Latn
+      completename:
+        content: Woolley, Harold W. (Harold William),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84086637
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1955'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '564'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

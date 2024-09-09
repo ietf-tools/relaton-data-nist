@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8223
 title:
 - content: Twenty-first annual report on federal agency use of voluntary consensus
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8223
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8223.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8223
@@ -22,50 +21,58 @@ docid:
 - id: 10.6028/NIST.IR.8223
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nathalie
-          script:
-          - Latn
-      surname:
-        content: Rioux
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rioux, Nathalie.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: Since reporting began in 1997, 94 new GUS in lieu of VCS have been reported,
+    and of this number, only 73 remain in lieu of private sector standards. The effectiveness
+    of the NTTAA and Circular A-119 in encouraging an enhanced awareness and acceptance
+    of private sector standards by federal agencies is demonstrated by the low numbers
+    of reported new GUS used in lieu of VCS and the repeated review of opportunities
+    to replace existing GUS with VCS. These activities suggest that federal agencies
+    are increasingly likely to use standards developed by the private sector to meet
+    their mission needs. In accordance with its coordination role as defined in the
+    NTTAA and Circular A-119, NIST continues to assist federal agencies and their
+    stakeholders with standards and conformity assessment information, program support,
+    guidance, and policy concerns. NIST hosts https://standards.gov, which offers
+    ongoing practical guidance and information needed by agencies to implement the
+    NTTAA successfully and report standards activities as required by the NTTAA and
+    Circular A-119. This report fulfills the annual reporting requirements of both
+    the NTTAA and Circular A-119.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8223'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

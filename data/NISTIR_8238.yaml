@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8238
 title:
-- content: Ongoing face recognition vendor test (FRVT) part 2:identification
+- content: Ongoing face recognition vendor test (FRVT) part 2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: identification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Ongoing face recognition vendor test (FRVT) part 2 - identification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8238
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8238.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8238
@@ -21,84 +34,74 @@ docid:
 - id: 10.6028/NIST.IR.8238
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: 'This report documents performance of face recognition algorithms submitted
+    for evaluation on image datasets maintained at NIST. The algorithms implement
+    one-to-many identification of faces appearing in two-dimensional images. The primary
+    dataset is comprised of 26.6 million reasonably well-controlled live portrait
+    photos of 12.3 million individuals. Three smaller datasets containing more unconstrained
+    photos are also used: 3.2 million webcam images; 2.5 million photojournalism and
+    amateur photographer photos; and 90 thousand faces cropped from surveillance-style
+    video clips. The report will be useful for comparison of face recognition algorithms,
+    and assessment of absolute capability.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8238'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

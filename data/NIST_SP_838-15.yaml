@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP838-15
 title:
-- content: 1998 Building & Fire Research Laboratory :activities, accomplishments &
-    recognitions
+- content: 1998 Building & Fire Research Laboratory
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: activities, accomplishments & recognitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 1998 Building & Fire Research Laboratory - activities, accomplishments
+    & recognitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.838-15
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication838-15.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 838-15
@@ -22,69 +35,39 @@ docid:
 - id: 10.6028/NIST.SP.838-15
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Noel J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Raufaste
+      completename:
+        content: Raufaste, Noel J.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Noel J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Raufaste
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352120
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 838-15
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

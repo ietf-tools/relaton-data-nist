@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6008
 title:
 - content: Report on the Open Forum on Establishment of the National Council of Laboratory
@@ -10,11 +10,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6008
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6008.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6008
@@ -23,59 +22,47 @@ docid:
 - id: 10.6028/NIST.IR.6008
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Janice S
-          script:
-          - Latn
-      surname:
-        content: Jablonskil
-        script:
-        - Latn
+      completename:
+        content: Jablonskil, Janice S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter G
-          script:
-          - Latn
-      surname:
-        content: Leight
-        script:
-        - Latn
+      completename:
+        content: Leight, Walter G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90020945
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6008'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

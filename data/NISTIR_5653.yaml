@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5653
 title:
-- content: Behavior of mock-ups in the California Technical Bulletin 133 test protocol:fabric
-    and barrier effects
+- content: Behavior of mock-ups in the California Technical Bulletin 133 test protocol
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: fabric and barrier effects
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Behavior of mock-ups in the California Technical Bulletin 133 test protocol
+    - fabric and barrier effects
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5653
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5653.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5653
@@ -22,75 +35,47 @@ docid:
 - id: 10.6028/NIST.IR.5653
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T J
-          script:
-          - Latn
-          initial: T
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: T J
-          script:
-          - Latn
-      surname:
-        content: Ohlemiller
-        script:
-        - Latn
+      completename:
+        content: Ohlemiller, T. J. (Thomas J.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84149352
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          script:
-          - Latn
-      surname:
-        content: Shields
-        script:
-        - Latn
+      completename:
+        content: Shields, J. R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5653'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN342
 title:
 - content: Hydromagnetic wave propagation near 1 c
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.342
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote342.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 342
@@ -21,52 +20,40 @@ docid:
 - id: 10.6028/NBS.TN.342
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1966'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dawson
+      completename:
+        content: Dawson, John A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79003977
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1966'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '342'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

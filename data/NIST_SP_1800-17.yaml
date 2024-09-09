@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-17
 title:
 - content: Multifactor authentication for e-commerce
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-17
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-17.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-17
@@ -21,50 +20,62 @@ docid:
 - id: 10.6028/NIST.SP.1800-17
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Newhouse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Newhouse, William.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020058100
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: As retailers in the United States have adopted chip-and-signature and chip-and-PIN
+    (personal identification number) point-of-sale (POS) security measures, there
+    have been increases in fraudulent online card-not-present (CNP) electronic commerce
+    (e-commerce) transactions. The risk of increased fraudulent online shopping became
+    more widely known following the adoption of chip-and-PIN technology that increased
+    security at the POS in Europe. The NCCoE at NIST built a laboratory environment
+    to explore methods to implement multifactor authentication (MFA) for online retail
+    environments for the consumer and the e-commerce platform administrator. The NCCoE
+    also implemented logging and reporting to display authentication-related system
+    activity. This NIST Cybersecurity Practice Guide demonstrates to online retailers
+    that it is possible to implement open standards-based technologies to enable Universal
+    Second Factor (U2F) authentication at the time of purchase when risk thresholds
+    are exceeded. The example implementations outlined in this guide encourage online
+    retailers to adopt effective MFA implementations by using standard components
+    and custom applications that are composed of open- source and commercially available
+    components.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-17
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

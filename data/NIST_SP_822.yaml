@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP822
 title:
-- content: National Educators Workshop :update '90
+- content: National Educators Workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: update '90
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National Educators Workshop - update '90
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.822
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication822.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 822
@@ -21,86 +34,64 @@ docid:
 - id: 10.6028/NIST.SP.822
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jonice S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Harris
+      completename:
+        content: Harris, Jonice S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92085824
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonice S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Harris
+      completename:
+        content: Jacobs, James A.,
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: James A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jacobs
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84030231
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The report includes proceedings of a workshop sponsored jointly by NIST
+    and the Schools of Technology and Science, Norfolk State University, Norfolk,
+    Virginia, and held in Gaithersburg, Maryland, November 13-15, 1990. The workshop
+    theme was strengthening materials education. Material in the publication can serve
+    as a valuable guide to faculty who are interested in useful experiments for their
+    students. There was a blend of experiments on new materials and traditional materials.
+    Uses of computers in MS&E, experuimental design and an approach to A ystematic
+    materials are among the topics presented.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '822'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

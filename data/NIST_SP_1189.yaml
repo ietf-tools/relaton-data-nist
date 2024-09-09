@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1189
 title:
-- content: 'Summary of Workshop for Fire-Structure Interaction and Large Outdoor Fires:
-    Operation Tomodachi: Fire Research'
+- content: Summary of workshop for fire-structure interaction and large outdoor fires
+    - Operation Tomodachi
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Fire Research
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Summary of workshop for fire-structure interaction and large outdoor fires
+    - Operation Tomodachi - Fire Research
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1189
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1189.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1189
@@ -22,67 +36,52 @@ docid:
 - id: 10.6028/NIST.SP.1189
   type: DOI
 date:
-- type: published
-  value: 2015-05
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Samuel L.
-          script:
-          - Latn
-      surname:
-        content: Manzello
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Manzello, Samuel L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sayaka
-          script:
-          - Latn
-      surname:
-        content: Suzuki
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Suzuki, Sayaka.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022078742
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Material Measurement Technology Laboratory.
+    - content: Materials Measurement Science Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1189'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

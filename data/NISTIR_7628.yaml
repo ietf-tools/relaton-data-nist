@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7628
 title:
 - content: Guidelines for smart grid cyber security
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7628
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2010/NIST.IR.7628.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7628
@@ -21,33 +20,60 @@ docid:
 - id: 10.6028/NIST.IR.7628
   type: DOI
 date:
-- type: published
-  value: 2010-08
+- type: issued
+  value: '2018'
 contributor:
+- person:
+    name:
+      completename:
+        content: Smart Grid Cybersecurity Committee.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2010-08
-script:
-- Latn
+abstract:
+- content: "[Superseded by NISTIR 7628 Rev. 1 (Sep. 2014), https://doi.org/10.6028/NIST.IR.7628r1]
+    Smart Grid technologies will introduce millions of new intelligent components
+    to the electric grid that communicate in much more advanced ways (e.g., two-way
+    communications, and wired and wireless communications) than in the past. This
+    report is for individuals and organizations who will be addressing cyber security
+    for Smart Grid systems. The privacy recommendations, the security requirements,
+    and the supporting analyses that are included in this report may be used by strategists,
+    designers, implementers, and operators of the Smart Grid, e.g., utilities, equipment
+    manufacturers, regulators, as input to their risk assessment process and other
+    tasks in the security lifecycle of a Smart Grid information system. This report
+    focuses on specifying an analytical framework that may be useful to an organization.
+    It is a baseline, and each organization must develop its own cyber security strategy
+    for the Smart Grid. The information in this report serves as guidance to various
+    organizations for assessing risk and selecting appropriate security requirements
+    and privacy recommendations."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7628'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-176
 title:
-- content: Standard Reference Materials Catalog
+- content: Certification report for SRMs 2112 and 2113
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-176
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.260-176.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-176
@@ -21,77 +20,68 @@ docid:
 - id: 10.6028/NIST.SP.260-176
   type: DOI
 date:
-- type: published
-  value: 2013-01
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Regina R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Montgomery
+      completename:
+        content: McCowan, Chris.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Office of Reference Materials
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joan C.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sauerwein
+      completename:
+        content: Santoyo, Ray.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Office of Reference Materials
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139166
   role:
-  - type: editor
+  - type: author
+- person:
+    name:
+      completename:
+        content: Splett, Jolene.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-01
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This report documents the procedures used to develop certified maximum
+    force and absorbed energy values for SRM 2112 and SRM 2113. The report serves
+    to provide outside observers with accurate and detailed information on how the
+    materials were certified and how the impact verification program is conducted.
+    The 2112 and 2113 SRMs have certified absorbed energy values at 21 degrees C and
+    -40 degrees C, and a certified maximum force value at 21 degrees C.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-176
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

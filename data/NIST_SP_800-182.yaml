@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-182
 title:
-- content: Computer Security Division 2015 Annual Report
+- content: Computer Security Division annual report 2015
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-182
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-182.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-182
@@ -21,84 +20,82 @@ docid:
 - id: 10.6028/NIST.SP.800-182
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick D
-          script:
-          - Latn
-      surname:
-        content: O'Reilly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Reilly, Patrick.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89606604
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Greg A
-          script:
-          - Latn
-      surname:
-        content: Witte
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Feldman, Larry.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022008916
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Witte, Greg.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012049043
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: Title III of the E-Government Act of 2002, entitled the Federal Information
+    Security Management Act (FISMA) of 2002, requires NIST to prepare an annual public
+    report on activities undertaken in the previous year, and planned for the coming
+    year, to carry out responsibilities under this law. The primary goal of the Computer
+    Security Division (CSD), a component of NIST s Information Technology Laboratory
+    (ITL), is to provide standards and technology that protects information systems
+    against threats to the confidentiality, integrity, and availability of information
+    and services. During Fiscal Year 2015 (FY 2015), CSD successfully responded to
+    numerous challenges and opportunities in fulfilling that mission. Through CSD's
+    diverse research agenda and engagement in many national priority initiatives,
+    high-quality, cost-effective security and privacy mechanisms were developed and
+    applied that improved information security across the federal government and the
+    greater information security community. This annual report highlights the research
+    agenda and activities in which CSD was engaged during FY 2015.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-182
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

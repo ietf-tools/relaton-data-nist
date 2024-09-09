@@ -1,19 +1,19 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5321
 title:
-- content: A study of heat pump performance using mixtures of R32R134a and R32R125R134a
-    as Drop-In working fluids for R22 with and without a liquid-suction heat exchanger
+- content: A study of heat pump performance using mixtures of R32 / R134a and R32
+    / R125 / R134a as Drop-In working fluids for R22 with and without a liquid-suction
+    heat exchanger
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5321
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5321.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5321
@@ -22,33 +22,43 @@ docid:
 - id: 10.6028/NIST.IR.5321
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
+- person:
+    name:
+      completename:
+        content: Rothfleisch, Peter I.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Didion, David A.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5321'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

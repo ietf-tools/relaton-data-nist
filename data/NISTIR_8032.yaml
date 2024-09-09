@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8032
 title:
-- content: 'Dietary Supplement Laboratory Quality Assurance Program: Exercise K Final
-    Report'
+- content: Dietary supplement laboratory quality assurance program
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: exercise K final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Dietary supplement laboratory quality assurance program - exercise K final
+    report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8032
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2014/NIST.IR.8032.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8032
@@ -22,84 +35,56 @@ docid:
 - id: 10.6028/NIST.IR.8032
   type: DOI
 date:
-- type: published
-  value: 2014-11
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa M.
-          script:
-          - Latn
-      surname:
-        content: Phillips
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phillips, Melissa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine A.
-          script:
-          - Latn
-      surname:
-        content: Rimmer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Rimmer, Catherine A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Laura J.
-          script:
-          - Latn
-      surname:
-        content: Wood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wood, Laura J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022054622
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Chemical Sciences Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2014-11
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8032'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

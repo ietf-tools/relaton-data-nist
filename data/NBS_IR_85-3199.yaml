@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR85-3199
 title:
-- content: Acoustics LAP handbook :operational and technical requirements of the laboratory
-    accreditation program for acoustical testing services
+- content: Acoustics LAP handbook
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: operational and technical requirements of the laboratory accreditation
+    program for acoustical testing services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Acoustics LAP handbook - operational and technical requirements of the
+    laboratory accreditation program for acoustical testing services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.85-3199
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3199.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 85-3199
@@ -22,103 +36,70 @@ docid:
 - id: 10.6028/NBS.IR.85-3199
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gladhill
+      completename:
+        content: Gladhill, Robert L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86135756
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wiley A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hall
+      completename:
+        content: Hall, Wiley A, Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Horlick
+      completename:
+        content: Horlick, Jeffrey.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84134731
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harvey W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berger
+      completename:
+        content: Berger, Harvey W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352114
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1985'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3199
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1453
 title:
 - content: Smoke component yields from room-scale fire tests
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1453
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1453.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1453
@@ -21,120 +20,84 @@ docid:
 - id: 10.6028/NIST.TN.1453
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jason D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Averill
+      completename:
+        content: Gann, Richard G.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96095572
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erik L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnsson
+      completename:
+        content: Averill, Jason D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006027919
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nyden
+      completename:
+        content: Johnsson, Erik L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022022789
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Nyden, Marc R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90004081
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gann
+      completename:
+        content: Peacock, Richard D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1453'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

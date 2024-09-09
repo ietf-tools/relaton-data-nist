@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP961e2005
 title:
-- content: CODATA recommended values of the fundamental physical constants :2002
+- content: CODATA recommended values of the fundamental physical constants
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: '2002'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: CODATA recommended values of the fundamental physical constants - 2002
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.961e2005
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication961e2005.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 961e2005
@@ -21,122 +34,47 @@ docid:
 - id: 10.6028/NIST.SP.961e2005
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P J
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: P J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mohr
+      completename:
+        content: Mohr, P. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P J
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: P J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mohr
+      completename:
+        content: Taylor, B. N.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: B N
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: B N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85084930
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 961e2005
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

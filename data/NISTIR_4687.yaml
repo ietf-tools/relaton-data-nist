@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4687
 title:
 - content: HgCdTe detector reliability study for the GOES Program
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4687
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4687.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4687
@@ -21,98 +20,80 @@ docid:
 - id: 10.6028/NIST.IR.4687
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David G
-          script:
-          - Latn
-      surname:
-        content: Seiler
-        script:
-        - Latn
+      completename:
+        content: Seiler, David G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85214620
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George G
-          script:
-          - Latn
-      surname:
-        content: Harman
-        script:
-        - Latn
+      completename:
+        content: Harman, George G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80019646
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeremiah R
-          script:
-          - Latn
-      surname:
-        content: Lowney
-        script:
-        - Latn
+      completename:
+        content: Lowney, J. R. (Jeremiah Ralph),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84002820
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Santos
-          script:
-          - Latn
-      surname:
-        content: Mayo
-        script:
-        - Latn
+      completename:
+        content: Mayo, Santos.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter S Jr
-          script:
-          - Latn
-      surname:
-        content: Liggett
-        script:
-        - Latn
+      completename:
+        content: Liggett, Walter S.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021036573
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4687'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5386
 title:
 - content: Proceedings of the workshop of the Federal Criteria for information technology
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5386
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5386.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5386
@@ -22,124 +21,99 @@ docid:
 - id: 10.6028/NIST.IR.5386
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gene
-          script:
-          - Latn
-      surname:
-        content: Troy
-        script:
-        - Latn
+      completename:
+        content: Cugini, Janet.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lynne M
-          script:
-          - Latn
-      surname:
-        content: Ambuel
-        script:
-        - Latn
+      completename:
+        content: Toth, Pat.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Frank
-          script:
-          - Latn
-      surname:
-        content: Mayer
-        script:
-        - Latn
+      completename:
+        content: Troy, Gene.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Terry
-          script:
-          - Latn
-      surname:
-        content: Mayfield
-        script:
-        - Latn
+      completename:
+        content: Ambuel, Lynne M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marshall
-          script:
-          - Latn
-      surname:
-        content: Abrams
-        script:
-        - Latn
+      completename:
+        content: Mayer, Frank.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Les
-          script:
-          - Latn
-      surname:
-        content: Fraime
-        script:
-        - Latn
+      completename:
+        content: Terry Mayfield .
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Virgil
-          script:
-          - Latn
-      surname:
-        content: Gligor
-        script:
-        - Latn
+      completename:
+        content: Abrams, Marshall.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Fraime, Les.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Gligor, Virgil.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5386'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

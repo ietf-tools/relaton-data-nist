@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2229
 title:
 - content: Tensile tests at 77 K and 4 K on 316L stainless steel welded plates
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2229
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2229.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2229
@@ -21,73 +20,39 @@ docid:
 - id: 10.6028/NIST.TN.2229
   type: DOI
 date:
-- type: published
-  value: '2022-07-19'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Weeks
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Weeks, Timothy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: Derimow
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Derimow, Nicholas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jake
-          script:
-          - Latn
-      surname:
-        content: Benzing
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Benzing, Jake.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-07-19'
-script:
-- Latn
 abstract:
 - content: Based on the collaborative framework established between ASME, NASA, and
     NIST, quasi-static tensile tests were performed in liquid nitrogen (77 K) and
@@ -102,16 +67,22 @@ abstract:
     test conducted at 4 K. The tensile properties reported in this work will be used
     during analysis of future fracture toughness (single edge notch bending) testing
     conducted at 77 K and 4 K on the same four sets of welded plates.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2229'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

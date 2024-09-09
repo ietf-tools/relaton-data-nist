@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-176-2018
 title:
 - content: SRM NIST standard reference materials 2018 catalog
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-176-2018
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-176-2018.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-176-2018
@@ -21,67 +20,47 @@ docid:
 - id: 10.6028/NIST.SP.260-176-2018
   type: DOI
 date:
-- type: published
-  value: 2018-01
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Regina R
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Montgomery, Regina R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062310
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer E
-          script:
-          - Latn
-      surname:
-        content: Benkstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Benkstein, Jennifer E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-01
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-176-2018
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

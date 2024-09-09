@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-15-2020
 title:
-- content: NVLAP Thermal Insulation Materials
+- content: NVLAP thermal insulation materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-15-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-15-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-15-2020
@@ -21,50 +20,51 @@ docid:
 - id: 10.6028/NIST.HB.150-15-2020
   type: DOI
 date:
-- type: published
-  value: '2020-05-14'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Rasinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rasinski, Timothy V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92059126
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2020-05-14'
-script:
-- Latn
+abstract:
+- content: This handbook is intended for information and use by accredited TIM laboratories,
+    assessors conducting onsite assessments, laboratories seeking accreditation, other
+    laboratory accreditation systems, users of laboratory services, and others needing
+    information on the requirements for accreditation under the thermal insulation
+    materials laboratory accreditation program.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
-  number: 150-15-2020
+  number: 150-15 2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

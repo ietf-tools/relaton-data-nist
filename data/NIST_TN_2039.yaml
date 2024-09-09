@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2039
 title:
 - content: Measurement of the flow resistance of vegetation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2039
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2039.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2039
@@ -21,113 +20,85 @@ docid:
 - id: 10.6028/NIST.TN.2039
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          script:
-          - Latn
-      surname:
-        content: Falkenstein-Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Falkenstein-Smith, Ryan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055872
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: McGrattan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McGrattan, Kevin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055891
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marco
-          script:
-          - Latn
-      surname:
-        content: Fernandez
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fernandez, Marco (Marco G.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055964
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: This report documents the measurement of the wind resistance of different
+    types of vegetation. The measurements are made in a wind tunnel with a 2.0 m test
+    section and 0.5 m by 0.5 m cross- section. Samples of vegetation have been cut
+    into cubical volumes that span the cross-section of the tunnel. The wind resistance
+    is inferred via measurement of the pressure drop across the sample at wind speeds
+    ranging from 2 m/s to 8 m/s. The results are compared to empirical correlations
+    quantifying the wind resistance of regularly spaced vertical tubes of comparable
+    geometric characteristics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2039'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

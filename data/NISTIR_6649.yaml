@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6649
 title:
-- content: NIST Workshop on Materials Test Procedures for Hydrogen PipelinesThe proceedings
-    of a workshop held August 21-22, 2007 at the National Institute of Standards and
-    Technology, Boulder, CO 80305
+- content: NIST workshop on materials test procedures for hydrogen pipelines
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the proceedings of a workshop held August 21-22, 2007, at the National
+    Institute of Standards and Technology, Boulder, CO 80305
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST workshop on materials test procedures for hydrogen pipelines - the
+    proceedings of a workshop held August 21-22, 2007, at the National Institute of
+    Standards and Technology, Boulder, CO 80305
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6649
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6649.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6649
@@ -23,98 +37,55 @@ docid:
 - id: 10.6028/NIST.IR.6649
   type: DOI
 date:
-- type: published
-  value: 2007-09
+- type: issued
+  value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Siewert
+      completename:
+        content: Siewert, Thomas A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J. David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McColskey
+      completename:
+        content: McColskey, J. DavidWeeks, Timothy S.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard E.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ricker
+      completename:
+        content: Ricker, Richard E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr92033489
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2007-09
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6649'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

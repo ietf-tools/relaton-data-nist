@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP400-94
 title:
 - content: Improved characterization and evaluation measurements for HgCdTe detector
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.400-94
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication400-94.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 400-94
@@ -22,180 +21,83 @@ docid:
 - id: 10.6028/NIST.SP.400-94
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D G
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: D G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Seiler
+      completename:
+        content: Seiler, David G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85214620
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lowney
+      completename:
+        content: Lowney, J. R. (Jeremiah Ralph),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84002820
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W R
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: W R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thurber
+      completename:
+        content: Thurber, W. Robert.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78012579
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kopanski
+      completename:
+        content: Kopanski, Joseph.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2011013116
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Harman
+      completename:
+        content: Harman, George G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80019646
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1994'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 400-94
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

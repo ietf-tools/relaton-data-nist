@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO110
 title:
-- content: Infrared spectroscopy of carbohydrates :a review of the literature
+- content: Infrared spectroscopy of carbohydrates
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a review of the literature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Infrared spectroscopy of carbohydrates - a review of the literature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.110
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph110.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 110
@@ -21,52 +34,40 @@ docid:
 - id: 10.6028/NBS.MONO.110
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R Stuart
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tipson
+      completename:
+        content: Tipson, R. Stuart.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85300498
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1968'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '110'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

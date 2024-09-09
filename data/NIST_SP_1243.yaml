@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1243
 title:
 - content: Obstacles to data sharing in public safety applications require more than
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1243
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1243.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1243
@@ -22,50 +21,59 @@ docid:
 - id: 10.6028/NIST.SP.1243
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Britta
-          script:
-          - Latn
-      surname:
-        content: Voss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory.
+      completename:
+        content: Voss, Britta.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: First responders today can leverage large quantities of multimedia data
+    from a variety of sources within and outside their agencies, and the scope of
+    this data sharing is growing rapidly. This expansion in capabilities comes with
+    several technical challenges, such as the need for new interoperability standards
+    and software tools that can make sense of the deluge of data. But many of the
+    challenges facing public safety agencies using or considering implementing such
+    technologies are not primarily technical in nature. In areas of governance, policy,
+    and funding, new data sharing technologies exacerbate existing obstacles, such
+    as resource limitations, and create new ones, such as legal risks of cybersecurity
+    vulnerabilities. Through an analysis of responses to structured interviews with
+    first responders across the United States, we summarize the key non-technical
+    challenges facing public safety use of emerging data sharing technologies. Based
+    on the experiences and concerns shared by these first responders, we conclude
+    that addressing these challenges with research and development on technical solutions
+    may help ensure that these technologies deliver maximum benefit for emergency
+    response applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1243'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

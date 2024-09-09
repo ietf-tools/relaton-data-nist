@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN794
 title:
-- content: NBS corridor fire test :Energy and radiation models
+- content: NBS corridor fire test
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: energy and radiation models
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NBS corridor fire test - energy and radiation models
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.794
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote794.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 794
@@ -21,52 +34,40 @@ docid:
 - id: 10.6028/NBS.TN.794
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Francis C W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fung
+      completename:
+        content: Fung, Francis C. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2008025090
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '794'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

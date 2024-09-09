@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8187
 title:
 - content: Evaluation infrastructure for the measurement of content-based video quality
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8187
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8187.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8187
@@ -22,118 +21,92 @@ docid:
 - id: 10.6028/NIST.IR.8187
   type: DOI
 date:
-- type: published
-  value: 2017-07
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Haiying
-          script:
-          - Latn
-      surname:
-        content: Guan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guan, Haiying.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085875
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          script:
-          - Latn
-      surname:
-        content: Zhou
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Zhou, Daniel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          script:
-          - Latn
-      surname:
-        content: Fiscus
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fiscus, Jonathan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Garofolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Garofolo, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2007029064
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Horan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Horan, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr92024783
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-07
-script:
-- Latn
+abstract:
+- content: In this report we describe a novel framework for evaluation of video analytics
+    which uses video quality metric prediction as a measurement of the system performance.
+    This system is used to improve overall video analytics system performance. The
+    primary concept of this approach is to create an evaluation infrastructure that
+    can promote the study of video quality metrics, and at the same time promote the
+    research of video analytics. The achievements in both domains will have significant
+    impacts on many application areas, such as public safety, homeland security, video
+    surveillance applications, geographic applications and entertainment video.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8187'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

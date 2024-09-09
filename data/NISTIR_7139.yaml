@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7139
 title:
-- content: Evaluation of salivaoral fluid as an alternate drug testing specimen -
+- content: Evaluation of saliva/oral fluid as an alternate drug testing specimen -
     final report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7139
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7139.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7139
@@ -22,72 +21,61 @@ docid:
 - id: 10.6028/NIST.IR.7139
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis J
-          script:
-          - Latn
-      surname:
-        content: Crouch
-        script:
-        - Latn
+      completename:
+        content: Crouch, Dennis J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003083274
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jayme
-          script:
-          - Latn
-      surname:
-        content: Day
-        script:
-        - Latn
+      completename:
+        content: Day, Jayme.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009201902
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jakub
-          script:
-          - Latn
-      surname:
-        content: Baudys
-        script:
-        - Latn
+      completename:
+        content: Baudys, Jakub.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021099283
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7139'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

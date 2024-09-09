@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-175A
 title:
-- content: 'Guideline for Using Cryptographic Standards in the Federal Government:
-    Directives, Mandates and Policies'
+- content: Guideline for using cryptographic standards in the federal government
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: directives, mandates and policies
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Guideline for using cryptographic standards in the federal government -
+    directives, mandates and policies
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-175A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-175A
@@ -22,67 +35,63 @@ docid:
 - id: 10.6028/NIST.SP.800-175A
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine B.
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C.
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, William C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97036643
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: This document is part of a series intended to provide guidance to the Federal
+    Government for using cryptography and NISTs cryptographic standards to protect
+    sensitive, but unclassified digitized information during transmission and while
+    in storage. Special Publication (SP) 800- 175A provides guidance on the determination
+    of requirements for using cryptography. It includes a summary of laws and regulations
+    concerning the protection of the Federal Governments sensitive information, guidance
+    regarding the conduct of risk assessments to determine what needs to be protected
+    and how best to protect that information, and a discussion of the relevant security-related
+    documents (e.g., various policy and practice documents).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-175A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

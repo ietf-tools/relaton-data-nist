@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4795
 title:
-- content: Some observations on the use of underground reservoirs as heat sinks :second
-    edition
+- content: Some observations on the use of underground reservoirs as heat sinks
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: second edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Some observations on the use of underground reservoirs as heat sinks -
+    second edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4795
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4795.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4795
@@ -22,93 +35,48 @@ docid:
 - id: 10.6028/NBS.RPT.4795
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B A
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: B A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peavy
+      completename:
+        content: Peavy, B. A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R S
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: R S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dill
+      completename:
+        content: Dill, Richard S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021007127
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1956'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4795'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

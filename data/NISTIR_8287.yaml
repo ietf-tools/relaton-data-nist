@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8287
 title:
 - content: A roadmap for successful regional alliances and multistakeholder partnerships
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8287
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8287.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8287
@@ -22,118 +21,91 @@ docid:
 - id: 10.6028/NIST.IR.8287
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Danielle
-          script:
-          - Latn
-      surname:
-        content: Santos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Santos, Danielle.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2019252004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sanjay
-          script:
-          - Latn
-      surname:
-        content: Goel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Goel, Sanjay.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89253813
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Costanzo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Costanzo, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2021060304
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Debbie
-          script:
-          - Latn
-      surname:
-        content: Sagen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sagen, Debbie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patty
-          script:
-          - Latn
-      surname:
-        content: Buddelmeyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Buddelmeyer, Patty.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: In September 2016, the National Initiative for Cybersecurity Education,
+    led by the National Institute of Standards and Technology in the U.S. Department
+    of Commerce, awarded funding for five pilot programs for Regional Alliances and
+    Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and
+    Workforce Development. The document that follows provides a summary of the five
+    pilot programs and outlines a roadmap for building similar programs based on the
+    best practices found and lessons learned.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8287'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

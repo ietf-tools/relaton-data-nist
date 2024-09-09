@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8330
 title:
-- content: 'Research Report: User Perceptions of Smart Home Privacy and Security'
+- content: Research report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: user perceptions of smart home privacy and security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Research report - user perceptions of smart home privacy and security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8330
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8330.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8330
@@ -21,84 +34,84 @@ docid:
 - id: 10.6028/NIST.IR.8330
   type: DOI
 date:
-- type: published
-  value: '2020-11-17'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Julie M.
-          script:
-          - Latn
-      surname:
-        content: Haney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Haney, Julie M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6017-9693"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susanne M.
-          script:
-          - Latn
-      surname:
-        content: Furman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Furman, Susanne M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7013-6603"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yasemin
-          script:
-          - Latn
-      surname:
-        content: Acar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Acar, Yasemin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-11-17'
-script:
-- Latn
+abstract:
+- content: Smart home technologies may expose adopters to increased risk to network
+    security, information privacy, and physical safety. However, users may lack understanding
+    of the privacy and security implications, while devices fail to provide transparency
+    and configuration options. This results in little meaningful mitigation action
+    to protect users’ security and privacy. To better understand users’ perceptions
+    of smart home privacy and security, we conducted an in-depth interview study of
+    40 smart home users. In this document, we report the study findings related to
+    perceptions of data collection/use, privacy and security concerns, and mitigations
+    employed to alleviate concerns. We found that users have varied, and often unclear,
+    understandings of how smart home data are collected and used. In addition, although
+    users may have security and privacy concerns, many participants displayed a willingness
+    to accept risks in favor of smart home benefits, and they feel limited responsibility
+    for mitigating these due to constrained options or lack of knowledge to enact
+    more sophisticated countermeasures. While this report is not meant to be prescriptive,
+    an understanding of user perceptions may be used to inform future smart home security
+    and privacy guidance for manufacturers and users.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8330'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8330'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

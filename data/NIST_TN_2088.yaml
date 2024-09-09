@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2088
 title:
 - content: Measurement science research needs for premise plumbing systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2088
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2088.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2088
@@ -21,118 +20,91 @@ docid:
 - id: 10.6028/NIST.TN.2088
   type: DOI
 date:
-- type: published
-  value: 2020-05
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Persily, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Yashar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Yashar, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Natascha
-          script:
-          - Latn
-      surname:
-        content: Milesi Ferretti
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Milesi Ferretti, Natascha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tania
-          script:
-          - Latn
-      surname:
-        content: Ullah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Ullah, Tania.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Healy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Healy, William.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-05
-script:
-- Latn
+abstract:
+- content: The purpose of this report is to identify measurement science research
+    needs that are critical to the design of new premise plumbing systems and the
+    operation and retrofit of existing systems to achieve the goals of water and energy
+    efficiency and water quality in an integrated manner. The scope of this research
+    needs assessment includes engineering issues related to system design and operation,
+    and is motivated by the trends and drivers outlined above, particularly the need
+    to update design methods, data, standards, and building codes to reflect the need
+    to increase water efficiency and maintain water quality. The research needs do
+    not focus on water quality, except to the degree that system design, operation,
+    and maintenance impact these processes and the resultant water quality. The research
+    needs also exclude water treatment processes and distribution systems serving
+    buildings, except as these processes and systems impact conditions within buildings.
+    The measurement science research needs in this report were identified with involvement
+    of the broader stakeholder community as described below. While not intended to
+    solely focus on needs in the United States, it should be noted that nearly all
+    the input to this report was gained through interactions with U.S. stakeholders.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2088'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

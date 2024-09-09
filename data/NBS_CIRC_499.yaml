@@ -1,8 +1,23 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC499
 title:
-- content: Circular of the Bureau of Standards no. 499:nuclear data- a collection
+- content: Circular of the Bureau of Standards no. 499
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: nuclear data- a collection of experimental values of half-lives, radiation
+    energies, relative isotopic abundances, nuclear moments, and cross sections
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 499 - nuclear data- a collection
     of experimental values of half-lives, radiation energies, relative isotopic abundances,
     nuclear moments, and cross sections
   language:
@@ -10,11 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.499
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular499.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 499
@@ -23,85 +37,72 @@ docid:
 - id: 10.6028/NBS.CIRC.499
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1950'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katharine
-          script:
-          - Latn
-      surname:
-        content: Way
-        script:
-        - Latn
+      completename:
+        content: Way, Katharine.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb98007767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lilla
-          script:
-          - Latn
-      surname:
-        content: Fano
-        script:
-        - Latn
+      completename:
+        content: Fano, Lilla.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Millicent R
-          script:
-          - Latn
-      surname:
-        content: Scott
-        script:
-        - Latn
+      completename:
+        content: Scott, Millicent R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karin
-          script:
-          - Latn
-      surname:
-        content: Thew
-        script:
-        - Latn
+      completename:
+        content: Thew, Karin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1950'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '499'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

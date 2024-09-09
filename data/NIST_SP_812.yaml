@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP812
 title:
 - content: Criteria for the operation of Federall-owned secondary calibration laboratories
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.812
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication812.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 812
@@ -22,93 +21,63 @@ docid:
 - id: 10.6028/NIST.SP.812
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E H
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: E H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Eisenhower
+      completename:
+        content: Eisenhower, E. H.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: E H
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: E H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Eisenhower
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83156560
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The document contains standards of performance for laboratories that calibrate
+    instrumentation used to measure ionizing radiation. Such standards are useful
+    for the development of a secondary level of calibration laboratories that can
+    provide a high-quality link between the National Institute of Standards and Technology
+    and those who make routine measurements at the field level. The standards may
+    also be used as criteria on which a decision is based regarding accreditation
+    of a particular laboratory. They were developed by representatives of federally-owned
+    laboratories that perform calibrations of the type addressed by the document.
+    The first major part contains general criteria that must be satisfied by all laboratories
+    seeking accreditation. It includes requirements relating to management and staff,
+    physical aspects of the laboratory, calibrations facilities and equipment, operational
+    procedures, accuracy and quality assurance, and records and reports. Five subsequent
+    major parts establish criteria for calibration of survey instruments, irradiation
+    of personnel dosimeters, calibration of sources, calibration of instruments for
+    diagnostic levels, and calibration of reference-class instruments. The types of
+    radiation covered include gamma rays, x rays, beta particles, neutrons, and alpha
+    particles. An appendix describes the proficiency tests administered by NIST to
+    secondary laboratories as a prerequisite for their accreditation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '812'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

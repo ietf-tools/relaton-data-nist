@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1836
 title:
-- content: Effect of Acoustic Excitation on R134a/Al2O3 Nanolubricant Mixture Boiling
-    on a Reentrant Cavity Surface with Extensive Measurement and Analysis Details
+- content: Effect of acoustic excitation on R134a/Al2O3 nanolubricant mixture boiling
+    on a reentrant cavity surface with extensive measurement and analysis details
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1836
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1836.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1836
@@ -22,73 +21,51 @@ docid:
 - id: 10.6028/NIST.TN.1836
   type: DOI
 date:
-- type: published
-  value: 2014-08
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven E.
-          script:
-          - Latn
-      surname:
-        content: Fick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Fick, Steven E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022008948
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory, Physical Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2014-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1836'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

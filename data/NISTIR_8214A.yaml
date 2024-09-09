@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8214A
 title:
 - content: NIST roadmap toward criteria for threshold schemes for cryptographic primitives
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8214A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8214A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8214A
@@ -21,84 +20,79 @@ docid:
 - id: 10.6028/NIST.IR.8214A
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Luis T A N
-          script:
-          - Latn
-      surname:
-        content: Brandao
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information TechnologyLaboratory
+      completename:
+        content: BrandaÌ³o, LuiÌ¹s T. A. N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Davidson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information TechnologyLaboratory
+      completename:
+        content: Davidson, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Apostol
-          script:
-          - Latn
-      surname:
-        content: Vassilev
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information TechnologyLaboratory
+      completename:
+        content: Vassilev, Apostol.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: 'This document constitutes a preparation toward devising criteria for the
+    standardization of threshold schemes for cryptographic primitives by the National
+    Institute of Standards and Technology (NIST). The large diversity of possible
+    threshold schemes, as identified in the NIST Internal Report (NISTIR) 8214, is
+    structured along two main tracks: single-device and multi-party. Each track covers
+    cryptographic primitives in several possible threshold modes. The potential for
+    real-world applications is taken as an important motivating factor for differentiating
+    the pertinence of each possible threshold scheme. Also, the selection of items
+    for standardization needs to consider diverse features, such as advanced security
+    properties, configurability of parameters, testing and validation, modularity
+    and composability (e.g., of gadgets vs. composites), and specification detail.
+    Overall, the organization put forward serves as a preparation for an upcoming
+    solicitation of feedback useful for considering a variety of threshold schemes,
+    while differentiating standardization paths and timelines that may depend on the
+    levels of technical and standardization challenges. This approach paves the way
+    for an effective engagement with the community of stakeholders and constitutes
+    a preparation for devising criteria for standardization and subsequent calls for
+    contributions. While the terms standards and standardization are used throughout
+    this report to refer to a set of possible final products, this does not imply
+    a Federal Information Processing Standard (FIPS) as one or as the only intended
+    format for NIST products of future threshold schemes for cryptographic primitives.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8214A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

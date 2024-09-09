@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1751
 title:
-- content: Accelerated Weathering of Firefighter Protective Clothing Containing Melamine
-    Fiber Blends
+- content: Accelerated weathering of firefighter protective clothing melamine fiber
+    beads
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1751
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1751.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1751
@@ -22,76 +21,99 @@ docid:
 - id: 10.6028/NIST.TN.1751
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shonali
-          script:
-          - Latn
-      surname:
-        content: Nazaré
-        script:
-        - Latn
+      completename:
+        content: Nazaré, Shonali.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152722
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shaun
-          script:
-          - Latn
-      surname:
-        content: Flynn
-        script:
-        - Latn
+      completename:
+        content: Flynn, Shaun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022010832
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
+      completename:
+        content: Davis, Rick.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95026885
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joannie
-          script:
-          - Latn
-      surname:
-        content: Chin
-        script:
-        - Latn
+      completename:
+        content: Chin, Joannie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107282
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-script:
-- Latn
+abstract:
+- content: In this study, environmentally stressed OS fabrics containing melamine
+    fiber blends were evaluated for thermal and mechanical properties that are critical
+    to the protective performance of firefighter turnout gear. Environmental stress
+    factors that affect the durability of turnout gear include thermal exposures,
+    UV radiation, moisture exposures, abrasion, and laundering. The effect of fiber
+    blend, fabric construction, and finishing processes including water repellent
+    coating and pigmentation of melamine containing OS fabrics was also studied. Melamine
+    containing OS fabrics show comparable thermal protective performance and have
+    far more superior tear resistance when compared to the traditionally used polyaramid
+    blends. This study reveals that TPP rating of environmentally stressed OS fabrics
+    containing melamine fiber blends is well above the NFPA minimum TPP requirement
+    of 35 Cal/cm2. The tear strength of all melamine containing OS fabrics exposed
+    to environmental stressing has significantly deteriorated and most OS fabrics,
+    depending on fiber blend and fabric structure, would fail to meet requirements
+    of NFPA 1971 standard. The study thus suggests that environmental stressing has
+    more detrimental impact on tear strength than the thermal protective performance
+    of OS fabrics. Deterioration in tearing strength of all UV exposed OS fabrics
+    is largely due to photodegradation of constituent fibers. Changes in tear strength
+    of OS fabrics subjected to thermal exposures and laundering is cumulative effect
+    of loss in tensile strength of single yarns and dimensional stability of the fabric
+    itself.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1751'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

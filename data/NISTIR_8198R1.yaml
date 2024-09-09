@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8198r1
 title:
 - content: Improving automated insertion applications by restoring rigid-body condition
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8198r1
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8198r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8198r1
@@ -22,101 +21,97 @@ docid:
 - id: 10.6028/NIST.IR.8198r1
   type: DOI
 date:
-- type: published
-  value: 2018-03
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Geraldine S
-          script:
-          - Latn
-      surname:
-        content: Cheok
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cheok, Geraldine S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0001-8335-1743
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marek
-          script:
-          - Latn
-      surname:
-        content: Franaszek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Franaszek, Marek.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0003-4665-9268
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karl
-          script:
-          - Latn
-      surname:
-        content: Van Wyk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Van Wyk, Karl,.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0001-5535-949X
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeremy A
-          script:
-          - Latn
-      surname:
-        content: Marvel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Marvel, Jeremy A,.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0002-1855-2175
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-03
-script:
-- Latn
+abstract:
+- content: Accurate knowledge of an object's location is essential in automated robotic
+    applications such as machine tending, pick-and-place operations, and part assembly.
+    Perception systems are used to acquire the object's location, and this information
+    is then passed on to the robot. However, the measured location of the object is
+    in the coordinate frame of the perception system. For the robot to act on the
+    object, the location of the object must be transformed relative to the coordinate
+    frame of the robot. In manufacturing applications that involve industrial robots,
+    a common way to register coordinate frames to each other or to a global frame
+    is by rigid-body, point-based registration using at least three common points
+    or fiducials that are measured in both frames. Researchers at the National Institute
+    of Standards and Technology (NIST) have developed a method to improve this registration
+    method. The new method restores the rigid-body condition (RRBC). This report presents
+    an assessment of the NIST RRBC method by conducting practical robotic peg-in-hole
+    experiments. In these experiments, a robot arm was used to insert a peg into a
+    hole. A simple Pass/Fail metric was used to evaluate the effectiveness of the
+    method. Two other metrics involving registration errors were also used. The results
+    show that the RRBC reduces the number of failed insertions, especially with tight
+    tolerances.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8198r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

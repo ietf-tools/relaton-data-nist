@@ -1,20 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8042
 title:
-- content: 'Integrating Electronic Health Records into Clinical Workflow: An Application
-    of Human Factors Modeling Methods to Specialty Care in ‘Obstetrics and Gynecology’
-    and ‘Ophthalmology’'
+- content: Integrating electronic health records into clinical workflow
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an application of human factors modeling methods to Obstetrics and Gynecology
+    and Ophthalmology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Integrating electronic health records into clinical workflow - an application
+    of human factors modeling methods to Obstetrics and Gynecology and Ophthalmology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8042
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8042.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8042
@@ -23,135 +36,87 @@ docid:
 - id: 10.6028/NIST.IR.8042
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Svetlana Z.
-          script:
-          - Latn
-      surname:
-        content: Lowry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lowry, Svetlana Z.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085953
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mala
-          script:
-          - Latn
-      surname:
-        content: Ramaiah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ramaiah, Mala.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emily S.
-          script:
-          - Latn
-      surname:
-        content: Patterson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Patterson, Emily S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2010005162
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Brick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Latkany, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael C.
-          script:
-          - Latn
-      surname:
-        content: Gibbons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brick, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2006018513
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Latkany A.
-          script:
-          - Latn
-      surname:
-        content: Paul
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gibbons, Michael C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Information Access Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011180823
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8042'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

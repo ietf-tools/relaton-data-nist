@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBSS162
 title:
 - content: Ring-on-ring tests and load capacity of cladding glass
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BSS.162
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience162.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BSS 162
@@ -21,188 +20,113 @@ docid:
 - id: 10.6028/NBS.BSS.162
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Simiu
+      completename:
+        content: Simiu, Emil.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79085114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dorothy A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reed
+      completename:
+        content: Reed, Dorothy A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86816975
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yancey
+      completename:
+        content: Yancey, Charles W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: martin
+      completename:
+        content: Martin, Jonathan W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80111435
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erik M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hendrickson
+      completename:
+        content: Hendrickson, Erik M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Armando C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gonzalez
+      completename:
+        content: Gonzalez, Armando C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Masayoshi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koike
+      completename:
+        content: Koike, Masayoshi.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lechner
+      completename:
+        content: Lechner, James A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Batts
+      completename:
+        content: Batts, Martin E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80071780
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1984'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '162'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

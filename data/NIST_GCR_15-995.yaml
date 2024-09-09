@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-995
 title:
-- content: 'A measure of domestic security: economic benefits of NIST''s support of
-    public safety and security'
+- content: A measure of domestic security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: economic benefits of NIST's support of public safety and security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A measure of domestic security - economic benefits of NIST's support of
+    public safety and security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-995
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-995.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-995
@@ -22,50 +35,56 @@ docid:
 - id: 10.6028/NIST.GCR.15-995
   type: DOI
 date:
-- type: published
-  value: 2015-06
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David P
-          script:
-          - Latn
-      surname:
-        content: Leech
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Leech, David P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022047027
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-06
-script:
-- Latn
+abstract:
+- content: 'There are many types of first-responder equipment; sophisticated system-of-systems
+    technologies that pervade the contemporary public safety environment and engage
+    NIST''s measurement scientists and technologists in some of their most challenging
+    and beneficial work. NIST''s participation in Standards Development Organizations
+    (SDOs), most often early, and behind the scenes, is the subject of this report.
+    Six priority areas are explored where NISTs collaboration with industry, universities,
+    international partners, trade associations, responders, standard development organizations
+    and Federal, State and local agencies has led to important enhancements of public
+    safety: Blast Resistant Trash Receptacles; Personal Protective Equipment; Explosives
+    Trace Detection; X-Ray Standards for Bulk Explosives Detection; ? Biothreat Agents
+    (White Powder); and Emergency Response Robots.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-995
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

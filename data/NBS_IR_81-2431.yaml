@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR81-2431
 title:
 - content: Properties and interactions of oral structures and restorative materials
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.81-2431
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir81-2431.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 81-2431
@@ -21,221 +20,103 @@ docid:
 - id: 10.6028/NBS.IR.81-2431
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cassel
+      completename:
+        content: Cassel, James M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85029396
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J A
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: J A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tesk
+      completename:
+        content: Tesk, J. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098877
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G M
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: G M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brauer
+      completename:
+        content: Brauer, Gerhard M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021023893
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J M
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: J M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Antonucci
+      completename:
+        content: Antonucci, J. M.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021023891
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wu
+      completename:
+        content: Wu, W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J E
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: J E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McKinney
+      completename:
+        content: McKinney, J. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021036998
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R W
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: R W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hinman
+      completename:
+        content: Hinman, R. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021032737
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 81-2431
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

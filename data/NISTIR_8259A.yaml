@@ -1,6 +1,6 @@
 ---
-schema-version: v1.2.3
-id: NISTIR8259a
+schema-version: v1.2.9
+id: NISTIR8259A
 title:
 - content: IoT device cybersecurity capability core baseline
   language:
@@ -8,114 +8,98 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
-- content: https://doi.org/10.6028/NIST.IR.8259a
+- content: https://doi.org/10.6028/NIST.IR.8259A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf
-  type: pdf
 type: standard
 docid:
-- id: NIST IR 8259a
+- id: NIST IR 8259A
   type: NIST
   primary: true
-- id: 10.6028/NIST.IR.8259a
+- id: 10.6028/NIST.IR.8259A
   type: DOI
 date:
-- type: published
-  value: 2020-05
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Fagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fagan, James Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80045567
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katerina N
-          script:
-          - Latn
-      surname:
-        content: Megas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Megas, Katerina N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017003
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Smith, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93118616
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-05
-script:
-- Latn
+abstract:
+- content: Device cybersecurity capabilities are cybersecurity features or functions
+    that computing devices provide through their own technical means (i.e., device
+    hardware and software). This publication defines an Internet of Things (IoT) device
+    cybersecurity capability core baseline, which is a set of device capabilities
+    generally needed to support common cybersecurity controls that protect an organization
+    s devices as well as device data, systems, and ecosystems. The purpose of this
+    publication is to provide organizations a starting point to use in identifying
+    the device cybersecurity capabilities for new IoT devices they will manufacture,
+    integrate, or acquire. This publication can be used in conjunction with NISTIR
+    8259, Foundational Cybersecurity Activities for IoT Device Manufacturers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: 8259a
+  number: 8259A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

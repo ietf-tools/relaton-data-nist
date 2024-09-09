@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2141
 title:
 - content: Simulations of flow over an axisymmetric hill
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2141
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2141.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2141
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.TN.2141
   type: DOI
 date:
-- type: published
-  value: '2021-02-26'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Rikhi
-          script:
-          - Latn
-      surname:
-        content: Bose
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bose, Rikhi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-02-26'
-script:
-- Latn
 abstract:
 - content: In this report, high-Reynolds number turbulent flow around an axisymmetric
     hill is studied using large eddy and unsteady Reynolds averaged Navier-Stokes
@@ -87,16 +61,22 @@ abstract:
     specifically in the lee-side separation and recovery that are characteristic of
     the RANS models which only consider much smaller scale turbulence compared to
     the mean flow distortion scales relevant to this flow.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2141'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

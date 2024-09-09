@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8232
 title:
 - content: Tattoo Recognition Technology - Evaluation (Tatt-E) performance of tattoo
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8232
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8232.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8232
@@ -22,84 +21,77 @@ docid:
 - id: 10.6028/NIST.IR.8232
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: NIST performed a large scale empirical evaluation of tattoo recognition
+    algorithms. The test leveraged large operational datasets comprised of tattoo
+    images from law enforcement databases, enabling evaluation with enrollment database
+    sizes of up to 100,000. NIST employed a lights-out, black-box testing methodology
+    designed to model operational reality where software is shipped and used as-is,
+    without algorithmic training. Core tattoo identification accuracy was baselined
+    over tattoo images used as-is, then traded off against gallery size and search
+    speed. The effects of cropping around the primary tattoo content, skintone, contrast,
+    and tattoo-to-image ratio were assessed, and matching accuracy on sketch images
+    and tattoos collected in the short-wave infrared (SWIR) spectrum are also reported.
+    In addition, performance on algorithmic capability to do tattoo detection and
+    tattoo localization as separate tasks are also documented.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8232'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

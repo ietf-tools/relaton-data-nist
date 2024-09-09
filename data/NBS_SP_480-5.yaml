@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP480-5
 title:
-- content: LEAA police equipment survey of 1972, volume V :handguns and handgun ammunition
+- content: LEAA police equipment survey of 1972, volume V
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: handguns and handgun ammunition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: LEAA police equipment survey of 1972, volume V - handguns and handgun ammunition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.480-5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication480-5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 480-5
@@ -21,107 +34,62 @@ docid:
 - id: 10.6028/NBS.SP.480-5
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1977'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bergman
+      completename:
+        content: Bergman, S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88624033
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bunten
+      completename:
+        content: Bunten, E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88624034
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Klaus
+      completename:
+        content: Klaus, P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88624038
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1977'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 480-5
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

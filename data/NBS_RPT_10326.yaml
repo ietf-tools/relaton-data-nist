@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10326
 title:
 - content: Interim report on the thermodynamics of chemical species important to rocket
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10326
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10326.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10326
@@ -22,33 +21,84 @@ docid:
 - id: 10.6028/NBS.RPT.10326
   type: DOI
 date:
-- type: published
-  value: 1970-07
+- type: issued
+  value: '2019'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1970-07
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: This report presents in detail the results and critical analyses of several
+    recently completed NBS experimental investigations, literature surveys, and developments
+    of new measurement methods. The heat of formation of C¿̐¿F was measured by burning
+    it with H2 in a flame calorimeter; the result is shown to favor the new lower
+    dissociation energy of F2 32.0 kcal per mol, but not unambiguously owing to uncertain
+    interpretations of necessary auxiliary data. A transpiration search for chemical
+    reaction between HF and gaseous A¿̐¿F3 revealed none detectable, near 1200 K and
+    up to 0.75 atm of HF, beyond the sensitivity of the method (1-2Z). Selected values
+    of the standard heats, free energies, and entropies of formation of a number of
+    niobium compounds resulting from an up-to-date critical review of the literature
+    are discussed and tabulated. The heat capacity, electrical resistivity, and hemispherical
+    total and normal spectral emittances of tantalum metal were measured by an accurate
+    high-speed pulse technique from 1900 to 3200 K; the spectral emittance (at a wavelength
+    of 650 nm) was found to decrease approximately 3.5% during the initial one-third
+    of the melting period. The pulse heating technique is adapted to measuring the
+    melting points of thin-wire electrical conductors above 2000 K, and checked by
+    finding 2044 K (estimated uncertainty, + 5 K) for platinum (accepted value, 2045
+    K). In designing a transpiration technique for seeking unknown higher gaseous
+    hydrates of beryllia above 2000 K, the results of detailed calculations are presented
+    which show that sufficiently accurate temperature measurement, dubious by pyrometer,
+    can probably be met by comparison with the volatility of gold and application
+    of several corrections. The results of several investigations of barium and one
+    of its compounds are presented. Accurate heat-capacity and enthalpy measurements
+    on the metal from 18 to 1173 K show several anomalies, unusually high heat capacities,
+    and a heat of fusion which is thought to reflect solubility of BaO impurity in
+    the liquid metal. Based on these new thermal data, a third-law analysis was made
+    of the existing vapor-pressure data, leading to a heat of sublimation of the metal
+    whose uncertainty is believed to be due largely to uncertainties in the published
+    vapor pressures. Atomic barium, deposited in solid-argon matrices containing isotopic
+    varieties of 0^, yielded infrared values for two stretching frequencies of several
+    isotopic forms of the BaO2 molecule; the (much weaker) 0-0 stretching frequency
+    is interpreted as evidence that the molecule is essentially Ba02.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10326'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

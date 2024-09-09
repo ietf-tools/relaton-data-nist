@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-91
 title:
-- content: Calibration of Cryogenic Resistance Thermometers between 0.65 K and 165
+- content: Calibration of cryogenic resistance thermometers between 0.65 K and 165
     K on the International Temperature Scale of 1990
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-91
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-91.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-91
@@ -22,50 +21,41 @@ docid:
 - id: 10.6028/NIST.SP.250-91
   type: DOI
 date:
-- type: published
-  value: 2015-06
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Weston L.
-          script:
-          - Latn
-      surname:
-        content: Tew Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Tew, Weston L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073887
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Sensor Science Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2015-06
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-91
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

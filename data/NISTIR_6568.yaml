@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6568
 title:
-- content: A phase-field model with convection:sharp-interface asymptotics
+- content: A phase-field model with convection
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: sharp-interface asymptotics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A phase-field model with convection - sharp-interface asymptotics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6568
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6568.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6568
@@ -21,96 +34,52 @@ docid:
 - id: 10.6028/NIST.IR.6568
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D M
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: D M
-          script:
-          - Latn
-      surname:
-        content: Anderson
-        script:
-        - Latn
+      completename:
+        content: Anderson, D. M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G B
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: G B
-          script:
-          - Latn
-      surname:
-        content: McFadden
-        script:
-        - Latn
+      completename:
+        content: McFadden, G. B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A A
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A A
-          script:
-          - Latn
-      surname:
-        content: Wheeler
-        script:
-        - Latn
+      completename:
+        content: Wheeler, A. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6568'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP730
 title:
 - content: NBS-INA-The Institute for Numerical Analysis - UCLA 1947-1954
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.730
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication730.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 730
@@ -21,86 +20,69 @@ docid:
 - id: 10.6028/NIST.SP.730
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Magnus R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hestenes
+      completename:
+        content: Hestenes, Magnus R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Magnus R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hestenes
+      completename:
+        content: Todd, John.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Todd
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80101820
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The report is a history of the Institute for Numerical Analysis (INA) with
+    special emphasis on its research program during the period 1947 to 1956. The Institute
+    for Numerical Analysis was located on the campus of the University of California,
+    Los Angeles. It was a section of the National Applied Mathematics Laboratories,
+    which formed the Applied Mathematics Division of the National Bureau of Standards
+    (now the National Institute of Standards and Technology), under the U.S. Department
+    of Commerce. The history of the program at INA is concerned primarily with the
+    development of mathematics pertinent to solving numerical computations. The development
+    could happen only if some mathematicians were proficient in handling the electronic
+    digital computers. To insure that there would be some, INA was constituted. It
+    was well funded, and could attract first class mathematicians to take a year off
+    for research at INA. They were in the midst of people solving problems of considerable
+    difficulty using digital computers. They were thus enticed into using them. When
+    this happened, many important developments emerged. The history is centered around
+    these people and discusses who they were, what their interests were, and what
+    they did.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '730'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

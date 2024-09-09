@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7410
 title:
-- content: Description and results of the 2005 NISTNOAA interlaboratory comparison
+- content: Description and results of the 2005 NIST/NOAA interlaboratory comparison
     exercise program for organic contaminants in marine mammal tissues
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7410
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2007/nist.ir.7410.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7410
@@ -22,152 +21,123 @@ docid:
 - id: 10.6028/NIST.IR.7410
   type: DOI
 date:
-- type: published
-  value: 2007-03
+- type: issued
+  value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John R
-          script:
-          - Latn
-      surname:
-        content: Kucklick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kucklick, John R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017142157
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca S
-          script:
-          - Latn
-      surname:
-        content: Pugh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Pugh, Rebecca S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078510
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul R
-          script:
-          - Latn
-      surname:
-        content: Becker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Becker, Paul R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085576
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michele M
-          script:
-          - Latn
-      surname:
-        content: Schantz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Schantz, Michele M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007089499
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dianne L
-          script:
-          - Latn
-      surname:
-        content: Poster
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Poster, Dianne L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007081985
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wise, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Teresa K
-          script:
-          - Latn
-      surname:
-        content: Rowles
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Rowles, Teresa K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017095034
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2007-03
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST), in support of
+    the National Oceanic and Atmospheric Administration's Marine Mammal Health and
+    Stranding Response Program (NOAA/MMHSRP), conducts annual interlaboratory comparison
+    exercises for the determination of chlorinated pesticides, polychlorinated biphenyl
+    congeners (PCBs), and trace elements in marine mammal tissues. These exercises
+    provide one mechanism for laboratories to evaluate their measurement quality and
+    comparability for these constituents in marine mammal tissues. In the 2005 exercise,
+    4 and 17 laboratories participated in determining the concentrations of selected
+    fatty acids and PCBs and organochlorine pesticides, respectively, in a homogenized
+    blubber control material Marine Mammal Quality Assurance Exercise Homogenate VII
+    (Homogenate VII) and Standard Reference Material (SRM) 1945 Organics in Whale
+    Blubber. This report includes the results reported by the participating laboratories,
+    combined consensus data results, and summary statistics for each analyte in the
+    samples. The numerical indices used to assess laboratory performance are also
+    discussed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7410'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

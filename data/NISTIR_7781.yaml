@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7781
 title:
 - content: Comparison of the WSQ and JPEG 2000 image compression algorithms on 500
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7781
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7781.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7781
@@ -22,86 +21,62 @@ docid:
 - id: 10.6028/NIST.IR.7781
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Libert
+      completename:
+        content: Libert, John M.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085991
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orandi
+      completename:
+        content: Orandi, Shahram.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020043056
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grantham
+      completename:
+        content: Grantham, John D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148735
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Information Access Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2012'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7781'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

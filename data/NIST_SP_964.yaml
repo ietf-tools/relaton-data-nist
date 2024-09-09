@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP964
 title:
 - content: Index to the reports of the National Conference on Weights and Measures
-    :from the first to the eighty-fifth (1905 to 2000)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: from the first to the eighty-fifth (1905 to 2000)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Index to the reports of the National Conference on Weights and Measures
+    - from the first to the eighty-fifth (1905 to 2000)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.964
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication964.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 964
@@ -22,103 +35,69 @@ docid:
 - id: 10.6028/NIST.SP.964
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koenig
+      completename:
+        content: Koenig, Joan.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2020063362
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gail
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Newrock
+      completename:
+        content: Newrock, Gail.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022063833
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Terry
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grimes
+      completename:
+        content: Grimes, Terry.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Henry V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Oppermann
+      completename:
+        content: Oppermann, H. V.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85078400
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '964'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

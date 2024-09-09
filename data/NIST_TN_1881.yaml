@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1881
 title:
 - content: Self-training of a fault-free model for residential air conditioner fault
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1881
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1881.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1881
@@ -22,101 +21,91 @@ docid:
 - id: 10.6028/NIST.TN.1881
   type: DOI
 date:
-- type: published
-  value: 2015-05
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jaehyeok
-          script:
-          - Latn
-      surname:
-        content: Heo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Heo, Jaehyeok.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022028296
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Vance
-          script:
-          - Latn
-      surname:
-        content: Payne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078668
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Piotr A
-          script:
-          - Latn
-      surname:
-        content: Domanski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Domanski, Piotr A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001138
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zhimin
-          script:
-          - Latn
-      surname:
-        content: Du
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Du, Zhimin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2011024207
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-05
-script:
-- Latn
+abstract:
+- content: This study is meant to be applied to residential, unitary, air-source,
+    single-speed, vapor compression air-conditioning systems with nominal cooling
+    capacities less than 19 kW (65,000 Btu h-1 or 5.4 tons). In this research, a method
+    for self-training FDD and the new concepts of zone density and operational domain
+    coverage rate are introduced. Various fault-free correlation techniques, such
+    as ANN (artificial neural network), MPR (multivariable polynomial regression),
+    and combined ANN-MPR, are demonstrated and compared for self-training FDD. For
+    the validation of this method, a full FDD algorithm was developed to include eight
+    scenarios (1- fault-free, 2-compressor valve leakage, 3-improper outdoor air flow,
+    4-improper indoor air flow, 5-liquid-line restriction, 6-refrigerant undercharge,
+    7-refrigerant overcharge, and 8- presence of non-condensable gases) using data
+    from 72 fault-free and 84 faulty tests.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1881'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

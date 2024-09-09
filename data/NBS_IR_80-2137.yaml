@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2137
 title:
 - content: Procedure for assessing impact on public health and welfare due to noise
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2137
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2137.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2137
@@ -22,103 +21,70 @@ docid:
 - id: 10.6028/NBS.IR.80-2137
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Simone Y
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yaniv
+      completename:
+        content: Yaniv, Simone Y.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Flynn
+      completename:
+        content: Flynn, Daniel R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82220511
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Corley
+      completename:
+        content: Corley, Daniel M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021030521
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marilyn A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cadoff
+      completename:
+        content: Cadoff, Marilyn A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352181
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2137
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

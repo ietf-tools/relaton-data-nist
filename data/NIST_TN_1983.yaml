@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1983
 title:
-- content: 'National fire research laboratory commissioning project: testing steel
-    beams under localized fire exposure'
+- content: National fire research laboratory commissioning project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: testing steel beams under localized fire exposure
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National fire research laboratory commissioning project - testing steel
+    beams under localized fire exposure
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1983
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1983.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1983
@@ -22,152 +35,137 @@ docid:
 - id: 10.6028/NIST.TN.1983
   type: DOI
 date:
-- type: published
-  value: '2018-02-05'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Choe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Choe, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139159
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Selvarajah
-          script:
-          - Latn
-      surname:
-        content: Ramesh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ramesh, Selvarajah,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007044470
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Hoehler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hoehler, Matthew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mina
-          script:
-          - Latn
-      surname:
-        content: Seif
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Seif, Mina.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139146
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Gross
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gross, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79112144
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chao
-          script:
-          - Latn
-      surname:
-        content: Zhang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zhang, Chao.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001072344
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Bundy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bundy, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021146338
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2018-02-05'
-script:
-- Latn
+abstract:
+- content: This report presents the experimental design and results of a series of
+    localized fire tests on structural steel I-shaped beams. A total of nine tests
+    were conducted in the National Fire Research Laboratory, including thermal tests
+    (Tests 1 through 5) and four-point bending tests at ambient (Test 6) and elevated
+    temperatures (Tests 7 through 9). The specimens were nominally 6.2-m long W16x26
+    beams made of ASTM A992 steel. Each specimen was vertically supported with either
+    a (i) simple support condition, or (ii) double-angles bolted to laterally braced
+    support columns. The thermally-loaded specimens were exposed to fire generated
+    using a natural gas burner. The burner had an area of 1 m2 and was located 1.1
+    m below the bottom flange of the beam at midspan. A four-point flexural loading
+    scheme was used to apply concentrated forces at two locations 2.44 m apart around
+    midspan. The recorded data included temperatures, heat release rates from the
+    burner, and structural measurements including forces, displacements and strains.
+    The repeatability of several measurements was evaluated. The test results indicated
+    that the heating rate of the specimen was sensitive to the prescribed heat release
+    rate versus time relationship used in each test. However, the thermal gradient
+    developed in the fire-exposed cross sections of the beam never achieved linearity
+    under the localized fire exposure. When the exposed (bottom) flange temperature
+    was maintained to 616 °C, the load-bearing capacity of the simply-supported beam
+    was reduced to 67 % of its room-temperature capacity. When the same simply-supported
+    beam was initially loaded to 67 % of its room-temperature capacity and then exposed
+    to a growing (t-squared) fire, the exposed flange temperature of the beam at failure
+    was 663 °C. When the beam specimen was supported by double-angle connections and
+    subjected to the same bending moment, its fire resistance (failure temperature)
+    was decreased to 90 % of that of the simply-supported beam. Regardless of the
+    connection types and fire conditions (steady-state or transient-state fire), the
+    beam specimens failed by lateral torsional buckling with rapidly increasing vertical
+    displacements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1983'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

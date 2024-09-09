@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5964
 title:
 - content: Analysis of the leach products of silicate cements and studies to reduce
-    their solubility:progress report
+    their solubility
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Analysis of the leach products of silicate cements and studies to reduce
+    their solubility - progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5964
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5964.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5964
@@ -22,59 +36,41 @@ docid:
 - id: 10.6028/NBS.RPT.5964
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1958'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frank J
-          script:
-          - Latn
-      surname:
-        content: Brauer
-        script:
-        - Latn
+      completename:
+        content: Brauer, Frank J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gerhard M
-          script:
-          - Latn
-      surname:
-        content: Brauer
-        script:
-        - Latn
+      completename:
+        content: Brauer, Gerhard M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1958'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5964'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

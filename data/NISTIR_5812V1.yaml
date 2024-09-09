@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5812v1
 title:
-- content: Plant spatial configuration application protocol version 1.0:volume 1
+- content: Plant spatial configuration application protocol version 1.0
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Plant spatial configuration application protocol version 1.0 - volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5812v1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5812v1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5812v1
@@ -21,98 +34,71 @@ docid:
 - id: 10.6028/NIST.IR.5812v1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Steven W
-          script:
-          - Latn
-      surname:
-        content: Kline
-        script:
-        - Latn
+      completename:
+        content: Kline, Steven W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark E
-          script:
-          - Latn
-      surname:
-        content: Palmer
-        script:
-        - Latn
+      completename:
+        content: Palmer, Mark E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Burkett
-        script:
-        - Latn
+      completename:
+        content: Burkett, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Diane
-          script:
-          - Latn
-      surname:
-        content: Craig
-        script:
-        - Latn
+      completename:
+        content: Craig, Diane.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006050955
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jack A
-          script:
-          - Latn
-      surname:
-        content: Skeels
-        script:
-        - Latn
+      completename:
+        content: Skeels, Jack A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 5812v1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

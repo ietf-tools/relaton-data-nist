@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1788
 title:
-- content: Neutron Test Results of Preliminary Measurements and Calculations Using
-    a Handheld Instrument
+- content: Neutron test results of preliminary measurements and calculations using
+    a handheld instrument
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1788
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1788.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1788
@@ -22,148 +21,82 @@ docid:
 - id: 10.6028/NIST.TN.1788
   type: DOI
 date:
-- type: published
-  value: 2013-03
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L.
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          script:
-          - Latn
-      surname:
-        content: Pibida
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
-            Division
+      completename:
+        content: Pibida, Leticia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022071928
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C.
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C.
-          script:
-          - Latn
-      surname:
-        content: Heimbach
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
-            Division
+      completename:
+        content: Heimbach, C. (Craig)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022028297
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B.
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: B.
-          script:
-          - Latn
-      surname:
-        content: Norman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
-            Division
+      completename:
+        content: Norman, B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88210045
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A.
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A.
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
-            Division
+      completename:
+        content: Thompson, A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2003114263
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S.
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S.
-          script:
-          - Latn
-      surname:
-        content: Dewey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
-            Division
+      completename:
+        content: Dewey, S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Physical Measurement Laboratory, Radiation and Biomolecular Physics
+        Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1788'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

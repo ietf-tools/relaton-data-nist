@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-70r1
 title:
-- content: National checklist program for IT products :guidelines for checklist users
+- content: National checklist program for IT products
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: guidelines for checklist users and developers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National checklist program for IT products - guidelines for checklist users
     and developers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-70r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-70r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-70r1
@@ -22,134 +35,77 @@ docid:
 - id: 10.6028/NIST.SP.800-70r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
+- organization:
+    name:
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
+  role:
+  - type: publisher
 - person:
     name:
-      given:
-        forename:
-        - content: S D
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: S D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Souppaya, M. P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: M P
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: M P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: A security configuration checklist is a series of instructions for configuring
+    a product to a particular operational environment. Checklists can comprise templates
+    or automated scripts, patches or patch descriptions, XML files, and other procedures.
+    Checklists are intended to be tailored by each organization to meet its particular
+    security and operational requirements. The use of well-written, standardized checklists
+    can markedly reduce the vulnerability exposure of IT products. This publication
+    gives an overview of the NIST National Checklist Program, explains how to retrieve
+    checklists from the NIST National Checklist Repository, and provides general information
+    about threat discussions and baseline technical security practices for associated
+    operational environments.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-70r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

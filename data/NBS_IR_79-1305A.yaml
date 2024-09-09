@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR79-1305a
 title:
-- content: Provisional flat plate solar collector testing procedures :first revision
+- content: Provisional flat plate solar collector testing procedures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: first revision
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Provisional flat plate solar collector testing procedures - first revision
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.79-1305a
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir79-1305a.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 79-1305a
@@ -21,103 +34,59 @@ docid:
 - id: 10.6028/NBS.IR.79-1305a
   type: DOI
 date:
-- type: published
-  value: '1978'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Waksman
+      completename:
+        content: Waksman, David.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elmer R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Streed
+      completename:
+        content: Streed, Elmer R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reichard
+      completename:
+        content: Reichard, Thomas W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Louis E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cattaneo
+      completename:
+        content: Cattaneo, Louis E.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: |-
+      NBSIR; NBS IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 79-1305a
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

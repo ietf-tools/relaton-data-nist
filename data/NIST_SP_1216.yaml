@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1216
 title:
 - content: 2017 NIST Center for Neutron Research accomplishments and opportunities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1216
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1216.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1216
@@ -21,67 +20,50 @@ docid:
 - id: 10.6028/NIST.SP.1216
   type: DOI
 date:
-- type: published
-  value: 2017-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert M
-          script:
-          - Latn
-      surname:
-        content: Dimeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Center for Neutron Research
+      completename:
+        content: Dimeo, Robert M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000565
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven R
-          script:
-          - Latn
-      surname:
-        content: Kline
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Center for Neutron Research
+      completename:
+        content: Kline, Steven R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022042895
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: NIST Center for Neutron Research.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026531
   role:
   - type: publisher
-revdate: 2017-12
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1216'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

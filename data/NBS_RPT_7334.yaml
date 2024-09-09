@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7334
 title:
-- content: Synthesis of isomers of eugenol:progress report
+- content: Synthesis of isomers of eugenol
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Synthesis of isomers of eugenol - progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7334
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7334.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7334
@@ -21,59 +34,41 @@ docid:
 - id: 10.6028/NBS.RPT.7334
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1961'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gerhard M
-          script:
-          - Latn
-      surname:
-        content: Brauer
-        script:
-        - Latn
+      completename:
+        content: Brauer, Gerhard M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lester
-          script:
-          - Latn
-      surname:
-        content: Simon
-        script:
-        - Latn
+      completename:
+        content: Simon, Lester.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1961'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7334'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

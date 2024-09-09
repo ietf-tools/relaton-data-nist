@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1787
 title:
 - content: Characterization of airborne nanoparticle released from consumer products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1787
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/WITHDRAWN_notice_NIST.TN.1787.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1787
@@ -21,84 +20,82 @@ docid:
 - id: 10.6028/NIST.TN.1787
   type: DOI
 date:
-- type: published
-  value: 2013-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Tinh
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nguyen, Tinh.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021153114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lipiin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Lipiin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3682-0321"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joannie
-          script:
-          - Latn
-      surname:
-        content: Chin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chin, Joannie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107282
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2013-08
-script:
-- Latn
+abstract:
+- content: 'This report summarizes research results to date under the FY2012 interagency
+    agreement between CPSC and NIST to develop testing and measurement protocols for
+    determining the quantities and properties of nanoparticles released from flooring
+    finishes and interior paints. This report includes: 1) a critical assessment of
+    products, 2) literature review of nanoparticle release from nanocomposite coatings
+    and paints by mechanical forces, 3) surface morphology characterization of nano-filled
+    flooring coatings and interior paints before abrasion, 4) materials and experiment
+    to evaluate the use of a Taber abraser for generating particles from flooring
+    coatings and interior paints, 5) experimental protocols for abrasion test and
+    analyses of release particles and abraded surfaces, 6) concentration, size distribution
+    and chemical composition data for release nanoparticles accumulated on nano-filled
+    coating and paint surfaces under different abrading conditions and wheel type,
+    and 7) preliminary data on chemical composition of abraded nano-filled flooring
+    coating and interior paint surfaces.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1787'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

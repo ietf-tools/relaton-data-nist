@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3156p2
 title:
-- content: Construction details for NBS modification of ANAVQ-2A aircraft searchlight
+- content: Construction details for NBS modification of AN/AVQ-2A aircraft searchlight
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3156p2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3156p2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3156p2
@@ -21,75 +20,41 @@ docid:
 - id: 10.6028/NBS.RPT.3156p2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1954'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T H
-          script:
-          - Latn
-          initial: T
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: T H
-          script:
-          - Latn
-      surname:
-        content: Projector
-        script:
-        - Latn
+      completename:
+        content: Projector, T. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J W
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: J W
-          script:
-          - Latn
-      surname:
-        content: Lane
-        script:
-        - Latn
+      completename:
+        content: Lane, J. W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1954'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: 3156p2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

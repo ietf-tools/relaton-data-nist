@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8298
 title:
 - content: A summary of industrial verification, validation, and uncertainty quantification
-    procedures in computational fluid dynamics.
+    procedures in computational fluid dynamics
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8298
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8298.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8298
@@ -22,50 +21,62 @@ docid:
 - id: 10.6028/NIST.IR.8298
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2018048920
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: 'Within a variety of Computational Fluid Dynamics (CFD) applications, maturity
+    levels can vary significantly depending upon modeling approach and the user''s
+    knowledge and skills. Recently, application of CFD techniques for Computational
+    Wind Engineering (CWE) has generated strong interest among wind and structural
+    engineers as a possible substitute for or supplement to wind tunnel experimentation,
+    even though CWE is still in a developmental stage. A necessary step toward advancing
+    CWE simulations in wind and structural engineering applications credible is the
+    development of reliable verification and validation (V&V) procedures. Fundamental
+    factors that determine the degree to which CWE simulations are the credible include:
+    (i) the quality of the mathematical modeling of the physics of interest; (ii)
+    the depth of understanding by the users/analysts of the details of the model and
+    the simulation results; (iii) the quality of the verification and validation (V&V)
+    procedures applied to the simulation results, and (iv) the quality of the uncertainty
+    quantification procedure applied to those results. This report deals in detail
+    with the sources of inaccuracy in CFD simulations, and concepts and procedures
+    used in V&V and uncertainty quantification.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8298'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

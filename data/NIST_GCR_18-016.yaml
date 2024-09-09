@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR18-016
 title:
 - content: User instructions and technical details for 500 mm GHP simulation programs
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.18-016
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2018/NIST.GCR.18-016.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 18-016
@@ -21,50 +20,61 @@ docid:
 - id: 10.6028/NIST.GCR.18-016
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, William C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89626632
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: This report is a supplement to the paper published as Transient Thermal
+    Response of an Extended Temperature Range 500-mm diameter Guarded Hot-plate Apparatus
+    by Thomas and Zarr (2018), hereafter referred to as the paper. The paper emphasizes
+    the use of a mathematical model based on interconnected aggregated-capacity subcomponents
+    to determine controller settings for power supplied to various embedded heating
+    elements. This report contains additional detailed information on aspects of the
+    model that is specific to using LabVIEW software for simulation computations adapted
+    to this guarded hot-plate apparatus. The report refers to equations and figures
+    by their numbers as listed in the paper. Equations specific to this report are
+    labeled with letters to distinguish from references to items in the paper. The
+    purpose of the report is to assist users in correcting, modifying, or extending
+    the mathematical model by providing additional details to facilitate reading the
+    software. Specifically, the report includes heat transfer relationships used,
+    component properties such as mass, and methods for evaluating thermal conductances
+    along with typical values.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 18-016
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

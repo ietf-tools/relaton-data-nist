@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3556
 title:
-- content: Propagation aspects of TACAN system coverage :for a NDB symposium on TACAN
+- content: Propagation aspects of TACAN system coverage
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: for a NDB symposium on TACAN at Washington, D.C. November 3-4, 1955
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Propagation aspects of TACAN system coverage - for a NDB symposium on TACAN
     at Washington, D.C. November 3-4, 1955
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3556
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3556.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3556
@@ -22,46 +35,65 @@ docid:
 - id: 10.6028/NBS.RPT.3556
   type: DOI
 date:
-- type: published
-  value: 1955-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Martin T
-          script:
-          - Latn
-      surname:
-        content: Decker
-        script:
-        - Latn
+      completename:
+        content: Decker, Martin T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002003372
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1955-10
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The propagation factors which affect the coverage volume of a TACAN type
+    facility operating in the 1000 Me region are discussed in this paper. Using theoretical
+    and empirical methods, prediction curves are derived which indicate the probability
+    of receiving satisfactory service in a given volume of air space. Equipment capabilities
+    and interfering co-channel facilities are considered. The coverage volume free
+    from interference is a function of the distance separating co-channel facilities
+    and various spacings are considered, depending on the type of service which a
+    facility might be expected to render. Included are some of the effects which can
+    be expected from various ground antenna heights, particularly on the interference
+    free coverage volume and on the vertical lobe structure. A number of other factors
+    relating to the ground equipment siting are also discussed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '3556'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

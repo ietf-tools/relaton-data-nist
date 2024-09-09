@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-1-2019
 title:
 - content: NVLAP energy efficient lighting products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-1-2019
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2019/NIST.HB.150-1-2019.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-1-2019
@@ -21,67 +20,63 @@ docid:
 - id: 10.6028/NIST.HB.150-1-2019
   type: DOI
 date:
-- type: published
-  value: 2019-02
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C Cameron
-          script:
-          - Latn
-      surname:
-        content: Miller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Miller, C. Cameron.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003063921
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Rasinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rasinski, Timothy V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92059126
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-02
-script:
-- Latn
+abstract:
+- content: NIST Handbook 150-1, NVLAP Energy Efficient Lighting Products, presents
+    the technical requirements and guidance for the accreditation of laboratories
+    under the NVLAP Energy Efficient Lighting Products LAP. The 2019 revision aligns
+    this handbook with the 2017 revision of ISO/IEC 17025, General requirements for
+    the competence of testing and calibration laboratories. This handbook is also
+    available on the NVLAP web site (https://www.nist.gov/nvlap).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-1-2019
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5989
 title:
 - content: Findings and recommendations for a software development process
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5989
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5989.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5989
@@ -21,137 +20,104 @@ docid:
 - id: 10.6028/NIST.IR.5989
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elena
-          script:
-          - Latn
-      surname:
-        content: Messina
-        script:
-        - Latn
+      completename:
+        content: Messina, Elena.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Coombs
-        script:
-        - Latn
+      completename:
+        content: Coombs, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86010921
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Michaloski
-        script:
-        - Latn
+      completename:
+        content: Michaloski, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Frederick
-          script:
-          - Latn
-      surname:
-        content: Proctor
-        script:
-        - Latn
+      completename:
+        content: Proctor, Frederick.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Shackleford
-        script:
-        - Latn
+      completename:
+        content: Shackleford, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Keith
-          script:
-          - Latn
-      surname:
-        content: Stouffer
-        script:
-        - Latn
+      completename:
+        content: Stouffer, Keith.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022079917
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tsung-Ming
-          script:
-          - Latn
-      surname:
-        content: Tsai
-        script:
-        - Latn
+      completename:
+        content: Cai, Congming.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82258882
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas R
-          script:
-          - Latn
-      surname:
-        content: Kramer
-        script:
-        - Latn
+      completename:
+        content: Kramer, Thomas R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020101301
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5989'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

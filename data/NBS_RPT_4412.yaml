@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4412
 title:
-- content: Fractional factorial designs for the 12 superscript s x 2 superscript n
-    series for n = 12 (1) 16 and s= 6, 7, 8
+- content: Fractional factorial designs for the 1/2 superscript s x 2 superscript
+    n series for n = 12 (1) 16 and s= 6, 7, 8
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4412
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4412.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4412
@@ -22,122 +21,53 @@ docid:
 - id: 10.6028/NBS.RPT.4412
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1955'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R C
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: R C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Burton
+      completename:
+        content: Burton, R. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F L
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: F L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Miller
+      completename:
+        content: Miller, F. L., Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H M
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pettigrew
+      completename:
+        content: Pettigrew, H. M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1955'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4412'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

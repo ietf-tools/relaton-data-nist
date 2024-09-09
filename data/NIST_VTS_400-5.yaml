@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTVTS400-5
 title:
-- content: Handbook for VVSG 2.0 Usability and Accessibility Test Strategies:A report
-    on guidance and resources for how to test voting systems
+- content: Handbook for VVSG 2.0 usability and accessibility test strategies
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.VTS.400-5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/vts/NIST.VTS.400-5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST VTS 400-5
@@ -22,46 +20,62 @@ docid:
 - id: 10.6028/NIST.VTS.400-5
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sharon J
-          script:
-          - Latn
-      surname:
-        content: Laskowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Laskowski, Sharon J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2024-868X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Quesenbery, Whitney.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This document provides guidance and resources for how to test voting systems
+    against the usability and accessibility requirements in the Voluntary Voting System
+    Guidelines (VVSG) 2.0. The requirements include Principles 2.2 and 5 through 8.
+    The goal of those requirements is to ensure that voting systems certified to VVSG
+    2.0 are accessible and usable for election workers and voters including voters
+    with disabilities so that every voter can mark, review, cast, and verify their
+    ballot independently and privately. The primary audiences for this guide are the
+    voting system test laboratory organizations who perform certification testing,
+    to help them understand some of the specialized tests required, and organizations
+    in the design and development process as they build and prepare a voting system
+    for certification testing.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST VTS
+    content: NIST voting technology standard; NIST VTS
     format: text/plain
-  abbreviation:
-    content: VTS
   number: 400-5
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

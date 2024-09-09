@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8248
 title:
 - content: A NIST testbed for examining the accuracy of smart meters under high harmonic
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8248
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8248.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8248
@@ -22,135 +21,103 @@ docid:
 - id: 10.6028/NIST.IR.8248
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Steiner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Steiner, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79118368
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Farrell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Farrell, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2016015974
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shannon
-          script:
-          - Latn
-      surname:
-        content: Edwards
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Edwards, Shannon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joni
-          script:
-          - Latn
-      surname:
-        content: Ford
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Ford, Joni.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sumaiyah
-          script:
-          - Latn
-      surname:
-        content: Sarwat
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sarwat, Sumaiyah.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Nelson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Nelson, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98089569
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: Household and industrial electrical energy measurements are advancing into
+    a Smart Grid stage, using solid-state watthour meters with communication capability,
+    called Smart meters. As electrical products become heavily based on solid-state
+    designs, such as LED lighting and dimmers, electrical loads are not purely resistive,
+    but contain voltage and current spikes, introducing relatively high harmonic power
+    to the grid. This paper describes a testbed laboratory that attempts to model
+    LED household lighting loads, measure the energy by Smart meter and power analyzer,
+    and correlate offsets to the waveform variations. Preliminary results show that,
+    with large current crest factors up to about 10, two meters (same manufacturer)
+    out of eight tested show an error near 4%. Three meters showed no variation outside
+    a 0.07% standard deviation that was typical for their normal repeatability.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8248'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

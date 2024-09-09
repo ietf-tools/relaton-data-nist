@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1772
 title:
-- content: Survey Report for Ambulance Patient Compartment Design
+- content: Survey report for ambulance patient compartment design
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1772
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1772.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1772
@@ -21,131 +20,58 @@ docid:
 - id: 10.6028/NIST.TN.1772
   type: DOI
 date:
-- type: published
-  value: 2013-01
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Marshall
+      completename:
+        content: Marshall, Jennifer.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Special Programs Office
-    - organization:
-        name:
-        - content: Systems Integration Division, Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Y. Tina
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lee
+      completename:
+        content: Lee, Y. Tina.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Special Programs Office
-    - organization:
-        name:
-        - content: Systems Integration Division, Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
+      completename:
+        content: Barnard Feeney, Allison.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Special Programs Office
-    - organization:
-        name:
-        - content: Systems Integration Division, Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Deogratias
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kibira
+      completename:
+        content: Kibira, Deogratias.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Special Programs Office
-    - organization:
-        name:
-        - content: Systems Integration Division, Engineering Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Special Programs Office.
   role:
   - type: publisher
-revdate: 2013-01
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1772'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

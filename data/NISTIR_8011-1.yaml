@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8011-1
 title:
-- content: 'Automation support for security control assessments. volume 1: overview'
+- content: Automation support for security control assessments, volume 1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Automation support for security control assessments, volume 1 - overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8011-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8011-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8011-1
@@ -21,84 +34,80 @@ docid:
 - id: 10.6028/NIST.IR.8011-1
   type: DOI
 date:
-- type: published
-  value: 2017-06
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dempsey, Kelley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000344
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Eavy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Eavy, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Moore, George.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98012695
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-06
-script:
-- Latn
+abstract:
+- content: This volume introduces concepts to support automated assessment of most
+    of the security controls in NIST Special Publication (SP) 800-53. Referencing
+    SP 800-53A, the controls are divided into more granular parts (determination statements)
+    to be assessed. The parts of the control assessed by each determination statement
+    are called control items. The control items are then grouped into the appropriate
+    security capabilities. As suggested by SP 800-53 Revision 4, security capabilities
+    are groups of controls that support a common purpose. For effective automated
+    assessment, testable defect checks are defined that bridge the determination statements
+    to the broader security capabilities to be achieved and to the SP 800-53 security
+    control items themselves. The defect checks correspond to security sub-capabilities
+    -- called sub-capabilities because each is part of a larger capability. Capabilities
+    and sub-capabilities are both designed with the purpose of addressing a series
+    of attack steps. Automated assessments (in the form of defect checks) are performed
+    using the test assessment method defined in SP 800-53A by comparing a desired
+    and actual state (or behavior).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8011-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

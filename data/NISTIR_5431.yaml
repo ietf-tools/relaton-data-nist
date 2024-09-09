@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5431
 title:
 - content: Proficiency tests for the NIST airborne asbestos program - 1990
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5431
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5431.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5431
@@ -21,85 +20,75 @@ docid:
 - id: 10.6028/NIST.IR.5431
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Eric B
-          script:
-          - Latn
-      surname:
-        content: Steel
-        script:
-        - Latn
+      completename:
+        content: Turner, Shirley.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          script:
-          - Latn
-      surname:
-        content: Phelps
-        script:
-        - Latn
+      completename:
+        content: Doorn, Stacy S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric S
-          script:
-          - Latn
-      surname:
-        content: Windsor
-        script:
-        - Latn
+      completename:
+        content: Steel, Eric B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Keith K
-          script:
-          - Latn
-      surname:
-        content: Starner
-        script:
-        - Latn
+      completename:
+        content: Phelps, John M.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Windsor, Eric S.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Starner, Keith K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5431'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

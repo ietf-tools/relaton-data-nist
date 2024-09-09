@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6361
 title:
-- content: Optimization of polymer concrete composites:final report
+- content: Optimization of polymer concrete composites
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Optimization of polymer concrete composites - final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6361
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6361.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6361
@@ -21,85 +34,69 @@ docid:
 - id: 10.6028/NIST.IR.6361
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lech
-          script:
-          - Latn
-      surname:
-        content: Czarnecki
-        script:
-        - Latn
+      completename:
+        content: Czarnecki, Lech.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007073862
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrzej
-          script:
-          - Latn
-      surname:
-        content: Garbacz
-        script:
-        - Latn
+      completename:
+        content: Garbacz, Andrzej.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008009718
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pawel
-          script:
-          - Latn
-      surname:
-        content: Lukowski
-        script:
-        - Latn
+      completename:
+        content: Lukowski, Pawel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Clifton
-        script:
-        - Latn
+      completename:
+        content: Clifton, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79099186
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6361'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

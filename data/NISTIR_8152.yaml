@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8152
 title:
-- content: Report on the May 2016 ASTM E57.02 Instrument Runoff at NIST, Part 1 �
-    Background Information and Key Findings
+- content: Report on the May 2016 ASTM E57.02 Instrument Runoff at NIST, part 1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: background information and key findings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on the May 2016 ASTM E57.02 Instrument Runoff at NIST, part 1 -
+    background information and key findings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8152
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8152.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8152
@@ -22,193 +35,126 @@ docid:
 - id: 10.6028/NIST.IR.8152
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bala
-          script:
-          - Latn
-      surname:
-        content: Muralikrishnan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Muralikrishnan, Bala.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2009003147
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Prem
-          script:
-          - Latn
-      surname:
-        content: Rachakonda
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rachakonda, Prem.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Meghan
-          script:
-          - Latn
-      surname:
-        content: Shilling
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Shilling, Meghan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lee, Vincent.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88033324
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Blackburn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Blackburn, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016128033
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          script:
-          - Latn
-      surname:
-        content: Sawyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sawyer, Daniel.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2004066165
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Geraldine
-          script:
-          - Latn
-      surname:
-        content: Cheok
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cheok, Geraldine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Luc
-          script:
-          - Latn
-      surname:
-        content: Cournoyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cournoyer, Luc,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019071962
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: There is ongoing activity within ASTM E57.02 working group WK43218 [1]
+    to develop a documentary standard for point-to-point distance performance evaluation
+    of 3D imaging systems. The Dimensional Metrology Group (DMG) at the National Institute
+    of Standards and Technology (NIST) has established facilities to realize all of
+    the test procedures in the current draft. The DMG hosted an instrument runoff
+    and meeting in the first week of May 2016 to allow manufacturers of 3D imaging
+    systems to run through these test procedures. The runoff occurred between Monday
+    5/2/2016 and Wednesday 5/4/2016 and a meeting was held on Thursday 5/5/2016 to
+    discuss findings. This report provides background information related to this
+    effort and an overview of key discussions and findings during and immediately
+    after the runoff.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8152'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

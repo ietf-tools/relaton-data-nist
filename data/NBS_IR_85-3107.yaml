@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR85-3107
 title:
 - content: Field performance of three residential heat pumps in the cooling mode
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.85-3107
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3107.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 85-3107
@@ -21,103 +20,67 @@ docid:
 - id: 10.6028/NBS.IR.85-3107
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Walter H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Parkern
+      completename:
+        content: Parkern, Walter H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Didion
+      completename:
+        content: Didion, David A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wojciechowski
+      completename:
+        content: Wojciechowski, Paul H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85828243
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lih
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chern
+      completename:
+        content: Chern, Lih.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016055
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1985'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3107
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

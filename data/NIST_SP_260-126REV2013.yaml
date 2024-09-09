@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-126rev2013
 title:
-- content: The NIST Traceable Reference Material Program for Gas Standards
+- content: The NIST traceable reference material program for gas standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-126rev2013
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-126rev2013.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-126rev2013
@@ -21,84 +20,60 @@ docid:
 - id: 10.6028/NIST.SP.260-126rev2013
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William D.
-          script:
-          - Latn
-      surname:
-        content: Dorko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Chemical Science and Technology Laboratory
+      completename:
+        content: Dorko, William D.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88177716
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael E.
-          script:
-          - Latn
-      surname:
-        content: Kelley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Chemical Science and Technology Laboratory
+      completename:
+        content: Kelley, Michael E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Franklin R.
-          script:
-          - Latn
-      surname:
-        content: Guenther
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Chemical Science and Technology Laboratory
+      completename:
+        content: Guenther, Franklin R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96118514
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Materials Measurement Laboratory.
+    - content: Chemical Sciences Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 260-126rev2013
+  number: 260-126 rev 2013
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7865
 title:
-- content: A Human Factors Guide to Enhance EHR Usability of Critical User Interactions
-    when Supporting Pediatric Patient Care
+- content: A human factors guide to enhance HER usability of critical user interactions
+    when supporting pediatric patient care
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7865
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7865.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7865
@@ -22,128 +21,110 @@ docid:
 - id: 10.6028/NIST.IR.7865
   type: DOI
 date:
-- type: published
-  value: 2012-06
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Svetlana Z.
-          script:
-          - Latn
-      surname:
-        content: Lowry
-        script:
-        - Latn
+      completename:
+        content: Lowry, Svetlana Z.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085953
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew T.
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
+      completename:
+        content: Quinn, Matthew T.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022050535
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mala
-          script:
-          - Latn
-      surname:
-        content: Ramaiah
-        script:
-        - Latn
+      completename:
+        content: Ramaiah, Mala.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Brick
-        script:
-        - Latn
+      completename:
+        content: Brick, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2006018513
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emily S.
-          script:
-          - Latn
-      surname:
-        content: Patterson
-        script:
-        - Latn
+      completename:
+        content: Patterson, Emily S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2010005162
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jiajie
-          script:
-          - Latn
-      surname:
-        content: Zhang
-        script:
-        - Latn
+      completename:
+        content: Zhang, Jiajie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88155373
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patricia
-          script:
-          - Latn
-      surname:
-        content: Abbott
-        script:
-        - Latn
+      completename:
+        content: Abbott, Patricia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002028616
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael C.
-          script:
-          - Latn
-      surname:
-        content: Gibbons
-        script:
-        - Latn
+      completename:
+        content: Gibbons, Michael C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-06
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7865'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

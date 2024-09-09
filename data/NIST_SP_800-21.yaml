@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-21
 title:
 - content: Guideline for implementing cryptography in the federal government
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-21
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-21.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-21
@@ -21,56 +20,54 @@ docid:
 - id: 10.6028/NIST.SP.800-21
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Annabelle
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lee
+      completename:
+        content: Lee, Annabelle.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00014747
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to provide guidance to Federal agencies
+    on how to select cryptographic controls for protecting Sensitive Unclassified1
+    information. This document focuses on Federal standards documented in Federal
+    Information Processing Standards Publications (FIPS PUBs) and the cryptographic
+    modules and algorithms that are validated against these standards. However, to
+    provide additional information, other standards organizations, (e.g., American
+    National Standards Institute (ANSI) and International Organization for Standardization
+    (ISO)) are briefly discussed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-21
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8329
 title:
 - content: Twenty-third annual report on federal agency use of voluntary consensus
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8329
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8329.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8329
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.IR.8329
   type: DOI
 date:
-- type: published
-  value: '2020-10-28'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nathalie
-          script:
-          - Latn
-      surname:
-        content: Rioux
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rioux, Nathalie.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology
   role:
   - type: publisher
-revdate: '2020-10-28'
-script:
-- Latn
 abstract:
 - content: The FY 2019 summary, prepared by the National Institute of Standards and
     Technology (NIST), compiles the reports provided by 22 participating agencies
@@ -63,16 +46,24 @@ abstract:
     also list any rescinded GUS in lieu of VCS during the past year. Agencies briefly
     describe their activities undertaken to carry out provisions described in Circular
     A-119.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8329'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR78-891
 title:
 - content: Guidelines for specification and procurement of measurement instrumentation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.78-891
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir78-891.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 78-891
@@ -21,86 +20,62 @@ docid:
 - id: 10.6028/NBS.IR.78-891
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeannette
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: King
+      completename:
+        content: King, Jeannette.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85318929
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H Steffen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peiser
+      completename:
+        content: Peiser, H. Steffen (Herbert Steffen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81127604
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raymond C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sangster
+      completename:
+        content: Sangster, Raymond C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81022003
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 78-891
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

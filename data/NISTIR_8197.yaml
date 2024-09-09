@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8197
 title:
 - content: The 2017 IARPA face recognition prize challenge (FRPC)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8197
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8197.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8197
@@ -21,118 +20,94 @@ docid:
 - id: 10.6028/NIST.IR.8197
   type: DOI
 date:
-- type: published
-  value: '2017-11-27'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Boehnen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boehnen, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020149143
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lars
-          script:
-          - Latn
-      surname:
-        content: Ericson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ericson, Lars.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80110759
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2017-11-27'
-script:
-- Latn
+abstract:
+- content: This report documents NIST's execution of the Intelligence Advanced Research
+    Projects Activity (IARPA) Face Recognition Prize Challenge 2017. The (FRPC) was
+    conducted to assess the capability of contemporary face recognition algorithms
+    to recognize faces in photographs collected without tight quality constraints
+    e.g. non-ideal images collected from individuals who are unaware of, and not cooperating
+    with, the collection. Such images are characterized by variations in head orientation,
+    facial expression, illumination, and also occlusion and reduced resolution.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8197'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

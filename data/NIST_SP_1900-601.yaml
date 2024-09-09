@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-601
 title:
 - content: Characterization of residential distributed energy resource potential to
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-601
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-601.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-601
@@ -22,67 +21,70 @@ docid:
 - id: 10.6028/NIST.SP.1900-601
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Holmberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Holmberg, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1738-8190"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Farhad
-          script:
-          - Latn
-      surname:
-        content: Omar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022066522
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: 'This report reviews a set of electric grid ancillary services and analyzes
+    the technical potential for residential devices to provide those services. A set
+    of common residential devices are evaluated against six indicators of capability:
+    flexibility, availability, fast response, reserves, reactive power, and power
+    level. Based on these indicators of capability, three scores are developed to
+    express the potential of a device to provide frequency response, reserves and
+    reactive power services. These scores are additionally used to estimate how many
+    of each device might be required, in aggregation, to provide a meaningful level
+    of each of these three ancillary services to the grid. This report also provides
+    a review of some existing programs and pilot efforts where residential devices
+    are being used to provide ancillary services. Lastly, the report provides insights
+    on a continued path to increased integration of residential devices for ancillary
+    services provision.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-601
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

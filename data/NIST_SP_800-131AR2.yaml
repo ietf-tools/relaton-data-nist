@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-131Ar2
 title:
 - content: Transitioning the use of cryptographic algorithms and key lengths
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-131Ar2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-131Ar2
@@ -21,67 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-131Ar2
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Roginsky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Roginsky, Allen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022077196
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) provides cryptographic
+    key management guidance for defining and implementing appropriate key management
+    procedures, using algorithms that adequately protect sensitive information, and
+    planning ahead for possible changes in the use of cryptography because of algorithm
+    breaks or the availability of more powerful computing techniques. NIST Special
+    Publication (SP) 800- 57, Part 1, Recommendation for Key Management: General,
+    includes a general approach for transitioning from one algorithm or key length
+    to another. This Recommendation (SP 800-131A) provides more specific guidance
+    for transitions to the use of stronger cryptographic keys and more robust algorithms.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-131Ar2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

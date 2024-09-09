@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1261
 title:
-- content: Economic Decision Guide Software (EDGeuniversity pandemic planning analysis
-    use case
+- content: Economic Decision Guide Software (EDGe) online tutorial
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: university pandemic planning analysis use case
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Economic Decision Guide Software (EDGe) online tutorial - university pandemic
+    planning analysis use case
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1261
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1261.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1261
@@ -22,67 +35,70 @@ docid:
 - id: 10.6028/NIST.SP.1261
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer F
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alyssa A
-          script:
-          - Latn
-      surname:
-        content: Leibold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Leibold, Alyssa A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: The Coronavirus 2019 (COVID-19) global pandemic has raised concerns as
+    to how to best host fall semesters at universities and colleges across the U.S.
+    in the face of high transmission rates. College campuses have a communal structure
+    that may allow for an infectious disease to become a serious issue to students
+    and staff. College campuses are in need of resilience planning that deals with
+    the presence of a pandemic. In this report, four alternatives are evaluated that
+    might assist colleges in mitigating some of the negative economic effects of an
+    infectious disease. The use case presented in this report is fictious and is meant
+    to reflect a public four-year highereducation institution; however, the values
+    used are based on real-life estimates, when available. Costs and benefits were
+    configured for four alternatives and analyzed with the Economic Decision Guide
+    Software (EDGe) Online Tool to determine the relative net present value of these
+    resilience strategies via a benefit-cost analysis (BCA). Though designed to evaluate
+    investments into built infrastructure, EDGe is demonstrated to be applicable to
+    questions of resilience planning more broadly. The results of this use case show
+    that an outdoor facility would be the best alternative for the college campus
+    modeled, given various parameters and assumptions. The outdoor facility allows
+    for the alleviation of all fatalities and has various benefits that include positive
+    externalities and net co-benefits. This use case demonstrates a basic BCA using
+    EDGe Online to determine a community's course of action in planning for pandemics,
+    especially when some alternatives relate to built infrastructure resilience and/or
+    sustainability, e.g., through indirect valuation or cobenefits.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1261'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

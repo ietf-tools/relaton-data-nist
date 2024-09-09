@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-210
 title:
 - content: General access control guidance for cloud systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-210
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-210.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-210
@@ -21,124 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-210
   type: DOI
 date:
-- type: published
-  value: '2020-07-31'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent C
-          script:
-          - Latn
-      surname:
-        content: Hu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hu, Vincent C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michaela
-          script:
-          - Latn
-      surname:
-        content: Iorga
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Iorga, Michaela.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wei
-          script:
-          - Latn
-      surname:
-        content: Bao
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bao, Wei.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ang
-          script:
-          - Latn
-      surname:
-        content: Li
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li, Ang.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Qinghua
-          script:
-          - Latn
-      surname:
-        content: Li
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li, Qinghua.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonios
-          script:
-          - Latn
-      surname:
-        content: Gouglidis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gouglidis, Antonios.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-07-31'
-script:
-- Latn
 abstract:
 - content: 'This document presents cloud access control characteristics and a set
     of general access control guidance for cloud service models: IaaS (Infrastructure
@@ -151,16 +89,22 @@ abstract:
     to PaaS and SaaS, and access control guidance for IaaS and PaaS is also applicable
     to SaaS. However, each service model has its own focus with regard to access control
     requirements for its service.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-210
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

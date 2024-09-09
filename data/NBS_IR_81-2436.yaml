@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR81-2436
 title:
 - content: Low Molecular weight leachables from medical grade polymers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.81-2436
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir81-2436.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 81-2436
@@ -21,141 +20,64 @@ docid:
 - id: 10.6028/NBS.IR.81-2436
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B F
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: B F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Howell
+      completename:
+        content: Howell, Barbara F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021033625
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chester
+      completename:
+        content: Chester, S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hilpert
+      completename:
+        content: Hilpert, L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D J
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: D J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reeder
+      completename:
+        content: Reeder, D. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 81-2436
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

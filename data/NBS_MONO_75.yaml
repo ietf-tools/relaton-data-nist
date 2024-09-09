@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO75
 title:
-- content: Color of signal lights :their selection, definition, measurement, production,
+- content: Color of signal lights
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: their selection, definition, measurement, production, and use
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Color of signal lights - their selection, definition, measurement, production,
     and use
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.75
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph75.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 75
@@ -22,64 +35,37 @@ docid:
 - id: 10.6028/NBS.MONO.75
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1967'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: F C
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: F C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Breckenridge
+      completename:
+        content: Breckenridge, F. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1967'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '75'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

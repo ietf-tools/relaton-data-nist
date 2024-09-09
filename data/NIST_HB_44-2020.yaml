@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB44-2020
 title:
 - content: Specifications, tolerances, and other technical requirements for weighing
@@ -10,11 +10,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.44-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.44-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 44-2020
@@ -23,135 +22,116 @@ docid:
 - id: 10.6028/NIST.HB.44-2020
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Barton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Barton, John,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83216015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Breyanna
-          script:
-          - Latn
-      surname:
-        content: Blackwell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Blackwell, Breyanna.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tina G
-          script:
-          - Latn
-      surname:
-        content: Butcher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Butcher, Tina G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          script:
-          - Latn
-      surname:
-        content: Harshman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Harshman, Richard A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88614828
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G Diane
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Lee, G. Diane (Gloria Diane)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003004210
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas A
-          script:
-          - Latn
-      surname:
-        content: Olson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Olson, Douglas A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82045685
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: NIST Handbook 44 was first published in 1949, having been preceded by similar
+    handbooks of various designations and in several forms, beginning in 1918. NIST
+    Handbook 44 is published in its entirety each year following the Annual Meeting
+    of the National Conference on Weights and Measures (NCWM). The Committee on Specifications
+    and Tolerances of the NCWM developed the 2019 edition with the assistance of the
+    Office of Weights and Measures (OWM) of the National Institute of Standards and
+    Technology (NIST). This handbook includes amendments endorsed by the 104th National
+    Conference on Weights and Measures during its Annual Meeting in 2019. NIST has
+    a statutory responsibility for cooperation with the states in securing uniformity
+    of weights and measures laws and methods of inspection. In partial fulfillment
+    of this responsibility, NIST is pleased to publish these recommendations of the
+    NCWM. This handbook conforms to the concept of primary use of SI (metric) measurements
+    recommended in the Omnibus Trade and Competitiveness Act of 1988 by citing SI
+    units before U.S. customary units where both units appear together and placing
+    separate sections containing requirements in SI units before corresponding sections
+    containing requirements in U.S. customary units. In some cases, however, trade
+    practice is currently restricted to the use of U.S. customary units; therefore,
+    some requirements in this handbook will continue to specify only U.S. customary
+    units until the NCWM achieves a broad consensus on the permitted SI units. In
+    accord with NIST policy, the meter/liter spellings are used in this document.
+    However, the metre/litre spellings are acceptable, and are preferred by the NCWM.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 44-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7229
 title:
 - content: Intercomparison program for organic speciation in PM2.5 air particulate
-    matter:description and results for trials I and II
+    matter
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: description and results for trials I and II
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Intercomparison program for organic speciation in PM2.5 air particulate
+    matter - description and results for trials I and II
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7229
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7229.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7229
@@ -22,72 +36,58 @@ docid:
 - id: 10.6028/NIST.IR.7229
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michele M
-          script:
-          - Latn
-      surname:
-        content: Schantz
-        script:
-        - Latn
+      completename:
+        content: Schantz, Michele M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007089499
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
+      completename:
+        content: Wise, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joellen
-          script:
-          - Latn
-      surname:
-        content: Lewtas
-        script:
-        - Latn
+      completename:
+        content: Lewtas, Joellen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82012733
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7229'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

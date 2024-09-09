@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-11
 title:
-- content: The impact of the FCC's Open Network Architecture on NSNP telecommunications
+- content: The impact of the FCC's Open Network Architecture on NS/NP telecommunications
     security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-11
@@ -22,77 +21,70 @@ docid:
 - id: 10.6028/NIST.SP.800-11
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Olsen
+      completename:
+        content: Olsen, Karen.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91069642
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tebbutt
+      completename:
+        content: Tebbutt, John.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95098695
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: A significant portion of National Security and Emergency Preparedness (NS/EP)
+    telecommunications relies on the Public Switched Network (PSN). Therefore, NS/EP
+    telecommunications is concerned with the protection of the PSN to ensure that
+    telecommunications services are available and reliable. Service vendors, equipment
+    manufacturers, and the federal government are concerned that vulnerabilities in
+    the PSN could be exploited and result in disruptions or degradation of service.
+    To address these threats, NIST is assisting the Office of the Manager, National
+    Communications System (OMNCS), in the areas of computer and network security research
+    and development. NIST is investigating the vulnerabilities and related security
+    issues that result from use of the Federal Communications Commission's (FCC) Open
+    Network Architecture (ONA). This report provides an overview of ONA, describes
+    NS/EP telecommunications security concerns, and describes NS/EP telecommunications
+    security concerns that the FCC's ONA requirement introduces into the PSN.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-11
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

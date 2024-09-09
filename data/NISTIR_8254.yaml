@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8254
 title:
 - content: Ampoules for radioactivity standard reference materials
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8254
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8254.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8254
@@ -21,50 +20,48 @@ docid:
 - id: 10.6028/NIST.IR.8254
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald
-          script:
-          - Latn
-      surname:
-        content: Colle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Colle, Ronald.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: Standard-sized ampoules for radioactive solution standards have been employed
+    by the National Institute of Standards and Technology (NIST) for nearly the past
+    70 years. This report briefly summarizes the origins and history of the five different
+    batches of ampoules that have been used, including details on the procurement
+    and testing of the recent batch of replacement ampoules in 2018.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8254'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

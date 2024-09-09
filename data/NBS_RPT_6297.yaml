@@ -1,21 +1,37 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6297
 title:
 - content: Preliminary report on the thermodynamic properties of lithium, beryllium,
     magnesium, aluminum, and their compounds with oxygen, hydrogen, fluorine, and
-    chlorine:First Technical Summary Report to the Advanced Research Projects Agency
+    chlorine
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: First Technical Summary Report to the Advanced Research Projects Agency
     on the thermodynamic properties of light-element compounds
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-part
+- content: Preliminary report on the thermodynamic properties of lithium, beryllium,
+    magnesium, aluminum, and their compounds with oxygen, hydrogen, fluorine, and
+    chlorine - First Technical Summary Report to the Advanced Research Projects Agency
+    on the thermodynamic properties of light-element compounds
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6297
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6297.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6297
@@ -24,33 +40,25 @@ docid:
 - id: 10.6028/NBS.RPT.6297
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1959'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1959'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6297'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

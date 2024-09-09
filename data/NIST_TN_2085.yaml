@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2085
 title:
 - content: Workshop on smart grid interoperability testing and certification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2085
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2085.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2085
@@ -21,67 +20,72 @@ docid:
 - id: 10.6028/NIST.TN.2085
   type: DOI
 date:
-- type: published
-  value: 2020-01
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Cuong
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nguyen, Cuong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Avi
-          script:
-          - Latn
-      surname:
-        content: Gopstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gopstein, Avi.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-01
-script:
-- Latn
+abstract:
+- content: New smart grid architectures, devices, systems, and applications require
+    extensive data exchange, necessitating well-defined interfaces to transfer and
+    translate this data across the grid. Clarifying the protocols and data performance
+    requirements across channels of communication is critical to easing the integration
+    and interoperability of smart grid technologies. Testing and certification (T&C)
+    programs provide a mechanism for all stakeholders to gain confidence that equipment
+    will operate as intended and conforms to standards. The added confidence afforded
+    by T&C strengthens the standards ecosystem and fosters technology innovation and
+    adoption. Companies can also advertise that products or services conform with
+    a recognized technical standard or specification. While T&C programs do exist
+    for smart grid standards, they are currently limited in number and in general
+    are focused on a subset of metrics that cannot in isolation guarantee interoperability.
+    This report presents the results of a workshop co-hosted by NIST with the Smart
+    Electric Power Alliance and the Institute of Electrical and Electronics Engineers
+    (IEEE) Standards Association in Washington, DC. The purpose was to explore underlying
+    drivers for the current state of T&C programs for smart grid interoperability.
+    The workshop also examined interoperability profiles for smart grid standards
+    as a means to accelerate the development of T&C programs. Workshop attendees included
+    nearly 50 experts from the smart grid stakeholder community, including representatives
+    from industry, academia, government, professional associations, and testing and
+    certification bodies.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2085'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

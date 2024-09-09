@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP230
 title:
-- content: Standardization activities in the United States :A descriptive directory/
+- content: Standardization activities in the United States
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a descriptive directory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standardization activities in the United States - a descriptive directory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.230
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub230.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 230
@@ -21,52 +34,37 @@ docid:
 - id: 10.6028/NBS.MP.230
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shannon F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Booth
+      completename:
+        content: Booth, Shannon F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1960'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '230'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

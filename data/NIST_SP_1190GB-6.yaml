@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1190GB-6
 title:
-- content: 'Guide Brief 6: How Communities Can Work with Communication Service Providers
-    to Understand Communication Systems'
+- content: 'Guide brief 6: how communities can work with communication service providers
+    to understand communication systems'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1190GB-6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1190GB-6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1190GB-6
@@ -22,50 +21,55 @@ docid:
 - id: 10.6028/NIST.SP.1190GB-6
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Therese
-          script:
-          - Latn
-      surname:
-        content: McAllister
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McAllister, Therese.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2002021681
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: This Guide Brief focuses on assisting communities with Step 2, Understand
+    the Situation, with respect to communication systems. When characterizing communication
+    systems in a community, communities need to gain an understanding of both service
+    provider systems and their own systems. In some situations, communities may need
+    to leverage communication service provider systems and their capabilities. In
+    other cases, communities may have the capability to provide their own recovery
+    resources. The primary intended audience for this Guide Brief is the portion of
+    the collaborative planning team focused on understanding and improving recovery
+    of communication systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1190GB-6
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

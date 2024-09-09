@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2096
 title:
 - content: Small punch testing to estimate mechanical properties of additively manufactured
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2096
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2096.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2096
@@ -22,84 +21,81 @@ docid:
 - id: 10.6028/NIST.TN.2096
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jake
-          script:
-          - Latn
-      surname:
-        content: Benzing
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Benzing, Jake.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nik
-          script:
-          - Latn
-      surname:
-        content: Hrabe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hrabe, Nikolas Wilson.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011023050
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: Small Punch (SP) testing is a methodology that uses small disk-shaped specimens,
+    generally 8 mm in diameter and 0.5 mm thick, to estimate mechanical properties
+    of metallic materials, such as tensile properties, fracture toughness, and ductile-to-brittle
+    transition temperature. Empirical correlations are typically used to infer conventional
+    mechanical properties from characteristic forces and displacements obtained from
+    the test record. Most of the available literature relates to SP testing of steels,
+    while relatively little information is available for other metallic materials.
+    At NIST in Boulder, Colorado, SP tests were conducted on additively manufactured
+    (AM) Ti-6Al-4V with different processing parameters and heat treatment conditions.
+    The shape of force/punch displacement curves appeared different than typically
+    reported for conventionally manufactured steels, and correlations with tensile
+    parameters were generally weaker than those published for steel samples. We are
+    led to conclude that the application of the SP technique, characterized by a biaxial
+    loading mode, to materials with high anisotropy, such as current batches of AM
+    Ti-6Al-4V, may be somewhat problematic and therefore of limited applicability.
+    Finally, the use of actuator displacement instead of punch displacement in test
+    analyses appeared to cause a generalized worsening of the correlations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2096'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

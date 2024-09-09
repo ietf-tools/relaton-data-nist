@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHR11A
 title:
 - content: Hydraulic research in the United States
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HR.11A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/HR/hr11A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HR 11A
@@ -21,46 +20,36 @@ docid:
 - id: 10.6028/NBS.HR.11A
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1947'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Florence L
-          script:
-          - Latn
-      surname:
-        content: Bain
-        script:
-        - Latn
+      completename:
+        content: Bain, Florence L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1947'
-script:
-- Latn
 series:
 - title:
-    content: NBS Hydraulic Research in the United States
+    content: Hydraulic Research in the United States
     format: text/plain
-  abbreviation:
-    content: HR
   number: 11A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

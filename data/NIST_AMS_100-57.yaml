@@ -1,0 +1,144 @@
+---
+schema-version: v1.2.9
+id: NISTAMS100-57
+title:
+- content: Continuous mobile manipulator performance measurement data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.AMS.100-57
+  type: doi
+type: standard
+docid:
+- id: NIST AMS 100-57
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.AMS.100-57
+  type: DOI
+date:
+- type: issued
+contributor:
+- person:
+    name:
+      completename:
+        content: Aboul-Enein, Omar
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5361-4589"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Medeiros, Henry
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7704-5587"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Shah, Mili
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1789-6985"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Li-Baboud, Ya-Shian
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3234-4345"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bostelman, Roger
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8605-7758"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Virts, Ann
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0009-0003-3420-4888"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: 'Mobile manipulators, which are robotic systems integrating an automatic
+    or autonomous mobile base with a manipulator, can potentially enhance automation
+    in many industrial and unstructured environments. Namely, large-scale manufacturing
+    processes, typical in the aerospace, energy, transportation, and conformal additive
+    manufacturing fields, encompass a notable subset of potential future mobile manipulator
+    use-cases. Utilizing autonomous mobility for manipulator re-positioning could
+    allow for continuous simultaneous arm and mobile base cooperation, which is referred
+    to as continuous performance. Continuous mobile manipulator capabilities may hold
+    particular benefit for large, curved, and complex workpieces. However, such flexibility
+    can also introduce additional sources of performance uncertainty, preventing mobile
+    manipulators from satisfying stringent pose repeatability and accuracy requirements.
+    To identify and quantify this uncertainty, the Configurable Mobile Manipulator
+    Apparatus was developed by the National Institute of Standards and Technology.
+    Previous test implementations with the apparatus included non-continuous mobile
+    manipulator performance, such as static and indexed performance, but continuous
+    performance measurement had been demonstrated previously only in simulation and
+    on proof-of-concept hardware. The work presented in this report details the transfer
+    of the latest version of simulations and algorithms for continuous registration
+    to an industrial mobile manipulator platform. Additionally, a 2^3 factorial designed
+    experiment was conducted to produce an accompanied continuous mobile manipulator
+    performance dataset. Analysis of the dataset focused on comparing the performance
+    and robustness of two continuous localization methods: 1) a deterministic spiral
+    search and 2) a stochastic Unscented Kalman Filter search across two selected
+    mobile base speeds and sides of the apparatus.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST advanced manufacturing series
+    format: text/plain
+  number: 100-57
+- title:
+    content: NIST advanced manufacturing series; NIST AMS
+    format: text/plain
+  number: 100-57
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6888
 title:
-- content: Fires in model rooms :results of preliminary experiments under an International
+- content: Fires in model rooms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: results of preliminary experiments under an International Cooperative Program
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fires in model rooms - results of preliminary experiments under an International
     Cooperative Program
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6888
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6888.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6888
@@ -22,100 +35,56 @@ docid:
 - id: 10.6028/NBS.RPT.6888
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gross
+      completename:
+        content: Gross, Daniel.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2021018469
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ward
+      completename:
+        content: Ward, D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Shoub
+      completename:
+        content: Shoub, H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1960'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6888'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

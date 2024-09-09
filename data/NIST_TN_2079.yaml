@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2079
 title:
 - content: Theoretical basis of the direct-comparison system for power calibration
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2079
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2079.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2079
@@ -22,135 +21,106 @@ docid:
 - id: 10.6028/NIST.TN.2079
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey A
-          script:
-          - Latn
-      surname:
-        content: Jargon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jargon, Jeffrey A. (Jeffrey Arendt)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003080566
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dazhen
-          script:
-          - Latn
-      surname:
-        content: Gu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Gu, Dazhen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christian J
-          script:
-          - Latn
-      surname:
-        content: Long
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Long, Christian J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aaron M
-          script:
-          - Latn
-      surname:
-        content: Hagerstrom
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hagerstrom, Aaron M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Angela C
-          script:
-          - Latn
-      surname:
-        content: Stelson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Stelson, Angela C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ann F
-          script:
-          - Latn
-      surname:
-        content: Monke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Monke, Ann F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: In this report, we provide derivations for two equations that serve as
+    the basis for the direct-comparison system, a transfer technique for comparing
+    microwave power sensors. The system consists of a synthesizer that provides a
+    signal to the input of a power divider. A monitor power sensor is connected to
+    one of the divider's output ports. During the first portion of the measurement,
+    a transfer standard is connected to the other output port of the divider, and
+    the powers of the transfer standard and monitor are measured. Next, the transfer
+    standard is replaced with an unknown power sensor to be calibrated, and the powers
+    of the unknown device and monitor are measured. Utilizing rules governing flow-diagrams
+    for scattering-parameters and definitions of delivered power, we derive the effective
+    efficiency of an unknown power sensor as a function of the transfer standard's
+    effective efficiency in conjunction with power readings of both sensors and a
+    monitor sensor, as well as reflection coefficients of the sensors and the equivalent
+    source reflection coefficient of the power divider. Our derivation provides the
+    definition of the equivalent source reflection coefficient. We also derive a correction
+    term for the case when an adapter is connected to the transfer standard. Finally,
+    we review the most widely-accepted approach for determining the equivalent source
+    reflection coefficient of a three-port device, such as a power divider, and provide
+    simplistic and comprehensive derivations that demonstrate its independence of
+    external impedance mismatches at two of its ports.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2079'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

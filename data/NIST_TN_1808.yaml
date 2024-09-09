@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1808
 title:
-- content: Report of Special Nuclear Material Validation Measurements for Backpack
-    Type Radiation Detectors
+- content: Report of special nuclear material validation measurements for backpack
+    type radiation detectors
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1808
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1808.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1808
@@ -22,77 +21,51 @@ docid:
 - id: 10.6028/NIST.TN.1808
   type: DOI
 date:
-- type: published
-  value: 2013-08
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L.
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          script:
-          - Latn
-      surname:
-        content: Pibida
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Pibida, Leticia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022071928
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C.
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C.
-          script:
-          - Latn
-      surname:
-        content: Ward
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Ward, C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95800327
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Radiation Physics Division, Physical Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1808'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

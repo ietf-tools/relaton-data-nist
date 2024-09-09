@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1872
 title:
 - content: Investigation of surrogate smoldering ignition sources for testing soft
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1872
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1872.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1872
@@ -22,118 +21,106 @@ docid:
 - id: 10.6028/NIST.TN.1872
   type: DOI
 date:
-- type: published
-  value: 2015-03
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G
-          script:
-          - Latn
-      surname:
-        content: Gann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gann, Richard G.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96095572
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Morgan C
-          script:
-          - Latn
-      surname:
-        content: Bruns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bruns, Morgan C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda P
-          script:
-          - Latn
-      surname:
-        content: Robbins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Robbins, A. P. (Amanda P.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010045194
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward J
-          script:
-          - Latn
-      surname:
-        content: Hnetkovsky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hnetkovsky, Edward J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael H
-          script:
-          - Latn
-      surname:
-        content: Ladas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ladas, Michael H.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-03
-script:
-- Latn
+abstract:
+- content: The introduction of cigarette ignition propensity standards has led to
+    a reduction in the availability of high ignition propensity commercial cigarettes.
+    Since high ignition propensity cigarettes are needed for soft furnishing flammability
+    tests, a standard reference cigarette, SRM 1196, was developed. The current supply
+    of SRM 1196 cigarettes is limited, and so the feasibility of a surrogate ignition
+    source was examined. The surrogate ignition source should be repeatable, sustainable,
+    relatively inexpensive, and should have a similar ignition propensity to the SRM
+    1196 cigarette on a broad range of substrates. A literature review identified
+    several potential surrogate ignition sources including cartridge heaters, hot
+    slugs, and materials that can smolder, such as charcoal, cotton plugs, and cotton
+    rope. Experiments quantified the heat transfer characteristics and ignition propensity
+    of the SRM 1196 cigarette as a baseline for evaluating candidate ignition sources.
+    In particular, thermocouples were used to measure the temperatures at the interface
+    of the cigarette and the substrate for both reactive and inert substrates. Screening
+    experiments were performed to estimate the ignition propensities of the candidate
+    surrogate sources. Analysis of and experiments with these sources found that cartridge
+    heaters are impractical for routine testing and that commercial versions of the
+    combustible materials do not show appropriate or repeatable values of ignition
+    propensity. The use of hot slugs would require additional testing in which the
+    materials, dimensions, shape, and mass were all systematically varied. Extensive
+    testing to identify fabrics which, when supported on a foam slab, would lead to
+    some, but not 100 % ignitions did not find enough fabrics to demonstrate equivalence
+    to the SRM 1196 cigarette. Because of the unlikelihood of success, it is recommended
+    that these tests not be performed and that the National Institute of Standards
+    and Technology (NIST) order another supply of SRM 1196 cigarettes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1872'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

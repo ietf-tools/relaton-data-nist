@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6620
 title:
-- content: Halogenated hydrocarbons and their mixtures:a decade of progress in calorimetry
+- content: Halogenated hydrocarbons and their mixtures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a decade of progress in calorimetry
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Halogenated hydrocarbons and their mixtures - a decade of progress in calorimetry
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6620
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6620.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6620
@@ -21,46 +34,36 @@ docid:
 - id: 10.6028/NIST.IR.6620
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph W
-          script:
-          - Latn
-      surname:
-        content: Magee
-        script:
-        - Latn
+      completename:
+        content: Magee, Joseph W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6620'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-4
 title:
-- content: Computer security considerations in federal procurements :a guide for procurement
-    initiators, contracting officers, and computer security officials
+- content: Computer security considerations in federal procurements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a guide for procurement initiators, contracting officers, and computer
+    security officials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Computer security considerations in federal procurements - a guide for
+    procurement initiators, contracting officers, and computer security officials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-4
@@ -22,56 +36,57 @@ docid:
 - id: 10.6028/NIST.SP.800-4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Guttman
+      completename:
+        content: Guttman, Barbara.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92114452
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This NIST Special Publication provides guidance for federal procurement
+    initiators, contracting officers, and computer security officials on including
+    computer security in acquisitions. To accomplish this goal, computer security
+    and federal information processing (FIP) procurement must be integrated. Computer
+    security is the protection of the integrity, availability and confidentiality
+    of automated information and the resources used to enter, store, process, and
+    communicate the information. Computer security shares properties with systems/software
+    engineering including trustworthiness, system safety, and reliability. FIP procurement
+    is the process of acquiring hardware, software, firmware, computer-related services
+    and telecommunications. FIP procurement begins with the process of determining
+    needs and ends with contract completion.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

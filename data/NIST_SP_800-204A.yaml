@@ -1,6 +1,6 @@
 ---
-schema-version: v1.2.3
-id: NISTSP800-204a
+schema-version: v1.2.9
+id: NISTSP800-204A
 title:
 - content: Building secure microservices-based applications using service-mesh architecture
   language:
@@ -8,80 +8,84 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
-- content: https://doi.org/10.6028/NIST.SP.800-204a
+- content: https://doi.org/10.6028/NIST.SP.800-204A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204A.pdf
-  type: pdf
 type: standard
 docid:
-- id: NIST SP 800-204a
+- id: NIST SP 800-204A
   type: NIST
   primary: true
-- id: 10.6028/NIST.SP.800-204a
+- id: 10.6028/NIST.SP.800-204A
   type: DOI
 date:
-- type: published
-  value: 2020-05
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zack
-          script:
-          - Latn
-      surname:
-        content: Butcher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Butcher, Zack.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020013499
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-05
-script:
-- Latn
+abstract:
+- content: 'The increasing trend in building microservices-based applications calls
+    for addressing security in all aspects of service-to-service interactions due
+    to their unique characteristics. The distributed cross-domain nature of microservices
+    needs secure token service (STS), key management and encryption services for authentication
+    and authorization, and secure communication protocols. The ephemeral nature of
+    clustered containers (by which microservices are implemented) calls for secure
+    service discovery. The availability requirement calls for: (a) resiliency techniques,
+    such as load balancing, circuit breaking, and throttling, and (b) continuous monitoring
+    (for the health of the service). The service mesh is the best-known approach that
+    can facilitate specification of these requirements at a level of abstraction such
+    that it can be uniformly and consistently defined while also being effectively
+    implemented without making changes to individual microservice code. The purpose
+    of this document is to provide deployment guidance for proxy-based Service Mesh
+    components that collectively form a robust security infrastructure for supporting
+    microservices-based applications.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 800-204a
+  number: 800-204A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

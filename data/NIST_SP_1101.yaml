@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1101
 title:
-- content: Metrics and tools for measuring construction productivity :technical and
+- content: Metrics and tools for measuring construction productivity
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: technical and empirical considerations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Metrics and tools for measuring construction productivity - technical and
     empirical considerations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1101
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1101.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1101
@@ -22,86 +35,62 @@ docid:
 - id: 10.6028/NIST.SP.1101
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Allison L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Huang
+      completename:
+        content: Huang, Allison L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022030678
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chapman
+      completename:
+        content: Chapman, Robert E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79016676
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Butry
+      completename:
+        content: Butry, David T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Building and Fire Research Laboratory (U.S.).
+    - content: Office of Applied Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91023146
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1101'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

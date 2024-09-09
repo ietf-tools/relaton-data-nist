@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR22-033
 title:
 - content: Gap analysis for key interoperability scenarios in election technology
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.22-033
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2022/NIST.GCR.22-033.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 22-033
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.GCR.22-033
   type: DOI
 date:
-- type: published
-  value: '2022-08-01'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Dziurlaj
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dziurlaj, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-08-01'
-script:
-- Latn
 abstract:
 - content: This document describes potential use-cases for data interoperability in
     election technology components not previously considered in past efforts. Such
@@ -62,16 +45,24 @@ abstract:
     functions it performs. Existing common data formats are considered for their applicability
     to component functions. Where gaps are found, suggestions to enhance interoperability
     are described.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 22-033
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

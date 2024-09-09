@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1987
 title:
 - content: Reduced-order thermal analysis of fire effects on composite slabs
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1987
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1987.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1987
@@ -21,101 +20,89 @@ docid:
 - id: 10.6028/NIST.TN.1987
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jian
-          script:
-          - Latn
-      surname:
-        content: Jiang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Jiang, Jian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001064512
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph A
-          script:
-          - Latn
-      surname:
-        content: Main
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Main, Joseph A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          script:
-          - Latn
-      surname:
-        content: Weigand
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weigand, Jonathan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fahim
-          script:
-          - Latn
-      surname:
-        content: Sadek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sadek, Fahim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003083235
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: This paper describes a reduced-order modeling approach for thermal analyses
+    of composite slabs with profiled decking. The reduced-order modeling approach
+    consists of alternating strips of layered shell elements, representing the thick
+    and thin portions of slab. Layered shell elements representing the thick portion
+    of the slab adopt a linear reduction in the density of concrete within the rib
+    to account for the tapered profile of the ribs. A dummy material with low specific
+    heat and high through-thickness thermal conductivity is used to represent the
+    voids between the ribs. The specific heat of concrete in the rib is also modified
+    to indirectly consider the heat input through the web of the decking. The optimal
+    ratio of modified to actual specific heat of concrete in the rib is determined,
+    depending on the ratio of the height of the upper continuous portion to the height
+    of the rib. The reduced-order modeling approach is validated against experimental
+    results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1987'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

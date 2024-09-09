@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC1130
 title:
-- content: Letter Circular 1130:condition assessment of buildings
+- content: Letter Circular 1130
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: condition assessment of buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 1130 - condition assessment of buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.1130
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular1130.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 1130
@@ -21,59 +34,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.1130
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Porter
-          script:
-          - Latn
-      surname:
-        content: Driscoll
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Pielert
-        script:
-        - Latn
+      completename:
+        content: '"Driscoll, Porter."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1982'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '1130'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

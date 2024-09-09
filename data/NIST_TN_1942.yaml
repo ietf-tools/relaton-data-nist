@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1942
 title:
-- content: Implementation of Errors-in-Variables Regression and Monte Carlo Uncertainty
-    Evaluation into Force Calibration Reporting at NIST
+- content: Implementation of errors-in-variables regression and Monte Carlo uncertainty
+    evaluation into force calibration reporting at NIST
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1942
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1942.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1942
@@ -22,50 +21,54 @@ docid:
 - id: 10.6028/NIST.TN.1942
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas W.
-          script:
-          - Latn
-      surname:
-        content: Bartel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Bartel, Thomas W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021001597
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) is commencing
+    the implementation of certain statistical procedures, namely errors-in-variables
+    regression and Monte Carlo uncertainty evaluation, into the data analysis and
+    reporting for the force calibration service provided by the NIST Physical Measurement
+    Laboratory (PML). This document is intended to serve as an overview of these procedures
+    to the users of NIST's force calibration service, by presenting computational
+    details of the analyses and introducing the corresponding format for the force
+    calibration report.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1942'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

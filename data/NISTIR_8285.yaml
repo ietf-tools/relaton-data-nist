@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8285
 title:
-- content: Health assessment measurements quality assurance program:exercise 3 final
+- content: Health assessment measurements quality assurance program
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: exercise 3 final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Health assessment measurements quality assurance program - exercise 3 final
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8285
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8285.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8285
@@ -22,152 +35,108 @@ docid:
 - id: 10.6028/NIST.IR.8285
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles A
-          script:
-          - Latn
-      surname:
-        content: Barber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Barber, Charles A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carolyn Q
-          script:
-          - Latn
-      surname:
-        content: Burdette
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Burdette, Carolyn Q.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa M
-          script:
-          - Latn
-      surname:
-        content: Phillips
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phillips, Melissa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine A
-          script:
-          - Latn
-      surname:
-        content: Rimmer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Rimmer, Catherine A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Laura J
-          script:
-          - Latn
-      surname:
-        content: Wood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wood, Laura J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022054622
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lee L
-          script:
-          - Latn
-      surname:
-        content: Yu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Yu, Lee L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022053287
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shaun P
-          script:
-          - Latn
-      surname:
-        content: Kotoski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kotoski, Shaun P.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: HAMQAP was launched in collaboration with the NIH ODS in 2017. HAMQAP was
+    established to enable laboratories to improve the accuracy of measurements in
+    samples that represent human intake (e.g., foods, dietary supplements, tobacco)
+    and samples that represent human metabolism (e.g., blood, serum, plasma, urine)
+    for demonstration of proficiency and/or compliance with various regulations. Analytes
+    are paired where possible to represent the full spectrum of health assessment.
+    Exercise 3 of this program offered the opportunity for laboratories to assess
+    their in house measurements of nutritional elements (iodine and selenium), contaminants
+    (arsenic, cadmium, lead, mercury, and furans), water-soluble vitamins (folates),
+    fat-soluble vitamins (carotenoids), natural product compounds (ubiquinone), and
+    botanicals (isoflavones) in foods and dietary supplements, and corresponding biomarkers/metabolites
+    in clinical specimens (including human milk, serum, blood, plasma, and urine).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8285'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8290
 title:
 - content: SCAP composer user guide
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8290
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8290.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8290
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.IR.8290
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Lubell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lubell, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113187
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: SCAP Composer is a software application for creating Security Content Automation
+    Protocol (SCAP) source data stream collections from Extensible Markup Language
+    (XML) documents valid with respect to schemas defined in SCAP component specifications.
+    SCAP Composer's limited scope and small footprint make it easy to install, use,
+    and integrate with other SCAP content development tools. SCAP Composer uses the
+    DITA Open Toolkit, an open source publishing engine for content authored in the
+    Darwin Information Typing Architecture (DITA). SCAP Composer may be used with
+    the National Institute of Standards and Technology (NIST) SCAP Content Validation
+    Tool to check the conformance of SCAP source data stream components to content
+    requirements and recommendations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8290'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

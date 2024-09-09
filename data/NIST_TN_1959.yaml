@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1959
 title:
-- content: 'Defining the resilience dividend: accounting for co-benefits of resilience
-    planning'
+- content: Defining the resilience dividend
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: accounting for co-benefits of resilience planning
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Defining the resilience dividend - accounting for co-benefits of resilience
+    planning
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1959
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1959.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1959
@@ -22,67 +35,69 @@ docid:
 - id: 10.6028/NIST.TN.1959
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Juan F
-          script:
-          - Latn
-      surname:
-        content: Fung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Fung, Juan F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer F
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Helgeson, Jennifer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017065489
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: 'This report presents the concept of the resilience dividend as a useful
+    metric for community resilience planning. The report suggests defining the resilience
+    dividend as the net co-benefit (or co-cost) of investing in enhanced resilience,
+    in the absence of a disruptive incident. In order for this definition to be useful,
+    the report reviews literature on co-benefits. The main lessons from this review
+    are that: (1) there is no consensus on the use of the meaning of co-benefit; (2)
+    much of the literature on co-benefits is focused on climate change; and (3) there
+    exist opportunities for the development of co-benefit measurement and assessment
+    methodologies in the context of resilience planning. This report provides guidance
+    and direction on the study and use of the resilience dividend by categorizing
+    the various definitions of co-benefits to provide a frame of reference, reviewing
+    measurement and assessment efforts, and summarizing the review in an annotated
+    bibliography that can serve as a quick guide for researchers and practitioners
+    looking for existing work on co-benefits. The report also highlights potential
+    directions for future research.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1959'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

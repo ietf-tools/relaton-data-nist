@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5475
 title:
-- content: Validated products list, 1994 no. 3:programming languages, database language
+- content: Validated products list, 1994 no. 3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: programming languages, database language SQL, graphics, GOSIP, POSIX, computer
+    security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Validated products list, 1994 no. 3 - programming languages, database language
     SQL, graphics, GOSIP, POSIX, computer security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5475
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5475.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5475
@@ -22,33 +36,43 @@ docid:
 - id: 10.6028/NIST.IR.5475
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
+- person:
+    name:
+      completename:
+        content: Kailey, Judy B.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Himes, Peggy N.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5475'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

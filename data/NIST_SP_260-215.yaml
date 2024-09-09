@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-215
 title:
 - content: Certification of Standard Reference Material 1936 Great Lakes sediment
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-215
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-215.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-215
@@ -21,158 +20,79 @@ docid:
 - id: 10.6028/NIST.SP.260-215
   type: DOI
 date:
-- type: published
-  value: '2021-09-23'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jacqueline T
-          script:
-          - Latn
-      surname:
-        content: Bangma
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bangma, Jacqueline T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Debra
-          script:
-          - Latn
-      surname:
-        content: Ellisor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ellisor, Debra.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael B
-          script:
-          - Latn
-      surname:
-        content: Ellisor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ellisor, Michael B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Hoguet
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hoguet, Jennifer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Huncik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Huncik, Kevin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Ness
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ness, Jennifer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica L
-          script:
-          - Latn
-      surname:
-        content: Reiner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Reiner, Jessica L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-09-23'
-script:
-- Latn
 abstract:
 - content: Standard Reference Material (SRM) 1936 Great Lakes Sediment is intended
     for 1) use in validating calibration and validation materials for sediment analysis
@@ -181,16 +101,22 @@ abstract:
     50 g of radiation-sterilized, dried sediment from Milwaukee Bay, WI, USA. This
     publication documents the production, analytical methods, and statistical evaluations
     used to characterize this material.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-215
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-007
 title:
-- content: 'Economic Analysis of Technology Infrastructure Needs for Advanced Manufacturing:
-    Smart Manufacturing'
+- content: Economic analysis of technology infrastructure needs for advanced manufacturing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: smart manufacturing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Economic analysis of technology infrastructure needs for advanced manufacturing
+    - smart manufacturing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-007
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-007.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-007
@@ -22,101 +35,70 @@ docid:
 - id: 10.6028/NIST.GCR.16-007
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael P.
-          script:
-          - Latn
-      surname:
-        content: Gallaher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Technology Partnerships Office
+      completename:
+        content: Gallaher, Michael P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004022282
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zachary T.
-          script:
-          - Latn
-      surname:
-        content: Oliver
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Technology Partnerships Office
+      completename:
+        content: Oliver, Zachary T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021019231
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kirsten T.
-          script:
-          - Latn
-      surname:
-        content: Rieth
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Technology Partnerships Office
+      completename:
+        content: Rieth, Kirsten T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan C.
-          script:
-          - Latn
-      surname:
-        content: O'Connor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Technology Partnerships Office
+      completename:
+        content: O'Connor, Alan C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014066722
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: NIST Economic Analysis Office.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-007
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

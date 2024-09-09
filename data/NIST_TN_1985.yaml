@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1985
 title:
 - content: A soot deposition gauge for fire measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1985
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1985.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1985
@@ -21,67 +20,81 @@ docid:
 - id: 10.6028/NIST.TN.1985
   type: DOI
 date:
-- type: published
-  value: 2018-03
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amy
-          script:
-          - Latn
-      surname:
-        content: Mensch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mensch, Amy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022058652
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Cleary
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cleary, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2014159915
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-03
-script:
-- Latn
+abstract:
+- content: The goal of this exploratory project is to demonstrate the feasibility
+    of a conductometric measurement to determine the time-resolved soot deposition
+    on surfaces in fire environments. Quantitative soot deposition data enabled by
+    this measurement method is lacking in the literature and would be useful to advance
+    fire analysis and fire model development. Laminar flow through a thin rectangular
+    channel with a transverse temperature gradient is used to generate thermophoretic
+    deposition exposures on a target surface. Computational fluid dynamics (CFD) modeling
+    is used to design the channel geometry to have well characterized laminar velocity
+    and temperature profiles. The results predict that fully developed laminar flow
+    and temperature profiles are established by the midpoint of the channel length.
+    The linear temperature gradient between channel walls causes thermophoretic deposition
+    of soot particles on the cold wall of the channel. The channel flow is also modeled
+    with NIST's Fire Dynamics Simulator to generate predictions of soot deposition
+    in the channel. In the experiments particles depositing on the target surface
+    cause an increase in the conductance between the interdigitated electrodes. The
+    change in conductance is measured intermittently before, during and after the
+    exposure using a pico-ammeter and an applied voltage. At the end of the exposure
+    the mass loading of deposited soot is determined by two separate measurement methods,
+    including a gravimetric method and a light transmission method. The relationship
+    between the amount of deposition and the conductometric response is evaluated
+    for both types of mass loading measurements. The gravimetric method produced a
+    more coherent correlation to gauge conductance with less scatter than the transmission
+    method. The measured mass loadings are also combined with measurements of the
+    incoming soot concentration to calculate the overall deposition velocity.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1985'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

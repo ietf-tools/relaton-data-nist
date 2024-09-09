@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1996
 title:
 - content: Estimating structural seismic retrofit costs for federal buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1996
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1996.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1996
@@ -21,101 +20,90 @@ docid:
 - id: 10.6028/NIST.TN.1996
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Juan F
-          script:
-          - Latn
-      surname:
-        content: Fung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Fung, Juan F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Siamak
-          script:
-          - Latn
-      surname:
-        content: Sattar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Sattar, Siamak.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven L
-          script:
-          - Latn
-      surname:
-        content: McCabe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: McCabe, S. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96014692
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: In NIST TN 1973 [1], we develop a methodology for estimating seismic retrofit
+    costs. The general approach is to build a predictive model of seismic retrofit
+    costs that (1) captures the essential factors that drive costs, such as building
+    construction type and square footage; and (2) is reproducible using data available
+    to decision makers. In this report, we apply the methodology to generate retrofit
+    cost predictions for typical federal buildings. Typical federal buildings are
+    meant to be statistically representative of the federal building inventory, but
+    are not actual federal buildings. Our results suggest that retrofitting an entire
+    typical building inventory for life safety will cost about +/- 2 0 billion. The
+    caveat is that our model only predicts structural mitigation costs. Other construction
+    costs, as well as non-structural mitigation costs, can easily increase the total
+    cost. Presidential Executive Order 13717 (EO 13717), Establishing a Federal Earthquake
+    Risk Management Standard, encourages federal agencies to enhance resilience...[to]
+    future earthquakes by evaluating and retrofitting existing federal buildings based
+    on current existing building codes. This report, together with NIST TN 1973 [1],
+    provides a roadmap for building owners to quickly approximate expected seismic
+    retrofit costs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1996'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7929
 title:
 - content: Incorporating biometric software development kits into the development
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7929
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7929.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7929
@@ -22,101 +21,73 @@ docid:
 - id: 10.6028/NIST.IR.7929
   type: DOI
 date:
-- type: published
-  value: 2013-04
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Marshall
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Marshall, Karen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88286097
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ross J.
-          script:
-          - Latn
-      surname:
-        content: Michaels
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Michaels, Ross J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020147539
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Mangold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Mangold, Kevin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151052
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Kwong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kwong, Kayee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020147540
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Information Access Division, Information Technology Lab.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-04
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7929'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP406
 title:
-- content: Computer performance evaluation :report of the 1973 NBSACM workshop
+- content: Computer performance evaluation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: report of the 1973 NBS/ACM workshop
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Computer performance evaluation - report of the 1973 NBS/ACM workshop
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.406
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication406.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 406
@@ -21,93 +34,62 @@ docid:
 - id: 10.6028/NBS.SP.406
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1975'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bell
+      completename:
+        content: Bell, T. E. (Thomas E.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50006796
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barry W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Boehm
+      completename:
+        content: Boehm, Barry W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50010067
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jeffery
+      completename:
+        content: Jeffery, S. (Seymour),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb99099543
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1975'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '406'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

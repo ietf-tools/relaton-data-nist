@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2068
 title:
 - content: Laboratory tests of a prototype carbon dioxide ground-source air conditioner
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2068
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2068.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2068
@@ -21,67 +20,87 @@ docid:
 - id: 10.6028/NIST.TN.2068
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harrison
-          script:
-          - Latn
-      surname:
-        content: Skye
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Skye, Harrison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022084007
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wei
-          script:
-          - Latn
-      surname:
-        content: Wu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Wu, Wei.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86036607
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: Environmental concerns are driving regulations to reduce the use of hydrofluorocarbons
+    (HFCs) with high global warming potential (GWP) as refrigerants in heat pumps.
+    CO2 is an attractive alternative refrigerant because is it environmentally friendly
+    in terms of direct emissions, with GWP=1, and no ozone depletion potential (ODP).
+    However, CO2 heat pumps generally have a lower efficiency than HFC-based systems,
+    and therefore have higher indirect emissions, related to generating the electricity
+    that powers them. The indirect emissions dwarf the direct emissions for most heating,
+    air-conditioning and refrigeration applications, so it is critical for the equipment
+    to operate with high efficiency. CO2 air-source heat pumps (ASHPs) provide cooling
+    with particularly low efficiency at high ambient temperatures where the CO2 operates
+    in a transcritical cycle. Using CO2 in a ground-source heat pump (GSHP) offers
+    the potential to overcome the low efficiency since a GSHP operates with lower
+    heat-rejection temperature (for cooling), enabling the system to operate some
+    of the time in a more-efficient subcritical cycle. This report details the laboratory
+    tests of a prototype residential liquid-to-air ground-source air conditioner (GSAC)
+    using CO2 as the refrigerant. The tests were performed in an environmental chamber
+    and followed the ISO 13256-1 standard for rating GSHPs. The CO2 GSAC operated
+    either in a subcritical or a transcritical cycle, depending on the entering liquid
+    temperature (ELT). The test results included the coefficient of performance (COP),
+    capacity, sensible heat ratio (SHR), and pressures. The system incorporated a
+    liquid-line/suction-line heat exchanger (LLSL-HX), which was estimated to cause
+    a COP penalty of (0 to 2) % for ELTs ranging (10 to 25) [degrees]C, and benefit
+    of (0 to 5) % for ELTs ranging (30 to 39) [degrees]C. The CO2 system was compared
+    to a low-cost , commercially-available R410A-based GSHP. With ELTs ranging (10
+    to 39) [degrees]C the CO2 system cooling COP ranged (7.3 to 2.4), whereas the
+    R410A system values ranged (6.1 to 3.2). At the standard rating condition (ELT
+    25 [degrees]C), the CO2 GSAC cooling COP was 4.14 and the R410A GSHP COP was 4.57.
+    At part-load conditions (ELT 20 [degrees]C) both systems had a COP of ?4.92. Further
+    effort is needed to increase the CO2 system efficiency at ELTs greater than 20
+    [degrees]C, since it underperformed the R410A system in that temperature range.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2068'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

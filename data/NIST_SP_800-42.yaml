@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-42
 title:
 - content: Guideline on network security testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-42
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-42.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-42
@@ -21,122 +20,74 @@ docid:
 - id: 10.6028/NIST.SP.800-42
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J P
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: J P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wack
+      completename:
+        content: Wack, J. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M C
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: M C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tracy
+      completename:
+        content: Tracy, M. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M P
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: M P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
+      completename:
+        content: Souppaya, M. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to provide guidance for security program
+    manager, technical managers, functional managers, and other information technology
+    (IT) staff members who deal with systems concerning when and how to perform tests
+    for network security vulnerabilities and policy implementation. This document
+    identifies network testing requirements and how to prioritize testing activities
+    with limited resources. It describes security testing techniques and tools. This
+    document provides guidance to assist organizations in avoiding redundancy and
+    duplication of effort by providing a consistent approach to network security testing
+    throughout an organization's networks. Furthermore, this document provides a feasible
+    approach for organizations by offering varying levels of network security testing
+    as mandated by an organization's mission and security objectives.The main focus
+    of this document is the basic information about techniques and tools for individuals
+    to begin a testing program. This document is by no means all-inclusive and individuals
+    and organizations should consult the references provided in this document as well
+    as vendor production descriptions and other sources of information.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-42
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

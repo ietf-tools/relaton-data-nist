@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-78-3
 title:
 - content: Cryptographic algorithms and key sizes for personal identity verification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-78-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-78-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-78-3
@@ -21,195 +20,84 @@ docid:
 - id: 10.6028/NIST.SP.800-78-3
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W T
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: W T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, W. T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D F
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: D F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dodson
+      completename:
+        content: Dodson, Donna F.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021110726
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W E
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: W E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Burr
+      completename:
+        content: Burr, W. E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ferraiolo
+      completename:
+        content: Ferraiolo, H.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D A
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: D A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cooper
+      completename:
+        content: Cooper, D. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document contains the technical specifications needed for the mandatory
+    and optional cryptographic keys specified in FIPS 201, Personal Identity Verification
+    (PIV) of Federal Employees and Contractors, as well as the supporting infrastructure
+    specified in FIPS 201 and the related Special Publication 800-73, Interfaces for
+    Personal Identity Verification, and SP 800-76, Biometric Data Specification for
+    Personal Identity Verification, that rely on cryptographic functions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-78-3
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

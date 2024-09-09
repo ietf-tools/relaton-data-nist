@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-73-4
 title:
-- content: Interfaces for Personal Identity Verification
+- content: Interfaces for personal identity verification - part 1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: PIV card application namespace, data model and representation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Interfaces for personal identity verification - part 1 - PIV card application
+    namespace, data model and representation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-73-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-73-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-73-4
@@ -21,135 +35,96 @@ docid:
 - id: 10.6028/NIST.SP.800-73-4
   type: DOI
 date:
-- type: published
-  value: 2015-05
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David A.
-          script:
-          - Latn
-      surname:
-        content: Cooper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cooper, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77001780
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hildegard
-          script:
-          - Latn
-      surname:
-        content: Ferraiolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ferraiolo, Hildegard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017398
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ketan L.
-          script:
-          - Latn
-      surname:
-        content: Mehta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Mehta, Ketan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88161940
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Salvatore
-          script:
-          - Latn
-      surname:
-        content: Francomacaro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Francomacaro, Salvatore.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022010886
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Mohler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Mohler, Jason.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062236
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: 2015-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-73-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

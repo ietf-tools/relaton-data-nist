@@ -1,19 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7996
 title:
-- content: 'Biological and Environmental Monitoring and Archival of Sea Turtle Tissues
-    (BEMAST): Rationale, Protocols, and Initial Collections of Banked Sea Turtle Tissues'
+- content: Biological and Environmental Monitoring and Archival of Sea Turtle Tissues
+    (BEMAST)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: rationale, protocols, and initial collections of banked sea turtle tissues
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Biological and Environmental Monitoring and Archival of Sea Turtle Tissues
+    (BEMAST) - rationale, protocols, and initial collections of banked sea turtle
+    tissues
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7996
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2014/NIST.IR.7996.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7996
@@ -22,84 +37,58 @@ docid:
 - id: 10.6028/NIST.IR.7996
   type: DOI
 date:
-- type: published
-  value: 2014-04
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer M.
-          script:
-          - Latn
-      surname:
-        content: Keller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Keller, Jennifer M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca S.
-          script:
-          - Latn
-      surname:
-        content: Pugh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Pugh, Rebecca S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078510
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul R.
-          script:
-          - Latn
-      surname:
-        content: Becker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Becker, Paul R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085576
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2014-04
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7996'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

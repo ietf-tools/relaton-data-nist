@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2237
 title:
-- content: Collection methods for Wi-Fi and Bluetooth IQ recordings in the 2.4 GHz
+- content: Collection methods for Wi-Fi and Bluetooth I/Q recordings in the 2.4 GHz
     and 5 GHz bands with low-cost software defined radios
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2237
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2237.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2237
@@ -22,90 +21,47 @@ docid:
 - id: 10.6028/NIST.TN.2237
   type: DOI
 date:
-- type: published
-  value: '2022-09-27'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stefan
-          script:
-          - Latn
-      surname:
-        content: Tschimben
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Tschimben, Stefan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Siddhartha
-          script:
-          - Latn
-      surname:
-        content: Subray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Subray, Siddhartha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aric
-          script:
-          - Latn
-      surname:
-        content: Sanders
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Sanders, Aric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Wunderlich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wunderlich, Adam.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Communications Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-09-27'
-script:
-- Latn
 abstract:
 - content: This report documents collection methods for radio frequency in-phase/quadrature
     (I/Q) recordings of Wi-Fi and Bluetooth emissions in the 2.4 GHz and 5 GHz unlicensed
@@ -113,16 +69,22 @@ abstract:
     datasets that could be used to aid the development of computational models for
     emissions from real-world communication hardware. The complete datasets are publicly
     available at https://doi.org/10.18434/mds2-2731.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2237'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

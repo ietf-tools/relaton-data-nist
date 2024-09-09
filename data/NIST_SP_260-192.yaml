@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-192
 title:
-- content: Thirty-year stability of standard reference material 2034 holmium oxide
+- content: Thirty-year stability of Standard Reference Material 2034 holmium oxide
     solution wavelength standard for spectrophotometry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-192
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-192.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-192
@@ -22,84 +21,76 @@ docid:
 - id: 10.6028/NIST.SP.260-192
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melody V
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Smith, Melody V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021120232
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John C
-          script:
-          - Latn
-      surname:
-        content: Travis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Travis, John C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81011447
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: Standard Reference Material (SRM) 2034, Holmium Oxide Solution Wavelength
+    Standard (240 nm to 650 nm), was produced periodically from 1985 to 2015. The
+    expiration date for the units of each production run increased with experience
+    until 1995 when a period of ten years was established. This report describes a
+    study of legacy samples from every production run over the thirty-year period
+    that established that the band locations in all samples have not varied outside
+    of their established uncertainties. These results support the extension of the
+    expected stability of SRM 2034 holmium oxide solution in dilute perchloric acid
+    to a period of at least 30 years.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-192
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

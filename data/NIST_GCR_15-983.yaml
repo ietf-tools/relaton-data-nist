@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-983
 title:
 - content: White paper on fire resistance of concrete structures
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-983
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-983.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-983
@@ -21,84 +20,70 @@ docid:
 - id: 10.6028/NIST.GCR.15-983
   type: DOI
 date:
-- type: published
-  value: 2014-09
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Luke
-          script:
-          - Latn
-      surname:
-        content: Bisby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bisby, Luke.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hossein
-          script:
-          - Latn
-      surname:
-        content: Mostafaei
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mostafaei, Hossein.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pierre
-          script:
-          - Latn
-      surname:
-        content: Pimienta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pimienta, Pierre.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-09
-script:
-- Latn
+abstract:
+- content: This white paper presents the current, international, state-of-the-art
+    large-scale experimental, modeling, and performance-based design (PBD) efforts
+    related to structural fire resistance of concrete structures. The paper addresses
+    these topics with emphasis on research and development needs for large-scale experiments
+    on fire resistance of structures to support performance-based engineering and
+    structure-fire model validation; prioritizing those needs; phasing the needs in
+    terms of near, medium and long term; identifying the most appropriate international
+    laboratory facilities and collaborators available to address each need; identifying
+    possible means to transfer the results of research to industry; and identifying
+    a means for the coalition of international partners to review progress and exchange
+    information on a regular basis.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-983
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

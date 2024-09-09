@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1866
 title:
-- content: Research Needs to Advance Concrete Pumping Technology
+- content: Research needs to advance concrete pumping technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1866
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1866.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1866
@@ -21,135 +20,96 @@ docid:
 - id: 10.6028/NIST.TN.1866
   type: DOI
 date:
-- type: published
-  value: 2015-05
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Myoungsung
-          script:
-          - Latn
-      surname:
-        content: Choi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Choi, Myoungsung.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152758
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F.
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicos S.
-          script:
-          - Latn
-      surname:
-        content: Martys
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Martys, Nicos S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152769
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Van K.
-          script:
-          - Latn
-      surname:
-        content: Bui
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bui, Van K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021146300
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H.R. Trey
-          script:
-          - Latn
-      surname:
-        content: Hamilton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamilton, Homer Robert,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00100281
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Didier
-          script:
-          - Latn
-      surname:
-        content: Lootens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lootens, Didier.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152767
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Materials and Structural Systems Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1866'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

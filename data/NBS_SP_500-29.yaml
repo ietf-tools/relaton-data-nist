@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP500-29
 title:
-- content: NBSRIA robotics research workshop
+- content: NBS/RIA robotics research workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.500-29
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication500-29.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 500-29
@@ -21,86 +20,62 @@ docid:
 - id: 10.6028/NBS.SP.500-29
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Evans
+      completename:
+        content: Evans, John M.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022002898
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Albus
+      completename:
+        content: Albus, James Sacra.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81084213
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barbera
+      completename:
+        content: Barbera, Anthony J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77013106
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-29
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

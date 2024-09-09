@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5954
 title:
-- content: RISQ:a web-based tool for referencing information on software quality
+- content: RISQ
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a web-based tool for referencing information on software quality
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: RISQ - a web-based tool for referencing information on software quality
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5954
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5954.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5954
@@ -21,59 +34,50 @@ docid:
 - id: 10.6028/NIST.IR.5954
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles B
-          script:
-          - Latn
-      surname:
-        content: Weinstock
-        script:
-        - Latn
+      completename:
+        content: Weinstock, Charles B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb99126089
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dolores R
-          script:
-          - Latn
-      surname:
-        content: Wallace
-        script:
-        - Latn
+      completename:
+        content: Wallace, Dolores R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352161
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5954'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

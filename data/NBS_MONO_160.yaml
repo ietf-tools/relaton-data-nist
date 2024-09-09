@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO160
 title:
 - content: Geometrical considerations and nomenclature for reflectance
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.160
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph160.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 160
@@ -21,175 +20,75 @@ docid:
 - id: 10.6028/NBS.MONO.160
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1977'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: F E
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: F E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nicodemus
+      completename:
+        content: Nicodemus, Fred E. (Fred Edwin),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83004620
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J C
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: J C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Richmond
+      completename:
+        content: Richmond, J. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hsia
+      completename:
+        content: Hsia, J. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82136978
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: I W
-          language:
-          - en
-          script:
-          - Latn
-          initial: I
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: I W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ginsberg
+      completename:
+        content: Ginsberg, I. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Limperis
+      completename:
+        content: Limperis, T.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1977'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '160'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

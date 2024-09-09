@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3046
 title:
-- content: Visual Landing Aids Field Service Operation :progress report for the period
+- content: Visual Landing Aids Field Service Operation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report for the period December 1, 1952 to November 30, 1953
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Visual Landing Aids Field Service Operation - progress report for the period
     December 1, 1952 to November 30, 1953
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3046
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3046.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3046
@@ -22,122 +35,59 @@ docid:
 - id: 10.6028/NBS.RPT.3046
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1954'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C A
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: C A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Douglas
+      completename:
+        content: Douglas, C. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2001062774
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J W
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: J W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Simeroth
+      completename:
+        content: Simeroth, J. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J E
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: J E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Davis
+      completename:
+        content: Davis, J. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009129537
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1954'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '3046'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

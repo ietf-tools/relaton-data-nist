@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-66
 title:
-- content: An introductory resource guide for implementing the Health Insurance Portability
-    and Accountability Act (HIPAA) security rule
+- content: An introductory resource guide for implememting the health insurance portability
+    and accountability act (HIPPA) security rule
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-66
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-66.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-66
@@ -22,190 +21,79 @@ docid:
 - id: 10.6028/NIST.SP.800-66
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hash
+      completename:
+        content: Hash, Joan.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006135982
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bowen
+      completename:
+        content: Bowen, Pauline.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007016441
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, L. Arnold.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93033226
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C D
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: C D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, Carla Dancy.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D I
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: D I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Steingberg
+      completename:
+        content: Stienberg, Daniel I.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-66
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2038
 title:
 - content: Influence of fire on the lateral resistance of cold-formed steel shear
-    walls – phase 2:oriented strand board, strap braced, and gypsum-sheet steel composite
+    walls ⁰₃ phase 2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: oriented strand board, strap braced, and gypsum-sheet steel composite
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Influence of fire on the lateral resistance of cold-formed steel shear
+    walls ⁰₃ phase 2 - oriented strand board, strap braced, and gypsum-sheet steel
+    composite
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2038
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2038.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2038
@@ -22,84 +37,72 @@ docid:
 - id: 10.6028/NIST.TN.2038
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew S
-          script:
-          - Latn
-      surname:
-        content: Hoehler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hoehler, Matthew S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blanca
-          script:
-          - Latn
-      surname:
-        content: Andres
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Andres, Blanca.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew F
-          script:
-          - Latn
-      surname:
-        content: Bundy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bundy, Matthew F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: 'This report presents experimental investigations of the performance of
+    cold-formed steel lateral force-resisting systems (CFS-LRFS) under combinations
+    of simulated earthquake and fire loading. Three types of shear wall systems are
+    investigated: gypsum-sheet steel composite panel sheathed walls, oriented strand
+    board (OSB) sheathed walls, and steel strap braced walls. Twenty-two 2.7 m tall
+    by 3.7 m long test specimens are subjected sequentially to combinations of mechanical
+    (cyclic shear deformation) and thermal (fire) load. The mechanical loading setup
+    and protocol are based on ASTM E2126 Method C (CUREE Basic Loading Protocol).
+    Fire loads of varying intensity that represent the characteristics of actual fires
+    are investigated. The work is a step toward developing fragility curves (representations
+    of the probability of exceeding a given damage state as a function of an engineering
+    demand parameter) for these systems and is essential for performance-based design
+    for fire.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2038'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

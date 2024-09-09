@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS177-1
 title:
-- content: 'Federal Information Processing Standards Publication: initial graphics
-    exchange specification (IGES)'
+- content: Initial graphics exchange specification (IGES)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.177-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub177-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 177-1
@@ -22,33 +20,36 @@ docid:
 - id: 10.6028/NIST.FIPS.177-1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: 177-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

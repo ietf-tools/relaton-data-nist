@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBSS67
 title:
-- content: Abnormal loading on buildings and progressive collapse :an annotated bibliography
+- content: Abnormal loading on buildings and progressive collapse
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an annotated bibliography
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Abnormal loading on buildings and progressive collapse - an annotated bibliography
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BSS.67
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience67.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BSS 67
@@ -21,146 +34,70 @@ docid:
 - id: 10.6028/NBS.BSS.67
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E V
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: E V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Leyendecker
+      completename:
+        content: Leyendecker, Edgar V.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50051472
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J E
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: J E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Breen
+      completename:
+        content: Breen, J. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2013054106
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N F
-          language:
-          - en
-          script:
-          - Latn
-          initial: N
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: N F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Somes
+      completename:
+        content: Somes, N. F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021054613
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swatta
+      completename:
+        content: Swatta, M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '67'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

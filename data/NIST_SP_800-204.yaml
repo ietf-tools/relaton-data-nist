@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-204
 title:
 - content: Security strategies for microservices-based application systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-204
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-204
@@ -21,50 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-204
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7387-5858"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: Microservices architecture is increasingly being used to develop application
+    systems since its smaller codebase facilitates faster code development, testing,
+    and deployment as well as optimization of the platform based on the type of microservice,
+    support for independent development teams, and the ability to scale each component
+    independently. Microservices generally communicate with each other using Application
+    Programming Interfaces (APIs), which requires several core features to support
+    complex interactions between a substantial number of components. These core features
+    include authentication and access management, service discovery, secure communication
+    protocols, security monitoring, availability/resiliency improvement techniques
+    (e.g., circuit breakers), load balancing and throttling, integrity assurance techniques
+    during induction of new services, and handling of session persistence. Additionally,
+    the core features could be bundled or packaged into architectural frameworks such
+    as API gateways and service mesh. The purpose of this document is to analyze the
+    multiple implementation options available for each individual core feature and
+    configuration options in architectural frameworks, develop security strategies
+    that counter threats specific to microservices, and enhance the overall security
+    profile of the microservices-based application.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-204
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

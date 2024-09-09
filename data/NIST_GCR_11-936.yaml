@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR11-936
 title:
 - content: CCR suitability analysis
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.11-936
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2011/NIST.GCR.11-936.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 11-936
@@ -21,33 +20,48 @@ docid:
 - id: 10.6028/NIST.GCR.11-936
   type: DOI
 date:
-- type: published
-  value: 2011-05
+- type: issued
+  value: '2017'
 contributor:
+- person:
+    name:
+      completename:
+        content: Lantana Consulting Group.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2011-05
-script:
-- Latn
+abstract:
+- content: This document analyzes the suitability of the ASTM Continuity of Care Record
+    (CCR) specification to support the US Department of Health and Human Services'
+    (HHS) Meaningful Use. It is part of the Healthcare Information Technology (HIT)
+    Standards Analysis Project carried out by Lantana Consulting Group for The National
+    Institute of Standards and Technology (NIST).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 11-936
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

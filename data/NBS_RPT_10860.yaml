@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10860
 title:
 - content: The enthalpies of hydrolysis of arsenious oxide and arsenic trichloride
-    in 1N-sodium hydroxide :the enthalpy of formation of arsenic trichloride
+    in 1N-sodium hydroxide
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the enthalpy of formation of arsenic trichloride
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The enthalpies of hydrolysis of arsenious oxide and arsenic trichloride
+    in 1N-sodium hydroxide - the enthalpy of formation of arsenic trichloride
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10860
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10860.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10860
@@ -22,122 +36,56 @@ docid:
 - id: 10.6028/NBS.RPT.10860
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J I
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: J I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Minor
+      completename:
+        content: Minor, J. I.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gilliland
+      completename:
+        content: Gilliland, A. A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wagman
+      completename:
+        content: Wagman, Donald D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79065674
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1971'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10860'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

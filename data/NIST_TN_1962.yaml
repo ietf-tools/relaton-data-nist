@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1962
 title:
 - content: Test & evaluation of the safety app from 911Cellular, LLC at NIST
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1962
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1962.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1962
@@ -21,84 +20,106 @@ docid:
 - id: 10.6028/NIST.TN.1962
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nader
-          script:
-          - Latn
-      surname:
-        content: Moayeri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Moayeri, Nader,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93087331
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lu
-          script:
-          - Latn
-      surname:
-        content: Shi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Shi, Lu.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97033468
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chang
-          script:
-          - Latn
-      surname:
-        content: Li
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li, Chang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2005004588
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: At a time when more than 70% of the calls made to 911 are placed from cell
+    phones, it is vital for Public Safety Answering Points (PSAPs) to be able to dispatch
+    emergency responders to the right location for the caller. A major challenge in
+    this area is the location accuracy of E911 calls placed from inside buildings.
+    According to the Federal Communications Commission (FCC)1 , more than 10,000 people,
+    who would otherwise be saved, die every year when calling 911 from a cellphone
+    because emergency dispatchers can⁰₉t get a quick and accurate location on them.
+    The latest rules from the FCC require 50- meter horizontal location accuracy or
+    providing dispatchable location for 80% of E911 calls by April 2021. As for vertical
+    accuracy, the FCC has called for one or more vertical (z-axis) location accuracy
+    metrics to be defined by nationwide providers and certain benchmarks, yet to be
+    defined, based on those metrics to be met by certain dates. The Safety App from
+    911Cellular, LLC is a Wi-Fi-based app for placing E911 calls. In December 2016,
+    NIST tested and evaluated the Safety App in a comprehensive manner according to
+    the procedures of the international standard ISO/IEC 18305, Test and evaluation
+    of localization and tracking systems, in a large, four-story building on the NIST
+    campus in Gaithersburg, Maryland. The Safety App achieved an average horizontal
+    accuracy of 7.45 meters, it had a horizontal accuracy of 15.11 meters or better
+    in 95% of the area of the building, and correctly decided from which floor the
+    E911 call was placed in 87.6% of the area of the building. These results for a
+    technology that is available today are far better than what FCC rules have called
+    for by 2021. However, to achieve this level of accuracy everywhere (i.e., in every
+    building), there has to be good Wi-Fi coverage and access to the Internet everywhere.
+    The key questions are (i) what the penetration rate of Wi-Fi is now and (ii) what
+    it will be by 2021. One clear trend is that Wi-Fi is being deployed in more buildings
+    every day. When Wi-Fi access to the Internet is not available, the Safety App
+    falls back to the use of GPS and RF signals received by the cellular base stations
+    from the cell phone, which are the traditional solutions to estimate the location
+    of E911 calls. Therefore, one point that can be made is that Wi-Fi-based E911
+    solutions should be used along with the traditional solutions to improve the indoor
+    location accuracy of E911 calls, just as the 911Cellular Safety App does. The
+    Safety App has a very simple operation and its performance does not degrade in
+    high rise buildings. Even though NIST tested the Safety App in a four-story building,
+    the App⁰₉s performance would be just as good in a 100-story building, as long
+    as the Wi-Fi coverage on all floors of the building are the same. Nevertheless,
+    it is important to test the Safety App in a few other buildings to study the effects
+    of various construction materials, layout, etc. This report presents in detail
+    the testing methodology and test results that were obtained.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1962'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

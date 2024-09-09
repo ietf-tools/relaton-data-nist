@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6578
 title:
 - content: Internet commerce for manufacturing data staging
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6578
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6578.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6578
@@ -21,75 +20,50 @@ docid:
 - id: 10.6028/NIST.IR.6578
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J G
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: J G
-          script:
-          - Latn
-      surname:
-        content: Nell
-        script:
-        - Latn
+      completename:
+        content: Nell, J. G. (James G.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98019691
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          script:
-          - Latn
-      surname:
-        content: Parks
-        script:
-        - Latn
+      completename:
+        content: Parks, Curtis H.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00054889
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6578'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

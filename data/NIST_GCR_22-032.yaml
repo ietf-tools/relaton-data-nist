@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR22-032
 title:
 - content: Benchmarking evaluation methodologies for existing reinforced concrete
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.22-032
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2022/NIST.GCR.032.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 22-032
@@ -22,175 +21,87 @@ docid:
 - id: 10.6028/NIST.GCR.22-032
   type: DOI
 date:
-- type: published
-  value: '2022-03-01'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Rikhter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Rikhter, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ilayda
-          script:
-          - Latn
-      surname:
-        content: Dinc
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dinc, Ilayda.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yirui
-          script:
-          - Latn
-      surname:
-        content: Zhang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Zhang, Yirui.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ted
-          script:
-          - Latn
-      surname:
-        content: Jiang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Jiang, Ted.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bobby
-          script:
-          - Latn
-      surname:
-        content: Miyashiro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Miyashiro, Bobby.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shelby
-          script:
-          - Latn
-      surname:
-        content: Walsh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Walsh, Shelby.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ruoyu
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wang, Ruoyu.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yvonne
-          script:
-          - Latn
-      surname:
-        content: Dinh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dinh, Yvonne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sangwon
-          script:
-          - Latn
-      surname:
-        content: Suh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Suh, Sangwon.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-03-01'
-script:
-- Latn
 abstract:
 - content: 'Global production and consumption of plastics and its deposition in the
     environment are growing rapidly, while their life-cycle impacts to the environment
@@ -219,16 +130,24 @@ abstract:
     human and ecological impacts, (3) expanding the coverage of life-cycle inventory
     data across geographies and additives, and (4) building consensus on key methodological
     issues including those around allocation.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 22-032
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

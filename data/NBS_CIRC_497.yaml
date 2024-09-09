@@ -1,18 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC497
 title:
-- content: 'Circular of the Bureau of Standards no. 497:'
+- content: Circular of the Bureau of Standards no. 497
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'research on dental materials at the National Bureau of Standards : a review
+    and bibliography'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Circular of the Bureau of Standards no. 497 - research on dental materials
+    at the National Bureau of Standards : a review and bibliography'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.497
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular497.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 497
@@ -21,54 +36,48 @@ docid:
 - id: 10.6028/NBS.CIRC.497
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1950'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: I C
-          script:
-          - Latn
-          initial: I
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: I C
-          script:
-          - Latn
-      surname:
-        content: Schoonover
-        script:
-        - Latn
+      completename:
+        content: Schoonover, I. C. (Irl Corley),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012059691
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1950'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '497'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

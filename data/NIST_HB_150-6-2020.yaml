@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-6-2020
 title:
 - content: NVLAP carpet and carpet cushion
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-6-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-6-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-6-2020
@@ -21,50 +20,49 @@ docid:
 - id: 10.6028/NIST.HB.150-6-2020
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Rasinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rasinski, Timothy V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92059126
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Laboratory Programs.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: NIST Handbook 150-6 specifies the technical requirements and provides guidance
+    for the accreditation of laboratories under the NVLAP Carpet and Carpet Cushion
+    Laboratory Accreditation Program (CCC Program).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-6-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

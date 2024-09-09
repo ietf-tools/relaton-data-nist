@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-34
 title:
-- content: Supply chain assurance :validating the integrity of computing devices
+- content: Supply chain assurance
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: validating the integrity of computing devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Supply chain assurance - validating the integrity of computing devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-34
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-34.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-34
@@ -21,209 +34,103 @@ docid:
 - id: 10.6028/NIST.SP.1800-34
   type: DOI
 date:
-- type: published
-  value: '2022-12-09'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jon
-          script:
-          - Latn
-      surname:
-        content: Boyens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boyens, Jon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tyler
-          script:
-          - Latn
-      surname:
-        content: Diamond
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Diamond, Tyler.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nakia
-          script:
-          - Latn
-      surname:
-        content: Grayson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grayson, Nakia.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Celia
-          script:
-          - Latn
-      surname:
-        content: Paulsen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Paulsen, Celia.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William T
-          script:
-          - Latn
-      surname:
-        content: Polk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Polk, William T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Regenscheid
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Regenscheid, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Murugiah
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Souppaya, Murugiah.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brown, Christopher.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chelsea
-          script:
-          - Latn
-      surname:
-        content: Deane
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Deane, Chelsea.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Hurlburt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hurlburt, Jason.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Scarfone, Karen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-12-09'
-script:
-- Latn
 abstract:
 - content: 'Product integrity and the ability to distinguish trustworthy products
     is a critical foundation of C-SCRM. Authoritative information regarding the provenance
@@ -240,16 +147,22 @@ abstract:
     This project will use a combination of commercial off-the-shelf and open-source
     tools to describe the components of a device in a verifiable manner using cryptography.
     Future builds of this project may cover other critical phases of C-SCRM.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-34
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR83-2649
 title:
-- content: 1982 annual report :Office of Standard Reference materials
+- content: 1982 annual report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Office of Standard Reference materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 1982 annual report - Office of Standard Reference materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.83-2649
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir83-2649.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 83-2649
@@ -21,93 +34,51 @@ docid:
 - id: 10.6028/NBS.IR.83-2649
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G A
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: G A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Uriano
+      completename:
+        content: Uriano, G. A. (George A.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022070326
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S D
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: S D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rasberry
+      completename:
+        content: Rasberry, S. D. (Stanley D.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352117
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 83-2649
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

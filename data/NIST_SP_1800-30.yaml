@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-30
 title:
 - content: Securing telehealth remote patient monitoring ecosystem
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-30
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-30.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-30
@@ -21,192 +20,95 @@ docid:
 - id: 10.6028/NIST.SP.1800-30
   type: DOI
 date:
-- type: published
-  value: '2022-02-22'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Cawthra
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cawthra, Jennifer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nakia
-          script:
-          - Latn
-      surname:
-        content: Grayson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grayson, Nakia.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald
-          script:
-          - Latn
-      surname:
-        content: Pulivarti
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Pulivarti, Ronald.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bronwyn
-          script:
-          - Latn
-      surname:
-        content: Hodges
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hodges, Bronwyn.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Kuruvilla
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kuruvilla, Jason.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Littlefield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Littlefield, Kevin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Julie
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Snyder, Julie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sue
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wang, Sue.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          script:
-          - Latn
-      surname:
-        content: Williams
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Williams, Ryan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kangmin
-          script:
-          - Latn
-      surname:
-        content: Zheng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Zheng, Kangmin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-02-22'
-script:
-- Latn
 abstract:
 - content: Increasingly, healthcare delivery organizations (HDOs) are relying on telehealth
     and remote patient monitoring (RPM) capabilities to treat patients at home. RPM
@@ -235,16 +137,22 @@ abstract:
     This practice guide's capabilities include helping organizations assure the confidentiality,
     integrity, and availability of an RPM solution, enhancing patient privacy, and
     limiting HDO risk when implementing an RPM solution.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-30
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

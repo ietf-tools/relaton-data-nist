@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5590
 title:
 - content: Proceedings report of the international invitation workshop on developmental
-    assurance:June 16-17, 1994, Turf Valley Country Club, Ellicot City, MD
+    assurance
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: June 16-17, 1994, Turf Valley Country Club, Ellicot City, MD
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Proceedings report of the international invitation workshop on developmental
+    assurance - June 16-17, 1994, Turf Valley Country Club, Ellicot City, MD
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5590
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5590.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5590
@@ -22,33 +36,35 @@ docid:
 - id: 10.6028/NIST.IR.5590
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
+- person:
+    name:
+      completename:
+        content: Toth, P.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5590'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

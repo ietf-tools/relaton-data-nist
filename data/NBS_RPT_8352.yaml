@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8352
 title:
-- content: Performance of roofings on Guam, M.E. and Okinawa, R.I.
+- content: Performance of roofings on Guam, M.E. and Okinawa, R.I
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8352
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8352.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8352
@@ -21,52 +20,40 @@ docid:
 - id: 10.6028/NBS.RPT.8352
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1964'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cullen
+      completename:
+        content: Cullen, William C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83163250
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1964'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8352'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

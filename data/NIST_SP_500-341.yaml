@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-341
 title:
-- content: 'SATE VI Report: Bug Injection and CollectionSubtitle'
+- content: SATE VI report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: bug injection and collection
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SATE VI report - bug injection and collection
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-341
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-341.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-341
@@ -21,46 +34,129 @@ docid:
 - id: 10.6028/NIST.SP.500-341
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Aurelien
-          script:
-          - Latn
-      surname:
-        content: Delaitre
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Delaitre, Aurelien.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1404-7523"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Loembe, Alex-Kevin.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7561-6614"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Okun, Vadim Guillaume.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2391-3681"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Cupif, Damien.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Haben, Guillaume.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6290-4959"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Prono, Yann.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The SATE VI report presents the results of a security-focused bug finding
+    evaluation exercise carried out from 2018 to 2023 on various code bases using
+    static analysis tools. Existing bugs were extracted from bug tracker reports and
+    the CVE/NVD database, and additional bugs were injected using automated tools
+    and manual analysis. The results of this exercise showed significant variability
+    across tool effectiveness, depending on the test cases, bug classes, and bug complexity
+    involved. The report discusses the shortcomings and difficulties encountered during
+    the bug injection process, which marginally impeded the efficiency of the evaluation.
+    The report emphasizes the correlation between high code complexity and tool difficulty
+    in identifying bugs. Recall and discrimination rates were lower for the convoluted
+    C Track than the considerably less complex Java Track. Across all languages and
+    code bases, tools found bugs with lower complexity more readily than bugs with
+    higher complexity. Finding rates varied for different bug classes, in line with
+    the inherent complexity of each bug class (e.g., recall for simpler initialization
+    errors was greater than on more intricate buffer errors). The report discusses
+    the shortcomings of the bug injection process. Regardless of the test case, injected
+    bugs were not found by tools at the same rate as existing bugs, implying that
+    their quality needs to improve. The report also includes a summary of the Ockham
+    Sound Analysis Criteria track, which focused on tools that do not report false
+    positives or false negatives. The SATE VI report concludes that static analysis
+    is a useful technique to find real security bugs in large code bases. The right
+    set of tools, used properly, can help increase code quality and security. Potential
+    users should test a tool or set of tools on their own code base before using them
+    in production. The metrics presented in SATE VI are suitable for assessing tool
+    fitness for such a use case.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-341
-doctype: standard
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 500-341
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

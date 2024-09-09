@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2181
 title:
 - content: Measurement techniques for solar cells, Annual report December 15, 1978
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2181
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2181.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2181
@@ -22,180 +21,69 @@ docid:
 - id: 10.6028/NBS.IR.80-2181
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D E
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: D E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sawyer
+      completename:
+        content: Sawyer, D. E.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H K
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: H K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kessler
+      completename:
+        content: Kessler, H. K.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T J
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: T J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Russell
+      completename:
+        content: Russell, T. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W F
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: W F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lankford
+      completename:
+        content: Lankford, W. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H A
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: H A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schafft
+      completename:
+        content: Schafft, H. A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2181
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,19 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1932
 title:
-- content: A Literature Review of Disaster-Induced Business Interruption and an Exploratory
-    Analysis of the Effects of the 2004 Atlantic Hurricane Season on Florida Establishments
-    at the Zip Code Level
+- content: A literature review of disaster-induced business interruption and an exploratory
+    analysis of the effects of the 2004 Atlantic hurricane season on Florida establishments
+    at the zip code level
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1932
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1932.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1932
@@ -23,67 +22,80 @@ docid:
 - id: 10.6028/NIST.TN.1932
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David H.
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84072142
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley W.
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96024300
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: As an exploratory analysis, demographic data from the 2000 Census and 2011
+    American Community Survey at the Zone Improvement Plan (ZIP) code level are used
+    in conjunction with damage estimates from the Federal Emergency Management Agency
+    (FEMA) to model the effects of the 2004 Atlantic hurricane season on Florida.
+    Data on the number of establishments by industry and ZIP code were obtained from
+    the Census County Business Patterns datasets. To prevent the 2007 to 2009 recession
+    from adding a convoluting effect, a time period from 2000 to 2006 was selected.
+    The analysis also assumes that the 2004 season was a distinct and severe enough
+    event that its impacts are distinguishable from general trends in the data. Analysis
+    was also broken into coastal regions and inland regions to lessen any possible
+    endogeneity. The change in the number of establishments was selected as the independent
+    variable as specific data on closures and the reasons why were unavailable. A
+    difference in differences, as well as a graphical, analysis on the change in number
+    of establishments indicate reasons to view 2004 as a significant event, however
+    due to the multitude of convoluting factors affecting a state's economy it is
+    impossible to attribute the full effect to the 2004 season. Fixed effect regressions
+    using first differences were also run looking at the impact of demographic factors
+    on the change in number of establishments. Regression results were rendered inconsistent
+    by an endogeneity issue; however the general method here did produce interesting
+    results when incorporating time-fixed effects. The regression results imply demographics
+    have a mixed impact; bearing in mind the estimator was inconsistent due to endogeneity.
+    Overall the developed process seems viable for use in other instances, provided
+    more complete data is available.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1932'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

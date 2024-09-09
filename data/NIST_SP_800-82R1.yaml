@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-82r1
 title:
-- content: 'Guide to Industrial Control Systems (ICS) Security : Supervisory Control
-    and Data Acquisition (SCADA) Systems, Distributed Control Systems (DCS), and Other
-    Control System Configurations such as Programmable Logic Controllers (PLC)'
+- content: Guide to industrial control systems (ICS) security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: supervisory control and data ccquisition (SCADA) systems, distributed control
+    systems (DCS), and other control system configurations such as programmable logic
+    controllers (PLC)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Guide to industrial control systems (ICS) security - supervisory control
+    and data ccquisition (SCADA) systems, distributed control systems (DCS), and other
+    control system configurations such as programmable logic controllers (PLC)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-82r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-82r1
@@ -23,93 +38,62 @@ docid:
 - id: 10.6028/NIST.SP.800-82r1
   type: DOI
 date:
-- type: published
-  value: 2013-05
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Keith
-          script:
-          - Latn
-      surname:
-        content: Stouffer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Intelligent Systems Division, Engineering Laboratory
-    - organization:
-        name:
-        - content: Computer Security Division, Information Technology Laboratory
+      completename:
+        content: Stouffer, Keith.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022079917
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joe
-          script:
-          - Latn
-      surname:
-        content: Falco
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Intelligent Systems Division, Engineering Laboratory
-    - organization:
-        name:
-        - content: Computer Security Division, Information Technology Laboratory
+      completename:
+        content: Falco, Joe.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003070033
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Intelligent Systems Division, Engineering Laboratory
-    - organization:
-        name:
-        - content: Computer Security Division, Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017003
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory, Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-82r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

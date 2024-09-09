@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR88-3764
 title:
-- content: Large-scale compartment fire toxicity study :comparison with small-scale
+- content: Large-scale compartment fire toxicity study
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: comparison with small-scale toxicity test results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Large-scale compartment fire toxicity study - comparison with small-scale
     toxicity test results
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.88-3764
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir88-3764.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 88-3764
@@ -22,137 +35,95 @@ docid:
 - id: 10.6028/NBS.IR.88-3764
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Braun
+      completename:
+        content: Braun, Emil.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91036801
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Levin
+      completename:
+        content: Levin, Barbara C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83062182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Maya
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Paabo
+      completename:
+        content: Paabo, Maya.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83128642
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gurman
+      completename:
+        content: Gurman, Joshua L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021032730
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Helena M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clark
+      completename:
+        content: Clark, Helen M. (Helen Mary),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011028264
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Margaret F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yoklavich
+      completename:
+        content: Yoklavich, Margaret F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152870
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-3764
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

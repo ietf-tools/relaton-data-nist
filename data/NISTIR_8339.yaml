@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8339
 title:
-- content: Workshop report :test methods and metrics for effective HRI in collaborative
-    human-robot teams, ACMIEEE Human-Robot Interaction Conference, 2019
+- content: Workshop report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: test methods and metrics for effective HRI in collaborative human-robot
+    teams, ACM/IEEE Human-Robot Interaction Conference, 2019
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Workshop report - test methods and metrics for effective HRI in collaborative
+    human-robot teams, ACM/IEEE Human-Robot Interaction Conference, 2019
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8339
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8339.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8339
@@ -22,175 +36,87 @@ docid:
 - id: 10.6028/NIST.IR.8339
   type: DOI
 date:
-- type: published
-  value: '2020-12-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shelly
-          script:
-          - Latn
-      surname:
-        content: Bagchi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bagchi, Shelly.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Murat
-          script:
-          - Latn
-      surname:
-        content: Aksu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Aksu, Murat.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Megan
-          script:
-          - Latn
-      surname:
-        content: Zimmerman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zimmerman, Megan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeremy A
-          script:
-          - Latn
-      surname:
-        content: Marvel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Marvel, Jeremy A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Antonishek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Antonishek, Brian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Heni
-          script:
-          - Latn
-      surname:
-        content: Ben Amor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ben Amor, Heni.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Terry
-          script:
-          - Latn
-      surname:
-        content: Fong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fong, Terry.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ross
-          script:
-          - Latn
-      surname:
-        content: Mead
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mead, Ross.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yue
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wang, Yue.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-12-28'
-script:
-- Latn
 abstract:
 - content: Verified and validated test methods, being necessary to measure the performance
     of complex systems, are important tools for driving innovation, benchmarking and
@@ -213,16 +139,24 @@ abstract:
     in the advancement of HRI technologies through the development of experimental
     scenarios, protocols, test methods, & metrics for the verification and validation
     of interaction solutions and interface designs.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8339'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-53
 title:
-- content: Recommended security controls for federal information systems and organizations
+- content: Recommended security controls for federal information systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-53
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-53.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-53
@@ -21,236 +20,96 @@ docid:
 - id: 10.6028/NIST.SP.800-53
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ross
+      completename:
+        content: Ross, Ron.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010088907
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Katzke
+      completename:
+        content: Katzke, Stuart W.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87889252
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, L. Arnold.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93033226
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swanson
+      completename:
+        content: Swanson, Marianne.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91015913
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stoneburner
+      completename:
+        content: Stoneburner, Gary.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003057780
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rogers
+      completename:
+        content: Rogers, George.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lee
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99082258
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-53
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2166
 title:
 - content: Mission critical voice start-of-word correction for access delay measurement
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2166
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2166.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2166
@@ -22,73 +21,39 @@ docid:
 - id: 10.6028/NIST.TN.2166
   type: DOI
 date:
-- type: published
-  value: '2021-06-24'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Magrogan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Magrogan, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jaden
-          script:
-          - Latn
-      surname:
-        content: Pieper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Pieper, Jaden.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zainab
-          script:
-          - Latn
-      surname:
-        content: Soetan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Soetan, Zainab.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Communications Technology Laboratory
   role:
   - type: publisher
-revdate: '2021-06-24'
-script:
-- Latn
 abstract:
 - content: NIST s Public Safety Communications Research (PSCR) division previously
     developed an access time measurement method for push-to-talk (PTT) communications
@@ -98,16 +63,22 @@ abstract:
     keyword in the test audio clips thatwere developed for the access time measurement.
     Example measurements were performed using the start of word correction to quantify
     its affect on access time measurements.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2166'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

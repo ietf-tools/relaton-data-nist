@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-119
 title:
 - content: Guidelines for the secure deployment of IPv6
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-119
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-119.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-119
@@ -21,152 +20,87 @@ docid:
 - id: 10.6028/NIST.SP.800-119
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S E
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: S E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frankel
+      completename:
+        content: Frankel, S. E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Graveman
+      completename:
+        content: Graveman, R.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pearce
+      completename:
+        content: Pearce, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88050175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rooks
+      completename:
+        content: Rooks, M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'Due to the exhaustion of IPv4 address space, and the Office of Management
+    and Budget (OMB) mandate that U.S. federal agencies begin to use the IPv6 protocol,
+    NIST undertook the development of a guide to help educate federal agencies about
+    the possible security risks during their initial IPv6 deployment. Since IPv6 is
+    not backwards compatible with IPv4, organizations will have to change their network
+    infrastructure and systems to deploy IPv6. Organizations should begin now to understand
+    the risks of deploying IPv6, as well as strategies to mitigate such risks. Detailed
+    planning will enable an organization to navigate the process smoothly and securely.
+    This document provides guidelines for organizations to aid in securely deploying
+    IPv6. The goals of this document are to: educate the reader about IPv6 features
+    and the security impacts of those features; provide a comprehensive survey of
+    mechanisms that can be used for the deployment of IPv6; and provide a suggested
+    deployment strategy for moving to an IPv6 environment. After reviewing this document,
+    the reader should have a reasonable understanding of IPv6 and how it compares
+    to IPv4, security impacts of IPv6 features and capabilities, as-yet unknown impacts
+    of IPv6 deployment, and increased knowledge and awareness about the range of IPv4
+    to IPv6 transition mechanisms.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-119
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

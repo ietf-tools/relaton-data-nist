@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR75-910
 title:
 - content: The role of chemical kinetics in energy conservation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.75-910
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir75-910.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 75-910
@@ -21,141 +20,70 @@ docid:
 - id: 10.6028/NBS.IR.75-910
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1975'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H M
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rosenstock
+      completename:
+        content: Rosenstock, H. M. (Henry M.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79125187
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Garvin
+      completename:
+        content: Garvin, David,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87833390
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J T
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: J T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Herron
+      completename:
+        content: Herron, J. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80091764
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tsang
+      completename:
+        content: Tsang, W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1975'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 75-910
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

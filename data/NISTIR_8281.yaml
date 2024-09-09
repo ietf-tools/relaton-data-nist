@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8281
 title:
 - content: Dolphins in human care sampling protocol and Sample Entry Assistant (SEA)
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8281
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8281.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8281
@@ -22,67 +21,69 @@ docid:
 - id: 10.6028/NIST.IR.8281
   type: DOI
 date:
-- type: published
-  value: 2020-01
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Colleen E
-          script:
-          - Latn
-      surname:
-        content: Bryan Sallee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Bryan Sallee, Colleen E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jared M
-          script:
-          - Latn
-      surname:
-        content: Ragland
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Ragland, Jared M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-01
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) Pacific Marine
+    Mammal Health Assessments (PMMHA) were initiated in 2010 as an expansion of NIST
+    marine mammal health assessment activities that began in 2002 with bottlenose
+    dolphin (Tursiops truncatus) wild populations. As part of PMMHA, NIST began a
+    new collaboration to parallel wild population studies in a controlled setting
+    by archiving and analyzing tissues sampled from dolphins in human care. As of
+    this report, approximately 5,130 blood and milk sample aliquots from 20 dolphins
+    in human care, along with associated dietary prey items, have been archived at
+    the NIST Biorepository. When these samples are collected, valuable information
+    associated with each sample is recorded; this vital step ensures the highest quality
+    interpretation is available from analytical results. The Sample Entry Assistant
+    (SEA) was developed to replace traditional paper data sheets and notebooks with
+    a means for electronic data collection and automatically generated chain of custody
+    documentation to reduce the potential for loss of, and increase accessibility
+    to, sample information. This report provides (1) the standardized protocol for
+    collecting, processing, and archiving blood and milk samples from dolphins in
+    human care and their dietary prey items; (2) key points when teaching and executing
+    the protocol; (3) an outline of the SEA platform and; (4) highlights the components
+    associated with the data tool.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8281'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

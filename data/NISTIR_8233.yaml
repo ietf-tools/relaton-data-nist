@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8233
 title:
-- content: Polycyclic aromatic hydrocarbons (PAHs) in marine mammal blubber:results
+- content: Polycyclic aromatic hydrocarbons (PAHs) in marine mammal blubber
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: results from an interlaboratory study
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Polycyclic aromatic hydrocarbons (PAHs) in marine mammal blubber - results
     from an interlaboratory study
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8233
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8233.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8233
@@ -22,84 +35,76 @@ docid:
 - id: 10.6028/NIST.IR.8233
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin M
-          script:
-          - Latn
-      surname:
-        content: Huncik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Huncik, Kevin M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Kucklick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kucklick, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jared M
-          script:
-          - Latn
-      surname:
-        content: Ragland
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ragland, Jared M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8055-2432"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: To support NOAA's Marine Mammal Health and Stranding program, NIST Charleston
+    was requested to investigate the feasibility of measuring polycyclic aromatic
+    hydrocarbons (PAHs) in marine mammal blubber. Marine mammal blubber can possess
+    high (mg/kg) concentrations of persistent organic pollutants that may interfere
+    with measuring PAHs. The major goals for this study are (1) to determine if laboratories
+    can differentiate PAHs from the persistent organic pollutant (POP)-dominated background
+    typically seen in blubber samples and (2) to determine if POPs in blubber can
+    result in false-positive detections of PAHs such as those arising from laboratory
+    contamination. Five samples were distributed; PAH amended and unamended extracts
+    from high and low POP marine mammal blubber, respectively, and a solution amended
+    with individual PAH compounds. Results from this study indicate that PAHs can
+    be measured in marine mammal blubber and differentiated from POPs co-occurring
+    in the sample. Laboratories did not report PAHs in high POP, non-PAH amended blubber
+    extracts indicating that for this study there were few (<10 total) false positive
+    PAH detections.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8233'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

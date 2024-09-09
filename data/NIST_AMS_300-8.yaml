@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS300-8
 title:
 - content: Wireless user requirements for the factory workcell
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.300-8
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.300-8.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 300-8
@@ -21,101 +20,91 @@ docid:
 - id: 10.6028/NIST.AMS.300-8
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Karl
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Montgomery, Karl.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021109644
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Candell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Candell, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yongkang
-          script:
-          - Latn
-      surname:
-        content: Liu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Liu, Yongkang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91006307
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mohamed
-          script:
-          - Latn
-      surname:
-        content: Hany
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hany, Mohamed.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: Wireless communication is becoming crucial to advanced manufacturing. Industry
+    4.0 and SmartManufacturing depend on networked industrial automation systems.
+    The term Industrial Internet ofThings (IIoT) has been used to describe the deployment
+    of interconnected machines, sensors, andactuators within modernized factories.
+    The adoption of wireless systems is essential to these IIoTdeployments. Wireless
+    automation significantly reduces capital investment costs including conduit,cables,
+    networking equipment, and labor of installation. To enable the adoption of wireless
+    systems atthe factory-floor level, wireless requirements must be established to
+    realize the benefits of wirelesscommunication systems within those factories.
+    One challenge is that existing wireless standards lacktechnical specifications
+    that support low-latency and high-reliability communication for factoryapplications.
+    Additionally, requirements for such capabilities are published or advertised withoutvalidation
+    of said requirements. Often, requirements published by standards developmentorganizations
+    appear excessively strict and unvalidated by empirical study. Moreover, thoserequirements
+    ignore the capabilities of the applications to use their own intelligence to compensatefor
+    lost reliability in the network. This report analyzes existing wireless user requirements
+    stated byindustry organizations and it produces a combined perspective on wireless
+    user requirements for thefactory workcell with supporting rationale.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 300-8
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

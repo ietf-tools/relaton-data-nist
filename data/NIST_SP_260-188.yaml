@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-188
 title:
 - content: Certification of standard reference material 968f fat-soluble vitamins
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-188
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-188.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-188
@@ -22,133 +21,90 @@ docid:
 - id: 10.6028/NIST.SP.260-188
   type: DOI
 date:
-- type: published
-  value: '2017-12-14'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice
-          script:
-          - Latn
-      surname:
-        content: Brown Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brown Thomas, Jeanice.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95117018
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carolyn Q
-          script:
-          - Latn
-      surname:
-        content: Burdette
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Burdette, Carolyn Q.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lorna T
-          script:
-          - Latn
-      surname:
-        content: Sniegoski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sniegoski, Lorna T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr99015408
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James H
-          script:
-          - Latn
-      surname:
-        content: Yen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Yen, James H.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: '2017-12-14'
-script:
-- Latn
+abstract:
+- content: Standard Reference Material (SRM) 968f is intended for use in validating
+    methods for determining fat soluble vitamins in human serum and plasma and value
+    assigning in house produced control materials analyzed using those methods. A
+    unit of SRM 968f consists of one vial each of two concentration levels of frozen
+    human serum. This publication documents the production, analytical methods, and
+    statistical evaluations involved in realizing this product.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-188
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

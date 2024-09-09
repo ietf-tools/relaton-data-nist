@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC315
 title:
-- content: Letter Circular 315:railroad track scale testing service of the National
-    Bureau of Standards fiscal year July 1, 1930 to June 30, 1931
+- content: "\"Letter Circular 315"
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: railroad track scale testing service of the National Bureau of Standards
+    fiscal year July 1, 1930 to June 30, 1931"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: '"Letter Circular 315 - railroad track scale testing service of the National
+    Bureau of Standards fiscal year July 1, 1930 to June 30, 1931"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.315
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular315.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 315
@@ -22,33 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.315
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1932'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1932'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '315'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

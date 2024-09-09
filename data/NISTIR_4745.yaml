@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4745
 title:
 - content: User's guide for the Apparel STEP Translator for PC compatible computers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4745
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4745.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4745
@@ -21,59 +20,47 @@ docid:
 - id: 10.6028/NIST.IR.4745
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Murphy
-        script:
-        - Latn
+      completename:
+        content: Murphy, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014188339
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Howard T
-          script:
-          - Latn
-      surname:
-        content: Moncarz
-        script:
-        - Latn
+      completename:
+        content: Moncarz, Howard T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4745'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

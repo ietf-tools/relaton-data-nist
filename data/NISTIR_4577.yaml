@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4577
 title:
-- content: Extracting STEP geometry and topology from a solid modeler:Parasolid-to-STEP
+- content: Extracting STEP geometry and topology from a solid modeler
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Parasolid-to-STEP
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Extracting STEP geometry and topology from a solid modeler - Parasolid-to-STEP
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4577
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4577.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4577
@@ -21,46 +34,39 @@ docid:
 - id: 10.6028/NIST.IR.4577
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas R
-          script:
-          - Latn
-      surname:
-        content: Kramer
-        script:
-        - Latn
+      completename:
+        content: Kramer, Thomas R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020101301
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4577'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

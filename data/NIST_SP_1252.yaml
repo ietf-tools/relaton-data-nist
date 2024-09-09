@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1252
 title:
 - content: Opportunities for national metrology institutes and reference material
-    producers to ensure globalfood safety:a companion report
+    producers to ensure globalfood safety
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a companion report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Opportunities for national metrology institutes and reference material
+    producers to ensure globalfood safety - a companion report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1252
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1252.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1252
@@ -22,33 +36,56 @@ docid:
 - id: 10.6028/NIST.SP.1252
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
+- person:
+    name:
+      completename:
+        content: NIST Food Safety Working Group.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: 'This companion report summarizes the discussion and subsequent actions
+    from a supplementary one-day session following the NIST Food Safety Workshop held
+    in October 2019. The supplementary session was open to National Metrology Institutes
+    (NMIs) and Designated Institutes (DIs), commercial reference material and reference
+    standard producers, and NIST staff engaged in developing measurement services
+    and standards for food safety. The main goals of the session were to synthesize
+    the key takeaways obtained from discussions during the 3-day Food Safety Workshop
+    focused on four main food safety pillars (microbiological contaminants, chemical
+    contaminants, food allergens, and authenticity); disseminate the unique challenges,
+    capabilities, and interests for each institute and organization; and then develop
+    cooperative solutions in five specific global food safety challenge areas, as
+    delineated from the four pillars: microbiological contaminants, allergens and
+    authenticity, inorganic contaminants, pesticides residues, and non-pesticide organic
+    contaminants.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1252'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

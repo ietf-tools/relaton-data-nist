@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10273
 title:
-- content: Physical properties of a radiopaque denture base material :progress report
+- content: Physical properties of a radiopaque denture base material
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Physical properties of a radiopaque denture base material - progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10273
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10273.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10273
@@ -21,122 +34,59 @@ docid:
 - id: 10.6028/NBS.RPT.10273
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1970'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H H
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chandler
+      completename:
+        content: Chandler, H. H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bowen
+      completename:
+        content: Bowen, R. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020041907
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G C
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: G C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Paffenbarger
+      completename:
+        content: Paffenbarger, G. C. (George Corbly),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80065873
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1970'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10273'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

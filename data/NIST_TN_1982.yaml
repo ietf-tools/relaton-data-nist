@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1982
 title:
 - content: A review of public response to short message alerts under imminent threat
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1982
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1982.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1982
@@ -21,67 +20,79 @@ docid:
 - id: 10.6028/NIST.TN.1982
   type: DOI
 date:
-- type: published
-  value: '2018-01-09'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Erica D
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kuligowski, Erica D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica
-          script:
-          - Latn
-      surname:
-        content: Doermann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Doermann, Jessica.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2018-01-09'
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST)'s Technical Investigation
+    of the 2011 Joplin, MO tornado identified that no widely accepted standards exist
+    for emergency communications in tornado events and more specifically, policies
+    involving the use of communication systems to alert the public in advance of tornadoes.
+    This study is designed to develop evidence-based guidance for communities on the
+    creation and provision of public alerts, including both alerts provided by outdoor
+    siren (warning) systems and short messages sent by social media or other short
+    message service (SMS) platforms. It is the hope that this guidance can eventually
+    be used as a basis for standardization, through codes and standards, of the procedures
+    and policies for outdoor siren systems and short message alerts used by communities
+    across the United States. Standardization of emergency communication policies
+    and procedures could occur at multiple levels, including among multiple jurisdictions,
+    state-wide, regionally, or even nationally. This document focuses on short message
+    alerts, specifically presenting a review of platforms, usage and public response.
+    First, an overview is provided on the current status of short message alerts in
+    the United States, i.e., the current short message technology available and the
+    ways in which this technology is used in communities across the United States.
+    Second, a review of the literature is presented on the ways in which people respond
+    to short message alerts and the current limitations of these systems in light
+    of these findings. This document concludes with a discussion on the key findings
+    and recommendations from the literature on the ways in which to improve current
+    short message alerts, based on the methods by which people receive and process
+    these types of alerts. Following this work, a document will be developed to provide
+    the overall evidence-based guidance for communities on the creation and provision
+    of public alerts.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1982'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

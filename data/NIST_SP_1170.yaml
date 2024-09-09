@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1170
 title:
-- content: 'Documentation for Reference Material (RM) 8820 : A Versatile, Multipurpose
-    Dimensional Metrology Calibration Standard for Scanned Particle Beam, Scanned
-    Probe and Optical Microscopy'
+- content: Documentation for Reference Material (RM) 8820
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a versatile, multipurpose dimensional metrology calibration standard for
+    scanned particle beam, scanned probe, and optical microscopy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Documentation for Reference Material (RM) 8820 - a versatile, multipurpose
+    dimensional metrology calibration standard for scanned particle beam, scanned
+    probe, and optical microscopy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1170
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1170.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1170
@@ -23,101 +37,70 @@ docid:
 - id: 10.6028/NIST.SP.1170
   type: DOI
 date:
-- type: published
-  value: 2014-03
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael T.
-          script:
-          - Latn
-      surname:
-        content: Postek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Technology Laboratory
+      completename:
+        content: Pope, Jodie G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073168
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andras E.
-          script:
-          - Latn
-      surname:
-        content: Vladar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Technology Laboratory
+      completename:
+        content: Wright, John D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81115024
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bin
-          script:
-          - Latn
-      surname:
-        content: Ming
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Technology Laboratory
+      completename:
+        content: Johnson, Aaron N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022036300
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin
-          script:
-          - Latn
-      surname:
-        content: Bunday
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Technology Laboratory
+      completename:
+        content: Crowley, Chris J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2014-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1170'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS300-2
 title:
 - content: Software requirements specification to distribute manufacturing data
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.300-2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.300-2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 300-2
@@ -21,93 +20,67 @@ docid:
 - id: 10.6028/NIST.AMS.300-2
   type: DOI
 date:
-- type: published
-  value: 2017-12
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Hedberg Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hedberg Jr., Thomas,.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0002-9024-2059
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Moneer
-          script:
-          - Latn
-      surname:
-        content: Helu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Helu, Moneer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marcus
-          script:
-          - Latn
-      surname:
-        content: Newrock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Newrock, Marcus.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-12
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to describe the requirements specifications
+    for applications and a data repository to distribute manufacturing data. Prospective
+    developers, technical-assessment personnel, and interested end-users are the intended
+    audience of this document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 300-2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

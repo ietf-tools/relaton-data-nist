@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCRPL1-3
 title:
 - content: Some methods for general prediction of sudden ionospheric disturbances
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CRPL.1-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/crpl/crpl-1-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CRPL 1-3
@@ -21,83 +20,51 @@ docid:
 - id: 10.6028/NBS.CRPL.1-3
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1947'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A H
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: A H
-          script:
-          - Latn
-      surname:
-        content: Shapley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Shapley, Alan H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80017259
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J V
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: J V
-          script:
-          - Latn
-      surname:
-        content: Lincoln
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Lincoln, J. Virginia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83128800
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Central Radio Propogation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1947'
-script:
-- Latn
 series:
 - title:
-    content: NBS CRPL Solar-Geophysical Data
+    content: NBS Central Radio Propogation Laboratory Report; NBS CRPL Report
     format: text/plain
-  abbreviation:
-    content: CRPL
   number: 1-3
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

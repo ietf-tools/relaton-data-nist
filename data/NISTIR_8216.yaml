@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8216
 title:
-- content: 'Voices of first responders - identifying public safety communication problems:
-    findings from user-centered interviews, phase 1, volume 1'
+- content: Voices of first responders - identifying public safety communication problems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: findings from user-centered interviews, phase 1, volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Voices of first responders - identifying public safety communication problems
+    - findings from user-centered interviews, phase 1, volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8216
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8216.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8216
@@ -22,155 +35,110 @@ docid:
 - id: 10.6028/NIST.IR.8216
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Choong, Yee-Yin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012016196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shanee
-          script:
-          - Latn
-      surname:
-        content: Dawkins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Dawkins, Shanee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susanne
-          script:
-          - Latn
-      surname:
-        content: Furman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Furman, Susanne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen K
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085049
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra Spickard
-          script:
-          - Latn
-      surname:
-        content: Prettyman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Prettyman, Sandra Spickard,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005072199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary F
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Theofanos, Mary F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085028
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-edition:
-  content: '1.1'
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: 'The public safety community is in the process of transitioning from the
+    use of land mobile radios to a technology ecosystem including a variety of broadband
+    data sharing platforms. Successful deployment and adoption of new communication
+    technology relies on efficient and effective user interfaces based on a clear
+    understanding of first responder needs, requirements and contexts of use. The
+    project employs a two-phased data collection approach for an in-depth look at
+    the population of first responders, along with their work environment, their tasks,
+    and their communication needs. This report documents the data collection of Phase
+    1 and the first iteration of data analysis. Phase 1, the qualitative component,
+    focuses on interviews with approximately 240 first responders (law enforcement,
+    fire fighters, emergency medical services, communications/dispatch) across the
+    country. Results include: approximately 90 user needs and requirements expressed
+    by first responders; five categories of technology opportunities; six principles
+    for technology development; and the role of trust in usage of communication technology.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8216'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

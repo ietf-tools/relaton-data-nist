@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-13
 title:
 - content: Summary report on a workshop on advanced monitoring, diagnostics, and prognostics
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-13
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-13.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-13
@@ -22,84 +21,75 @@ docid:
 - id: 10.6028/NIST.AMS.100-13
   type: DOI
 date:
-- type: published
-  value: '2017-11-13'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brian A
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weiss, Brian A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donnie
-          script:
-          - Latn
-      surname:
-        content: Alonzo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Alonzo, Donnie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steve D
-          script:
-          - Latn
-      surname:
-        content: Weinman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weinman, Steve D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-11-13'
-script:
-- Latn
+abstract:
+- content: The American Society of Mechanical Engineers (ASME), in collaboration with
+    the National Institute of Standards and Technology, hosted a Workshop on Advanced
+    Monitoring, Diagnostic, and Prognostic Technologies at the conclusion of the ASME
+    Manufacturing Science and Engineering Conference (MSEC) on June 8th and 9th, 2017,
+    on the campus of University of Southern California in Los Angeles, California.
+    The purpose of the workshop was to bring together key subject matter experts to
+    identify manufacturing needs and wants with respect to advanced monitoring, diagnostic,
+    and prognostic technologies (collectively known as prognostics and health management
+    (PHM)), along with ways of verifying and validating their performance to enhance
+    maintenance and control strategies within manufacturing operations at the factory?floor.
+    This report documents this two-day event which summarizes presentations and brainstorming
+    sessions in addition to detailing the key topic area discussions. The findings
+    in this document are expected to provide a foundation for which a future ASME
+    standards effort will be built. Likewise, the next steps in this effort are detailed
+    towards the end of this document including two follow-up events that will further
+    articulate key topic areas of focus.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-13
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10478
 title:
-- content: Emergency vehicle warning devices:interim review of the state-of-the-art
+- content: Emergency vehicle warning devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: interim review of the state-of-the-art relative to performance standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Emergency vehicle warning devices - interim review of the state-of-the-art
     relative to performance standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10478
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10478.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10478
@@ -22,96 +35,49 @@ docid:
 - id: 10.6028/NBS.RPT.10478
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E T
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: E T
-          script:
-          - Latn
-      surname:
-        content: Pierce
-        script:
-        - Latn
+      completename:
+        content: Pierce, E. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M A
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: M A
-          script:
-          - Latn
-      surname:
-        content: McPherson
-        script:
-        - Latn
+      completename:
+        content: McPherson, M. A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G L
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: G L
-          script:
-          - Latn
-      surname:
-        content: Howett
-        script:
-        - Latn
+      completename:
+        content: Howett, G. L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1971'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10478'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

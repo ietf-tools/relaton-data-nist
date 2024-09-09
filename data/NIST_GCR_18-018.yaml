@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR18-018
 title:
-- content: Structure signited by Virginia WUI fires Feburary 2015 to February 2017
+- content: Structure signited by Virginia WUI fires
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: February 2015 to February 2017
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Structure signited by Virginia WUI fires - February 2015 to February 2017
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.18-018
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2018/NIST.GCR.18-018.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 18-018
@@ -21,84 +34,84 @@ docid:
 - id: 10.6028/NIST.GCR.18-018
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David D
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Evans, David D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79137078
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lavern R
-          script:
-          - Latn
-      surname:
-        content: Scott
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Scott, Lavern R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William D
-          script:
-          - Latn
-      surname:
-        content: Walton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Walton, W. Douglas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: This report documents twenty-one structures that were ignited or significantly
+    damaged by burning wildland vegetation in Virginia over a two-year period starting
+    in 2015. The structures included all of those that would have been lost except
+    for the intervention of local fire departments or the Virginia Department of Forestry
+    to suppress the fires. The objective of the study was to supply data to the National
+    Institute of Standards and Technology (NIST) from wildland-urban interface (WUI)
+    fire sites where structures were ignited, including incident date, structure location,
+    type of wildland vegetation that spread fire to the structure, and the first material
+    ignited. Most of the incidents involved storage or utility buildings that were
+    typically located away from residences where landscaped ground cover abutted a
+    forested area on private property. Many of the structures ignited had wood or
+    wood based exterior finish materials. Exterior finishes were burned and, in many
+    cases burned through allowing fire to spread to the interior. In most cases, the
+    fire was spread to the structure through leaves on the ground. In those incidents,
+    ground leaf and tree litter cover sufficient to spread fire and ignite the structures
+    was estimated to be between 8 cm and 13 cm (3 in and 5 in) deep. Video from the
+    2016 Chalet Village WUI community fire (near Gatlinburg, Tennessee) showed that
+    the same ignition mechanism played a role in the ignition of structures in that
+    community.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 18-018
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

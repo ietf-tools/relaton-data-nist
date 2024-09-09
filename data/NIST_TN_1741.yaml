@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1741
 title:
-- content: Enhancing Performance and Safety in Ambulances through Improved Design
-    Standards
+- content: Enhancing performance and safety in ambulances through improved design
+    standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1741
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1741.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1741
@@ -22,42 +21,73 @@ docid:
 - id: 10.6028/NIST.TN.1741
   type: DOI
 date:
-- type: published
-  value: 2012-05
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D.
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D.
-          script:
-          - Latn
-      surname:
-        content: Kibira
-        script:
-        - Latn
+      completename:
+        content: Kibira, Deogratias,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022039909
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Lee, Y. Tina,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001042904
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Dadfarnia, Mehdi,
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-05
-script:
-- Latn
+abstract:
+- content: This paper describes how modeling and simulation can play a major role
+    in developing standards recommendations for patient compartment layout of automotive
+    ambulances in the United States to improve performance and safety. Acquiring necessary
+    information from relevant stakeholders is shown as a method that can be used to
+    determine user design requirements. The requirements will in turn be used to develop
+    design concepts taking into consideration human interface with the ambulance work
+    environment. The modeling and simulation of clinical care activities in the ambulance
+    can be used to evaluate the design concepts and determine those that would better
+    meet safety and performance requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1741'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

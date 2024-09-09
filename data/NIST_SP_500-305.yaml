@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-305
 title:
 - content: Guidance for evaluating contactless fingerprint acquisition devices
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-305
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-305.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-305
@@ -21,169 +20,135 @@ docid:
 - id: 10.6028/NIST.SP.500-305
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Libert, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grantham, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          script:
-          - Latn
-      surname:
-        content: Bandini
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bandini, Bruce.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151062
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Wood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wood, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr90022216
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Garris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Garris, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          script:
-          - Latn
-      surname:
-        content: Ko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ko, Kenneth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148737
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fred
-          script:
-          - Latn
-      surname:
-        content: Byers
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Byers, Fred.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Watson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Watson, Craig.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021005762
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: This document details efforts undertaken by the National Institute of Standards
+    and Technology (NIST) to develop measurements and a protocol for the evaluation
+    of contactless (touchless) fingerprint acquisition devices. Contactless fingerprint
+    capture differs fundamentally from legacy contact fingerprinting methods, and
+    poses novel problems for image quality evaluation and challenges relative to interoperability
+    with contact fingerprints that populate large repositories maintained by law enforcement
+    and Federal Government organizations. For contact acquisition, the fingerprint
+    impression is a first-order transfer of the 3D friction ridge structure to the
+    recording surface. The third dimension of the curved finger surface is effectively
+    removed by pressure against the planar recording surface. The 3D topography of
+    the ridges and furrows are transferred with low ambiguity to the recording surface
+    as dark ridges (points of contact) and lighter furrows (lesser or no contact).
+    Contactless images by comparison, in most cases, are third-order renderings of
+    an original photographic representation, itself a 2D optical projection of the
+    3D structure of the finger. The appearance of this projection is subject to variability
+    as low- or moderately-controlled lighting interacts with the 3D geometry of the
+    finger, the friction ridge structure superimposed on the finger, and the geometry
+    of the presentation of the finger to the contactless device. The photograph must
+    then be subjected to various image processing methods to infer the ridge structure
+    for rendering as a fingerprint similar in appearance to legacy contact captures.
+    The rendering process is the source of numerous errors relative to contact captures.
+    Despite problems with image quality, this early study finds contactless fingerprints
+    of the devices examined to be usable in some applications, with qualifications,
+    including one- to-many matching against small databases.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-305
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

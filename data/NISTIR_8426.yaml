@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8426
 title:
 - content: Spreadsheet-based software for the analysis of homogeneous and inhomogeneous
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8426
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8426.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8426
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.IR.8426
   type: DOI
 date:
-- type: published
-  value: '2022-06-14'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-06-14'
-script:
-- Latn
 abstract:
 - content: NIST has developed a user-friendly spreadsheet-based software package for
     the Master Curve analysis of fracture toughness tests performed in the ductile-to-brittle
@@ -67,16 +50,24 @@ abstract:
     As in the case of previous software packages developed by the Fatigue and Fracture
     Group of NIST in Boulder, the spreadsheet will be made freely available to the
     public by contacting the author of this report (enrico.lucon@nist.gov).
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8426'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

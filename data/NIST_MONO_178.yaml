@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTMONO178
 title:
 - content: Speed of sound data and related models for mixtures of natural gas constituents
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.MONO.178
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nistmonograph178.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST MONO 178
@@ -21,122 +20,61 @@ docid:
 - id: 10.6028/NIST.MONO.178
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B A
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: B A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Younglove
+      completename:
+        content: Younglove, Ben.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81130047
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N V
-          language:
-          - en
-          script:
-          - Latn
-          initial: N
-        - language:
-          - en
-          script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: N V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frederick
+      completename:
+        content: Frederick, N. V. (Nolan Vincent)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94119104
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R D
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarty
+      completename:
+        content: McCarty, Robert D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81103507
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Monographs
+    content: NIST monograph; NIST MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '178'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

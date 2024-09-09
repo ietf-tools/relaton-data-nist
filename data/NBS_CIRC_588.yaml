@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC588
 title:
-- content: Circular of the Bureau of Standards no. 588:determination and correlation
+- content: Circular of the Bureau of Standards no. 588
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: determination and correlation of flow capacities of pneumatic components
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 588 - determination and correlation
     of flow capacities of pneumatic components
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.588
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular588.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 588
@@ -22,75 +35,53 @@ docid:
 - id: 10.6028/NBS.CIRC.588
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1957'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D H
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: D H
-          script:
-          - Latn
-      surname:
-        content: Tsai
-        script:
-        - Latn
+      completename:
+        content: Tsai, D. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M M
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M M
-          script:
-          - Latn
-      surname:
-        content: Slawsky
-        script:
-        - Latn
+      completename:
+        content: Slawsky, M. M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1957'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '588'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

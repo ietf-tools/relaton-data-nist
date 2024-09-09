@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-124r2
 title:
-- content: Guidelines for Managing the Security of Mobile Devices in the Enterprise
+- content: Guidelines for managing the security of 34 mobile devices in the enterprise
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-124r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-124r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-124r2
@@ -21,46 +20,105 @@ docid:
 - id: 10.6028/NIST.SP.800-124r2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Murugiah
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Howell, Gema.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0428-5045"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Franklin, Joshua M.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Sritapan, Vincent.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Souppaya, Murugiah.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8055-8527"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Scarfone, Karen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-6334-9486"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Mobile devices were initially personal consumer communication devices,
+    but they are now permanent fixtures in enterprises and are used to access modern
+    networks and systems to process sensitive data. This publication assists organizations
+    in managing and securing these devices by describing available technologies and
+    strategies. Security concerns inherent to the usage of mobile devices are explored
+    alongside mitigations and countermeasures. Recommendations are provided for the
+    deployment, use, and disposal of devices throughout the mobile-device life cycle.
+    The scope of this publication includes mobile devices, centralized device management,
+    and endpoint protection technologies, as well as both organization-provided and
+    personally owned deployment scenarios.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTSP800-124r1
+    docid:
+    - id: NIST SP 800-124r1
+      type: NIST
+    formattedref:
+      content: NIST SP 800-124r1
+      format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-124r2
-doctype: standard
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-124r2
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP465
 title:
-- content: Science and technology in America :an assessment
+- content: Science and technology in America
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Science and technology in America - an assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.465
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication465.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 465
@@ -21,171 +34,111 @@ docid:
 - id: 10.6028/NBS.SP.465
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1977'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Teller
+      completename:
+        content: Teller, Edward,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79022081
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Norman
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ramsey
+      completename:
+        content: Ramsey, Norman,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85801562
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William O
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Baker
+      completename:
+        content: Baker, William O. (William Oliver),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010171533
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Henry
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Eyring
+      completename:
+        content: Eyring, Henry.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Garrett
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Birkhoff
+      completename:
+        content: Birkhoff, Garrett,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50015070
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Perlis
+      completename:
+        content: Perlis, Alan.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr99011748
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Seamans
+      completename:
+        content: Seamans, Robert C., Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simon
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ramo
+      completename:
+        content: Ramo, Simon.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50000218
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1977'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '465'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC607
 title:
-- content: Letter Circular 607:the certification plan, its significance, scope and
-    application to selected Federal specifications and commercial standards (superseding
-    Letter Circular 559)
+- content: "\"Letter Circular 607"
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the certification plan, its significance, scope and application to selected
+    Federal specifications and commercial standards (superseding Letter Circular 559)"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: '"Letter Circular 607 - the certification plan, its significance, scope
+    and application to selected Federal specifications and commercial standards (superseding
+    Letter Circular 559)"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.607
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular607.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 607
@@ -23,33 +37,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.607
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1940'
 contributor:
+- person:
+    name:
+      completename:
+        content: Division of Codes and Specifications.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1940'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '607'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

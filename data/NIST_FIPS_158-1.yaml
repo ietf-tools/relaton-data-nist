@@ -1,20 +1,19 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS158-1
 title:
-- content: 'Federal Information Processing Standards Publication: X window system
-    version 11 release 5 (X window system protocol; Xlib-C langauge X interface; X
-    toolkit intrinsics - C language interface; bitmap distribution format 2.1)'
+- content: X window system version 11 release 5 (X window system protocol; Xlib-C
+    langauge X interface; X toolkit intrinsics - C language interface; bitmap distribution
+    format 2.1)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.158-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub158-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 158-1
@@ -23,33 +22,36 @@ docid:
 - id: 10.6028/NIST.FIPS.158-1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1988'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: 158-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

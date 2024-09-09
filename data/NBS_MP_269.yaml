@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP269
 title:
-- content: Statistical association methods for mechanized documentation :symposium
-    proceedings Washington 1964/
+- content: Statistical association methods for mechanized documentation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: symposium proceedings Washington 1964
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Statistical association methods for mechanized documentation - symposium
+    proceedings Washington 1964
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.269
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub269.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 269
@@ -22,69 +35,48 @@ docid:
 - id: 10.6028/NBS.MP.269
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1965'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Giuliano
+      completename:
+        content: Stevens, Mary Elizabeth.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50022561
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary Elizabeth
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stevens
+      completename:
+        content: Giuliano, Vincent E.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1965'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '269'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

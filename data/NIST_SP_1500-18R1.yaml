@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-18r1
 title:
-- content: NIST Research Data Framework (RDaF):Version 1.5
+- content: NIST Research Data Framework (RDaF)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 1.5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Research Data Framework (RDaF) - version 1.5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-18r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-18r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-18r1
@@ -21,46 +34,143 @@ docid:
 - id: 10.6028/NIST.SP.1500-18r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert
-          script:
-          - Latn
-      surname:
-        content: Hanisch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hanisch, Robert J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6853-4602"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kaiser, Debra L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-5114-7588"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Yuan, Alda
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-9619-306X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Medina-Smith, Andrea
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1217-701X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Carroll, Bonnie C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8924-1000"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Campo, Eva M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9808-4112"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The NIST Research Data Framework (RDaF) is a multifaceted and customizable
+    tool that aims to help shape the future of open data access and research data
+    management (RDM). The RDaF will allow organizations and individual researchers
+    to customize an RDM strategy. Although NIST is leading the RDaF, most of the content
+    in the current v.1.5 was obtained via engagement with national and international
+    leaders in the research data community. NIST held a series of three plenary and
+    15 stakeholder workshops. Workshop attendees represented all stakeholder sectors,
+    from government and academia to industry and non-profits. The audience for the
+    RDaF is the entire research data community in all disciplines—the biological,
+    chemical, medical, social, and physical sciences. The RDaF is applicable from
+    the organization to the project level, encompassing a wide array of job roles
+    engaged in activities concerned with research data management, from Executives
+    and Chief Data Officers to publishers, funders, and researchers. The RDaF is a
+    map of the research data space that uses a lifecycle approach with six high-level
+    lifecycle stages to organize key information concerning RDM and research data
+    dissemination. Through a community-driven and in-depth process, NIST identified
+    specific, high-priority topics and subtopics for each lifecycle stage. The topics
+    and subtopics are programmatic and operational activities, concepts, and other
+    important factors relevant to RDM. All elements of the RDaF Framework Core—lifecycle
+    stages and their associated topics and subtopics—are defined and explained. Further,
+    the RDaF team identified Overarching Themes which are pervasive throughout the
+    framework core. The core enables organizations and individual researchers to use
+    the RDaF for self-assessment of their RDM status. In addition, each subtopic has
+    several Informative References—resources such as guidelines standards, and policies.
+    As such, the RDaF may be considered a “best practices” document. The RDaF includes
+    sample “Profiles,” for various job functions or roles. Each of these profiles
+    contains topics and subtopics that an individual in the given job function or
+    role needs to consider in fulfilling their RDM responsibilities. Individual researchers
+    and organizations involved in the research data lifecycle will be able to tailor
+    these profiles for their specific job function. The methodologies used to generate
+    the content of this publication are described in detail.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTSP1500-18
+    docid:
+    - id: NIST SP 1500-18
+      type: NIST
+    formattedref:
+      content: NIST SP 1500-18
+      format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-18r1
-doctype: standard
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 1500-18r
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

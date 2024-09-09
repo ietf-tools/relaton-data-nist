@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-128
 title:
 - content: Guide for security-focused configuration management of information systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-128
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-128
@@ -21,118 +20,103 @@ docid:
 - id: 10.6028/NIST.SP.800-128
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Arnold
-          script:
-          - Latn
-      surname:
-        content: Johnson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Johnson, L. A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012562
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Dempsey, K. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ron
-          script:
-          - Latn
-      surname:
-        content: Ross
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Ross, R. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005062126
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sarbari
-          script:
-          - Latn
-      surname:
-        content: Gupta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Gupta, S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90668752
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Bailey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Bailey, D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89639822
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: The purpose of Special Publication 800-128, Guide for Security-Focused
+    Configuration Management of Information Systems, is to provide guidelines for
+    organizations responsible for managing and administering the security of federal
+    information systems and associated environments of operation. Configuration management
+    concepts and principles described in NIST SP 800-128, provide supporting information
+    for NIST SP 800-53, Recommended Security Controls for Federal Information Systems
+    and Organizations. NIST SP 800-128 assumes that information security is an integral
+    part of an organization⁰₉s overall configuration management. The focus of this
+    document is on implementation of the information system security aspects of configuration
+    management, and as such the term security-focused configuration management (SecCM)
+    is used to emphasize the concentration on information security. In addition to
+    the fundamental concepts associated with SecCM, the process of applying SecCM
+    practices to information systems is described. The goal of SecCM activities is
+    to manage and monitor the configurations of information systems to achieve adequate
+    security and minimize organizational risk while supporting the desired business
+    functionality and services.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-128
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

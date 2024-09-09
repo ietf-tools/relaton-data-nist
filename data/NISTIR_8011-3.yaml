@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8011-3
 title:
-- content: Automation support for security control assessments:software asset management
+- content: Automation support for security control assessments
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: software asset management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Automation support for security control assessments - software asset management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8011-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8011-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8011-3
@@ -21,101 +34,81 @@ docid:
 - id: 10.6028/NIST.IR.8011-3
   type: DOI
 date:
-- type: published
-  value: 2018-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dempsey, Kelley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000344
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nedim
-          script:
-          - Latn
-      surname:
-        content: Goren
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Goren, Nedim.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Eavy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Eavy, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Moore, George.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98012695
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-12
-script:
-- Latn
+abstract:
+- content: The NISTIR 8011 volumes focus on each individual information security capability,
+    adding tangible detail to the more general overview given in NISTIR 8011 Volume
+    1, and providing a template for transition to a detailed, NIST standards-compliant
+    automated assessment. This document, Volume 3 of NISTIR 8011, addresses the Software
+    Asset Management (SWAM) information security capability. The focus of the SWAM
+    capability is to manage risk created by unmanaged software on a network. Unmanaged
+    software is a target that attackers can use as a platform from which to attack
+    components on the network.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8011-3
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

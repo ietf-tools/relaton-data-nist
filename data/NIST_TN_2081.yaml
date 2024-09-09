@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2081
 title:
 - content: Investigations on SI-traceable dynamic calibration of instrumented charpy
-    strikers:activities performed at NIST in FY2019
+    strikers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: activities performed at NIST in FY2019
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Investigations on SI-traceable dynamic calibration of instrumented charpy
+    strikers - activities performed at NIST in FY2019
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2081
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2081.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2081
@@ -22,101 +36,91 @@ docid:
 - id: 10.6028/NIST.TN.2081
   type: DOI
 date:
-- type: published
-  value: 2020-01
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas A
-          script:
-          - Latn
-      surname:
-        content: Vlaijc
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Vlaijc, Nicholas A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Akobuije D
-          script:
-          - Latn
-      surname:
-        content: Chijioke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Chijioke, Akobuije D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lance
-          script:
-          - Latn
-      surname:
-        content: Einfeld
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Einfeld, Lance.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2020-01
-script:
-- Latn
+abstract:
+- content: 'In recent years, investigations have been conducted at NIST (as a collaboration
+    between the Fatigue and Fracture Group in Boulder, CO and the Force and Mass Group
+    in Gaithersburg, MD) toward an SI-traceable dynamic calibration of instrumented
+    Charpy strikers. Although Charpy tests are few-millisecond-duration events in
+    which dynamic phenomena are often clearly present, the force measurements from
+    instrumented Charpy tests are predominantly obtained using static calibrations,
+    which has long been recognized as a potential source of significant errors. Several
+    approaches to dynamic calibration have been considered for this work, including
+    methods that have previously been implemented at NIST and elsewhere, and methods
+    that are new in the sense that they are not commonly used or incorporated into
+    standards. A key objective of these investigations is that the calibration be
+    traceable to the International System of Units. A summary of the activities conducted
+    between January and December 2017 was published as NIST TN 1991, issued in May
+    2018 with the title ''Investigations on SI-Traceable Dynamic Calibration of Instrumented
+    Charpy Strikers,'' authors: A. Chijoke, N. Vlaijc, E. Mulhern, and E. Lucon. A
+    paper on investigations aimed at optimizing the design of an instrumented Charpy
+    striker were summarized in a paper titled ''Design Considerations to Optimize
+    Charpy Instrumented Strikers'' (authors: N. Vlaijc, A. Chijoke, and E. Lucon).
+    The paper was submitted in 2018 but has not yet been published at the time of
+    writing, being still in review after initial rejections. The activities and accomplishments
+    of this project during FY2019 are described in this Technical Note.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2081'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

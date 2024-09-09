@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-45r1
 title:
 - content: Performance measurement of a mobile manipulator-on-a-cart and coordinate
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-45r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-45r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-45r1
@@ -22,90 +21,47 @@ docid:
 - id: 10.6028/NIST.AMS.100-45r1
   type: DOI
 date:
-- type: published
-  value: '2022-04-06'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Omar
-          script:
-          - Latn
-      surname:
-        content: Aboul-Enein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Aboul-Enein, Omar.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mili
-          script:
-          - Latn
-      surname:
-        content: Shah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Shah, Mili.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-04-06'
-script:
-- Latn
 abstract:
 - content: Mobile manipulators, which consist of a robotic manipulator arm on a vehicular
     base, enable more flexible and dynamic workflows in manufacturing processes by
@@ -126,27 +82,32 @@ abstract:
     accuracy of two example coordinate registration techniques to be used by the mobile
     manipulator-on-a-cart to reduce position and orientation uncertainty are also
     compared.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     id: NISTAMS100-45
     docid:
     - id: NIST AMS 100-45
       type: NIST
-      primary: true
     formattedref:
       content: NIST AMS 100-45
       format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-45r1
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2003r1
 title:
-- content: 'Building Industry Reporting and Design for Sustainability (BIRDS) Low-Energy
-    Residential Incremental Energy Efficiency Improvements Database Technical Manual:
-    Update'
+- content: Building Industry Reporting and Design for Sustainability (BIRDS) low-energy
+    residential incremental energy efficiency improvements database technical manual
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: update
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Building Industry Reporting and Design for Sustainability (BIRDS) low-energy
+    residential incremental energy efficiency improvements database technical manual
+    - update
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2003r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2003r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2003r1
@@ -23,118 +37,99 @@ docid:
 - id: 10.6028/NIST.TN.2003r1
   type: DOI
 date:
-- type: published
-  value: '2020-09-22'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: O’Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Priya
-          script:
-          - Latn
-      surname:
-        content: Lavappa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavappa, Priya.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne Landfield
-          script:
-          - Latn
-      surname:
-        content: Greig
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greig, Anne Landfield.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sangwon
-          script:
-          - Latn
-      surname:
-        content: Suh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Suh, Sangwon.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-09-22'
-script:
-- Latn
+abstract:
+- content: Building stakeholders need practical metrics, data, and tools to support
+    decisions related to sustainable building designs, technologies, standards, and
+    codes. The Engineering Laboratory of the National Institute of Standards and Technology
+    (NIST) has addressed this high priority national need by extending its metrics
+    and tools for sustainable building products, known as Building for Environmental
+    and Economic Sustainability (BEES), to whole-buildings. A sustainability measurement
+    system has been developed consisting of whole-building sustainability metrics
+    that are based on innovative extensions to life-cycle assessment (LCA) and life-cycle
+    costing (LCC) approaches involving whole-building energy simulations. The measurement
+    system evaluates the sustainability of both the materials and the energy used
+    by a building over time. It assesses the carbon footprint of buildings as well
+    as 11 other environmental performance metrics, and integrates economic performance
+    metrics to yield science-based measures of the business case for investment choices
+    in high-performance green buildings. Building Industry Reporting and Design for
+    Sustainability (BIRDS) applies the sustainability measurement system to an extensive
+    whole-building performance database NIST has compiled for this purpose. Based
+    on the NIST Net-Zero Energy Residential Test Facility (NZERTF), the BIRDS Low-Energy
+    Residential Incremental Energy Efficiency Improvements Database includes energy,
+    environmental, and cost measurements for 960 000 design variations of the NZERTF
+    for Gaithersburg, MD for study periods up to 30 years. Focusing on a single location
+    allows for the consideration of incremental building energy efficiency measures,
+    both those specified in the most recent International Energy Conservation Code
+    (IECC) and those implemented in the NZERTF. Buildings designed to meet current
+    energy codes can be compared to alternative building designs to determine the
+    impacts of improving building energy efficiency on overall sustainability performance.
+    This report describes the latest version of BIRDS (v4.1) including new options,
+    namely natural gas-fired space and water heater equipment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 2003r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8323
 title:
-- content: Foundational PNT Profile:Applying the Cybersecurity Framework for the Responsible
-    Use of Positioning, Navigation, and Timing (PNT) Services
+- content: Foundational PNT profile
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: applying the cyber security framework for the responsible use of positioning,
+    navigation, and timing (PNT) services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Foundational PNT profile - applying the cyber security framework for the
+    responsible use of positioning, navigation, and timing (PNT) services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8323
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8323
@@ -22,193 +36,141 @@ docid:
 - id: 10.6028/NIST.IR.8323
   type: DOI
 date:
-- type: published
-  value: '2021-02-11'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Bartock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bartock, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0875-4555"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          script:
-          - Latn
-      surname:
-        content: Brule
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brule, Joseph.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3234-4345"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Suzanne
-          script:
-          - Latn
-      surname:
-        content: Lightman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lightman, Suzanne.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5007-3887"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: McCarthy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCarthy, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5559-733X"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen K.
-          script:
-          - Latn
-      surname:
-        content: Reczek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Reczek, Karen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0174-9019"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Doug
-          script:
-          - Latn
-      surname:
-        content: Northrip
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Northrip, Doug.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Arthur
-          script:
-          - Latn
-      surname:
-        content: Scholz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Scholz, Arthur.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Theresa
-          script:
-          - Latn
-      surname:
-        content: Suloway
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Suloway, Theresa.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-02-11'
-script:
-- Latn
-relation:
-- type: hasReprint
-  bibitem:
-    id: NISTIR8323-draft
-    docid:
-    - id: NIST IR 8323-draft
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST IR 8323-draft
-      format: text/plain
+abstract:
+- content: The national and economic security of the United States (US) is dependent
+    upon the reliable functioning of the nation’s critical infrastructure. Positioning,
+    Navigation, and Timing (PNT) services are widely deployed throughout this infrastructure.
+    In a government wide effort to mitigate the potential impacts of a PNT disruption
+    or manipulation, Executive Order (EO)13905, Strengthening National Resilience
+    Through Responsible Use of Positioning, Navigation and Timing Services was issued
+    on February 12, 2020. The National Institute of Standards and Technology (NIST)
+    as part of the Department of Commerce (DoC), produced this voluntary PNT Profile
+    in response to Sec.4 Implementation (a), as detailed in the EO. The PNT Profile
+    was created by using the NIST Cybersecurity Framework and can be used as part
+    of a risk management program to help organizations manage risks to systems, networks,
+    and assets that use PNT services. The PNT Profile is intended to be broadly applicable
+    and can serve as a foundation for the development of sector-specific guidance.
+    This PNT Profile provides a flexible framework for users of PNT to manage risks
+    when forming and using PNT signals and data, which are susceptible to disruptions
+    and manipulations that can be natural, manufactured, intentional, or unintentional.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8323'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8323'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

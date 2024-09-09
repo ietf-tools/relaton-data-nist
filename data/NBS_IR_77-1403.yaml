@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR77-1403
 title:
-- content: A standard ergonomics reference data system :the concept and its assessment
+- content: A standard ergonomics reference data system
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the concept and its assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A standard ergonomics reference data system - the concept and its assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.77-1403
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir77-1403.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 77-1403
@@ -21,183 +34,114 @@ docid:
 - id: 10.6028/NBS.IR.77-1403
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harold P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Van Cott
+      completename:
+        content: Van Cott, Harold P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83053132
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joel J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kramer
+      completename:
+        content: Kramer, Joel J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78015470
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Valmon J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pezoldt
+      completename:
+        content: Pezoldt, V. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77001863
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Louis G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Porter
+      completename:
+        content: Porter, Louis G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85084863
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fried
+      completename:
+        content: Fried, Charles,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80144472
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fechter
+      completename:
+        content: Fechter, John V.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020095454
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Persensky
+      completename:
+        content: Persensky, J. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Warren H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Teichner
+      completename:
+        content: Teichner, Warren H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90640114
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 77-1403
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

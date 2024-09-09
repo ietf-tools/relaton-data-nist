@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2210
 title:
 - content: Inflow turbulence effects on large eddy simulations of the flow around
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2210
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2210.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2210
@@ -22,56 +21,31 @@ docid:
 - id: 10.6028/NIST.TN.2210
   type: DOI
 date:
-- type: published
-  value: '2022-03-07'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Rikhi
-          script:
-          - Latn
-      surname:
-        content: Bose
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bose, Rikhi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          script:
-          - Latn
-      surname:
-        content: Simiu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Simiu, Emil.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-03-07'
-script:
-- Latn
 abstract:
 - content: 'Turbulent flow around an axisymmetric hill at Reynolds number Re H ? 1.3
     10 5 with respect to the hill height is studied using resolved large-eddy simulations
@@ -98,16 +72,22 @@ abstract:
     turbulence in a simulation suppresses the separated shear layer by increasing
     the near-wall velocity gradient, thereby causing early reattachment as in the
     experiment.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2210'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

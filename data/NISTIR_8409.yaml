@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8409
 title:
 - content: Measuring the Common Vulnerability Scoring System base score equation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8409
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8409.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8409
@@ -21,243 +20,119 @@ docid:
 - id: 10.6028/NIST.IR.8409
   type: DOI
 date:
-- type: published
-  value: '2022-11-15'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          script:
-          - Latn
-      surname:
-        content: Mell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Mell, Peter.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          script:
-          - Latn
-      surname:
-        content: Spring
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Spring, Jonathan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dave
-          script:
-          - Latn
-      surname:
-        content: Dugal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Dugal, Dave.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Srividya
-          script:
-          - Latn
-      surname:
-        content: Ananthakrishna
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ananthakrishna, Srividya.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Francesco
-          script:
-          - Latn
-      surname:
-        content: Casotto
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Casotto, Francesco.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Troy
-          script:
-          - Latn
-      surname:
-        content: Fridley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Fridley, Troy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Ganas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ganas, Christopher.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Arkadeep
-          script:
-          - Latn
-      surname:
-        content: Kundu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kundu, Arkadeep.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Phillip
-          script:
-          - Latn
-      surname:
-        content: Nordwall
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Nordwall, Phillip.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vijayamurugan
-          script:
-          - Latn
-      surname:
-        content: Pushpanathan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Pushpanathan, Vijayamurugan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          script:
-          - Latn
-      surname:
-        content: Sommerfeld
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sommerfeld, Daniel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matt
-          script:
-          - Latn
-      surname:
-        content: Tesauro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Tesauro, Matt.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Turner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Turner, Chris.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-11-15'
-script:
-- Latn
 abstract:
 - content: This work evaluates the validity of the Common Vulnerability Scoring System
     (CVSS) Version 3 ''base score'' equation in capturing the expert opinion of its
@@ -278,16 +153,24 @@ abstract:
     points (lower than claimed by the specification). These findings validate that
     the CVSS base score equation represents the CVSS maintainers' domain knowledge
     to the extent described by these measurements.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8409'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.9
+id: NISTTN2261
+title:
+- content: Impact of dynamic prices on distribution grid power quality
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.TN.2261
+  type: doi
+type: standard
+docid:
+- id: NIST TN 2261
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.TN.2261
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Holmberg, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1738-8190"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0618-0060"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Roth, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9986-7784"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory; Communications Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Dynamic price signals may provide a way to support integration of customer
+    distributed energy resources (DER) into the electric grid and to help manage DER
+    flexibility to support distribution system and bulk grid needs. Use of DER flexibility
+    includes peak shifting in response to forward market prices, real-time regulation
+    in response to 5-minute prices, and, potentially, voltage regulation in response
+    to distribution nodal prices. The work presented here compares two approaches
+    for managing heat pump cooling to provide grid services. The first approach implements
+    a rule-based real-time controller that manages power consumption based on 5-minute
+    real-time prices. The second controller uses a building model-based approach to
+    optimize load based on day-ahead hourly prices. These approaches are evaluated
+    in GridLAB-D simulations. Simulation results show both controllers adjusting temperature
+    setpoints in response to price movement, reducing customer cost while staying
+    within pre-defined comfort boundaries. These temperature adjustments resulted
+    in significant power flow volatility at the substation. The average power flow
+    change for the real-time controller, time step to time step, was approximately
+    10 % of the peak load. Some observed power flow changes were equivalent to simultaneously
+    turning off or on all price-responsive loads on the grid. This power flow volatility
+    resulted in voltage volatility at customer meters and greatly increased voltage
+    regulator and capacitor bank actions. Analysis suggests that power flow volatility
+    may be expected when many devices are price-responsive and controllers have the
+    goal of reducing cost without considering voltage. Care must be taken to reduce
+    the volatility of the price signal and boost hosting capacity to support synchronized
+    price response by a large percentage of load.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST technical note; NIST tech note; NIST TN
+    format: text/plain
+  number: '2261'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

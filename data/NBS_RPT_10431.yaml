@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10431
 title:
 - content: A search and rescue simulation model for the United States Coast Guard
-    :volume II - analyst level documentation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: volume II - analyst level documentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A search and rescue simulation model for the United States Coast Guard
+    - volume II - analyst level documentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10431
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10431.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10431
@@ -22,93 +35,45 @@ docid:
 - id: 10.6028/NBS.RPT.10431
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Karp
+      completename:
+        content: Karp, S. S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M D
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: M D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Maltese
+      completename:
+        content: Maltese, M. D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1971'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10431'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

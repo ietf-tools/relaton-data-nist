@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7303
 title:
 - content: Intercomparison program for organic speciation in PM2.5 air particulate
-    matter:description and results for trial III
+    matter
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: description and results for trial III
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Intercomparison program for organic speciation in PM2.5 air particulate
+    matter - description and results for trial III
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7303
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7303.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7303
@@ -22,111 +36,82 @@ docid:
 - id: 10.6028/NIST.IR.7303
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michele
-          script:
-          - Latn
-      surname:
-        content: Schantz
-        script:
-        - Latn
+      completename:
+        content: Schantz, Michele.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dianne
-          script:
-          - Latn
-      surname:
-        content: Poster
-        script:
-        - Latn
+      completename:
+        content: Poster, Dianne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Kucklick
-        script:
-        - Latn
+      completename:
+        content: Kucklick, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
+      completename:
+        content: Wise, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78045837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: McDow
-        script:
-        - Latn
+      completename:
+        content: McDow, Stephen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joellen
-          script:
-          - Latn
-      surname:
-        content: Lewtas
-        script:
-        - Latn
+      completename:
+        content: Lewtas, Joellen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82012733
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7303'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

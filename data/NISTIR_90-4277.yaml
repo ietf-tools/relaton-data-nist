@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR90-4277
 title:
 - content: Evaluation of a surface treatment to improve the erosion resistance of
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.90-4277
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4277.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 90-4277
@@ -22,72 +21,58 @@ docid:
 - id: 10.6028/NIST.IR.90-4277
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lawrence I
-          script:
-          - Latn
-      surname:
-        content: Knab
-        script:
-        - Latn
+      completename:
+        content: Knab, Lawrence I.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80071024
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Clifton
-        script:
-        - Latn
+      completename:
+        content: Clifton, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79099186
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nathaniel
-          script:
-          - Latn
-      surname:
-        content: Waters
-        script:
-        - Latn
+      completename:
+        content: Waters, Nathaniel.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 90-4277
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,0 +1,104 @@
+---
+schema-version: v1.2.9
+id: NISTIR8490
+title:
+- content: Physical component libraries for SysPhS modeling and simulation in manufacturing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.IR.8490
+  type: doi
+type: standard
+docid:
+- id: NIST IR 8490
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8490
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Manion, Charles A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0009-0008-5273-1995"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bock, Conrad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0009-0009-3172-120X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Barbau, Raphael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0331-2929"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Communications Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Computer-interpretable representations of system structure and behavior
+    are at the center of developing today’s complex systems. Systems engineers create
+    and review these representations using graphical languages and information models
+    that capture requirements, designs, and tests (such as the Systems Modeling Language,
+    SysML). The SysML Extension for Physical Interaction and Signal Flow Simulation
+    (SysPhS) is a standard for augmenting SysML models with one-dimensional (lumped
+    parameter) simulation information and translating them to widely-used simulation
+    platforms for testing, without respecifying the system on those platforms. It
+    includes standard reusable models of system components (libraries) corresponding
+    and translated to those in common between the platforms. This report presents
+    additional physical interaction component libraries, covering areas not currently
+    standardized. It applies the libraries to some manufacturing examples, translates
+    them to the simulation platforms, and verifies that they give the same results
+    across platforms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NISTIR
+    format: text/plain
+  number: '8490'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8490'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

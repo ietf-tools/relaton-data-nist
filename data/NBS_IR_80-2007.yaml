@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2007
 title:
-- content: Annual report 1979 :Office of Nondestructive Evaluation
+- content: Annual report 1979
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Office of Nondestructive Evaluation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Annual report 1979 - Office of Nondestructive Evaluation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2007
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2007.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2007
@@ -21,69 +34,51 @@ docid:
 - id: 10.6028/NBS.IR.80-2007
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harold
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berger
+      completename:
+        content: Berger, Harold.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81010923
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Leonard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mordfin
+      completename:
+        content: Mordfin, Leonard.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80104789
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2007
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

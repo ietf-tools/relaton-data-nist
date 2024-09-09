@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN81
 title:
-- content: An Evaluation of Kacser's second order born approximation to the Bremsstrahlung
+- content: An evaluation of Kacser's second order born approximation to the Bremsstrahlung
     differential cross section
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.81
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote81.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 81
@@ -22,52 +21,37 @@ docid:
 - id: 10.6028/NBS.TN.81
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ofelt
+      completename:
+        content: Ofelt, George S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1960'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '81'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

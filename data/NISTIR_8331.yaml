@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8331
 title:
-- content: 'Ongoing Face Recognition Vendor Test (FRVT) Part 6B: Face recognition
-    accuracy with face masks using post-COVID-19 algorithms'
+- content: Ongoing Face Recognition Vendor Test (FRVT) part 6B
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: face recognition accuracy with face masks using post-COVID-19 algorithms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Ongoing Face Recognition Vendor Test (FRVT) part 6B - face recognition
+    accuracy with face masks using post-COVID-19 algorithms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8331
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8331.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8331
@@ -22,84 +35,75 @@ docid:
 - id: 10.6028/NIST.IR.8331
   type: DOI
 date:
-- type: published
-  value: '2020-11-30'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei Lee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-11-30'
-script:
-- Latn
+abstract:
+- content: This is the second of a series of reports on the performance of face recognition
+    algorithms on faces occluded by protective face masks commonly worn to reduce
+    inhalation and exhalation of viruses. This is a continuous study is being run
+    under the Ongoing Face Recognition Vendor Test (FRVT) executed by the National
+    Institute of Standards and Technology (NIST). In our first report, we tested "pre-pandemic"
+    algorithms that were already submitted to FRVT 1:1 prior to mid-March 2020. This
+    report augments its predecessor with results for more recent algorithms provided
+    to NIST after the COVID-19 pandemic was declared. While we do not have information
+    on whether or not a particular algorithm was designed with face coverings in mind,
+    the results show evidence that a number of developers have adapted their algorithms
+    to support face recognition on subjects potentially wearing face masks. The algorithms
+    tested were one- to-one algorithms submitted to the FRVT 1:1 Verification track.
+    Future editions of this document will also report accuracy of one-to- many algorithms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8331'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8331'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

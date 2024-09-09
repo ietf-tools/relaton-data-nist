@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-183
 title:
-- content: 'SRM 1967a: High-Purity Platinum Thermoelement'
+- content: SRM 1967a
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: high-purity platinum thermoelement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SRM 1967a - high-purity platinum thermoelement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-183
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-183.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-183
@@ -21,117 +34,61 @@ docid:
 - id: 10.6028/NIST.SP.260-183
   type: DOI
 date:
-- type: published
-  value: 2016-03
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K. M.
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: K. M.
-          script:
-          - Latn
-      surname:
-        content: Garrity
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Garrity, K. M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022011923
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D. C.
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: D. C.
-          script:
-          - Latn
-      surname:
-        content: Ripple
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Tew, Weston L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073887
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W. L.
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: W. L.
-          script:
-          - Latn
-      surname:
-        content: Tew
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ripple, Dean C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003126568
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-183
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

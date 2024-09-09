@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1200-25
 title:
-- content: 'Protocol for collecting and quantifying release from weathered epoxy-nanosilica
-    coatings: using a simulated rain method and inductively coupled plasma-optical
-    emission spectrometry'
+- content: Protocol for collecting and quantifying release from weathered epoxy-nanosilica
+    coatings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: using a simulated rain method and inductively coupled plasma-optical emission
+    spectrometry
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Protocol for collecting and quantifying release from weathered epoxy-nanosilica
+    coatings - using a simulated rain method and inductively coupled plasma-optical
+    emission spectrometry
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1200-25
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1200-25.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1200-25
@@ -23,118 +38,93 @@ docid:
 - id: 10.6028/NIST.SP.1200-25
   type: DOI
 date:
-- type: published
-  value: '2017-11-30'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Savelas A
-          script:
-          - Latn
-      surname:
-        content: Rabb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Rabb, Savelas A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lee L
-          script:
-          - Latn
-      surname:
-        content: Yu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Yu, Lee L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022053287
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Deborah S
-          script:
-          - Latn
-      surname:
-        content: Jacobs
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jacobs, Deborah S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tinh
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Nguyen, Tinh.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021153114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lipiin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sung, Lipiin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: '2017-11-30'
-script:
-- Latn
+abstract:
+- content: Polymer coatings containing nanofillers (such as alumina, titania, silica,
+    zinc oxide, etc.) are increasingly, or potentially will be, used in construction,
+    aerospace, automobile, electronics, and many other coating-related industries.
+    These nanocoatings are often exposed to severe mechanical and environmental stresses
+    during a polymer nanocoating's life cycle. As time passes and the polymer degrades,
+    the nanofillers migrate to the surface of the nanocoating and can be released
+    into the environment. This SP emphasizes the assessment and measurement of nanosilica
+    release from weathered epoxy nanocoatings. This protocol can be applied to other
+    nanocoatings or nanocomposite systems. Updates to this protocol may be released
+    in the future. Visit https://www.nist.gov/mml/nano-measurement-protocols for revisions
+    of this protocol or for new protocols in the series. Users are encouraged to reference
+    the protocol in their publications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1200-25
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

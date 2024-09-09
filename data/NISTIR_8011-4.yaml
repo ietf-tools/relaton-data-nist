@@ -1,122 +1,123 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8011-4
 title:
-- content: Automation support for security control assessments:software vulnerability
+- content: Automation support for security control assessments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: software vulnerability management, volume 4
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Automation support for security control assessments - software vulnerability
     management, volume 4
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
-- content: https://doi.org/10.6028/nist.ir.8011-4
+- content: https://doi.org/10.6028/NIST.IR.8011-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8011-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8011-4
   type: NIST
   primary: true
-- id: 10.6028/nist.ir.8011-4
+- id: 10.6028/NIST.IR.8011-4
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dempsey, Kelley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000344
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eduardo
-          script:
-          - Latn
-      surname:
-        content: Takamura
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Takamura, Eduardo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Eavy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Eavy, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Moore, George.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98012695
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: The NISTIR 8011 capability-specific volumes focus on the automation of
+    security control assessment within each individual information security capability.
+    They add tangible detail to the more general overview given in NISTIR 8011 Volume
+    1, providing a template for transition to a detailed, NIST standards-compliant
+    automated assessment. This document, Volume 4 of NISTIR 8011, addresses the management
+    of risk created by defects present in software on the network. Software vulnerability
+    management, in the scope of this document, focuses on known defects that have
+    been discovered in software in use on a system. The Common Weakness Enumeration
+    (CWE) provides identifiers for weaknesses that result from poor coding practices
+    and have the potential to result in software vulnerabilities. The Common Vulnerabilities
+    and Exposures (CVEs) program provides a list of many known vulnerabilities. Together,
+    CVE and CWE are used to identify software defects and the weaknesses that caused
+    a given defect. Vulnerable software is a key target that attackers use to initiate
+    an attack internally and to expand control. Patching vulnerabilities discovered
+    in existing software and improving coding practices for future releases of software
+    are two ways to limit the success of attacks.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: 8011-4
+  number: 8011v4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

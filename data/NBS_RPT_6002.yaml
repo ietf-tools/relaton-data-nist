@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6002
 title:
 - content: Transfer characteristics of radio waves propagated between the ionosphere
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6002
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6002.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6002
@@ -22,96 +21,80 @@ docid:
 - id: 10.6028/NBS.RPT.6002
   type: DOI
 date:
-- type: published
-  value: 1958-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          script:
-          - Latn
-      surname:
-        content: Johler
-        script:
-        - Latn
+      completename:
+        content: Johler, J. Ralph.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82096244
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L C
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: L C
-          script:
-          - Latn
-      surname:
-        content: Walters
-        script:
-        - Latn
+      completename:
+        content: Walters, L. C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C M
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: C M
-          script:
-          - Latn
-      surname:
-        content: Lilley
-        script:
-        - Latn
+      completename:
+        content: Lilley, C. M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1958-09
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The transfer characteristics (amplitude and phase as a function of frequency)
+    of the sky wave propagated between the D-region and the E-region of the ionosphere
+    and the earth have been evaluated at low and very low frequencies by the geometrical-optical
+    theory employing the quasi-longitudinal approximation of the ionosphere reflection
+    coefficients. Distances, d/j, up to 1000 statute miles are considered and multiple
+    hops or time-modes (j = 1, 2, 3, ... ) are evaluated for a vertical electric dipole
+    source. The effects of the electron density, collision frequency, intensity of
+    the earth's magnetic field and the geometrical parameters are illustrated. The
+    effect of the vertical lapse of the permittivity of the earth's atmosphere is
+    introduced into the computation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6002'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP637v2
 title:
 - content: Optical fiber characterization
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.637v2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication637v2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 637v2
@@ -21,204 +20,95 @@ docid:
 - id: 10.6028/NBS.SP.637v2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: GE
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: GE
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chamberlain
+      completename:
+        content: Chamberlain, G. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021147104
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G W
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: G W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Day
+      completename:
+        content: Day, G. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003081987
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D L
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: D L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Franzen
+      completename:
+        content: Franzen, Douglas L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80071190
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gallawa
+      completename:
+        content: Gallawa, R. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82015369
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E M
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: E M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kim
+      completename:
+        content: Kim, E. M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2018007631
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Young
+      completename:
+        content: Young, M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88638462
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 637v2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCRPL4-1
 title:
 - content: The comparative accuracy of various existing and proposed radio navigation
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CRPL.4-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/crpl/crpl-4-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CRPL 4-1
@@ -22,58 +21,40 @@ docid:
 - id: 10.6028/NBS.CRPL.4-1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1946'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Q
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: Q
-        formatted_initials:
-          content: W Q
-          script:
-          - Latn
-      surname:
-        content: Crichlow
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Crichlow, W. Q. (William Quarles),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000243
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Central Radio Propogation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1946'
-script:
-- Latn
 series:
 - title:
-    content: NBS CRPL Solar-Geophysical Data
+    content: NBS Central Radio Propogation Laboratory Report; NBS CRPL Report
     format: text/plain
-  abbreviation:
-    content: CRPL
   number: 4-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

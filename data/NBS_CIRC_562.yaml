@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC562
 title:
-- content: Circular of the Bureau of Standards no. 562:bibliography of research on
-    deuterium and tritium compounds 1945 and 1952
+- content: Circular of the Bureau of Standards no. 562
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: bibliography of research on deuterium and tritium compounds 1945 and 1952
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 562 - bibliography of research
+    on deuterium and tritium compounds 1945 and 1952
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.562
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular562.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 562
@@ -22,59 +35,56 @@ docid:
 - id: 10.6028/NBS.CIRC.562
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lawrence M
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
+      completename:
+        content: Brown, Lawrence M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles W
-          script:
-          - Latn
-      surname:
-        content: Beckett
-        script:
-        - Latn
+      completename:
+        content: Beckett, Charles W.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003110891
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1956'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '562'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

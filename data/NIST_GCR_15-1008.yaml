@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-1008
 title:
-- content: 'NIST Disaster and Failure Studies Data Repository: The Chile Earthquake
-    Database – Ground Motion and Building Performance Data from the 2010 Chile Earthquake
-    – User Manual'
+- content: NIST disaster and failure studies data repository
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the Chile earthquake database - ground motion and building performance
+    data from the 2010 Chile earthquake - user manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST disaster and failure studies data repository - the Chile earthquake
+    database - ground motion and building performance data from the 2010 Chile earthquake
+    - user manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-1008
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-1008.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-1008
@@ -23,67 +37,51 @@ docid:
 - id: 10.6028/NIST.GCR.15-1008
   type: DOI
 date:
-- type: published
-  value: 2015-12
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ann Christine
-          script:
-          - Latn
-      surname:
-        content: Catlin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Catlin, Ann Christine.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021149485
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Santiago
-          script:
-          - Latn
-      surname:
-        content: Pujol
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pujol, Santiago.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014013321
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-12
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-1008
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

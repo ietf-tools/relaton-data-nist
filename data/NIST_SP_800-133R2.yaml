@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-133r2
 title:
 - content: Recommendation for cryptographic key generation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-133r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-133r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-133r2
@@ -21,109 +20,71 @@ docid:
 - id: 10.6028/NIST.SP.800-133r2
   type: DOI
 date:
-- type: published
-  value: '2020-06-04'
-- type: confirmed
-  value: '2020-06-03'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Roginsky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Roginsky, Allen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022077196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Davis, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84000763
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-edition:
-  content: r2
-revdate: '2020-06-04'
-script:
-- Latn
-relation:
-- type: obsoletes
-  bibitem:
-    id: NISTSP800-133r1
-    docid:
-    - id: NIST SP 800-133r1
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-133r1
-      format: text/plain
-- type: editionOf
-  bibitem:
-    id: NISTSP800-133
-    docid:
-    - id: NIST SP 800-133
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-133
-      format: text/plain
+abstract:
+- content: 'Cryptography is often used in an information technology security environment
+    to protect data that is sensitive, has a high value, or is vulnerable to unauthorized
+    disclosure or undetected modification during transmission or while in storage.
+    Cryptography relies upon two basic components: an algorithm (or cryptographic
+    methodology) and a cryptographic key. This Recommendation discusses the generation
+    of the keys to be managed and used by the approved cryptographic algorithms.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-133r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

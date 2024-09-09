@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-220
 title:
 - content: 2021 cybersecurity and privacy annual report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-220
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-220.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-220
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.SP.800-220
   type: DOI
 date:
-- type: published
-  value: '2022-09-26'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: O'Reilly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Reilly, Patrick.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristina
-          script:
-          - Latn
-      surname:
-        content: Rigopoulos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Rigopoulos, Kristina.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Feldman, Larry.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Greg
-          script:
-          - Latn
-      surname:
-        content: Witte
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Witte, Greg.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-09-26'
-script:
-- Latn
 abstract:
 - content: During Fiscal Year 2021 (FY 2021) from October 1, 2020, through September
     30, 2021 the NIST Information Technology Laboratory (ITL) Cybersecurity and Privacy
@@ -123,16 +79,22 @@ abstract:
     to the Small Business Cybersecurity Corner website to make resources easier to
     find and use and drawing on contributed cybersecurity resources and feedback received
     from federal partners and the public.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-220
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

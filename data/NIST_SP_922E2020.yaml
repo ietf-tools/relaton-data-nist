@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP922e2020
 title:
 - content: Polycyclic aromatic hydrocarbon structure index
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.922e2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.922e2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 922e2020
@@ -21,67 +20,54 @@ docid:
 - id: 10.6028/NIST.SP.922e2020
   type: DOI
 date:
-- type: published
-  value: 2020-08
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lane C
-          script:
-          - Latn
-      surname:
-        content: Sander
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sander, Lane C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wise, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
   role:
   - type: publisher
-revdate: 2020-08
-script:
-- Latn
+abstract:
+- content: 'NIST Special Publication (SP) 922 is an aid in the identification of the
+    chemical structures of polycyclic aromatic hydrocarbons (PAHs). The Structure
+    Index consists of two parts: (1) a cross index of named PAHs listed in alphabetical
+    order and (2) chemical structures including ring numbering, name(s), Chemical
+    Abstract Service (CAS) Registry numbers, chemical formulas, molecular weights,
+    and length-to-breadth ratios (L/B) and shape descriptors of PAHs listed in order
+    of increasing molecular weight.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 922e2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

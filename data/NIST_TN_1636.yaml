@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1636
 title:
 - content: Development and demonstration of a method to evaluate bio-sampling strategies
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1636
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1636.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1636
@@ -22,154 +21,105 @@ docid:
 - id: 10.6028/NIST.TN.1636
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Stuart
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dols
+      completename:
+        content: Dols, W. Stuart.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003054410
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brett D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Matzke
+      completename:
+        content: Matzke, Brett D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022054875
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Landon H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sego
+      completename:
+        content: Sego, Landon H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022081361
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jayne B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Morrow
+      completename:
+        content: Morrow, Jayne B. (Jane Billmayer)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062440
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nuffer
+      completename:
+        content: Nuffer, Lisa L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065183
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brent A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pulsipher
+      completename:
+        content: Pulsipher, Brent A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073726
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Persily
+      completename:
+        content: Persily, Andrew K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098896
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1636'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR23-042
 title:
-- content: ASCE-NOAA Leadership Summit on Climate-Ready Infrastructure:Summary Report
-    from a Summit held February 2, 2023 at ASCE Headquarters, Reston, VA
+- content: ASCE-NOAA leadership summit on climate-ready infrastructure
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary report from a summit held February 2, 2023 at ASCE Headquarters,
+    Reston, VA
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: ASCE-NOAA leadership summit on climate-ready infrastructure - summary report
+    from a summit held February 2, 2023 at ASCE Headquarters, Reston, VA
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.23-042
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2023/NIST.GCR.23-042.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 23-042
@@ -22,46 +36,69 @@ docid:
 - id: 10.6028/NIST.GCR.23-042
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Parris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Parris, Adam.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7496-7666"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Heitsch, Samantha.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Carlson, D’Arcy.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This document summarizes presentations and discussions from the February
+    2023 ASCE-NOAA Leadership Summit. It also presents key takeaways from the Summit
+    for NIST to consider in advancing community resilience planning and assessment
+    through community user guidance, particularly via updates to NIST’s Community
+    Resilience Program published the Community Resilience Planning Guide (CRPG).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 23-042
-doctype: standard
+- title:
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
+    format: text/plain
+  number: 23-042
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

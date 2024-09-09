@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB131
 title:
 - content: Using ANS FOTRAN
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.131
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook131.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 131
@@ -21,98 +20,78 @@ docid:
 - id: 10.6028/NBS.HB.131
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gordon
-          script:
-          - Latn
-      surname:
-        content: Lyon
-        script:
-        - Latn
+      completename:
+        content: Lyon, Gordon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77017550
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fraces E
-          script:
-          - Latn
-      surname:
-        content: Holberton
-        script:
-        - Latn
+      completename:
+        content: Holberton, Fraces E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          script:
-          - Latn
-      surname:
-        content: Larmouth
-        script:
-        - Latn
+      completename:
+        content: Larmouth, J. (John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80073600
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M D
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: M D
-          script:
-          - Latn
-      surname:
-        content: McIlroy
-        script:
-        - Latn
+      completename:
+        content: McIlroy, M. D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80070005
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1980'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '131'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

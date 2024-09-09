@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP618
 title:
 - content: Environmental speciation and monitoring needs for trace metal-containing
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.618
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication618.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 618
@@ -22,69 +21,76 @@ docid:
 - id: 10.6028/NBS.SP.618
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frederick E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brinckman
+      completename:
+        content: Brinckman, Frederick E.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83061707
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fish
+      completename:
+        content: Fish, Richard H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82208974
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'This book presents the Proceedings of the DoE/NBS Workshop on Environmental
+    Speciation and Monitoring Needs for Trace Metal-Containing Substances from Energy
+    Related Processes held at the National Bureau of Standards , Gaithersburg, MD,
+    on May 18-20, 1981. The Workshop was sponsored by the Office of Health and Environmental
+    Research, DoE, and the Office of Recycled Materials, NBS. The volume contains
+    refereed papers submitted by 24 invited speakers, along with substantially complete
+    text of the discussion following the papers, edited by the Co-chairpersons. The
+    Proceedings address three major topic areas forming the overall objective of the
+    Workshop: (1) What are the general and specific types of metal- or metalloid-containing
+    substances occurring in energy-related process materials such as coals, oil shales,
+    and waste products. (2) What are the current status and future prospects of element-
+    and compound-specific measurement methods suitable for speciation of trace (ppm,
+    ppb) metal- and metalloid-containing substances transmitted to the environment
+    by energy-processing or waste cycling technologies. (3) For what toxic molecular
+    forms of speciated process effluents should biological dose-response data be generated
+    to assure reliable environmental impact and monitoring measurements. Main questions
+    focused on providing assurance that the speciation methods (or their development)
+    fit basic bioassay criteria along with appropriate standard reference materials
+    for meeting quantitative process and waste monitoring or control needs.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '618'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

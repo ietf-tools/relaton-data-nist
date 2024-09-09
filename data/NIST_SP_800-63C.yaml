@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-63c
 title:
 - content: 'Digital identity guidelines: federation and assertions'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-63c
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63c.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-63c
@@ -21,203 +20,147 @@ docid:
 - id: 10.6028/NIST.SP.800-63c
   type: DOI
 date:
-- type: published
-  value: '2017-06-22'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          script:
-          - Latn
-      surname:
-        content: Grassi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grassi, Paul A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085231
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Justin P
-          script:
-          - Latn
-      surname:
-        content: Richer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Richer, Justin P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sarah K
-          script:
-          - Latn
-      surname:
-        content: Squire
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Squire, Sarah K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James L
-          script:
-          - Latn
-      surname:
-        content: Fenton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fenton, James L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085063
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ellen M
-          script:
-          - Latn
-      surname:
-        content: Nadeau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nadeau, Ellen M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Naomi B
-          script:
-          - Latn
-      surname:
-        content: Lefkovitz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lefkovitz, Naomi B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085243
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jamie M
-          script:
-          - Latn
-      surname:
-        content: Danker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Danker, Jamie M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085096
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Choong, Yee-Yin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012016196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen K
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085049
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary F
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Theofanos, Mary F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085028
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2017-06-22'
-script:
-- Latn
+abstract:
+- content: This document and its companion documents, SP 800-63, SP 800-63A, and SP
+    800-63B, provide technical and procedural guidelines to agencies for the implementation
+    of federated identity systems and for assertions used by federations. This publication
+    supersedes corresponding sections of SP 800-63-2. These guidelines provide technical
+    requirements for federal agencies implementing digital identity services and are
+    not intended to constrain the development or use of standards outside of this
+    purpose. This guideline focuses on the use of federated identity and the use of
+    assertions to implement identity federations. Federation allows a given credential
+    service provider to provide authentication and (optionally) subscriber attributes
+    to a number of separately-administered relying parties. Similarly, relying parties
+    may use more than one credential service provider.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-63c
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

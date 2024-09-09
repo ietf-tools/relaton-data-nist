@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1999
 title:
 - content: 'Building industry reporting and design for sustainability (BIRDS) building
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1999
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1999.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1999
@@ -22,118 +21,112 @@ docid:
 - id: 10.6028/NIST.TN.1999
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: O'Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84072142
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne Landfield
-          script:
-          - Latn
-      surname:
-        content: Greig
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greig, Anne Landfield.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022021989
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sangwon
-          script:
-          - Latn
-      surname:
-        content: Suh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Suh, Sangwon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002014223
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: Building stakeholders need practical metrics, data, and tools to support
+    decisions related to sustainable building designs, technologies, standards, and
+    codes. The Engineering Laboratory of the National Institute of Standards and Technology
+    (NIST) has addressed this high priority national need by extending its metrics
+    and tools for sustainable building products, known as Building for Environmental
+    and Economic Sustainability (BEES), to whole buildings. Whole building sustainability
+    metrics have been developed based on innovative extensions to life-cycle assessment
+    (LCA) and life-cycle costing (LCC) approaches involving whole building energy
+    simulations. The measurement system evaluates the sustainability of both the materials
+    and the energy used by a building over time. It assesses the carbon footprint
+    of buildings as well as 11 other environmental performance metrics, and integrates
+    economic performance metrics to yield science-based measures of the business case
+    for investment choices in high-performance green buildings. Building Industry
+    Reporting and Design for Sustainability (BIRDS) applies the new sustainability
+    measurement system to an extensive whole building performance database NIST has
+    compiled for this purpose. The updated BIRDS residential building database includes
+    energy, environmental, and cost measurements for 9120 new residential buildings,
+    covering 10 single-family dwellings (5 one-story and 5 two-story of a various
+    of conditioned floor area) in 228 cities across all U.S. states for study period
+    lengths ranging from 1 year to 40 years. The sustainability performance of buildings
+    designed to meet current state energy codes can be compared to their performance
+    when meeting four alternative building energy standard editions to determine the
+    impact of energy efficiency on sustainability performance. The impact of the building
+    location and the investor's time horizon on sustainability performance (economic
+    and environmental) can also be measured.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1999'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP672e1991
 title:
-- content: Experimentation and measurement.
+- content: Experimentation and measurement
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.672e1991
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication672e1991.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 672e1991
@@ -21,93 +20,55 @@ docid:
 - id: 10.6028/NIST.SP.672e1991
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W J
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: W J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Youden
+      completename:
+        content: Youden, W. J. (William John),
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: W J
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: W J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Youden
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84053230
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This book is an elementary introduction to the laws of measurements. But
+    the approach is not an abstract discussion of measurements, instead it depends
+    upon getting you to make measurements and, by observing collections of measurements,
+    to discover for yourself some of the properties of measurements. The idea is to
+    learn something about measurement that will be useful-no matter what is being
+    measured. Some hint is given of the devices that scientists and measurements specialists
+    use to get more out of the available equipment. Understanding something about
+    the laws of measurements, a person may be able to get the answers to your own
+    research problems with half the usual amount of work. No young scientist can afford
+    to pass up a topic that may double his scientific achievements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 672e1991
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

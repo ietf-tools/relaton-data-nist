@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8273
 title:
 - content: NIST Fatty Acid Quality Assurance Program 2017 final report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8273
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8273.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8273
@@ -21,67 +20,62 @@ docid:
 - id: 10.6028/NIST.IR.8273
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce A Jr
-          script:
-          - Latn
-      surname:
-        content: Benner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Benner, Bruce A. Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jacolin A
-          script:
-          - Latn
-      surname:
-        content: Murray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Murray, Jacolin A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: At the request of the National Institutes of Health (NIH) Office of Dietary
+    Supplements (ODS) and in conjunction with the Centers for Disease Control and
+    Prevention (CDC), in 2017 the National Institute of Standards and Technology (NIST)
+    conducted the fourth Fatty Acid Quality Assurance Program (FAQAP) interlaboratory
+    study of fatty acid (FA) concentrations in human serum. This 2017 FAQAP study
+    included measurements of free FAs (extraction and measurement prior to acid/base
+    hydrolysis) and total FAs (measurement after acid/base hydrolysis). Participants
+    were requested to analyze SRM 1950 Metabolites in Frozen Human Plasma as a control,
+    three unknown sera, and a free fatty acid (FFA) solution. Participants measuring
+    fatty acid methyl ester (FAME) derivatives of FAs were asked to analyze a FAME
+    solution. The results from this fourth exercise are reported along with a summary
+    of the analytical methods used by the 14 participating laboratories.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8273'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

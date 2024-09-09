@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP891e1997
 title:
 - content: Standards setting in the European Union
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.891e1997
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication891e1997.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 891e1997
@@ -21,103 +20,61 @@ docid:
 - id: 10.6028/NIST.SP.891e1997
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rensberger
+      completename:
+        content: Rensberger, Roger A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96076253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Roger A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rensberger
+      completename:
+        content: Zande, Rene van de.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96076256
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rene
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: van de Zande
+      completename:
+        content: Delaney, Helen.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Helen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Delaney
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97107491
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1997'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 891e1997
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

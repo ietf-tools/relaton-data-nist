@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10583
 title:
 - content: Utilization of the industrial technology capability of the National Bureau
-    of Standards :report on phase I of Project Implementation Order Entitled
+    of Standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: report on phase I of Project Implementation Order Entitled
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Utilization of the industrial technology capability of the National Bureau
+    of Standards - report on phase I of Project Implementation Order Entitled
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10583
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10583.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10583
@@ -22,81 +36,48 @@ docid:
 - id: 10.6028/NBS.RPT.10583
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E L
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: E L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brady
+      completename:
+        content: Brady, E. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010043563
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steffen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peiser
+      completename:
+        content: Peiser, Steffen.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1971'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10583'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,0 +1,122 @@
+---
+schema-version: v1.2.9
+id: NISTNSRDS64-2023
+title:
+- content: NIST electron elastic-scattering cross-section database
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: version 5.0 user’s guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST electron elastic-scattering cross-section database - version 5.0 user’s
+    guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.NSRDS.64-2023
+  type: doi
+type: standard
+docid:
+- id: NIST NSRDS 64-2023
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.NSRDS.64-2023
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Jablonski, Aleksander.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7460-8623"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Salvat, F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6162-8841"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Powell, Cedric.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8990-2286"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Material Measurement Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Version 5.0 of the database was released in December 2023. Most screens
+    were redesigned. An option was added to provide samplers of polar elastic-scattering
+    angles that can be used in Monte Carlo simulations of electron transport in solids
+    (as was possible in Version 3.2 and earlier versions). However, a more accurate
+    numerical method has been implemented in Version 5.0, as described in Appendix
+    A. The new sampler is designed to generate scattering angles for electron energies
+    between 50 eV and 20 keV. The differential elastic-scattering cross sections (DCSs)
+    were calculated using the relativistic Dirac partial-wave method, as described
+    by Walker [3]. The scattering potential was obtained from the self-consistent
+    Dirac-Hartree-Fock electron density for free atoms [4] with the local exchange
+    potential of Furness and McCarthy [5]. The numerical calculations were performed
+    with the algorithm described by Salvat and Mayol [6]. Transport cross sections
+    were calculated from the DCSs as described by Jablonski et al. [1].
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTNSRDS64
+    docid:
+    - id: NIST NSRDS 64
+      type: NIST
+    formattedref:
+      content: NIST NSRDS 64
+      format: text/plain
+series:
+- title:
+    content: NSRDS-NIST; National standard reference data series
+    format: text/plain
+  number: 64-2023
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

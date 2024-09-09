@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10292
 title:
-- content: Automobile tire sounds - acoustical grading system feasibility:1. endurance
+- content: Automobile tire sounds - acoustical grading system feasibility
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 1. endurance wheel study
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Automobile tire sounds - acoustical grading system feasibility - 1. endurance
     wheel study
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10292
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10292.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10292
@@ -22,72 +35,49 @@ docid:
 - id: 10.6028/NBS.RPT.10292
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1970'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Arthur I
-          script:
-          - Latn
-      surname:
-        content: Rubin
-        script:
-        - Latn
+      completename:
+        content: Rubin, Arthur I.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald L
-          script:
-          - Latn
-      surname:
-        content: Fisher
-        script:
-        - Latn
+      completename:
+        content: Fisher, Ronald L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John S
-          script:
-          - Latn
-      surname:
-        content: Forrer
-        script:
-        - Latn
+      completename:
+        content: Forrer, John S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1970'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10292'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

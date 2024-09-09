@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-76
 title:
 - content: Biometric data specification for personal identity verification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-76
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-76.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-76
@@ -21,129 +20,80 @@ docid:
 - id: 10.6028/NIST.SP.800-76
   type: DOI
 date:
-- type: published
-  value: '2005'
+- type: issued
+  value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C L
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: C L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
+      completename:
+        content: Wilson, Charles L.,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098894
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P J
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: P J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grother
+      completename:
+        content: Grother, P. J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
+      completename:
+        content: Candramauḷi, Ār.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015202084
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Homeland Security Presidential Directive HSPD-12 called for new standards
+    to be adopted governing the interoperable use of identity credentials to allow
+    physical and logical access to Federal government locations and systems. The Personal
+    Identity Verification (PIV) for Federal Employees and Contractors, Federal Information
+    Processing Standard (FIPS 201) was developed to establish standards for identity
+    credentials. This document, Special Publication 800-76 (SP 800-76), is a companion
+    document to FIPS 201. It specifies technical acquisition and formatting requirements
+    for the biometric credentials of the PIV system, including the PIV Card1 itself.
+    It enumerates required procedures and formats for fingerprints and facial images
+    by restricting values and practices included generically in published biometric
+    standards. The primary design objective behind these particular specifications
+    is universal interoperability. For the preparation of biometric data suitable
+    for the Federal Bureau of Investigation (FBI) background check, SP 800-76 references
+    FBI documentation, including the ANSI/NIST Fingerprint Standard and the Electronic
+    Fingerprint Transaction Sets.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-76
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

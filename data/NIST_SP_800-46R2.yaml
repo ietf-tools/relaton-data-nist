@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-46r2
 title:
-- content: Guide to Enterprise Telework, Remote Access, and Bring Your Own Device
-    (BYOD) Security
+- content: Guide to enterprise telework, remote access, and bring your own device
+    (BYOD) security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-46r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-46r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-46r2
@@ -22,67 +21,66 @@ docid:
 - id: 10.6028/NIST.SP.800-46r2
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Murugiah P
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Souppaya, Murugiah.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006135981
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen A
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017003
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: For many organizations, their employees, contractors, business partners,
+    vendors, and/or others use enterprise telework or remote access technologies to
+    perform work from external locations. All components of these technologies, including
+    organization-issued and bring your own device (BYOD) client devices, should be
+    secured against expected threats as identified through threat models. This publication
+    provides information on security considerations for several types of remote access
+    solutions, and it makes recommendations for securing a variety of telework, remote
+    access, and BYOD technologies. It also gives advice on creating related security
+    policies.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-46r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

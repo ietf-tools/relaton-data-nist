@@ -1,0 +1,106 @@
+---
+schema-version: v1.2.9
+id: NISTTN2275
+title:
+- content: A practical computational fluid dynamics approach for structural engineering
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: simulation of approach flow with reduced blockage ratios
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A practical computational fluid dynamics approach for structural engineering
+    - simulation of approach flow with reduced blockage ratios
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.TN.2275
+  type: doi
+type: standard
+docid:
+- id: NIST TN 2275
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.TN.2275
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Hwang, Yunjae.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2697-5319"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8019-9624"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Computational fluid dynamics (CFD) simulations for structural wind engineering
+    applications require a fully developed boundary layer approach flow with horizontal
+    homogeneity and zero pressure gradient for accurate characterization of wind loading
+    on a structure. Previous studies have focused on achievement of such requirements
+    primarily in computational domains whose heights are equal to or less than the
+    atmospheric boundary layer (ABL) height, despite the need of a computational domain
+    taller than the ABL height for certain applications such as buildings in an urban
+    environment/or topographic surroundings to ensure an acceptably low blockage ratio.
+    Thus, the current study proposes a novel procedure for the generation of the fully
+    developed, horizontally homogeneous and zero pressure gradient flow in a vertically
+    extended computational domain above the ABL height with using Reynolds-Averaged
+    Navier-Stoke (RANS) simulations. The proposed procedure is applied to simulations
+    with an isolated building and topographic models, respectively, to investigate
+    the blockage effects on the flow field in the vicinity of the models and associated
+    wind loading on their surfaces. The results demonstrate successful creation of
+    the approach flow that satisfies those three requirements for CFD simulations
+    in structural wind engineering and applicability to scale-resolving CFD simulations
+    including large-eddy simulations (LES).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST technical note; NIST tech note; NIST TN
+    format: text/plain
+  number: '2275'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

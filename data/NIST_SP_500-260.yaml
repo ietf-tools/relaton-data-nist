@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-260
 title:
-- content: A model-based analysis of first-generation service discovery systems
+- content: A Model-based analysis of first-generation service discovery systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-260
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-260.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-260
@@ -21,86 +20,62 @@ docid:
 - id: 10.6028/NIST.SP.500-260
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dabrowski
+      completename:
+        content: Dabrowski, Christopher E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91101439
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mills
+      completename:
+        content: Mills, Kevin (Kevin L.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015133575
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quirolgico
+      completename:
+        content: Quirolgico, Stephen,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022075608
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-260
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR20-026
 title:
-- content: Integrative Method to Whole-House Energy and Comfort Rating
+- content: Integrative method to whole-house energy and comfort rating
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.20-026
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2020/NIST.GCR.20-026.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 20-026
@@ -21,84 +20,52 @@ docid:
 - id: 10.6028/NIST.GCR.20-026
   type: DOI
 date:
-- type: published
-  value: '2020-12-11'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Hyojin
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kim, Hyojin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Han
-          script:
-          - Latn
-      surname:
-        content: Yan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yan, Han.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anuradha
-          script:
-          - Latn
-      surname:
-        content: Kadam
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kadam, Anuradha.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-12-11'
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 20-026
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

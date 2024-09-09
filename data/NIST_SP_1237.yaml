@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1237
 title:
 - content: Carbon dioxide biogenic vs anthropogenic sectoral contribution for the
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1237
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1237.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1237
@@ -22,84 +21,86 @@ docid:
 - id: 10.6028/NIST.SP.1237
   type: DOI
 date:
-- type: published
-  value: 2019-01
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Israel
-          script:
-          - Latn
-      surname:
-        content: Lopez-Coto
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lopez-Coto, Israel.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022049578
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kuldeep
-          script:
-          - Latn
-      surname:
-        content: Prasad
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Prasad, Kuldeep.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Whetstone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Whetstone, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021060616
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-01
-script:
-- Latn
+abstract:
+- content: The Indianapolis Flux Experiment (INFLUX) aims to use a top-down inversion
+    methodology to quantify sources of Greenhouse Gas (GHG) emissions over an urban
+    domain with high spatial and temporal resolution. Analyzing the contribution of
+    different source types or sectors is a fundamental step in order to achieve an
+    accuracy level desired for such applications. To this end, the Weather Research
+    and Forecasting model (WRF-ARW) was used along with a modified version of the
+    GHG chemistry module for simulating the carbon dioxide (CO2) mole fraction transport
+    during September and October 2013. Sectoral anthropogenic CO2 emissions were obtained
+    from Hestia 2013 and from Vulcan 2002. Biogenic CO2 emissions were simulated by
+    using an augmented version of the Vegetation Photosynthesis and Respiration Model
+    (VPRM) included in WRF-CHEM. The atmospheric model performed well in capturing
+    day to day variability of the concentration. The errors were largely reduced during
+    the well-mixed conditions indicating that a large share of the errors was due
+    to the misrepresentation of nighttime stable conditions in the model, causing
+    an overestimation of the nighttime peaks. In general, the averaged daily cycle
+    was well represented by the model. In addition, 4 towers presented a slightly
+    delayed collapse of the nocturnal stable boundary layer. Last, the biogenic contribution
+    was important, being larger than the anthropogenic contribution for 7 out of 12
+    towers during this period. In general, the anthropogenic contribution was dominated
+    by the Electricity Production, 6.5 % to 39 %, Mobility, 11 % to 56 %, and Industrial
+    sectors, 4.8 % to 10 %.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1237'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

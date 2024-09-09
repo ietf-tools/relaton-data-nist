@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-103
 title:
-- content: Cast vote records common data format specification:version 1.0
+- content: Cast vote records common data format specification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Cast vote records common data format specification - version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-103
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-103.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-103
@@ -21,118 +34,93 @@ docid:
 - id: 10.6028/NIST.SP.1500-103
   type: DOI
 date:
-- type: published
-  value: 2019-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Wack
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Wack, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sam
-          script:
-          - Latn
-      surname:
-        content: Dana
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Dana, Sam.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000298
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Herb
-          script:
-          - Latn
-      surname:
-        content: Deutsch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Deutsch, Herbert A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85184248
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Dziurlaj
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Dziurlaj, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001294
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ian
-          script:
-          - Latn
-      surname:
-        content: Piper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Piper, Ian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb97049716
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-11
-script:
-- Latn
+abstract:
+- content: This document is a specification for a common data format for cast vote
+    records (CVR) produced by vote-capture devices such as ballot scanners. It supports
+    the interoperable export of CVRs from these devices and the interoperable import
+    and export of CVRs to/from election management systems, adjudication systems,
+    and audit systems. The specification includes examples of JavaScript Object Notation
+    (JSON), unified markup language (UML), and eXtensible Markup Language (XML).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-103
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

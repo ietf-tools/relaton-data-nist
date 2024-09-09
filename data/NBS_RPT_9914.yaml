@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9914
 title:
-- content: Smoke measurement, characterization and related subjects:selected bibliography
+- content: Smoke measurement, characterization and related subjects
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: selected bibliography
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Smoke measurement, characterization and related subjects - selected bibliography
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9914
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9914.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9914
@@ -21,54 +34,33 @@ docid:
 - id: 10.6028/NBS.RPT.9914
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G T
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: G T
-          script:
-          - Latn
-      surname:
-        content: Castino
-        script:
-        - Latn
+      completename:
+        content: Castino, G. T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1968'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9914'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

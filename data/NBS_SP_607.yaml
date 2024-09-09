@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP607
 title:
 - content: Refrigeration for cryogenic sensors and electronic systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.607
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication607.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 607
@@ -21,110 +20,62 @@ docid:
 - id: 10.6028/NBS.SP.607
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James Edward
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zimmerman
+      completename:
+        content: Zimmerman, James Edward,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81090423
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D B
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: D B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sullivan
+      completename:
+        content: Sullivan, D. B. (Donald Barrett),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81090422
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S E
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: S E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarthy
+      completename:
+        content: McCarthy, S. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81087667
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '607'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

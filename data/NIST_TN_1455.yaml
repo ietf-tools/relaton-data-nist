@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1455
 title:
-- content: Performance of home smoke alarms :analysis of the response of several available
-    technologies in residential fire setting
+- content: Performance of home smoke alarms
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: analysis of the response of several available technologies in residential
+    fire setting
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Performance of home smoke alarms - analysis of the response of several
+    available technologies in residential fire setting
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1455
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1455
@@ -22,171 +36,117 @@ docid:
 - id: 10.6028/NIST.TN.1455
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jason D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Averill
+      completename:
+        content: Bukowski, Richard.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84003199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nelson P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bryner
+      completename:
+        content: Averill, Jason D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006027919
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cleary
+      completename:
+        content: Bryner, Nelson P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021101621
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erica D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
+      completename:
+        content: Cleary, Thomas G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152651
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Kuligowski, Erica D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reneke
+      completename:
+        content: Peacock, Richard D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Douglas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walton
+      completename:
+        content: Reneke, Paul A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008048705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bukowski
+      completename:
+        content: Walton, W. Douglas.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1455'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

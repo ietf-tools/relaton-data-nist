@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1934
 title:
 - content: Cement paste reference material (SRM 2492) shelf-life extension
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1934
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1934.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1934
@@ -21,118 +20,109 @@ docid:
 - id: 10.6028/NIST.TN.1934
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alex
-          script:
-          - Latn
-      surname:
-        content: Olivas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Olivas, Alex.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065425
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Lang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lang, Brian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78068425
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Richter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Richter, Jennifer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2013007735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raissa P
-          script:
-          - Latn
-      surname:
-        content: Ferron
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ferron, Raissa P.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: Cement-based materials (e.g. cement paste, mortar and concrete) are complex
+    rheological fluids that display time-dependent and shear-dependent rheological
+    behavior. Over the years, various concrete rheometers have been proposed and made
+    available commercially; however, there is no method to calibrate them. Furthermore,
+    typical calibration fluids used in commercial rheometers are not well suited for
+    the concrete rheometer calibration due to their high cost and they are Newtonian
+    (i.e., not a complex fluid). Therefore, there was a clear need for a reference
+    material specifically designed for concentrated, granular suspensions, such as
+    cement paste, mortar and concrete; this need led to the development of a new series
+    of reference materials for calibration of devices used in cement-based suspension
+    rheological testing. The reference material to simulate cement paste, SRM 2492,
+    was composed of a fine limestone powder in a corn syrup matrix. While the ranking
+    of mixtures tested using these rheometers tend to match, the absolute values for
+    the rheological properties of the mixtures evaluated with different rheometers
+    are not well correlated [1, 2]. Additionally, due to microbial growth in the paste
+    matrix, the shelf life of standard reference material 2492 was limited to 7 d.
+    This paper presents the results of a study to analyze how to minimize microbial
+    growth within the paste matrix. Various biocides that extend the shelf-life of
+    the reference material were examined, with the most promising method being sodium
+    propionate, a non-toxic chemical. Furthermore, recommendations to improve the
+    storage of SRM are provided to extend the usable shelf life.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1934'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

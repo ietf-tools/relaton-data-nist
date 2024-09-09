@@ -1,19 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB44-2023
 title:
-- content: Specifications, Tolerances, and Other Technical Requirements for Weighing
-    and Measuring Devices
+- content: Specifications, tolerances, and other technical requirements for weighing
+    and measuring devices
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: as adopted by the 107th National Conference on Weights and Measures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Specifications, tolerances, and other technical requirements for weighing
+    and measuring devices - as adopted by the 107th National Conference on Weights
+    and Measures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.44-2023
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2023/NIST.HB.44-2023.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 44-2023
@@ -22,46 +37,136 @@ docid:
 - id: 10.6028/NIST.HB.44-2023
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Tina G
-          script:
-          - Latn
-      surname:
-        content: Butcher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Butcher, Tina G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2711-9442"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Harshman, Richard A.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Konijnenburg, Jan.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Lee, G. Diane.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Williams, Juana S.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0576-8572"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Benham, Elizabeth J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-2751-7881"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bowers, Shelby L.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Lippa, Katrice A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8651-8326"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Physical Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: NIST Handbook 44 includes specifications, tolerances, and other technical
+    requirements for weighing and measuring devices. These requirements are intended
+    to encourage the design, installation, testing, and use of weighing and measuring
+    devices that provide for accurate, repeatable measurements; facilitate clear and
+    transparent transactions for buyer and seller; and do not facilitate fraud. Handbook
+    44 is adopted by many state, local, and some federal weights and measures authorities
+    to apply to commercial weighing and measuring equipment and associated equipment
+    and for use in applications for law enforcement and the collection of statistical
+    information by government agencies. NIST has a statutory responsibility for cooperation
+    with the states in securing uniformity of weights and measures laws and methods
+    of inspection and publishes this and other NIST Handbooks in partial fulfillment
+    of this responsibility. NIST Handbook 44 was first published in 1949, having been
+    preceded by similar handbooks of various designations and in several forms, beginning
+    in 1918; the handbook is now typically published on an annual basis. This 2023
+    edition includes amendments made through the Committee on Specifications and Tolerances
+    of the National Conference on Weights and Measures (NCWM) with technical guidance
+    from the Office of Weights and Measures (OWM) of the National Institute of Standards
+    and Technology (NIST) and input from weights and measures officials and industry
+    representatives. These amendments were adopted by the NCWM at its 107th Annual
+    Meeting in July 2022.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 44-2023
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1196
 title:
-- content: 'Standard Operation Procedures (SOPs) for the Palla VM-KT Vibrating Cryomill:
-    Production of Fresh Frozen Standard Reference and Control Materials (SRMs/CMs)
-    at the NIST Reference Material Production Facilitytitle'
+- content: Standard operation procedures (SOPs) for the palla VM-KT vibrating cryomill
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: production of fresh frozen standard reference and control materials (SRMs/CMs)
+    at the NIST reference material production facility
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard operation procedures (SOPs) for the palla VM-KT vibrating cryomill
+    - production of fresh frozen standard reference and control materials (SRMs/CMs)
+    at the NIST reference material production facility
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1196
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1196.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1196
@@ -23,135 +37,95 @@ docid:
 - id: 10.6028/NIST.SP.1196
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda J.
-          script:
-          - Latn
-      surname:
-        content: Moors
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Moors, Amanda J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020090120
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca S.
-          script:
-          - Latn
-      surname:
-        content: Pugh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Pugh, Rebecca S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078510
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jody R.
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Evans, Jody R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142232
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer M.
-          script:
-          - Latn
-      surname:
-        content: Ness
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ness, Jennifer M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142235
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Debra L.
-          script:
-          - Latn
-      surname:
-        content: Ellisor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ellisor, Debra L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142238
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melannie J..
-          script:
-          - Latn
-      surname:
-        content: Bachman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bachman, Melannie J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142241
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Chemical Sciences Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1196'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

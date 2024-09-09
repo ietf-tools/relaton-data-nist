@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1540
 title:
 - content: Propagation and detection of radio signals before, during, and after the
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1540
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1540.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1540
@@ -22,183 +21,114 @@ docid:
 - id: 10.6028/NIST.TN.1540
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D G
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: D G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Camell
+      completename:
+        content: Holloway, Christopher L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002017582
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Seturnino
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Canales
+      completename:
+        content: Camell, Dennis G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107288
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Galen H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koepke
+      completename:
+        content: Canales, Seturnino.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021149336
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Remley
+      completename:
+        content: Koepke, Galen H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82208381
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schima
+      completename:
+        content: Remley, Kate A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tamaura
+      completename:
+        content: Schima, Susan A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022081024
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dylan Forrest
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Williams
+      completename:
+        content: Tamaura, Douglas T.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Holloway
+      completename:
+        content: Williams, Dylan Forrest.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90670386
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1540'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

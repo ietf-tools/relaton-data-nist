@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7838
 title:
-- content: Specification for hydrocolloidal impression material-alginate type:progress
+- content: Specification for hydrocolloidal impression material-alginate type
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Specification for hydrocolloidal impression material-alginate type - progress
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7838
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7838.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7838
@@ -22,59 +35,41 @@ docid:
 - id: 10.6028/NBS.RPT.7838
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Masayoshi
-          script:
-          - Latn
-      surname:
-        content: Ohashi
-        script:
-        - Latn
+      completename:
+        content: Ohashi, Masayoshi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          script:
-          - Latn
-      surname:
-        content: Stanford
-        script:
-        - Latn
+      completename:
+        content: Stanford, John W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1962'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7838'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

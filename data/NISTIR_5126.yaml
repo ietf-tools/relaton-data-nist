@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5126
 title:
 - content: Applying the NIST real-time control system reference model to submarine
-    automation:a maneuvering system demonstration
+    automation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a maneuvering system demonstration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Applying the NIST real-time control system reference model to submarine
+    automation - a maneuvering system demonstration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5126
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5126.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5126
@@ -22,59 +36,59 @@ docid:
 - id: 10.6028/NIST.IR.5126
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Quintero
-        script:
-        - Latn
+      completename:
+        content: Huang, Hui-Min.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Barbera
-        script:
-        - Latn
+      completename:
+        content: Hira, Ron.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Quintero, Richard.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Barbera, Anthony.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5126'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC190
 title:
-- content: Letter Circular 190:altitude-pressure tables based on the United States
+- content: Letter Circular 190
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: altitude-pressure tables based on the United States standard atmosphere
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 190 - altitude-pressure tables based on the United States
     standard atmosphere
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.190
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular190.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 190
@@ -22,54 +35,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.190
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1925'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: WG
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: WG
-          script:
-          - Latn
-      surname:
-        content: Brombacher
-        script:
-        - Latn
+      completename:
+        content: '"Brombacher, W. G."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1925'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '190'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

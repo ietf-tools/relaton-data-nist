@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC502B
 title:
-- content: Letter Circular 502B:the durability of building papers and fiberboards
+- content: Letter Circular 502B
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the durability of building papers and fiberboards relative to low-cost
+    housing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 502B - the durability of building papers and fiberboards
     relative to low-cost housing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.502B
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular502B.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 502B
@@ -22,33 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.502B
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1937'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1937'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: 502B
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

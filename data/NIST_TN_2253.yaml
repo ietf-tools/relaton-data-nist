@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2253
 title:
-- content: NIST Outdoor Structure Separation Experiments (NOSSE) with Wind
+- content: NIST Outdoor Structure Separation Experiments (NOSSE) with wind
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2253
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2253.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2253
@@ -21,46 +20,219 @@ docid:
 - id: 10.6028/NIST.TN.2253
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alexander
-          script:
-          - Latn
-      surname:
-        content: Maranghides
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Maranghides, Alexander.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Nazare, Shonali.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0407-584"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Link, Eric.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7784-5023"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Butler, Kathryn.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7163-4623"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Johnsson. Erik L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1170-7370"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bundy, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1138-0307"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Chernovsky, Artur A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1215-7350"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bigelow, Frank.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Hawks, Steven.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mell, William (Ruddy).
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bova, Anthony.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Milac, Thomas.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Walton, William.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Raymer, Bob.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Frievalt, Frank.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Lab Name.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The NIST Outdoor Structure Separation Experiments are part of the NIST
+    Structure Separation Experiments project, which is designed to assess structure-to-structure
+    fire spread in the wildland-urban interface. In the first phase of this project,
+    fire exposures from small source structures (sheds) were quantified in terms of
+    mass loss rate and peak heat release rate in the absence of wind. The performance
+    of a target structure representing a residential façade was assessed in response
+    to exposures from a variety of sheds (differing in construction, size, and fuel
+    loading) and separation distances. These experiments were conducted indoors at
+    the National Fire Research Laboratory at NIST. The knowledge gained from the indoor
+    shed burn experiments was used to develop the outdoor shed burn experiments.This
+    report describes a series of outdoor shed burn experiments conducted at NIST to
+    study the effects of applied wind on thermal (radiant and convective) exposures
+    from variety of sheds to a target structure. The results were used to determine
+    the minimum Structure Separation Distance (SSDmin), which is defined as the shortest
+    distance between the source (storage shed) and target structure (residence) to
+    prevent ignition and flame spread. Experiments were conducted with combustible
+    (wood) and noncombustible (steel) sheds, each containing a set of wood cribs and
+    ignited to generate typical radiative and convective heat exposures to the target
+    structure. The target structure was an assembly including an exterior wall with
+    a window and a roof with a vented eave. Effects of shed orientation, shed size,
+    SSD, and shed type on thermal exposure to the target structure were studied. The
+    thermal exposure was quantified in each case by measuring the peak heat flux and
+    temperature at the target structure. Based on target structure performances due
+    to thermal exposure from the burning of different source structures, a SSDmin
+    was identified. The experiments in this study demonstrated good reproducibility
+    of experimental data. The wind had complex effects on the burning behavior of
+    wood sheds, affecting flame lengths and convective heat transfer to the target
+    structure. For combustible sheds, the peak heat flux measured at the target structure
+    corresponded with the total amount of fuel was not affected by orientation (i.e.,
+    door opening facing downwind or upwind). In the case of steel sheds with the door
+    opening facing the target structure, the applied wind had minimal or no effect
+    on thermal exposure to the target structure. The steel sheds contained the fire
+    effectively – thus reducing, but not eliminating, the thermal exposure to the
+    target structure. For the scenarios evaluated, peak heat flux at the target structure
+    could be reduced by half by changing the orientation of the door opening for noncombustible
+    sheds. The SSDmin was identified as 10 ft for combustible and noncombustible sheds
+    with floor area less than 26 ft2 in scenarios with a fire hardened target structure.
+    For sheds with floor area between 26 ft2 and 64 ft², the minimum SSDmin was found
+    to be 15 ft. Because the local winds during a WUI fire are unpredictable, SSD
+    should be omnidirectional, i.e., the same SSD in all directions. 12 out of the
+    13 experiments were conducted with a fire hardened target structure. Experiment
+    conducted with a non-fire hardened target structure to demonstrate the effectiveness
+    of fire hardening revealed that the non-fire hardened structure ignited within
+    6 mins when exposed to a Very Small wood shed with total fuel of 212 kg and SSD
+    of 10 ft. With similar thermal exposure, and SSD, the fire hardened target structure
+    exhibited minimal thermal damage and significant ignition resistance. Acknowledging
+    the limitations of the experimental series, implementation of the minimum separation
+    distance identified from the experimental measurements in this study is expected
+    to improve community resilience to WUI.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2253'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

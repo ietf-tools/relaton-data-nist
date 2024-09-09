@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1774
 title:
-- content: 'FDD CX: A Fault Detection and Diagnostic Commissioning Tool for Residential
-    Air Conditions and Heat Pumps'
+- content: FDD CX
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a fault detection and diagnostic commissioning tool for residential air
+    conditioners and heat pumps
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: FDD CX - a fault detection and diagnostic commissioning tool for residential
+    air conditioners and heat pumps
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1774
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1774.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1774
@@ -22,98 +36,50 @@ docid:
 - id: 10.6028/NIST.TN.1774
   type: DOI
 date:
-- type: published
-  value: 2012-11
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jaehyeok
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heo
+      completename:
+        content: Payne, W. Vance.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Energy and Environment Division, Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078668
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W. Vance
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Payne
+      completename:
+        content: Domanski, Piotr A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Energy and Environment Division, Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Piotr A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Domanski
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Energy and Environment Division, Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001138
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-11
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1774'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

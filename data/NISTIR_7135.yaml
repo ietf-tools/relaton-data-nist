@@ -1,18 +1,37 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7135
 title:
-- content: 'Final report for:'
+- content: Final report for
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'EPA: IAG no. DW-13-93903501-0 expanding a tool for predicting chloride
+    diffusivity in concrete so it can be used by manufacturers to evaluate the durability
+    of concrete made with blended cements. part I - characterizing blended cement
+    materials'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Final report for - EPA: IAG no. DW-13-93903501-0 expanding a tool for
+    predicting chloride diffusivity in concrete so it can be used by manufacturers
+    to evaluate the durability of concrete made with blended cements. part I - characterizing
+    blended cement materials'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7135
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7135.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7135
@@ -21,177 +40,84 @@ docid:
 - id: 10.6028/NIST.IR.7135
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: X
-          script:
-          - Latn
-          initial: X
-        formatted_initials:
-          content: X
-          script:
-          - Latn
-      surname:
-        content: Feng
-        script:
-        - Latn
+      completename:
+        content: Feng, X.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E J
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: E J
-          script:
-          - Latn
-      surname:
-        content: Garboczi
-        script:
-        - Latn
+      completename:
+        content: Garboczi, E. J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J W
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: J W
-          script:
-          - Latn
-      surname:
-        content: Bullard
-        script:
-        - Latn
+      completename:
+        content: Bullard, J. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D P
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: D P
-          script:
-          - Latn
-      surname:
-        content: Bentz
-        script:
-        - Latn
+      completename:
+        content: Bentz, D. P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
+      completename:
+        content: Snyder, K. A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P E
-          script:
-          - Latn
-          initial: P
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: P E
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
+      completename:
+        content: Stutzman, P. E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T O
-          script:
-          - Latn
-          initial: T
-        - script:
-          - Latn
-          initial: O
-        formatted_initials:
-          content: T O
-          script:
-          - Latn
-      surname:
-        content: Mason
-        script:
-        - Latn
+      completename:
+        content: Mason, T. O.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7135'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

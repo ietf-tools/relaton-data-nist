@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB158
 title:
-- content: 'FIELD SAMPLING PROCEDURES FOR FUEL AND MOTOR OIL QUALITY TESTING : A HANDBOOK
-    FOR USE BY FUEL AND OIL QUALITY REGULATORY OFFICIALS'
+- content: Field sampling procedures for fuel and motor oil quality testing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a handbook for use by fuel and oil quality regulatory officials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Field sampling procedures for fuel and motor oil quality testing - a handbook
+    for use by fuel and oil quality regulatory officials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.158
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2016/NIST.HB.158.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 158
@@ -22,118 +35,97 @@ docid:
 - id: 10.6028/NIST.HB.158
   type: DOI
 date:
-- type: published
-  value: 2016-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          script:
-          - Latn
-      surname:
-        content: Butcher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Butcher, Kenneth, ed.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Linda
-          script:
-          - Latn
-      surname:
-        content: Crown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Crown, Linda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006134842
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Sefcik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sefcik, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056628
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Warfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056629
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carol
-          script:
-          - Latn
-      surname:
-        content: Hockert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Hockert, Carol.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021114720
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-04
-script:
-- Latn
+abstract:
+- content: Fuel and motor oil quality programs are implemented to provide an official
+    presence in the marketplace to verify that sellers of engine fuels and motor oils
+    have control systems in place to ensure the products they sell conform to the
+    quality specifications in federal and state laws and regulations. Routine, unannounced
+    verification of fuel and motor oil quality enables the programs to identify sellers
+    and their suppliers who have quality control systems in place and to focus enforcement
+    resources on those who do not. This handbook outlines how samples are to be taken,
+    identified, protected and transported to a laboratory for testing. It also provides
+    information on safety and sampling equipment and includes illustrations of the
+    equipment or forms described in the text.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '158'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

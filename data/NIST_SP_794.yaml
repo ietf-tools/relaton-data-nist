@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP794
 title:
 - content: Spectroscopic library for alternative refrigerant analysis
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.794
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication794.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 794
@@ -21,69 +20,57 @@ docid:
 - id: 10.6028/NIST.SP.794
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bruno
+      completename:
+        content: Bruno, Thomas J.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Thomas J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bruno
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85351255
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Special Publication contains infrared and mass spectra for a wide range
+    of chlorofluoro-bromo ethanes and ethylenes that are relevant to research on alternative
+    refrigerants. Alternative refrigerants are working fluids that are thought not
+    to contribute significantly to atmospheric ozone depletion. In addition to the
+    spectroscopic data, some physical property and safety information is included
+    for each fluid as well. Not all of the compounds covered in the publication can
+    be used as refrigerants. Indeed, some of them are in fact solids under ambient
+    conditions, and others are fully halogenated, thus making them unfavorable from
+    an ozone depletion standpoint. The study of all of these materials is important,
+    however, since many will be found as impurities or reaction/decomposition products
+    of refrigerant fluids. The publication provides a signal source for some particularly
+    useful analytical information needed in the identification of these compounds.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '794'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

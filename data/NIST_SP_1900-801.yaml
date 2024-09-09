@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-801
 title:
 - content: NIST smart grid interoperability test tools
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-801
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-801.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-801
@@ -21,217 +20,118 @@ docid:
 - id: 10.6028/NIST.SP.1900-801
   type: DOI
 date:
-- type: published
-  value: 2019-02
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dhananjay
-          script:
-          - Latn
-      surname:
-        content: Anand
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Anand, Dhananjay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin G
-          script:
-          - Latn
-      surname:
-        content: Brady Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Brady Jr., Kevin G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eugene
-          script:
-          - Latn
-      surname:
-        content: Song
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Song, Eugene.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cuong
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Nguyen, Cuong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kang
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Lee, Kang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n99282018
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gerald
-          script:
-          - Latn
-      surname:
-        content: FitzPatrick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Fitzpatrick, Gerald.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb99165287
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Goldstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Goldstein, Allen
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016112646
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    - content: Physical Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-02
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST), participated
+    in the Universal Communication Architecture International User Group (UCAIug)
+    Interoperability (IOP) Test Event on October 14-19, 2017 in New Orleans, Louisiana.
+    The objective of the event was to bring the multitude of current substation equipment
+    implementations based upon the International Electrotechnical Commission (IEC)
+    61850 standard for substation communications capabilities to determine if the
+    equipment can interoperate and perform cooperatively in a myriad of substation
+    topology configurations to meet standards and industry requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-801
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

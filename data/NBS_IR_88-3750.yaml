@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR88-3750
 title:
-- content: Alaskan Marine Mammal Tissue Archival Project :a project description including
+- content: Alaskan Marine Mammal Tissue Archival Project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a project description including collection protocols
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Alaskan Marine Mammal Tissue Archival Project - a project description including
     collection protocols
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.88-3750
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir88-3750.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 88-3750
@@ -22,103 +35,67 @@ docid:
 - id: 10.6028/NBS.IR.88-3750
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Becker
+      completename:
+        content: Becker, Paul R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085576
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wise
+      completename:
+        content: Wise, Stephen A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koster
+      completename:
+        content: Koster, Barbara J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rolf
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zeisler
+      completename:
+        content: Zeisler, Rolf.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82078355
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-3750
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

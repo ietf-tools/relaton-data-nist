@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2150-upd
 title:
 - content: Single-zone simulations using FaTIMA for reducing aerosol exposure in educational
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2150-upd
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2150-upd.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2150-upd
@@ -22,124 +21,63 @@ docid:
 - id: 10.6028/NIST.TN.2150-upd
   type: DOI
 date:
-- type: published
-  value: '2021-09-02'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Ng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ng, Lisa.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Stuart
-          script:
-          - Latn
-      surname:
-        content: Dols
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dols, W. Stuart.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Persily, Andrew.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2021-09-02'
-script:
-- Latn
 abstract:
 - content: 'On March 11, 2020, the World Health Organization declared the novel coronavirus
     (COVID-19) outbreak a global pandemic. Following this announcement, school closures
@@ -176,27 +114,32 @@ abstract:
     reduced by an average of 85 % assuming all controls were performing as intended.
     The results of this analysis may be useful in the selection of control options
     in educational facilities.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     id: NISTTN2150
     docid:
     - id: NIST TN 2150
       type: NIST
-      primary: true
     formattedref:
       content: NIST TN 2150
       format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 2150-upd
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

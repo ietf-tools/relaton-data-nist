@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-70r4
 title:
+- content: National checklist program for IT products
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: guidelines for checklist users and developers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: National checklist program for IT products - guidelines for checklist users
     and developers
   language:
@@ -9,11 +23,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-70r4
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-70r4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-70r4
@@ -22,101 +35,89 @@ docid:
 - id: 10.6028/NIST.SP.800-70r4
   type: DOI
 date:
-- type: published
-  value: 2018-02
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen D
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Quinn, Stephen D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009169335
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Murugiah
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Souppaya, Murugiah.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0002-8055-8527
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melanie
-          script:
-          - Latn
-      surname:
-        content: Cook
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cook, Melanie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2001001957
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0001-6334-9486
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-02
-script:
-- Latn
+abstract:
+- content: A security configuration checklist is a document that contains instructions
+    or procedures for configuring an information technology (IT) product to an operational
+    environment, for verifying that the product has been configured properly, and/or
+    for identifying unauthorized changes to the product. Using these checklists can
+    minimize the attack surface, reduce vulnerabilities, lessen the impact of successful
+    attacks, and identify changes that might otherwise go undetected. To facilitate
+    development of checklists and to make checklists more organized and usable, NIST
+    established the National Checklist Program (NCP). This publication explains how
+    to use the NCP to find and retrieve checklists, and it also describes the policies,
+    procedures, and general requirements for participation in the NCP.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-70r4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

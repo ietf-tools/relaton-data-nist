@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-51
 title:
 - content: Use of the Common Vulnerabilities and Exposures (CVE) vulnerability naming
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-51
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-51.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-51
@@ -22,91 +21,57 @@ docid:
 - id: 10.6028/NIST.SP.800-51
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mell
+      completename:
+        content: Mell, P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grance
+      completename:
+        content: Grance, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Common Vulnerabilities and Exposures (CVE) vulnerability naming scheme
+    is a dictionary of common names for publicly known information technology (IT)
+    system vulnerabilities. It is an emerging industry standard that has achieved
+    wide acceptance by the security industry and a number of government organizations.
+    Federal departments and agencies should use this standard for computer vulnerability
+    related activities.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-51
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

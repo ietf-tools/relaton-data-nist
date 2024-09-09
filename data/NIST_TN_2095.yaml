@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2095
 title:
 - content: A tool to model the Fate and Transport of Indoor Microbiological Aerosols
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2095
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2095.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2095
@@ -22,101 +21,90 @@ docid:
 - id: 10.6028/NIST.TN.2095
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Stuart
-          script:
-          - Latn
-      surname:
-        content: Dols
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dols, W. Stuart.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003054410
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian J
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven J. (Steven John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003076634
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: The web-based tool Fate and Transport of Indoor Microbiological Aerosols
+    (FaTIMA) allows the determination of the fate of indoor microbiological aerosols
+    associated with ventilation, filtration, deposition, and inactivation mechanisms.
+    FaTIMA provides a representation of a single, well-mixed zone that is served by
+    a mechanical ventilation system and incorporates source and removal mechanisms
+    for an aerosol with a single, user-defined representative particle size. The simple
+    mechanical ventilation system model allows specification of supply, return, and
+    outdoor air intake rates to represent either a positive, negative or balanced
+    ventilation system. Aerosol sources are provided to enable any combination of
+    continuous, e.g., breathing-related emissions, or intermittent, e.g., coughing-related
+    emissions. Aerosol removal mechanisms include filters within the ventilation system,
+    room air cleaners, and deposition onto floors, walls, and ceilings. Simulations
+    can be run for a 24-h period, with the results including the time history of the
+    airborne concentration and surface loading, as well as integrated exposure of
+    an occupant. Exposure is based on a uniform aerosol concentration within the zone
+    and does not account for spatial differences in aerosol concentrations such as
+    those due to momentum effects of respiratory emissions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2095'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

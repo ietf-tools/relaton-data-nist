@@ -1,18 +1,37 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-82r2
 title:
-- content: Guide to Industrial Control Systems (ICS) Security
+- content: Guide to industrial control systems (ICS) security
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: supervisory control and data acquisition (SCADA) systems, distributed control
+    systems (DCS), and other control system configurations such as programmable logic
+    controllers (PLC) / Keith Stouffer, Victoria Pilliteri, Suzanne Lightman, Marshall
+    Abrams, Adam Hahn
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Guide to industrial control systems (ICS) security - supervisory control
+    and data acquisition (SCADA) systems, distributed control systems (DCS), and other
+    control system configurations such as programmable logic controllers (PLC) / Keith
+    Stouffer, Victoria Pilliteri, Suzanne Lightman, Marshall Abrams, Adam Hahn
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-82r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-82r2
@@ -21,118 +40,89 @@ docid:
 - id: 10.6028/NIST.SP.800-82r2
   type: DOI
 date:
-- type: published
-  value: 2015-06
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Keith
-          script:
-          - Latn
-      surname:
-        content: Stouffer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Stouffer, Keith.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022079917
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victoria
-          script:
-          - Latn
-      surname:
-        content: Pillitteri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Pillitteri, Victoria.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Suzanne
-          script:
-          - Latn
-      surname:
-        content: Lightman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lightman, Suzanne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marshall
-          script:
-          - Latn
-      surname:
-        content: Abrams
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Abrams, Marshall D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79150370
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Hahn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hahn, Adam.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010172311
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Intelligent Systems Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-06
-script:
-- Latn
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-82r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

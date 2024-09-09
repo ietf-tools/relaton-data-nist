@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP500-40
 title:
 - content: Guideline on major job accounting systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.500-40
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication500-40.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 500-40
@@ -21,120 +20,81 @@ docid:
 - id: 10.6028/NBS.SP.500-40
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gary
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Durbin
+      completename:
+        content: Durbin, Gary.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79047478
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Todd
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kinney
+      completename:
+        content: Kinney, Todd.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lamasney
+      completename:
+        content: Lamasney, Peter.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022044476
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Newman
+      completename:
+        content: Newman, Edward.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2011017456
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Syrett
+      completename:
+        content: Syrett, Edward.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022076821
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-40
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

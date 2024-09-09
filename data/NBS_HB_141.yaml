@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB141
 title:
 - content: Design of smoke control systems for buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.141
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook141.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 141
@@ -21,59 +20,53 @@ docid:
 - id: 10.6028/NBS.HB.141
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James H
-          script:
-          - Latn
-      surname:
-        content: Klote
-        script:
-        - Latn
+      completename:
+        content: Klote, James H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John W, Jr
-          script:
-          - Latn
-      surname:
-        content: Fothergill
-        script:
-        - Latn
+      completename:
+        content: Fothergill, John W, Jr.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1983'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '141'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

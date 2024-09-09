@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1482
 title:
 - content: Methodology for development of design criteria for joint hurricane wind
-    speed and storm surge events :proof of concept
+    speed and storm surge events
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: proof of concept
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Methodology for development of design criteria for joint hurricane wind
+    speed and storm surge events - proof of concept
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1482
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1482.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1482
@@ -22,144 +36,88 @@ docid:
 - id: 10.6028/NIST.TN.1482
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Long T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Phan
+      completename:
+        content: Phan, Long T. (Long Thanh),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no98084569
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Simiu
+      completename:
+        content: Simiu, Emil.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79085114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McInerney
+      completename:
+        content: McInerney, Mark A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022056115
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Arthur A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
+      completename:
+        content: Taylor, Arthur A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022075527
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Glahn
+      completename:
+        content: Glahn, B.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Powell
+      completename:
+        content: Powell, Mark D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1482'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR20-023
 title:
 - content: Critical path method assessment of community recovery
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.20-023
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2021/NIST.GCR.20-023.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 20-023
@@ -21,73 +20,48 @@ docid:
 - id: 10.6028/NIST.GCR.20-023
   type: DOI
 date:
-- type: published
-  value: '2020-01-01'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Francis M
-          script:
-          - Latn
-      surname:
-        content: Lavelle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavelle, Francis M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022046325
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          script:
-          - Latn
-      surname:
-        content: Goodhue
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Goodhue, Charles.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Lyons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lyons, Douglas
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016157026
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2020-01-01'
-script:
-- Latn
 abstract:
 - content: 'The critical path method (CPM) is investigated as a tool for identifying
     recovery activities that control the timeline for restoration of key community
@@ -104,16 +78,22 @@ abstract:
     activities on the critical paths identified in each community. Several opportunities
     to speed up the recovery process are identified, and issues relevant to the modeling
     of community recovery are discussed.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 20-023
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

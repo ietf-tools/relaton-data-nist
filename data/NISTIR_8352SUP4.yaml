@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8352sup4
 title:
 - content: Bitemark analysis reference list
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8352sup4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8352sup4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8352sup4
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.IR.8352sup4
   type: DOI
 date:
-- type: published
-  value: '2022-10-11'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kelly
-          script:
-          - Latn
-      surname:
-        content: Sauerwein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sauerwein, Kelly.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-10-11'
-script:
-- Latn
 abstract:
 - content: 'This report provides supplemental information to NISTIR 8352 Bitemark
     Analysis: A NIST Scientific Foundation Review. Publicly available resources relating
@@ -65,16 +48,24 @@ abstract:
     and other public resources. This reference list is meant as a resource for the
     odontology community and interested stakeholders but does not represent an exhaustive
     compilation of the literature pertaining to bitemark analysis.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8352sup4
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

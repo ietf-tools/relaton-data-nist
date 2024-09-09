@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5061
 title:
 - content: Uncertainty analysis for NRaD radar cross section measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5061
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5061.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5061
@@ -21,96 +20,67 @@ docid:
 - id: 10.6028/NIST.IR.5061
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1997'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G A
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: G A
-          script:
-          - Latn
-      surname:
-        content: Kinzel
-        script:
-        - Latn
+      completename:
+        content: Prickett, M. J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R C
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: R C
-          script:
-          - Latn
-      surname:
-        content: Wittmann
-        script:
-        - Latn
+      completename:
+        content: Bloomfield, R. A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          script:
-          - Latn
-      surname:
-        content: Muth
-        script:
-        - Latn
+      completename:
+        content: Kinzel, G. A.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Wittmann, R. C.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Muth, L. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1997'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5061'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

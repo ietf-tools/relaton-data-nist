@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC831
 title:
-- content: Letter Circular 831:the painting of exterior metal surfaces (superseding
+- content: Letter Circular 831
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the painting of exterior metal surfaces (superseding Letter Circular 422)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 831 - the painting of exterior metal surfaces (superseding
     Letter Circular 422)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.831
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular831.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 831
@@ -22,75 +35,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.831
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1946'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: EF
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: EF
-          script:
-          - Latn
-      surname:
-        content: Hickson
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: WC
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: WC
-          script:
-          - Latn
-      surname:
-        content: Porter
-        script:
-        - Latn
+      completename:
+        content: '"Hickson, E. F."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1946'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '831'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

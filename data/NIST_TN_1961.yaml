@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1961
 title:
 - content: Public safety user interface R&D roadmap
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1961
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1961.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1961
@@ -21,101 +20,92 @@ docid:
 - id: 10.6028/NIST.TN.1961
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harris
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Feldman, Harris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022003498
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc
-          script:
-          - Latn
-      surname:
-        content: Leh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Leh, Marc.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022047038
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          script:
-          - Latn
-      surname:
-        content: Felts
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Felts, Ryan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022008920
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeb E
-          script:
-          - Latn
-      surname:
-        content: Benson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Benson, Jeb E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: The public safety community is in a period of great transition. Over the
+    next 20 years, technology advancements will enable data, video, and eventually
+    voice communications to migrate from Land Mobile Radio (LMR) networks to a single
+    nationwide Long Term Evolution (LTE) broadband network, the Nationwide Public
+    Safety Broadband Network (NPSBN). Emerging technologies within this new infrastructure
+    present opportunities and challenges for public safety, and the process of modernizing
+    responder communications requires significant coordination and planning. To facilitate
+    the transition from LMR to LTE, the National Institute of Standards and Technology⁰₉s
+    (NIST) Public Safety Communications Research (PSCR) program initiated a research
+    and development (R&D) planning process to determine what technology investments
+    are of highest priority to the public safety community. This document summarizes
+    the results of PSCR⁰₉s Public Safety Enhanced User Interface R&D Roadmap. This
+    report is the third of several technology roadmaps that PSCR has developed over
+    the past several years to better inform the investment decisions of R&D organizations
+    supporting the public safety community. This document aims to assist in planning
+    for public safety communications research and optimize the allocation of the
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1961'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

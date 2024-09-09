@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4849
 title:
-- content: Workshop on characterizing diamond films:February 27, 28, 1992 Gaithersburg,
+- content: Workshop on characterizing diamond films
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: February 27, 28, 1992 Gaithersburg, MD
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Workshop on characterizing diamond films - February 27, 28, 1992 Gaithersburg,
     MD
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4849
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4849.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4849
@@ -22,85 +35,66 @@ docid:
 - id: 10.6028/NIST.IR.4849
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Albert
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
+      completename:
+        content: Feldman, Albert.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79100004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles P
-          script:
-          - Latn
-      surname:
-        content: Beetz
-        script:
-        - Latn
+      completename:
+        content: Beetz, Charles P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Drory
-        script:
-        - Latn
+      completename:
+        content: Drory, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandor
-          script:
-          - Latn
-      surname:
-        content: Holly
-        script:
-        - Latn
+      completename:
+        content: Holly, Sandor,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80020024
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4849'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

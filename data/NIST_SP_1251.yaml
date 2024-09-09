@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1251
 title:
 - content: Harnessing measurement science to advance food safety
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1251
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1251.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1251
@@ -21,33 +20,50 @@ docid:
 - id: 10.6028/NIST.SP.1251
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
+- person:
+    name:
+      completename:
+        content: NIST Food Safety Working Group.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: This report summarizes measurement challenges identified in four main pillars
+    of global food safety (microbiological contaminants, chemical contaminants, allergens,
+    and authenticity and adulteration) as described by the experts assembled at the
+    workshop and explores potential future actions needed to improve food safety measurement
+    science. This paper is accompanied by a second, complementary report on the international
+    capabilities across national metrology institutes (NMIs) and other reference material
+    producers present at the workshop and prospective actions to ensure global food
+    safety.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1251'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

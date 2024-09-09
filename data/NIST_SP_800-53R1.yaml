@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-53r1
 title:
 - content: Recommended security controls for federal information systems and organizations
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-53r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-53r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-53r1
@@ -21,208 +20,104 @@ docid:
 - id: 10.6028/NIST.SP.800-53r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ross
+      completename:
+        content: Ross, R.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Katzke
+      completename:
+        content: Katzke, S.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, L. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012562
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swanson
+      completename:
+        content: Swanson, M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stoneburner
+      completename:
+        content: Stoneburner, G.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rogers
+      completename:
+        content: Rogers, G.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'The purpose of this publication is to provide guidelines for selecting
+    and specifying security controls for information systems supporting the executive
+    agencies of the federal government. The guidelines have been developed to help
+    achieve more secure information systems within the federal government by: (i)
+    facilitating a more consistent, comparable, and repeatable approach for selecting
+    and specifying security controls for information systems; (ii) providing a recommendation
+    for minimum security controls for information systems in accordance with Federal
+    Information Processing Standards (FIPS) 199, Standards for Security Categorization
+    of Federal Information and Information Systems and FIPS 200, Minimum Security
+    Requirements for Federal Information and Information Systems; (iii) promoting
+    a dynamic, extensible catalog of security controls for information systems to
+    meet the demands of changing requirements and technologies; and (iv) creating
+    a foundation for the development of assessment methods and procedures for determining
+    security control effectiveness. The guidelines provided in this special publication
+    are applicable to all federal information systems other than those systems designated
+    as national security systems as defined in 44 U.S.C., Section 3542. The guidelines
+    have been broadly developed from a technical perspective to complement similar
+    guidelines for national security systems.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-53r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

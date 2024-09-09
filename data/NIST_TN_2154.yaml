@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2154
 title:
 - content: Iris recognition on Noah Kalina s Everyday
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2154
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2154.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2154
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.TN.2154
   type: DOI
 date:
-- type: published
-  value: '2021-04-26'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Matey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Matey, James R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-26'
-script:
-- Latn
 abstract:
 - content: 'In January 2000, Noah Kalina began taking a photograph of himself every
     day and has continued for more than 20 years. A time-lapse video of his images
@@ -72,16 +55,22 @@ abstract:
     applications such as access control, there are cases where it may be useful. We
     note that the algorithms used in this analysis were not designed to work with
     the iris images that we extracted from the EveryDay project.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2154'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

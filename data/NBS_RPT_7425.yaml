@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7425
 title:
-- content: Mechanisms of fire ignition and extinguishment :tenth progress report covering
-    the period 1 February 1961 to 31 January 1962
+- content: Mechanisms of fire ignition and extinguishment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: tenth progress report covering the period 1 February 1961 to 31 January
+    1962
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Mechanisms of fire ignition and extinguishment - tenth progress report
+    covering the period 1 February 1961 to 31 January 1962
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7425
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7425.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7425
@@ -22,64 +36,40 @@ docid:
 - id: 10.6028/NBS.RPT.7425
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E C
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: E C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Creitz
+      completename:
+        content: Creitz, E. C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020093893
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7425'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

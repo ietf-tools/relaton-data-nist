@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-203
 title:
 - content: Global City Teams Challenge Public Safety SuperCluster progress report
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-203
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-203.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-203
@@ -22,135 +21,109 @@ docid:
 - id: 10.6028/NIST.SP.1900-203
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brenda
-          script:
-          - Latn
-      surname:
-        content: Bannan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bannan, Brenda.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Samantha
-          script:
-          - Latn
-      surname:
-        content: Dubrow
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dubrow, Samantha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Dunaway
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dunaway, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015123035
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sokwoo
-          script:
-          - Latn
-      surname:
-        content: Rhee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rhee, Sokwoo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dean
-          script:
-          - Latn
-      surname:
-        content: Skidmore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Skidmore, Dean.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elisa
-          script:
-          - Latn
-      surname:
-        content: Torres
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Torres, Elisa.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: 'NIST co-hosted the 2018-2019 GCTC Smart and Secure Cities and Communities
+    Challenge (SC3) program with DHS S&T and NTIA. The objective was to encourage
+    participating teams to include cybersecurity and privacy as integral project elements
+    alongside goals such as replicability, scalability, sustainability, and interoperability
+    of technologies and systems. In parallel, GCTC''s Public Safety SuperCluster (PSSC)
+    sought to bring together domain experts in public safety to discuss the latest
+    issues and developments and to explore designed-in cybersecurity and privacy for
+    public safety solutions. This report highlights two significant accomplishments
+    of the PSSC: First, this report describes in detail the workshop hosted by PSSC
+    and NIST in October 2018 to address the latest progress and plans of the Public
+    Safety SuperCluster and, further, to initiate an active collaboration with the
+    Cybersecurity and Privacy Advisory Committee (CPAC) to begin incorporating the
+    dimension of cybersecurity into the PSSC effort. This section describes presentations
+    and group discussions around shared perspectives on the latest developments in
+    public safety and cybersecurity for smart cities and communities. The workshop
+    provided a foundation for PSSC''s activities in 2019. Secondly, this publication
+    includes a summary of the first in a planned series of reports on use cases, technology
+    demonstrations, and exercise summaries involving the work and outcomes of PSSC
+    Action Clusters and Public Safety-related efforts in GCTC communities. It highlights
+    a significant demonstration in November 2019 of a live simulation-based, multi-team
+    training exercise in Mass Casualty Incident (MCI) response that was conducted
+    by the GCTC research team from the George Mason University in collaboration with
+    Fairfax County, Virginia, first responder agencies.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-203
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

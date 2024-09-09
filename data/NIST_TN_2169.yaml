@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2169
 title:
 - content: Seismic behavior and design of deep, slender wide-flange structural steel
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2169
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2169.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2169
@@ -22,124 +21,88 @@ docid:
 - id: 10.6028/NIST.TN.2169
   type: DOI
 date:
-- type: published
-  value: '2021-07-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Piyachai
-          script:
-          - Latn
-      surname:
-        content: Chansuk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chansuk, Piyachai.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gulen
-          script:
-          - Latn
-      surname:
-        content: Ozkula
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ozkula, Gulen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chia-Ming
-          script:
-          - Latn
-      surname:
-        content: Uang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Uang, Chia-Ming.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Harris III
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harris III, John L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2021-07-28'
-script:
-- Latn
 abstract:
-- content: Twenty-one W24 hot-rolled columns of ASTM A992 steel with five different
+- content: "Twenty-one W24 hot-rolled columns of ASTM A992 steel with five different
     sections were tested in Phase 1 of this research program to investigate the effects
     of slenderness parameters, constant axial load levels, lateral drift loading sequences,
     and weak-axis bending on the column base responses. It was observed that the webs
-    of these sections with much larger ℎ/ �������� ratios were not as effective in
-    restraining and delaying flange local buckling as those of shallow and stocky
-    (e.g., W12 or W14) columns. Specimens with sections that satisfied the highly
-    ductile requirement in the AISC Seismic Provisions still experienced significant
-    damage and axial shortening due to the interactive flange and web local buckling.
-    An unusual failure mode with local buckling coupled with lateral-torsional buckling
-    was also observed for the first time. Based on these tests results, observed buckling
-    modes were classified, and a simplified procedure to predict the governing buckling
-    mode was proposed. Additional 23 columns including W14, W18, W24, and W30 sections
-    were tested to further evaluate the effects of section depths, boundary conditions,
-    and varying axial loads. Test results revealed that findings from Phase 1 testing
-    could be extrapolated to deeper and shallower sections; the proposed procedure
-    predicted very well the buckling mode of Phase 2 specimens. Allowing the column
-    top end to rotate increased the story drift capacity but did not change the buckling
-    mode. Results from varying axial load tests showed that first-story exterior columns
-    behave very differently from the interior ones. W14 column test results showed
-    that classifying a column as deep or shallow based on the nominal section depth
-    may be inappropriate; the deep column phenomenon with significant interactive
-    local buckling could develop in W14 columns with relatively slender web and flanges.
+    of these sections with much larger â\x84\x8E/ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ratios
+    were not as effective in restraining and delaying flange local buckling as those
+    of shallow and stocky (e.g., W12 or W14) columns. Specimens with sections that
+    satisfied the highly ductile requirement in the AISC Seismic Provisions still
+    experienced significant damage and axial shortening due to the interactive flange
+    and web local buckling. An unusual failure mode with local buckling coupled with
+    lateral-torsional buckling was also observed for the first time. Based on these
+    tests results, observed buckling modes were classified, and a simplified procedure
+    to predict the governing buckling mode was proposed. Additional 23 columns including
+    W14, W18, W24, and W30 sections were tested to further evaluate the effects of
+    section depths, boundary conditions, and varying axial loads. Test results revealed
+    that findings from Phase 1 testing could be extrapolated to deeper and shallower
+    sections; the proposed procedure predicted very well the buckling mode of Phase
+    2 specimens. Allowing the column top end to rotate increased the story drift capacity
+    but did not change the buckling mode. Results from varying axial load tests showed
+    that first-story exterior columns behave very differently from the interior ones.
+    W14 column test results showed that classifying a column as deep or shallow based
+    on the nominal section depth may be inappropriate; the deep column phenomenon
+    with significant interactive local buckling could develop in W14 columns with
+    relatively slender web and flanges."
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2169'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

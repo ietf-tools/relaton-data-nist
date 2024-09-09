@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP260-11
 title:
-- content: Standard Reference Materials :Viscosity of a standard lead-silica glass/
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: viscosity of a standard lead-silica glass
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - viscosity of a standard lead-silica glass
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.260-11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 260-11
@@ -21,88 +34,51 @@ docid:
 - id: 10.6028/NBS.SP.260-11
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1966'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E G
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: E G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hawkins
+      completename:
+        content: Napolitano, A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116841
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Napolitano
+      completename:
+        content: Hawkins, E. G. (Earl G.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022092287
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1966'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-11
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

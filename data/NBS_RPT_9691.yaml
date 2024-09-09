@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9691
 title:
-- content: Presentation of a cost analysiscost synthesis system:to Lowell G. Schweickart
+- content: Presentation of a cost analysis/cost synthesis system
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: to Lowell G. Schweickart Deputy Assistant Administrator for Construction,
+    and Staff Veterans Administration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Presentation of a cost analysis/cost synthesis system - to Lowell G. Schweickart
     Deputy Assistant Administrator for Construction, and Staff Veterans Administration
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9691
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9691.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9691
@@ -22,59 +36,41 @@ docid:
 - id: 10.6028/NBS.RPT.9691
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert W
-          script:
-          - Latn
-      surname:
-        content: Blake
-        script:
-        - Latn
+      completename:
+        content: Blake, Robert W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George S
-          script:
-          - Latn
-      surname:
-        content: Birrell
-        script:
-        - Latn
+      completename:
+        content: Birrell, George S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1968'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9691'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

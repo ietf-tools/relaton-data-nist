@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7761
 title:
-- content: 'NIST Priority Action Plan 2: Guidelines for Assessing Wireless Standards
-    for Smart Grid Applications'
+- content: NIST priority action plan 2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: guidelines for assessing wireless standards for smart grid applications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST priority action plan 2 - guidelines for assessing wireless standards
+    for smart grid applications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7761
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7761.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7761
@@ -22,59 +35,36 @@ docid:
 - id: 10.6028/NIST.IR.7761
   type: DOI
 date:
-- type: published
-  value: 2011-01
+- type: issued
+  value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David E.
-          script:
-          - Latn
-      surname:
-        content: Cypher
-        script:
-        - Latn
+      completename:
+        content: Cypher, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nada T.
-          script:
-          - Latn
-      surname:
-        content: Golmie
-        script:
-        - Latn
+      completename:
+        content: Golmie, Nada T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: 2011-01
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7761'
-place:
-- Gaithersburg, MD
-doctype: standard
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

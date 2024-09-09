@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1946
 title:
 - content: 'Rheological measurement of suspensions without slippage: experimental
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1946
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1946.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1946
@@ -22,135 +21,125 @@ docid:
 - id: 10.6028/NIST.TN.1946
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alex
-          script:
-          - Latn
-      surname:
-        content: Olivas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Olivas, Alex.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065425
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle A
-          script:
-          - Latn
-      surname:
-        content: Helsel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Helsel, Michelle A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicos
-          script:
-          - Latn
-      surname:
-        content: Martys
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Martys, Nicos.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Ferraris, Chiara.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William L
-          script:
-          - Latn
-      surname:
-        content: George
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: George, William L. (William Lowry)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005016406
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raissa
-          script:
-          - Latn
-      surname:
-        content: Ferron
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Ferron, Raissa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019038210
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: Rheological measurements of suspensions are often performed using a rotational
+    rheometer. In this type of rheometer, the tested fluid is sheared between two
+    surfaces, one of which is rotating to generate a laminar flow of the fluid between
+    the surfaces (i.e., a Couette flow). Manufacturers of commercially available rheometers
+    generally recommend the use of a standard oil of known viscosity to verify that
+    the rheometer is operating correctly. However, in the case of concrete rheometers,
+    this approach would require large volumes of oil and was deemed not economically
+    feasible by two international studies [1] [2]. The conclusion of those international
+    studies was that the optimal approach to calibrate concrete rheometers would be
+    to develop a non-Newtonian standard reference material (SRM) that contained inclusions
+    similar in size to aggregates used commonly in concrete. This could be achieved
+    by using a multi-stage approach where each stage corresponds to a different level
+    of complexity of the fluid. The first stage would be to create a paste reference
+    material, as was done in the SRM 2492 [3]. The second stage would be to mimic
+    the mortar phase of a concrete, and SRM 2493 [4], with 1 mm beads added to SRM
+    2492, accomplishes that goal. The third, and final stage, is the creation of SRM
+    2497 for concrete, with larger beads added to SRM 2493, which is currently in
+    development at National Institute of Standards and Technology (NIST). During the
+    certification of SRM 2493, it was found that differences in rheometer geometry
+    affect the accuracy of the rheological measurements. In order to gain fundamental
+    insight about the impact that different rheometer geometries have on measurements
+    of suspensions, a comprehensive analysis was conducted on three different rheometer
+    families. The analysis included both experimental testing and computer simulation.
+    The comparison between the model and rheological results showed that the increased
+    viscosity due to the addition of the 1 mm beads to SRM 2492 was significantly
+    higher in the Couette model than in the experimental data. It was also determined
+    that some geometries, such as a double spiral, resulted in a higher viscosity
+    than a simple serrated cylinder or vane. This finding led to the inference that
+    slippage should also be considered. Ultimately, this report highlights that industrial
+    rheometers experience slippage issues caused by their choice of geometry and their
+    internal boundary conditions (free surfaces), and discusses the most accurate
+    alternative available for calibrating rheometers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1946'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

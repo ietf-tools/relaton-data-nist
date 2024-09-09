@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR81-2423
 title:
 - content: Compiler-based programming support capabilities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.81-2423
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir81-2423.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 81-2423
@@ -21,103 +20,70 @@ docid:
 - id: 10.6028/NBS.IR.81-2423
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gary
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bray
+      completename:
+        content: Bray, Gary.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84127041
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lipsett
+      completename:
+        content: Lipsett, Roger,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88207832
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bail
+      completename:
+        content: Bail, William.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victor
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berman
+      completename:
+        content: Berman, Victor.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84125818
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 81-2423
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

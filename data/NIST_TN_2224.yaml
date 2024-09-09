@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2224
 title:
 - content: A simple correlation for horizontal micro-fin tube convective boiling with
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2224
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2224.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2224
@@ -22,56 +21,31 @@ docid:
 - id: 10.6028/NIST.TN.2224
   type: DOI
 date:
-- type: published
-  value: '2022-06-03'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lingnan
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-06-03'
-script:
-- Latn
 abstract:
 - content: This paper presents a simple correlation containing nine dimensionless
     parameters to predict the local convective boiling heat transfer within a micro-fin
@@ -86,16 +60,22 @@ abstract:
     for micro-fin convective boiling predicted the measurements from the database
     to within 10.3 % for pure-refrigerants and azeotropic mixtures and 12.3 % for
     zeotropic mixtures.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2224'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

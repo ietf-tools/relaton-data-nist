@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR82-2519
 title:
 - content: Rural and non-rural civilian residential fire fatalities in twelve states
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.82-2519
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir82-2519.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 82-2519
@@ -21,88 +20,48 @@ docid:
 - id: 10.6028/NBS.IR.82-2519
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gomberg
+      completename:
+        content: Gomberg, A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L P
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: L P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clark
+      completename:
+        content: Clark, L. P. (Louis Phillip),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82227228
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 82-2519
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

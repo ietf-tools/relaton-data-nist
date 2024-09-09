@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3855
 title:
 - content: Evaluation of refractory qualities of concretes for jet aircraft warm-up,
-    power check, and maintenance aprons :quarterly report
+    power check, and maintenance aprons
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: quarterly report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Evaluation of refractory qualities of concretes for jet aircraft warm-up,
+    power check, and maintenance aprons - quarterly report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3855
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3855.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3855
@@ -22,110 +36,62 @@ docid:
 - id: 10.6028/NBS.RPT.3855
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1954'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W L
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: W L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pendergast
+      completename:
+        content: Pendergast, W. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178506
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tuma
+      completename:
+        content: Tuma, E. C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020061589
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R A
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: R A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clevenger
+      completename:
+        content: Clevenger, R. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020004242
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1954'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '3855'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

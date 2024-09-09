@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5672
 title:
 - content: Advanced mass calibration and measurement assurance program for state calibration
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5672
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5672.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5672
@@ -22,75 +21,47 @@ docid:
 - id: 10.6028/NIST.IR.5672
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K L
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: K L
-          script:
-          - Latn
-      surname:
-        content: Fraley
-        script:
-        - Latn
+      completename:
+        content: Fraley, K. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G L
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: G L
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
+      completename:
+        content: Harris, Gary Lynn,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87128417
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5672'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

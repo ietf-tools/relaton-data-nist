@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-94
 title:
 - content: Guide to Intrusion Detection and Prevention Systems (IDPS)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-94
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-94
@@ -21,101 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-94
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P M
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: P M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mell
+      completename:
+        content: Mell, P. M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) developed this
+    document in furtherance of its statutory responsibilities under the Federal Information
+    Security Management Act (FISMA) of 2002, Public Law 107-347. This publication
+    seeks to assist organizations in understanding intrusion detection system (IDS)
+    and intrusion prevention system (IPS) technologies and in designing, implementing,
+    configuring, securing, monitoring, and maintaining intrusion detection and prevention
+    systems (IDPS). It provides practical, real-world guidance for each of four classes
+    of IDPS: network-based, wireless, network behavior analysis software, and host-based.
+    The publication also provides an overview of complementary technologies that can
+    detect intrusions, such as security information and event management software.
+    It focuses on enterprise IDPS, but most of the information in the publication
+    is also applicable to standalone and small-scale IDPS deployments.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-94
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

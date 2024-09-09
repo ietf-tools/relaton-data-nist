@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-267
 title:
 - content: A profile for IPv6 in the U.S. Government - version 1.0
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-267
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-267.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-267
@@ -21,103 +20,72 @@ docid:
 - id: 10.6028/NIST.SP.500-267
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Doug
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Montgomery
+      completename:
+        content: Montgomery, Doug.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00013999
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nightingale
+      completename:
+        content: Nightingale, Stephen.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022064507
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sheila
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frankel
+      completename:
+        content: Frankel, Sheila.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84053228
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carson
+      completename:
+        content: Carson, Mark.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008083740
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-267
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

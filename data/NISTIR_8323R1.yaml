@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8323r1
 title:
-- content: Foundational PNT Profile:Applying the Cybersecurity Framework for the Responsible
-    Use of Positioning, Navigation, and Timing (PNT) Services
+- content: Foundational PNT profile
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: applying the cybersecurity framework for the responsible use of positioning,
+    navigation, and timing (PNT) services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Foundational PNT profile - applying the cybersecurity framework for the
+    responsible use of positioning, navigation, and timing (PNT) services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8323r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8323r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8323r1
@@ -22,46 +36,95 @@ docid:
 - id: 10.6028/NIST.IR.8323r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: McCarthy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCarthy, James.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3234-4345"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Brule, Joseph.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Meldorf, Karri.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The national and economic security of the United States (U.S.) is dependent
+    upon the reliable functioning of the nation s critical infrastructure. Positioning,
+    Navigation, and Timing (PNT) services are widely deployed throughout this infrastructure.
+    In a government-wide effort to mitigate the potential impacts of a PNT disruption
+    or manipulation, Executive Order (EO) 13905, Strengthening National Resilience
+    Through Responsible Use of Positioning, Navigation and Timing Services, was issued
+    on February 12, 2020. The National Institute of Standards and Technology (NIST),
+    as part of the Department of Commerce (DoC), produced this voluntary PNT Profile
+    in response to Sec.4 Implementation (a), as detailed in the EO. The PNT Profile
+    was created by using the NIST Cybersecurity Framework and can be used as part
+    of a risk management program to help organizations manage risks to systems, networks,
+    and assets that use PNT services. The PNT Profile is intended to be broadly applicable
+    and can serve as a foundation for the development of sector-specific guidance.
+    This PNT Profile provides a flexible framework for users of PNT to manage risks
+    when forming and using PNT signals and data, which are susceptible to disruptions
+    and manipulations that can be natural, manufactured, intentional, or unintentional.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTIR8323
+    docid:
+    - id: NIST IR 8323
+      type: NIST
+    formattedref:
+      content: NIST IR 8323
+      format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8323r1
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

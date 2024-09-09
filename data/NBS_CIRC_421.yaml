@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC421
 title:
-- content: Circular of the Bureau of Standards no. 421:Spectral-transmissive properties
+- content: Circular of the Bureau of Standards no. 421
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Spectral-transmissive properties and use of colored eye-protective glasses
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 421 - Spectral-transmissive properties
     and use of colored eye-protective glasses
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.421
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular421.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 421
@@ -22,72 +35,53 @@ docid:
 - id: 10.6028/NBS.CIRC.421
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1938'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W W
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W W
-          script:
-          - Latn
-      surname:
-        content: Coblentz
-        script:
-        - Latn
+      completename:
+        content: Coblentz, W. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          script:
-          - Latn
-      surname:
-        content: Stair
-        script:
-        - Latn
+      completename:
+        content: Stair, R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1938'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '421'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

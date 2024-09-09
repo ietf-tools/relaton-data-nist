@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1247
 title:
 - content: SI base units relationship poster
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1247
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1247.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1247
@@ -21,84 +20,82 @@ docid:
 - id: 10.6028/NIST.SP.1247
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Eite
-          script:
-          - Latn
-      surname:
-        content: Tiesinga
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Tiesinga, Eite.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen A
-          script:
-          - Latn
-      surname:
-        content: Dill
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Dill, Kristen A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David B
-          script:
-          - Latn
-      surname:
-        content: Newell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Newell, David B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010042199
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: This publication is a colorful poster illustrating the relationships of
+    the International System of Units (SI) derived units with special names and symbols
+    and the seven traditional base units. The diagram is aligned with the BIPM SI
+    Brochure, 9th edition and NIST SP 330, The International System of Units (SI),
+    2019 edition. The previous edition of this diagram was published on the back cover
+    of NIST SP 811, Guide for the Use of the International System of Units (SI), 2008
+    edition. The traditional SI base unit symbols are shown within rectangle shapes,
+    with the unit name shown above the corresponding rectangle. The derived units
+    with special names are shown in circle shapes, with the unit symbol and name within
+    the circle. An expression for the derived unit in terms of other units shown in
+    parenthesis. Derived units without special names are not illustrated. In the diagram,
+    the derivation of each derived unit is indicated by arrows that bring in units
+    in the numerator (solid lines) and units in the denominator (broken lines), as
+    appropriate. The unit degree 'Celsius,' which is equal in magnitude to the unit
+    kelvin, is used to express Celsius temperature t, defined by the quantity equation
+    t = T - T0, where T0 = 273.15 K, the ice point. This equality is indicated in
+    the diagram by the symbol K in the degree C circle. The numerical value of a Celsius
+    temperature t expressed in degrees Celsius is given by the equation below 'CELSIUS
+    TEMPERATURE.' A difference or interval of temperature may be expressed in kelvins
+    or in degrees Celsius.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1247'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

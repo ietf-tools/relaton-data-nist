@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8307
 title:
-- content: 'Interoperability Assessment 2019: Contactless-to-Contact Fingerprint Capture'
+- content: Interoperability assessment 2019
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: contactless-to-contact fingerprint capture
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Interoperability assessment 2019 - contactless-to-contact fingerprint capture
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8307
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8307.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8307
@@ -21,135 +34,109 @@ docid:
 - id: 10.6028/NIST.IR.8307
   type: DOI
 date:
-- type: published
-  value: '2020-05-19'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Libert, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grantham, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          script:
-          - Latn
-      surname:
-        content: Bandini
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bandini, Bruce.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151062
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          script:
-          - Latn
-      surname:
-        content: Ko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ko, Kenneth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148737
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          script:
-          - Latn
-      surname:
-        content: Orandi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Orandi, Shahram.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020043056
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Watson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Watson, Craig.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021005762
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2020-05-19'
-script:
-- Latn
+abstract:
+- content: This report describes computational comparison measurements as well as
+    match error analysis applied to fingerprint images collected by researchers of
+    the National Institute of Standards and Technology (NIST) in May of 2019. Fingerprint
+    images from 200 Federal Employees were collected using both contact and contactless
+    acquisition devices, including both stationary devices and mobile smartphone devices.
+    Match scores from two different matchers were used to calculate False Negative
+    Identification Rate (FNIR) and False Positive Identification Rate (FPIR) at two
+    operational thresholds appropriate to each of the matchers. These values are displayed
+    in graphical form across eight devices for each of ten finger combinations. Overall
+    error performance is compared via Area Under Curve across devices for each of
+    ten finger combinations as well as across finger combinations separately for each
+    of the eight devices. Contact-to-contact interoperability remains superior to
+    contactless-to-contact, but multiple finger combinations improve match performance
+    of contactless devices.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8307'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

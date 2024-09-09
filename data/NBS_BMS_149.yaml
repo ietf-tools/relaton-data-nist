@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBMS149
 title:
 - content: Combustible contents in buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BMS.149
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BMS/nbsbuildingmaterialsstructures149.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BMS 149
@@ -21,98 +20,62 @@ docid:
 - id: 10.6028/NBS.BMS.149
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1957'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S H
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: S H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ingberg
+      completename:
+        content: Ingberg, S. H. (Simon H.),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00051881
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dunham
+      completename:
+        content: Dunham, John W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012066893
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thompson
+      completename:
+        content: Thompson, James P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84200594
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1957'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Materials and Structures Reports
+    content: NBS building materials and structures report; NBS BMS
     format: text/plain
-  abbreviation:
-    content: BMS
   number: '149'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

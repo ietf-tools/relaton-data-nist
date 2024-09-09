@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR3963
 title:
-- content: Unsteady laminar flow in a circular tube :a test of the HERCOL (Hermitian
+- content: Unsteady laminar flow in a circular tube
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a test of the HERCOL (Hermitian collocation) computer code
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Unsteady laminar flow in a circular tube - a test of the HERCOL (Hermitian
     collocation) computer code
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.3963
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir3963.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 3963
@@ -22,120 +35,68 @@ docid:
 - id: 10.6028/NIST.IR.3963
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Welch
+      completename:
+        content: Welch, James F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hurley
+      completename:
+        content: Hurley, James A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Glover
+      completename:
+        content: Glover, Michael P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nassimbene
+      completename:
+        content: Nassimbene, Ryan D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marilyn R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yetzbacher
+      completename:
+        content: Yetzbacher, Marilyn R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '3963'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

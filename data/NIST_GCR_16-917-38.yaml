@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-917-38
 title:
-- content: 'Seismic Design of Cold-Formed Steel Lateral Load-Resisting Systems: A
-    Guide for Practicing Engineers'
+- content: Seismic design of cold-formed steel lateral load-resisting systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a guide for practicing engineers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Seismic design of cold-formed steel lateral load-resisting systems - a
+    guide for practicing engineers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-917-38
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-917-38.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-917-38
@@ -22,84 +35,69 @@ docid:
 - id: 10.6028/NIST.GCR.16-917-38
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
+- organization:
+    name:
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
+  role:
+  - type: publisher
 - person:
     name:
-      given:
-        forename:
-        - content: Robert L.
-          script:
-          - Latn
-      surname:
-        content: Madsen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Madsen, Robert L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas A.
-          script:
-          - Latn
-      surname:
-        content: Castle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Castle, Thomas A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin W.
-          script:
-          - Latn
-      surname:
-        content: Schafer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Schafer, Benjamin W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-917-38
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP300v4
 title:
-- content: Precision measurement and calibration :selected NBS papers on electricity
+- content: Precision measurement and calibration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: selected NBS papers on electricity - radio frequency
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Precision measurement and calibration - selected NBS papers on electricity
     - radio frequency
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.300v4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication300v4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 300v4
@@ -22,52 +35,40 @@ docid:
 - id: 10.6028/NBS.SP.300v4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1970'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Arthur J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Estin
+      completename:
+        content: Estin, Arthur J. (Arthur John),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004013223
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1970'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 300v4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8363
 title:
 - content: Examining recent HR data for gender bias among federal employees at NIST
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8363
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8363.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8363
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.IR.8363
   type: DOI
 date:
-- type: published
-  value: '2021-03-26'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jasmine
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Evans, Jasmine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda
-          script:
-          - Latn
-      surname:
-        content: Koepke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Koepke, Amanda.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven P
-          script:
-          - Latn
-      surname:
-        content: Lund
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lund, Steven P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary F
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Theofanos, Mary F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-03-26'
-script:
-- Latn
 abstract:
 - content: This report is part of a multi-phase mixed methods project that is designed
     to provide an in-depth look at the population of National Institute of Standards
@@ -118,16 +74,24 @@ abstract:
     annual salary, and supervisory level. Further analysis identified the highest
     degree earned as a factor toward gender-specific barriers. Finally, we identified
     the broken rung as a factor limiting advancement of women.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8363'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

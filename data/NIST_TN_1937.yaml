@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1937
 title:
-- content: 'Development of Laboratory Test Methods for RF-Based Electronic Safety
-    Equipment: Guide to the NFPA 1982 Standard'
+- content: Development of laboratory test methods for RF-Based electronic safety equipment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: guide to the National Fire Protection Association 1982 standard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Development of laboratory test methods for RF-Based electronic safety equipment
+    - guide to the National Fire Protection Association 1982 standard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1937
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1937.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1937
@@ -22,118 +35,98 @@ docid:
 - id: 10.6028/NIST.TN.1937
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Audrey K.
-          script:
-          - Latn
-      surname:
-        content: Puls
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Puls, Audrey K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F.
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Young, William F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A.
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Remley, Kate A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jacob L.
-          script:
-          - Latn
-      surname:
-        content: Healy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Healy, Jacob.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022027326
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Luis A.
-          script:
-          - Latn
-      surname:
-        content: Gonzalez
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: González, Luis A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003092028
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) with support
+    from the Department of Homeland Security has been working with the National Fire
+    Protection Association (NFPA) to develop standards and test methods for radio-frequency
+    personal alert safety systems (RF PASS). The RF PASS systems are incorporated
+    into a firefighter''s gear and are used to alert a base station when the firefighter
+    is in distress, has been motionless for more than 30 seconds, or to alert the
+    firefighter in case an evacuation is necessary. The material here covers the development
+    of several test methods either already adopted by the NFPA or targeted for future
+    revisions of NFPA 1982 Personal Alert Safety Systems. These test methods represent
+    five RF PASS deployment conditions: a highly reflective (high multipath) RF environment;
+    a prescribed amount of attenuation in a point- to-point communication link; a
+    multi-hop connection path; in-band wireless activity; and temporary exposure to
+    high-power, in-band RF interference. The data and developed testing are based
+    on currently used RF PASS frequencies: 450 MHz, 900 MHz, and 2.4 GHz.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1937'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

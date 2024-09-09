@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-212
 title:
-- content: Certification of Standard Reference Material 916b :bilirubin
+- content: Certification of Standard Reference Material 916b
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: bilirubin
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Certification of Standard Reference Material 916b - bilirubin
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-212
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-212.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-212
@@ -21,158 +34,79 @@ docid:
 - id: 10.6028/NIST.SP.260-212
   type: DOI
 date:
-- type: published
-  value: '2021-09-20'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A
-          script:
-          - Latn
-      surname:
-        content: Nelson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Nelson, Michael A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice
-          script:
-          - Latn
-      surname:
-        content: Brown Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Brown Thomas, Jeanice.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian E
-          script:
-          - Latn
-      surname:
-        content: Lang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lang, Brian E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jerome
-          script:
-          - Latn
-      surname:
-        content: Mulloor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Mulloor, Jerome.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John R
-          script:
-          - Latn
-      surname:
-        content: Sieber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sieber, John R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lee L
-          script:
-          - Latn
-      surname:
-        content: Yu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Yu, Lee L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley
-          script:
-          - Latn
-      surname:
-        content: Lo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lo, Stanley.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-09-20'
-script:
-- Latn
 abstract:
 - content: Standard Reference Material (SRM) 916b Bilirubin comprises neat unconjugated
     bilirubin that is certified as a chemical substance of known purity. It is intended
@@ -181,16 +115,22 @@ abstract:
     quantity values to in-house control materials. A unit of SRM 916b consists of
     100 mg of bilirubin. This publication documents the production, analytical methods,
     and computations involved in characterizing this product.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-212
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-64r1
 title:
 - content: Security considerations in the information system development life cycle
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-64r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-64r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-64r1
@@ -21,119 +20,79 @@ docid:
 - id: 10.6028/NIST.SP.800-64r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grance
+      completename:
+        content: Grance, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hash
+      completename:
+        content: Hash, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stevens
+      completename:
+        content: Stevens, M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85081688
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'The need to provide protection for federal information systems has been
+    present since computers were first used. Including security early in the acquisition
+    process for an information system will usually result in less expensive and more
+    effective security than adding it to an operational system once it has entered
+    service. This guide presents a framework for incorporating security into all phases
+    of the information system development life cycle (SDLC) process, from initiation
+    to disposal. This document is a guide to help organizations select and acquire
+    cost-effective security controls by explaining how to include information system
+    security requirements in the SDLC.Five phases of a general SDLC are discussed
+    in this guide and include the following phases: initiation, acquisition/development,
+    implementation, operations/maintenance, and disposition. Each of these five phases
+    includes a minimum set of security steps needed to effectively incorporate security
+    into a system during its development. An organization will either use the general
+    SDLC described in this document or will have developed a tailored SDLC that meets
+    their specific needs. In either case, NIST recommends that organizations incorporate
+    the associated IT security steps of this general SDLC into their own development
+    process.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-64r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

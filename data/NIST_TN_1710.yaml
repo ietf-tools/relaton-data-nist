@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1710
 title:
-- content: 'Potential alternate smoldering ignition sources: literature review with
-    analysis'
+- content: Potential alternate smoldering ignition sources
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: literature review with analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Potential alternate smoldering ignition sources - literature review with
+    analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1710
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1710.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1710
@@ -22,67 +35,70 @@ docid:
 - id: 10.6028/NIST.TN.1710
   type: DOI
 date:
-- type: published
-  value: 2011-10
+- type: issued
+  value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda P
-          script:
-          - Latn
-      surname:
-        content: Robbins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Robbins, A. P. (Amanda P.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010045194
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G
-          script:
-          - Latn
-      surname:
-        content: Gann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gann, Richard G.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96095572
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2011-10
-script:
-- Latn
+abstract:
+- content: Existing and proposed U.S. flammability standards for soft furnishings
+    such as mattresses and upholstered furniture specify a standard cigarette as the
+    ignition source in smoldering resistance performance tests. With the introduction
+    of reduced ignition propensity cigarettes into the marketplace, the specific conventional
+    cigarette that has been widely used in testing for ignition resistance is no longer
+    in production. A standard reference cigarette, SRM 1196, has been developed as
+    a short-term replacement. However, to support furnishings manufacturers and testing
+    organizations in product design and evaluation, and to assist regulators in the
+    compliance evaluation process, a feasible and preferably non-agricultural ignition
+    source with long-term availability is desirable. A key first step in establishing
+    such a standard ignition source is examination of prior characterizations of smoldering
+    ignition sources and the cigarette ignition process. This report documents a literature
+    survey on these topics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1710'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

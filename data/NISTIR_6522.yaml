@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6522
 title:
 - content: Silicon microelectronics programs at the National Institute of Standards
-    and Technology:programs, activities, and accomplishments
+    and Technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: programs, activities, and accomplishments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Silicon microelectronics programs at the National Institute of Standards
+    and Technology - programs, activities, and accomplishments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6522
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6522.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6522
@@ -22,72 +36,61 @@ docid:
 - id: 10.6028/NIST.IR.6522
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joaquin V Martinez de
-          script:
-          - Latn
-      surname:
-        content: Pinillos
-        script:
-        - Latn
+      completename:
+        content: Pinillos, Joaquin V. Martinez de.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00006017
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Knight
-        script:
-        - Latn
+      completename:
+        content: Knight, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00006019
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alice
-          script:
-          - Latn
-      surname:
-        content: Settle-Raskin
-        script:
-        - Latn
+      completename:
+        content: Settle-Raskin, Alice.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00006018
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6522'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

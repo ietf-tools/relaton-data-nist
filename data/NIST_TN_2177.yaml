@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2177
 title:
 - content: Assessing the quality of as-received 4340 steel for the production of NIST
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2177
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2177.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2177
@@ -22,56 +21,31 @@ docid:
 - id: 10.6028/NIST.TN.2177
   type: DOI
 date:
-- type: published
-  value: '2021-09-15'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: May
-          script:
-          - Latn
-      surname:
-        content: Martin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Martin, May.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-09-15'
-script:
-- Latn
 abstract:
 - content: 'The Charpy Machine Verification Program at NIST in Boulder uses heat-treated
     4340 steel for the production of indirect verification Charpy specimens at low-
@@ -90,16 +64,22 @@ abstract:
     future heat quality assessments. In support, hardness measurements can also be
     performed, while Charpy tests are not recommended in view of their relative experimental
     and economic burden.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2177'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

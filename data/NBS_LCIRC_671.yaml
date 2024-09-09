@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC671
 title:
-- content: Letter Circular 671:sources of information on paint and related materials
+- content: Letter Circular 671
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: sources of information on paint and related materials (replacing Letter
+    Circular 478 and 542)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 671 - sources of information on paint and related materials
     (replacing Letter Circular 478 and 542)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.671
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular671.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 671
@@ -22,33 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.671
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1941'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1941'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '671'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

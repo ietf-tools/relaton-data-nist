@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSIBS1
 title:
-- content: 'Special interior ballistics studies : World War I'
+- content: Special interior ballistics studies
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: World War I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Special interior ballistics studies - World War I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SIBS.1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SIBS/nbssibs.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SIBS 1
@@ -21,85 +34,49 @@ docid:
 - id: 10.6028/NBS.SIBS.1
   type: DOI
 date:
-- type: published
-  value: 1942-01
+- type: issued
+  value: '1924'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harvey Lincoln
-          script:
-          - Latn
-      surname:
-        content: Curtis
-        script:
-        - Latn
+      completename:
+        content: Curtis, Harvey Lincoln.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H. C.
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: H. C.
-          script:
-          - Latn
-      surname:
-        content: Richards
-        script:
-        - Latn
+      completename:
+        content: Richards, H. C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C.
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C.
-          script:
-          - Latn
-      surname:
-        content: Snow
-        script:
-        - Latn
+      completename:
+        content: Snow, C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: 1942-01
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Interior Ballistics Studies
+    content: NBS special interior ballistic studies
     format: text/plain
-  abbreviation:
-    content: SIBS
   number: '1'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

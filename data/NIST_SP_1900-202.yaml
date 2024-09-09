@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-202
 title:
 - content: Cyber-physical systems and internet of things
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-202
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-202.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-202
@@ -21,101 +20,97 @@ docid:
 - id: 10.6028/NIST.SP.1900-202
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Greer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greer, Christopher.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Burns, Martin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97033846
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Wollman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wollman, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2011013120
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Griffor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Griffor, Edward.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: 'This NIST Special Publication describes the relationship between the phrases
+    ''cyber-physical systems'' and ''Internet of Things.'' CPS and IoT both refer
+    to trends in integrating digital capabilities, including network connectivity,
+    with physical devices and systems. This document describes the origins of these
+    terms, analyzes the range of definitions over time, describes a unified perspective,
+    and explores implications of this perspective. Four categories of overlap were
+    identified in publications comparing and contrasting CPS and IoT. The distinctions
+    hinge on three issues: control, internet, and human interactions. The lack of
+    consistent distinguishing metrics and the convergence of definitions indicate
+    an emerging consensus around the equivalence of CPS and IoT concepts. This convergence
+    creates opportunities for progress through integrating the research, innovation,
+    and standards efforts of the respective communities. Two models provide the bases
+    for a unified CPS/IoT perspective. A unified components model provides 4 categories
+    for CPS and IoT systems components: logical, physical, transducing, and human.
+    A unified interactions model provides a formal basis for describing the performance
+    of CPS and IoT systems. The unified perspective can be expressed as follows: Internet
+    of Things and Cyber-Physical Systems comprise interacting logical, physical, and
+    human components engineered for function through integrated logic and physics.
+    Three criteria based on a characteristic set of components, capabilities, and
+    functions are proposed for interchangeably labeling a system ''CPS'' or ''IoT''.
+    Implications of a unified CPS and IoT perspective include the need for new hybrid
+    discrete and continuous methods as science and engineering foundations for CPS/IoT
+    design, operation, and assurance; and the importance of tight logical-physical
+    linkage as the basis for the transformational nature of CPS/IoT systems.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-202
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

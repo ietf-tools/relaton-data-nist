@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-917-41
 title:
-- content: 'NEHRP Seismic Design Technical Brief No. 2 - Seismic Design of Steel Special
-    Moment Frames: A Guide for Practicing Engineers Second Edition'
+- content: Seismic design of steel special moment frames
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a guide for practicing engineers second edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Seismic design of steel special moment frames - a guide for practicing
+    engineers second edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-917-41
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-917-41.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-917-41
@@ -22,67 +35,51 @@ docid:
 - id: 10.6028/NIST.GCR.16-917-41
   type: DOI
 date:
-- type: published
-  value: 2016-05
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald O.
-          script:
-          - Latn
-      surname:
-        content: Hamburger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamburger, R. O. (Ronald O.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96039833
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James O.
-          script:
-          - Latn
-      surname:
-        content: Malley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Malley, James O.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86851447
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-917-41
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

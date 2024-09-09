@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-150
 title:
-- content: Guide to Cyber Threat Information Sharing
+- content: Guide to cyber threat information sharing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-150
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-150.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-150
@@ -21,118 +20,100 @@ docid:
 - id: 10.6028/NIST.SP.800-150
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher S.
-          script:
-          - Latn
-      surname:
-        content: Johnson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Johnson, Chris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77006959
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark Lee
-          script:
-          - Latn
-      surname:
-        content: Badger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Badger, Lee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142246
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David A.
-          script:
-          - Latn
-      surname:
-        content: Waltermire
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Waltermire, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021047735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Julie
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Snyder, Julie,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010076750
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Clem
-          script:
-          - Latn
-      surname:
-        content: Skorupka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Skorupka, Clem.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: Cyber threat information is any information that can help an organization
+    identify, assess, monitor, and respond to cyber threats. Cyber threat information
+    includes indicators of compromise; tactics, techniques, and procedures used by
+    threat actors; suggested actions to detect, contain, or prevent attacks; and the
+    findings from the analyses of incidents. Organizations that share cyber threat
+    information can improve their own security postures as well as those of other
+    organizations. This publication provides guidelines for establishing and participating
+    in cyber threat information sharing relationships. This guidance helps organizations
+    establish information sharing goals, identify cyber threat information sources,
+    scope information sharing activities, develop rules that control the publication
+    and distribution of threat information, engage with existing sharing communities,
+    and make effective use of threat information in support of the organizations overall
+    cybersecurity practices.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-150
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

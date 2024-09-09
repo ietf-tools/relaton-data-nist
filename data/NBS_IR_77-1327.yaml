@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR77-1327
 title:
-- content: Interlaboratory programs for rubber :Analyses no. 34 October - December
+- content: Interlaboratory programs for rubber
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Analyses no. 34 October - December 1977
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Interlaboratory programs for rubber - Analyses no. 34 October - December
     1977
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.77-1327
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir77-1327.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 77-1327
@@ -22,146 +35,61 @@ docid:
 - id: 10.6028/NBS.IR.77-1327
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E B
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: E B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Randall
+      completename:
+        content: Randall, E. B., Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Horlick
+      completename:
+        content: Horlick, J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stevenson
+      completename:
+        content: Stevenson, J. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G W
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: G W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bullman
+      completename:
+        content: Bullman, G. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 77-1327
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

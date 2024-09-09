@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1222
 title:
-- content: 'Report on the NISTDHSFDA workshop: standards for pathogen detection for
-    biosurveillance and clinical applications August 14-15, 2017'
+- content: Report on the NIST/DHS/FDA workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: standards for pathogen detection for biosurveillance and clinical applications
+    August 14-15, 2017
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on the NIST/DHS/FDA workshop - standards for pathogen detection
+    for biosurveillance and clinical applications August 14-15, 2017
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1222
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1222.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1222
@@ -22,84 +36,74 @@ docid:
 - id: 10.6028/NIST.SP.1222
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Scott
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jackson, Scott.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97008968
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nancy J
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lin, Nancy J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Kralj
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kralj, Jason.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: 'The 2017 NIST/DHS/FDA Workshop: Standards for Pathogen Detection for Biosurveillance
+    and Clinical Applications brought together subject matter experts from the clinical
+    and biosurveillance communities to discuss standards to support the use of next
+    generation sequencing for pathogen detection. The presentations, panel discussion,
+    and break-out sessions focused on development and utilization of reference materials
+    and standard operating procedures to assess measurement biases and overcome measurement
+    and bioinformatic challenges and regulatory hurdles. This workshop was the third
+    NIST-hosted workshop on sequencing for pathogen detection/identification since
+    2014. Pathogen detection is relevant to a number of programmatic priorities within
+    the NIST Material Measurement Laboratory including microbial metrology, precision
+    medicine, biomanufacturing, biodefense/forensics, food safety, antibiotic resistance,
+    and water quality. Thus, it is our intention at NIST to continue to host this
+    workshop theme approximately every two years.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1222'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

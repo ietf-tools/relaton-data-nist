@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8453
 title:
-- content: A Guide to United States Personal Protective Equipment Compliance Requirements
+- content: A guide to United States personal protective equipment compliance requirements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8453
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8453.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8453
@@ -21,46 +20,66 @@ docid:
 - id: 10.6028/NIST.IR.8453
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Marshall
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Benson, Lisa M.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Marshall, Jennifer.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Puskar, Erik.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Standards Coordination Office.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This Guide addresses compliance requirements for personal protective Equipment
+    (PPE) used in the workplace, except for PPE used in a nuclear or medical setting.
+    Several U.S. federal agencies administer regulations associated with Personal
+    Protective Equipment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8453'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8453'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

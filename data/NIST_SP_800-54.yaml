@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-54
 title:
 - content: Border gateway protocol security
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-54
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-54.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-54
@@ -21,129 +20,72 @@ docid:
 - id: 10.6028/NIST.SP.800-54
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D R
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: D R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. R.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sriram
+      completename:
+        content: Sriram, Kotikalapudi.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021120228
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D C
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: D C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Montgomery
+      completename:
+        content: Montgomery, D. C.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document introduces the Border Gateway Protocol (BGP), explains its
+    importance to the internet, and provides a set of best practices that can help
+    in protecting BGP. Best practices described here are intended to be implementable
+    on nearly all currently available BGP routers. While a number of enhanced protocols
+    for BGP have been proposed, these generally require substantial changes to the
+    protocol and may not interoperate with current BGP implementations. To improve
+    the security of BGP routers, the recommendations listed below are introduced.
+    While the recommendations can contribute to greatly improved BGP security, they
+    are not a complete defense against all threats. Security administrators and decision
+    makers should select and apply these methods based on their unique needs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-54
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

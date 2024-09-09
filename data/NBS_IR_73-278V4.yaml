@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR73-278v4
 title:
 - content: Model documents for the evaluation, approval, and inspection of manufactured
-    buildings :volume IV- compliance assurance and local enforcement agency documents
+    buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: volume IV- compliance assurance and local enforcement agency documents
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Model documents for the evaluation, approval, and inspection of manufactured
+    buildings - volume IV- compliance assurance and local enforcement agency documents
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.73-278v4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir73-278v4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 73-278v4
@@ -22,151 +36,70 @@ docid:
 - id: 10.6028/NBS.IR.73-278v4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R D
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dikkers
+      completename:
+        content: Dikkers, R. D. (Robert D.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50025518
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H R
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: H R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Trechsel
+      completename:
+        content: Trechsel, Heinz R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81104872
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P W
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: P W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cooke
+      completename:
+        content: Cooke, Patrick W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50027309
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H K
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: H K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tejuja
+      completename:
+        content: Tejuja, H. K.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 73-278v4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

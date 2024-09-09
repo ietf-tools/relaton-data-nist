@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8626
 title:
-- content: Infrared optical measurements:semiannual technical report July 1, 1964
+- content: Infrared optical measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: semiannual technical report July 1, 1964 to December 31, 1964
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Infrared optical measurements - semiannual technical report July 1, 1964
     to December 31, 1964
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8626
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8626.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8626
@@ -22,33 +35,33 @@ docid:
 - id: 10.6028/NBS.RPT.8626
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1964'
 contributor:
+- person:
+    name:
+      completename:
+        content: Metrology Division.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1964'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8626'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

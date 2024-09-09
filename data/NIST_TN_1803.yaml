@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1803
 title:
-- content: Thermal Exposure Sensor for Fire Fighters - Laboratory-Scale Performance
-    Experiments
+- content: Thermal exposure sensor for fire fighters
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: laboratory-scale performance experiments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Thermal exposure sensor for fire fighters - laboratory-scale performance
+    experiments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1803
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1803.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1803
@@ -22,118 +35,108 @@ docid:
 - id: 10.6028/NIST.TN.1803
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nelson P
-          script:
-          - Latn
-      surname:
-        content: Bryner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Deshmukh, Atul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000358
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Atul
-          script:
-          - Latn
-      surname:
-        content: Deshmukh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Casali, John G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021149452
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Casali
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lancaster, Jeff A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007116331
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeff
-          script:
-          - Latn
-      surname:
-        content: Lancaster
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bryner, Nelson P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021101621
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Roy A
-          script:
-          - Latn
-      surname:
-        content: McLane
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McLane, Roy A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022056129
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: During structural fire fighting operations, fire fighters wear protective
+    gear to insulate them from high temperature environments, including hot combustion
+    gases, burning surfaces, and thermal radiation. Current turnout gear insulates
+    the fire fighter to such an extent, encapsulating his/her entire body, that it
+    is difficult for each individual fire fighter to understand how hazardous or hot
+    the thermal environment is. Therefore, the natural heat-sensing mechanism of the
+    body is incapable of sensing the ambient temperature, possibly putting firefighters
+    at risk. A thermal sensing device that attaches to the visor of the head gear
+    is designed to restore situational awareness of the firefighter by showing varying
+    heat intensity through different colored warning indicators in the firefighter
+    s line of sight. Human factors evaluation of the performance of the warnings in
+    the thermal sensing device was conducted in laboratory-scale (i.e., climatic chamber
+    experiments) and in full-scale (i.e. fire experiments in ISO room) environments.
+    This report describes the laboratory-scale experiments and a second report describes
+    the fullscale fire experiments. A static oven, representing the conductive type
+    of heat; a fire equipment evaluator, with high speed convective flow loop, and
+    a radiant panel, with intense heat flux were used to conduct laboratory-scale
+    experiments.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1803'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

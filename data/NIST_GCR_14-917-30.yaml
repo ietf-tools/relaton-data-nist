@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR14-917-30
 title:
 - content: Use of high-strength reinforcement in earthquake-resistant concrete structures
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.14-917-30
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2014/NIST.GCR.14-917-30.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 14-917-30
@@ -21,33 +20,51 @@ docid:
 - id: 10.6028/NIST.GCR.14-917-30
   type: DOI
 date:
-- type: published
-  value: 2014-03
+- type: issued
+  value: '2017'
 contributor:
+- person:
+    name:
+      completename:
+        content: NEHRP Consultants Joint Venture.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-03
-script:
-- Latn
+abstract:
+- content: 'The objective of this project was to study and make recommendations concerning
+    the utilization of high-strength steel reinforcing bars in concrete structures
+    subjected to earthquake ground motion. This work grew out of the ATC-57 report,
+    The Missing Piece: Improving Seismic Design and Construction Practices (ATC, 2003),
+    which defines a roadmap for the NIST problem-focused research and development
+    program in earthquake engineering. The ATC-57 report recommended that NIST examine
+    new technologies that can improve construction productivity, such as high-strength
+    reinforcement.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 14-917-30
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

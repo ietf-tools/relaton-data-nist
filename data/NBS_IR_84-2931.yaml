@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-2931
 title:
 - content: 'Electron and photon transport in multi-layer media: notes on the Monte
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-2931
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-2931.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-2931
@@ -22,75 +21,47 @@ docid:
 - id: 10.6028/NBS.IR.84-2931
   type: DOI
 date:
-- type: published
-  value: 1984-01
+- type: issued
+  value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S M
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: S M
-          script:
-          - Latn
-      surname:
-        content: Seltzer
-        script:
-        - Latn
+      completename:
+        content: Seltzer, Stephen M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82209458
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          script:
-          - Latn
-      surname:
-        content: Berger
-        script:
-        - Latn
+      completename:
+        content: Berger, M. J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 1984-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-2931
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

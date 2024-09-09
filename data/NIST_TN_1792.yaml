@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1792
 title:
-- content: Performance Analysis of RF-Based Electronic Safety Equipment in a Subway
-    Station and the Empire State Building
+- content: Performance analysis of RF-based electronic safety equipment in a subway
+    station and the empire state building
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1792
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1792.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1792
@@ -22,118 +21,75 @@ docid:
 - id: 10.6028/NIST.TN.1792
   type: DOI
 date:
-- type: published
-  value: 2013-03
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William F.
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Electromagnetics Division
+      completename:
+        content: Young, William F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A.
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Electromagnetics Division
+      completename:
+        content: Remley, Kate A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Galen
-          script:
-          - Latn
-      surname:
-        content: Koepke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Electromagnetics Division
+      completename:
+        content: Koepke, Galen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Camell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Electromagnetics Division
+      completename:
+        content: Camell, Dennis.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jacob
-          script:
-          - Latn
-      surname:
-        content: Healy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory, Electromagnetics Division
+      completename:
+        content: Healy, Jacob.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022027326
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Physical Measurement Laboratory, Electromagnetics Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1792'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

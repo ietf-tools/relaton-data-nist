@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7963
 title:
-- content: Evaluation of Energy Consumption Rating Methods for Thermoelectric Wine
-    Chillers and Compact Refrigerators
+- content: Evaluation of energy consumption rating methods for thermoelectric wine
+    chillers and compact refrigerators
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7963
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7963.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7963
@@ -22,67 +21,48 @@ docid:
 - id: 10.6028/NIST.IR.7963
   type: DOI
 date:
-- type: published
-  value: 2013-09
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David A.
-          script:
-          - Latn
-      surname:
-        content: Yashar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yashar, David A. (David Anthony)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003082480
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Young-Jin
-          script:
-          - Latn
-      surname:
-        content: Baik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Baik, Young-Jin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2013-09
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7963'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

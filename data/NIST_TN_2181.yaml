@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2181
 title:
 - content: Load forecasting tool for NIST transactive energy market
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2181
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2181.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2181
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.TN.2181
   type: DOI
 date:
-- type: published
-  value: '2021-09-27'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Farhad
-          script:
-          - Latn
-      surname:
-        content: Omar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Holmberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Holmberg, David.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2021-09-27'
-script:
-- Latn
 abstract:
 - content: Customers and transactive energy (TE) market managers may rely on load
     forecasting algorithms to purchase or sell power in a forward market environment,
@@ -95,16 +69,22 @@ abstract:
     of 9.4 % and average cost savings of 19.4 % compared to simulated baseline energy
     consumption in GridLAB-D. The LFT s forecast temperature and energy consumption
     profiles have been integrated into a co-simulation experiment for validation.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2181'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

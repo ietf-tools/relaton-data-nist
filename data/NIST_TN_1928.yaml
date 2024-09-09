@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1928
 title:
-- content: The Structure of a Moderate-Scale Methanol Pool Fire
+- content: The structure of a moderate-scale methanol pool fire
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1928
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1928.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1928
@@ -21,67 +20,66 @@ docid:
 - id: 10.6028/NIST.TN.1928
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony P.
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Lock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lock, Andrew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79009781
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: A series of measurements was made to characterize the structure of a moderate-sized
+    methanol pool fire steadily burning in a quiescent environment. Time averaged
+    local measurements of temperature and gas species concentrations were made in
+    a steadily burning methanol pool fire. Temperatures were measured using fine wire
+    thermocouples corrected for radiative losses. Gaseous species were measured using
+    extractive sampling through a cooled probe and the samples analyzed using a gas
+    chromatograph. The species measured included the reactants (the fuel, methanol,
+    and oxygen), combustion intermediates such as CO and combustion products such
+    as H2O and CO2. It is anticipated that these data will be useful for model validation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1928'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

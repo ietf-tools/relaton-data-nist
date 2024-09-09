@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-223
 title:
 - content: Certification of Standard Reference Material 915c calcium carbonate
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-223
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-223.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-223
@@ -21,73 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.260-223
   type: DOI
 date:
-- type: published
-  value: '2022-09-20'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas W
-          script:
-          - Latn
-      surname:
-        content: Vetter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Vetter, Thomas W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason F
-          script:
-          - Latn
-      surname:
-        content: Waters
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Waters, Jason F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam L
-          script:
-          - Latn
-      surname:
-        content: Pintar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Pintar, Adam L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-09-20'
-script:
-- Latn
 abstract:
 - content: Standard Reference Material (SRM) 915c Calcium Carbonate is certified as
     a chemical substance of known purity. It is intended for use in the calibration
@@ -96,16 +61,22 @@ abstract:
     used in these procedures. A unit of SRM 915c consists of a single glass bottle
     containing 20 g of the material. This publication documents the production, analytical
     methods, and computations involved in characterizing this product.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-223
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

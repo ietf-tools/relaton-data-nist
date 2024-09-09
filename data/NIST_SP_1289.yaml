@@ -1,18 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1289
 title:
-- content: Beginners Guide to Biometric and Forensic Human Subjects Research Protections
+- content: Beginners guide to biometric and forensic science human subjects research
+    protections
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1289
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1289.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1289
@@ -21,46 +21,71 @@ docid:
 - id: 10.6028/NIST.SP.1289
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Chapman, William.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Hicklin, R. Austin.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Taylor, Melissa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-4204-3864"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Special Programs Office.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This document is designed to help researchers in the United States navigate
+    and comply with requirements and best practices for human subjects research, with
+    specific emphasis on biometric and forensic science research. The purpose of this
+    document is to summarize requirements and best practices involved in Institutional
+    Review Board (IRB) approval, consent forms, and data use agreements, when conducting
+    biometric and forensic science research involving human subjects and distributing
+    the resulting data. This document also provides a variety of resources from multiple
+    sources to help navigate the IRB approval process. The process of beginning a
+    human subjects research project requires several considerations to be made to
+    protect the rights of the participants including approval by IRBs; writing, releasing,
+    and collecting consent forms; and collecting, documenting, and using data for
+    the execution of the research and the potential publishing of the findings.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1289'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

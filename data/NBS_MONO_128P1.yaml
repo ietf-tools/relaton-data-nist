@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO128p1
 title:
 - content: Corrosion rates on underground steel test piles at Turcot Yard, Montreal,
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.128p1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph128p1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 128p1
@@ -22,81 +21,48 @@ docid:
 - id: 10.6028/NBS.MONO.128p1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W J
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: W J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwerdtfeger
+      completename:
+        content: Schwerdtfeger, W. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melvin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Romanoff
+      completename:
+        content: Romanoff, Melvin.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr94007571
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1972'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: 128p1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

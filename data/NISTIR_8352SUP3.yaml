@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8352sup3
 title:
 - content: Summary of published criticisms of bitemark foundations and responses by
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8352sup3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8352sup3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8352sup3
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.IR.8352sup3
   type: DOI
 date:
-- type: published
-  value: '2022-10-11'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          script:
-          - Latn
-      surname:
-        content: Butler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Butler, John M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-10-11'
-script:
-- Latn
 abstract:
 - content: 'This report provides supplemental information to NISTIR 8352 Bitemark
     Analysis: A NIST Scientific Foundation Review. This report summarizes the concerns
@@ -62,16 +45,24 @@ abstract:
     of Sciences, the President s Council of Advisors on Science and Technology, and
     the Texas Forensic Science Commission. Responses given by members of the bitemark
     analysis community are also provided.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8352sup3
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

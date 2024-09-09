@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-26
 title:
 - content: Security self-assessment guide for information technology systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-26
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-26.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-26
@@ -21,56 +20,61 @@ docid:
 - id: 10.6028/NIST.SP.800-26
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marianne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swanson
+      completename:
+        content: Swanson, Marianne.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91015913
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Self-assessments provide a method for agency officials to determine the
+    current status of their information security programs and, where necessary, establish
+    a target for improvement. This self-assessment guide utilizes an extensive questionnaire
+    containing specific control objectives and techniques against which an unclassified
+    system or group of interconnected systems can be tested and measured. The guide
+    does not establish new security requirements. The control objectives and techniques
+    are abstracted directly from long-standing requirements found in statute, policy,
+    and guidance on security. This document builds on the Federal IT Security Assessment
+    Framework (Framework) developed by NIST for the Federal Chief Information Officer
+    (CIO) Council. The Framework established the groundwork for standardizing on five
+    levels of security status and criteria agencies could use to determine if the
+    five levels were adequately implemented. This document provides guidance on applying
+    the Framework by identifying 17 control areas, such as those pertaining to identification
+    and authentication and contingency planning. In addition, the guide provides control
+    objectives and techniques that can be measured for each area.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-26
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8215
 title:
 - content: Forensic latent fingerprint preprocessing assessment
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8215
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8215.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8215
@@ -21,153 +20,121 @@ docid:
 - id: 10.6028/NIST.IR.8215
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lee, Paul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97096373
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Haiying
-          script:
-          - Latn
-      surname:
-        content: Guan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Guan, Haiying.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1461-265X"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Dienstfrey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Dienstfrey, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Theofanos, Mary.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Stanton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Stanton, Brian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2004111638
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew T
-          script:
-          - Latn
-      surname:
-        content: Schwarz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Schwarz, Matthew T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: Latent fingerprints are made visible from the surface of objects using
+    a variety of methods including physical and chemical processing, adapted illumination
+    sources, and photographs. Unfortunately, the prints collected directly from a
+    crime scene or from physical evidence may be incomplete or damaged, to the point
+    of being considered unsuitable to send directly to latent fingerprint examiners
+    for identification or to Automated Fingerprint Identification System (AFIS) for
+    recognition. As a result, most latent fingerprint images must be preprocessed
+    to enhance fingerprint information, at the same time suppressing interference
+    arising from noise and otherwise unwanted image features. This preprocessing phase
+    occurs after the latent print is collected from the crime scene and digitalized
+    by a scanner or camera, and before the image analysis and process phase such as
+    minutiae markup or latent print identification. The preprocessing results can
+    be extraordinary, transforming raw images with little or no value into ones suitable
+    for evidentiary analysis. Despite the importance of this step, there exist few
+    databases designed especially for the scientific study of latent fingerprint image
+    preprocessing, and even fewer standards to guide this workflow. To address this
+    research gap, we conducted a study in which a group of trained Latent Print Examiners
+    provided Extended Feature Set (EFS) markups of a series of latent images. This
+    report provides a brief introduction into fingerprint preprocessing, discussion
+    regarding the experimental design, structure, and contents of the latent fingerprint
+    image database, and details of proposed preprocessing efficacy metrics. Additionally,
+    we present preliminary analysis of these metrics when applied to images in our
+    database. Previously Guan et al. [6] presented the performance metrics and analysis
+    of the metrics as applied to a union minutiae set. In this report, we comprehensively
+    document the contents of the records database including the latent images, the
+    EFS markup files, metadata, markup logs, and region of interest masks. Additionally,
+    we present the results of the performance metrics as applied to the intersection
+    minutiae set of EFS markup data.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8215'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

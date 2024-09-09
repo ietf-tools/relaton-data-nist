@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7875
 title:
-- content: Modeling Methodologies and Simulation for Dynamical Systems
+- content: Modeling methodologies and simulation for dynamical systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7875
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7875.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7875
@@ -21,50 +20,47 @@ docid:
 - id: 10.6028/NIST.IR.7875
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ion
-          script:
-          - Latn
-      surname:
-        content: Matei
-        script:
-        - Latn
+      completename:
+        content: Matei, Ion.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Conrad E.
-          script:
-          - Latn
-      surname:
-        content: Bock
-        script:
-        - Latn
+      completename:
+        content: Bock, C. (Conrad)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87943852
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7875'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

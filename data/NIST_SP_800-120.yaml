@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-120
 title:
 - content: Recommendation for EAP methods used in wireless network access authentication
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-120
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-120.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-120
@@ -21,91 +20,58 @@ docid:
 - id: 10.6028/NIST.SP.800-120
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoeper
+      completename:
+        content: Hoeper, K.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chen
+      completename:
+        content: Chen, L.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010182999
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This Recommendation specifies security requirements for authentication
+    methods with key establishment supported by the Extensible Authentication Protocol
+    (EAP) defined in IETF RFC 3748 for wireless access authentications to federal
+    networks.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-120
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

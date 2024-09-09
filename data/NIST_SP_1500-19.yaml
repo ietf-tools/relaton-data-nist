@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-19
 title:
-- content: Micro Common Data Format Specification
+- content: Micro common data format specification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-19
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-19.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-19
@@ -21,46 +20,56 @@ docid:
 - id: 10.6028/NIST.SP.1500-19
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin
-          script:
-          - Latn
-      surname:
-        content: Long
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Long, Benjamin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-4340-7674"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Dziurłaj, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This specification describes a data format for space-constrained environments,
+    such as the placement of machine readable data on paper. The specification is
+    responsive to a need for interoperability in several key voting system scenarios
+    in which the use of other storage mechanisms are impractical or disallowed. The
+    format s structure is described in prose and code examples.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-19
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

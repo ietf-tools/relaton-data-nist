@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2153
 title:
 - content: Ignitibility of structural wood products exposed to embers during wildland
-    fires :a review of literature
+    fires
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a review of literature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Ignitibility of structural wood products exposed to embers during wildland
+    fires - a review of literature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2153
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2153.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2153
@@ -22,73 +36,39 @@ docid:
 - id: 10.6028/NIST.TN.2153
   type: DOI
 date:
-- type: published
-  value: '2021-04-27'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shonali
-          script:
-          - Latn
-      surname:
-        content: Nazare
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nazare, Shonali.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Isaac
-          script:
-          - Latn
-      surname:
-        content: Leventon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Leventon, Isaac.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-27'
-script:
-- Latn
 abstract:
 - content: Ignitability of structural components due to ember accumulation is a common
     cause of structural fires in wildland urban interface (WUI) communities. To fire
@@ -102,16 +82,22 @@ abstract:
     and surrogate ignition sources for assessing smoldering propensity of the wooden
     substrate have been reviewed. Existing test methods have also been reviewed in
     the light of common exposures seen WUI environment.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2153'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,21 +1,37 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9601
 title:
 - content: Preliminary report on the thermodynamic properties of selected light-element
-    and some related compounds:the previous reports in this series have the NBS Report
-    nos. 6297, 6484, 6645, 6928, 7093, 7192, 7437, 7587, 7796, 8033, 8186, 8504, 8628,
-    8919, 9028, 9389, and 9500
+    and some related compounds
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the previous reports in this series have the NBS Report nos. 6297, 6484,
+    6645, 6928, 7093, 7192, 7437, 7587, 7796, 8033, 8186, 8504, 8628, 8919, 9028,
+    9389, and 9500
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Preliminary report on the thermodynamic properties of selected light-element
+    and some related compounds - the previous reports in this series have the NBS
+    Report nos. 6297, 6484, 6645, 6928, 7093, 7192, 7437, 7587, 7796, 8033, 8186,
+    8504, 8628, 8919, 9028, 9389, and 9500
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9601
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9601.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9601
@@ -24,33 +40,25 @@ docid:
 - id: 10.6028/NBS.RPT.9601
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1967'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1967'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9601'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

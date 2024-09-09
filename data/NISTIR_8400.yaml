@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8400
 title:
-- content: 'Voices of first responders :nationwide public safety communication survey
-    findings:'
+- content: Voices of first responders
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: nationwide public safety communication survey findings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Voices of first responders - nationwide public safety communication survey
+    findings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8400
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8400.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8400
@@ -22,73 +35,39 @@ docid:
 - id: 10.6028/NIST.IR.8400
   type: DOI
 date:
-- type: published
-  value: '2021-10-15'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shan e
-          script:
-          - Latn
-      surname:
-        content: Dawkins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dawkins, Shan e.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kerrianne
-          script:
-          - Latn
-      surname:
-        content: Buchanan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Buchanan, Kerrianne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra Spickard
-          script:
-          - Latn
-      surname:
-        content: Prettyman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Prettyman, Sandra Spickard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-10-15'
-script:
-- Latn
 abstract:
 - content: 'The Nationwide Public Safety Broadband Network (NPSBN) is being developed
     to provide a dedicated network for first responders use during incident response.
@@ -110,16 +89,24 @@ abstract:
     in the Phase 1, Volume 1 report. These themes and guidelines can aid researchers,
     designers, and developers in the public safety domain in attending to those issues
     that are most important to first responders.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8400'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

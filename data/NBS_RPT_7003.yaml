@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7003
 title:
-- content: Evaluation of resistance strain gages at elevated temperatures :progress
+- content: Evaluation of resistance strain gages at elevated temperatures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report no. 10
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Evaluation of resistance strain gages at elevated temperatures - progress
     report no. 10
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7003
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7003.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7003
@@ -22,96 +35,78 @@ docid:
 - id: 10.6028/NBS.RPT.7003
   type: DOI
 date:
-- type: published
-  value: 1960-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          script:
-          - Latn
-      surname:
-        content: Bloss
-        script:
-        - Latn
+      completename:
+        content: Bloss, R. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J T
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: J T
-          script:
-          - Latn
-      surname:
-        content: Trumbo
-        script:
-        - Latn
+      completename:
+        content: Trumbo, J. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          script:
-          - Latn
-      surname:
-        content: Melton
-        script:
-        - Latn
+      completename:
+        content: Melton, C. H.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1960-11
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Resistance strain gages of the S-700 series, manufactured by the Instruments
+    Division of the Budd Company (formerly the Tatnall Measuring Systems Company)
+    were evaluated at elevated temperatures. The characteristics determined were (1)
+    gage factor at room temperature, (2) variation of gage factor with increasing
+    temperature, (3) drift, (4) resistance-temperature relationship, (5) behavior
+    when subjected to large strains and (6) behavior under transient heating conditions¿̐¿
+    The results of these tests indicate that, when attached to stainless steel, the
+    use of these gages may be limited by the effect of gage history on the gage factor;
+    the high drift rate at about 800¿̐¿ F; the high temperature coefficient of resistance,
+    especially at about 1000¿̐¿ F; and the difficulty in maintaining a good bond to
+    stainless steel at 1500¿̐¿ F.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7003'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

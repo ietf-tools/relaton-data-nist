@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8348
 title:
 - content: National Institute of Standards and Technology Environmental Scan 2020
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8348
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8348.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8348
@@ -21,152 +20,121 @@ docid:
 - id: 10.6028/NIST.IR.8348
   type: DOI
 date:
-- type: published
-  value: '2021-02-09'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Heather
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Evans, Heather.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7034-3672"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Healy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Healy, William M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7711-7301"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth
-          script:
-          - Latn
-      surname:
-        content: Hoffman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Hoffman, Elizabeth
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine
-          script:
-          - Latn
-      surname:
-        content: Rimmer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rimmer, Kate.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-6734-6629"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anna
-          script:
-          - Latn
-      surname:
-        content: Sberegaeva
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Sberegaeva, Anna.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0009-0006-5155-0549"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neil
-          script:
-          - Latn
-      surname:
-        content: Zimmerman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Zimmerman, Neil M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7129-1883"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-02-09'
-script:
-- Latn
+abstract:
+- content: 'the 2020 National Institute of Standards and Technology Environmental
+    Scan provides an analysis of key external factors that could impact NIST and the
+    fulfillment of its mission in coming years. The analyses were conducted through
+    four separate lenses: Societal, Investment & Geopolitical, Political & Policy,
+    and Technology & Science. Most of the issues discussed in the initial environmental
+    scan conducted in 2018 are still relevant, but a number of key issues have emerged
+    in society that will impact NIST since the writing of that report, most notably
+    the COVID-19 pandemic and the national discourse around race. Societal, political,
+    financial, and workforce issues will challenge NIST to maintain and advance its
+    leadership in metrology, standards, and technology. However, a broad range of
+    emerging technology issues present opportunities for NIST to have significant
+    impact in advancing the nation’s innovation and industrial competitiveness.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8348'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8348'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-1039
 title:
 - content: Hydrocarbon liquid flow calibration service
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-1039
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-1039.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-1039
@@ -21,98 +20,58 @@ docid:
 - id: 10.6028/NIST.SP.250-1039
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yeh
+      completename:
+        content: Yeh, T. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90008984
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jes�s
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Aguilera
+      completename:
+        content: Aguilera, Jes¿̐¿s.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wright
+      completename:
+        content: Wright, John D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81115024
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-1039
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

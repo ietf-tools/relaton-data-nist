@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-8
 title:
-- content: Securing Wireless Infusion Pumps In Healthcare Delivery Organizations
+- content: Securing wireless infusion pumps in healthcare delivery organizations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-8
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-8.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-8
@@ -21,135 +20,100 @@ docid:
 - id: 10.6028/NIST.SP.1800-8
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gavin
-          script:
-          - Latn
-      surname:
-        content: O'Brien
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: O Brien, Gavin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sallie
-          script:
-          - Latn
-      surname:
-        content: Edwards
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Crouse, Sarah Edwards,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95034876
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Littlefield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Littlefield, Kevin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neil
-          script:
-          - Latn
-      surname:
-        content: McNab
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: McNab, Neil.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006066407
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sue
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Xu, Rulin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81072871
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kangmin
-          script:
-          - Latn
-      surname:
-        content: Zheng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Zheng, Kangmin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: Medical devices, such as infusion pumps, were once standalone instruments
+    that interacted only with the patient or medical provider. However, today's medical
+    devices connect to a variety of healthcare systems, networks, and other tools
+    within a healthcare delivery organization (HDO). Connecting devices to point-of-care
+    medication systems and electronic health records can improve healthcare delivery
+    processes; however, increasing connectivity capabilities also creates cybersecurity
+    risks. Potential threats include unauthorized access to patient health information,
+    changes to prescribed drug doses, and interference with a pump's function.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-8
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

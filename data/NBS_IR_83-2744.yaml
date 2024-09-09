@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR83-2744
 title:
 - content: Advanced sensor development program for the pulp and paper industry
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.83-2744
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir83-2744.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 83-2744
@@ -21,165 +20,78 @@ docid:
 - id: 10.6028/NBS.IR.83-2744
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Whetstone
+      completename:
+        content: Whetstone, James R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021060616
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H G
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: H G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sumerjian
+      completename:
+        content: Sumerjian, H. G.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Presser
+      completename:
+        content: Presser, C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88117808
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gaigalas
+      completename:
+        content: Gaĭgalas, A. I. (Alʹgirdas Iozapovich),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81026803
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Potzick
+      completename:
+        content: Potzick, J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 83-2744
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

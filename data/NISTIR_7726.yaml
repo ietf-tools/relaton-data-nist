@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7726
 title:
-- content: Graphical User Interface (GUI) for project 25 :inter-RF subsystem iterface
+- content: Graphical User Interface (GUI) for project 25
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: inter-RF subsystem iterface (ISSU) GUI version 0.9.6
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Graphical User Interface (GUI) for project 25 - inter-RF subsystem iterface
     (ISSU) GUI version 0.9.6
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7726
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7726.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7726
@@ -22,103 +35,62 @@ docid:
 - id: 10.6028/NIST.IR.7726
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alan B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Vinh
+      completename:
+        content: Vinh, Alan B.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rouil
+      completename:
+        content: Rouil, Richard A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio Izquierdo
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Manzanares
+      completename:
+        content: Manzanares, Antonio Izquierdo.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexandre
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Delye
+      completename:
+        content: Delye, Alexandre.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Advanced Network Technologies Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7726'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

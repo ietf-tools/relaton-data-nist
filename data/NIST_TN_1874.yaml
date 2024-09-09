@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1874
 title:
-- content: Interlaboratory Study of an Alternate Substrate for Use in ASTM E 2187
+- content: Interlaboratory study of an alternate substrate for use in ASTM E 2187
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1874
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1874.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1874
@@ -21,113 +20,94 @@ docid:
 - id: 10.6028/NIST.TN.1874
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G.
-          script:
-          - Latn
-      surname:
-        content: Gann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gann, Richard G.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96095572
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Morgan C.
-          script:
-          - Latn
-      surname:
-        content: Bruns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bruns, Morgan C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward J.
-          script:
-          - Latn
-      surname:
-        content: Hnetkovsky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hnetkovsky, Edward J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F.
-          script:
-          - Latn
-      surname:
-        content: Guthrie
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guthrie, William F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021110731
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: ASTM E 2187 has become the internationally referenced standard for designing
+    and specifying less fire-prone cigarettes. In this test method, a lit cigarette
+    is laid on multiple layers of filter paper, and the observer identifies whether
+    the cigarette burns its full length or not. Historically, a specific brand of
+    filter paper has been used as the test substrate, with specified ranges of mass
+    and moisture uptake necessary to achieve reasonable repeatability and reproducibility
+    of the test results. This approach became less viable when the manufacture of
+    the paper was moved to a different plant, and when an increased demand for the
+    paper resulted in long delays in delivery. This Technical Note describes an interlaboratory
+    study (ILS) of an alternate substrate composed of a thin sheet of full hard 302
+    stainless steel and a single sheet of filter paper. Seven laboratories examined
+    the effect of filter paper from four manufacturers and steel from three manufacturers
+    on the test results for four cigarette designs. The findings of the ILS were (1)
+    that the ignition propensity results obtained using the steel/paper substrates
+    were not statistically distinguishable from the result obtained for testing on
+    10 layers of the original filter paper, (2) there were no statistically significant
+    effects of the substrate materials on the test results, for those combinations
+    of cigarette, paper, and steel, and (3) the filter paper manufactured in the new
+    plant gives test results that are more than a factor of two lower than the results
+    from the original plant.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1874'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

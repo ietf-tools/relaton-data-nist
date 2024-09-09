@@ -1,8 +1,23 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-68
 title:
-- content: 'Guidance for securing Microsoft Windows XP for IT Professionals :a NIST
+- content: Guidance for securing Microsoft Windows XP for IT Professionals
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'a NIST security configuration checklist : recommendations of the National
+    Institute of Standards and Technology'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Guidance for securing Microsoft Windows XP for IT Professionals - a NIST
     security configuration checklist : recommendations of the National Institute of
     Standards and Technology'
   language:
@@ -10,11 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-68
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-68.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-68
@@ -23,98 +37,84 @@ docid:
 - id: 10.6028/NIST.SP.800-68
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Murugia
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
+      completename:
+        content: Souppaya, Murugia.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kent
+      completename:
+        content: Kent, Karen.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95091025
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, Paul M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84033916
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: NIST Special Publication 800-68 has been created to assist IT professionals,
+    in particularly Windows XP system administrators and information security personnel,
+    in effectively securing Windows XP systems. It discusses Windows XP and various
+    application security settings in technical detail. The guide provides insight
+    into the threats and security controls that are relevant for various operational
+    environments, such as for a large enterprise or a home office. It describes the
+    need to document, implement, and test security controls, as well as to monitor
+    and maintain systems on an ongoing basis. It presents an overview of the security
+    components offered by Windows XP and provides guidance on installing, backing
+    up, and patching Windows XP systems. It discusses security policy configuration,
+    provides an overview of the settings in the accompanying NIST security templates,
+    and discusses how to apply additional security settings that are not included
+    in the NIST security templates. It demonstrates securing popular office productivity
+    applications, Web browsers, e-mail clients, personal firewalls, antivirus software,
+    and spyware detection and removal utilities on Windows XP systems to provide protection
+    against viruses, worms, Trojan horses, and other types of malicious code. This
+    list is not intended to be a complete list of applications to install on Windows
+    XP system, nor does it imply NIST's endorsement of particular commercial off-the-shelf
+    (COTS) products.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-68
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-15
 title:
 - content: Minimum interoperability specification for PKI components (MISPC)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-15
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-15.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-15
@@ -21,119 +20,94 @@ docid:
 - id: 10.6028/NIST.SP.800-15
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Burr
+      completename:
+        content: Burr, William.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92104702
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donna
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dodson
+      completename:
+        content: Dodson, Donna.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Noel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nazario
+      completename:
+        content: Nazario, Noel.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, Timothy.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86048246
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'The Minimum Interoperability Specification for PKI Components (MISPC)
+    supports interoperability for a large scale public key infrastructure (PKI) that
+    issues, revokes and manages X.509 version 3 digital signature public key certificates
+    and version 2 certificate revocation lists (CRLs). To the extent possible, this
+    document adopts data formats and transaction sets defined in existing and evolving
+    standards, such as ITU X.509 and the IETF''s Internet Public Key Infrastructure
+    Using X.509 Certificates (PKIX) series. In this specification a PKI is broken
+    into five components: certification authorities (CAs) that issue and revoke certificates;
+    organizational registration authorities (ORAs) that vouch for the binding between
+    public keys and certificate holder identities and other attributes; certificate
+    holders that are issued certificates and can sign digital documents; clients that
+    validate digital signatures and their certification paths from a known public
+    key of a trusted CA; and repositories that store and make available certificates
+    and CRLs.The MISPC supports both hierarchical and network trust models. In hierarchical
+    models, trust is delegated by a CA when it certifies a subordinate CA. Trust delegation
+    starts at a root CA that is trusted by every node in the infrastructure. IN network
+    models, trust is established between any two CAs. The MISPC specifies the use
+    of X.509 v3 extensions in certificates to explicitly manage trust relationships.This
+    specification consists primarily of a profile of certificate and CRL extensions
+    and a set of transactions. The transactions include: certification requests, certificate
+    renewal, certificate revocation, and retrieval of certificates and CRLs from repositories.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-15
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

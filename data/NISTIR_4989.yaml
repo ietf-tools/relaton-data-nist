@@ -1,10 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4989
 title:
 - content: Reduction of hydrogen cyanide concentrations and acute inhalation toxicity
     from flexible polyurethane foam combustion products by the addition of copper
-    compounds:part IV. Effects of combustion conditions and scaling on the generation
+    compounds
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: part IV. Effects of combustion conditions and scaling on the generation
     of hydrogen cyanide and toxicity from flexible polyurethane foam with and without
     copper compounds
   language:
@@ -12,11 +19,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-part
+- content: Reduction of hydrogen cyanide concentrations and acute inhalation toxicity
+    from flexible polyurethane foam combustion products by the addition of copper
+    compounds - part IV. Effects of combustion conditions and scaling on the generation
+    of hydrogen cyanide and toxicity from flexible polyurethane foam with and without
+    copper compounds
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4989
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4989.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4989
@@ -25,129 +42,71 @@ docid:
 - id: 10.6028/NIST.IR.4989
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B C
-          script:
-          - Latn
-          initial: B
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: B C
-          script:
-          - Latn
-      surname:
-        content: Levin
-        script:
-        - Latn
+      completename:
+        content: Levin, B. C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E
-          script:
-          - Latn
-      surname:
-        content: Braun
-        script:
-        - Latn
+      completename:
+        content: Braun, E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          script:
-          - Latn
-      surname:
-        content: Paabo
-        script:
-        - Latn
+      completename:
+        content: Paabo, M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R H
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: R H
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
+      completename:
+        content: Harris, R. H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87823961
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          script:
-          - Latn
-      surname:
-        content: Navarro
-        script:
-        - Latn
+      completename:
+        content: Navarro, M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4989'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP784
 title:
-- content: DOENIST Workshop on Common Architectures for Robotic Systems
+- content: DOE/NIST Workshop on Common Architectures for Robotic Systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.784
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication784.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 784
@@ -21,69 +20,54 @@ docid:
 - id: 10.6028/NIST.SP.784
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quintero
+      completename:
+        content: Quintero, Richard.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quintero
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022075515
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'At the request of the Department of Energy''s (DOE''s) Office of Technology
+    Development the National Institute of Standards and Technology (NIST), Robot Systems
+    Division organized and hosted the first DOE/NIST Workshop on Common Architectures
+    for Robotic Systems. The workshop had three goals: An initial review of the methodologies
+    currently used by the DOE sites for development and maintenance of software related
+    to robotic and remote systems; presentations by representatives of other government
+    agencies on lessons learned in the development of common architectures for robotic
+    and remote systems; and a preliminary assessment of the methodology necessary
+    to arrive at a DOE common architecture.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '784'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

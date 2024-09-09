@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2061
 title:
 - content: Charpy interlaboratory comparison between NIST and the Beijing Institute
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2061
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2061.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2061
@@ -22,67 +21,67 @@ docid:
 - id: 10.6028/NIST.TN.2061
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raymond
-          script:
-          - Latn
-      surname:
-        content: Santoyo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Santoyo, Raymond.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: The Beijing Institute of Metrology (BIM, China) and NIST have participated
+    in an interlaboratory comparison, in which reference Charpy specimens of three
+    energy levels were tested. Each laboratory tested 75 specimens supplied by the
+    other institute, 25 per energy level, at room temperature (21 [degrees]C +/- 1
+    [degree]C) and using an impact machine equipped with a 2 mm striker. The results
+    obtained show good to excellent agreement between BIM and NIST, except at the
+    low-energy level (20 J to 25 J), where NIST data obtained using a U type machine
+    were significantly higher than BIM data obtained using a C-type machine. Twenty-five
+    additional low- energy BIM specimens, tested by NIST using a C-type machine, showed
+    excellent consistency with BIM reference data and therefore confirmed that, for
+    low-energy specimens, the configuration of the swinging hammer may affect test
+    results, due to the different stiffness/compliance of the two machine types. A
+    similar, but unexpected, trend was observed for the NIST super-high-energy specimens,
+    and will need to be explained though further investigations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2061'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-917-34
 title:
 - content: 'Seismic design of steel buckling-restrained braced frames: a guide for
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-917-34
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-917-34.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-917-34
@@ -22,84 +21,72 @@ docid:
 - id: 10.6028/NIST.GCR.15-917-34
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan A
-          script:
-          - Latn
-      surname:
-        content: Kersting
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kersting, Ryan A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry A
-          script:
-          - Latn
-      surname:
-        content: Fahnestock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fahnestock, Larry A.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020053108
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walterio A
-          script:
-          - Latn
-      surname:
-        content: Lopez
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lpez, Walterio A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: Buckling-Restrained Braced Frames (BRBFs) are one of the newer types of
+    seismic force-resisting systems used in modern building designs. This Guide addresses
+    the seismic design of steel BRBFs in typical building applications within regions
+    of moderate to high seismic hazard, corresponding to Seismic Design Categories
+    (SDC) C through F as defined in ASCE 7.This Guide was written to provide guidance
+    to practicing structural engineers regarding the use of requirements in applicable
+    codes and standards for the design of BRBF systems. The Guide is also useful to
+    others seeking to understand the basis of, and to correctly implement, the appropriate
+    code provisions related to BRBFs, including building officials, educators, researchers,
+    and students.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-917-34
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

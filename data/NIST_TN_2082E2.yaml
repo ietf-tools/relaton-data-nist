@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2082e2
 title:
 - content: The structure of medium-scale pool fires
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2082e2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2082e2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2082e2
@@ -21,107 +20,55 @@ docid:
 - id: 10.6028/NIST.TN.2082e2
   type: DOI
 date:
-- type: published
-  value: '2022-01-05'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          script:
-          - Latn
-      surname:
-        content: Falkenstein-Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Falkenstein-Smith, Ryan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kunhyuk
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Kunhyuk.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jian
-          script:
-          - Latn
-      surname:
-        content: Chen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chen, Jian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kimberly
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harris, Kimberly.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-01-05'
-script:
-- Latn
 abstract:
 - content: This report documents a series of time-averaged gas species measurements
     made along the centerline of methanol, ethanol, acetone, methane, and propane
@@ -134,26 +81,22 @@ abstract:
     are compared at different heights within the fire and across a variety of different
     fuels. Other fire parameters are measured as well, including time-averaged temperature
     and velocity measurements and mass burning rates.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
-relation:
-- type: obsoletes
-  bibitem:
-    id: ''
-    docid:
-    - id: ''
-      type: NIST
-      primary: true
-    formattedref:
-      format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 2082e2
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

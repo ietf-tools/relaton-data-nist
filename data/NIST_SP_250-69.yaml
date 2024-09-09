@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-69
 title:
-- content: NIST measurement services :regular spectral transmittance
+- content: NIST measurement services
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: regular spectral transmittance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST measurement services - regular spectral transmittance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-69
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-69.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-69
@@ -21,103 +34,72 @@ docid:
 - id: 10.6028/NIST.SP.250-69
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Allen
+      completename:
+        content: Allen, David W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88258741
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Early
+      completename:
+        content: Early, Edward A. (Edward Allen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003077732
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tsai
+      completename:
+        content: Tsai, Benjamin K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008166626
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cooksey
+      completename:
+        content: Cooksey, Catherine C. (Catherine Cronin)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007060826
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-69
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

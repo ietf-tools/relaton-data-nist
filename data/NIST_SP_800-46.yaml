@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-46
 title:
-- content: Security for telecommuting and broadband communications :recommendations
+- content: Security for telecommuting and broadband communications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: recommendations of the National Institute of Standards and Technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Security for telecommuting and broadband communications - recommendations
     of the National Institute of Standards and Technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-46
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-46.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-46
@@ -22,98 +35,74 @@ docid:
 - id: 10.6028/NIST.SP.800-46
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. Richard.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85246800
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Miles C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tracy
+      completename:
+        content: Tracy, Miles C.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sheila E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frankel
+      completename:
+        content: Frankel, Sheila E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document introduces broadband communication technologies, and the
+    security considerations associated with them. It discusses the use of a personal
+    firewall, which is essential in protecting a home computer from intrusion; provides
+    instructions on how to configure PCs and web browsers for added security. It also
+    explains home networking, and how a home network can be protected; and describes
+    virtual private networks, which are sophisticated technologies that can provide
+    telecommuters with security approximating that available from an isolated inter-office
+    network. This publication compares alternative approaches for securing e-mail
+    and data transfer, depending on the user's needs and value of the data., and summarizes
+    considerations for telecommuting security. Appendixes provide useful checklists,
+    software update procedures, and pointers to additional resources available on
+    the Internet.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-46
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

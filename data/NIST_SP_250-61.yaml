@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-61
 title:
 - content: Operation and reference manual for the NIST automated AC-DC calibration
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-61
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-61.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-61
@@ -22,52 +21,41 @@ docid:
 - id: 10.6028/NIST.SP.250-61
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lipe
+      completename:
+        content: Lipe, Thomas E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020146570
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Electronics and Electrical Engineering.
+    - content: Quantum Electrical Metrology Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-61
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-216
 title:
-- content: Recommendations for Federal Vulnerability Disclosure Guidelines
+- content: Recommendations for federal vulnerability disclosure guidelines
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-216
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-216.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-216
@@ -21,46 +20,83 @@ docid:
 - id: 10.6028/NIST.SP.800-216
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kim B
-          script:
-          - Latn
-      surname:
-        content: Schaffer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Schaffer, Kim B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3073-2395"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mell, Peter.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2938-897X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Trinh, Hung.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Van Wyk, Isabel.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Lab Name.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Receiving reports on suspected security vulnerabilities in information
+    systems is one of the best ways for developers and services to become aware of
+    issues. Formalizing actions to accept, assess, and manage vulnerability disclosure
+    reports can help reduce known security vulnerabilities. This document recommends
+    guidance for establishing a federal vulnerability disclosure framework, properly
+    handling vulnerability reports, and communicating the mitigation and/or remediation
+    of vulnerabilities. The framework allows for local resolution support while providing
+    federal oversight and should be applied to all software, hardware, and digital
+    services under federal control.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-216
-doctype: standard
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-216
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

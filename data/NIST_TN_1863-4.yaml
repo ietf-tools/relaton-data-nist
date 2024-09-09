@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1863-4
 title:
 - content: Assessment of first generation performance-based seismic design methods
-    for new steel buildings, volume 4 :buckling-restrained braced frames
+    for new steel buildings, volume 4
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: buckling-restrained braced frames
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Assessment of first generation performance-based seismic design methods
+    for new steel buildings, volume 4 - buckling-restrained braced frames
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1863-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1863-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1863-4
@@ -22,63 +36,42 @@ docid:
 - id: 10.6028/NIST.TN.1863-4
   type: DOI
 date:
-- type: published
-  value: '2020-12-30'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew S
-          script:
-          - Latn
-      surname:
-        content: Speicher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Speicher, Matthew S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Harris III
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harris III, John L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-12-30'
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 1863-4
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP823-3
 title:
 - content: North American integrated services digital network users' forum agreements
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.823-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication823-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 823-3
@@ -22,103 +21,61 @@ docid:
 - id: 10.6028/NIST.SP.823-3
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stokesberry
+      completename:
+        content: Stokesberry, Daniel P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93005958
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stokesberry
+      completename:
+        content: Roberts, Kathleen M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92061071
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kathleen M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Roberts
+      completename:
+        content: Antonishek, Tish A.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Tish
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Antonishek
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94083463
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 823-3
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

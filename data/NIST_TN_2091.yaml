@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2091
 title:
 - content: Tool for evaluation of vaporized hydrogen peroxide disinfection of N95
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2091
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2091.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2091
@@ -22,50 +21,55 @@ docid:
 - id: 10.6028/NIST.TN.2091
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: The SARS-CoV-2 virus has put a strain on the supply and distribution of
+    N95 masks, with some hospitals electing to reuse masks after disinfection. Currently,
+    vaporized hydrogen peroxide (VHP) mask disinfection systems are being deployed
+    at multiple locations throughout the United States, for example in shipping containers
+    and in small rooms. Such enclosures will be of a different size, have different
+    surface materials and have varying air change rates; all these parameters will
+    impact the VHP dose that the masks receive. This paper describes a spreadsheet
+    tool to estimate the VHP concentration in air of such a room. The tool employs
+    a single-zone mass balance analysis that accounts for room size, VHP losses to
+    surfaces and air change rate. This tool is intended to support VHP disinfection
+    efforts by providing estimates of VHP concentrations in the room being employed,
+    but it does not describe or provide guidance on VHP disinfection applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2091'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

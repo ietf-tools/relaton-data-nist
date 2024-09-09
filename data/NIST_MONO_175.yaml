@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTMONO175
 title:
 - content: Temperature-electromotive force reference functions and tables for the
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.MONO.175
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nistmonograph175.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST MONO 175
@@ -22,180 +21,83 @@ docid:
 - id: 10.6028/NIST.MONO.175
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G W
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: G W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Burns
+      completename:
+        content: Burns, G. W. (George W.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93015001
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M G
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: M G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scroger
+      completename:
+        content: Scroger, M. G. (Margaret G.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93015005
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G F
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: G F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Strouse
+      completename:
+        content: Strouse, Gregory F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n99039361
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M C
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: M C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Croarkin
+      completename:
+        content: Croarkin, M. C. (Mary Carroll),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no96023637
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W F
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: W F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Guthrie
+      completename:
+        content: Guthrie, William F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021110731
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Monographs
+    content: NIST monograph; NIST MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '175'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

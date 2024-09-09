@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP400-82
 title:
 - content: Database for and statistical analysisof the interlaboratory determination
@@ -10,11 +10,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.400-82
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication400-82.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 400-82
@@ -23,86 +22,61 @@ docid:
 - id: 10.6028/NIST.SP.400-82
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Aslan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Baghdadi
+      completename:
+        content: Baghdadi, A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88050903
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scace
+      completename:
+        content: Scace, Robert I.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83003929
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E Jane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walters
+      completename:
+        content: Walters, E. Jane.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085886
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 400-82
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

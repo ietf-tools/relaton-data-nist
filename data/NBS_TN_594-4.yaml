@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN594-4
 title:
-- content: Optical radiation measurements :the impact of radiometry and photometry
+- content: Optical radiation measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: The impact of radiometry and photometry and the role of NBS
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Optical radiation measurements - The impact of radiometry and photometry
     and the role of NBS
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.594-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote594-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 594-4
@@ -22,52 +35,40 @@ docid:
 - id: 10.6028/NBS.TN.594-4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Steiner
+      completename:
+        content: Steiner, Bruce.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88666091
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 594-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

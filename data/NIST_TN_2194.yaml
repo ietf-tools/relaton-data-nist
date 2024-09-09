@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2194
 title:
-- content: Fire performance of upholstery materials :correlation between cube test
+- content: Fire performance of upholstery materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: correlation between cube test and full-scale chair mock-ups
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fire performance of upholstery materials - correlation between cube test
     and full-scale chair mock-ups
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2194
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2194.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2194
@@ -22,39 +35,23 @@ docid:
 - id: 10.6028/NIST.TN.2194
   type: DOI
 date:
-- type: published
-  value: '2021-11-17'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mauro
-          script:
-          - Latn
-      surname:
-        content: Zammarano
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zammarano, Mauro.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-11-17'
-script:
-- Latn
 abstract:
 - content: 'In our previous work, the fire performance of seven upholstery materials
     combinations - including six barrier fabrics, one cover fabric and one flexible
@@ -72,16 +69,22 @@ abstract:
     the appearance of prolonged and localized flaming underneath the chair mock-up.
     Data analysis revels that there is a strong linear correlation (coefficient of
     determination R2 > 0.9) between tPHRR and tw, PHRR and tw and AHRRBI and HRRw.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2194'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

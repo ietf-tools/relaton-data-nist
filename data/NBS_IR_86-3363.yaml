@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR86-3363
 title:
 - content: An analysis of the requirements for a computer assisted database for reviews
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.86-3363
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir86-3363.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 86-3363
@@ -22,203 +21,91 @@ docid:
 - id: 10.6028/NBS.IR.86-3363
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Interrante
+      completename:
+        content: Interrante, C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Messina
+      completename:
+        content: Messina, C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Harrison
+      completename:
+        content: Harrison, S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89626801
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Shull
+      completename:
+        content: Shull, R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kaufman
+      completename:
+        content: Kaufman, M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: U
-          language:
-          - en
-          script:
-          - Latn
-          initial: U
-        formatted_initials:
-          content: U
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bertocci
+      completename:
+        content: Bertocci, U.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Escalante
+      completename:
+        content: Escalante, E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85111868
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 86-3363
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

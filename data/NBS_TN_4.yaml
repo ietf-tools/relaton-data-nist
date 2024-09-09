@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN4
 title:
-- content: The Vapor pressures of some hydrocarbons in the liquid and solid state
+- content: The vapor pressures of some hydrocarbons in the liquid and solid state
     at low temperatures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 4
@@ -22,64 +21,37 @@ docid:
 - id: 10.6028/NBS.TN.4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1959'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W T
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: W T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ziegler
+      completename:
+        content: Ziegler, W. T.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1959'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '4'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

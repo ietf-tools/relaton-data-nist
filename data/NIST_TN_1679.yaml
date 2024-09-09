@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1679
 title:
 - content: Repeatability and reproducibility of compression strength measurements
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1679
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1679.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1679
@@ -22,101 +21,70 @@ docid:
 - id: 10.6028/NIST.TN.1679
   type: DOI
 date:
-- type: published
-  value: 2009-09
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Petrina C.
-          script:
-          - Latn
-      surname:
-        content: Potts
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
+      completename:
+        content: Luecke, William E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113185
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Li
-          script:
-          - Latn
-      surname:
-        content: Ma
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
+      completename:
+        content: Ma, Li.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen M.
-          script:
-          - Latn
-      surname:
-        content: Graham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
+      completename:
+        content: Graham, Stephen M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91079206
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew A.
-          script:
-          - Latn
-      surname:
-        content: Adler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Science and Engineering Laboratory
+      completename:
+        content: Adler, Matthew A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139594
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Materials Science and Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2009-09
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1679'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

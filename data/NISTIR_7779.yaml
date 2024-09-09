@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7779
 title:
-- content: An Exploration of the Operational Ramifications of Lossless Compression
-    of 1000 ppi Fingerprint Imagery
+- content: An exploration of the operational ramifications of lossless compression
+    of 1000 ppi fingerprint imagery
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7779
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7779.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7779
@@ -22,128 +21,56 @@ docid:
 - id: 10.6028/NIST.IR.7779
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          script:
-          - Latn
-      surname:
-        content: Orandi
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John M.
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John D.
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Kenneth
-          script:
-          - Latn
-      surname:
-        content: Ko
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Stephen S.
-          script:
-          - Latn
-      surname:
-        content: Wood
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Jin Chu
-          script:
-          - Latn
-      surname:
-        content: Wu
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Lindsay M.
-          script:
-          - Latn
-      surname:
-        content: Petersen
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Bruce
-          script:
-          - Latn
-      surname:
-        content: Bandini
-        script:
-        - Latn
+      completename:
+        content: Orandi, Shahram.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020043056
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-script:
-- Latn
+abstract:
+- content: This paper presents the findings of a study initially conducted to measure
+    the operational impact of JPEG 2000 lossy compression on 1000 ppi fingerprint
+    imagery at various levels of compression, but later expanded to include lossless
+    compression. Lossless compression will have no impact on either Galton or non-Galton
+    based features of a fingerprint since the compressed image is identical to the
+    original once decompressed. The selection of a lossless compression algorithm
+    can have operational implications in terms of effective compression rate and throughput;
+    these implications are the focus. This study examines several such compression
+    algorithms and compares them using criteria used to measure the effectiveness
+    of the compression algorithm as well as its throughput using actual fingerprint
+    imagery.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7779'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

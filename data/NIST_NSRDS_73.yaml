@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTNSRDS73
 title:
-- content: 'REFLEAK: NIST leakrecharge simulation model for refrigerant blends: user''s
+- content: 'REFLEAK: NIST leak/recharge simulation model for refrigerant blends: user''s
     guide version 5.0'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.NSRDS.73
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/NSRDS/NIST.NSRDS.73.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST NSRDS 73
@@ -22,67 +21,70 @@ docid:
 - id: 10.6028/NIST.NSRDS.73
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J Steven
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brown, J. Steven.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012077756
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Piotr A
-          script:
-          - Latn
-      surname:
-        content: Domanski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Domanski, Piotr A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001138
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: As alternatives to refrigerants with a high global warming potential, blends
+    of two or more refrigerants are being utilized as working fluids in heat-pumping,
+    air-conditioning, and refrigeration systems, and organic Rankine cycles. Generally,
+    these blends form zeotropes, which show temperature and composition changes during
+    evaporation, condensation, or flashing process whether it be intended (i.e., through
+    an expansion device) or unintended such as a leak from a container or system.
+    For zeotropic blends, it may be important and necessary to predict the composition
+    change for any of these leak conditions. REFLEAK simulates leak and recharge processes
+    for refrigerant zeotropic blends. This Windows- based simulation model provides
+    an easy-to-use package that allows estimation of composition changes of zeotropic
+    blends in leak and recharge processes for either vapor or liquid leaks under isothermal
+    or adiabatic conditions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '73'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO142
 title:
-- content: The Measurement of noise performance factors :a metrology guide
+- content: The Measurement of noise performance factors
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a metrology guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The Measurement of noise performance factors - a metrology guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.142
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph142.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 142
@@ -21,93 +34,51 @@ docid:
 - id: 10.6028/NBS.MONO.142
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1974'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M G
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: M G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Arthur
+      completename:
+        content: Arthur, M. G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79126285
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W J
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: W J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Anson
+      completename:
+        content: Anson, W. J.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021065767
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1974'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '142'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC385
 title:
-- content: 'Circular of the Bureau of Standards no. 385:'
+- content: Circular of the Bureau of Standards no. 385
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'classification of radio subjects : an extension of the Dewey Decimal System'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Circular of the Bureau of Standards no. 385 - classification of radio
+    subjects : an extension of the Dewey Decimal System'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.385
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular385.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 385
@@ -21,75 +35,59 @@ docid:
 - id: 10.6028/NBS.CIRC.385
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1930'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J H
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: J H
-          script:
-          - Latn
-      surname:
-        content: Dellinger
-        script:
-        - Latn
+      completename:
+        content: Dellinger, J. H. (John Howard),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2014027138
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C B
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: C B
-          script:
-          - Latn
-      surname:
-        content: Jolliffe
-        script:
-        - Latn
+      completename:
+        content: Jolliffe, C. B. (Charles Byron),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96122882
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1930'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '385'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

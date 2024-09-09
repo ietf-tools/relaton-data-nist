@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-83
 title:
 - content: Calibration of hygrometers with the hybrid humidity generator
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-83
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-83.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-83
@@ -21,211 +20,94 @@ docid:
 - id: 10.6028/NIST.SP.250-83
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C W
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: C W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Meyer
+      completename:
+        content: Meyer, Christopher W.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2013141671
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J T
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: J T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hodges
+      completename:
+        content: Hodges, J. T. (Joseph T.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022029590
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P H
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: P H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Huang
+      completename:
+        content: Huang, P. H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89012272
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W W
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Miller
+      completename:
+        content: Miller, W. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022059346
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D C
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: D C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ripple
+      completename:
+        content: Ripple, Dean C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003126568
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G E
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: G E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scace
+      completename:
+        content: Scace, G. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022079545
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-edition:
-  content: '0'
-revdate: '2008'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-83
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

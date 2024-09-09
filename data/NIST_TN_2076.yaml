@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2076
 title:
-- content: Channel sounder measurement verification:conducted tests
+- content: Channel sounder measurement verification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: conducted tests
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Channel sounder measurement verification - conducted tests
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2076
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2076.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2076
@@ -21,339 +34,225 @@ docid:
 - id: 10.6028/NIST.TN.2076
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanne
-          script:
-          - Latn
-      surname:
-        content: Quimby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Quimby, Jeanne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey A
-          script:
-          - Latn
-      surname:
-        content: Jargon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jargon, Jeffrey A. (Jeffrey Arendt)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003080566
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rod
-          script:
-          - Latn
-      surname:
-        content: Leonhardt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Leonhardt, Rod.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jacob D
-          script:
-          - Latn
-      surname:
-        content: Rezac
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Rezac, Jacob D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul D
-          script:
-          - Latn
-      surname:
-        content: Hale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hale, Paul D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Remley, Kate A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda
-          script:
-          - Latn
-      surname:
-        content: Koepke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Koepke, Amanda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016007331
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sarah
-          script:
-          - Latn
-      surname:
-        content: Streett
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Streett, Sarah.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert T
-          script:
-          - Latn
-      surname:
-        content: Johnk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Johnk, Robert T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007055626
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chriss
-          script:
-          - Latn
-      surname:
-        content: Hammerschmidt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hammerschmidt, Chriss.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: McKenna
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: McKenna, Paul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85006473
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Irena
-          script:
-          - Latn
-      surname:
-        content: Stange
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Stange, Irena.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          script:
-          - Latn
-      surname:
-        content: Chang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Chang, Mike,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003037227
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: DeMinco
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: DeMinco, N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105911
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph E
-          script:
-          - Latn
-      surname:
-        content: Diener
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Diener, Joseph E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard Chad
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Smith, Richard Chad.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Hoyt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hoyt, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019087156
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sofia
-          script:
-          - Latn
-      surname:
-        content: Springer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Springer, Sofia.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: Channel modeling often provides a basis for the design and deployment of
+    wireless technology. Engineers design systems to operate under certain expected
+    channel conditions. Channel models are typically based on the statistics of a
+    collection of many measurements performed by channel sounders in nominally similar
+    radio-propagation environments. Channel sounders measure characteristics of a
+    radio propagation channel such as path gain, decay time, and angular dispersion,
+    among other channel model metrics. The models developed from these measurements
+    are typically the first step in standardizing a new wireless technology. While
+    many such models currently exist, wireless technology for new use cases is constantly
+    under development, necessitating continued development of new and improved channel
+    models. For example, in the 3550 MHz to 3650 MHz (3.5 GHz) band, rules for spectrum
+    sharing and systems for implementing those rules are being developed based on
+    specific channel models. Success of the spectrum sharing systems will, in part,
+    depend on the accuracy of those models. As another example, it is anticipated
+    that other next-generation wireless systems will operate in the millimeter-wave
+    bands. Here, developing new channel models will be of paramount importance due
+    to the significantly different impact of the propagation phenomena at these higher
+    frequencies. At both microwave and millimeter-wave frequencies, separating measurement
+    uncertainty from channel variations provides rigor for channel-model development
+    and validation. Such measurement uncertainties can be caused by systematic hardware
+    nonidealities, system noise, and the repeatability and reproducibility of the
+    measurements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2076'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

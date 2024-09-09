@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR23-040
 title:
-- content: An Investigation of Applications of Neural Style Transfer to Forensic Footwear
-    Comparison
+- content: An investigation of applications of neural style transfer to forensic footwear
+    comparison
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.23-040
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2023/NIST.GCR.23-040.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 23-040
@@ -22,46 +21,65 @@ docid:
 - id: 10.6028/NIST.GCR.23-040
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
-- person:
-    name:
-      given:
-        forename:
-        - content: Gregory J
-          script:
-          - Latn
-      surname:
-        content: Stock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-  role:
-  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Neural Style Transfer (NST) is an application of neural networks that allows
+    one to create an image that has the content of one image and the style of another
+    image. For example, NST can be used to create an image of a cat in the style of
+    Van Gogh’s \emph{Starry Night}. This study asks two distinct questions. Can we
+    use NST to manufacture pseudo crime scene images of shoe impressions by transferring
+    the style of a crime scene image to a clean impression of a shoe? The idea is
+    that the known, clean image will be transformed to take on the characteristics
+    of a crime scene image, thereby providing a mechanism for researchers to generate
+    pseudo crime scene images that can be used, for example, in training impression
+    recognition algorithms. This is useful because there is a shortage of ground truth
+    known crime scene-like data. We report that our NST procedure does not produce
+    extremely convincing pseudo impressions but the results are nonetheless promising.
+    The second question asks if we can improve crime scene/suspect shoe impression
+    comparison by using NST as a preprocessing, sharpening step. The idea is that
+    the “style” of well-defined edges of the clean impressions will be transferred
+    to the crime scene image. We have a lineup of clean shoe impressions containing
+    the impression of the shoe that created the crime scene image and several other
+    impressions of shoes of the same make, model, and size. We compare the crime scene
+    image to each of the shoes in the lineup using an algorithm that computes similarity
+    scores. The matching shoe should give the highest score with high probability.
+    Next, we combine the crime scene image with an aggregate image of all the clean
+    shoe impressions in the lineup using NST. Then we repeat the comparison process
+    with the NST image instead of the original crime scene image. We observe that,
+    in half of the cases we studied, when we compare the NST image to each of the
+    shoes in the lineup, we can more readily distinguish between the matching shoe
+    and the non-matching shoes than when we do the comparisons with the original crime
+    scene image.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 23-040
-doctype: standard
+- title:
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
+    format: text/plain
+  number: 23-040
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

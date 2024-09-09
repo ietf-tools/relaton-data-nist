@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2238
 title:
 - content: Experimental design for measuring the voltage and current waveforms of
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2238
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2238.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2238
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.TN.2238
   type: DOI
 date:
-- type: published
-  value: '2022-09-27'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Farhad
-          script:
-          - Latn
-      surname:
-        content: Omar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-09-27'
-script:
-- Latn
 abstract:
 - content: Buildings as a set of electric loads and sources can play an essential
     role in managing the stability of the power system in a smart grid. Traditionally,
@@ -72,16 +55,22 @@ abstract:
     quality issues on both sides of the utility meter while operating these appliances.
     The technical note also provides information about the gain and frequency response
     of the voltage and current sensors as well as the uncertainty of measurement.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2238'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

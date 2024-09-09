@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-9
 title:
 - content: Good security practices for electronic commerce, including electronic data
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-9
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-9.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-9
@@ -22,56 +21,63 @@ docid:
 - id: 10.6028/NIST.SP.800-9
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roy G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Saltman
+      completename:
+        content: Saltman, Roy G.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77006584
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Electronic commerce (EC) is the use of documents in electronic form, rather
+    than paper, for carrying out functions of business or government that require
+    interchange of information, obligations, or monetary value between organizations.
+    Electronic data interchange (EDI) is the computer-to-computer transmission of
+    strictly formatted messages that represent documents; EDI is an essential component
+    of EC. With EC, human participation in routine transaction processing is limited
+    or non-existent. Transactions are processed and decisions are made more rapidly,
+    leaving much less time to detect and correct errors. This report presents security
+    procedures and techniques (which encompass internal controls and checks) that
+    constitute good practices in the design, development, testing and operation of
+    EC systems. Principles of risk management and definition of parameters for quantitative
+    risk assessments are provided. The content of the trading partner agreement is
+    discussed, and the components of EC, including the network(s) connecting the partners,
+    are described. Some security techniques considered include audit trails, contingency
+    planning, use of acknowledgments, electronic document management, activities of
+    supporting networks, user access controls to systems and networks, and cryptographic
+    techniques for authentication and confidentiality.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-9
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

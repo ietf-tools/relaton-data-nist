@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1991
 title:
 - content: Investigations on SI-traceable dynamic calibration of instrumented Charpy
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1991
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1991.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1991
@@ -22,113 +21,84 @@ docid:
 - id: 10.6028/NIST.TN.1991
   type: DOI
 date:
-- type: published
-  value: 2018-05
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Akobuije
-          script:
-          - Latn
-      surname:
-        content: Chijioke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Chijioke, Akobuije.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: Vlajic
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Vlajic, Nicholas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Mulhern
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Mulhern, Edward.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2018-05
-script:
-- Latn
+abstract:
+- content: In this Technical Note, we report on investigations toward an SI-traceable
+    dynamic calibration of instrumented Charpy strikers, performed at NIST from January
+    to December 2017. Although Charpy tests are few-millisecond-duration events in
+    which dynamic phenomena are often clearly present, the force measurements from
+    instrumented Charpy tests are predominantly obtained using static calibrations,
+    which has long been recognized as a source of significant potential errors. We
+    discuss a number of approaches to dynamic calibration, including methods that
+    have previously been implemented at NIST (and elsewhere), and methods that are
+    new in the sense that they are not presently commonly used or incorporated into
+    standards. We describe exploratory tests of some of the new calibration approaches,
+    the results of these tests, and how the information obtained is being applied
+    to further work. A key objective of these investigations is that the calibration
+    be traceable to the International System of Units.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1991'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

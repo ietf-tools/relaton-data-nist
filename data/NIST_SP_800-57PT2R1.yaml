@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-57pt2r1
 title:
-- content: Recommendation for key management:part 2 -- best practices for key management
+- content: Recommendation for key management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: part 2 -- best practices for key management organizations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Recommendation for key management - part 2 -- best practices for key management
     organizations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-57pt2r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt2r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-57pt2r1
@@ -22,67 +35,67 @@ docid:
 - id: 10.6028/NIST.SP.800-57pt2r1
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, Elaine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, William C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97036643
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: NIST Special Publication (SP) 800-57 provides cryptographic key management
+    guidance. It consists of three parts. Part 1 provides general guidance and best
+    practices for the management of cryptographic keying material. Part 2 provides
+    guidance on policy and security planning requirements. Finally, Part 3 provides
+    guidance when using the cryptographic features of current systems. Part 2 (this
+    document) 1) identifies the concepts, functions and elements common to effective
+    systems for the management of symmetric and asymmetric keys; 2) identifies the
+    security planning requirements and documentation necessary for effective institutional
+    key management; 3) describes Key Management Specification requirements; 4) describes
+    cryptographic Key Management Policy documentation that is needed by organizations
+    that use cryptography; and 5) describes Key Management Practice Statement requirements.
+    Appendices provide examples of some key management infrastructures and supplemental
+    documentation and planning materials.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-57pt2r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

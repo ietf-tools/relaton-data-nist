@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-604
 title:
 - content: Economics of interoperability in the context of smart grid architectures
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-604
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-604.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-604
@@ -21,50 +20,51 @@ docid:
 - id: 10.6028/NIST.SP.1900-604
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Cheyney
-          script:
-          - Latn
-      surname:
-        content: O'Fallon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Fallon, Cheyney.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011134150
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: Technological change in the electric power sector has progressed rapidly
+    and there now is need for the development and evaluation of new smart grid architectures.
+    This special publication discusses the current conditions of the U.S. electric
+    grid and the economics of interoperability within the context of five representative
+    architectural tracks developed by Pacific Northwest National Labs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-604
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

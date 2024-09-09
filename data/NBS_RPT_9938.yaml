@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9938
 title:
 - content: A simulation of a highway maintenance operational unit
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9938
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9938.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9938
@@ -21,96 +20,67 @@ docid:
 - id: 10.6028/NBS.RPT.9938
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W F
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: W F
-          script:
-          - Latn
-      surname:
-        content: Druckenbrod
-        script:
-        - Latn
+      completename:
+        content: Druckenbrod, W. F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87818203
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W G
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: W G
-          script:
-          - Latn
-      surname:
-        content: Hall
-        script:
-        - Latn
+      completename:
+        content: Bouland, H. D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J A
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: J A
-          script:
-          - Latn
-      surname:
-        content: Yurow
-        script:
-        - Latn
+      completename:
+        content: Hall, W. G.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2013040639
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Yurow, J. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1968'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9938'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

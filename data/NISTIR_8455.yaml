@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8455
 title:
-- content: Low-GWP Non-Flammable Alternative Refrigerant Blends for HFC-134a:Final
-    Report
+- content: Low-GWP non-flammable alternative refrigerant blends for HFC-134a
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Low-GWP non-flammable alternative refrigerant blends for HFC-134a - final
+    report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8455
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8455.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8455
@@ -22,46 +35,234 @@ docid:
 - id: 10.6028/NIST.IR.8455
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Piotr A
-          script:
-          - Latn
-      surname:
-        content: Domanski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Domanski, Piotr A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1915-2170"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: McLinden, Mark O.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1082-309X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Babushok, Valeri I.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-9257-6872"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bell, Ian H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1091-9080"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Fortin, Tara J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-6150-8930"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Hegetschweiler, Michael J.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Huber, Marcia L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7976-741X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-5051-1819"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kim, Dennis K.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0813-7613"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Linteris, Gregory T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7232-5742"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Outcalt, Stephanie L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8143-7316"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2852-1302"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Perkins, Richard A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8526-6742"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Rowane, Aaron.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7605-0774"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Skye, Harrison
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-6118-0699"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This project addresses the objectives of the Statement of Need number WPSON-17-20
+    No/Low Global Warming Potential Alternatives to Ozone Depleting Refrigerants.
+    Its goal was to identify low global-warming-potential (GWP), non-flammable refrigerants
+    to replace HFC-134a (GWP=1300) in military environmental control units (ECUs)
+    and to demonstrate their performance. This work is a follow-on to the limited-scope
+    project WP-2740, which used thermodynamic cycle simulation models alone to screen
+    over 100 000 refrigerant blends and identified over 20 candidate HFC-134a replacements.
+    In the present study we narrowed the pool of blend candidates down to three best
+    blends, demonstrated their performance through drop-in tests in a military ECU
+    in environmental chambers over a wide range of operating conditions, and extrapolated
+    the laboratory-measured performance to that of ECUs equipped with modified compressor
+    for each blend to provide the same system capacity while maintaining the isentropic
+    efficiency of the original HFC-134a compressor. The project involved preliminary
+    experimental and analytical tasks in support of the final project task. These
+    included measurements of thermodynamic and transport properties of the novel fluids
+    considered and an update of simulation methods for these properties, fundamental
+    tests exploring the flammability characteristics including calculation methods,
+    fundamental measurements and modeling of forced-convection heat transfer performance,
+    and measurements of cycle performance of candidate blends in a laboratory mini-breadboard
+    heat pump apparatus as the final qualification step of the best blends for full-scale
+    testing in the ECU. The project s conclusion is that R-513A (GWP=573) and a blend
+    we call Tern-1 [R-134a/1234yf/1234ze(E) (49.2/33.9/16.9*), GWP=640] are good replacement
+    blends for HFC-134a offering a similar performance at GWP reduction of 66 % and
+    51 %, respectively. These fluids do not present any significant application difficulties.
+    If greater reduction in GWP is desirable, R-515B (GWP=344) and CO2 (GWP=1) can
+    be considered but they require further challenging research and developmental
+    work. In the above blend selection, we adopted the ASTM E681 test method as stipulated
+    by ASHRAE Standard 34 for qualifying non-flammability of refrigerants. If military
+    requirements for non-flammability are more stringent than the E681 standard, a
+    smaller reduction of GWP will be possible with qualifying blends.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8455'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

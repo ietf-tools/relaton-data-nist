@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8364
 title:
-- content: Materials data :a landscape analysis and potential roadmap for the NIST
+- content: Materials data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a landscape analysis and potential roadmap for the NIST Material Measurement
+    Laboratory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Materials data - a landscape analysis and potential roadmap for the NIST
     Material Measurement Laboratory
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8364
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8364.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8364
@@ -22,90 +36,47 @@ docid:
 - id: 10.6028/NIST.IR.8364
   type: DOI
 date:
-- type: published
-  value: '2021-04-01'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Debra L
-          script:
-          - Latn
-      surname:
-        content: Kaiser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kaiser, Debra L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert J
-          script:
-          - Latn
-      surname:
-        content: Hanisch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hanisch, Robert J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James A
-          script:
-          - Latn
-      surname:
-        content: Warren
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Warren, James A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zachary
-          script:
-          - Latn
-      surname:
-        content: Trautt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Trautt, Zachary.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-01'
-script:
-- Latn
 abstract:
 - content: In the past decade, numerous public and private sector documents have highlighted
     the need for materials data to facilitate advanced technologies in myriad industrial
@@ -115,16 +86,24 @@ abstract:
     internal report uses a uniform schematic format to portray these gaps, illustrate
     progress in addressing the gaps, and propose an MML roadmap of action items to
     further address the gaps.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8364'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

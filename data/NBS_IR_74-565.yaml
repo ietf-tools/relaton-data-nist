@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR74-565
 title:
-- content: Acoustic emission :some applications of Lamb's problem
+- content: Acoustic emission
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: some applications of Lamb's problem
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Acoustic emission - some applications of Lamb's problem
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.74-565
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir74-565.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 74-565
@@ -21,86 +34,62 @@ docid:
 - id: 10.6028/NBS.IR.74-565
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1974'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Franklin R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Breckenridge
+      completename:
+        content: Breckenridge, F. R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021106150
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carl E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tschiegg
+      completename:
+        content: Tschiegg, C. E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021057808
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Greenspan
+      completename:
+        content: Greenspan, M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021031154
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1974'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 74-565
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

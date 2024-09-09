@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8292
 title:
-- content: Face Recognition Vendor Test (FRVT) part 4:MORPH - performance of automated
+- content: Face Recognition Vendor Test (FRVT) part 4
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: MORPH - performance of automated face morph detection
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Face Recognition Vendor Test (FRVT) part 4 - MORPH - performance of automated
     face morph detection
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8292
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8292.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8292
@@ -22,101 +35,90 @@ docid:
 - id: 10.6028/NIST.IR.8292
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Kuo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guo, Shaozong,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85195294
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: The FRVT MORPH test provides ongoing independent testing of prototype face
+    morphing attack detection (MAD) technologies. The evaluation is designed to obtain
+    commonly measured assessment of morph detection capability to inform developers
+    and current and prospective end-users. FRVT MORPH is open for ongoing participation
+    worldwide, and there is no charge to participate. The test leverages a number
+    of datasets created using different morphing methods with goals to evaluate algorithm
+    performance over a large spectrum of morphing techniques. Testing was conducted
+    using a tiered approach, where algorithms were evaluated on low quality morphs
+    created with readily accessible tools available to non-experts, morphs generated
+    using automated morphing methods based on academic research, and high quality
+    morphs created using commercial- grade tools. We'd like to get an assessment on
+    the existence and extent of morph detection capabilities, and if there is indication
+    of high accuracy, much larger datasets can be curated to support large-scale evaluation
+    of the technology.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8292'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

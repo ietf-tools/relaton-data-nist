@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP396-4
 title:
-- content: Critical surveys of data sources :electrical and magnetic properties of
+- content: Critical surveys of data sources
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: electrical and magnetic properties of metals
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Critical surveys of data sources - electrical and magnetic properties of
     metals
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.396-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication396-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 396-4
@@ -22,180 +35,81 @@ docid:
 - id: 10.6028/NBS.SP.396-4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carr
+      completename:
+        content: Carr, Jan (M. J.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89604920
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R B
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: R B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gavert
+      completename:
+        content: Gavert, Raymond Bernard,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022012521
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Moore
+      completename:
+        content: Moore, R. L. (Robert Lowell),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78069214
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H W
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: H W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wawrousek
+      completename:
+        content: Wawrousek, H. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J H
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: J H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Westbrook
+      completename:
+        content: Westbrook, J. H. (Jack Hall),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79147986
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 396-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

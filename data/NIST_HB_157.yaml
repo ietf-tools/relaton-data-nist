@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB157
 title:
-- content: Guidelines for Radiometric Calibration of Electro-Optical Instruments for
-    Remote Sensing
+- content: Guidelines for radiometric calibration of electro-optical instruments for
+    remote sensing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.157
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2015/NIST.HB.157.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 157
@@ -22,67 +21,47 @@ docid:
 - id: 10.6028/NIST.HB.157
   type: DOI
 date:
-- type: published
-  value: 2015-05
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Howard W.
-          script:
-          - Latn
-      surname:
-        content: Yoon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Kacker, Raghu.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raghu N.
-          script:
-          - Latn
-      surname:
-        content: Kacker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Yoon, Howard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003113311
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '157'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

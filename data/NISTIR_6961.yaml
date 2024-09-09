@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6961
 title:
-- content: Report of the results of SIM.QM-P6:UVvisible spectrophotometry wavelength
+- content: Report of the results of SIM.QM-P6
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: UV/visible spectrophotometry wavelength standard interlaboratory comparison
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report of the results of SIM.QM-P6 - UV/visible spectrophotometry wavelength
     standard interlaboratory comparison
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6961
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6961.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6961
@@ -22,72 +35,61 @@ docid:
 - id: 10.6028/NIST.IR.6961
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John C
-          script:
-          - Latn
-      surname:
-        content: Travis
-        script:
-        - Latn
+      completename:
+        content: Travis, John C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81011447
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melody V
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
+      completename:
+        content: Smith, Melody V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021120232
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6961'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

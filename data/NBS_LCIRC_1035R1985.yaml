@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC1035r1985
 title:
-- content: Letter Circular 1035:units and systems of weights and measures their origin,
-    development, and present status
+- content: "\"Letter Circular 1035"
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: units and systems of weights and measures their origin, development, and
+    present status"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: '"Letter Circular 1035 - units and systems of weights and measures their
+    origin, development, and present status"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.1035r1985
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular1035r1985.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 1035r1985
@@ -22,59 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.1035r1985
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lewis V
-          script:
-          - Latn
-      surname:
-        content: Judson
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Louis E
-          script:
-          - Latn
-      surname:
-        content: Barbrow
-        script:
-        - Latn
+      completename:
+        content: '"Judson, Lewis V."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1985'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: 1035r1985
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

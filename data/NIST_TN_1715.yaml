@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1715
 title:
 - content: Certified transmittance density uncertainties for standard reference materials
-    using a transfer spectrophotometer
+    using a tranfer spectrophometer
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1715
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1715.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1715
@@ -22,122 +21,91 @@ docid:
 - id: 10.6028/NIST.TN.1715
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J C
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: J C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Travis
+      completename:
+        content: Travis, John C.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81011447
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M V
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: M V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, Melody V.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021120232
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S J
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: S J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Choquette
+      completename:
+        content: Choquette, S. J.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152828
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Liu, Hung-Kung,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085854
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Overall uncertainties are evaluated for the certification of transmittance
+    density (absorbance referred to air) and regular spectral transmittance for solid
+    neutral density filter Standard Reference Materials by means of a transfer spectrophotometer.
+    Traceability is asserted by means of comparison measurements to a recognized reference
+    spectrophotometer. The uncertainties are evaluated without bias correction, using
+    the combination of the legacy combined standard uncertainty values with uncertainty
+    components for the measured bias, the standard uncertainty of this measured bias,
+    and the standard uncertainty characteristic of simple replication for a single
+    measurement using the transfer spectrophotometer. Numerical results are given,
+    and are anticipated to be the values initially quoted on certificates and in reports
+    of recertification. However, these values are subject to change upon future adjustment
+    of estimated uncertainty components for the filters or changes in the observed
+    bias with future determinations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1715'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

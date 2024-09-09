@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR78-1583
 title:
 - content: Standardization and measurement services in Indonesia
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.78-1583
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir78-1583.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 78-1583
@@ -21,120 +20,80 @@ docid:
 - id: 10.6028/NBS.IR.78-1583
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H Steffen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peisner
+      completename:
+        content: Peiser, H. Steffen (Herbert Steffen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81127604
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Noel J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Raufaste
+      completename:
+        content: Raufaste, Noel J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352120
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raymond C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sangster
+      completename:
+        content: Sangster, Raymond C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81022003
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gutterman
+      completename:
+        content: Gutterman, Benjamin M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Penelope M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Odar
+      completename:
+        content: Odar, Penelope M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82098676
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 78-1583
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

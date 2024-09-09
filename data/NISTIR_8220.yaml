@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8220
 title:
 - content: Performance evaluation of LTE device-to-device out-of-coverage communication
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8220
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8220.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8220
@@ -22,50 +21,52 @@ docid:
 - id: 10.6028/NIST.IR.8220
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Fernando J
-          script:
-          - Latn
-      surname:
-        content: Cintron
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Cintron, Fernando J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: This document presents a performance evaluation of Long Term Evolution
+    (LTE) Deviceto-device (D2D) communication when enabling frequency hopping resource
+    scheduling. Moreover, as secondary objective, this document serves as a compendium
+    for frequency hopping related procedures over D2D communications as defined by
+    The 3rd Generation Partnership Project (3GPP) for the LTE standard. D2D communication
+    is modeled and simulated using discrete event network simulator (ns-3). Simulated
+    scenarios are designed to capture communication conditions occurring outside network
+    infrastructure coverage, alike those experienced by authorized network users,
+    such as public safety first responders, during network outages.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8220'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

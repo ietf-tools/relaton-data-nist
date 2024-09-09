@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-211
 title:
-- content: 2019 NIST/ITL Cybersecurity Program Annual Report
+- content: 2019 NIST/ITL Cybersecurity Program annual report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-211
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-211.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-211
@@ -21,101 +20,84 @@ docid:
 - id: 10.6028/NIST.SP.800-211
   type: DOI
 date:
-- type: published
-  value: '2020-08-24'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: O’Reilly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Reilly, Patrick D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8289-0390"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristina
-          script:
-          - Latn
-      surname:
-        content: Rigopoulos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Rigopoulos, Kristina G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Feldman, Larry.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Greg
-          script:
-          - Latn
-      surname:
-        content: Witte
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Witte, Gregory A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: '2020-08-24'
-script:
-- Latn
+abstract:
+- content: 'During Fiscal Year 2019 (FY 2019), from October 1, 2018 through September
+    30, 2019, the NIST Information Technology Laboratory (ITL) Cybersecurity and Privacy
+    Program successfully responded to numerous challenges and opportunities in security
+    and privacy. This annual report highlights the FY 2019 research agenda and activities
+    for the ITL Cybersecurity and Privacy Program, including: the ongoing participation
+    and development of international standards; the enhancement of privacy and security
+    risk management models, including those for the protection of controlled unclassified
+    information (CUI), systems engineering and cyber resiliency, supply chains, and
+    mobile technologies; the continued advancement of cryptographic technologies,
+    including updates to Federal Information Processing Standard (FIPS) Publication
+    140-3, Security Requirements for Cryptographic Modules, and preparation for post-quantum
+    cryptographic methods; and improved infrastructure protection in areas such as
+    zero trust architectures and advanced networking security. NIST maintained a strong
+    focus on supporting small and medium-sized businesses (SMBs), including updates
+    to the Small Business Cybersecurity Corner website to make resources easier to
+    find and use, and drawing on contributed cybersecurity resources and feedback
+    received from federal partners and the public.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-211
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

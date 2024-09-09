@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7974
 title:
-- content: Nondestructive Testing (NDT) and sensor technology for service life modeling
+- content: Nondestructive testing (NDT) and sensor technology for service life modeling
     of new and existing concrete structures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7974
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7974.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7974
@@ -22,72 +21,77 @@ docid:
 - id: 10.6028/NIST.IR.7974
   type: DOI
 date:
-- type: published
-  value: 2013-12
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth A
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
+      completename:
+        content: Snyder, Kenneth A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003081610
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Li Piin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
+      completename:
+        content: Sung, Li-piin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2009020154
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Geraldine S
-          script:
-          - Latn
-      surname:
-        content: Cheok
-        script:
-        - Latn
+      completename:
+        content: Cheok, Geraldine S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89007530
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2013-12
-script:
-- Latn
+abstract:
+- content: Nondestructive test (NDT) methods and sensor technologies are evaluated
+    in the context of providing input parameters to service life prediction models
+    for reinforced concrete structures. Relevant NDT methods and sensors are identified
+    that are based on diverse technologies including mechanical impact, ultrasonic
+    waves, electromagnetic waves, nuclear, and chemical and electrical methods. The
+    degradation scenarios of reinforcement corrosion, alkali-silica reaction, and
+    cracking are used to identify gaps in available NDT methods for supporting condition
+    assessment and service life prediction. Common gaps are identified, along with
+    strategies for resolving those gaps.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7974'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

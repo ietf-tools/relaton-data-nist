@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP322
 title:
 - content: Photonuclear data index, January 1965 through January 1970
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.322
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication322.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 322
@@ -21,122 +20,62 @@ docid:
 - id: 10.6028/NBS.SP.322
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1970'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E G
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: E G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fuller
+      completename:
+        content: Fuller, Everett Gladding,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83061711
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H M
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gerstenberg
+      completename:
+        content: Gerstenberg, H. M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79107096
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T M
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: T M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Collins
+      completename:
+        content: Collins, T. M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000157
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1970'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '322'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5002
 title:
 - content: On the theory of reflection from a wire grid parallel to an interface between
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5002
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5002.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5002
@@ -22,46 +21,61 @@ docid:
 - id: 10.6028/NBS.RPT.5002
   type: DOI
 date:
-- type: published
-  value: 1956-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Wait
-        script:
-        - Latn
+      completename:
+        content: Wait, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50021367
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1956-07
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The reflection from a wire grid parallel to a plane interface is considered.
+    The respective media are homogeneous and either or both can be dissipative. The
+    grid is composed of thin equi-spaced wires of finite conductivity. The plane wave
+    solution for arbitrary incidence is then generalized for cylindrical-wave excitation.
+    The energy absorbed from a magnetic line source by a grid situated on the surface
+    of a dissipative half-space is treated in some detail. This latter problem is
+    a two-dimensional analogy of a vertical antenna with a radial wire ground system.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5002'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

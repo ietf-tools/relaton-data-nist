@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT1152
 title:
 - content: Stress studies of bulkhead intersections for welded tankers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.1152
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport1152.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 1152
@@ -21,88 +20,85 @@ docid:
 - id: 10.6028/NBS.RPT.1152
   type: DOI
 date:
-- type: published
-  value: 1951-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William R
-          script:
-          - Latn
-      surname:
-        content: Campbell
-        script:
-        - Latn
+      completename:
+        content: Campbell, William R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020108243
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L K
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: L K
-          script:
-          - Latn
-      surname:
-        content: Irwin
-        script:
-        - Latn
+      completename:
+        content: Irwin, L. K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R C
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: R C
-          script:
-          - Latn
-      surname:
-        content: Duncan
-        script:
-        - Latn
+      completename:
+        content: Duncan, R. C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95018570
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1951-09
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Four large bulkhead intersection specimens were tested in tension in the
+    Engineering Mechanics Section of the National Bureau of Standards for the Ship
+    Structure Committee The tests are part of a study of the typical structural discontinuities
+    in ships to determine the magnitude of stress concentrations and areas affected
+    by discontinuities, and to furnish data necessary for improving current designs.
+    Each specimen represents the intersection of a longitudinal bulkhead and a transverse
+    bulkhead as found in welded tanker design. The elastic stress distribution at
+    room temperature, strain distribution prior to failure at 0¿̐¿F, and energy for
+    failure at 0¿̐¿F are presented. Stress values in the region of the intersection
+    are compared with stresses in the longitudinal bulkhead bordering the intersection.
+    Stress concentrations and energy at failure for the different specimens are also
+    compared.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '1152'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

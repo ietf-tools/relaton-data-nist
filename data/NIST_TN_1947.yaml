@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1947
 title:
 - content: A study on the performance of current smoke alarms to the new fire and
-    nuisance tests prescribed in ANSIUL 217-2015
+    nuisance tests prescribed in ANSI/UL 217-2015
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1947
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1947.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1947
@@ -22,50 +21,86 @@ docid:
 - id: 10.6028/NIST.TN.1947
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas G
-          script:
-          - Latn
-      surname:
-        content: Cleary
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cleary, Thomas G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152651
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: Research was conducted on the performance of currently available smoke
+    alarms to the new fire and cooking nuisance source tests specified in ANSI/UL
+    217-2015, Standard for Safety of Smoke Alarms. The standard calls for additional
+    room-scale fire tests with smoldering and flaming polyurethane foam and a broiling
+    hamburgers cooking test. The objectives of this research was to assess whether
+    the new performance tests will foster a demonstrable enhancement in smoke alarm
+    performance compared to a wide range of currently available smoke alarms and whether
+    the single nuisance source test is representative of a range of cooking nuisance
+    scenarios. There were 45 distinct smoke alarm models from seven different manufacturers
+    used in the study. There were 14 ionization sensor models, 14 photoelectric sensor
+    models, seven combination photoelectric and carbon monoxide sensor models, four
+    combination ionization and carbon monoxide sensor models, four combination ionization
+    and photoelectric sensor models, and two combination photoelectric and thermal
+    sensor models. Six units of each model were used in the experiments for a total
+    of 270 individual smoke alarms used in the study. The sensitivity of each alarm
+    was measured in a smoke box with cotton wick smoke per the ANSI/UL 217-2012. The
+    measured sensitivities across the different models covered nearly the entire range
+    of allowed sensitivities. Analysis of these results showed that no current smoke
+    alarm model would likely meet the new test performance levels required in the
+    ANSI/UL 217-2015. Three models, all photoelectric sensor alarms, came closest
+    to meeting the requirements. It was concluded that an across the board increase
+    to the level of performance specified in ANSI-UL 217-2015 would significantly
+    improve the overall performance of smoke alarms by expanding the range of fire
+    scenarios alarms must respond to while requiring resistance to nuisance alarms.
+    The changes introduced in ANSI/UL 217-2015, which include the new performance
+    fire tests and the new nuisance resistance test, may represent significant challenges
+    for manufacturers to meet the requirements by simply using both photoelectric
+    and ionization sensors, or designing alarms that perform as well against the new
+    fire tests as combination ionization / photoelectric models examined. The aerosol
+    generation rate between the cooking nuisance sources varied significantly as did
+    the relationship between the light obscuration and measuring ionization chamber
+    values. Toasting bread produced essentially no measurable obscuration, thus alarms
+    with only photoelectric, carbon monoxide, and thermal sensors typically did not
+    alarm during those experiments. However, ionization alarms did respond to toasting
+    bread aerosols at about the same measuring ionization chamber level as the broiling
+    hamburgers experiments. As a nuisance test, the broiling hamburgers test challenged
+    the majority of smoke alarms included in this study, and therefore may be considered
+    a conservative test. Ultimately, cooking nuisance experiments on a range of smoke
+    alarms that ANSI/UL 217-2015 will confirm the appropriateness of the broiling
+    hamburgers cooking nuisance scenario as the model test.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1947'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

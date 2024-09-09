@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB130-1999
 title:
 - content: Uniform laws and regulations in the areas of legal metrology and motor
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.130-1999
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nisthandbook130-1999.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 130-1999
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.HB.130-1999
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Coleman
-        script:
-        - Latn
+      completename:
+        content: Coleman, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no93019979
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Terry L
-          script:
-          - Latn
-      surname:
-        content: Grimes
-        script:
-        - Latn
+      completename:
+        content: Grimes, Terry L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97044192
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-script:
-- Latn
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 130-1999
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

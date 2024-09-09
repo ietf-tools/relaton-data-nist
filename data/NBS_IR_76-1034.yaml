@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR76-1034
 title:
 - content: Chemical thermodynamic properties of compounds of sodium, potassium and
-    rubidium :an interim tabulation of selected values
+    rubidium
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an interim tabulation of selected values
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Chemical thermodynamic properties of compounds of sodium, potassium and
+    rubidium - an interim tabulation of selected values
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.76-1034
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir76-1034.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 76-1034
@@ -22,151 +36,70 @@ docid:
 - id: 10.6028/NBS.IR.76-1034
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wagman
+      completename:
+        content: Wagman, Donald D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79065674
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W H
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: W H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Evans
+      completename:
+        content: Evans, W. H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: V B
-          language:
-          - en
-          script:
-          - Latn
-          initial: V
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: V B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Parker
+      completename:
+        content: Parker, Vivian B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86868175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R H
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: R H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schumm
+      completename:
+        content: Schumm, R. H. (Richard H.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022081357
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 76-1034
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

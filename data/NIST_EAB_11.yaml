@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTEAB11
 title:
-- content: 'NIST customer demographics: calibrations'
+- content: NIST customer demographics
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: calibrations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST customer demographics - calibrations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.EAB.11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/eab/NIST.EAB.11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST EAB 11
@@ -21,67 +34,59 @@ docid:
 - id: 10.6028/NIST.EAB.11
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nicole
-          script:
-          - Latn
-      surname:
-        content: Gingrich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Gingrich, Nicole.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Isaac
-          script:
-          - Latn
-      surname:
-        content: Patterson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Patterson, Isaac.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: This economic analysis brief summarizes the efforts and results of the
+    data collection and analysis of NIST's calibration customer information. Summary
+    statistics for calibration customers are provided for fiscal years 2010 through
+    2015. Included in the analysis are demographically descriptive variables such
+    as the age, location, North American Industry Classification System (NAICS) codes,
+    number of employees and geographic distribution of NIST calibration customers.
+    Overall, these features provide an understanding of the demographic characteristics
+    of entities that purchase calibration services from NIST.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Economic Analysis Briefs
+    content: NIST economic analysis brief; NIST EAB
     format: text/plain
-  abbreviation:
-    content: EAB
   number: '11'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBSS126
 title:
 - content: Geographical extrapolation of typical hourly weather data for energy calculation
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BSS.126
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience126.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BSS 126
@@ -22,103 +21,67 @@ docid:
 - id: 10.6028/NBS.BSS.126
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Arens
+      completename:
+        content: Arens, Edward A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78052605
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Flynn
+      completename:
+        content: Flynn, Larry E.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nall
+      completename:
+        content: Nall, Daniel N.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kalev
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ruberg
+      completename:
+        content: Ruberg, Kalev.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85804291
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '126'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

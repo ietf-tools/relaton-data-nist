@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8340
 title:
-- content: 'Voices of First Responders – Applying Human Factors and Ergonomics Knowledge
-    to Improve the Usability of Public Safety Communications Technology: Findings
-    from User-Centered Interviews, Phase 1, Volume 5'
+- content: Voices of first responders– applying human factors and ergonomics knowledge
+    to improve the usability of public safety communications technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: findings from user-centered interviews phase 1, volume 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Voices of first responders– applying human factors and ergonomics knowledge
+    to improve the usability of public safety communications technology - findings
+    from user-centered interviews phase 1, volume 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8340
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8340.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8340
@@ -23,67 +37,103 @@ docid:
 - id: 10.6028/NIST.IR.8340
   type: DOI
 date:
-- type: published
-  value: '2021-02-11'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Choong, Yee-Yin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3889-6047"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gavriel
-          script:
-          - Latn
-      surname:
-        content: Salvendy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Salvendy, Gavriel.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-02-11'
-script:
-- Latn
+abstract:
+- content: 'With the newly created Nationwide Public Safety Broadband Network (NPSBN),
+    the publicsafety community is in the process of supplementing the use of land
+    mobile radios with atechnology ecosystem that will include a variety of new and
+    improved communication tools, including a range of broadband data sharing platforms.
+    As these technologies are beingdeveloped, researchers and industry alike need
+    to focus on the end users – the firstresponders – in order to ensure successful
+    and usable systems. Understanding the userpopulation of first respondersis key
+    to improved usability. The National Institute of Standardsand Technology (NIST)
+    Public Safety Communications Research (PSCR) Usability Team took amulti-phase,
+    mixed methods approach in order to provide greater understanding of publicsafety
+    technology users, their experiences, and their technology needs and problems.This
+    report, Phase 1, Volume 5, is the 5th in a series of reports on the data from
+    the Phase 1in-depth interviews. This report is a companion document and should
+    be used in conjunctionwith the Phase 1, Volume 2 report that identifies the technology
+    problems and needs of firstresponders from the in-depth interview data. The current
+    report focuses on providingpractical guidance and recommendations for improving
+    the usability of communicationtechnology for first responders by applying human
+    factors and ergonomics (HFE) principlesand usability evaluation methodology. The
+    field of HFE considers five major aspects (perceptual, cognitive, physical, environmental,
+    and social & organizational) of humaninteractions with systems to optimize human
+    well-being and overall system performance.In Phase 1 in-depth interviews, 193
+    first responders–from Comm Center & 9-1-1 Services (COMMS), Emergency Medical
+    Services (EMS), Fire Service (FF), and Law Enforcement (LE) –have been interviewed.
+    A total of 107 categories of technology problems and needs wereidentified as documented
+    in the Phase 1, Volume 2 report. In this report, from the usabilityand HFE perspectives,
+    we performed further assessment on those 107 categories and dividedthem into two
+    main groups. In the first group, 27 categories were clustered into 14 topics.For
+    each of the 14 topics, specific HFE recommendations were made in order to ensure
+    theusability of communication technology for first responders. In the other group,
+    the remaining80 categories of technology problems and needs were clustered into
+    6 topicsin which genericHFE considerations are applicable.To ensure the usability
+    of communication technology for first responders, both groupsrequire a two-stage
+    human-centered process to be followed for technology development andimplementation.
+    The two-stage (requirement analysis and usability testing) process includes:(1)
+    HFE professional(s) is integrated with the product team from the initiation and
+    throughoutthe product development lifecycle; (2) at various stages, the product
+    needs to go throughusability evaluations before the final implementation. The
+    HFE professional must approvethat the product and technology meet the HFE and
+    usability requirements to be ready forfinal implementation.The objective of this
+    report is to provide concise and actionable HFE guidance andrecommendations to
+    the PSCR R&D community without extensive discussions on thetheoretical background
+    information. Practitioners interested in addressing a specific topic caniiThis
+    publication is available free of charge from: https://doi.org/10.6028/NIST.IR.8340take
+    the recommendations, design and develop the technology following the two-stagehuman-centered
+    process throughout the entire product development lifecycle to deliver thedesirable
+    and usable communication technology to first responders.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8340'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8340'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

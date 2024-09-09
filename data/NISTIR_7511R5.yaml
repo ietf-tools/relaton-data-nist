@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7511r5
 title:
 - content: Security content automation protocol (SCAP) version 1.3 validation program
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7511r5
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.7511r5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7511r5
@@ -22,101 +21,81 @@ docid:
 - id: 10.6028/NIST.IR.7511r5
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melanie
-          script:
-          - Latn
-      surname:
-        content: Cook
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Cook, Melanie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2001001957
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Quinn, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99049651
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Waltermire
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Waltermire, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021047735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dragos
-          script:
-          - Latn
-      surname:
-        content: Prisaca
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Prisaca, Dragos.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: This report defines the requirements and associated test procedures necessary
+    for products or modules to achieve one or more Security Content Automation Protocol
+    (SCAP) validations. Validation is awarded based on a defined set of SCAP capabilities
+    by independent laboratories that have been accredited for SCAP testing by the
+    NIST National Voluntary Laboratory Accreditation Program (NVLAP)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 7511r5
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1952
 title:
 - content: 'LTE impacts on GPS: final test report'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1952
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1952.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1952
@@ -21,220 +20,141 @@ docid:
 - id: 10.6028/NIST.TN.1952
   type: DOI
 date:
-- type: published
-  value: 2017-02
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William F
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Young, William F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ari
-          script:
-          - Latn
-      surname:
-        content: Feldman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Feldman, Ari.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00005509
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sheryl
-          script:
-          - Latn
-      surname:
-        content: Genco
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Genco, Sheryl.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aziz
-          script:
-          - Latn
-      surname:
-        content: Kord
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Kord, Aziz.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel G
-          script:
-          - Latn
-      surname:
-        content: Kuester
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Kuester, Daniel G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Ladbury
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Ladbury, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Duncan A
-          script:
-          - Latn
-      surname:
-        content: McGillivray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: McGillivray, Duncan A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Audrey K
-          script:
-          - Latn
-      surname:
-        content: Puls
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Puls, Audrey K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andre
-          script:
-          - Latn
-      surname:
-        content: Rosete
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Rosete, Andre.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Wunderlich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wunderlich, Adam.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wen-Bin
-          script:
-          - Latn
-      surname:
-        content: Yang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Yang, Wen-Bin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2017-02
-script:
-- Latn
+abstract:
+- content: 'This report describes the test methodology from LTE impacts on GPS: Test
+    and Metrology Plan developed by National Advanced Spectrum and Communications
+    Test Network (NASCTN), and data that are the result of executing the test method.
+    The fundamental goals in developing the test plan development were: a transparent,
+    reproducible, and well-calibrated test method, sound and statistically- valid
+    data retrieval and processing methods, a clear path from measurement setup to
+    data collection to processed results, and data to inform discussions between different
+    interests on proper measurement requirements. The NASCTN team performed radiated
+    testing to execute the test plan. These efforts amount to a test campaign intended
+    to refine the test method and publish data for the stakeholder community. To this
+    end, the team set out to: provide data of sufficient quality and relevance to
+    support sound decision-making, articulate the importance of measurement uncertainty
+    along with its relationship with the design and execution of the test method,
+    and convey key implementation details that to support future execution of the
+    test method.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1952'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

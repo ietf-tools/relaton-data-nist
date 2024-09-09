@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1200-26
 title:
 - content: Assessing the chemical and colloidal stability of functionalized gold nanoparticles
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1200-26
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1200-26.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1200-26
@@ -21,67 +20,64 @@ docid:
 - id: 10.6028/NIST.SP.1200-26
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Tae Joon
-          script:
-          - Latn
-      surname:
-        content: Cho
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Cho, Tae Joon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent A.
-          script:
-          - Latn
-      surname:
-        content: Hackley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hackley, Vincent A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0003-4166-2724
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: Among the many classes of engineered nanomaterials, gold nanoparticles
+    (GNPs) are one of the most widely studied and utilized nanoscale platforms for
+    biomedical applications including diagnostics, therapeutics, and transfection.
+    This is due in part to their general biocompatibility, facile synthesis and unique
+    optical properties.3 To realize these achievements, a systematic evaluation of
+    GNP stability, particularly under physiologically relevant conditions, is critical
+    for the efficacious and safe application of GNPs in any biomedical or technical
+    application. A lack of well documented and reproducible protocols motivated the
+    development of the present collection of methods, which address stability with
+    respect to aging, different media, pH, temperature, chemical resistance, and long-term
+    storage.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1200-26
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

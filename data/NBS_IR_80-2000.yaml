@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2000
 title:
 - content: Development of test structures for characterization of the fabrication
-    and performance of radiation-hardened charge-coupled device (CCD) imagers :annual
+    and performance of radiation-hardened charge-coupled device (CCD) imagers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: annual report, December 1, 1978 to November 30, 1979
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Development of test structures for characterization of the fabrication
+    and performance of radiation-hardened charge-coupled device (CCD) imagers - annual
     report, December 1, 1978 to November 30, 1979
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2000
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2000.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2000
@@ -23,88 +37,51 @@ docid:
 - id: 10.6028/NBS.IR.80-2000
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G P
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: G P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carver
+      completename:
+        content: Carver, G. P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81085092
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rubin
+      completename:
+        content: Rubin, S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82111404
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2000
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

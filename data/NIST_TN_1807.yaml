@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1807
 title:
-- content: Horizontal Convective Boiling of R134a, R1234yf/R134a, and R1234ze(E) within
-    a Micro-Fin Tube with Extensive Measurement and Analysis Details
+- content: Horizontal convective boiling of R134a, R1234yf/R134a, and R1234ze(E) within
+    a micro-fin tube with extensive measurement and analysis details
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1807
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1807.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1807
@@ -22,67 +21,67 @@ docid:
 - id: 10.6028/NIST.TN.1807
   type: DOI
 date:
-- type: published
-  value: 2013-08
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ki-Jung
-          script:
-          - Latn
-      surname:
-        content: Park
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Furman, Susanne.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Theofanos, Mary.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Wald, Hannah.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085326
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Information Technology Laboratory, Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1807'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

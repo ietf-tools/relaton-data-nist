@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8302
 title:
-- content: NIST Instrumented Charpy Analysis Software (NICAS):user's manual
+- content: NIST Instrumented Charpy Analysis Software (NICAS)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: user's manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Instrumented Charpy Analysis Software (NICAS) - user's manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8302
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8302.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8302
@@ -21,67 +34,60 @@ docid:
 - id: 10.6028/NIST.IR.8302
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Damian
-          script:
-          - Latn
-      surname:
-        content: Lauria
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lauria, Damian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: 'The NIST Instrumented Charpy Analysis Software (NICAS) is a standalone
+    LabVIEW1 program that can be used to analyze instrumented impact tests in accordance
+    with the following international test standards: ASTM E2298-18 [1] and ISO 14556:2015
+    [2]. It is also possible to perform some operations manually, i.e., not in strict
+    accordance with the above cited standards. The software is provided free of charge
+    in both raw LabVIEW code and executable (*.EXE) formats with an installer for
+    PC platforms running Windows 7 or later.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8302'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

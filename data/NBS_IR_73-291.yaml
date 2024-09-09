@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR73-291
 title:
 - content: A systematic study of vibration standards -mounting effects-
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.73-291
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir73-291.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 73-291
@@ -21,86 +20,56 @@ docid:
 - id: 10.6028/NBS.IR.73-291
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Koyanagi
+      completename:
+        content: Koyanagi, Robert S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pollard
+      completename:
+        content: Pollard, James D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ramboz
+      completename:
+        content: Ramboz, J. D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83163239
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 73-291
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

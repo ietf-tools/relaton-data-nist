@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-155
 title:
-- content: Standard reference materials :human mitochondrial DNA--amplification and
+- content: Standard reference materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: human mitochondrial DNA--amplification and sequencing - standard reference
+    materials--SRM 2392 and SRM 2392-1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - human mitochondrial DNA--amplification and
     sequencing - standard reference materials--SRM 2392 and SRM 2392-1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-155
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-155.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-155
@@ -22,175 +36,110 @@ docid:
 - id: 10.6028/NIST.SP.260-155
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B C
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: B C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Levin
+      completename:
+        content: Levin, B. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D K
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: D K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hancock
+      completename:
+        content: Hancock, D. K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2017045941
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Holland
+      completename:
+        content: Holland, K. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022030396
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cheng
+      completename:
+        content: Cheng, H. (Hung)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98801341
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K L
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: K L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Richie
+      completename:
+        content: Richie, K. L. (Kristy L.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022076355
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Standard Reference Materials SRM 2392 and 2392-I are intended to provide
+    quality control when performing the polymerase chain reaction (PCR) and sequencing
+    of human mitochondrial DNA (mtDNA) for forensic identification, medical diagnosis,
+    or mutation detection. They may also serve as controls when amplifying (PCR) and
+    sequencing any DNA. These SRMs can also be used for quality assurance when determining
+    the sequence of in-house DNA controls. SRM 2392 is certified for the sequences
+    of the entire human mtDNA (16,569 base pairs) from two lymphoblastoid cell culture
+    lines (CHR and 9947A) from apparently normal individuals and the cloned HV1 region
+    of CHR containing a C-stretch through which it is difficult to sequence. SRM 2392-I
+    is certified for the mtDNA sequence from HL-60, a promyelocytic cell line prepared
+    from the peripheral blood leukocytes from an individual with acute promyelocytic
+    leukemia. The mtDNA sequence information (but not the DNA) of two additional DNA
+    templates (GM03798 and GM10742A) that were amplified and sequenced in their entirety
+    multiple times at NIST are provided in this Special Publication for comparison
+    purposes. The sequences of fifty-eight unique primer sets that allow any area
+    or the entire mtDNA (16,569 base pairs) to be amplified and sequenced are also
+    provided. We found during the sequencing of these five mtDNA templates that some
+    of the single nucleotide polymorphisms (SNPs) did result in amino acid changes
+    when compared with the Cambridge Reference Sequence (Anderson et al.,1981; Andrews
+    et al.,1999). Two interlaboratory evaluations, one for the amplification, sequencing,
+    and data analysis of the CHR template and one for the HL-60 template were each
+    conducted by three different laboratories and NIST. Corroboration of the results
+    in SRMs 2392 and 2392-I will provide quality assurance that any unknown mtDNA
+    is also being amplified and sequenced correctly.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-155
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

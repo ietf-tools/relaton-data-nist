@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP814
 title:
 - content: Interpretation of the SI for the United States and metric conversion policy
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.814
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication814.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 814
@@ -22,69 +21,64 @@ docid:
 - id: 10.6028/NIST.SP.814
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Barry N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
+      completename:
+        content: Taylor, B. N.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Barry N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85084930
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) Special Publication
+    replaces National Bureau of Standards (NBS) Letter Circular LC1132 published April
+    19, 1982. It reprints the Department of Commerce, NIST, Federal Register notice
+    of December 20, 1990 titled 'Metric System of Measurement; Interpretation of the
+    International System of Units for the United States' (the International System
+    of Units, abbreviated SI, is the modernized metric system); the Department of
+    Commerce, Office of the Secretary. Federal Register notice of January 2, 1991
+    titled 'Metric Conversion Policy for Federal Agencies'; and Executive Order 12770
+    issued by the President of the United States on July 25, 1991 titled 'Metric Usage
+    in Federal Government Programs.' The first Federal Register notice restates the
+    Department of Commerce's interpretation of the International System of Units for
+    the United States that was last published by the Department in 1982; the second
+    revises the Code of Federal Regulations (CFR) to remove the voluntary aspect of
+    the conversion to the metric system of measurement for Federal agencies; and the
+    Executive Order provides Presidential authority and direction for the use of the
+    metric system of measurement by Federal departments and agencies in their programs.
+    Also included is a diagram that shows graphically how the 19 SI derived units
+    with special names are derived in a coherent manner from the SI base and supplementary
+    units.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '814'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

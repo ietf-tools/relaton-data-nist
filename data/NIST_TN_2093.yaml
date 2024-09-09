@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2093
 title:
 - content: Development of a new approach to characterize firebrand showers during
-    Wildland-Urban Interface (WUI) fires:a step towards high-fidelity measurements
+    Wildland-Urban Interface (WUI) fires
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a step towards high-fidelity measurements in three dimensions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Development of a new approach to characterize firebrand showers during
+    Wildland-Urban Interface (WUI) fires - a step towards high-fidelity measurements
     in three dimensions
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2093
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2093.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2093
@@ -23,84 +37,80 @@ docid:
 - id: 10.6028/NIST.TN.2093
   type: DOI
 date:
-- type: published
-  value: 2020-05
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nicolas
-          script:
-          - Latn
-      surname:
-        content: Bouvet
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bouvet-Levrard, Nicolas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022148661
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric D
-          script:
-          - Latn
-      surname:
-        content: Link
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Link, Eric D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A
-          script:
-          - Latn
-      surname:
-        content: Fink
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fink, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-05
-script:
-- Latn
+abstract:
+- content: 'A new approach to characterize airborne firebrands during Wildland Urban
+    Interface (WUI) fires is detailed. The approach merges the following two imaging
+    techniques in a single field-deployable diagnostic tool: 1/ 3D Particle Tracking
+    Velocimetry (3D-PTV), allowing for the time-resolved mapping of firebrand 3D trajectories,
+    and 2/ 3D Particle Shape Reconstruction (3D-PSR), used to reconstruct 3D models
+    of individual particles following the Visual Hull principle. This tool offers
+    for the first time the possibility to simultaneously study time-resolved firebrand
+    fluxes and firebrand size distribution to the full extent of their three-dimensional
+    nature. Methodologies used in the present work are presented and their technical
+    implementation are thoroughly discussed. Validation tests to confirm proper tracking/sizing
+    of particles are detailed. The diagnostic tool is applied to a firebrand shower
+    artificially-generated at NIST National Fire Research Laboratory. A novel graphic
+    representation, that incorporates both the Cumulative Particle Count (CPC, part.
+    m-2) and Particle Number Flux (PNF, part. m-2 s-1) as relevant exposure metrics,
+    is presented and the exposure level is compared to that of an actual outdoor fire.
+    Size distributions obtained for airborne firebrands are compared to those achieved
+    through ground collection and strategies to improve the particle shape reconstruction
+    method are discussed.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2093'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

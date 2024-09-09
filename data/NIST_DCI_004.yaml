@@ -1,9 +1,26 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTDCI004
 title:
 - content: NIST-NOAA survey tool for business disruption and recovery associated with
-    extreme events :general instrument applied to the Beaumont and Port Arthur, Texas
+    extreme events
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: general instrument applied to the Beaumont and Port Arthur, Texas small-
+    and medium-sized business and nonprofit organizations community post-Hurricane
+    Harvey
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST-NOAA survey tool for business disruption and recovery associated with
+    extreme events - general instrument applied to the Beaumont and Port Arthur, Texas
     small- and medium-sized business and nonprofit organizations community post-Hurricane
     Harvey
   language:
@@ -11,11 +28,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.DCI.004
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/dci/NIST.DCI.004.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST DCI 004
@@ -24,73 +40,39 @@ docid:
 - id: 10.6028/NIST.DCI.004
   type: DOI
 date:
-- type: published
-  value: '2021-08-12'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle
-          script:
-          - Latn
-      surname:
-        content: Meyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Meyer, Michelle.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joy
-          script:
-          - Latn
-      surname:
-        content: Semien
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Semien, Joy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2021-08-12'
-script:
-- Latn
 abstract:
 - content: To gather more in-depth information about how disasters affect businesses
     and nonprofits, the National Institute of Standards and Technology (NIST) and
@@ -105,16 +87,24 @@ abstract:
     long-term recovery process. The approach combines both quantitative and qualitative
     data collection methods of in-person and telephone surveys to obtain organizational
     disruption and recovery information from organizational owners and managers.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST DCI
+    content: |-
+      NIST data collection instruments and best practices; NIST
+                      DCI
     format: text/plain
-  abbreviation:
-    content: DCI
   number: '004'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

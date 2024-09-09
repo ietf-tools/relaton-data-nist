@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2213
 title:
 - content: Indoor carbon dioxide metric analysis tool
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2213
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2213.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2213
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.TN.2213
   type: DOI
 date:
-- type: published
-  value: '2022-03-25'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Persily, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian J
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-03-25'
-script:
-- Latn
 abstract:
 - content: Indoor carbon dioxide (CO2) concentrations have been used for decades to
     evaluate indoor air quality (IAQ) and ventilation, and more recently in discussions
@@ -90,16 +64,22 @@ abstract:
     for all spaces. An online tool (QICO2, Quick Indoor CO2) has been developed to
     perform these calculations, and this report also contains a User Guide for that
     tool.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2213'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

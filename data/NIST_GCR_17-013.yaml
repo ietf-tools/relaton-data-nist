@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR17-013
 title:
 - content: Further development of a conceptual framework for assessing resilience
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.17-013
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2017/NIST.GCR.17-013.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 17-013
@@ -22,118 +21,102 @@ docid:
 - id: 10.6028/NIST.GCR.17-013
   type: DOI
 date:
-- type: published
-  value: 2017-07
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alexis
-          script:
-          - Latn
-      surname:
-        content: Kwasinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kwasinski, Alexis,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016050368
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          script:
-          - Latn
-      surname:
-        content: Trainor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Trainor, Joseph.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88648336
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Royce
-          script:
-          - Latn
-      surname:
-        content: Francis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Francis, Royce.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cynthia
-          script:
-          - Latn
-      surname:
-        content: Chen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chen, Cynthia,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012122249
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Francis M
-          script:
-          - Latn
-      surname:
-        content: Lavelle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavelle, Francis M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022046325
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-07
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) is sponsoring
+    the Community Resilience Assessment Methodology (CRAM) project. The CRAM project
+    team is working in parallel with several other NIST initiatives, including: the
+    Community Resilience Planning Guide for Buildings and Infrastructure Systems (https://www.nist.gov/el/resilience/community-resilience-
+    planning-guides), the Center for Risk-Based Community Resilience Planning (https://resilience.colostate.edu/),
+    and the Community Resilience Panel for Buildings and Infrastructure Systems (https://www.crpanel.org/).
+    The objective of the CRAM project is to develop a foundation for assessing resilience
+    at the community scale. For the purposes of this project, community resilience
+    is defined as the ability to prepare for and adapt to changing conditions and
+    to withstand and recover rapidly from disruptions (PPD-21 2013), and a community
+    is defined as a place designated by geographical boundaries that functions under
+    the jurisdiction of a governance structure, such as a town, city, or county (NIST
+    2015). This report continues the develop the concept of community dimensions and
+    services and expands the concept to the dimensions of sustenance, housing and
+    shelter, relationships, and education.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 17-013
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

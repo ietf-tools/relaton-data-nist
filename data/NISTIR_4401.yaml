@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4401
 title:
-- content: Fire Risk Assessment Method:guide to the risk methodology software
+- content: Fire Risk Assessment Method
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: guide to the risk methodology software
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fire Risk Assessment Method - guide to the risk methodology software
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4401
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4401.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4401
@@ -21,59 +34,50 @@ docid:
 - id: 10.6028/NIST.IR.4401
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C Lynn
-          script:
-          - Latn
-      surname:
-        content: Forney
-        script:
-        - Latn
+      completename:
+        content: Forney, C. Lynn.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022010871
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter W
-          script:
-          - Latn
-      surname:
-        content: Jones
-        script:
-        - Latn
+      completename:
+        content: Jones, Walter W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105945
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4401'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

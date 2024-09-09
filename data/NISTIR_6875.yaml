@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6875
 title:
-- content: Final report:effective non-toxic metallic fire suppressants
+- content: Final report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: effective non-toxic metallic fire suppressants
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Final report - effective non-toxic metallic fire suppressants
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6875
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6875.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6875
@@ -21,111 +34,82 @@ docid:
 - id: 10.6028/NIST.IR.6875
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory
-          script:
-          - Latn
-      surname:
-        content: Linteris
-        script:
-        - Latn
+      completename:
+        content: Linteris, Gregory.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc
-          script:
-          - Latn
-      surname:
-        content: Rumminger
-        script:
-        - Latn
+      completename:
+        content: Rumminger, Marc.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Valeri
-          script:
-          - Latn
-      surname:
-        content: Babushok
-        script:
-        - Latn
+      completename:
+        content: Babushok, Valeri.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011098231
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harsha
-          script:
-          - Latn
-      surname:
-        content: Chelliah
-        script:
-        - Latn
+      completename:
+        content: Chelliah, Harsha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tony
-          script:
-          - Latn
-      surname:
-        content: Lazzarini
-        script:
-        - Latn
+      completename:
+        content: Lazzarini, Tony.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006058294
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pasan
-          script:
-          - Latn
-      surname:
-        content: Wanigarathe
-        script:
-        - Latn
+      completename:
+        content: Wanigarathe, Pasan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6875'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2048
 title:
 - content: Simulation and analysis plan to evaluate the impact of CO mitigation requirements
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2048
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2048.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2048
@@ -22,118 +21,105 @@ docid:
 - id: 10.6028/NIST.TN.2048
   type: DOI
 date:
-- type: published
-  value: 2019-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven J. (Steven John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003076634
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew J
-          script:
-          - Latn
-      surname:
-        content: Brookman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brookman, Matthew J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Janet
-          script:
-          - Latn
-      surname:
-        content: Buyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Buyer, Janet.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Hnatov
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hnatov, Matthew.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-06
-script:
-- Latn
+abstract:
+- content: This report was written by staff of the National Institute of Standards
+    and Technology (NIST) and the U.S. Consumer Product Safety Commission (CPSC, the
+    Commission) under an interagency agreement in support of the Commission's effort
+    to address the carbon monoxide (CO) poisoning hazard associated with consumer
+    use of portable generators. This report presents a plan for a computer simulation
+    study to support CPSC staff's evaluation of the effectiveness of CO mitigation
+    requirements that were adopted in two voluntary standards in 2018. These two standards
+    are ANSI/PGMA G300-2018, Safety and Performance of Portable Generators (referred
+    to as PGMA G300) and ANSI/UL 2201-2018, Carbon Monoxide (CO) Emission Rate of
+    Portable Generators (referred to as UL 2201). Both voluntary standards have requirements
+    for a system that will shut the generator off when specific CO concentrations
+    are present near the generator. PGMA G300 also has notification requirements to
+    alert the user of the presence of CO after the generator has shut off, while UL
+    2201 has a reduced CO emission rate requirement. To support CPSC staff's evaluation
+    of the effectiveness of these requirements in addressing the CO hazard, this report
+    documents the plan for conducting a computer simulation study and for analyzing
+    the output of that study. The methodology is largely similar to that used by CPSC
+    staff to evaluate the benefits of the proposed rule issued by the Commission in
+    2016. This simulation study will use the same forty buildings, weather conditions,
+    and generator characteristics to study the rate at which the CO emitted from the
+    generator accumulates in, transports within, and leaves the homes and detached
+    garages for generators with and without CO safety shutoff systems. The plan includes
+    over 900 scenarios that will be considered in all the buildings, which will require
+    more than a million simulations and subsequent analysis of the simulation outputs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2048'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

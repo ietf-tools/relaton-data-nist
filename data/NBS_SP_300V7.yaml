@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP300v7
 title:
-- content: Precision measurement and calibration :selected NBS papers on radiometry
+- content: Precision measurement and calibration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: selected NBS papers on radiometry and photometry
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Precision measurement and calibration - selected NBS papers on radiometry
     and photometry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.300v7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication300v7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 300v7
@@ -22,81 +35,45 @@ docid:
 - id: 10.6028/NBS.SP.300v7
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H K, III
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hammond
+      completename:
+        content: Hammond, H. K., III.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H L
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: H L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mason
+      completename:
+        content: Mason, H. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1971'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 300v7
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1678
 title:
 - content: Safety assessment of parallel wire suspension bridge cables under thermal
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1678
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1678.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1678
@@ -22,67 +21,71 @@ docid:
 - id: 10.6028/NIST.TN.1678
   type: DOI
 date:
-- type: published
-  value: 2010-10
+- type: issued
+  value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph A
-          script:
-          - Latn
-      surname:
-        content: Main
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Main, Joseph A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William E
-          script:
-          - Latn
-      surname:
-        content: Luecke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Luecke, William E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0587-4500"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2010-10
-script:
-- Latn
+abstract:
+- content: This report summarizes a NIST study aimed at assessing the safety of parallel
+    wire suspension bridge cables under thermal effects. Both low temperatures, potentially
+    embrittling the bridge wires, and high temperatures, potentially softening the
+    wires, are considered. Recommended thermal and mechanical properties of suspension
+    bridge wire are developed based on published data and on tensile testing carried
+    out as part of this study. These recommended properties are incorporated in a
+    computational model developed to analyze the thermal and mechanical response of
+    a parallel wire suspension bridge cable subjected to prescribed surface temperatures.
+    The analysis results indicate that embrittlement due to low temperatures does
+    not significantly reduce the ultimate capacity of the cable. Exposure to high
+    temperatures, on the other hand, could lead to failure of the cable, due to thermal
+    softening of the steel wires and thermal expansion, which causes the heated outer
+    wires to shed load. Reducing the surface area exposed to high temperatures is
+    found to increase the exposure time required to produce failure.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1678'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

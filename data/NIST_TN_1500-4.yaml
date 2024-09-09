@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1500-4
 title:
-- content: Nondestructive characterization of reactor pressure vessel steels :a feasibility
-    study \ submitted by Harry I. McHenry, George A. Alers.
+- content: Nondestructive characterization of reactor pressure vessel steels
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a feasibility study - submitted by Harry I. McHenry, George A. Alers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Nondestructive characterization of reactor pressure vessel steels - a feasibility
+    study - submitted by Harry I. McHenry, George A. Alers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1500-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1500-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1500-4
@@ -22,69 +35,51 @@ docid:
 - id: 10.6028/NIST.TN.1500-4
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Alers
+      completename:
+        content: McHenry, Harry I.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85246566
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harry I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McHenry
+      completename:
+        content: Alers, George A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139597
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1998'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 1500-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

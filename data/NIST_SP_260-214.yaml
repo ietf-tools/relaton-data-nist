@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-214
 title:
-- content: Analysis of seafood reference materials :RM 8256, RM 8257, RM 8258 and
-    RM 8259, Wild-Caught Coho Salmon (RM 8256), Aquacultured Coho Salmon (RM 8257),
-    Wild-Caught Shrimp (RM 8258), Aquacultured Shrimp (RM 8259)
+- content: Analysis of seafood reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: RM 8256, RM 8257, RM 8258 and RM 8259, wild-caught coho salmon (RM 8256),
+    aquacultured coho salmon (RM 8257), wild-caught shrimp (RM 8258), aquacultured
+    shrimp (RM 8259)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Analysis of seafood reference materials - RM 8256, RM 8257, RM 8258 and
+    RM 8259, wild-caught coho salmon (RM 8256), aquacultured coho salmon (RM 8257),
+    wild-caught shrimp (RM 8258), aquacultured shrimp (RM 8259)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-214
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-214.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-214
@@ -23,109 +38,58 @@ docid:
 - id: 10.6028/NIST.SP.260-214
   type: DOI
 date:
-- type: published
-  value: '2021-08-30'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Debra L
-          script:
-          - Latn
-      surname:
-        content: Ellisor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Ellisor, Debra L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin
-          script:
-          - Latn
-      surname:
-        content: Place
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Place, Benjamin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa
-          script:
-          - Latn
-      surname:
-        content: Phillips
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phillips, Melissa.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Yen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Yen, James.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-08-30'
-script:
-- Latn
-abstract:
-- content: NIST Reference Material (RM) 8256 Wild-caught Coho Salmon, RM 8257 Aquacultured
-    Coho Salmon, RM 8258 Wild-caught Shrimp and RM 8259 Aquacultured Shrimp were generated
-    for use in authentication, nutrition and food safety-related determinations of
-    crude fat and fatty acids. Each unit consists of two jars containing 6 to 8 g
-    of fresh frozen powder homogenate. RMs of the same type (e.g. fish or shellfish)
-    can be used individually or in tandem for comparative studies. This publication
-    documents the sourcing, measurement results and statistical analysis employed
-    in characterizing each material.
-  script:
-  - Latn
-  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-214
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

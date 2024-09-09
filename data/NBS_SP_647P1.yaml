@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP647p1
 title:
 - content: The economic effects of fracture in the United States
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.647p1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication647p1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 647p1
@@ -21,122 +20,59 @@ docid:
 - id: 10.6028/NBS.SP.647p1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R P
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: R P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reed
+      completename:
+        content: Reed, R. P. (Richard Palmer),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78089050
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J H
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: J H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, J. H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84184465
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B W
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: B W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Christ
+      completename:
+        content: Christ, B. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 647p1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

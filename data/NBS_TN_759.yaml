@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN759
 title:
-- content: The NBS lead paint poisoning project :Housing and other aspects
+- content: The NBS lead paint poisoning project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: housing and other aspects
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The NBS lead paint poisoning project - housing and other aspects
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.759
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote759.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 759
@@ -21,52 +34,40 @@ docid:
 - id: 10.6028/NBS.TN.759
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harvey W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berger
+      completename:
+        content: Berger, Harvey W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352114
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '759'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

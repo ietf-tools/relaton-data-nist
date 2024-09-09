@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8123
 title:
-- content: 'Gulf of Mexico Research Initiative 2014/2015 Hydrocarbon Intercalibration
-    Experiment: Description and Results for SRM 2779 Gulf of Mexico Crude Oil and
-    Candidate SRM 2777 Weathered Gulf of Mexico Crude Oil'
+- content: Gulf of Mexico research initiative 2014/2015 hydrocarbon intercalibration
+    experiment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: description and results for SRM 2779 Gulf of Mexico crude oil and candidate
+    SRM 2777 weathered Gulf of Mexico crude oil
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Gulf of Mexico research initiative 2014/2015 hydrocarbon intercalibration
+    experiment - description and results for SRM 2779 Gulf of Mexico crude oil and
+    candidate SRM 2777 weathered Gulf of Mexico crude oil
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8123
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8123.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8123
@@ -23,101 +38,92 @@ docid:
 - id: 10.6028/NIST.IR.8123
   type: DOI
 date:
-- type: published
-  value: 2016-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jacolin Anne A.
-          script:
-          - Latn
-      surname:
-        content: Murray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Murray, Jacolin A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lane C. C.
-          script:
-          - Latn
-      surname:
-        content: Sander
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sander, Lane C. (Lane Charles)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022078648
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen A.
-          script:
-          - Latn
-      surname:
-        content: Wise
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wise, Stephen A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher M.
-          script:
-          - Latn
-      surname:
-        content: Reddy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Reddy, Christopher M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2023002262
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Materials Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-04
-script:
-- Latn
+abstract:
+- content: 'Following an open meeting entitled, Hydrocarbon Chemistry QA/QC, at the
+    2014 Gulf of Mexico Oil Spill and Ecosystem Science Conference in Mobile, Alabama,
+    the Gulf of Mexico Research Initiative (GoMRI) initiated the Hydrocarbon Intercalibration
+    Experiment (HIE) [1]. The goal of this effort was to address the importance of
+    laboratory quality assurance/quality control (QA/QC) practices and to promote
+    participation in quality assurance programs for hydrocarbon compounds. Over thirty
+    laboratories expressed interest in participation in the Hydrocarbon Intercalibration
+    Experiment. These laboratories were supplied with two petroleum crude oil samples
+    provided by the National Institute of Standards and Technology (NIST): Standard
+    Reference Material (SRM) 2779 Gulf of Mexico Crude Oil [2], and candidate SRM
+    2777 Weathered Gulf of Mexico Oil. SRM 2779 was prepared from neat oil collected
+    directly from the leaking Macondo well during the 2010 Deepwater Horizon oil spill
+    event, and candidate SRM 2777 is a field-weathered residue of the Macondo well
+    oil dissolved in toluene. Twenty laboratories submitted results on traditional
+    analytes (that included saturated hydrocarbons, aromatic hydrocarbons, and biomarkers)
+    measured by gas chromatography coupled with mass spectrometry or flame ionization
+    detection. The results for select hydrocarbons, aromatic hydrocarbons, and biomarkers
+    from this intercomparison exercise are reported along with a summary of the analytical
+    methods used.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8123'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

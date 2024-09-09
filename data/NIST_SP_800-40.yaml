@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-40
 title:
 - content: Procedures for handling security patches
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-40
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-40.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-40
@@ -21,93 +20,59 @@ docid:
 - id: 10.6028/NIST.SP.800-40
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P M
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: P M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mell
+      completename:
+        content: Mell, P. M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M C
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: M C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tracy
+      completename:
+        content: Tracy, M. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Timely patching is critical to maintain the operational availability, confidentiality,
+    and integrity of IT systems. However, failure to keep operating system and application
+    software patched is the most common mistake made by information technology (IT)
+    professionals. To help address this growing problem, this special publication
+    recommends methods to help organizations have an explicit and documented patching
+    and vulnerability policy and a systematic, accountable, and documented process
+    for handling patches. This document also covers areas such as prioritizing patches,
+    obtaining patches, testing patches, and applying patches.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-40
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

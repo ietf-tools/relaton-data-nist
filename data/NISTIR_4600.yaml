@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4600
 title:
 - content: IGES 5.0 recommended practices guide
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4600
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4600.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4600
@@ -21,85 +20,66 @@ docid:
 - id: 10.6028/NIST.IR.4600
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Linda
-          script:
-          - Latn
-      surname:
-        content: Martino
-        script:
-        - Latn
+      completename:
+        content: Martino, Linda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr89002967
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennette A Jr
-          script:
-          - Latn
-      surname:
-        content: Harrod
-        script:
-        - Latn
+      completename:
+        content: Harrod, Dennette A. Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Conroy
-        script:
-        - Latn
+      completename:
+        content: Conroy, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joan
-          script:
-          - Latn
-      surname:
-        content: Wellington
-        script:
-        - Latn
+      completename:
+        content: Wellington, Joan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83128511
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4600'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

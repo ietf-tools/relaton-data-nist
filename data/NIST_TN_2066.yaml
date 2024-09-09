@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2066
 title:
 - content: OpenFMB proof of concept implementation research
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2066
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2066.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2066
@@ -21,67 +20,59 @@ docid:
 - id: 10.6028/NIST.TN.2066
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Bartock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bartock, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rebecca
-          script:
-          - Latn
-      surname:
-        content: Herold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Herold, Rebecca.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: There is a smart grid messaging framework known as an Open Field Message
+    Bus (OpenFMB), which was ratified by the North American Energy Standards Board
+    (NAESB) in March 2016 and has been released as NAESB RMQ.26, Open Field Message
+    Bus (OpenFMB) Model Business Practices. OpenFMB focuses on describing a publish-and-subscribe
+    model of communication for smart grid devices to enable efficient communication
+    of data. Subsequent analysis of OpenFMB and its possible implementations will
+    focus on threat analyses of the framework, implementations, cybersecurity recommendations,
+    and a proof of concept implementation of OpenFMB. The OpenFMB framework is being
+    explored as a way to implement publishsubscribe communications between smart grid
+    network nodes. This paper focuses on the cybersecurity risk implications of deployments
+    and a proof of concept implementation of OpenFMB.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2066'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

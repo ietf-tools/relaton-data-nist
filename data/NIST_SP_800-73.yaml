@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-73
 title:
 - content: Interfaces for personal identity verification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-73
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-73.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-73
@@ -21,124 +20,81 @@ docid:
 - id: 10.6028/NIST.SP.800-73
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dray
+      completename:
+        content: Dray, J. F.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Guthery
+      completename:
+        content: Guthery, S.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwarzhoff
+      completename:
+        content: Schwarzhoff, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'SP 800-73 specifies smart card interfaces used to retrieve and use identity
+    credentials. These specifications reflect the design goals of interoperability
+    and PIV Card functions. The goals are addressed by specifying PIV data model,
+    communication interface, and application programming interface (API). Specifications
+    include the PIV data model, API, and card interface requirements necessary to
+    comply with the mandated use cases for interoperability across deployments or
+    agencies. Interoperability is defined as the use of PIV identity credentials such
+    that client APIs, compliant card applications and compliant integrated circuit
+    cards can be used interchangeably by information processing systems across Federal
+    agencies. SP 800-73 does not address the back-end processes that must be performed
+    to attain full identity assertion. The document describes two realizations of
+    the client-application programming and card command interfaces for personal identity
+    verification: the transitional interfaces and the end-point interfaces. Transitional
+    interfaces may be used by agencies with an existing identity card program as an
+    optional step in evolving to the end-point interfaces. End-point interfaces are
+    used by agencies without an existing identity card program and by agencies that
+    elect to evolve to the end-point interface in one step rather than two. SP 800-73
+    is divided into three parts: Part 1 provides specifications common to both the
+    transitional and end-point interfaces and guidance on strategies for migrating
+    from the transitional interfaces to the end-point interfaces; Part 2 describes
+    the subsets of GSC-ISv2.1 that comprise the transitional interfaces to the PIV
+    data model; and Part 3 describes the PIV data model''s end-point interfaces.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-73
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

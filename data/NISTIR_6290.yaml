@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6290
 title:
-- content: Toward a national standards strategy:conference report
+- content: Toward a national standards strategy
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: conference report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Toward a national standards strategy - conference report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6290
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6290.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6290
@@ -21,59 +34,50 @@ docid:
 - id: 10.6028/NIST.IR.6290
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Krista J Johnsen
-          script:
-          - Latn
-      surname:
-        content: Leuteritz
-        script:
-        - Latn
+      completename:
+        content: Leuteritz, Krista J. Johnsen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99057979
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Walter G
-          script:
-          - Latn
-      surname:
-        content: Leight
-        script:
-        - Latn
+      completename:
+        content: Leight, Walter G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90020945
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6290'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

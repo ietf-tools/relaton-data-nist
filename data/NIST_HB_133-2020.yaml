@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB133-2020
 title:
 - content: Checking the net contents of packaged goods as adopted by the 104th National
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.133-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.133-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 133-2020
@@ -22,101 +21,92 @@ docid:
 - id: 10.6028/NIST.HB.133-2020
   type: DOI
 date:
-- type: published
-  value: 2019-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Breyanna
-          script:
-          - Latn
-      surname:
-        content: Blackwell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Blackwell, Breyanna.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Sefcik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Sefcik, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056628
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Warfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056629
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Olson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Olson, Douglas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96098610
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-11
-script:
-- Latn
+abstract:
+- content: This handbook has been prepared as a procedural guide for the compliance
+    testing of net content statements on packaged goods. Compliance testing of packaged
+    goods is the determination of the conformance of the- results of the packaging,
+    distribution, and retailing process (the packages) to specific legal requirements
+    for net content declarations. This handbook has been developed primarily for the
+    use of government officials. However, it should also be useful to commercial and
+    industrial establishments in the areas of packaging, distribution, and sale of
+    commodities. In conducting compliance testing, the conversion of quantity values
+    from one measurement system to another (e.g., from the metric system to the avoirdupois
+    system) should be handled with careful regard to the implied correspondence between
+    the accuracy of the data and the number of digits displayed. In all conversions,
+    the number of significant digits retained should ensure that accuracy is neither
+    sacrificed nor exaggerated. For this 2020 edition of Handbook 133 all dimensions
+    for test procedures, devices, or environments have been rounded to two significant
+    digits (e.g., 2.5 cm to 1.0 in) or to a precision level applicable to the test
+    equipment (e.g., 200 kPa for 25 psi and 35 MPa for 5,000 psi).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 133-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

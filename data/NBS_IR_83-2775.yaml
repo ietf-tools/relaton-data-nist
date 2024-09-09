@@ -1,9 +1,26 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR83-2775
 title:
 - content: Conference on standards, measurements, quality control and production for
-    economic support and growth :a record of the U.S. papers to be presented at the
+    economic support and growth
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a record of the U.S. papers to be presented at the conference on standards,
+    measurements, quality control and production for economic support and growth to
+    be held in Cairo, Egypt. October 29-31, 1983
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Conference on standards, measurements, quality control and production for
+    economic support and growth - a record of the U.S. papers to be presented at the
     conference on standards, measurements, quality control and production for economic
     support and growth to be held in Cairo, Egypt. October 29-31, 1983
   language:
@@ -11,11 +28,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.83-2775
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir83-2775.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 83-2775
@@ -24,166 +40,103 @@ docid:
 - id: 10.6028/NBS.IR.83-2775
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ernest
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ambler
+      completename:
+        content: Ambler, Ernest,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004090908
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Goodemote
+      completename:
+        content: Goodemote, Richard.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Donaldson
+      completename:
+        content: Donaldson, John L. (John Laurence)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020067727
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ronk
+      completename:
+        content: Ronk, Richard M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82244437
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jack E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Snell
+      completename:
+        content: Snell, Jack E.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007150656
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S D
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: S D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rasberry
+      completename:
+        content: Rasberry, S. D. (Stanley D.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352117
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kurt F J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heinrich
+      completename:
+        content: Heinrich, Kurt F. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80013112
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 83-2775
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

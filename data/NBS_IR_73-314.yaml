@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR73-314
 title:
-- content: 'Study of measurements of antenna-radiometer parameters :final report on
-    phase I : evaluation of antenna loss and beam efficiency measurements and radiometer
+- content: Study of measurements of antenna-radiometer parameters
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'final report on phase I : evaluation of antenna loss and beam efficiency
+    measurements and radiometer calibrations for the S-193 and S-194 Skylab systems'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Study of measurements of antenna-radiometer parameters - final report
+    on phase I : evaluation of antenna loss and beam efficiency measurements and radiometer
     calibrations for the S-193 and S-194 Skylab systems'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.73-314
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir73-314.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 73-314
@@ -23,151 +37,70 @@ docid:
 - id: 10.6028/NBS.IR.73-314
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A C
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: A C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Newell
+      completename:
+        content: Newell, Albert C.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009038038
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P F
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: P F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wacker
+      completename:
+        content: Wacker, Paul F. (Paul Frederick)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008140329
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D F
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: D F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wait
+      completename:
+        content: Wait, D. F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021022659
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W C
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: W C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Daywitt
+      completename:
+        content: Daywitt, W. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 73-314
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

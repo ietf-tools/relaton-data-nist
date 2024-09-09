@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-32
 title:
 - content: Introduction to public key technology and the federal PKI infrastructure
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-32
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-32.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-32
@@ -21,134 +20,74 @@ docid:
 - id: 10.6028/NIST.SP.800-32
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D R
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: D R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: V
-          language:
-          - en
-          script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hu
+      completename:
+        content: Hu, V.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W T
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: W T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, W. T.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shu-Jen H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chang
+      completename:
+        content: Chang, Shu-Jen H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This publication was developed to assist agency decision-makers in determining
+    if a PKI is appropriate for their agency, and how PKI services can be deployed
+    most effectively within a Federal agency. It is intended to provide an overview
+    of PKI functions and their applications. Additional documentation will be required
+    to fully analyze the costs and benefits of PKI systems for agency use, and to
+    develop plans for their implementation. This document provides a starting point
+    and references to more comprehensive publications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-32
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

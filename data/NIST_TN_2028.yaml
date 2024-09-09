@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2028
 title:
 - content: Community risk ratings for the FireCARES system
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2028
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2028.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2028
@@ -21,50 +20,53 @@ docid:
 - id: 10.6028/NIST.TN.2028
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96024300
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: The FireCARES (Community Assessment Response Evaluation System) project
+    is a web-based tool intended to help fire departments effectively match resources
+    to community risk. Among other things, the analysis includes estimates of the
+    community risk and estimates of effectiveness of response. This report documents
+    the estimation of the community risk for fires, fire injuries, fire deaths, and
+    emergency medical services calls. The community risk for fires is broken out by
+    low- medium- and high-hazard properties as defined in NFPA Standard 1710.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2028'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8165
 title:
 - content: Impact of code complexity on software analysis
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8165
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8165.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8165
@@ -21,84 +20,73 @@ docid:
 - id: 10.6028/NIST.IR.8165
   type: DOI
 date:
-- type: published
-  value: 2017-02
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles D
-          script:
-          - Latn
-      surname:
-        content: De Oliveira
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: De Oliveira, Charles D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth N
-          script:
-          - Latn
-      surname:
-        content: Fong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fong, Elizabeth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50023905
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Black
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-02
-script:
-- Latn
+abstract:
+- content: The Software Assurance Metrics and Tool Evaluation (SAMATE) team evaluated
+    approximately 800 000 warnings from static analyzers.We learned that elements
+    that we call code complexities make the detection of warnings more difficult.
+    Most tools cannot not distinguish between the absence of a weakness and the presence
+    of a weakness. That has been obscured in the code. This paper presents classes
+    of code complexities. Understanding code complexity can assist in the development
+    of coding guidelines for assuring that software is fully analyzable by static
+    analyzers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8165'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

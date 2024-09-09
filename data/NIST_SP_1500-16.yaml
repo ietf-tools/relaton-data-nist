@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-16
 title:
-- content: Improving veteran transitions to civilian cybersecurity roles:workshop
+- content: Improving veteran transitions to civilian cybersecurity roles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: workshop report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Improving veteran transitions to civilian cybersecurity roles - workshop
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-16
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-16.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-16
@@ -22,50 +35,57 @@ docid:
 - id: 10.6028/NIST.SP.1500-16
   type: DOI
 date:
-- type: published
-  value: 2020-08
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marian
-          script:
-          - Latn
-      surname:
-        content: Merritt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Merritt, Marian.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-08
-script:
-- Latn
+abstract:
+- content: The shortage of cybersecurity professionals is a significant risk to The
+    United States of America's overall national security and economic prosperity.
+    The U.S. branches of the military provide training and education in cybersecurity,
+    and some transitioning military are well versed in risk management and may possess
+    highly sought-after security clearances obtained while in the service. These trained,
+    experienced, and often, able-to-be-cleared individuals should be viewed as highly
+    desirable members of the civilian cybersecurity workforce. Yet, for some transitioning
+    military it is challenging to determine how to translate military experience to
+    civilian cybersecurity work roles and to find employers who have jobs that leverage
+    their military experience. A workshop was held on March 21, 2017, attended by
+    a small group of interested participants from the federal government, non-profit
+    organizations, academia, and industry, as well as several members of the military,
+    to share information and ideas about how the environment might be improved before,
+    during, and after transition programs. Recommendations from the workshop discussion
+    included concrete suggestions both for the military and for the private sector
+    to do more to streamline a warfighter's experience from before entering the service
+    all the way through to transitioning to a new civilian cybersecurity career.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-16
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

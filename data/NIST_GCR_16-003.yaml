@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-003
 title:
-- content: Validation for Downstream Computer Aided Manufacturing and Coordinate Metrology
-    Processes
+- content: Validation for downstream computer aided manufacturing and coordinate metrology
+    processes
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-003
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-003.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-003
@@ -22,84 +21,51 @@ docid:
 - id: 10.6028/NIST.GCR.16-003
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Asa
-          script:
-          - Latn
-      surname:
-        content: Trainer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Barnard Feeney, Allison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022002972
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Thomas D
-          script:
-          - Latn
-      surname:
-        content: Hedberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg, Thomas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022027368
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-003
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1871
 title:
-- content: 'xothermic Reaction of Halogenated Hydrocarbons: WORKSHOP PROCEEDINGS'
+- content: Workshop on the research needs concerning the exothermic reaction of halogenated
+    hydrocarbons
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1871
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1871.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1871
@@ -21,73 +21,64 @@ docid:
 - id: 10.6028/NIST.TN.1871
   type: DOI
 date:
-- type: published
-  value: 2015-03
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory T
-          script:
-          - Latn
-      surname:
-        content: Linteris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Linteris, Gregory.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey A
-          script:
-          - Latn
-      surname:
-        content: Manion
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Manion, Jeffrey,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022052750
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Materials Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-03
-script:
-- Latn
+abstract:
+- content: A workshop was held at NIST Gaithersburg on October 27 and 28, 2014 to
+    discuss the exothermic reaction of halogenated hydrocarbons. The industries that
+    gathered to discuss the topic were the fire suppression, fire suppression in aircraft,
+    and Heating, Ventilating, Air Conditioning, and Refrigeration industries. In the
+    former, the compounds of interest are used as fire suppressants, and in the latter,
+    as working fluids for vapor compression heating/cooling equipment. The purpose
+    of the workshop was to identify the important parameters controlling the flammability
+    of the compounds, and identify research needs for overcoming the obstacles to
+    their safe and effective use.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1871'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

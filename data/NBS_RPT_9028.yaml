@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9028
 title:
 - content: Preliminary report on the thermodynamic properties of selected light-element
-    and some related compounds:supplement to NBS reports 6297, 6484, 6645, 6928, 7093,
-    7192, 7437, 7587, 7796, 8033, 8186, 8504, 8628, and 8919
+    and some related compounds
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: supplement to NBS reports 6297, 6484, 6645, 6928, 7093, 7192, 7437, 7587,
+    7796, 8033, 8186, 8504, 8628, and 8919
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Preliminary report on the thermodynamic properties of selected light-element
+    and some related compounds - supplement to NBS reports 6297, 6484, 6645, 6928,
+    7093, 7192, 7437, 7587, 7796, 8033, 8186, 8504, 8628, and 8919
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9028
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9028.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9028
@@ -23,33 +38,25 @@ docid:
 - id: 10.6028/NBS.RPT.9028
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1966'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1966'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9028'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

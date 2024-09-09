@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC576
 title:
-- content: Circular of the Bureau of Standards no. 576:automotive antifreezes
+- content: Circular of the Bureau of Standards no. 576
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: automotive antifreezes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 576 - automotive antifreezes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.576
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular576.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 576
@@ -21,59 +34,53 @@ docid:
 - id: 10.6028/NBS.CIRC.576
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frank L
-          script:
-          - Latn
-      surname:
-        content: Howard
-        script:
-        - Latn
+      completename:
+        content: Howard, Frank L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald E
-          script:
-          - Latn
-      surname:
-        content: Streets
-        script:
-        - Latn
+      completename:
+        content: Streets, Ronald E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1956'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '576'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

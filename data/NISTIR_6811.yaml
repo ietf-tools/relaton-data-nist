@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6811
 title:
 - content: A methodology for compensating errors detected by process-intermittent
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6811
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6811.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6811
@@ -22,137 +21,107 @@ docid:
 - id: 10.6028/NIST.IR.6811
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Herbert T
-          script:
-          - Latn
-      surname:
-        content: Brandy
-        script:
-        - Latn
+      completename:
+        content: Brandy, Herbert T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M Alkan
-          script:
-          - Latn
-      surname:
-        content: Donmez
-        script:
-        - Latn
+      completename:
+        content: Donmez, M. Alkan,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003051247
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David E
-          script:
-          - Latn
-      surname:
-        content: Gilsinn
-        script:
-        - Latn
+      completename:
+        content: Gilsinn, David,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79041171
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chin San
-          script:
-          - Latn
-      surname:
-        content: Han
-        script:
-        - Latn
+      completename:
+        content: Han, Chin San.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael D
-          script:
-          - Latn
-      surname:
-        content: Kennedy
-        script:
-        - Latn
+      completename:
+        content: Kennedy, Michael D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89671016
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alice V
-          script:
-          - Latn
-      surname:
-        content: Ling
-        script:
-        - Latn
+      completename:
+        content: Ling, Alice V. (Alice Valeria)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003115013
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neil D
-          script:
-          - Latn
-      surname:
-        content: Wilkin
-        script:
-        - Latn
+      completename:
+        content: Wilkin, Neil D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth W
-          script:
-          - Latn
-      surname:
-        content: Yee
-        script:
-        - Latn
+      completename:
+        content: Yee, Kenneth W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016058
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6811'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

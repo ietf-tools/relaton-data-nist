@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6940
 title:
 - content: National calibration facility for retroreflective traffic control materials
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6940
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6940.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6940
@@ -22,72 +21,61 @@ docid:
 - id: 10.6028/NIST.IR.6940
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C Cameron
-          script:
-          - Latn
-      surname:
-        content: Miller
-        script:
-        - Latn
+      completename:
+        content: Miller, C. Cameron.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003063921
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Todd
-          script:
-          - Latn
-      surname:
-        content: Heimer
-        script:
-        - Latn
+      completename:
+        content: Heimer, Todd.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003071572
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Early
-        script:
-        - Latn
+      completename:
+        content: Early, Edward.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94051231
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6940'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

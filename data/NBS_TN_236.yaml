@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN236
 title:
 - content: Research on crystal growth and characterization at the National Bureau
-    of Standards :July to December 1963
+    of Standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: July to December 1963
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Research on crystal growth and characterization at the National Bureau
+    of Standards - July to December 1963
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.236
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote236.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 236
@@ -22,52 +36,40 @@ docid:
 - id: 10.6028/NBS.TN.236
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1964'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H Steffen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peiser
+      completename:
+        content: Peiser, H. Steffen (Herbert Steffen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81127604
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1964'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '236'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

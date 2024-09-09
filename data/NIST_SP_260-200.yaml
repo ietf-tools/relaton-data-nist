@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-200
 title:
 - content: Certification of Standard Reference Material 2859 and Standard Reference
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-200
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-200.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-200
@@ -22,118 +21,96 @@ docid:
 - id: 10.6028/NIST.SP.260-200
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John R
-          script:
-          - Latn
-      surname:
-        content: Sieber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sieber, John R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Molloy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Molloy, John L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Caroline E
-          script:
-          - Latn
-      surname:
-        content: Bibb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bibb, Caroline E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew W
-          script:
-          - Latn
-      surname:
-        content: Boyce
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Boyce, Matthew W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology has issued its first
+    Standard Reference Materials for elemental analysis of polyvinyl chloride (PVC).
+    The custom designed PVC blends contain elements regulated in consumer products
+    by the United States, the European Union, and other governments worldwide. The
+    regulated elements are antimony, arsenic, barium, bromine, cadmium, chromium,
+    lead, mercury, and selenium. Also, present in the PVC blend are elements from
+    performance additives: calcium, sulfur, and tin; and from contaminants: copper,
+    and iron. The development and certification project was designed and coordinated
+    by NIST with technical assistance from the U.S. Consumer Product Safety Commission,
+    Underwriters'' Laboratories and the University of Washington Physics Department.
+    This report describes how the PVC blends were designed, manufactured, packaged,
+    analyzed, and value-assigned. Users will find descriptions of material heterogeneity
+    testing and information from several test methods used for quantitative analyses
+    of the PVC blends. The SRMs are available for purchase with one unit consisting
+    of a single bottle containing 25 g of extruded pellets. In addition to describing
+    the development of these SRMs, this report describes a process for creating calibrations
+    for X-ray fluorescence spectrometry with mass fraction values traceable to the
+    International System of Units using NIST SRM 3100 series, single element, spectrometric
+    solutions. After the issuance of the SRMs, they were analyzed to obtain the mass
+    fraction values for hexavalent chromium using a new, high-resolution X-ray emission
+    method. The new method is described briefly with reference given to a detailed
+    journal publication.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-200
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

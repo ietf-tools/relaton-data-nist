@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8288
 title:
 - content: Voices of first responders-nationwide public safety communication survey
-    methodology:development, dissemination, and demographics phase 2, volume 1
+    methodology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: development, dissemination, and demographics phase 2, volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Voices of first responders-nationwide public safety communication survey
+    methodology - development, dissemination, and demographics phase 2, volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8288
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8288.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8288
@@ -22,188 +36,153 @@ docid:
 - id: 10.6028/NIST.IR.8288
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen K
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085049
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shanee
-          script:
-          - Latn
-      surname:
-        content: Dawkins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dawkins, Shanee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra Spickard
-          script:
-          - Latn
-      surname:
-        content: Prettyman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Prettyman, Sandra Spickard,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005072199
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pamela
-          script:
-          - Latn
-      surname:
-        content: Konkol
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Konkol, Pamela.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015009620
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary F
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Theofanos, Mary F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085028
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Mangold
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Mangold, Kevin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151052
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susanne
-          script:
-          - Latn
-      surname:
-        content: Furman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Furman, Susanne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Choong, Yee-Yin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012016196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle P
-          script:
-          - Latn
-      surname:
-        content: Steves
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Steves, Michelle P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085981
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-edition:
-  content: '2.1'
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: With the newly created Nationwide Public Safety Broadband Network (NPSBN),
+    the public safety community is in the process of supplementing the use of land
+    mobile radios (LMR) to a technology ecosystem that will include a variety of new
+    communication tools, including a range of broadband data sharing platforms. It
+    is imperative to have a clear understanding of first responder needs, requirements,
+    and contexts of use in order for successful deployment and adoption of new communication
+    technology. This report is part of a multi-phase mixed methods project that is
+    designed to provide an in-depth look at the population of first responders, along
+    with their work environments, their tasks, and their communication needs, with
+    particular focus on their technology problems. In the current project phase, a
+    large-scale, online nationwide survey of first responders in 911/Dispatch, Emergency
+    Medical Services (EMS), Fire Service, and Law Enforcement was conducted. This
+    report details the survey methodology, including survey development and dissemination,
+    and summarizes nationwide participant demographics. A total of 7 182 completed
+    survey responses were received, with responses from all 50 states and the District
+    of Columbia (D.C.). The survey sampling priorities were mirrored in the data,
+    with good representation from the four public safety disciplines surveyed (911/Dispatch,
+    EMS, Fire Service, and Law Enforcement), and a good mixture of responses from
+    urban, suburban, and rural areas. Other demographic variables of interest,such
+    as jurisdictional level, years of service, and age,also showed good variability,
+    mapping well to national numbers. Such a largescale survey, with over 7 000 completed
+    responses across the United States, represents a dataset of great relevance for
+    the public safety community. This multi-phase, mixed methods project provides
+    direct input from first responders about the communication technology used and
+    needed by first responders.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8288'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO148
 title:
 - content: The Role of standard reference materials in measurement systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.148
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph148.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 148
@@ -21,238 +20,91 @@ docid:
 - id: 10.6028/NBS.MONO.148
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1975'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J P
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: J P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cali
+      completename:
+        content: Cali, J. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T W
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: T W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mears
+      completename:
+        content: Mears, T. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R E
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: R E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Michaelis
+      completename:
+        content: Michaelis, R. E. (Robert Ernest),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88677045
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W P
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: W P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reed
+      completename:
+        content: Reed, W. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R W
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: R W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Seward
+      completename:
+        content: Seward, Richard W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82054812
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C L
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: C L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stanley
+      completename:
+        content: Stanley, C. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H T
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: H T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yolken
+      completename:
+        content: Yolken, H. T.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1975'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '148'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

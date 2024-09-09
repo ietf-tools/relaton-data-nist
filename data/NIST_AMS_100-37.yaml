@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-37
 title:
-- content: 'Annual Report on U.S. Manufacturing Industry Statistics: 2020'
+- content: Annual report on U.S. manufacturing industry statistics
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: '2020'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Annual report on U.S. manufacturing industry statistics - 2020
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-37
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-37.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-37
@@ -21,50 +34,34 @@ docid:
 - id: 10.6028/NIST.AMS.100-37
   type: DOI
 date:
-- type: published
-  value: '2020-10-28'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S.
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-10-28'
-script:
-- Latn
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-37
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

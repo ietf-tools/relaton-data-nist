@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8211-upd
 title:
 - content: New software for the statistical analysis and qualification of NIST Charpy
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8211-upd
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8211-upd.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8211-upd
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.IR.8211-upd
   type: DOI
 date:
-- type: published
-  value: '2021-12-06'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-12-06'
-script:
-- Latn
 abstract:
 - content: New software, in the form of Microsoft Excel 2016 spreadsheets, has been
     created for the analysis and qualification of Charpy Verification Lots, to be
@@ -68,27 +51,34 @@ abstract:
     validated against calculations performed on several lots by means of the previously
     used R-language codes, which had been prepared by Jolene Splett of the Statistical
     Engineering Division of NIST.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     id: NISTIR8211
     docid:
     - id: NIST IR 8211
       type: NIST
-      primary: true
     formattedref:
       content: NIST IR 8211
       format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8211-upd
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

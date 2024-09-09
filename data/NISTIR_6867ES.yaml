@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6867es
 title:
-- content: Manual de evaluación sísmica y de huracanes de edificios existentes de
-    hormigón para la República Dominicana
+- content: Manual de evaluación sísmica y de huracanes de edificios existentes de
+    hormigón para la República Dominicana
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6867es
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6867es.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6867es
@@ -22,93 +21,72 @@ docid:
 - id: 10.6028/NIST.IR.6867es
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H S
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: H S
-          script:
-          - Latn
-      surname:
-        content: Lew
-        script:
-        - Latn
+      completename:
+        content: Lew, H. S. (Hai Sang)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50049233
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emil
-          script:
-          - Latn
-      surname:
-        content: Simiu
-        script:
-        - Latn
+      completename:
+        content: Simiu, Emil.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79085114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Gross
-        script:
-        - Latn
+      completename:
+        content: Gross, John L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85099473
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Monica A
-          script:
-          - Latn
-      surname:
-        content: Starnes
-        script:
-        - Latn
+      completename:
+        content: Starnes, Monica A. (Monica Anastasia)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008150910
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 6867es
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8070
 title:
-- content: Greenhouse Gas Emissions and Dispersion 4. Quality control process of in-situ
-    INFLUX tower-based observation data
+- content: Greenhouse gas emissions and dispersion
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 4. quality control process of in-situ INFLUX tower-based observational
+    data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Greenhouse gas emissions and dispersion - 4. quality control process of
+    in-situ INFLUX tower-based observational data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8070
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8070.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8070
@@ -22,133 +36,102 @@ docid:
 - id: 10.6028/NIST.IR.8070
   type: DOI
 date:
-- type: published
-  value: 2015-09
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kuldeep R.
-          script:
-          - Latn
-      surname:
-        content: Prasad
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Engineering Laboratory
-    - organization:
-        name:
-        - content: NIST Office of Special Programs
+      completename:
+        content: Hu, Heming.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022030666
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Heming
-          script:
-          - Latn
-      surname:
-        content: Hu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Engineering Laboratory
-    - organization:
-        name:
-        - content: NIST Office of Special Programs
+      completename:
+        content: Prasad, Kuldeep.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Israel
-          script:
-          - Latn
-      surname:
-        content: Lopez Coto
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Engineering Laboratory
-    - organization:
-        name:
-        - content: NIST Office of Special Programs
+      completename:
+        content: Lopez-Coto, Israel.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022049578
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Subhomoy
-          script:
-          - Latn
-      surname:
-        content: Ghosh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Engineering Laboratory
-    - organization:
-        name:
-        - content: NIST Office of Special Programs
+      completename:
+        content: Ghosh, Subhomoy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Whetstone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: NIST Engineering Laboratory
-    - organization:
-        name:
-        - content: NIST Office of Special Programs
+      completename:
+        content: Whetstone, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021060616
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-09
-script:
-- Latn
+abstract:
+- content: 'The Indianapolis Flux Experiment (INFLUX) was designed to develop top-down
+    methods for measurement and modeling of urban fluxes of greenhouse gases (GHG)
+    to the atmosphere with spatial and temporal scale of one km. and one hour respectively.
+    A small bias in the observation data relative to the background can introduce
+    significantly large bias in the computed fluxes if it is relatively high to the
+    emission enhancement. Hence, it is important to maintain accuracy of in situ GHG
+    data for unbiased estimation of urban fluxes. Accuracy of GHG observation data
+    can be influenced by quality control (QC) process used for error detection, instrument
+    calibration and error correction. Currently different organizations employ different
+    QC processes on the same raw data resulting in significantly different QC ed data.
+    This report introduces a standardized approach integrating all present techniques.
+    It consists of four major sequential steps: data screening, gas source based data
+    separation, calibration and time-lag correction, and data averaging. QC ed data
+    for a set of twelve towers are compared with that from other organization for
+    a period of two months. The influences of different methodologies in the QC process
+    were analyzed, and the important parameters were optimized to reconcile the differences.
+    Finally, recommendations in different phases of QC process are presented to provide
+    guidelines for tower observation.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8070'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

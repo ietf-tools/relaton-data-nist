@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-79-1
 title:
-- content: Guidelines for the Authorization of Personal Identity Verification Card
-    Issuers (PCI) and Derived PIV Credential Issuers (DPCI)
+- content: Guidelines for the accreditation of personal identity verification card
+    issuers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-79-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-79-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-79-1
@@ -22,101 +21,89 @@ docid:
 - id: 10.6028/NIST.SP.800-79-1
   type: DOI
 date:
-- type: published
-  value: 2008-06
+- type: issued
+  value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Candramauḷi, Ār.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015202084
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Bailey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bailey, D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89639822
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nabil
-          script:
-          - Latn
-      surname:
-        content: Ghadiali
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ghadiali, N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Branstad
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Branstad, D. K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2008-06
-script:
-- Latn
+abstract:
+- content: The purpose of this publication is to provide appropriate and useful guidelines
+    for accrediting the reliability of issuers of Personal Identity Verification cards
+    that are established to collect, store, and disseminate personal identity credentials
+    and issue smart cards, based on the standards published in response to Homeland
+    Security Presidential Directive 12 (HSPD-12). These issuers, who are the target
+    of assessment and accreditation, are called Personal Identity Verification Card
+    Issuers or PCIs. The reliability of PCIs is of utmost importance when one organization
+    (e.g., a Federal agency or Federal contractor) is required to trust the identity
+    credentials and cards of individuals that were created and issued, respectively,
+    by another organization. This trust will only exist if organizations relying on
+    the credentials and cards issued by a given organization have the necessary level
+    of assurance that the reliability of the issuing organization has been established
+    through a formal accreditation process. This publication provides an assessment
+    and accreditation methodology for verifying that issuers of PIV credentials and
+    cards are reliably adhering to standards and implementation directives developed
+    under HSPD-12.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-79-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

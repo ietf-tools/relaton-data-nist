@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2250
 title:
-- content: 'Statistical Studies of Standard Error of the Weight of Evidence: Theoretical
-    Framework'
+- content: A way of estimating the standard errors of Bayes factor and Weight of Evidence
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a case study (theoretical framework)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A way of estimating the standard errors of Bayes factor and Weight of Evidence
+    - a case study (theoretical framework)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2250
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2250.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2250
@@ -22,46 +35,72 @@ docid:
 - id: 10.6028/NIST.TN.2250
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wu, Jin Chu.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6340-2467"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Libert, John M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0796-6871"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: 'The Weight of Evidence (WoE) is defined to be the logarithm of the Bayes
+    factor (BF) with base 10, which is generally with single point hypothesis rather
+    than diffuse hypothesis. They are used in applications such as forensic science,
+    etc. To statistically estimate the standard error (SE) and the 95% confidence
+    interval of BF and WoE, both parametric and nonparametric two-sample bootstrap
+    algorithms are employed, respectively. Then, three challenging issues arise: 1.
+    how to generate observed binomial variates; 2. how many variates are needed; 3.
+    how to implement bootstrap algorithms. The observed binomial variates can be generated
+    using either the stochastic function-call method (i.e., call rbinom in R Package)
+    or the deterministic partition method via the expected binomial densities (i.e.,
+    call dbinom in R Package). To ensure the computational accuracies, the total number
+    of observed binomial variates is determined by the root-mean-square deviation
+    between the observed and expected binomial distributions, as well as the bootstrap
+    variability caused by sampling. Thereafter, the parametric two-sample bootstrap
+    algorithm is implemented on observed binomial variates generated using the stochastic
+    function-call method, whereas the nonparametric two-sample bootstrap algorithm
+    is carried out on observed binomial variates created using the deterministic partition
+    method. In this article, a case study is carried out.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2250'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

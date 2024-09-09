@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8196
 title:
 - content: Report on international travel to Latin America to discuss, promote, assist,
-    and participate in the development of Pan-American standards for textiles:August
+    and participate in the development of Pan-American standards for textiles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: August 21 - October 5, 1963
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on international travel to Latin America to discuss, promote, assist,
+    and participate in the development of Pan-American standards for textiles - August
     21 - October 5, 1963
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8196
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8196.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8196
@@ -23,46 +37,33 @@ docid:
 - id: 10.6028/NBS.RPT.8196
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1964'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Josephine M
-          script:
-          - Latn
-      surname:
-        content: Blandford
-        script:
-        - Latn
+      completename:
+        content: Blandford, Josephine M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1964'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8196'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

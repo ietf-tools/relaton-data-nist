@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8160
 title:
 - content: Influence of fire on the lateral load capacity of steel-sheathed cold-formed
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8160
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8160.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8160
@@ -22,67 +21,48 @@ docid:
 - id: 10.6028/NIST.IR.8160
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
-- person:
-    name:
-      given:
-        forename:
-        - content: Matthew S
-          script:
-          - Latn
-      surname:
-        content: Hoehler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Christopher M
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: A series of fourteen experiments on six 9 ft. 12 ft. (2.7 m 3.7 m) shear
+    wall specimens consisting of cold-formed steel framing sheathed on one side with
+    light-gauge steel adhered to gypsum board and on the opposite side with plain
+    gypsum board were conducted at the National Fire Research Laboratory at the National
+    Institute of Standards and Technology. The specimens were subjected to varying
+    sequences of simulated seismic shear deformation and fire loading to study the
+    influence of structure-fire interactions on the lateral load capacity of the walls.
+    The test program was designed to complement a parallel test series to investigate
+    a full-scale six-story building subjected to earthquakes and fires. The test results
+    showed that the fire loading caused a shift in the failure mode of the walls from
+    local to global bucking of the sheet metal with an accompanying 35 % reduction
+    of load capacity.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8160'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP460
 title:
 - content: Use of Monte Carlo calculations in electron probe microanalysis and scanning
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.460
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication460.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 460
@@ -22,86 +21,62 @@ docid:
 - id: 10.6028/NBS.SP.460
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kurt F J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heinrich
+      completename:
+        content: Heinrich, Kurt F. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80013112
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dale E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Newbury
+      completename:
+        content: Newbury, Dale E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85205642
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harvey
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yakowitz
+      completename:
+        content: Yakowitz, Harvey,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50013969
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '460'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

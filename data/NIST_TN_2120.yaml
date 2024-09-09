@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2120
 title:
-- content: 'Gas vs Electric: Sustainability Performance of Heating Fuel Options in
-    the NIST NZERTF'
+- content: Gas vs electric
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: sustainability performance of heating fuel options in the NIST NZERTF
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Gas vs electric - sustainability performance of heating fuel options in
+    the NIST NZERTF
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2120
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2120.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2120
@@ -22,67 +35,76 @@ docid:
 - id: 10.6028/NIST.TN.2120
   type: DOI
 date:
-- type: published
-  value: '2020-09-28'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-09-28'
-script:
-- Latn
+abstract:
+- content: Updates to the underlying cost and environmental data have recently been
+    implemented in the BIRDS database. This study evaluates the updated results for
+    validation, as well as determines the potential changes in the results relative
+    to those found in O'Rear, Webb, Kneifel and O'Fallon (1). The updates are found
+    to have a minor impact on the total LCC and the LCA results, but there is a shift
+    in some energy efficiency measures (EEMs) in optimal designs. The continued reduction
+    in solar photovoltaic (PV) installation costs leads to larger system sizes being
+    utilized in life-cycle cost (LCC) designs, while including few additional EEMs.
+    Reducing the efficiency of some building components is possible and still reaching
+    net-zero energy performance. As in the previous study, net-zero energy performance
+    is reached at the lowest LCC using an all-electric design. The incremental increase
+    in initial construction costs relative to the code-compliant design in Maryland
+    is $28222, which has continued a trend in decreasing premium for net-zero energy
+    performance. Over the 30-year study period, NZLCC-E saves the homeowner $34063.
+    Although the homeowner could save more designing to meet the lowest LCC design
+    using natural gas heating (LCC-NG), the additional savings is only $527 while
+    still consuming about 50 % of the baseline building design s total energy. The
+    concept of low-energy buildings must be reconsidered to determine whether new
+    targets should be set, such as a combination of total consumption and net consumption
+    or net-zero goals that include embodied energy. These results are limited in their
+    generalization because they are based on a case study using validated simulation
+    models of the NIST Net-Zero Energy Residential Test Facility (NZERTF). The findings
+    should not be extrapolated to buildings with different climates, energy costs,
+    building codes, or occupancies. The assumptions on the economic analysis are also
+    important factors to consider when using the results and implications in this
+    study for decision making. The baseline building designs in this study are based
+    on 2015 IECC. Maryland has since adopted 2018 IECC, which would influence the
+    relative differences between the optimal designs and the baseline.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2120'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

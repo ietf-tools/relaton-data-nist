@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR18-015
 title:
-- content: Extending and Evaluating the Model-based Product Definition
+- content: Extending and evaluating the model-based product definition
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.18-015
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2018/NIST.GCR.18-015.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 18-015
@@ -21,67 +20,69 @@ docid:
 - id: 10.6028/NIST.GCR.18-015
   type: DOI
 date:
-- type: published
-  value: '2017-12-22'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nathan W.
-          script:
-          - Latn
-      surname:
-        content: Hartman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hartman, Nathan W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2009073729
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jesse
-          script:
-          - Latn
-      surname:
-        content: Zahner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zahner, Jesse.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-12-22'
-script:
-- Latn
+abstract:
+- content: Industrial practice is in a state of transition, away from the use of drawings
+    towards the use of annotated 3D CAD models as a means of communication. Working
+    as a representation of an object or a system, a model-based product definition
+    (MBD) is used to communicate information inside of a model-based enterprise (MBE).
+    Such an enterprise will find itself in a transitional state as well, moving away
+    from paper-based information sharing towards the use of model-based, digital product
+    data. This research investigation sought to identify the minimum information model
+    (MIM) -- the information elements necessary within an MBD to effectively employ
+    a model as a replacement for a technical drawing in specific workflows in the
+    product lifecycle. Over the course of this investigation, another phenomenon emerged
+    -- the common information model (CIM), which represents those information items
+    that are necessary for the workflows targeted in this study. As expounded upon
+    later in this report, the impacts of contextual domain knowledge on the implementation
+    of the common information model is what formed the minimum information model discovered
+    in this project.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 18-015
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

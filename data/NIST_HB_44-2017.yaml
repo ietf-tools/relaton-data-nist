@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB44-2017
 title:
 - content: Specifications, tolerances, and other technical requirements for weighing
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.44-2017
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.44-2017.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 44-2017
@@ -22,84 +21,72 @@ docid:
 - id: 10.6028/NIST.HB.44-2017
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Tina G
-          script:
-          - Latn
-      surname:
-        content: Butcher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Butcher, Tina G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Linda D
-          script:
-          - Latn
-      surname:
-        content: Crown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Crown, Linda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006134842
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          script:
-          - Latn
-      surname:
-        content: Harshman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Harshman, Richard A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88614828
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: Handbook 44 was first printed in 1949, having been preceded by similar
+    handbooks of various designations and in several forms. This 2016 edition was
+    developed by the Committee on Specifications and Tolerances of the National Conference
+    on Weights and Measures (NCWM) with the assistance of the Office of Weights and
+    Measures of the National Institute of Standards and Technology (NIST). The handbook
+    includes amendments adopted by the 100th Annual Meeting of the NCWM in 2015. NIST
+    Handbook 44 is published in its entirety each year following the NCWM Annual Meeting.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 44-2017
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

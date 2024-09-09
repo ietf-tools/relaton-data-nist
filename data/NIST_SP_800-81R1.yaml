@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-81r1
 title:
 - content: Secure Domain Name System (DNS) deployment guide
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-81r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-81r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-81r1
@@ -21,96 +20,72 @@ docid:
 - id: 10.6028/NIST.SP.800-81r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
+      completename:
+        content: Candramauḷi, Ār.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015202084
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S W
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: S W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rose
+      completename:
+        content: Rose, S. W.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document provides deployment guidelines for securing the Domain Name
+    System (DNS) in any enterprise a government agency or a corporate entity. The
+    deployment guidelines follow from an analysis of security objectives and consequent
+    protection approaches for all DNS components. This document was originally published
+    in May 2006. Since then the following IETF RFCs , FIPS and NIST Cryptographic
+    guidance documents have been published and this revision takes into account the
+    specifications and recommendations found in those documents - DNNSEC Operational
+    Practices (RFC 4641), Automated Updates for DNS Security (DNSSEC) Trust Anchors
+    (RFC 5011), DNS Security (DNSSEC)Hashed Authenticated Denial of Existence (RFC
+    5155), HMAC SHA TSIG Algorithm Identifiers (RFC 4635), The Keyed-Hash Message
+    Authentication Code (HMAC) (FIPS 198-1), Digital Signature Standard (FIPS 186-3)
+    and Recommendations for Key Management (SP 800-57P1 & SP 800-57P3). In addition
+    this revision provides illustrations of Secure configuration examples using DNS
+    Software offering NSD, in addition to BIND, guidelines on Procedures for migrating
+    to a new Cryptographic Algorithm for signing of the Zone (Section 11.5), guidelines
+    for Procedures for migrating to NSEC3 specifications from NSEC for providing authenticated
+    denial of existence (Section 11.6) and deployment guidelines for Split-Zone under
+    different scenarios (Section 11.7).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-81r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

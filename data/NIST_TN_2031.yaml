@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2031
 title:
 - content: Temperature field measurements using thin filament pyrometry in a medium-scale
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2031
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2031.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2031
@@ -22,101 +21,94 @@ docid:
 - id: 10.6028/NIST.TN.2031
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Zhigang
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wang, Zhigang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84226449
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wai Cheong
-          script:
-          - Latn
-      surname:
-        content: Tam
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Tam, Wai Cheong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ki Yong
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lee, Ki Yong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: Measurements were made to characterize the time-varying temperature field
+    in a medium-sized methyl alcohol (methanol; CH3OH) pool fire steadily burning
+    in a quiescent environment. A digital camera fitted with optical filters and a
+    zoom lens was used to record the high temperature emission intensity of 14 ℗ÿm
+    diameter Type S Silicon-Carbide filaments oriented horizontally at various heights
+    above a central cross-section of a steadily burning 0.30 m diameter methanol pool
+    fire. The camera optics focused on the filaments with a field of view of approximately
+    0.3 m wide by 0.6 m high. Using the optical camera, the filament was observable
+    only for temperatures larger than 1150 K. Experiments were conducted to collect
+    thousands of frames of 30 Hz video. In a separate experiment, a 50 ℗ÿm diameter
+    thermocouple was used to acquire 3400 independent temperature measurements at
+    several locations in the high temperature zone of the fire. A correlation was
+    developed between the probability density functions of the radiation-corrected
+    thermocouple measurements and the camera grayscale pixel intensity of the filament
+    for the same fire locations. Assuming a Gaussian temperature distribution, a fitting
+    routine was used to determine the mean temperature and its variance from the calculated
+    filament temperature. The mean temperatures compared favorably to previously reported
+    measurements. False color maps of temperature were produced characterizing the
+    entire high temperature flow field as a function of time. The time-averaged temperature
+    field for each phase of the pulsing methanol fire was also determined. The results
+    provide insight into the dynamic character of turbulent pool fires.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2031'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

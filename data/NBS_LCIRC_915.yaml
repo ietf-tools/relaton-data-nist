@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC915
 title:
-- content: Letter Circular 915:painting exterior walls of porous masonry (superseding
+- content: Letter Circular 915
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: painting exterior walls of porous masonry (superseding Letter Circular
+    747)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 915 - painting exterior walls of porous masonry (superseding
     Letter Circular 747)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.915
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular915.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 915
@@ -22,46 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.915
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1948'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Clara
-          script:
-          - Latn
-      surname:
-        content: Sentel
-        script:
-        - Latn
+      completename:
+        content: '"Sentel, Clara."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1948'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '915'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

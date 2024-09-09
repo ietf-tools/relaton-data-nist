@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTEAB5
 title:
-- content: The Economic Impact of Technology Infrastructure for Advanced Roll-to-Roll
-    Manufacturing
+- content: The economic impact of technology infrastructure for advanced roll-to-roll
+    manufacturing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.EAB.5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/eab/NIST.EAB.5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST EAB 5
@@ -22,50 +21,39 @@ docid:
 - id: 10.6028/NIST.EAB.5
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gary W.
-          script:
-          - Latn
-      surname:
-        content: Anderson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Technology Partnerships Office
+      completename:
+        content: Anderson, Gary.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82002024
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: NIST Center for Neutron Research.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026531
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
 series:
 - title:
-    content: NIST Economic Analysis Briefs
+    content: NIST economic analysis brief; NIST EAB
     format: text/plain
-  abbreviation:
-    content: EAB
   number: '5'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

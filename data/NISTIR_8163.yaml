@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8163
 title:
 - content: 'Dietary supplement laboratory quality assurance program: exercise G final
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8163
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8163.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8163
@@ -22,84 +21,71 @@ docid:
 - id: 10.6028/NIST.IR.8163
   type: DOI
 date:
-- type: published
-  value: 2017-01
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa M
-          script:
-          - Latn
-      surname:
-        content: Phillips
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Phillips, Melissa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine A
-          script:
-          - Latn
-      surname:
-        content: Rimmer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Rimmer, Catherine A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Laura J
-          script:
-          - Latn
-      surname:
-        content: Wood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Wood, Laura J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022054622
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2017-01
-script:
-- Latn
+abstract:
+- content: The NIST Dietary Supplement Laboratory Quality Assurance Program (DSQAP)
+    was established in collaboration with the National Institutes of Health (NIH)
+    Office of Dietary Supplements (ODS) in 2007 to enable members of the dietary supplements
+    community to improve the accuracy of measurements made in compliance with various
+    regulations including the dietary supplement current good manufacturing practices
+    (cGMPs). Exercise G of this program offered the opportunity for laboratories to
+    assess their in-house measurements of nutritional elements (Na), contaminants
+    (Pb), water-soluble vitamins (folic acid), fat-soluble vitamins (beta-carotene),
+    and anthocyanins in foods and/or botanical dietary supplement ingredients and
+    finished products.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8163'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

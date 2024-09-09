@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8258
 title:
-- content: The unit manufacturing process (UMP) builder:user's guide
+- content: The unit manufacturing process (UMP) builder
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: user's guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The unit manufacturing process (UMP) builder - user's guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8258
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8258.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8258
@@ -21,67 +34,71 @@ docid:
 - id: 10.6028/NIST.IR.8258
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Lechevalier
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lechevalier, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William Z
-          script:
-          - Latn
-      surname:
-        content: Bernstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bernstein, William Z.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: The ASTM E3012 Standard Guide for Characterizing Environmental Aspects
+    of Manufacturing Processes provides guidelines for formally characterizing manufacturing
+    processes. However, the difficulty that has arisen in the early use of the standard
+    illustrates the need for intuitive tools for helping modeling experts to conform
+    to the specified information model. The Unit Manufacturing Process (UMP) Builder
+    was developed at the National Institute of Standards and Technology (NIST) to
+    provide a visual interface for helping modeling experts to conform to the specified
+    ASTM information model. The UMP Builder, a browser-based tool, integrates symbolic
+    mathematical and guided textual inputs, helping to consistently record manufacturing
+    process models for environmental sustainability into a repository. The Builder
+    also serves as a curator by providing capabilities to explore and visualize models
+    recorded in the Builder repository. The UMP Builder is adapted from of an open
+    source tool called the Configurable Data Curation System (CDCS) developed at NIST.
+    The CDCS was originally developed to capture, share, and transform materials data,
+    allowing users to upload an XML schema and create instances of that schema. In
+    the UMP Builder, the schema used for creating the models is frozen. The schema
+    follows the guidelines from the ASTM E3012 standard. The Builder also provides
+    unique features that are specific in order to facilitate the modelling of UMPs.
+    This user s guide aims to provide guidelines to use the UMP Builder. To obtain
+    more information (especially on the architecture), please refer to the CDCS documentation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8258'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-165
 title:
-- content: 'Certification of Standard Reference Material® 5000: Calibrated Overlay
-    Wafer Standard'
+- content: Calibrated overlay wafer standard
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-165
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-165.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-165
@@ -22,103 +20,82 @@ docid:
 - id: 10.6028/NIST.SP.260-165
   type: DOI
 date:
-- type: published
-  value: 2007-01
+- type: issued
+  value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael T.
-          script:
-          - Latn
-      surname:
-        content: Stocker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Stocker, Michael T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard M.
-          script:
-          - Latn
-      surname:
-        content: Silver
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Silver, Richard M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ravikiran
-          script:
-          - Latn
-      surname:
-        content: Attota
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Attota, Ravikiran.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0729-2435"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jay S.
-          script:
-          - Latn
-      surname:
-        content: Jun
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Jun, Jay S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
   role:
   - type: publisher
-edition:
-  content: '2007'
-revdate: 2007-01
-script:
-- Latn
+abstract:
+- content: This document describes the physical characteristics of Standard Reference
+    Material SRM 5000, provides guidance for its use in calibrating overlay (OL) tools,
+    and gives information and precautions concerning its care and handling. Standard
+    Reference Material SRM 5000 was developed for use in calibrating OL tools. It
+    is a double-etched silicon on silicon 200 mm wafer with various OL targets. Five
+    Frame-in-Frame targets and five Bar-in-Bar targets on this wafer were calibrated.
+    This SRM makes possible traceable OL measurements in a customer s facility in
+    effect by comparisons of measurements on this wafer to the certified values provided
+    by the National Institute of Standards and Technology (NIST).A layout of the wafer
+    is presented to guide the user to the locations that contain the calibrated OL
+    targets. A discussion on calibration strategies is included to help the user decide
+    on the best way to use the SRM 5000. The NIST OL tool and certification technique
+    are described. The statistical performance of the system was evaluated by monitoring
+    values from a control wafer. The factors which contribute to the calibration uncertainty
+    are explained and evaluated.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-165
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

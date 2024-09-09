@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1900
 title:
-- content: Simple Guide for Evaluating and Expressing the Uncertainty of NIST Measurement
-    Results
+- content: Simple guide for evaluating and expressing the uncertainty of NIST measurement
+    results
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1900
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1900.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1900
@@ -22,50 +21,41 @@ docid:
 - id: 10.6028/NIST.TN.1900
   type: DOI
 date:
-- type: published
-  value: 2015-10
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio
-          script:
-          - Latn
-      surname:
-        content: Possolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Possolo, Antonio.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92088106
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Statistical Engineering Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004015936
   role:
   - type: publisher
-revdate: 2015-10
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1900'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

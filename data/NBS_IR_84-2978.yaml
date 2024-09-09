@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-2978
 title:
-- content: Automatic test equipment calibrationperformance verification evaluation
-    and research program (JLCDoD Subtask 30702)
+- content: Automatic test equipment calibration/performance verification evaluation
+    and research program (JLC/DoD Subtask 30702)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-2978
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-2978.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-2978
@@ -22,59 +21,47 @@ docid:
 - id: 10.6028/NBS.IR.84-2978
   type: DOI
 date:
-- type: published
-  value: 1984-01
+- type: issued
+  value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas F
-          script:
-          - Latn
-      surname:
-        content: Leedy
-        script:
-        - Latn
+      completename:
+        content: Leedy, Thomas F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barry A
-          script:
-          - Latn
-      surname:
-        content: Bell
-        script:
-        - Latn
+      completename:
+        content: Bell, B. A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81136285
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 1984-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-2978
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

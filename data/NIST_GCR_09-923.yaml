@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR09-923
 title:
 - content: Kinetics and mechanisms of elementary reactive processes in polymer pyrolysis
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.09-923
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2009/gcr09-923.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 09-923
@@ -21,50 +20,36 @@ docid:
 - id: 10.6028/NIST.GCR.09-923
   type: DOI
 date:
-- type: published
-  value: 2009-03
+- type: issued
+  value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Vadim D
-          script:
-          - Latn
-      surname:
-        content: Knyazev
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Knyazev, Vadim D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Building and Fire Research Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91023146
   role:
   - type: publisher
-revdate: 2009-03
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: '09-923'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP692
 title:
 - content: Transmittance MAP service
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.692
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication692.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 692
@@ -21,98 +20,72 @@ docid:
 - id: 10.6028/NBS.SP.692
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Eckerle
+      completename:
+        content: Eckerle, Kenneth L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79148511
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hsia
+      completename:
+        content: Hsia, J. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82136978
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victor R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weidner
+      completename:
+        content: Weidner, Victor R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82137357
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1985'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: An introduction to the Transmittance Measurement Assurance Program (MAP)
+    service is given. Documentation for the service is provided through a comprehensive
+    list of references. The results of a pilot run for the MAP service are given in
+    a sample calibration report.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '692'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

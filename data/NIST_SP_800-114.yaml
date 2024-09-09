@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-114
 title:
 - content: User's guide to securing external devices for telework and remote access
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-114
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-114.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-114
@@ -21,101 +20,63 @@ docid:
 - id: 10.6028/NIST.SP.800-114
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M P
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: M P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
+      completename:
+        content: Souppaya, M. P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This publication helps teleworkers secure the external devices they use
+    for telework, such as personally owned and privately owned desktop and laptop
+    computers and consumer devices (e.g., cell phones, personal digital assistants
+    [PDA]). The document focuses specifically on security for telework involving remote
+    access to their organization's nonpublic computing resources. It provides practical,
+    real-world recommendations for securing telework computers operating systems (OS)
+    and applications, as well as home networks that the computers use. It presents
+    basic recommendations for securing consumer devices used for telework. The document
+    also presents advice on protecting the information stored on telework computers
+    and removable media. In addition, it provides tips on considering the security
+    of a device owned by a third party before deciding whether it should be used for
+    telework.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-114
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

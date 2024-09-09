@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1275v3
 title:
-- content: 'NIST conference papers fiscal year 2018 :volume 3: Physical Measurement
+- content: NIST conference papers fiscal year 2018
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'volume 3: Physical Measurement Laboratory, NIST Center for Neutron Research'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'NIST conference papers fiscal year 2018 - volume 3: Physical Measurement
     Laboratory, NIST Center for Neutron Research'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1275v3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1275v3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1275v3
@@ -22,22 +35,30 @@ docid:
 - id: 10.6028/NIST.SP.1275v3
   type: DOI
 date:
-- type: published
-  value: '2022-01-03'
+- type: issued
+  value: '2022'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Resources, Access, and Data Team, Information Services Office.
   role:
   - type: publisher
-revdate: '2022-01-03'
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: |-
+          Office, Resources, Access, and Data Team, Information
+                          Services.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory
+  role:
+  - type: publisher
 abstract:
 - content: NIST is committed to the idea that results of federally funded research
     are a valuable national resource and a strategic asset. To the extent feasible
@@ -52,16 +73,22 @@ abstract:
     of Physical Measurement Laboratory and NIST Center for Neutron Research researchers
     at professional conferences, as reported in Fiscal Year 2018. More information
     on public access to NIST research is available at https://www.nist.gov/open.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1275v3
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-9r1
 title:
-- content: NIST Big Data Interoperability Framework:volume 8, reference architecture
+- content: NIST Big Data Interoperability Framework
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: volume 8, reference architecture interfaces version 3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Big Data Interoperability Framework - volume 8, reference architecture
     interfaces version 3
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-9r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-9r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-9r1
@@ -22,33 +35,58 @@ docid:
 - id: 10.6028/NIST.SP.1500-9r1
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
+- person:
+    name:
+      completename:
+        content: NIST Big Data Public Working Group.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: 'This document summarizes interfaces that are instrumental for the interaction
+    with Clouds, Containers, and High Performance Computing (HPC) systems to manage
+    virtual clusters to support the NIST Big Data Reference Architecture (NBDRA).
+    The REpresentational State Transfer (REST) paradigm is used to define these interfaces,
+    allowing easy integration and adoption by a wide variety of frameworks. Big Data
+    is a term used to describe extensive datasets, primarily in the characteristics
+    of volume, variety, velocity, and/or variability. While opportunities exist with
+    Big Data, the data characteristics can overwhelm traditional technical approaches,
+    and the growth of data is outpacing scientific and technological advances in data
+    analytics. To advance progress in Big Data, the NIST Big Data Public Working Group
+    (NBD-PWG) is working to develop consensus on important fundamental concepts related
+    to Big Data. The results are reported in the NIST Big Data Interoperability Framework
+    (NBDIF) series of volumes. This volume, Volume 8, uses the work performed by the
+    NBD-PWG to identify objects instrumental for the NIST Big Data Reference Architecture
+    (NBDRA) which is introduced in the NBDIF: Volume 6, Reference Architecture.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-9r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

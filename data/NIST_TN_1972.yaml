@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1972
 title:
 - content: Wireless activities in the 2 GHz radio bands in industrial plants
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1972
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1972.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1972
@@ -21,67 +20,69 @@ docid:
 - id: 10.6028/NIST.TN.1972
   type: DOI
 date:
-- type: published
-  value: 2017-09
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yongkang
-          script:
-          - Latn
-      surname:
-        content: Liu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Liu, Yongkang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91006307
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nader
-          script:
-          - Latn
-      surname:
-        content: Moayeri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Moayeri, Nader,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93087331
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-09
-script:
-- Latn
+abstract:
+- content: Wireless connections are becoming popular in industrial environments that
+    increasingly carry sensing and actuation data over the air. In industrial plants,
+    activities of legacy wireless systems have shaped the channel usage in the radio
+    spectrum bands for new wireless applications. The 2 GHz spectrum band consists
+    of a good number of radio resources that are dedicated to fixed and mobile wireless
+    communications. In this report, passive measurement data collected in two industrial
+    plants is analyzed to identify existing wireless activities in this frequency
+    band. Besides, a statistical channel usage model is developed for the 2.4 GHz
+    Industrial, Scientific and Medical (ISM) band. The secondary spectrum utility
+    is evaluated given legacy wireless activity in the ISM band, which is of particular
+    interest to unlicensed industrial wireless networking standards, such as WirelessHART
+    and ISA100.11a.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1972'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

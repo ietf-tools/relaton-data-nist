@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR87-3532
 title:
 - content: Model for the nuclear effects of the dt[mu] fusing state
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.87-3532
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir87-3532.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 87-3532
@@ -21,98 +20,59 @@ docid:
 - id: 10.6028/NBS.IR.87-3532
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Danos
+      completename:
+        content: Danos, Michael.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82221658
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L C
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: L C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Biedenharn
+      completename:
+        content: Biedenharn, L. C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80065924
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alfons A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stahihofen
+      completename:
+        content: Stahihofen, Alfons A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 87-3532
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

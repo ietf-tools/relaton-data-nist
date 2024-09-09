@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-53B
 title:
-- content: Control Baselines for Information Systems and Organizations
+- content: Control baselines for information systems and organizations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-53B
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53B.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-53B
@@ -21,46 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.800-53B
   type: DOI
 date:
-- type: published
-  value: '2020-10-28'
+- type: issued
+  value: '2020'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Joint Task Force Interagency Working Group.
   role:
   - type: publisher
-revdate: '2020-10-28'
-script:
-- Latn
-abstract:
-- content: This publication provides security and privacy control baselines for the
-    Federal Government. There are three security control baselines (one for each system
-    impact level—low-impact, moderate-impact, and high-impact), as well as a privacy
-    baseline that is applied to systems irrespective of impact level. In addition
-    to the control baselines, this publication provides tailoring guidance and a set
-    of working assumptions that help guide and inform the control selection process.
-    Finally, this publication provides guidance on the development of overlays to
-    facilitate control baseline customization for specific communities of interest,
-    technologies, and environments of operation.
-  script:
-  - Latn
-  format: text/plain
+- person:
+    name:
+      completename:
+        content: Joint Task Force Interagency Working Group.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-53B
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

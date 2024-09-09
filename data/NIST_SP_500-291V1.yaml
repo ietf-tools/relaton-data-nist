@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-291v1
 title:
-- content: NIST cloud computing standards roadmap :version 1.0
+- content: NIST cloud computing standards roadmap
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST cloud computing standards roadmap - version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-291v1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-291v1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-291v1
@@ -21,103 +34,72 @@ docid:
 - id: 10.6028/NIST.SP.500-291v1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hogan
+      completename:
+        content: Hogan, Michael.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83064260
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fang
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Liu
+      completename:
+        content: Liu, Fang.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79034083
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Annie
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sokol
+      completename:
+        content: Sokol, Annie.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142266
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tong
+      completename:
+        content: Tong, Jin.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142267
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-291v1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

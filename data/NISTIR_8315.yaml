@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8315
 title:
 - content: Evaluating the operational impact of contactless fingerprint imagery on
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8315
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8315.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8315
@@ -22,135 +21,103 @@ docid:
 - id: 10.6028/NIST.IR.8315
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          script:
-          - Latn
-      surname:
-        content: Orandi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Orandi, Shahram.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Libert, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          script:
-          - Latn
-      surname:
-        content: Bandini
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bandini, Bruce.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          script:
-          - Latn
-      surname:
-        content: Ko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ko, Kenneth.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grantham, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Watson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Watson, Craig.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: This study set out to examine the operational impact of introducing contactless
+    fingerprint imagery to a modern fingerprint matching system that was designed
+    for touch-collected images in either a standard Ten-Print operational matching
+    pathway or a Mobile ID optimized operational pathway, depending on configuration.
+    Contactless fingerprint imagery from six contactless devices were used, along
+    with mated imagery from two touch-based devices using a block experimental design.
+    Experimental cases were defined for the matching of contactless fingerprint imagery
+    as either probe or biometric reference database, and system matching accuracy
+    measured in terms of false negative identification rate (FNIR). Due to the small
+    data set available, the experiment was not structured to measure false positive
+    error rates. Results showed the viability of using contactless imagery as the
+    biometric reference database, albeit using these images will come at the price
+    of matching accuracy on the Ten-Print matcher (FNIR of 0.5?% worst case for touch
+    devices vs. FNIR of 1.6?% best case for contactless). The Mobile ID matcher seemed
+    to close the gap between contactless and touch with the best performing contactless
+    device in terms of accuracy (D3) performing at an FNIR of 0.8?% while the worst
+    performing touch-to-touch device was measured at FNIR of 0.5?% showing that Mobile
+    ID optimizations may be key in the introduction of contactless into existing matching
+    pathways. Finally, the introduction of contactless imagery did incur a larger
+    throughput penalty on the Ten- Print matcher than it did on the Mobile ID operational
+    matcher.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8315'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

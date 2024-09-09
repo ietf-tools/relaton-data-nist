@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2136-1
 title:
-- content: 'Report on progress towards implementation of Executive Order 13717 :'
+- content: Report on progress towards implementation of Executive Order 13717
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2136-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2136-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2136-1
@@ -21,61 +20,38 @@ docid:
 - id: 10.6028/NIST.TN.2136-1
   type: DOI
 date:
-- type: published
-  value: '2021-10-21'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katherine J
-          script:
-          - Latn
-      surname:
-        content: Johnson
-        script:
-        - Latn
+      completename:
+        content: Johnson, Katherine J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L III
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
+      completename:
+        content: Harris, John L. III.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven L
-          script:
-          - Latn
-      surname:
-        content: McCabe
-        script:
-        - Latn
+      completename:
+        content: McCabe, Steven L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
   role:
   - type: publisher
-revdate: '2021-10-21'
-script:
-- Latn
 abstract:
 - content: 'On February 2, 2016, President Obama signed Executive Order (EO) 13717:
     Establishing a Federal Earthquake Risk Management Standard. The EO establishes
@@ -96,16 +72,22 @@ abstract:
     Law 115-307), this report is made available as an independent interim report until
     such time that it can be integrated into the official biennial NEHRP report to
     Congress.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 2136-1
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

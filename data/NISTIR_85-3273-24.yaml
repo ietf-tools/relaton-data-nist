@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR85-3273-24
 title:
 - content: Energy price indices and discount factors for life-cycle cost analysis
-    - 2009 :annual supplement to NIST Handbook 135 and NBS Special Publication 709
+    - 2009
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: annual supplement to NIST Handbook 135 and NBS Special Publication 709
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Energy price indices and discount factors for life-cycle cost analysis
+    - 2009 - annual supplement to NIST Handbook 135 and NBS Special Publication 709
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.85-3273-24
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir85-3273-24.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 85-3273-24
@@ -22,69 +36,50 @@ docid:
 - id: 10.6028/NIST.IR.85-3273-24
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amy S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rushing
+      completename:
+        content: Rushing, Amy S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078457
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lippiatt
+      completename:
+        content: Lippiatt, Barbara C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83128716
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3273-24
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

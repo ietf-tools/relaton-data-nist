@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC229
 title:
-- content: Letter Circular 229:the fire resistance of brick walls made of concrete
+- content: Letter Circular 229
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the fire resistance of brick walls made of concrete or sand-lime bricks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 229 - the fire resistance of brick walls made of concrete
     or sand-lime bricks
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.229
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular229.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 229
@@ -22,33 +35,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.229
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1927'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1927'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '229'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

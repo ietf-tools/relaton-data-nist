@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN710-10
 title:
-- content: The behavior of concrete structures in fire :a method for prediction by
-    calculation.
+- content: Building research translation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the behavior of concrete structures in fire-a method for prediction by
+    calculation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Building research translation - the behavior of concrete structures in
+    fire-a method for prediction by calculation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.710-10
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote710-10.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 710-10
@@ -22,35 +36,34 @@ docid:
 - id: 10.6028/NBS.TN.710-10
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Centre Scientifique et Technique du Batiment, Paris, France.
   role:
   - type: publisher
-revdate: '1978'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 710-10
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

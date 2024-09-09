@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-24-2021
 title:
 - content: NVLAP law enforcement and corrections equipment
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-24-2021
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2021/NIST.HB.150-24-2021.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-24-2021
@@ -21,81 +20,61 @@ docid:
 - id: 10.6028/NIST.HB.150-24-2021
   type: DOI
 date:
-- type: published
-  value: '2021-12-15'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Rasinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Rasinski, Timothy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          script:
-          - Latn
-      surname:
-        content: Horlick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Horlick, Jeffrey.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-12-15'
-script:
-- Latn
 abstract:
 - content: NIST Handbook 150-24, NVLAP Law Enforcement and Corrections Equipment,
     presents the technical requirements and guidance for the accreditation of laboratories
     that test law enforcement and corrections equipment.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     id: NISTHB150-24e2010
     docid:
     - id: NIST HB 150-24e2010
       type: NIST
-      primary: true
     formattedref:
       content: NIST HB 150-24e2010
       format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-24-2021
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

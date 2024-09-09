@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8037
 title:
-- content: 'NEURBT: A Program for Computing Neural Networks for Classification using
-    Batch Learning'
+- content: NEURBT
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a program for computing neural networks for classification using batch
+    learning
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NEURBT - a program for computing neural networks for classification using
+    batch learning
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8037
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8037.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8037
@@ -22,50 +36,41 @@ docid:
 - id: 10.6028/NIST.IR.8037
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Javier
-          script:
-          - Latn
-      surname:
-        content: Bernal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bernal, Javier.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89673385
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Applied and Computational Mathematics Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015104603
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8037'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1992
 title:
-- content: Impact of ground motion selection methods on the seismic assessment of
-    steel special moment frames
+- content: Influence of ground motion selection methods on the seismic assessment
+    of steel special moment frames
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1992
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1992.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1992
@@ -22,113 +21,97 @@ docid:
 - id: 10.6028/NIST.TN.1992
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Raul
-          script:
-          - Latn
-      surname:
-        content: Uribe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Uribe, Raul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2011012512
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Siamak
-          script:
-          - Latn
-      surname:
-        content: Sattar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sattar, Siamak.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew S
-          script:
-          - Latn
-      surname:
-        content: Speicher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Speicher, Matthew S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022083467
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Luis
-          script:
-          - Latn
-      surname:
-        content: Ibarra
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ibarra, Luis.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: 'This study quantifies the impact of different ground motion selection
+    methods on the seismic performance evaluation of steel special moment frames.
+    Two methods are investigated: a "traditional" approach, herein referred to as
+    the Pacific Earthquake Engineering Research (PEER) method, and a newer approach
+    known as the Conditional Mean Spectrum (CMS) method. The PEER method selects ground
+    motions using the Riskbased Maximum Considered Earthquake (MCER) as the target
+    spectrum, while the CMS method uses the conditional mean spectrum that anchor
+    to the MCER at multiple conditioning periods. Three special moment frames of 4-,
+    8-, and 16-stories are designed in accordance with ASCE/SEI 7-10 to represent
+    archetype steel frame buildings as found in regions of high seismicity. The seismic
+    performance of these frames is assessed with the nonlinear dynamic procedure prescribed
+    in ASCE/SEI 41-13, using ground motions selected and scaled in accordance with
+    both methods. The performance of the buildings is evaluated at the Collapse Prevention
+    (CP) performance level for a far-field site located in Los Angeles, CA. The CMS
+    method results in lower mean and median response in terms of demand-to-capacity
+    ratios in the reduced beam sections and column hinges. Ground motions selected
+    and scaled using CMS result in a smaller dispersion of the output parameters in
+    most of the beam and column elements, if the conditioning period that results
+    in the highest mean demand-to-capacity ratio is the fundamental period, ??1. The
+    results of this study show that the ground motion selection process can cause
+    significant differences in structural response that may lead to different retrofitting
+    decisions. These results provide motivation for engineers to consider the use
+    of the CMS method as an alternative ground motions selection approach when assessing
+    building performance.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1992'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

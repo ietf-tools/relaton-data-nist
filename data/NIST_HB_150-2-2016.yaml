@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-2-2016
 title:
-- content: National Voluntary Laboratory Accreditation Program (NVLAP) Calibration
-    Laboratories
+- content: NVLAP calibration laboratories
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-2-2016
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2016/NIST.HB.150-2-2016.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-2-2016
@@ -22,101 +20,89 @@ docid:
 - id: 10.6028/NIST.HB.150-2-2016
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          script:
-          - Latn
-      surname:
-        content: Belzer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Belzer, Barbara.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kari K.
-          script:
-          - Latn
-      surname:
-        content: Harper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Harper, Kari K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Hettenhouser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Hettenhouser, Thomas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Warren
-          script:
-          - Latn
-      surname:
-        content: Merkel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Merkel, Warren.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Laboratory Programs.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: 'NIST Handbook 150-2, 2016 edition, presents the technical requirements
+    and guidance for the accreditation of laboratories under the National Voluntary
+    Laboratory Accreditation Program (NVLAP) Calibration Laboratories Program. The
+    2016 edition of NIST Handbook 150-2 supersedes and replaces the following handbooks:
+    150-2A:2004, 150-2B:2004, 150-2C:2001, 150-2D:2004, 150-2E:2001, 150-2F:2003,
+    150-2G:2004, and 150-2H:2004. The 2016 edition consolidates several technical
+    guidance documents in the NIST Handbook 150-2 series into one document with a
+    set of normative annexes, including: Annex A which addresses the general accreditation
+    requirements prescribed in ANSI/NCSL Z540-1-1994, Calibration Laboratories and
+    Measuring and Test Equipment General Requirements, Part I, that are not directly
+    addressed in ISO/IEC 17025:2005; Annex B which sets out technical requirements
+    not covered in NIST Handbook 150 that are applicable to a laboratory recognized
+    as competent to carry out dimensional calibrations; Annex C which sets out technical
+    requirements not covered in NIST Handbook 150 that are applicable to a laboratory
+    recognized as competent to carry out time and frequency calibrations. Additional
+    annexes covering the remaining fields of calibration will be published upon the
+    completion of their review and updating. The annexes form a normative part of
+    this handbook, meaning they contain provisions that laboratories must meet in
+    order to conform to the requirements for accreditation. Calibration laboratories
+    use NIST Handbook 150-2 in developing the management and technical systems that
+    govern their operations. Laboratory customers, regulatory authorities, and accreditation
+    bodies may also use it as a basis upon which to judge the competence of laboratories.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-2-2016
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

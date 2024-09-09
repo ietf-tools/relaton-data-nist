@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR23-038
 title:
-- content: PSCR Impact Assessment:2016-2022 Executive Summary
+- content: PSCR impact assessment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 2016-2022 executive summary
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: PSCR impact assessment - 2016-2022 executive summary
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.23-038
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2023/NIST.GCR.23-038.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 23-038
@@ -21,46 +34,62 @@ docid:
 - id: 10.6028/NIST.GCR.23-038
   type: DOI
 date:
-- type: published
-  value: '2023'
+- type: issued
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Monika
-          script:
-          - Latn
-      surname:
-        content: Bochert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Bochert, Monika.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Leh, Marc.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Communications Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: 'The purpose of this executive summary is to provide key stakeholders with
+    relevant information about how PSCR spent Public Safety Trust Funds and the impacts
+    of that funding. Furthermore, this report seeks to demonstrate the value and positive
+    outcomes of a one-time injection of funds into a topic area and the extent to
+    which this model can be repeated in other areas of significant impact, such as
+    semiconductor supply or climate change. PSCR extensively tracked its impacts since
+    2016, aligning them across five leading indicators: research capacity, disruptive
+    approaches and technology, standards, products, and public safety methods. Furthermore,
+    data from extramural award recipients, prize challenge competitors, and accelerator
+    program participants have been included to provide a more holistic view of programmatic
+    impact. However, only preliminary data is included in this executive summary and
+    a more complete and comprehensive report with additional analysis is scheduled
+    to be published in spring 2023.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 23-038
-doctype: standard
+place:
+- city: Boulder
+  region:
+  - name: Colorado
+    iso: CO
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTNSRDS154
 title:
-- content: NIST Backscattering-Correction-Factor Database for Auger Electron Spectroscopy,
-    Version 1.1 of SRD 154
+- content: NIST backscattering-correction-factor database for auger electron spectroscopy
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.NSRDS.154
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/NSRDS/NIST.NSRDS.154.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST NSRDS 154
@@ -22,67 +20,56 @@ docid:
 - id: 10.6028/NIST.NSRDS.154
   type: DOI
 date:
-- type: published
-  value: 2015-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Cedric J
-          script:
-          - Latn
-      surname:
-        content: Powell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Jablonski, A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aleksander
-          script:
-          - Latn
-      surname:
-        content: Jablonski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Powell, C. J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50019550
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Materials Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2015-07
-script:
-- Latn
+abstract:
+- content: This database provides backscattering correction factors of homogeneous
+    solids for quantitative surface analyses by Auger electron spectroscopy.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '154'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

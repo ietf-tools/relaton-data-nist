@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7838
 title:
-- content: Initiating mobile software development :lessons learned from a 12 month
+- content: Initiating mobile software development
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: lessons learned from a 12 month project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Initiating mobile software development - lessons learned from a 12 month
     project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7838
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7838.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7838
@@ -22,103 +35,64 @@ docid:
 - id: 10.6028/NIST.IR.7838
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frederic
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: de Vaulx
+      completename:
+        content: De Vaulx, Frederic.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022086179
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: paul Khouri
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Saba
+      completename:
+        content: Saba, paul Khouri.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marcus
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Newrock
+      completename:
+        content: Newrock, Marcus.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bertrand
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stivalet
+      completename:
+        content: Stivalet, Bertrand.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7838'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

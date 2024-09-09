@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-256
 title:
 - content: Improving the usability and accessibility of voting systems and products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-256
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-256.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-256
@@ -21,120 +20,84 @@ docid:
 - id: 10.6028/NIST.SP.500-256
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sharon J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Laskowski
+      completename:
+        content: Laskowski, Sharon J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012030503
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marguerite
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Autry
+      completename:
+        content: Autry, Marguerite.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139966
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cugini
+      completename:
+        content: Cugini, John.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139975
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Killam
+      completename:
+        content: Killam, William.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139991
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yen
+      completename:
+        content: Yen, James.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139994
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Informational Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-256
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

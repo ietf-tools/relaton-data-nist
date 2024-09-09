@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1183
 title:
-- content: Standards for Pathogen Identification via Next-Generation Sequencing (SPIN)
-    Workshop Summary Report
+- content: Measuring the size of nanoparticles in aqueous media using batch-mode dynamic
+    light scattering
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: NIST-NCL joint assay protocol, PCC-1 version 1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Measuring the size of nanoparticles in aqueous media using batch-mode dynamic
+    light scattering - NIST-NCL joint assay protocol, PCC-1 version 1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1183
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1183.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1183
@@ -22,84 +36,56 @@ docid:
 - id: 10.6028/NIST.SP.1183
   type: DOI
 date:
-- type: published
-  value: 2015-07
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nathanael D.
-          script:
-          - Latn
-      surname:
-        content: Olson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Olson, Nathan D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nancy J.
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jackson, Scott A.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016052826
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Scott A.
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lin, Nancy J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Biosystems and Biomaterials Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2015-07
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1183'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

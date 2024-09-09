@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2102
 title:
 - content: Heat release rates of multiple transient combustibles
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2102
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2102.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2102
@@ -21,50 +20,46 @@ docid:
 - id: 10.6028/NIST.TN.2102
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: McGrattan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McGrattan, Kevin
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: This report documents heat release rate measurements of various transient
+    combustibles; that is, non-permanent items found in industrial settings that can
+    potentially contribute to an accidental fire. These items are often included in
+    hypothetical fire scenarios that are modeled as part of risk analyses. Of particular
+    interest in these experiments is the functional relationship between the peak
+    heat release rate and the number of replicate items.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2102'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

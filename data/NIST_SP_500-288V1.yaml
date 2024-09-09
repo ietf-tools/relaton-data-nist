@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-288v1
 title:
-- content: Specification for WS-Biometric Devices (WS-BD) :version 1
+- content: Specification for WS-Biometric Devices (WS-BD)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Specification for WS-Biometric Devices (WS-BD) - version 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-288v1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-288v1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-288v1
@@ -21,120 +34,83 @@ docid:
 - id: 10.6028/NIST.SP.500-288v1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ross J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Michaels
+      completename:
+        content: Michaels, Ross J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020147539
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mangold
+      completename:
+        content: Mangold, Kevin.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151052
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matt
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Aronoff
+      completename:
+        content: Aronoff, Matt
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018151994
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kwong
+      completename:
+        content: Kwong, Kayee.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020147540
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Marshall
+      completename:
+        content: Marshall, Karen.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88286097
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2012'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-288v1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,84 +1,84 @@
 ---
-schema-version: v1.2.3
-id: NISTSP800-38b
+schema-version: v1.2.9
+id: NISTSP800-38B
 title:
-- content: Recommendation for block cipher modes of operation :the CMAC mode for authentication
+- content: Recommendation for block cipher modes of operation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the CMAC mode for authentication
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Recommendation for block cipher modes of operation - the CMAC mode for
+    authentication
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://doi.org/10.6028/NIST.SP.800-38b
+- content: https://doi.org/10.6028/NIST.SP.800-38B
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38b.pdf
-  type: pdf
 type: standard
 docid:
-- id: NIST SP 800-38b
+- id: NIST SP 800-38B
   type: NIST
   primary: true
-- id: 10.6028/NIST.SP.800-38b
+- id: 10.6028/NIST.SP.800-38B
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dworkin
+      completename:
+        content: Dworkin, Morris.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020141894
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2016'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This Recommendation specifies a message authentication code (MAC) algorithm
+    based on a symmetric key block cipher. This block cipher-based MAC algorithm,
+    called CMAC, may be used to provide assurance of the authenticity and, hence,
+    the integrity of binary data.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 800-38b
+  number: 800-38B
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

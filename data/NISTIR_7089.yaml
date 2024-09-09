@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7089
 title:
-- content: Shape-sensitive linewidth measurements of resist structures:LITG410I project
+- content: Shape-sensitive linewidth measurements of resist structures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: LITG410I project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Shape-sensitive linewidth measurements of resist structures - LITG410I
+    project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7089
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7089.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7089
@@ -21,72 +35,52 @@ docid:
 - id: 10.6028/NIST.IR.7089
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John S
-          script:
-          - Latn
-      surname:
-        content: Villarrubia
-        script:
-        - Latn
+      completename:
+        content: Villarrubia, John S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: András
-          script:
-          - Latn
-      surname:
-        content: Vladár
-        script:
-        - Latn
+      completename:
+        content: Vlada?¹r, Andra?¹s.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michale T
-          script:
-          - Latn
-      surname:
-        content: Postek
-        script:
-        - Latn
+      completename:
+        content: Postek, Michale T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7089'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

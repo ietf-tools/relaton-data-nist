@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-126
 title:
 - content: The technical specification for the Security Content Automation Protocol
-    (SCAP) :SCAP version 1.0
+    (SCAP)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: SCAP version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: The technical specification for the Security Content Automation Protocol
+    (SCAP) - SCAP version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-126
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-126.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-126
@@ -22,180 +36,98 @@ docid:
 - id: 10.6028/NIST.SP.800-126
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
+- organization:
+    name:
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
+  role:
+  - type: publisher
 - person:
     name:
-      given:
-        forename:
-        - content: S D
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: S D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Waltermire, David.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021047735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D A
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: D A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Waltermire
+      completename:
+        content: Johnson, C. S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021001638
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C S
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: C S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Banghart, J. F.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: J F
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: J F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Banghart
-        language:
-        - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: This document defines the technical specification for Version 1.0 of the
+    Security Content Automation Protocol (SCAP). SCAP consists of a suite of specifications
+    for standardizing the format and nomenclature by which security software communicates
+    information about software flaws and security configurations. This document describes
+    the basics of the SCAP component specifications and their interrelationships,
+    the characteristics of SCAP content, as well as SCAP requirements not defined
+    in the individual SCAP component specifications. This guide provides recommendations
+    on how to use SCAP to achieve security automation for organizations seeking to
+    implement SCAP.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-126
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

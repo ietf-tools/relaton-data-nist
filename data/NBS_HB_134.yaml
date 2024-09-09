@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB134
 title:
 - content: Fire investigation handbook
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.134
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook134.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 134
@@ -21,72 +20,70 @@ docid:
 - id: 10.6028/NBS.HB.134
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Francis L
-          script:
-          - Latn
-      surname:
-        content: Brannigan
-        script:
-        - Latn
+      completename:
+        content: Brannigan, Francis L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81025898
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G
-          script:
-          - Latn
-      surname:
-        content: Bright
-        script:
-        - Latn
+      completename:
+        content: Bright, Richard G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81025897
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nora H
-          script:
-          - Latn
-      surname:
-        content: Jason
-        script:
-        - Latn
+      completename:
+        content: Jason, Nora H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77011027
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1980'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '134'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

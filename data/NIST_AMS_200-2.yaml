@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS200-2
 title:
 - content: Connecting, deploying, and using the smart manufacturing systems test bed
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.200-2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.200-2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 200-2
@@ -21,67 +20,57 @@ docid:
 - id: 10.6028/NIST.AMS.200-2
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Moneer
-          script:
-          - Latn
-      surname:
-        content: Helu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helu, Moneer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jr, Thomas
-          script:
-          - Latn
-      surname:
-        content: Hedberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg, Thomas Jr.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: This report describes how different smart manufacturing standards and technologies,
+    such as MTConnect, were integrated in the National Institute of Standards and
+    Technology (NIST) Smart Manufacturing Systems (SMS) Test Bed to support the collection,
+    curation, and re-use of manufacturing data. The intended audience of this report
+    includes researchers, technical-assessment personnel, and end-users who would
+    like to collect data from manufacturing equipment on the shop floor to improve
+    the performance of production systems. Included in this document is basic guidance
+    to replicate the NIST SMS Test Bed in research and production environments, including
+    the protocols, information systems, and automation that were required.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 200-2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

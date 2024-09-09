@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR19-022
 title:
 - content: Formalizing ISA-95 level 3 control with smart manufacturing system models
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.19-022
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2019/NIST.GCR.19-022.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 19-022
@@ -21,50 +20,55 @@ docid:
 - id: 10.6028/NIST.GCR.19-022
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Leon F
-          script:
-          - Latn
-      surname:
-        content: McGinnis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McGinnis, Leon F. (Leon Franklin),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86821984
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: Achieving the vision of 'smart manufacturing' and 'Industrie 4.0' requires
+    building on successes in computational control of processes to create generic
+    approaches for management of manufacturing operations, or smart manufacturing
+    operations management (SMOM). The approach to SMOM presented in this report generalizes
+    the modeling framework of ISA-95 with a reference model for discrete event logistics
+    systems (DELS) that identifes fve generic operations management decisions. This
+    report applies it in a computational model of a large-scale, highly-automated
+    central fll pharmacy that is the basis for a simulation testbed enabling convenient
+    experimentation with operations management policies and decision algorithms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 19-022
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

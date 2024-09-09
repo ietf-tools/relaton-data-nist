@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4674
 title:
 - content: An analysis of moisture accumulation in a wood frame wall subjected to
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4674
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4674.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4674
@@ -22,75 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.4674
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D M
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: D M
-          script:
-          - Latn
-      surname:
-        content: Burch
-        script:
-        - Latn
+      completename:
+        content: Burch, D. M. (Douglas M.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82129070
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W C
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: W C
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
+      completename:
+        content: Thomas, Wayne C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50014944
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4674'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7866
 title:
-- content: 'Next Generation Packaging, Kitting, and Palletizing: Can one robot do
-    it all?'
+- content: Next generation packaging, kitting, and palletizing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: can one robot do it all?
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Next generation packaging, kitting, and palletizing - can one robot do
+    it all?
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7866
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7866.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7866
@@ -22,63 +35,60 @@ docid:
 - id: 10.6028/NIST.IR.7866
   type: DOI
 date:
-- type: published
-  value: 2012-06
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Raj
-          script:
-          - Latn
-      surname:
-        content: Madhavan
-        script:
-        - Latn
+      completename:
+        content: Madhavan, Raj.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006039488
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          script:
-          - Latn
-      surname:
-        content: Balakirsky
-        script:
-        - Latn
+      completename:
+        content: Balakirsky, Stephen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Schlenoff
-        script:
-        - Latn
+      completename:
+        content: Schlenoff, Craig.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005044700
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Intelligent Systems Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2012-06
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7866'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

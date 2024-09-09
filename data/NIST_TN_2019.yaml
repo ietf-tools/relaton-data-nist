@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2019
 title:
 - content: NIST transactive energy modeling and simulation challenge for the smart
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2019
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2019.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2019
@@ -22,67 +21,68 @@ docid:
 - id: 10.6028/NIST.TN.2019
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David G
-          script:
-          - Latn
-      surname:
-        content: Holmberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Holmberg, David G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1738-8190"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven T
-          script:
-          - Latn
-      surname:
-        content: Bushby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bushby, Steven T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6955-6926"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: 'Phase I of the National Institute of Standards and Technology (NIST) Transactive
+    Energy (TE) Modeling and Simulation Challenge for the Smart Grid spanned September
+    2015 to September 2016. The TE Challenge was initiated to identify existing simulation
+    tools and expertise that might be developed or combined in co-simulation platforms
+    to enable the evaluation of transactive energy approaches. Seven teams composed
+    of multiple organizations participated in the TE Challenge. This report introduces
+    the teams and summarizes accomplishments from the TE Challenge, which include:
+    definition of TE scenarios and reference grid components; development of a common
+    platform component model for co-simulation; analysis of the TE regulatory environment;
+    analysis of common transactive services; and development of a reference architecture
+    for TE in a microgrid environment.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2019'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

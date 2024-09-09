@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB33
 title:
-- content: 'Safety rules for the installation and maintenance of electric supply stations:
-    comprising part 3 and the grounding rules of the fifth edition, national electrical
-    safety code'
+- content: Safety rules for the installation and maintenance of electric supply stations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: comprising part 3 and the grounding rules of the fifth edition, national
+    electrical safety code
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Safety rules for the installation and maintenance of electric supply stations
+    - comprising part 3 and the grounding rules of the fifth edition, national electrical
+    safety code
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.33
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook33.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 33
@@ -23,33 +37,46 @@ docid:
 - id: 10.6028/NBS.HB.33
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1940'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1940'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '33'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

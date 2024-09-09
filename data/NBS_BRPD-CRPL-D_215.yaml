@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBRPD-CRPL-D215
 title:
-- content: Basic radio propagation predictions for October 1962:three months in advance
+- content: Basic radio propagation predictions for October 1962
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: three months in advance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Basic radio propagation predictions for October 1962 - three months in
+    advance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BRPD-CRPL-D.215
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/brpd-crpl-d/brpd-crpl-d215.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BRPD-CRPL-D 215
@@ -21,33 +35,44 @@ docid:
 - id: 10.6028/NBS.BRPD-CRPL-D.215
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Interservice Radio Propagation Laboratory.
   role:
   - type: publisher
-revdate: '1962'
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: Interservice Radio Propagation Laboratory.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Interservice Radio Propagation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS BRPD-CRPL-D
+    content: |-
+      NBS Basic Radio Propagation Predictions, Central Radio Propogation
+                      Laboratory Series D
     format: text/plain
-  abbreviation:
-    content: BRPD-CRPL-D
   number: '215'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

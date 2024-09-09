@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTDCI001
 title:
 - content: NIST-NOAA survey instrument for business disruption and recovery associated
-    with extreme events:general instrument applied to the greater Charleston, SC small-
-    and medium-sized business community post-hurricane Irma
+    with extreme events
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: general instrument applied to the greater Charleston, SC small- and medium-sized
+    business community post-hurricane Irma
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST-NOAA survey instrument for business disruption and recovery associated
+    with extreme events - general instrument applied to the greater Charleston, SC
+    small- and medium-sized business community post-hurricane Irma
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.DCI.001
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/dci/NIST.DCI.001.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST DCI 001
@@ -23,84 +38,70 @@ docid:
 - id: 10.6028/NIST.DCI.001
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer F
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eleanor D
-          script:
-          - Latn
-      surname:
-        content: Pierel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pierel, Eleanor D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kirstin
-          script:
-          - Latn
-      surname:
-        content: Dow
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dow, Kirstin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: To gather more in-depth information about how disasters affect businesses,
+    the National Institute of Standards and Technology (NIST) and the National Oceanic
+    and Atmospheric Administration (NOAA) have launched a study of business disruption
+    and recovery related to several natural disasters. This report outlines the survey
+    instrument used as the basis for the research designed to be conducted in partnership
+    between the NIST Applied Economics Office (AEO) and a place-based, interdisciplinary
+    regional research team via the NOAA Regional Integrated Sciences and Assessment
+    (RISA) Program. This research protocol uses a mixed-method research approach to
+    study businesses that were impacted by Hurricane Irma in 2017 and their long-term
+    recovery process. The approach combines both quantitative and qualitative data
+    collection methods using both in- person and telephone surveys to obtain business
+    disruption and recovery information from business owners and managers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST DCI
+    content: |-
+      NIST data collection instruments and best practices; NIST
+                      DCI
     format: text/plain
-  abbreviation:
-    content: DCI
   number: '001'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2024
 title:
 - content: Commissioning ASHRAE high-performance sequences of operation for multiple-zone
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2024
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2024.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2024
@@ -22,101 +21,85 @@ docid:
 - id: 10.6028/NIST.TN.2024
   type: DOI
 date:
-- type: published
-  value: 2019-02
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Natascha
-          script:
-          - Latn
-      surname:
-        content: Milesi-Ferretti
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Milesi-Ferretti, Natascha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A
-          script:
-          - Latn
-      surname:
-        content: Galler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Galler, Michael A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007101805
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven T
-          script:
-          - Latn
-      surname:
-        content: Bushby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bushby, Steven T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107279
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Justin
-          script:
-          - Latn
-      surname:
-        content: Sorra
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sorra, Justin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-02
-script:
-- Latn
+abstract:
+- content: ASHRAE Guideline 36 High Performance Sequences of Operation for HVAC Systems
+    was developed to provide a reference set of high-performance control sequences
+    for air-side heating, ventilating and air-conditioning (HVAC) equipment, including
+    multiple-zone variable-air-volume (VAV) air handlers and associated terminal equipment.
+    The intent is that high-performance buildings will perform better if well-known
+    sequences of operation are specified and controls contractors refine their products
+    to correctly implement them. In this work functional performance tests for the
+    Guideline 36 sequences were developed and implemented using the HVAC-Cx commissioning
+    tool. The HVAC-Cx Functional Performance Test Module was used to commission an
+    implementation of Guideline 36 sequences in the NIST Virtual Cybernetic Building
+    Testbed. The functional performance tests are described and the effectiveness
+    of using the HVAC-Cx tool for detecting faults and implementation errors is evaluated.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2024'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

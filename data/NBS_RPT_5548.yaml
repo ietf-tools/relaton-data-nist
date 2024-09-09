@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5548
 title:
 - content: A precision frequency standard for x-band
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5548
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5548.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5548
@@ -21,80 +20,72 @@ docid:
 - id: 10.6028/NBS.RPT.5548
   type: DOI
 date:
-- type: published
-  value: 1958-01
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M C Jr
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        script:
-        - Latn
+      completename:
+        content: Thompson, M. C. Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          script:
-          - Latn
-      surname:
-        content: Vetter
-        script:
-        - Latn
+      completename:
+        content: Vetter, M. J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donald M
-          script:
-          - Latn
-      surname:
-        content: Waters
-        script:
-        - Latn
+      completename:
+        content: Waters, Donald M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1958-01
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: A compact microwave generator (Fig. 1) is described in which an X-band
+    reflex, klystron is stabilized by a quartz-crystal secondary ^standard. Frequency
+    stability of the order of several parts in 10 over periods of the order of a day
+    has been obtained. A technique for obtaining continuous wide-range variation of
+    output frequency with stability of the order of 1 part in 10 is described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5548'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1935
 title:
-- content: Annual Manufacturing Report
+- content: Annual manufacturing review
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1935
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1935.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1935
@@ -21,50 +20,68 @@ docid:
 - id: 10.6028/NIST.TN.1935
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S.
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113838
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: The purpose of this report is to track domestic manufacturing activity
+    and its supply chain in order to develop a quantitative depiction of U.S. manufacturing
+    in the context of the domestic economy and global industry. This depiction provides
+    change agents, such as public entities and trade groups that invest in advancing
+    the current state of manufacturing, insight into the current state and recent
+    trends in US manufacturing. The report further identifies areas of manufacturing
+    that can have large impacts on costs. The US remains a major manufacturing nation;
+    however, production and innovation is increasing rapidly in other countries. US
+    manufacturing was significantly impacted by the previous recession and has not
+    returned to pre-recession levels of production or employment. The US has advantages
+    in technological prowess, innovation, productivity, and research and development;
+    however, education was ranked low in two indices (i.e., IMD and World Economic
+    Forum) and ranked high as being a problematic factor for doing business, which
+    could negatively impact US advantages in the future. Institutions and institutional
+    framework, which include crime, regulatory frameworks, country credit rating,
+    and government spending among other things, was ranked low in two indices. A number
+    of costs were identified as challenges to US manufacturing, including high labor
+    costs. An input-output analysis of US manufacturing reveals that management is
+    a significant cost along with a number of other non-production costs such as wholesale
+    trade. The number of injuries and the injury rate in US manufacturing has a general
+    downward trend, benefiting employees; however, manufacturing employee compensation
+    has only grown slowly in recent years.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1935'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

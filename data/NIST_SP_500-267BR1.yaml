@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-267Br1
 title:
-- content: USGv6 Profile
+- content: USGv6 profile
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-267Br1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.500-267Br1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-267Br1
@@ -21,133 +20,66 @@ docid:
 - id: 10.6028/NIST.SP.500-267Br1
   type: DOI
 date:
-- type: published
-  value: '2020-11-24'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Doug
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Montgomery, Doug.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          script:
-          - Latn
-      surname:
-        content: Carson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Carson, Mark.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Winters
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Winters, Timothy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michayla
-          script:
-          - Latn
-      surname:
-        content: Newcombe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Newcombe, Michayla.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: Carlin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Carlin, Timothy.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-11-24'
-script:
-- Latn
-abstract:
-- content: This profile establishes a basic taxonomy of IPv6 capabilities, defined
-    in terms of IETF specifications, resulting in specific capability labels for common
-    network functions and usage scenarios. The profile maps each such labeled capability
-    to one or more specific technical specifications, or parts of specifications.
-    Each labeled capability adopts by reference the normative requirements of the
-    cited specifications. In rare cases the profile may augment or modify the normative
-    requirements of a base specification. The defined capability labels effectively
-    form a vocabulary for expressing IPv6 requirements for, and documenting the IPv6
-    capabilities of, specific products. It is expected that this profile, when combined
-    with the USGv6 Test Program, can facilitate the efficient adoption of IPv6 technologies
-    in Federal information systems.
-  script:
-  - Latn
-  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-267Br1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

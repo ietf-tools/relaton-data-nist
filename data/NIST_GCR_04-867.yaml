@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR04-867
 title:
-- content: Cost Analysis of Inadequate Interoperability in the U.S. Capital Facilities
-    Industry
+- content: Cost analysis of inadequate interoperability in the U.S. capital facilities
+    industry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.04-867
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2004/NIST.GCR.04-867.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 04-867
@@ -22,76 +21,60 @@ docid:
 - id: 10.6028/NIST.GCR.04-867
   type: DOI
 date:
-- type: published
-  value: 2004-08
+- type: issued
+  value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael P.
-          script:
-          - Latn
-      surname:
-        content: Gallaher
-        script:
-        - Latn
+      completename:
+        content: Gallaher, Michael P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004022282
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan C.
-          script:
-          - Latn
-      surname:
-        content: O'Connor
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John L.
-          script:
-          - Latn
-      surname:
-        content: Dettbarn, Jr.
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Linda T.
-          script:
-          - Latn
-      surname:
-        content: Gilday
-        script:
-        - Latn
+      completename:
+        content: Chapman, Robert E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79016676
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: Building and Fire Research Laboratory (U.S.).
+    - content: Office of Applied Economics.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99020791
   role:
   - type: publisher
-revdate: 2004-08
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Information Technology and Electronics Office.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 04-867
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

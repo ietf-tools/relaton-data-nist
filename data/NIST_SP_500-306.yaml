@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-306
 title:
-- content: Certification Pathway for Downsampling 1000 ppi Fingerprint Friction Ridge
-    Imagery to 500 ppi
+- content: Certification pathway for downsampling 1000 ppi fingerprint friction ridge
+    imagery to 500 ppi
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-306
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-306.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-306
@@ -22,84 +21,79 @@ docid:
 - id: 10.6028/NIST.SP.500-306
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Libert, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Watson, Craig.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021005762
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig I
-          script:
-          - Latn
-      surname:
-        content: Watson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grantham, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: The document describes the procedure by which fingerprint image downsampling
+    procedures will be evaluated with respect to conformance to the NIST guidance
+    for sample rate reduction of 1000 ppi friction ridge images to 500 ppi as specified
+    in NIST Special Publication 500-289. This guidance is to be followed whenever
+    1000 ppi images are to be prepared for comparison to legacy 500 ppi fingerprint
+    databases for submittal to the FBI's Next Generation identification system and
+    conformance will ensure that CODECs produce encoded files that retain fidelity
+    to the non-compressed source images within empirically set limits and that such
+    files can be decoded by other conformant JPEG 2000 CODECs maintaining the required
+    fidelity. The document describes the attributes of a set of fingerprint images
+    selected for certification testing and the rationale for selection of these images
+    based on spatial frequency fidelity of downsampled images to non-compressed images
+    scanned at 500 ppi where downsampling is performed using the Gaussian filter with
+    subsampling method specified in NIST SP 500-289. The document describes the procedure
+    to be followed in have an algorithm tested for certification, the metric used
+    to measure conformance, and provides instructions on how to run the protocol and
+    submit results to NIST for evaluation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-306
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,0 +1,98 @@
+---
+schema-version: v1.2.9
+id: NISTTN2270
+title:
+- content: Uncertainty analysis of the dual-lift use case for the industrial wireless
+    testbed
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.TN.2270
+  type: doi
+type: standard
+docid:
+- id: NIST TN 2270
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.TN.2270
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Montgomery, Karl.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-5405-6665"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Candell, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6679-8823"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Hany, Mohamed.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6619-3509"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Communications Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: This report serves to characterize the uncertainty of measurements for
+    key performance indicators (KPIs) used to measure the physical and network performance
+    of the NIST industrial wireless dual-lift testbed. A review of the methods used
+    to determine uncertainty is presented. We use the method known as the Guide to
+    the Expression of Uncertainty in Measurement (GUM) to calculate the uncertainty
+    values for each measurement. A description of the dual-lift use case and the KPIs
+    are presented. The resulting expanded uncertainty values are calculated for the
+    KPIs, which are the positional Cartesian error between the leader and follower
+    robots, and the latency of the data packets associated with the informational
+    transactions of the leader and follower’s control loop. It is concluded that the
+    measurement systems used in the dual-lift use case have relatively small uncertainty
+    values for the detection of latency perturbations in the real-time control application
+    implemented on the testbed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST technical note; NIST tech note; NIST TN
+    format: text/plain
+  number: '2270'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

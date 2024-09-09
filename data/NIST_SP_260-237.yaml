@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-237
 title:
-- content: Humanized Monoclonal Antibody IgG1k, NISTmAb RM 8671 Summary of 5 Year
-    Stability Verification (5YSV)
+- content: Humanized monoclonal antibody IgG1k, NISTmAb RM 8671 summary of 5 year
+    stability verification (5YSV)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-237
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-237.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-237
@@ -22,46 +21,145 @@ docid:
 - id: 10.6028/NIST.SP.260-237
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katharina
-          script:
-          - Latn
-      surname:
-        content: Yandrofski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Yandrofski, Katharina.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0570-8011"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Schiel, John E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-5353-3343"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mouchahoir, Trina.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6790-830X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Telikepalli, Srivalli.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-4687-6123"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Ripple, Dean C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6413-1339"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Phinney, Karen W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7540-5860"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Marino, John P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6860-5853"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: DeRose, Paul C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1406-633X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8430-6757"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: NISTmAb RM 8671 is an IgG1k monoclonal antibody that has been extensively
+    characterized and released as the first of its kind biopharmaceutical reference
+    material in 2016. This material was intended primarily for use in evaluating the
+    performance of methods for determining physicochemical and biophysical attributes
+    of monoclonal antibodies. It also provides a representative test molecule for
+    development of novel technologies for therapeutic protein characterization. The
+    lifecycle management of NISTmAb includes a long-term stability verification to
+    evaluate the homogeneity and stability for the first 3 lots (14HB-D001, 14HB-D-002,
+    and 14HB-D-003) of this material. Initial certification to assign property values
+    and confirm identification used a wide variety of analytical methods including
+    UVVis spectrophotometry, size exclusion chromatography, capillary electrophoresis,
+    dynamic light scattering, flow imaging, and peptide mapping. Reported here is
+    a summary of these analytical methods and results for the 5-year stability verification
+    (5YSV) for RM 8671 demonstrating the material is homogeneous and stable.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-237
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

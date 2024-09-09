@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7988
 title:
-- content: 'Integrating electronic health records into clinical workflow : an application
-    of human factors modeling methods to ambulatory care'
+- content: Integrating electronic health records into clinical workflow
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an application of human factors modeling methods to ambulatory care
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Integrating electronic health records into clinical workflow - an application
+    of human factors modeling methods to ambulatory care
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7988
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2014/NIST.IR.7988.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7988
@@ -22,169 +35,105 @@ docid:
 - id: 10.6028/NIST.IR.7988
   type: DOI
 date:
-- type: published
-  value: 2014-03
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sventlana Z.
-          script:
-          - Latn
-      surname:
-        content: Lowry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lowry, Sventlana Z.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mala
-          script:
-          - Latn
-      surname:
-        content: Ramaiah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ramaiah, Mala.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emily S.
-          script:
-          - Latn
-      surname:
-        content: Patterson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Patterson, Emily S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2010005162
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Brick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brick, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2006018513
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ayse P.
-          script:
-          - Latn
-      surname:
-        content: Gurses
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gurses, Ayse P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ant
-          script:
-          - Latn
-      surname:
-        content: Ozok
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ozok, Ant.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Debora
-          script:
-          - Latn
-      surname:
-        content: Simmons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Simmons, Debora.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009093489
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael C.
-          script:
-          - Latn
-      surname:
-        content: Gibbons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gibbons, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92048660
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2014-03
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7988'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

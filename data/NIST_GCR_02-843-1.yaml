@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR02-843-1
 title:
 - content: Analysis of needs and existing capabilities for full-scale fire resistance
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.02-843-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2008/gcr02-843-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 02-843-1
@@ -22,67 +21,78 @@ docid:
 - id: 10.6028/NIST.GCR.02-843-1
   type: DOI
 date:
-- type: published
-  value: 2008-09
+- type: issued
+  value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jesse J
-          script:
-          - Latn
-      surname:
-        content: Beitel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Beitel, Jesse J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no95034552
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nestor
-          script:
-          - Latn
-      surname:
-        content: Iwankiw
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Iwankiw, Nestor.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85194209
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Hughes Associates.
   role:
   - type: publisher
-revdate: 2008-09
-script:
-- Latn
+- organization:
+    name:
+    - content: Building and Fire Research Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91023146
+  role:
+  - type: publisher
+abstract:
+- content: 'The study was commissioned to analyze the needs and existing capabiliites
+    for full-scale fire resistance testing of structural connections. The scope of
+    work consisted of three separate tasks. Task 1. Identification of building collapse
+    incidents: The objective of this Task was to conduct a survey of historical information
+    of fire occurences in multi-story (defined as four or more stories) buildings,
+    which resulted in structural collapse. Either partial or total failure of the
+    structural framing members, and/or connections was considered to hav constituted
+    a collapse. Task 2. Survey of fire resistence test facilities: The objective of
+    this task was to survey private and public facilities (for-profit, not-for-profit;
+    academic, local, state and federal government; military and civilian; domestic
+    and international) capable of testing structural integrity of building elements
+    under fire conditions to establish the current global research capabilities in
+    structural fire protection. Task 3. Needs assessment: the objective of this task
+    was to perform an assessment of the need for additional testing and/or experimental
+    facilities to support the development of predictive structural fire protection
+    methods within actual buildings; and if a need does exist, options for meeting
+    those needs.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 02-843-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

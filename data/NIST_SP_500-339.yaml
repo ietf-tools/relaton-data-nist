@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-339
 title:
-- content: Specification for Certification Testing of Contactless Fingerprint Acquisition
-    Devices, v1.0
+- content: Specification for certification testing of contactless fingerprint acquisition
+    devices, v1.0
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-339
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-339.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-339
@@ -22,46 +21,97 @@ docid:
 - id: 10.6028/NIST.SP.500-339
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          script:
-          - Latn
-      surname:
-        content: Orandi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Orandi, Shahram.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5390-6119"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Libert, John M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0796-6871"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Grantham, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2219-0944"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Ko, Kenneth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6409-1592"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bandini, Bruce.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0608-6426"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Watson, Craig I.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Specification for Certification Testing of Contactless Fingerprint Acquisition
+    Devices, v1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-339
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

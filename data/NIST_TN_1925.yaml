@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1925
 title:
-- content: Simulation of Residential Carbon Monoxide Exposure Due to Generator Operation
-    in Enclosed Spaces
+- content: Simulation of residential carbon monoxide exposure due to generator operation
+    in enclosed spaces
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1925
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1925.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1925
@@ -22,84 +21,104 @@ docid:
 - id: 10.6028/NIST.TN.1925
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J.
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Emmerich, Steven J. (Steven John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003076634
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian J.
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William Stuart S.
-          script:
-          - Latn
-      surname:
-        content: Dols
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dols, W. Stuart.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003054410
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: The U.S. Consumer Product Safety Commission (CPSC) and others are concerned
+    about the hazard of acute carbon monoxide (CO) exposures from portable gasoline
+    powered generators that can result in death or serious adverse health effects
+    in exposed individuals. As of May 15, 2015, the CPSC databases contain records
+    of at least 702 deaths (involving 523 incidents) from CO poisoning in the U.S.
+    caused by consumer use of a generator in the period of 2004 through 2014 (Hnatov
+    2015). There were an additional 49 CO poisoning deaths (involving 39 incidents)
+    associated with consumer use of both a generator and at least one other CO-producing
+    consumer appliance, for a total of 751 CO poisoning deaths (involving 562 incidents)
+    associated with generators for the same 11-year period. The majority of these
+    deaths occurred when consumers used a generator in an enclosed or partially enclosed
+    space or outdoors near an open door, window or vent. While avoiding the operation
+    of such generators in or near an enclosed space is expected to reduce indoor CO
+    exposures significantly, it may not be realistic to expect such usage to be eliminated
+    completely. Another means of reducing these exposures would be to decrease the
+    rate at which CO is emitted from these devices. A computer simulation study was
+    conducted to provide CPSC staff with information to support comparisons of modeled
+    residential CO exposures reflecting operation of current designs of portable engine-driven
+    electric generators, inside homes or in attached garages. These results were compared
+    to simulated operation of reduced emission generators meeting a potential CO emission
+    rate limit performance requirement being considered by CPSC staff under portable
+    generator rulemaking activities. These simulations employed the multizone airflow
+    and contaminant transport model CONTAM, which was applied to a set of 40 buildings
+    (consisting of 37 houses and 3 detached garages, considered broadly representative
+    of fatal CO poisoning incidents reported in CPSC databases) that are primarily
+    based on a collection of models representative of the U.S. housing stock. This
+    report presents sample CO and carboxyhemoglobin (COHb) simulation results for
+    three of the houses and one of the garages modeled. The results presented demonstrate
+    that generators with the reduced CO emission rates result in peak CO concentrations
+    that can be reduced by 40 % to more than 90 % depending on the specific case being
+    analyzed. The reduced CO emission rates also result in significant reductions
+    in COHb in many cases. Additionally, use of a thermal building model coupled with
+    the airflow and IAQ model to properly account for thermal effects was shown to
+    be important as the interaction of the generators heat generation and the ambient
+    weather conditions can significantly impact both air change rates and interzone
+    airflow patterns in the buildings.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1925'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

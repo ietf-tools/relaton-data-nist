@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN594-11
 title:
-- content: Optical radiation measurements:development of an NBS reference spectrophotometer
+- content: Optical radiation measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Development of an NBS reference spectrophotometer for diffuse transmittance
+    and reflectance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Optical radiation measurements - Development of an NBS reference spectrophotometer
     for diffuse transmittance and reflectance
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.594-11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote594-11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 594-11
@@ -22,86 +36,59 @@ docid:
 - id: 10.6028/NBS.TN.594-11
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jack J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hsia
+      completename:
+        content: Venable, Jr., William H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Venable Jr
+      completename:
+        content: Hsia, J. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82136978
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victor R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weidner
+      completename:
+        content: Weidner, Victor R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82137357
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 594-11
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

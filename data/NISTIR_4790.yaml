@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4790
 title:
-- content: Microstructural features of some low watersolids, silica fume mortars cured
-    at different temperatures
+- content: Microstructural features of some low water/solids, silica fume mortars
+    cured at different temperatures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4790
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4790.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4790
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.4790
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
+      completename:
+        content: Stutzman, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007151334
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Clifton
-        script:
-        - Latn
+      completename:
+        content: Clifton, James R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79099186
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4790'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

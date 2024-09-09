@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-66r1
 title:
 - content: An introductory resource guide for implementing the Health Insurance Portability
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-66r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-66r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-66r1
@@ -22,256 +21,110 @@ docid:
 - id: 10.6028/NIST.SP.800-66r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M A
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: M A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scholl
+      completename:
+        content: Scholl, M. A. (Martha A.)
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95108546
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K M
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: K M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stine
+      completename:
+        content: Stine, K. M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hash
+      completename:
+        content: Hash, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bowen
+      completename:
+        content: Bowen, P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, L. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012562
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C D
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: C D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, C. D.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82138100
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D I
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: D I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Steinberg
+      completename:
+        content: Steinberg, D. I.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Special Publication 800-66 Rev. 1, An Introductory Resource Guide for Implementing
+    the Health Insurance Probability and Accountability Act (HIPAA) Security Rule,
+    which discusses security considerations and resources that may provide value when
+    implementing the requirements of the HIPAA Seucurity Rule, was written to help
+    educate readers about information security terms used in the HIPAA Security Rule
+    and to improve understanding of the meaning of the security standards set out
+    itn the Security Rule, direct readers to helpful information in other NIST publications
+    on individual topics the HIPAA Security Rule addresses, and aid readers in understanding
+    the security concepts discussed in the HIPAA Security Rule. This publication does
+    not supplement, replace, or supersede the HIPAA Security Rule itself.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-66r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

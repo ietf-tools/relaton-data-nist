@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-198
 title:
 - content: A retuned horwitz procedure for upgrading certificates of older standard
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-198
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-198.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-198
@@ -22,93 +21,79 @@ docid:
 - id: 10.6028/NIST.SP.260-198
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John R
-          script:
-          - Latn
-      surname:
-        content: Sieber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sieber, John R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael S
-          script:
-          - Latn
-      surname:
-        content: Epstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Epstein, Michael S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92016762
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio M
-          script:
-          - Latn
-      surname:
-        content: Possolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Possolo, Antonio M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: Many older certified reference materials have certificates of analysis
+    that do not fully comply with ISO Guide 31. This applies to many NIST Standard
+    Reference Materials (SRM) that have published uncertainty estimates not compliant
+    with the GUM or have no uncertainty estimates at all. When older certification
+    records are sparse and insufficient data are available for a full, modern, statistical
+    analysis, it can be useful to apply the concept of the Horwitz formula relating
+    measurement uncertainty to constituent mass fraction across a population of results
+    from a variety of test methods. Because the quality inherent in results obtained
+    during SRM development projects is likely better than the quality of at least
+    some data used by Horwitz to derive the published relationship, it is sensible
+    to retune the concept, using a large set of results from NIST SRM projects. This
+    approach is described with examples provided, and its utility is discussed in
+    comparison to and in combination with alternative approaches such as Type A evaluation
+    using Student?s t coverage intervals and a Bayesian procedure. A six step process
+    is defined to tackle a variety of situations encountered with older SRMs. NIST
+    is applying this approach to upgrade numerous certificates for metals, ores and
+    related materials.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-198
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7945
 title:
-- content: 'NIST Ontological Visualization Interface for Standards : User’s Guide'
+- content: NIST ontological visualization interface for standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: user's guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST ontological visualization interface for standards - user's guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7945
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7945.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7945
@@ -21,126 +34,81 @@ docid:
 - id: 10.6028/NIST.IR.7945
   type: DOI
 date:
-- type: published
-  value: 2013-06
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Lechevalier
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lechevalier, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anantha
-          script:
-          - Latn
-      surname:
-        content: Narayanan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Narayanan, Anantha,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2004088587
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: KC
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: KC
-          script:
-          - Latn
-      surname:
-        content: Morris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Morris, K. C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020102435
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sean
-          script:
-          - Latn
-      surname:
-        content: Reidy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Reidy, Sean.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2004035927
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sudarsan
-          script:
-          - Latn
-      surname:
-        content: Rachuri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rachuri, Sudarsan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2005010837
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Systems Integration Division, Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-06
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7945'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

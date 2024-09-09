@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8080
 title:
-- content: Usability and Security Considerations for Public Safety Mobile Authentication
+- content: Usability and security considerations for public safety mobile authentication
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8080
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8080.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8080
@@ -21,84 +20,80 @@ docid:
 - id: 10.6028/NIST.IR.8080
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chooing, Yee-Yin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua M.
-          script:
-          - Latn
-      surname:
-        content: Franklin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Franklin, Joshua M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020086934
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen K.
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Greene, Kristen K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085049
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: There is a need for cybersecurity capabilities and features to protect
+    the Nationwide Public Safety Broadband Network (NPSBN). However, cybersecurity
+    requirements should not compromise the ability of first responders to complete
+    their missions. In addition, the diversity of public safety disciplines means
+    that one solution may not meet the usability and security needs of different disciplines.
+    Understanding how public safety users operate in their different environments
+    will allow for usable cybersecurity capabilities and features to be deployed and
+    used. Although first responders work in a variety of disciplines, this report
+    is focused on the Fire Service, Emergency Medical Services (EMS), and Law Enforcement.
+    This report describes the constraints presented by their personal protective equipment
+    (PPE), specialized gear, and unique operating environments and how such constraints
+    may interact with mobile authentication requirements. The overarching goal of
+    this work is analyzing which authentication solutions are the most appropriate
+    and usable for first responders using mobile devices in operational scenarios
+    in the field.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8080'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

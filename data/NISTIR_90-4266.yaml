@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR90-4266
 title:
 - content: Effect of oxygen transport and resistivity of the environment on the corrosion
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.90-4266
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4266.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 90-4266
@@ -22,87 +21,58 @@ docid:
 - id: 10.6028/NIST.IR.90-4266
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E
-          script:
-          - Latn
-      surname:
-        content: Escalante
-        script:
-        - Latn
+      completename:
+        content: Escalante, E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85111868
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          script:
-          - Latn
-      surname:
-        content: Oka
-        script:
-        - Latn
+      completename:
+        content: Oka, T. (Takeshi)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83328090
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: U
-          script:
-          - Latn
-          initial: U
-        formatted_initials:
-          content: U
-          script:
-          - Latn
-      surname:
-        content: Bertocci
-        script:
-        - Latn
+      completename:
+        content: Bertocci, U.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 90-4266
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

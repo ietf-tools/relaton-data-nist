@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR3992
 title:
 - content: Structure-property relationships in microalloyed ferrite-earlite steels-
-    phase 1 :literature review, research plan, and initial results
+    phase 1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: literature review, research plan, and initial results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Structure-property relationships in microalloyed ferrite-earlite steels-
+    phase 1 - literature review, research plan, and initial results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.3992
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir3992.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 3992
@@ -22,81 +36,50 @@ docid:
 - id: 10.6028/NIST.IR.3992
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P T
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: P T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Purtscher
+      completename:
+        content: Purtscher, P. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yi-Wen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cheng
+      completename:
+        content: Cheng, Yi-Wen.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85351277
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '3992'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

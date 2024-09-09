@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1271ukr
 title:
-- content: Getting Started with the NIST Cybersecurity Framework:A Quick Start Guide
-    (Ukrainian Translation)
+- content: Getting started with the NIST cybersecuity framework
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a quick start guide (Ukranian translation)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Getting started with the NIST cybersecuity framework - a quick start guide
+    (Ukranian translation)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1271.ukr
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1271.ukr.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1271 ukr
@@ -22,57 +35,85 @@ docid:
 - id: 10.6028/NIST.SP.1271.ukr
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amy
-          script:
-          - Latn
-      surname:
-        content: Mahn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Mahn, Amy.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Marron, Jeffrey.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7871-683X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Quinn, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1436-684X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Topper, Daniel.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Document translated courtesy of Danylo Mialkovskyi, Oleksandr Bakalynskyi,
+    Illia Vysotskyi, Maryna Vosmeryk, Anastasiia Korostelkina, Illia Zuzin and Viktoria
+    Shmalenuk. Reviewed by Diplomatic Language Services. Official U.S. Government
+    translation. The official English language version of this publication is available
+    free of charge from NIST at https://doi.org/10.6028/NIST.SP.1271.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 relation:
-- type: translatedFrom
+- type: editionOf
   bibitem:
     id: NISTSP1271
     docid:
     - id: NIST SP 1271
       type: NIST
-      primary: true
     formattedref:
       content: NIST SP 1271
       format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: '1271'
-doctype: standard
+  number: 1271ukr
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

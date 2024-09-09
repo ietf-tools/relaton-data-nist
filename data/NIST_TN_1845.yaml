@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1845
 title:
-- content: Identifying Residential FIre Involving Upholstered Furniture within the
+- content: Identifying residential fires involving upholstered furniture within the
     National Fire Incident Reporting System
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1845
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1845.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1845
@@ -22,67 +21,76 @@ docid:
 - id: 10.6028/NIST.TN.1845
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S.
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113838
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T.
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: This Technical Note develops a method for identifying residential fire
+    incidents, reported to the National Fire Incident Reporting System (NFIRS), with
+    missing information regarding the item first ignited (IFI) or item most contributing
+    to flame spread (IMCFS) that were likely to have involved upholstered furniture.
+    Using NFIRS data, upholstered furniture involvement can only be identified using
+    the IFI or IMCFS fields; however, it is not uncommon for these fields to contain
+    missing values or to be coded as unknown (undetermined). Current statistical methods
+    address this issue by allocating the missing and unknown incidents proportionally
+    over the distribution of those known. The appropriateness of this depends on the
+    representativeness of the known incidents. This Technical Note explores a data
+    imputation method to determine the likelihood of upholstered furniture involvement
+    based on statistical correlations with other factors describing the fire incident.
+    A number of competing statistical models are evaluated using the data imputation
+    approach, with the best performing models selected based on the minimum out-of-sample
+    root mean squared prediction error. The optimum models based on this criterion
+    are then used to estimate the number of U.S. residential upholstered furniture
+    fires, related occupant fatalities, injuries, and property and content losses,
+    and the results are compared to the conventional scaling-based techniques currently
+    used by the National Fire Protection Association
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1845'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

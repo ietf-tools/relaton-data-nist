@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-100
 title:
-- content: Information security handbook :a guide for managers
+- content: Information security handbook
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a guide for managers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information security handbook - a guide for managers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-100
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-100.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-100
@@ -21,119 +34,79 @@ docid:
 - id: 10.6028/NIST.SP.800-100
   type: DOI
 date:
-- type: published
-  value: '2006'
+- type: issued
+  value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bowen
+      completename:
+        content: Bowen, P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hash
+      completename:
+        content: Hash, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
+      completename:
+        content: Wilson, M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84044417
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This Information Security Handbook provides a broad overview of information
+    security program elements to assist managers in understanding how to establish
+    and implement an information security program. Typically, the organization looks
+    to the program for overall responsibility to ensure the selection and implementation
+    of appropriate security controls and to demonstrate the effectiveness of satisfying
+    their stated security requirements. The topics within this document were selected
+    based on the laws and regulations relevant to information security, including
+    the Clinger-Cohen Act of 1996, the Federal Information Security Management Act
+    (FISMA) of 2002, and Office of Management and Budget (OMB) Circular A-130. The
+    material in this handbook can be referenced for general information on a particular
+    topic or can be used in the decision making process for developing an information
+    security program. National Institute of Standards and Technology (NIST) Interagency
+    Report (IR) 7298, Glossary of Key Information Security Terms, provides a summary
+    glossary for the basic security terms used throughout this document. While reading
+    this handbook, please consider that the guidance is not specific to a particular
+    agency. Agencies should tailor this guidance according to their security posture
+    and business requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-100
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-125A
 title:
 - content: Security recommendations for hypervisor deployment on servers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-125A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-125A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-125A
@@ -21,50 +20,64 @@ docid:
 - id: 10.6028/NIST.SP.800-125A
   type: DOI
 date:
-- type: published
-  value: '2018-01-23'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2018-01-23'
-script:
-- Latn
+abstract:
+- content: The Hypervisor is a collection of software modules that provides virtualization
+    of hardware resources (such as CPU/GPU, Memory, Network and Storage) and thus
+    enables multiple computing stacks (basically made of an OS and Application programs)
+    called Virtual Machines (VMs) to be run on a single physical host. In addition,
+    it may have the functionality to define a network within the single physical host
+    (called virtual network) to enable communication among the VMs resident on that
+    host as well as with physical and virtual machines outside the host. With all
+    this functionality, the hypervisor has the responsibility to mediate access to
+    physical resources, provide run time isolation among resident VMs and enable a
+    virtual network that provides security-preserving communication flow among the
+    VMs and between the VMs and the external network. The architecture of a hypervisor
+    can be classified in different ways. The security recommendations in this document
+    relate to ensuring the secure execution of baseline functions of the hypervisor
+    and are therefore agnostic to the hypervisor architecture. Further, the recommendations
+    are in the context of a hypervisor deployed for server virtualization and not
+    for other use cases such as embedded systems and desktops. Recommendations for
+    secure configuration of virtual network are dealt with in a separate NIST document
+    (SP 800-125B).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-125A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

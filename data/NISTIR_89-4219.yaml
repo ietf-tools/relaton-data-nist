@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR89-4219
 title:
 - content: Ventilation and air quality investigation of the Madison Building phase
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.89-4219
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir89-4219.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 89-4219
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.89-4219
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew K
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
+      completename:
+        content: Persily, Andrew K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098896
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Stuart
-          script:
-          - Latn
-      surname:
-        content: Dols
-        script:
-        - Latn
+      completename:
+        content: Dols, W. Stuart.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003054410
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 89-4219
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

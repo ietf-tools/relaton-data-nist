@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-204
 title:
 - content: Certification of Standard Reference Material 2686b Portland Cement Clinker
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-204
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-204.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-204
@@ -21,73 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.260-204
   type: DOI
 date:
-- type: published
-  value: '2021-04-12'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Stutzman, Paul.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Laura
-          script:
-          - Latn
-      surname:
-        content: Mundy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mundy, Laura
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Heckert, Alan
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-12'
-script:
-- Latn
 abstract:
 - content: A new Standard Reference Material (SRM) for portland cement clinker has
     been produced for the Office of Standard Reference Materials at the National Institute
@@ -117,16 +82,22 @@ abstract:
     based upon the Horn-Horn-Duncan variance estimate. Reference values are best estimates
     based upon a single measurement technique. Reference values are provided for phases
     periclase, arcanite, aphthitalite, and lime from only the XRD data.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-204
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

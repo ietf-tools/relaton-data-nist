@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC770
 title:
-- content: Letter Circular 770:expanded table of weights per United States gallon
-    and weights per cubic foot of sugar 9sucrose) solutions at 20 [degrees] C
+- content: Letter Circular 770
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: expanded table of weights per United States gallon and weights per cubic
+    foot of sugar 9sucrose) solutions at 20¿̐ưC
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 770 - expanded table of weights per United States gallon
+    and weights per cubic foot of sugar 9sucrose) solutions at 20¿̐ưC
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.770
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular770.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 770
@@ -22,59 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.770
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1944'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Carl F
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Lester D
-          script:
-          - Latn
-      surname:
-        content: Hammond
-        script:
-        - Latn
+      completename:
+        content: '"Snyder, Carl F."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1944'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '770'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1981
 title:
 - content: Users guide to HVAC-Cx v2.2
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1981
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1981.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1981
@@ -21,67 +20,64 @@ docid:
 - id: 10.6028/NIST.TN.1981
   type: DOI
 date:
-- type: published
-  value: '2017-12-06'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A
-          script:
-          - Latn
-      surname:
-        content: Galler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Galler, Michael A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007101805
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Natascha
-          script:
-          - Latn
-      surname:
-        content: Milesi-Ferretti
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Milesi-Ferretti, Natascha.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-12-06'
-script:
-- Latn
+abstract:
+- content: HVAC-Cx is a software tool designed to facilitate performance analysis
+    for mechanical equipment buildings. It is used for ongoing monitoring and provides
+    the ability to detect faults related to improper operation, using expert rules
+    to present results of the most likely fault causes and to assist in documenting
+    results. The goal is to optimize the system performance in terms of occupant comfort,
+    energy management and equipment life. It was conceived exclusively for tertiary
+    buildings equipped with one (or several) AHUs, terminal units, chiller loops,
+    and chillers. The commissioning methods developed can be applied to several types
+    of equipment and custom rules can be introduced. The structure includes future
+    expansion capabilities for the analysis of chillers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1981'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

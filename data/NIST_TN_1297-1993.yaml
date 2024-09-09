@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1297-1993
 title:
 - content: Guidelines for evaluating and expressing the uncertainty of NIST measurement
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1297-1993
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1297-1993.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1297-1993
@@ -22,67 +21,65 @@ docid:
 - id: 10.6028/NIST.TN.1297-1993
   type: DOI
 date:
-- type: published
-  value: 2018-01
+- type: issued
+  value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Barry N
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Taylor, B. N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85084930
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris E
-          script:
-          - Latn
-      surname:
-        content: Kuyatt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Kuyatt, Chris E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95079399
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2018-01
-script:
-- Latn
+abstract:
+- content: Results of measurements and conclusions derived from them constitute much
+    of the technical information produced by NIST. It is generally agreed that the
+    usefulness of measurement results, and thus much of the information that we provide
+    as an institution, is to a large extent determined by the quality of the statements
+    of uncertainty that accompany them. For example, only if quantitative and thoroughly
+    documented statements of uncertainty accompany the results of NIST calibrations
+    can the users of our calibration services establish their level of traceability
+    to the U.S. standards of measurement maintained at NIST.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
-  number: 1297-1993
+  number: '1297'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

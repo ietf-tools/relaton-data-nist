@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8359
 title:
-- content: Evaluation of resistance strain gages at elevated temperatures :progress
+- content: Evaluation of resistance strain gages at elevated temperatures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report no. 16
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Evaluation of resistance strain gages at elevated temperatures - progress
     report no. 16
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8359
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8359.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8359
@@ -22,75 +35,68 @@ docid:
 - id: 10.6028/NBS.RPT.8359
   type: DOI
 date:
-- type: published
-  value: '1964'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J T
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: J T
-          script:
-          - Latn
-      surname:
-        content: Trumbo
-        script:
-        - Latn
+      completename:
+        content: Trumbo, J. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          script:
-          - Latn
-      surname:
-        content: Bloss
-        script:
-        - Latn
+      completename:
+        content: Bloss, R. L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1964'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Type FNW-FB-9-50-12 resistance strain gages, manufactured by the Baldwin-Lima-Hamilton
+    Corporation, were evaluated. The results of these tests indicate that the gage
+    factor for compressive loading is somewhat higher than for tensile loading; that
+    the gage factor decreases with increasing temperature by about one-half percent
+    per 100¿̐¿ F; that large errors can be expected when strains greater than 0.002
+    are measured; that the gages are well compensated for resistance instability;
+    that the temperature sensitivity is low and repeatable from gage to gage, but
+    the gage response is strongly affected by heating rate; and that the leakage resistance
+    is influenced by temperature and the thermal history of the gage.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8359'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

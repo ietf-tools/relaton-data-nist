@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6949
 title:
 - content: Infrared thermography for nondestructive evaluation of fiber reinforced
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6949
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6949.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6949
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.6949
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Monica A
-          script:
-          - Latn
-      surname:
-        content: Starnes
-        script:
-        - Latn
+      completename:
+        content: Starnes, Monica A. (Monica Anastasia)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008150910
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas J
-          script:
-          - Latn
-      surname:
-        content: Carino
-        script:
-        - Latn
+      completename:
+        content: Carino, Nicholas J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83169750
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6949'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

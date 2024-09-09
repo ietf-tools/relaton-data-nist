@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6337sup
 title:
 - content: Output characteristics of series-series transformers with multiple lamps
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6337sup
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6337sup.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6337sup
@@ -22,46 +21,33 @@ docid:
 - id: 10.6028/NBS.RPT.6337sup
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James E
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
+      completename:
+        content: Davis, James E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1960'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: 6337sup
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

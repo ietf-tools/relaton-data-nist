@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4741
 title:
-- content: Development of optimum runway lights for jet aircraft :interim report no.
-    1
+- content: Development of optimum runway lights for jet aircraft
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: interim report no. 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Development of optimum runway lights for jet aircraft - interim report
+    no. 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4741
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4741.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4741
@@ -22,117 +35,59 @@ docid:
 - id: 10.6028/NBS.RPT.4741
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C A
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: C A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Douglas
+      completename:
+        content: Douglas, C. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2001062774
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: I
-          language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nimeroff
+      completename:
+        content: Nimeroff, Isadore.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00052129
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A N
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: A N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hill
+      completename:
+        content: Hill, A. N.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1956'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4741'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

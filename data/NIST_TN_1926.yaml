@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1926
 title:
-- content: Energetics of Small and Moderate-Scale Gaseous Pool Fires
+- content: Energetics of small and moderate-scale gaseous pool fires
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1926
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1926.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1926
@@ -21,50 +20,58 @@ docid:
 - id: 10.6028/NIST.TN.1926
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony P.
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: A series of measurements were made to characterize the global properties
+    of moderate-sized pool fires steadily burning in a quiescent environment. A wide
+    range of parameters were considered including lightly and heavily sooting hydrocarbon
+    fuels (methane, propane and acetylene), burners varying from 0.1 m to 1.0 m in
+    diameter, and total heat release rates from about 0.4 kW to 200 kW. These conditions
+    yielded flames that were 0.1 m to 2 m in mean height. Measurements were made characterizing
+    the time-averaged mass burning rate and the distributions of radiative heat flux
+    emitted. The data allowed determination of the fraction of the enthalpy released
+    as radiation, a key global parameter characterizing a fire. The heat feedback
+    to the fuel surface was modeled and compared to measurements. Hundreds of measurements
+    were made in scores of experiments, which were distilled into a handful of time-averaged
+    quantities per experiment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1926'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-140C
 title:
-- content: CMVP approved security functions:CMVP validation authority updates to ISOIEC
-    24759
+- content: CMVP approved security functions
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: CMVP validation authority updates to ISO/IEC 24759
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: CMVP approved security functions - CMVP validation authority updates to
+    ISO/IEC 24759
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-140C
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-140C.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-140C
@@ -22,50 +35,47 @@ docid:
 - id: 10.6028/NIST.SP.800-140C
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kim
-          script:
-          - Latn
-      surname:
-        content: Schaffer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Schaffer, Kim.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: NIST Special Publication (SP) 800-140C replaces the approved security functions
+    of ISO/IEC 19790 Annex C. As a validation authority, the Cryptographic Module
+    Validation Program (CMVP) may supersede this Annex in its entirety. This document
+    supersedes ISO/IEC 19790 Annex C and ISO/IEC 24759 6.15.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-140C
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP2000-02
 title:
 - content: Conformity assessment considerations for federal agencies
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.2000-02
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.2000-02.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 2000-02
@@ -21,67 +20,64 @@ docid:
 - id: 10.6028/NIST.SP.2000-02
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Carnahan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Carnahan, Lisa,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016018633
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amy
-          script:
-          - Latn
-      surname:
-        content: Phelps
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Phelps, Amy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022088415
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: This document provides those not fully familiar with the field of conformity
+    assessment an introduction to the complexities in developing, operating, using
+    or relying on conformity assessment programs to meet Federal legislation or Federal
+    government agency missions, regulations, or procurement requirements. We hope
+    this document is informative and serves to enhance understanding of the purpose
+    and nature of various aspects of conformity assessment and their application and
+    use in Federal agency conformity assessment programs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 2000-02
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

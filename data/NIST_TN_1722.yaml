@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1722
 title:
 - content: Simple Estimates of Combined Stairwell / Elevator Egress in Buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1722
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1722.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1722
@@ -21,119 +20,73 @@ docid:
 - id: 10.6028/NIST.TN.1722
   type: DOI
 date:
-- type: published
-  value: 2013-02
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reneke
+      completename:
+        content: Reneke, Paul A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory, Fire Research Division
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008048705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Piotr
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tofilo
+      completename:
+        content: Tofilo, Piotr.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory, Fire Research Division
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073251
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Peacock, Richard D.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory, Fire Research Division
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bryan L.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoskins
+      completename:
+        content: Hoskins, Bryan L.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory, Fire Research Division
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012138959
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory, Fire Research Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-02
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1722'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

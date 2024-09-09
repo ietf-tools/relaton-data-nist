@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1291
 title:
-- content: Workshop on Incorporating Climate Change Data in U.S. Building Codes and
-    Standards
+- content: Workshop on incorporating climate change data in U.S. building codes and
+    standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1291
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1291.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1291
@@ -22,46 +21,109 @@ docid:
 - id: 10.6028/NIST.SP.1291
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jason D
-          script:
-          - Latn
-      surname:
-        content: Averill
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Averill, Jason D.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: McAllister, Terri.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1733-4667"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Persily, Andrew K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9542-3318"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Weaver, Scott.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Whetstone, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5139-9176"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kuperberg, Michael.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Nigam, Sumant.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Ruiz-Barradas, Alfredo.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: NIST hosted a workshop to advance the availability of climate information
+    sought by organizations developing standards, model building codes, and voluntary
+    certifications by convening interactions between the building codes and climate
+    science communities.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1291'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

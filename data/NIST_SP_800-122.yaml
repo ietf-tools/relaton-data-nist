@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-122
 title:
 - content: Guide to protecting the confidentiality of Personally Identifiable Information
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-122
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-122
@@ -22,124 +21,71 @@ docid:
 - id: 10.6028/NIST.SP.800-122
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: E
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCallister
+      completename:
+        content: McCallister, E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grance
+      completename:
+        content: Grance, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to assist Federal agencies in protecting
+    the confidentiality of personally identifiable information (PII) in information
+    systems. The document explains the importance of protecting the confidentiality
+    of PII in the context of information security and explains its relationship to
+    privacy using the the Fair Information Practices, which are the principles underlying
+    most privacy laws and privacy best practices. PII should be protected from inappropriate
+    access, use, and disclosure. This document provides practical, context-based guidance
+    for identifying PII and determining what level of protection is appropriate for
+    each instance of PII. The document also suggests safeguards that may offer appropriate
+    levels of protection for PII and provides recommendations for developing response
+    plans for incidents involving PII. Organizations are encouraged to tailor the
+    recommendations to meet their specific requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-122
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

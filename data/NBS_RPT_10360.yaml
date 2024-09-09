@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10360
 title:
 - content: A curve of growth determination of the F-values for the fourth positive
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10360
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10360.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10360
@@ -22,117 +21,59 @@ docid:
 - id: 10.6028/NBS.RPT.10360
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1970'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M J
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: M J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pilling
+      completename:
+        content: Pilling, M. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86102972
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A M
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: A M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bass
+      completename:
+        content: Bass, A. M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Braun
+      completename:
+        content: Braun, W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78076583
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1970'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10360'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

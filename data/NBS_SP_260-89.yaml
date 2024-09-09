@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP260-89
 title:
-- content: Standard Reference Materials :A fine-grained, isotropic graphite for use
-    as NBS thermophysical property RM's from 5 to 2500 K/
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a fine-grained, isotropic graphite for use as NBS thermophysical property
+    RM's from 5 to 2500 K
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - a fine-grained, isotropic graphite for use
+    as NBS thermophysical property RM's from 5 to 2500 K
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.260-89
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-89.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 260-89
@@ -22,52 +36,40 @@ docid:
 - id: 10.6028/NBS.SP.260-89
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jerome G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hust
+      completename:
+        content: Hust, J. G. (Jerome G.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82113818
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1984'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-89
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

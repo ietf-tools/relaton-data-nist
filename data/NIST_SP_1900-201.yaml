@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-201
 title:
-- content: 'Global city teams challenge 2018 kickoff and IES-city framework workshop:
-    smart and secure cities and communities challenge'
+- content: Global city teams challenge 2018 kickoff and IES-city framework workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: smart and secure cities and communities challenge
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Global city teams challenge 2018 kickoff and IES-city framework workshop
+    - smart and secure cities and communities challenge
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-201
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-201.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-201
@@ -22,67 +35,59 @@ docid:
 - id: 10.6028/NIST.SP.1900-201
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sokwoo
-          script:
-          - Latn
-      surname:
-        content: Rhee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rhee, Sokwoo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Burns, Martin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97033846
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: NIST and DHS S&T co-host the GCTC Smart and Secure Cities and Communities
+    Challenge (SC3) program. The objective is to encourage participating teams to
+    include cybersecurity and privacy as integral project elements in addition to
+    existing GCTC goals such as the replicability, scalability and sustainability
+    of technology and systems. This report highlights the first SC3 event of 2018.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-201
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

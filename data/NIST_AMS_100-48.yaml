@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-48
 title:
-- content: Cost-effective environmental sustainability :a focus on the circular economy
+- content: Cost-effective environmental sustainability
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a focus on the circular economy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Cost-effective environmental sustainability - a focus on the circular economy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-48
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-48.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-48
@@ -21,39 +34,23 @@ docid:
 - id: 10.6028/NIST.AMS.100-48
   type: DOI
 date:
-- type: published
-  value: '2022-10-24'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-10-24'
-script:
-- Latn
 abstract:
 - content: Currently, global economies are using resources and contaminating resources
     faster than they can be regenerated. This resource depletion strains the economy
@@ -62,16 +59,22 @@ abstract:
     feasible solutions that realign incentives or addresses the results of the misalignment.
     This report examines the economics of a circular economy, focusing on standards
     and technologies that might facilitate increased environmental sustainability.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-48
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

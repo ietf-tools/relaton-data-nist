@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7773
 title:
 - content: An application of combinatorial methods to conformance testing for document
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7773
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7773.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7773
@@ -22,137 +21,88 @@ docid:
 - id: 10.6028/NIST.IR.7773
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Carmelo
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Montanez
+      completename:
+        content: Montanez, Carmelo.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. Richard.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85246800
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brady
+      completename:
+        content: Brady, Mary.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84064795
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rivello
+      completename:
+        content: Rivello, Richard M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022076556
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jenise
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reyes
+      completename:
+        content: Reyes, Jenise.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Powers
+      completename:
+        content: Powers, Michael K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n99030769
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7773'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

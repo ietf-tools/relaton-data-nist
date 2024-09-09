@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-47
 title:
 - content: Security guide for interconnecting information technology systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-47
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-47.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-47
@@ -21,175 +20,110 @@ docid:
 - id: 10.6028/NIST.SP.800-47
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grance
+      completename:
+        content: Grance, T.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hash
+      completename:
+        content: Hash, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peck
+      completename:
+        content: Peck, Samuel,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr96002687
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, J.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2003003208
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Korow-Diks
+      completename:
+        content: Korow-Diks, K.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'The Security Guide for Interconnecting Information Technology Systems
+    provides guidance for planning, establishing, maintaining, and terminating interconnections
+    between information technology (IT) systems that are owned and operated by different
+    organizations. They are consistent with the requirements specified in the Office
+    of Management and Budget (OMB) Circular A-130, Appendix III, for system interconnection
+    and information sharing. A system interconnection is defined as the direct connection
+    of two or more IT systems for the purpose of sharing data and other information
+    resources. The document describes benefits of interconnecting IT systems, defines
+    the basic components of an interconnection, identifies methods and levels of interconnectivity,
+    and discusses potential security risks. The document then presents a life-cycle
+    approach for system interconnections, with an emphasis on security. Four phases
+    are addressed: a) Planning the interconnection: the organizations perform preliminary
+    activities; examine technical, security, and administrative issues; and form an
+    agreement governing the management, operation, and use of the interconnection;
+    b) Establishing the interconnection: the organizations develop and execute a plan
+    for establishing the interconnection, including implementing or configuring security
+    controls; c) Maintaining the interconnection: the organizations maintain the interconnection
+    after it is established to ensure that it operates properly and securely; and
+    d) Disconnecting the interconnection: one or both organizations may terminate
+    the interconnection. The termination should be conducted in a planned manner to
+    avoid disrupting the other party''s system. In an emergency, however, one or both
+    organizations may choose to terminate the interconnection immediately. The document
+    provides recommended steps for completing each phase, emphasizing security measures
+    to protect the systems and shared data. The document also contains guides and
+    samples for developing an Interconnection Security Agreement (ISA) and a Memorandum
+    of Understanding/Agreement (MOU/A). The ISA specifies technical and security requirements
+    of the interconnection; the MOU/A defines the responsibilities of the organizations.
+    Finally, the document contains a guide for developing an Implementation Plan to
+    establish the interconnection.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-47
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

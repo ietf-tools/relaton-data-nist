@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP400-51
 title:
 - content: A production-compatible microelectronic test pattern for evaluating photomask
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.400-51
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication400-51.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 400-51
@@ -22,93 +21,51 @@ docid:
 - id: 10.6028/NBS.SP.400-51
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T J
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: T J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Russell
+      completename:
+        content: Russell, T. J. (Thomas James),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79006552
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D A
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: D A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Maxwell
+      completename:
+        content: Maxwell, Dwight A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79003703
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 400-51
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

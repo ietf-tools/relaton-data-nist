@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP862
 title:
 - content: 1994 Northridge earthquake
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.862
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication862.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 862
@@ -21,200 +20,113 @@ docid:
 - id: 10.6028/NIST.SP.862
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Diana
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Todd
+      completename:
+        content: Todd, Diana.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94081121
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Diana
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Todd
+      completename:
+        content: Carino, Nicholas.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carino
+      completename:
+        content: Chung, R. M. (Riley M.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016081
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Riley M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chung
+      completename:
+        content: Lew, H. S. (Hai Sang)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50049233
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H S
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: H S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lew
+      completename:
+        content: Taylor, A. W. (Andrew W.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88046564
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
+      completename:
+        content: Walton, W. Douglas.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walton
+      completename:
+        content: Cooper, James D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84122083
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cooper
+      completename:
+        content: Nimis, Roland.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Roland
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nimis
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003055648
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1994'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '862'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

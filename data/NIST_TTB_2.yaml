@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTTB2
 title:
-- content: Filing rate and transfer rate at NIST :an examination of invention disclosures,
+- content: Filing rate and transfer rate at NIST
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: an examination of invention disclosures, patent applications, and invention
+    licenses
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Filing rate and transfer rate at NIST - an examination of invention disclosures,
     patent applications, and invention licenses
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TTB.2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ttb/NIST.TTB.2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TTB 2
@@ -22,39 +36,23 @@ docid:
 - id: 10.6028/NIST.TTB.2
   type: DOI
 date:
-- type: published
-  value: '2021-05-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Hall
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Hall, Michael.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-05-28'
-script:
-- Latn
 abstract:
 - content: This paper applies technology-transfer efficiency metrics filing rate and
     transfer rate proposed in the academic literature on technology transfer to data
@@ -69,16 +67,22 @@ abstract:
     result in licensing at a lower rate. An important caveat about these measures
     is that their values are influenced by the nature of research conducted, the organization's
     mission, and the organization's policies towards intellectual property.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technology Transfer Brief
+    content: NIST technology transfer brief; NIST TTB
     format: text/plain
-  abbreviation:
-    content: TTB
   number: '2'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP565
 title:
 - content: A history of walkway slip-resistance research at the National Bureau of
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.565
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication565.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 565
@@ -22,69 +21,66 @@ docid:
 - id: 10.6028/NBS.SP.565
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sanford C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Adler
+      completename:
+        content: Adler, Sanford C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80022569
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pierman
+      completename:
+        content: Pierman, Brian C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78048606
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The report summarizes NBS research in the area of walkway and shoe slip-resistance
+    measurement since 1924 and outlines current activities that will provide a technical
+    basis for slip-resistance measurement. Current activities in data base development
+    and identification of standard reference surfaces contribute to a rational basis
+    for quantitative slip-resistance criteria for building codes and standards. Proposed
+    future research thrusts include personal factors such as human biokinetic and
+    perceptual variables, as well as environmental factors such as lighting in the
+    built environment. The research will contribute to the development of new intervention
+    strategies to reduce deaths and injuries due to slips and falls.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '565'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

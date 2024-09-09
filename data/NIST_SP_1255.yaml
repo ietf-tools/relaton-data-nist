@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1255
 title:
 - content: Polymer surface-interface consortium 2018 workshop report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1255
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1255.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1255
@@ -21,101 +20,88 @@ docid:
 - id: 10.6028/NIST.SP.1255
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald S
-          script:
-          - Latn
-      surname:
-        content: Lankone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lankone, Ronald S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David G
-          script:
-          - Latn
-      surname:
-        content: Goodwin Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Goodwin Jr., David G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Fairbrother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fairbrother, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Li-Piin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Li-Piin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: The Polymer Surface/Interface (PSI) consortium held a two-day workshop
+    at the National Institute of Standards and Technology (NIST) in Gaithersburg,
+    MD on October 17th & 18th, 2018 titled, 'The development of characterization tools,
+    test methods, modeling approaches, and improvement of environmental stress simulation
+    for plastics, coatings, interfaces, and composites.' Day 1 of the workshop was
+    open to PSI members, prospective industrial partners, and the general NIST community.
+    It was structured around invited speakers and short presentations (10-15 minutes
+    in length) in the morning, followed by two open panel discussions in the afternoon.
+    Day 2 of the workshop was reserved for PSI business for consortium members and
+    interested prospective members only. Participants in this workshop included PSI's
+    present members (NIST Engineering Laboratory, Eastman Chemical, Anton Paar, The
+    Boeing Co. (invited but unable to attend), Dow Chemical, SABIC, and Saint-Gobain)
+    as well as prospective industrial partners. The purpose of this workshop, as articulated
+    to members and invitees, was to identify research gaps and delineate future needs
+    through (1) discussion of the current state of the science for service life prediction
+    (SLP) of polymeric systems exposed to environmental stresses; (2) exchange of
+    recent developments in characterization tools, test methods, modeling approaches,
+    and environmental stress simulation for plastics, coatings, interfaces, and composites;
+    and (3) facilitation of industrial collaborations with NIST to establish weathering
+    correlations on industrial-relevant chemistries and exposure sites/conditions
+    in conjunction with SPHERE exposure experiments. The purpose of this report is
+    to both summarize the broad array of topics presented, as well as communicate
+    the major themes, research needs, and future technological and collaborative directions
+    covered during the panel discussions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1255'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

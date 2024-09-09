@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2149
 title:
 - content: UE-to-network relay model B discovery in ProSe-enabled LTE networks
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2149
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2149.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2149
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.TN.2149
   type: DOI
 date:
-- type: published
-  value: '2021-04-06'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alexandre
-          script:
-          - Latn
-      surname:
-        content: Moreaux
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Moreaux, Alexandre.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Samantha
-          script:
-          - Latn
-      surname:
-        content: Gamboa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Gamboa, Samantha.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Griffith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Griffith, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Rouil
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Rouil, Richard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Communications Technology Laboratory
   role:
   - type: publisher
-revdate: '2021-04-06'
-script:
-- Latn
 abstract:
 - content: In this paper, we expand previous analytical models to offer a more complete
     representation of Model B ProSe direct discovery. Using these models, we can obtain
@@ -114,16 +70,22 @@ abstract:
     number of Relay UEs, and the Discovery message transmission rate. We use ns- 3
     system level simulations to validate our analytical model and determine the optimal
     strategy for UEs to use in various deployment scenarios.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2149'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

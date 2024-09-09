@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-36
 title:
 - content: Uncertainties for machine tool modeling
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-36
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-36.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-36
@@ -21,67 +20,63 @@ docid:
 - id: 10.6028/NIST.AMS.100-36
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Guodong
-          script:
-          - Latn
-      surname:
-        content: Shao
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Shao, Guodong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Stann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Stann, William.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: Machine tool models play an important role to support decision-making for
+    machine tool procurement, process planning, and production scheduling in manufacturing.
+    However, it is challenging to have a machine model that is accurately and dynamically
+    representing the real machine due to modeling uncertainties. Modeling uncertainties
+    and errors can be introduced during the model development process (i.e., when
+    a machine model is created from scratch) and the model conversion process (i.e.,
+    when a machine model in one format needs to be converted into another format,
+    e.g., from a vendor-specific format to a neutral format such as STandard Exchange
+    of Product Data (STEP)). This paper identifies these uncertainties and particularly
+    provides a methodology to help ensure correctly converting the coordinate system
+    from one definition to another. Examples are provided to explain the methodology.
+    We also discuss digital twins of machine tools, which would be an integrated solution
+    for addressing most of the modeling uncertainties to constantly monitor the status
+    of the machine tool, dynamically update the model parameters, and in turn optimally
+    control the machine tool.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-36
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

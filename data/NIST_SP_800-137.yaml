@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-137
 title:
 - content: Information Security Continuous Monitoring (ISCM) for federal information
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-137
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-137.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-137
@@ -22,262 +21,113 @@ docid:
 - id: 10.6028/NIST.SP.800-137
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K L
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: K L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dempsey
+      completename:
+        content: Dempsey, K. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N S
-          language:
-          - en
-          script:
-          - Latn
-          initial: N
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: N S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chawla
+      completename:
+        content: Chawla, N. S.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, L. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012562
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnston
+      completename:
+        content: Johnston, R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A C
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: A C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jones
+      completename:
+        content: Jones, A. C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A D
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: A D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orebaugh
+      completename:
+        content: Orebaugh, A. D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M A
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: M A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scholl
+      completename:
+        content: Scholl, M. A. (Martha A.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95108546
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K M
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: K M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stine
+      completename:
+        content: Stine, K. M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The purpose of this guideline is to assist organizations in the development
+    of a continuous monitoring strategy and the implementation of a continuous monitoring
+    program providing visibility into organizational assets, awareness of threats
+    and vulnerabilities, and visibility into the effectiveness of deployed security
+    controls. It provides ongoing assurance that planned and implemented security
+    controls are aligned with organizational risk tolerance as well as the information
+    needed to respond to risk in a timely manner should observations indicate that
+    the security controls are inadequate.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-137
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5588
 title:
 - content: Climatic charts of the surface refractivity for Germany
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5588
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5588.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5588
@@ -21,75 +20,79 @@ docid:
 - id: 10.6028/NBS.RPT.5588
   type: DOI
 date:
-- type: published
-  value: 1958-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B R
-          script:
-          - Latn
-          initial: B
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: B R
-          script:
-          - Latn
-      surname:
-        content: Bean
-        script:
-        - Latn
+      completename:
+        content: Bean, B. R. (Bradford R.),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90690082
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A M
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: A M
-          script:
-          - Latn
-      surname:
-        content: Ozanich
-        script:
-        - Latn
+      completename:
+        content: Ozanich, A. M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1958-07
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: 'In recent years there has been an increased utilization of meteoro¿̐¿
+    logical information for the prediction of radio field strengths at fre¿̐¿ quencies
+    of 50 Me. and above. Various studies have used radiosonde measurements to describe
+    the effect of elevated superrefractive layers _1/_, the gross gradient in the
+    first kilometer of the earth''s atmosphere _2,_3/_, and, more recently, it has
+    been shown that the long term mean value of the radio transmission loss may be
+    represented as a linear function of the surface value of the radio refractivity
+    as derived from surface weather observations. The refractivity, Ns is given by
+    _8/_: N = (n - 1) 10^6 = 77.6/T [ Ps + 4810 es RH/T ] where P is the station pressure
+    in millibars, RH is the percent of the saturation vapor pressure, es , in millibars
+    at the absolute temperatures T, in degrees Kelvin, and n is the refractive index.
+    The data used in the present study were obtained from the Kopenhagener Schluessel
+    deck of the punched card library of the National Weather Records Center, U. S.
+    Weather Bureau. The location of the weather stations used in this study are shown
+    on Fig. 1, and are specified in more detail in Table I. The choice of stations
+    was made so as to give detailed geographic coverage for the arbitrarily chosen
+    two year period.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5588'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

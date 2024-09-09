@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6388e2001
 title:
 - content: Celebrating one hundred years of chemistry at the National Institute of
-    Standards and Technology:Chemical Science and Technology Laboratory
+    Standards and Technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Chemical Science and Technology Laboratory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Celebrating one hundred years of chemistry at the National Institute of
+    Standards and Technology - Chemical Science and Technology Laboratory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6388e2001
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6388e2001.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6388e2001
@@ -22,98 +36,77 @@ docid:
 - id: 10.6028/NIST.IR.6388e2001
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Hratch G
-          script:
-          - Latn
-      surname:
-        content: Semerjian
-        script:
-        - Latn
+      completename:
+        content: Semerjian, Hratch G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91005478
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F
-          script:
-          - Latn
-      surname:
-        content: Koch
-        script:
-        - Latn
+      completename:
+        content: Koch, William F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87843677
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ellyn S
-          script:
-          - Latn
-      surname:
-        content: Beary
-        script:
-        - Latn
+      completename:
+        content: Beary, Ellyn S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael S
-          script:
-          - Latn
-      surname:
-        content: Epstein
-        script:
-        - Latn
+      completename:
+        content: Epstein, Michael S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92016762
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory B
-          script:
-          - Latn
-      surname:
-        content: Vasquez
-        script:
-        - Latn
+      completename:
+        content: Vasquez, Gregory B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 6388e2001
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

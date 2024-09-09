@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3921
 title:
 - content: Liquid-vapor phase equilibrium in solutions of oxygen and nitrogen at pressures
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3921
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3921.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3921
@@ -22,72 +21,83 @@ docid:
 - id: 10.6028/NBS.RPT.3921
   type: DOI
 date:
-- type: published
-  value: 1955-01
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George T
-          script:
-          - Latn
-      surname:
-        content: Armstrong
-        script:
-        - Latn
+      completename:
+        content: Armstrong, George Thomson,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81040759
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jack M
-          script:
-          - Latn
-      surname:
-        content: Goldstein
-        script:
-        - Latn
+      completename:
+        content: Goldstein, Jack M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D Ellis
-          script:
-          - Latn
-      surname:
-        content: Roberts
-        script:
-        - Latn
+      completename:
+        content: Roberts, D. Ellis.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1955-01
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: A cryostat and equilibrium vessel together with auxiliary apparatus for
+    establishing equilibrium between liquid and vapor phases of solutions of low boiling
+    material by a circulation method is described. The equilibrium vessel incorporates
+    a novel liquid sampling device. Vapor and liquid compositions and total vapor
+    pressures of solutions of oxygen and nitrogen were measured along isotherms at
+    77.5[degrees], 70[degrees] and 65[degrees]K. The activity coefficients of nitrogen
+    and oxygen may be represented by equations of the form [...] cal/cm^ mole has
+    the values 1.22 at 77.5[degrees], 1.38 at 70[degrees] and 1.47 at 65[degrees]K.
+    The deviations of the solutions from ideality are much less than is to be expected
+    of regular solutions, in which the interaction energy between unlike molecules
+    follows a geometric mean law. The data are not entirely consistent with the assumption
+    that molar volumes are additive in the solutions. In an appendix a study of the
+    vapor pressure of nitrogen is described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '3921'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

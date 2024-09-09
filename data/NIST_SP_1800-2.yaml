@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-2
 title:
 - content: Identity and access management for electric utilities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-2
@@ -21,135 +20,110 @@ docid:
 - id: 10.6028/NIST.SP.1800-2
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          script:
-          - Latn
-      surname:
-        content: McCarthy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCarthy, Jim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92118514
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Don
-          script:
-          - Latn
-      surname:
-        content: Faatz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Faatz, Don.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harry
-          script:
-          - Latn
-      surname:
-        content: Perper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Perper, Harry.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Peloquin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Peloquin, Chris.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Wiltberger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wiltberger, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Leah
-          script:
-          - Latn
-      surname:
-        content: Kauffman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kauffman, Leah.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: To protect power generation, transmission, and distribution, energy companies
+    need to control physical and logical access to their resources, including buildings,
+    equipment, information technology (IT), and operational technology (OT). They
+    must authenticate authorized individuals to the devices and facilities to which
+    they are giving access rights with a high degree of certainty. In addition, they
+    need to enforce access control policies (e.g., allow, deny, inquire further) consistently,
+    uniformly, and quickly across all of their resources. This project resulted from
+    direct dialog among NCCoE staff and members of the electricity subsector, mainly
+    from electric power companies and those who provide equipment and/or services
+    to them. The goal of this project is to demonstrate a converged, standards-based
+    technical approach that unifies identity and access management (IdAM) functions
+    across OT networks, physical access control systems (PACS), and IT systems. These
+    networks often operate independently, which can result in identity and access
+    information disparity, increased costs, inefficiencies, and loss of capacity and
+    service delivery capability. This guide describes our collaborative efforts with
+    technology providers and electric utility stakeholders to address the security
+    challenges energy providers face in the core function of IdAM. It offers a technical
+    approach to meeting the challenge and also incorporates a business value mind-set
+    by identifying the strategic considerations involved in implementing new technologies.
+    This NIST Cybersecurity Practice Guide provides a modular, open, end-to-end example
+    solution that can be tailored and implemented by energy providers of varying sizes
+    and sophistication. It shows energy providers how we met the challenge using open
+    source and commercially available tools and technologies that are consistent with
+    cybersecurity standards.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

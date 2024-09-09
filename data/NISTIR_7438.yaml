@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7438
 title:
-- content: Calibrating image roughness by estimating Lipschitz exponents, with application
+- content: Calibrating image roughness by estimating lipschitz exponents, with applications
     to image restoration
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7438
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7438.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7438
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.7438
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alfred S
-          script:
-          - Latn
-      surname:
-        content: Carasso
-        script:
-        - Latn
+      completename:
+        content: Carasso, Alfred S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001017062
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: András E
-          script:
-          - Latn
-      surname:
-        content: Vladár
-        script:
-        - Latn
+      completename:
+        content: Vladár, András E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139129
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2007'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7438'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

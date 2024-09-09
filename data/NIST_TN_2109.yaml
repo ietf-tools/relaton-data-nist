@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2109
 title:
-- content: Physical Models and Dimensional Traceability of WR15 Rectangular Waveguide
-    Standards for Determining Systematic Uncertainties of Calibrated Scattering-Parameters
+- content: Physical models and dimensional traceability of WR15 rectangular waveguide
+    standards for determining systematic uncertainties of calibrated scattering-parameters
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2109
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2109.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2109
@@ -22,186 +21,115 @@ docid:
 - id: 10.6028/NIST.TN.2109
   type: DOI
 date:
-- type: published
-  value: '2020-08-10'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey A.
-          script:
-          - Latn
-      surname:
-        content: Jargon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jargon, Jeffrey A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dylan F.
-          script:
-          - Latn
-      surname:
-        content: Williams
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Williams, Dylan F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Angela C.
-          script:
-          - Latn
-      surname:
-        content: Stelson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Stelson, Angela C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christian J.
-          script:
-          - Latn
-      surname:
-        content: Long
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Long, Christian J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aaron M.
-          script:
-          - Latn
-      surname:
-        content: Hagerstrom
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hagerstrom, Aaron M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul D.
-          script:
-          - Latn
-      surname:
-        content: Hale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hale, Paul D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John R.
-          script:
-          - Latn
-      surname:
-        content: Stoup
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Stoup, John R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric S.
-          script:
-          - Latn
-      surname:
-        content: Stanfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Stanfield, Eric S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wei
-          script:
-          - Latn
-      surname:
-        content: Ren
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Ren, Wei.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-08-10'
-script:
-- Latn
+abstract:
+- content: In this report, we document the models and dimensional traceability of
+    our WR15 rectangular waveguide standards for performing multiline thru-reflect-line
+    calibrations from 50 GHz to 75 GHz using vector network analyzers. We identify
+    the equations used in our models of the transmission-line standards and present
+    a method for determining a waveguide s metal conductivity using a closed-form
+    solution relating it to the propagation constant. Next, we provide details of
+    the traceable dimensional measurements and associated uncertainties of our WR15
+    transmission line standards. And finally, we describe how our software, the NIST
+    Microwave Uncertainty Framework, is used to implement physical models of calibration
+    standards and propagate these systematic uncertainties to the calibrated scattering-parameters
+    of a device under test. We include a measurement example for illustrative purposes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2109'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

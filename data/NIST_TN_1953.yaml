@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1953
 title:
 - content: Propane gas fire experiments in residential scale structures
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1953
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1953.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1953
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.TN.1953
   type: DOI
 date:
-- type: published
-  value: 2017-02
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph M
-          script:
-          - Latn
-      surname:
-        content: Willi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Willi, Joseph M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-02
-script:
-- Latn
+abstract:
+- content: Nine full-scale fire experiments were conducted in two residential-scale
+    structures to study how different fire fighting tactics, specifically horizontal,
+    vertical, and positive pressure ventilation, affect the fire environment within
+    a structure. The fire source for each experiment was provided by three propane
+    burners. Five of the tests were conducted in a structure designed to simulate
+    a single-story residential structure, and four of the tests were conducted in
+    a structure designed to simulate a two-story residential structure. The structures
+    were instrumented with sensors to collect local measurements of temperature, gas
+    velocity, heat flux, and gas concentrations at various locations during the experiments.
+    Different doors and vents were opened and closed during the tests to simulate
+    horizontal and vertical ventilation. A PPV fan was also used during some of the
+    experiments to further affect the ventilation conditions. This report contains
+    detailed descriptions of the setup and procedure used for each of the nine experiments.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1953'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-234
 title:
-- content: Characterization of Reference Materials 8690 to 8693:Per- and Polyfluoroalkyl
-    Substances (PFAS) in Four Formulations of Aqueous Film-Forming Foams (AFFFs)
+- content: Characterization of Reference Materials 8690 to 8693
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: per- and polyfluoroalkyl substances (PFAS) in four formulations of aqueous
+    film-forming foams (AFFFs)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Characterization of Reference Materials 8690 to 8693 - per- and polyfluoroalkyl
+    substances (PFAS) in four formulations of aqueous film-forming foams (AFFFs)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-234
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-234.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-234
@@ -22,46 +36,66 @@ docid:
 - id: 10.6028/NIST.SP.260-234
   type: DOI
 date:
-- type: published
-  value: '2022'
+- type: issued
+  value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica L
-          script:
-          - Latn
-      surname:
-        content: Reiner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Reiner, Jessica L.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Place, Benjamin.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Peter, Katherine.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Rodowa, Alix.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2022'
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-234
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

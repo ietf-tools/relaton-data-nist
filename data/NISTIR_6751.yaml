@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6751
 title:
 - content: Industrial autonomous vehicle project report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6751
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6751.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6751
@@ -21,98 +20,83 @@ docid:
 - id: 10.6028/NIST.IR.6751
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091704
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Maris
-          script:
-          - Latn
-      surname:
-        content: Juberts
-        script:
-        - Latn
+      completename:
+        content: Juberts, Maris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021114719
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandor
-          script:
-          - Latn
-      surname:
-        content: Szabo
-        script:
-        - Latn
+      completename:
+        content: Szabó, Sándor.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88065472
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert
-          script:
-          - Latn
-      surname:
-        content: Bunch
-        script:
-        - Latn
+      completename:
+        content: Bunch, Robert,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2015031538
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
+      completename:
+        content: Evans, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81063569
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6751'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

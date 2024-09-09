@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8457
 title:
-- content: Calibration Stability of Data Loggers Used for Vaccine Temperature Monitoring
+- content: Calibration stability of data loggers used for vaccine temperature monitoring
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8457
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8457.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8457
@@ -21,46 +20,98 @@ docid:
 - id: 10.6028/NIST.IR.8457
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michal J
-          script:
-          - Latn
-      surname:
-        content: Chojnacky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Chojnacky, Michal.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7872-6413"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Smith, Sam W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3445-1697"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Rodman, Bethany A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6713-1369"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Herman, Tobias.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-4296-6957"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Physical Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: Continuous temperature monitoring of vaccines during distribution and storage
+    is critical to ensuring vaccination efficacy. Exposure to inappropriate storage
+    temperatures can degrade vaccine potency, putting products and patients at risk
+    if excursions go undetected. Digital temperature data loggers are widely used
+    by U.S. vaccine providers to maintain a continuous record of vaccine storage temperature
+    history. However, whether specific handling or usage conditions contribute to
+    measurement drift in data loggers is not well known. Here we show that data logger
+    calibration status is largely unaffected by typical usage conditions encountered
+    at the vaccine provider level. Forty commercial digital data logger devices representing
+    eight unique models marketed for use in vaccine temperature monitoring were evaluated
+    in a two-year period during 2019-2021. The devices were calibrated upon receipt,
+    subjected to trials designed to simulate typical usage conditions, and then recalibrated
+    periodically to evaluate potential measurement drift. Simulated usage conditions
+    included daily use in vaccine refrigerators and freezers, battery changes, local
+    transport, cross-country shipment, and long-term storage. Out-of-tolerance calibration
+    measurements were extremely rare, and the few failures we detected did not appear
+    to be correlated with any of the usage trials performed during the two-year study
+    period. These findings support extending data logger recalibration intervals when
+    paired with concurrent manufacturer-supplied device stability data and/or intermediate
+    data logger verification checks performed in the field.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8457'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

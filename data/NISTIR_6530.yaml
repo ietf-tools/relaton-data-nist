@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6530
 title:
 - content: A measurement system for characterizing the detection performance of metal
-    detectors:design and operation
+    detectors
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: design and operation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A measurement system for characterizing the detection performance of metal
+    detectors - design and operation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6530
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6530.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6530
@@ -22,72 +36,52 @@ docid:
 - id: 10.6028/NIST.IR.6530
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas G Jr
-          script:
-          - Latn
-      surname:
-        content: Pauiter
-        script:
-        - Latn
+      completename:
+        content: Pauiter, Nicholas G. Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donald R
-          script:
-          - Latn
-      surname:
-        content: Larson
-        script:
-        - Latn
+      completename:
+        content: Larson, Donald R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert H Jr
-          script:
-          - Latn
-      surname:
-        content: Palm
-        script:
-        - Latn
+      completename:
+        content: Palm, Robert H. Jr.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6530'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

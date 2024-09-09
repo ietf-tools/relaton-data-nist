@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1020
 title:
-- content: Guide for labeling consumer packages by weight, volume, count, or measure
-    (length, area, or thickness)
+- content: Guide for labeling consumer package by weight, volume, count, or measure
+    (length, area or thickness)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1020
@@ -22,67 +21,79 @@ docid:
 - id: 10.6028/NIST.SP.1020
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Sefcik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sefcik, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056628
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Warfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056629
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Olson, Douglas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96098610
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: This document, 'Guide for Labeling Consumer Packages by Weight, Volume,
+    Count, or Measure (length, area, or thickness),'' is based on the Uniform Packaging
+    and Labeling Regulation (UPLR) in National Institute of Standards and Technology
+    Handbook 130, 'Uniform Laws and Regulation in the Areas of Legal Metrology and
+    Fuel Quality.'' It provides a summary of labeling requirements for consumer products
+    and commodities sold by weight, volume, count, or measure. This guide is not a
+    replacement for the UPLR. The reader should refer to the UPLR to ensure that all
+    requirements are met. This guide does not apply to wine, malted beverages and
+    distilled spirits, some packages of meat and poultry products subject to the label
+    requirements of the U.S. Department of Agriculture, and to packages labeled for
+    export.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1020'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

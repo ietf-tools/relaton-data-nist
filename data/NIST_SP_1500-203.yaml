@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-203
 title:
 - content: 'Framework for cyber-physical systems: volume 3, timing annex'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-203
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-203.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-203
@@ -21,118 +20,94 @@ docid:
 - id: 10.6028/NIST.SP.1500-203
   type: DOI
 date:
-- type: published
-  value: 2017-09
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David A
-          script:
-          - Latn
-      surname:
-        content: Wollman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wollman, David A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc A
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weiss, Marc A. (Marc Allan)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85362045
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Griffor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Griffor, Edward.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Burns, Martin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97033846
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-09
-script:
-- Latn
+abstract:
+- content: 'Cyber-Physical Systems (CPS) comprise interacting digital, analog, physical,
+    and human components engineered for function through integrated physics and logic.
+    NIST established the CPS Public Working Group (CPS PWG) to bring together a broad
+    range of CPS experts in an open public forum to help define and shape key characteristics
+    of CPS, to better manage development and implementation within and across multiple
+    smart application domains, including smart manufacturing, transportation, energy,
+    and healthcare. The resulting CPS Framework provides an organized presentation
+    of a CPS analysis methodology based on the CPS Framework core concepts of facets
+    (modes of the system engineering process: conceptualization, realization and assurance)
+    and aspects (clusters of concerns: functional, business, human, trustworthiness,
+    timing, data, composition, boundaries, and lifecycle). This volume contains additional
+    material on timing in cyber-physical systems produced by the timing subgroup,
+    which supplements information in NIST SP 1500-202.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-203
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

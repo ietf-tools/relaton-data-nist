@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1108r2
 title:
 - content: NIST framework and roadmap for smart grid interoperability standards, release
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1108r2
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1108r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1108r2
@@ -22,33 +21,59 @@ docid:
 - id: 10.6028/NIST.SP.1108r2
   type: DOI
 date:
-- type: published
-  value: 2012-02
+- type: issued
+  value: '2018'
 contributor:
+- person:
+    name:
+      completename:
+        content: |-
+          Office of the National Coordinator for Smart Grid
+                          Interoperability.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2012-02
-script:
-- Latn
+abstract:
+- content: The Energy Independence and Security Act (EISA) of 2007 requires that NIST
+    develop a framework of standards for the Smart Grid. This document is the second
+    release of the framework first published in January, 2010. It covers the activities
+    and outputs of the Smart Grid Interoperability Panel(SGIP), which is a public-private
+    partnership to support development of this NIST framework. It includes progress
+    on and plans for further development of the Conceptual Architectural Framework;
+    an update to the list of standards identified by NIST and the SGIP for the Smart
+    Grid; a description of the SGIP organization, its activities, processes, and working
+    groups, including the Priority Action Plans for addressing Smart Grid standards
+    gaps and overlaps; cybersecurity strategy and plans for and work products of the
+    SGIP Cybersecurity Working Group (CSWG); development of a framework for interoperability
+    testing and certification, including the Interoperability Process Reference Manual
+    (IPRM); and a discussion of the next steps in the development of the NIST interoperability
+    framework.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1108r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

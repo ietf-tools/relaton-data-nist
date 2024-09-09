@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-2858
 title:
-- content: Report no. 11 :observations of the April 8, 1979 railroad accident at Crestview,
-    Florida
+- content: Report no. 11
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: observations of the April 8, 1979 railroad accident at Crestview, Florida
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report no. 11 - observations of the April 8, 1979 railroad accident at
+    Crestview, Florida
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-2858
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-2858.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-2858
@@ -22,103 +35,67 @@ docid:
 - id: 10.6028/NBS.IR.84-2858
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Interrante
+      completename:
+        content: Interrante, Charles G.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Samuel R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Low
+      completename:
+        content: Low, Samuel R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001005925
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Early
+      completename:
+        content: Early, J. G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82101022
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dancer
+      completename:
+        content: Dancer, David.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1984'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-2858
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

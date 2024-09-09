@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP889
 title:
 - content: Post-earthquake fire and lifelines workshop
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.889
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication889.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 889
@@ -21,137 +20,83 @@ docid:
 - id: 10.6028/NIST.SP.889
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Riley M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chung
+      completename:
+        content: Chung, R. M. (Riley M.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016081
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Riley M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chung
+      completename:
+        content: Jason, Nora H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77011027
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nora H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jason
+      completename:
+        content: Mohraz, Bijan.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89648293
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bijan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mohraz
+      completename:
+        content: Mowrer, Frederick William.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90683467
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Frederick W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mowrer
+      completename:
+        content: Walton, W. Douglas.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: William D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walton
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '889'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

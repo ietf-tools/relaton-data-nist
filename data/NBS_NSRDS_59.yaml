@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS59
 title:
 - content: Selected specific rates of reactions of transients from water in aqueous
-    solution. :III. hydroxyl radical and perhydroxyl radical and their radical ions
+    solution
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: III. hydroxyl radical and perhydroxyl radical and their radical ions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Selected specific rates of reactions of transients from water in aqueous
+    solution - III. hydroxyl radical and perhydroxyl radical and their radical ions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.59
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds59.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 59
@@ -22,69 +36,51 @@ docid:
 - id: 10.6028/NBS.NSRDS.59
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1977'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Farhataziz
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ross
+      completename:
+        content: Ross, Farhataziz.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019172085
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alberta B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ross
+      completename:
+        content: Ross, Alberta B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79059570
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1977'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '59'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

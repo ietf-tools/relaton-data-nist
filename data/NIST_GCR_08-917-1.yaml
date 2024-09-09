@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR08-917-1
 title:
-- content: Seismic design of reinforced concrete special moment frames :a guide for
+- content: Seismic design of reinforced concrete special moment frames
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a guide for practicing engineers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Seismic design of reinforced concrete special moment frames - a guide for
     practicing engineers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.08-917-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2008/gcr08-917-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 08-917-1
@@ -22,84 +35,66 @@ docid:
 - id: 10.6028/NIST.GCR.08-917-1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jack P
-          script:
-          - Latn
-      surname:
-        content: Moehle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Moehle, Jack P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81067670
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          script:
-          - Latn
-      surname:
-        content: Hooper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Hooper, John D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011011085
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher D
-          script:
-          - Latn
-      surname:
-        content: Lubke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Building and Fire Research Laboratory
+      completename:
+        content: Lubke, Christopher D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Building and Fire Research Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91023146
   role:
   - type: publisher
-revdate: '2008'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Earthquake Hazards Reduction Program (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84052688
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: '08-917-1'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

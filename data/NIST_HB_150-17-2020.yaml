@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-17-2020
 title:
 - content: NVLAP cryptographic and security testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-17-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-17-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-17-2020
@@ -21,101 +20,83 @@ docid:
 - id: 10.6028/NIST.HB.150-17-2020
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bradley W
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Moore, Bradley W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Beverly
-          script:
-          - Latn
-      surname:
-        content: Trapnell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Trapnell, Beverly.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Fox
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Fox, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00102542
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carolyn
-          script:
-          - Latn
-      surname:
-        content: French
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: French, Carolyn.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: NIST Handbook 150-17 presents the technical requirements and guidance for
+    the accreditation of laboratories under the National Voluntary Laboratory Accreditation
+    Program (NVLAP) Cryptographic and Security Testing program. It is intended for
+    information and use by accredited laboratories, laboratories seeking accreditation,
+    laboratory accreditation systems, users of laboratory services, and others needing
+    information on the requirements for accreditation under this program. The 2020
+    edition of NIST Handbook 150-17 incorporates changes includes a new accreditation
+    scope for Automated Cryptographic Validation Testing, and updates to existing
+    testing programs are included in this handbook, as well as editorial improvements.
+    The requirements of NIST Handbook 150 and the specific requirements and interpretations
+    in NIST Handbook 150-17 must be combined to produce the criteria for accreditation
+    in the NVLAP Cryptographic and Security Testing program. For more information,
+    visit the NVLAP website, .
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-17-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

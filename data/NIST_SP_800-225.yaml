@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-225
 title:
-- content: 2022 Cybersecurity and Privacy Annual Report
+- content: 2022 cybersecurity & privacy annual report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-225
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-225.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-225
@@ -21,46 +20,93 @@ docid:
 - id: 10.6028/NIST.SP.800-225
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: O’Reilly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Reilly, Patrick D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8289-0390"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Rigopoulos, Kristina.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-5223-8801"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Feldman, Larry.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3888-027X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Witte, Greg.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5425-1097"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: 'During Fiscal Year 2022 (FY 2022) – from October 1, 2021, through September
+    30, 2022 –the NIST Information Technology Laboratory (ITL) Cybersecurity and Privacy
+    Program successfully responded to numerous challenges and opportunities in security
+    and privacy. This Annual Report highlights the FY 2022 research activities for
+    the ITL Cybersecurity and Privacy Program, including: the ongoing participation
+    and development of international standards; research and practical applications
+    in several key priority areas (e.g., Post Quantum Cryptography, updating the NIST
+    Cybersecurity Framework (CSF 2.0) and some new CSF profiles); accomplishments
+    in the area of improving software and supply chain cybersecurity; IoT cybersecurity
+    guidelines work; National Cybersecurity Center of Excellence (NCCoE) projects,
+    and setting up a new comment site for NIST’s Risk Management Framework work. NIST
+    also celebrated a 50th anniversary in cybersecurity and the NCCoE celebrated a
+    10-year anniversary since inception.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-225
-doctype: standard
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-225
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

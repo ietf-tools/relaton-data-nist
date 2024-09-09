@@ -1,8 +1,23 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-12
 title:
-- content: Derived Personal Identity Verification (PIV) credentials:includes executive
+- content: Derived Personal Identity Verification (PIV) credentials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: includes executive summary (A); approach, architecture, and security characteristics
+    (B); and how-to guides (C)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Derived Personal Identity Verification (PIV) credentials - includes executive
     summary (A); approach, architecture, and security characteristics (B); and how-to
     guides (C)
   language:
@@ -10,11 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-12
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-12.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-12
@@ -23,186 +37,149 @@ docid:
 - id: 10.6028/NIST.SP.1800-12
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Newhouse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Newhouse, William.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020058100
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Bartock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Bartock, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0875-4555"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          script:
-          - Latn
-      surname:
-        content: Cichonski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Cichonski, Jeffrey.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hildegard
-          script:
-          - Latn
-      surname:
-        content: Ferraiolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Ferraiolo, Hildegard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7719-5999"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Murugiah
-          script:
-          - Latn
-      surname:
-        content: Souppaya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Souppaya, Murugiah.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8055-8527"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Brown, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80100699
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Spike E
-          script:
-          - Latn
-      surname:
-        content: Dog
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Dog, Spike E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan
-          script:
-          - Latn
-      surname:
-        content: Prince
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Prince, Susan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91069396
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Julian
-          script:
-          - Latn
-      surname:
-        content: Sexton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Sexton, Julian.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: Federal Information Processing Standards (FIPS) Publication 201-2, 'Personal
+    Identity Verification (PIV) of Federal Employees and Contractors,' establishes
+    a standard for a PIV system based on secure and reliable forms of identity credentials
+    issued by the federal government to its employees and contractors. These credentials
+    are intended to authenticate individuals to federally controlled facilities, information
+    systems, and applications as part of access management. With the emergence of
+    computing devices, such as tablets, hybrid computers, and, in particular, mobile
+    devices, the use of Personal Identity Verification (PIV) Cards has proved to be
+    challenging. To extend the value of PIV systems into mobile devices that do not
+    have PIV Card readers, NIST developed technical guidelines on the implementation
+    and life cycle of identity credentials that are issued by federal departments
+    and agencies to individuals who possess and prove control over a valid PIV Card.
+    These NIST guidelines, published in 2014, describe Derived PIV Credentials (DPCs)
+    that leverage identity proofing and vetting results of current and valid PIV credentials.
+    To demonstrate the DPC guidelines, the NCCoE at NIST built two security architectures
+    by using commercial technology to enable the issuance of a Derived PIV Credential
+    to mobile devices that use Federal Identity Credentialing and Access Management
+    shared services. One option uses a software-only solution while the other leverages
+    hardware built into many computing devices used today. This project resulted in
+    a freely available NIST Cybersecurity Practice Guide that demonstrates how an
+    organization can continue to provide multifactor authentication for users with
+    a mobile device that leverages the strengths of the PIV standard. Although this
+    project is aimed primarily at the federal sector's needs, it is also relevant
+    to mobile device users with smart- card-based credentials in the private sector.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-12
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

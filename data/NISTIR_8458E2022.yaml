@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8458e2022
 title:
-- content: Standards of Seismic Safety for Existing Federally Owned and Leased Buildings;
-    ICSSC Recommended Practice 10 (RP 10-22)
+- content: Standards of seismic safety for existing federally owned and leased buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: ICSSC Recommended Practice 10 (RP 10-22)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standards of seismic safety for existing federally owned and leased buildings
+    - ICSSC Recommended Practice 10 (RP 10-22)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8458e2022
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8458e2022.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8458e2022
@@ -22,46 +35,64 @@ docid:
 - id: 10.6028/NIST.IR.8458e2022
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harris, John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: RP 10 allows federal agencies to identify conditions in an existing building
+    that may pose unacceptable seismic risks to the agency in case of undesirable
+    performance of the building during an earthquake. Agency exposure to unacceptable
+    risks is generally determined through a seismic evaluation and risk assessment
+    of the building. RP 10 provides triggers for a seismic evaluation for project
+    circumstances such as major alterations, additions, or repairs, as well as change
+    of use or leasing requirements. Evaluation necessitated by triggers is referred
+    to as the mandatory process. RP 10 additionally addresses risk awareness by having
+    agencies proactively implement evaluations based on inventory screening, which
+    is independent of passive trigger requirements identified in the mandatory process.
+    This process is referred to as the screening process. RP 10 provides circumstances
+    to assist an agency in developing a screening process. RP 10 also identifies buildings
+    exempt from seismic evaluation. RP 10 provides the minimum seismic performance
+    objective for evaluation of existing buildings owned or leased by the Federal
+    Government. The basic performance objective is based on risk to occupant safety
+    in a large, rare earthquake by total or partial collapse of the building. Higher
+    performance objectives are provided that can be used to assess the risks of loss
+    of operative systems, extended re-occupancy and recovery time, or economic losses.
+    RP 10 references model building codes published by the International Code Council
+    as well as national consensus standards published by the American Society of Civil
+    Engineers to provide the basis for defining seismic performance objectives, evaluation
+    procedures, and, where necessary, retrofit criteria.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8458e2022
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

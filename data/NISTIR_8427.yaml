@@ -1,0 +1,106 @@
+---
+schema-version: v1.2.9
+id: NISTIR8427
+title:
+- content: Discussion on the full entropy assumption of the SP 800-90 series
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.IR.8427
+  type: doi
+type: standard
+docid:
+- id: NIST IR 8427
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8427
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Roginsky, Allen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2684-6736"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Sonmez Turan, Meltem.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1950-7130"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Buller, Darryl.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kaufer, Aaron.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: The NIST SP 800-90 series [1][2][3] supports the generation of high-quality
+    random bits for cryptographic and non-cryptographic use. The security strength
+    of a random number generator depends on the unpredictability of its outputs. This
+    unpredictability can be measured in terms of entropy, which the NIST SP 800-90
+    series measures using min-entropy. A full-entropy bitstring has an amount of entropy
+    equal to its length. Full-entropy bitstrings are important for cryptographic applications,
+    as these bitstrings have ideal randomness properties and may be used for any cryptographic
+    purpose. Due to the difficulty of generating and testing full-entropy bitstrings,
+    the SP 800-90 series assumes that a bitstring has full entropy if the amount of
+    entropy per bit is at least 1 - ε, where ε is at most 2^{-32}. This report provides
+    a justification for the selection of this value of ε.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NISTIR
+    format: text/plain
+  number: '8427'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8427'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

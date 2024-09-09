@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1995
 title:
-- content: 'Juliet 1.3 test suite: changes from 1.2'
+- content: Juliet 1.3 test suite
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: changes from 1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Juliet 1.3 test suite - changes from 1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1995
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1995.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1995
@@ -21,50 +34,59 @@ docid:
 - id: 10.6028/NIST.TN.1995
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Black
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: The Juliet test suite is a systematic set of thousands of small test programs
+    in C/C++ and Java exhibiting over 100 classes of errors, such as buffer overflow,
+    OS injection, hardcoded password, absolute path traversal, NULL pointer dereference,
+    uncaught exception, deadlock, and missing release of resource. These test programs
+    should be helpful in determining capabilities of software assurance tools, particularly
+    static analyzers, in Unix, Microsoft Windows, and other environments. Juliet was
+    developed by the National Security Agency's Center for Assured Software and first
+    released in December 2010. It has been enhanced twice since then. Version 1.2
+    was released in May 2013 with a total of 86,864 test cases. Released in October
+    2017, version 1.3 fixes about two dozen systematic problems in version 1.2 and
+    adds tests for pre- and postincrement and -decrement operators. This technical
+    note details the changes from version 1.2 to 1.3. This note also lists the systematic
+    problems that we know remain in Juliet 1.3.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1995'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

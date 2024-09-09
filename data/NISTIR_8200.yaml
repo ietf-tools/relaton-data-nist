@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8200
 title:
 - content: Interagency report on the status of international cybersecurity standardization
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8200
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8200.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8200
@@ -22,67 +21,71 @@ docid:
 - id: 10.6028/NIST.IR.8200
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          script:
-          - Latn
-      surname:
-        content: Hogan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hogan, Mike.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003119907
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ben
-          script:
-          - Latn
-      surname:
-        content: Piccarreta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Piccarreta, Ben.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: The Interagency International Cybersecurity Standardization Working Group
+    (IICS WG) was established in December 2015 by the National Security Council s
+    Cyber Interagency Policy Committee. Its purpose is to coordinate on major issues
+    in international cybersecurity standardization and thereby enhance U.S. federal
+    agency participation in the process. Effective U.S. Government participation involves
+    coordinating across the federal government and working with the U.S. private sector.
+    The U.S. relies more heavily on the private sector for standards development than
+    do many other countries. Companies and industry groups, academic institutions,
+    professional societies, consumer groups, and other interested parties are major
+    contributors to this process. Further, the many Standards Developing Organizations
+    (SDOs) which provide the infrastructure for the standards development are overwhelmingly
+    private sector organizations. On April 25, 2017, the IICS WG established an Internet
+    of Things (IoT) Task Group to determine the current state of international cybersecurity
+    standards development for IoT. This report is intended for use by the working
+    group member agencies to assist them in their standards planning and to help coordinate
+    U.S. Government participation in international cybersecurity standardization for
+    IoT. Other organizations may also find this document useful in their planning.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8200'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB153-2009
 title:
-- content: Laboratory recognition process for Project 25 compliance assessment Kurt
-    B. Fischer, ed.; Andrew Thiessen, ed.
+- content: Laboratory recognition process for Project 25 compliance assessment /Kurt
+    B. Fischer, ed.; Andrew Thiessen, ed
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.153-2009
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2009/hb153.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 153-2009
@@ -22,67 +21,53 @@ docid:
 - id: 10.6028/NIST.HB.153-2009
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2007'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kurt B
-          script:
-          - Latn
-      surname:
-        content: Fischer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Electronics and Electrical Engineering Laboratory
+      completename:
+        content: Fischer, Kurt B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Thiessen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Electronics and Electrical Engineering Laboratory
+      completename:
+        content: Thiessen, Andrew.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Telecommunications Industry Association.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89014333
   role:
   - type: publisher
-revdate: '2007'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Office of Law Enforcement Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no94000125
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 153-2009
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

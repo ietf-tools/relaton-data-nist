@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2233
 title:
 - content: Validation of and optimization with a vapor compression cycle model accounting
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2233
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2233.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2233
@@ -22,107 +21,55 @@ docid:
 - id: 10.6028/NIST.TN.2233
   type: DOI
 date:
-- type: published
-  value: '2022-09-02'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harrison
-          script:
-          - Latn
-      surname:
-        content: Skye
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Skye, Harrison.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Piotr
-          script:
-          - Latn
-      surname:
-        content: Domanski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Domanski, Piotr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Riccardo
-          script:
-          - Latn
-      surname:
-        content: Brignoli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brignoli, Riccardo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sanghun
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lee, Sanghun.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Heunghee
-          script:
-          - Latn
-      surname:
-        content: Bae
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bae, Heunghee.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-09-02'
-script:
-- Latn
 abstract:
 - content: 'CYCLE_D-HX is a semi-theoretical model that simulates the performance
     of a vapor-compression cycle with forced-convection heat exchangers for specified
@@ -144,16 +91,22 @@ abstract:
     than the COP of the medium-pressure refrigerants. The LLSL-HX improved performance
     of refrigerants with high molar heat capacity (here, the medium-pressure refrigerants)
     by (1.0 to 1.5) %.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2233'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

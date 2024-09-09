@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-190
 title:
-- content: 'Certification of standard reference material® 46h: fineness of cement
-    - addition of Blaine and particle size distribution'
+- content: Certification of standard reference material℗ 46h
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: fineness of cement - addition of Blaine and particle size distribution
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Certification of standard reference material℗ 46h - fineness of cement
+    - addition of Blaine and particle size distribution
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-190
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-190.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-190
@@ -22,84 +35,93 @@ docid:
 - id: 10.6028/NIST.SP.260-190
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Max
-          script:
-          - Latn
-      surname:
-        content: Peltz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Peltz, Max.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021140044
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055891
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: The standard reference materials (SRM) for fineness of cement are SRM 114
+    and SRM 46h. They are an integral part of the calibration materials routinely
+    used in the cement industry to qualify cements for ASTM C204 (Blaine), C115 (Wagner)
+    and C430 (45 Î?m sieve residue). Being a powder, the important physical properties
+    of cement, prior to hydration, are its surface area and particle size distribution
+    (PSD). Since 1934, NIST has provided SRM 114 for cement fineness and it will continue
+    to do so as long as the industry requires it. Subsequent lots of SRM 114 are designated
+    by a unique letter suffix to the SRM number, e.g., 114a, 114b, ..., 114q. A certificate
+    provides reference values obtained using ASTM C204 (Blaine), C115 (Wagner) and
+    C430 (45 Î?m sieve residue) is included with each lot of the material. Since SRM
+    114p, the certificate also provides the particle size distribution curve by laser
+    diffraction. The current SRM is 114q. In 2007, customers remarked that SRM 114q
+    was too fine to be efficiently used for the C430 calibration. Thus, a new SRM46h
+    was developed by using a coarser cement. This SRM provided values only for C430.
+    In 2016, both SRM 114q and 46h were tested and the expiration date was extended.
+    However, the stocks for 114q are depleting and it is forecast to be sold out in
+    2 years to 3 years. Thus, it was decided to certify SRM 46h with ASTM C204 (Blaine),
+    C115 (Wagner) and the particle size distribution (PSD) by laser diffraction. Unfortunately,
+    no data were available for the C115 (Wagner). The stock of 46h is available for
+    another 7years to 8 years. Thus, an interlaboratory study was organized by NIST
+    to collected data on Blaine and PSD. The data were analyzed to extract the certified
+    value. This report will provide all the data and analysis used to certify SRM
+    46h for ASTM C204 (Blaine), and the particle size distribution by laser diffraction
+    (AASHTO T253).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-190
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

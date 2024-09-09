@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-30r1
 title:
 - content: Guide for conducting risk assessments
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-30r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-30r1
@@ -21,35 +20,51 @@ docid:
 - id: 10.6028/NIST.SP.800-30r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Joint Task Force Transformation Initiative.
   role:
   - type: publisher
-revdate: '2012'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: Joint Task Force Transformation Initiative.
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The purpose of Special Publication 800-30 is to provide guidance for conducting
+    risk assessments of federal information systems and organizations, amplifying
+    the guidance in Special Publication 800-39. Risk assessments, carried out at all
+    three tiers in the risk management hierarchy, are part of an overall risk management
+    process⁰₄providing senior leaders/executives with the information needed to determine
+    appropriate courses of action in response to identified risks.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-30r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

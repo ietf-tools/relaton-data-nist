@@ -1,19 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR87-3563
 title:
-- content: Center for Electronics and Electrical Engineering :technical progress bulletin
-    covering center programs, July to September 1986 with 1987 CEEE events calendar
+- content: Center for Electronics and Electrical Engineering
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: technical progress bulletin covering center programs, July to September
+    1986 with 1987 CEEE events calendar
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Center for Electronics and Electrical Engineering - technical progress
+    bulletin covering center programs, July to September 1986 with 1987 CEEE events
+    calendar
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.87-3563
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir87-3563.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 87-3563
@@ -22,52 +37,40 @@ docid:
 - id: 10.6028/NBS.IR.87-3563
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walters
+      completename:
+        content: Walters, Jane.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87859615
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 87-3563
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

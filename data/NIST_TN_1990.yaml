@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1990
 title:
-- content: 'Software science'' revisited: rationalizing Halstead''s system using dimensionless
-    units.'
+- content: Software science revisited
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: rationalizing Halstead's system using dimensionless units
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Software science revisited - rationalizing Halstead's system using dimensionless
+    units
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1990
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1990.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1990
@@ -22,50 +35,54 @@ docid:
 - id: 10.6028/NIST.TN.1990
   type: DOI
 date:
-- type: published
-  value: 2018-05
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Flater
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Flater, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002019519
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-05
-script:
-- Latn
+abstract:
+- content: The set of software metrics introduced by Maurice H. Halstead in the 1970's
+    has seen much scrutiny and not infrequent criticism. This article takes a fresh
+    look at these metrics using quantity calculus (the algebra of units) and a new
+    approach to dimensionless units. In this way, it is possible to assign units to
+    the major Halstead metrics in a manner that is logically consistent. However,
+    Halstead's repurposing of counts of software attributes as counts of unobservable
+    mental events leads to a less plausible, more confusing set of metrics for coding
+    effort than for software attributes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1990'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

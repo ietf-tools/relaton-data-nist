@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7154
 title:
-- content: Comparison of concrete rheometers:international tests at MB (Cleveland
+- content: Comparison of concrete rheometers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: international tests at MB (Cleveland OH, USA) in May, 2003
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Comparison of concrete rheometers - international tests at MB (Cleveland
     OH, USA) in May, 2003
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7154
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7154.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7154
@@ -22,189 +35,47 @@ docid:
 - id: 10.6028/NIST.IR.7154
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lynn E
-          script:
-          - Latn
-      surname:
-        content: Brower
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Denis
-          script:
-          - Latn
-      surname:
-        content: Beaupré
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Frédéric
-          script:
-          - Latn
-      surname:
-        content: Chapdelaine
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Peter
-          script:
-          - Latn
-      surname:
-        content: Domone
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: Koehler
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Lin
-          script:
-          - Latn
-      surname:
-        content: Shen
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Mohammed
-          script:
-          - Latn
-      surname:
-        content: Sonebi
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Leslie
-          script:
-          - Latn
-      surname:
-        content: Struble
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Tepke
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Olafur
-          script:
-          - Latn
-      surname:
-        content: Wallevik
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Jon E
-          script:
-          - Latn
-      surname:
-        content: Wallevik
-        script:
-        - Latn
+      completename:
+        content: Brower, Lynn E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7154'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

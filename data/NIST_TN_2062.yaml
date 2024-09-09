@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2062
 title:
 - content: On correlating mixed forest fuel bed fire spread data
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2062
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2062.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2062
@@ -21,50 +20,54 @@ docid:
 - id: 10.6028/NIST.TN.2062
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jiann C
-          script:
-          - Latn
-      surname:
-        content: Yang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Yang, Jiann C. (Jiann Chyuan)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010118971
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: Mixing rules are proposed and used to correlate well-mixed forest fuel
+    bed fire spread data from the literature using the dimensionless correlations
+    previously developed for singlespecies forest fuel bed fire spread with the help
+    of dimensional analysis and the resulting dimensionless groups. The mixing rules
+    provide means to treat well-mixed fuels as pseudo single-species fuels. As a first
+    attempt with very limited experimental data, the dimensionless correlations for
+    single-species fuels may be applicable to mixed-species fuels with proper mixing
+    rules.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2062'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

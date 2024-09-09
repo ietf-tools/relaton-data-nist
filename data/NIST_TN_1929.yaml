@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1929
 title:
-- content: 'Numerical Simulations of Thermoplastic Burning Rate: Effect of Property
-    Variations and the Inferred Effective Heat of Gasification'
+- content: Numerical simulations of thermoplastic burning rate
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: effect of property variations and the inferred effective heat of gasification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Numerical simulations of thermoplastic burning rate - effect of property
+    variations and the inferred effective heat of gasification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1929
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1929.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1929
@@ -22,50 +35,65 @@ docid:
 - id: 10.6028/NIST.TN.1929
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory T.
-          script:
-          - Latn
-      surname:
-        content: Linteris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Linteris, Gregory.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: 'The mass loss rate of Poly(methyl methacrylate) exposed to known radiant
+    fluxes is simulated with two recently-developed numerical codes, the NIST Fire
+    Dynamics Simulator (FDS) and the FAA ThermaKin. The influence of various material
+    properties (thickness, thermal conductivity, specific heat, absorption of infrared
+    radiation, heat of reaction) on mass loss history is assessed, via their effect
+    on the ignition time, average mass loss rate, peak mass loss rate, and time to
+    peak. The two codes predict the influence of material parameters on the MLR in
+    the order of decreasing importance: heat of reaction, thickness, specific heat,
+    absorption coefficient, thermal conductivity, and activation energy of the polymer
+    decomposition. Changes in the material properties also influence the MLR curves
+    by switching the sample from thermally thick to thermally thin. The two numerical
+    codes are generally in very good agreement for their predictions of the MLR versus
+    time curves, except when in-depth absorption of radiation was important. The influence
+    of two of these parameters on the effective heat of gasification (extracted from
+    the mass loss rate at differing external heat fluxes) is also assessed by comparing
+    the effective heat of gasification to the heat of gasification input into the
+    calculations; the ratio of these is highest for calculations in which the radiant
+    energy is absorbed on the surface and the material decomposition has a low activation
+    energy, for which it reaches 1.3, but is lower for other cases. Modifying the
+    method used to obtain the effective heat of gasification by basing it on the net
+    energy delivered to the polymer brings it much closer to the values input into
+    the calculation.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1929'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-002
 title:
-- content: Case Studies of Community Resilience Policy
+- content: Case studies of community resilience policy
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-002
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-002.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-002
@@ -21,118 +20,95 @@ docid:
 - id: 10.6028/NIST.GCR.16-002
   type: DOI
 date:
-- type: published
-  value: 2016-05
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nayanee
-          script:
-          - Latn
-      surname:
-        content: Gupta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gupta, Nayanee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152906
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zoe E.
-          script:
-          - Latn
-      surname:
-        content: Petropoulos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Clavin, Christopher T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152899
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Austin B.
-          script:
-          - Latn
-      surname:
-        content: Mudd
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Petropoulos, Zoe E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152903
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rashida
-          script:
-          - Latn
-      surname:
-        content: Nek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mudd, Austin B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152917
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sally S.
-          script:
-          - Latn
-      surname:
-        content: Tinkle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nek, Rashida.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152919
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Tinkle, Sally S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152921
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-002
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

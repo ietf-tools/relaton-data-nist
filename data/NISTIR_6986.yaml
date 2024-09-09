@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6986
 title:
 - content: International collaborative project to evaluate fire models for nuclear
-    power plant applications:summary of 5th meeting
+    power plant applications
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary of 5th meeting
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: International collaborative project to evaluate fire models for nuclear
+    power plant applications - summary of 5th meeting
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6986
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6986.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6986
@@ -22,72 +36,58 @@ docid:
 - id: 10.6028/NIST.IR.6986
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Monideep K
-          script:
-          - Latn
-      surname:
-        content: Dey
-        script:
-        - Latn
+      completename:
+        content: Dey, Monideep K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003081379
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stewart
-          script:
-          - Latn
-      surname:
-        content: Miles
-        script:
-        - Latn
+      completename:
+        content: Miles, Stewart.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6986'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

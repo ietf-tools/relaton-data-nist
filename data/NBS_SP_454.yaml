@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP454
 title:
 - content: An annotated bibliography of compiled thermodynamic data sources for biochemical
-    and aqueous systems (1930 to 1975) :equilibrium, enthalpy, heat capacity, and
+    and aqueous systems (1930 to 1975)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: equilibrium, enthalpy, heat capacity, and entropy data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: An annotated bibliography of compiled thermodynamic data sources for biochemical
+    and aqueous systems (1930 to 1975) - equilibrium, enthalpy, heat capacity, and
     entropy data
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.454
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication454.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 454
@@ -23,69 +37,51 @@ docid:
 - id: 10.6028/NBS.SP.454
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Armstrong
+      completename:
+        content: Armstrong, George Thomson,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81040759
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Goldberg
+      completename:
+        content: Goldberg, Robert N.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79063846
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '454'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR82-1667
 title:
-- content: Technical reports :materials studies for magnetic fusion energy applications
+- content: Technical reports
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: materials studies for magnetic fusion energy applications at low temperatures
+    - V
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technical reports - materials studies for magnetic fusion energy applications
     at low temperatures - V
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.82-1667
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir82-1667.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 82-1667
@@ -22,93 +36,48 @@ docid:
 - id: 10.6028/NBS.IR.82-1667
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R P
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: R P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reed
+      completename:
+        content: Reed, R. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N J
-          language:
-          - en
-          script:
-          - Latn
-          initial: N
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: N J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Simon
+      completename:
+        content: Simon, N. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81148152
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 82-1667
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6883
 title:
 - content: Analysis of the ASTM round-robin test on particle size distribution of
-    Portland cement:phase I
+    Portland cement
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: phase I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Analysis of the ASTM round-robin test on particle size distribution of
+    Portland cement - phase I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6883
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6883.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6883
@@ -22,85 +36,66 @@ docid:
 - id: 10.6028/NIST.IR.6883
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent A
-          script:
-          - Latn
-      surname:
-        content: Hackley
-        script:
-        - Latn
+      completename:
+        content: Hackley, Vincent A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001016055
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ana Ivelisse
-          script:
-          - Latn
-      surname:
-        content: Avilés
-        script:
-        - Latn
+      completename:
+        content: Avile?¹s, Ana Ivelisse.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles E Jr
-          script:
-          - Latn
-      surname:
-        content: Buchanan
-        script:
-        - Latn
+      completename:
+        content: Buchanan, Charles E. Jr.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6883'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

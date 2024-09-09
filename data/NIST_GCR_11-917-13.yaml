@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR11-917-13
 title:
 - content: Research plan for the study of seismic behavior and design of deep, slender
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.11-917-13
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2011/NIST.GCR.11-917-13.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 11-917-13
@@ -22,33 +21,53 @@ docid:
 - id: 10.6028/NIST.GCR.11-917-13
   type: DOI
 date:
-- type: published
-  value: 2011-12
+- type: issued
+  value: '2017'
 contributor:
+- person:
+    name:
+      completename:
+        content: NEHRP Consultants Joint Venture.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2011-12
-script:
-- Latn
+abstract:
+- content: The objective of this task was to develop a comprehensive long-range plan
+    to research the seismic behavior of deep, slender wide flange structural steel
+    beam-columns in steel frames. Development of the plan included the investigation
+    of available information on beam-column member and connection behavior in the
+    literature, and considered the differences and interrelationships between member,
+    subassemblage, and system performance. The resulting plan includes a summary of
+    tasks for conducting both experimental and analytical research, and is intended
+    to be the first step in the development of national consensus guidelines for designing
+    and assessing the seismic performance of deep, slender wide-flange beam-columns
+    in steel frame systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 11-917-13
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

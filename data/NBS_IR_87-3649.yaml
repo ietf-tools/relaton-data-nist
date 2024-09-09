@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR87-3649
 title:
 - content: Effects of varying the austenitizing temperature on the ability of HSLA-80
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.87-3649
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir87-3649.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 87-3649
@@ -22,117 +21,66 @@ docid:
 - id: 10.6028/NBS.IR.87-3649
   type: DOI
 date:
-- type: published
-  value: 1987-01
+- type: issued
+  value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G E
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: G E
-          script:
-          - Latn
-      surname:
-        content: Hicho
-        script:
-        - Latn
+      completename:
+        content: Hicho, G. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82057104
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          script:
-          - Latn
-      surname:
-        content: Brady
-        script:
-        - Latn
+      completename:
+        content: Brady, C. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L C
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: L C
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
+      completename:
+        content: Smith, L. C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010147880
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R J
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: R J
-          script:
-          - Latn
-      surname:
-        content: Fields
-        script:
-        - Latn
+      completename:
+        content: Fields, R. J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 1987-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 87-3649
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

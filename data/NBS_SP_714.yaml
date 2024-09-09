@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP714
 title:
 - content: Federal government certification programs for products and services
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.714
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication714.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 714
@@ -21,52 +20,56 @@ docid:
 - id: 10.6028/NBS.SP.714
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Toth
+      completename:
+        content: Toth, Robert B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85046366
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The directory presents information on 61 U.S. Government certification
+    programs for products and services. Entries describe the scope and nature of each
+    certification program, testing and inspection practices, standards used, methods
+    of identification and enforcement, reciprocal recognition or acceptance of certification,
+    and other relevant details. The directory is part of an ongoing NBS effort to
+    establish and maintain a comprehensive database on standards, regulations, certification
+    programs and related information. The material has been compiled to meet the needs
+    of government, industry, and the public for information on U.S. Government certification
+    programs in accordance with the requirements of the U.S. Trade Agreements Act
+    of 1979.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '714'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5876
 title:
-- content: Protection of archival records from pollutants IV:absorption studies of
-    archival box boards and model papers exposed to uLL and nLL concentrations of
-    nitrogen dioxide
+- content: Protection of archival records from pollutants IV
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: absorption studies of archival box boards and model papers exposed to uL/L
+    and nL/L concentrations of nitrogen dioxide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Protection of archival records from pollutants IV - absorption studies
+    of archival box boards and model papers exposed to uL/L and nL/L concentrations
+    of nitrogen dioxide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5876
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5876.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5876
@@ -23,59 +37,50 @@ docid:
 - id: 10.6028/NIST.IR.5876
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles M
-          script:
-          - Latn
-      surname:
-        content: Guttman
-        script:
-        - Latn
+      completename:
+        content: Guttman, Charles M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001075880
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William R
-          script:
-          - Latn
-      surname:
-        content: Blair
-        script:
-        - Latn
+      completename:
+        content: Blair, William R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021144283
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5876'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

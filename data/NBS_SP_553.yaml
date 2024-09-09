@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP553
 title:
 - content: Water supply and drainage in buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.553
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication553.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 553
@@ -21,69 +20,51 @@ docid:
 - id: 10.6028/NBS.SP.553
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lawrence S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Galowin
+      completename:
+        content: Galowin, Lawrence S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80025517
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: JoAnne R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Debelius
+      completename:
+        content: Debelius, JoAnne R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78078328
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '553'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

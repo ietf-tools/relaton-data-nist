@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8325
 title:
-- content: Media Forensics Challenge Image Provenance Evaluation and State-of-the-Art
-    Analysis on Large-Scale Benchmark Datasets
+- content: Media Forensics Challenge image provenance evaluation and state-of-the-art
+    analysis on large-scale benchmark datasets
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8325
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8325.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8325
@@ -22,152 +21,112 @@ docid:
 - id: 10.6028/NIST.IR.8325
   type: DOI
 date:
-- type: published
-  value: '2020-10-26'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Xiongnan
-          script:
-          - Latn
-      surname:
-        content: Jin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Jin, Xiongnan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yooyoung
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lee, Yooyoung.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          script:
-          - Latn
-      surname:
-        content: Fiscus
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fiscus, Jonathan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Haiying
-          script:
-          - Latn
-      surname:
-        content: Guan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guan, Haiying.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1461-265X"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amy N.
-          script:
-          - Latn
-      surname:
-        content: Yates
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Yates, Amy N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1250-1967"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Delgado
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Delgado, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel F.
-          script:
-          - Latn
-      surname:
-        content: Zhou
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Zhou, Daniel F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-10-26'
-script:
-- Latn
+abstract:
+- content: With the development of storage, transmission, editing, and sharing tools,
+    digital forgery images are propagating rapidly. The need for image provenance
+    analysis has never been more timely. Typical applications are content tracking,
+    copyright enforcement, and forensics reasoning. However, large-scale image provenance
+    datasets, which contain diverse manipulation history graphs with various manipulation
+    operations and rich metadata, are still needed to facilitate the research. It
+    is one of the major factors that hinders the development of techniques for image
+    provenance analysis. To address this issue, we introduce large-scale benchmark
+    datasets for provenance analysis, namely Media Forensics Challenge-Provenance
+    (MFC-Prov) datasets. Two provenance tasks are designed along with evaluation metrics.
+    Furthermore, extensive analysis is conducted for system performance in terms of
+    accuracy on our datasets.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8325'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8325'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

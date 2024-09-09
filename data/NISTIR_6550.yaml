@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6550
 title:
 - content: Pulse transition duration measurements and standards at NBS - 1975 to 1988
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6550
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6550.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6550
@@ -21,117 +20,72 @@ docid:
 - id: 10.6028/NIST.IR.6550
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W L
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: W L
-          script:
-          - Latn
-      surname:
-        content: Gans
-        script:
-        - Latn
+      completename:
+        content: Gans, W. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82064842
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N S
-          script:
-          - Latn
-          initial: N
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: N S
-          script:
-          - Latn
-      surname:
-        content: Nahman
-        script:
-        - Latn
+      completename:
+        content: Nahman, N. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82064843
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          script:
-          - Latn
-      surname:
-        content: Andrew
-        script:
-        - Latn
+      completename:
+        content: Andrew, J. R. (John Robert),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021026289
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E E
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E E
-          script:
-          - Latn
-      surname:
-        content: Baldwin
-        script:
-        - Latn
+      completename:
+        content: Baldwin, E. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82244508
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6550'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

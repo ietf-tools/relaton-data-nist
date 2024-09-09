@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5939
 title:
-- content: SIMA reference architecture, part 1:activity models
+- content: SIMA reference architecture, part 1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: activity models
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SIMA reference architecture, part 1 - activity models
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5939
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5939.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5939
@@ -21,215 +34,167 @@ docid:
 - id: 10.6028/NIST.IR.5939
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward J
-          script:
-          - Latn
-      surname:
-        content: Barkmeyer
-        script:
-        - Latn
+      completename:
+        content: Barkmeyer, Edward J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neil
-          script:
-          - Latn
-      surname:
-        content: Christopher
-        script:
-        - Latn
+      completename:
+        content: Christopher, Neil.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96042425
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shaw C
-          script:
-          - Latn
-      surname:
-        content: Feng
-        script:
-        - Latn
+      completename:
+        content: Feng, Shaw C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James E
-          script:
-          - Latn
-      surname:
-        content: Fowler
-        script:
-        - Latn
+      completename:
+        content: Fowler, J. E. (James E.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001083942
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simon P
-          script:
-          - Latn
-      surname:
-        content: Frechette
-        script:
-        - Latn
+      completename:
+        content: Frechette, Simon P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Albert
-          script:
-          - Latn
-      surname:
-        content: Jones
-        script:
-        - Latn
+      completename:
+        content: Jones, Albert.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005176335
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Jurrens
-        script:
-        - Latn
+      completename:
+        content: Jurrens, Kevin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022036547
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          script:
-          - Latn
-      surname:
-        content: Lyons
-        script:
-        - Latn
+      completename:
+        content: Lyons, Kevin,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001003191
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles R
-          script:
-          - Latn
-      surname:
-        content: McLean
-        script:
-        - Latn
+      completename:
+        content: McLean, Charles R. (Charles Robert)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001000060
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Pratt
-        script:
-        - Latn
+      completename:
+        content: Pratt, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb99018514
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harry A
-          script:
-          - Latn
-      surname:
-        content: Scott
-        script:
-        - Latn
+      completename:
+        content: Scott, Harry Alexander,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018123490
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M Kate
-          script:
-          - Latn
-      surname:
-        content: Senehi
-        script:
-        - Latn
+      completename:
+        content: Senehi, M. Kate.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ram D
-          script:
-          - Latn
-      surname:
-        content: Sriram
-        script:
-        - Latn
+      completename:
+        content: Sriram, Ram D.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97029427
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Evan K
-          script:
-          - Latn
-      surname:
-        content: Wallace
-        script:
-        - Latn
+      completename:
+        content: Wallace, Evan K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5939'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

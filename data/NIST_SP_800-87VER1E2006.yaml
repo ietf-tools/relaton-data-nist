@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-87ver1e2006
 title:
 - content: Codes for the identification of federal and federally assisted organizations
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-87ver1e2006
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-87ver1e2006.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-87ver1e2006
@@ -21,96 +20,61 @@ docid:
 - id: 10.6028/NIST.SP.800-87ver1e2006
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W C
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: W C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barker
+      completename:
+        content: Barker, W. C.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ferraiolo
+      completename:
+        content: Ferraiolo, H.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Homeland Security Presidential Directive HSPD-12 called for new standards
+    to be adopted governing the interoperable use of identity credentials to allow
+    physical and logical access to Federal government locations and systems. The Personal
+    Identity Verification (PIV) for Federal Employees and Contractors, Federal Information
+    Processing Standard 201 (FIPS 201) was developed to establish standards for identity
+    credentials. This document, Special Publication 800-87 (SP 800-87), provides the
+    organizational codes necessary to establishing the Federal Agency Smart Credential
+    Number (FASC-N) that is required to be included in the FIPS 201 Card Holder-Unique
+    Identifier (CHUID) and is a companion document to FIPS 201. This updated version
+    incorporates 10 code-change-requests from federal agencies.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
-  number: 800-87ver1e2006
+  number: 800-87v1e2006
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

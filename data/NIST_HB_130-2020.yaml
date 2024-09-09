@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB130-2020
 title:
 - content: Uniform laws and regulations in the areas of legal metrology and fuel quality
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.130-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.130-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 130-2020
@@ -22,101 +21,99 @@ docid:
 - id: 10.6028/NIST.HB.130-2020
   type: DOI
 date:
-- type: published
-  value: 2019-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Breyanna
-          script:
-          - Latn
-      surname:
-        content: Blackwell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Blackwell, Breyanna.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Sefcik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Sefcik, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056628
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Warfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056629
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Olson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory.
+      completename:
+        content: Olson, Douglas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96098610
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-11
-script:
-- Latn
+abstract:
+- content: This handbook compiles the latest Uniform Laws and Regulations and related
+    interpretations and guidelines adopted by the National Conference on Weights and
+    Measures, Inc. (NCWM). At the 1983 Annual Meeting, the NCWM voted to change the
+    title of Handbook 130 and the title of the Laws and Regulations compiled in this
+    handbook. The former title of the handbook was 'Model State Laws and Regulations.'
+    'Model State' was to be changed to 'Uniform' in the title to reflect that these
+    Laws and Regulations are (a) intended to be standards rather than just guidelines,
+    and (b) intended for adoption by political subdivisions other than states when
+    deemed appropriate. This edition includes amendments approved at the 104th NCWM
+    Annual Meetings in 2019. The NCWM recommends adoption and promulgation by weights
+    and measures jurisdictions of these Uniform Laws and Regulations as updated in
+    this handbook. The National Institute of Standards and Technology (NIST) has the
+    statutory responsibility to promote 'cooperate with the states in securing uniformity
+    in weights and measures laws and methods of inspection.'' In partial fulfillment
+    of this responsibility, the Institute is pleased to publish these recommendations
+    of the NCWM. This handbook promotes the primary use of the International System
+    of Units (SI) by citing SI units before U.S. customary units where both units
+    appear together, and by placing separate sections containing requirements for
+    SI units before corresponding sections containing requirements for customary units.
+    In some cases, however, trade practice is currently restricted to the use of customary
+    units; therefore, some requirements in this handbook will continue to specify
+    only customary units until the NCWM achieves a broad consensus on the permitted
+    metric units.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 130-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

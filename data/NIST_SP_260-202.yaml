@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-202
 title:
-- content: Evaluating, Expressing, and Propagating Measurement Uncertainty for NIST
+- content: Evaluating, expressing, and propagating measurement uncertainty for NIST
     Reference Materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-202
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-202.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-202
@@ -22,50 +21,55 @@ docid:
 - id: 10.6028/NIST.SP.260-202
   type: DOI
 date:
-- type: published
-  value: '2020-07-29'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio
-          script:
-          - Latn
-      surname:
-        content: Possolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Possolo, Antonio M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: '2020-07-29'
-script:
-- Latn
+abstract:
+- content: This document is a companion of NIST Special Publication 260-136 (2020
+    Edition), intended for users of NIST reference materials, that explains how NIST
+    evaluates and expresses measurement uncertainty associated with certified or with
+    non-certified values, and exemplifies how such uncertainty may be propagated to
+    derivative quantities that involve these values. The first few pages include navigation
+    aids that enable direct and easy access to examples that illustrate different
+    ways of expressing uncertainty, and to specific reference materials mentioned
+    in this document. The document reviews the concepts of measurement, measurement
+    uncertainty, and reference material, and includes a refresher of concepts from
+    probability and statistics that are commonly used in certificates of NIST reference
+    materials. The bulk of the document comprises concrete, worked out examples of
+    how NIST evaluates measurement uncertainty for NIST reference materials, and of
+    how this uncertainty is expressed, and how it may be propagated in applications
+    that use NIST reference materials. Illustrative computer codes are included in
+    an appendix.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-202
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

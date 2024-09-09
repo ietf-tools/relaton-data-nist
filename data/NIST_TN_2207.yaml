@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2207
 title:
 - content: Gauging the difficulty of image segmentation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2207
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2207.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2207
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.TN.2207
   type: DOI
 date:
-- type: published
-  value: '2022-03-25'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marek
-          script:
-          - Latn
-      surname:
-        content: Franaszek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Franaszek, Marek.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-03-25'
-script:
-- Latn
 abstract:
 - content: Image segmentation is the first step in a complex process of object recognition.
     This report presents a method to gauge the difficulty of segmentation by calculating
@@ -72,16 +55,22 @@ abstract:
     of parameter Q were calculated. To demonstrate a possible use of the parameter
     Q on data other than grayscale images, depth images of flat planar targets taken
     by two depth cameras were also processed.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2207'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

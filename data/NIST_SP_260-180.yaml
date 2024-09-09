@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-180
 title:
-- content: 'Standard Reference Materials (R) Certification Report for SRM 2216, 2218,
-    2219: KLST (Miniaturized) Charpy V-Notch Impact Specimens'
+- content: Standard reference materials certification report for SRM 2216, 2218, 2219
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: KLST (miniaturized) Charpy v-notch impact specimens
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials certification report for SRM 2216, 2218, 2219
+    - KLST (miniaturized) Charpy v-notch impact specimens
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-180
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-180.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-180
@@ -22,113 +35,67 @@ docid:
 - id: 10.6028/NIST.SP.260-180
   type: DOI
 date:
-- type: published
-  value: 2013-12
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: McCowan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCowan, Chris.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ray
-          script:
-          - Latn
-      surname:
-        content: Santoyo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Santoyo, Ray.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139166
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jolene
-          script:
-          - Latn
-      surname:
-        content: Splett
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Splett, Jolene.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Materials Measurement Laboratory, Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-12
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-180
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

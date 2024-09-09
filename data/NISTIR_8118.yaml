@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8118
 title:
-- content: A Guide to United States Electrical and Electronic Equipment Compliance
-    Requirements
+- content: A guide to United States electrical and electronic equipment compliance
+    requirements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8118
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8118.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8118
@@ -22,55 +21,56 @@ docid:
 - id: 10.6028/NIST.IR.8118
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Karen K.
-          script:
-          - Latn
-      surname:
-        content: Reczek
-        script:
-        - Latn
+      completename:
+        content: Benson, Lisa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa M.
-          script:
-          - Latn
-      surname:
-        content: Benson
-        script:
-        - Latn
+      completename:
+        content: Reczek, Karen K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Standards Coordination Office.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: This guide addresses electrical and electronic consumer products including
+    those that will come into contact with food. In addition, it includes electrical
+    and electronic products used in the workplace as well as electrical and electronic
+    medical devices. The scope does not include vehicles or components of vehicles,
+    electric or electronic toys, or recycling requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8118'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

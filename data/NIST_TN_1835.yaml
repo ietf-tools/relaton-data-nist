@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1835
 title:
-- content: 'Nanoparticle released from consumer products: flooring nanocoatings and
-    interior nanopaints'
+- content: Nanoparticle released from consumer products
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: flooring nanocoatings and interior nanopaints
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Nanoparticle released from consumer products - flooring nanocoatings and
+    interior nanopaints
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1835
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/WITHDRAWN_notice_NIST.TN.1835.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1835
@@ -22,84 +35,86 @@ docid:
 - id: 10.6028/NIST.TN.1835
   type: DOI
 date:
-- type: published
-  value: 2014-07
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lipiin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Lipiin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tinh
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nguyen, Tinh.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021153114
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Persily, Andrew.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-07
-script:
-- Latn
+abstract:
+- content: Nanoparticles are increasingly incorporated in flooring coatings and interior
+    paints to improve their abrasion and microbial resistance. One particular concern
+    of this application is the release of nanoparticles from these surfaces due to
+    repeated mechanical forces acted upon them, such as walking, mopping, cleaning,
+    scratching, and furniture moving. Such release of the nanosize material is potentially
+    harmful to the occupants particularly children. Because of this serious concern,
+    CPSC and NIST has an agreement to develop testing and measurement protocols for
+    determining the quantities and properties of nanoparticles released from flooring
+    coatings and interior paints. The first year of this research was to develop instrumentation,
+    protocols, and analytical methods to measure released particles resulting abrasion
+    in air from coatings and paint containing a known amount of nanoparticles. The
+    2nd year of the research has investigated the development of methods and protocols
+    for abrasion of flooring coatings and interior in liquid and to measure and identify
+    the particles remained on the surface and in liquid. This report summarizes Year
+    2 research, which used commercial flooring nanocoating and interior nanopaint.
+    It includes 1) Characterizations of inorganic materials in the commercial nanoproducts
+    and initial properties before and after immersion in water, 2) development of
+    methods and protocols for abrasion in liquid of flooring nanocoating and interior
+    nanopaint, 3) measurement and identification of released particles remained on
+    the abraded surfaces and suspended in liquid, and 4) investigation to develop
+    an appropriate wheel that can reproducibly abrade nanocoating and nanopaint surfaces
+    in air and in liquid. The Year 2 research also investigated the fabrication of
+    a chamber and methods to quantify the number and size of nanoparticles aerosolized
+    during abrasion in air.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1835'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

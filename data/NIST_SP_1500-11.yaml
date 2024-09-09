@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-11
 title:
 - content: Advanced electrical power system sensors workshop report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-11
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.SP.1500-11
   type: DOI
 date:
-- type: published
-  value: '2017-11-13'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Goldstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Goldstein, Allen
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016112646
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: '2017-11-13'
-script:
-- Latn
+abstract:
+- content: The objective of the Advanced Electrical Power Sensors Workshop was to
+    provide input into planning processes being undertaken by the National Institute
+    of Standards and Technology (NIST), Department of Energy (DOE), and the Grid Modernization
+    Laboratory Consortium (GMLC). The workshop provided these entities with the opportunity
+    to hear industry concerns and ideas regarding emerging and future electrical power
+    system sensors, transducers, and transformer technologies. As the grid continues
+    to evolve, and as grid operation and planning support advanced functions, it may
+    be necessary to measure aspects of the grid which have not been measured in the
+    past, or to refine the way current measurements are performed. This workshop explored
+    various means by which grid related activities can be better informed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-11
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR85-3286
 title:
-- content: Toxicity of the pyrolysis and combustion of poly(vinyl chlorides) :a literature
+- content: Toxicity of the pyrolysis and combustion of poly(vinyl chlorides)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a literature assessment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Toxicity of the pyrolysis and combustion of poly(vinyl chlorides) - a literature
     assessment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.85-3286
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3286.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 85-3286
@@ -22,69 +35,51 @@ docid:
 - id: 10.6028/NBS.IR.85-3286
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Clayton
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Huggett
+      completename:
+        content: Huggett, Clayton.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80139304
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Levin
+      completename:
+        content: Levin, Barbara C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83062182
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3286
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

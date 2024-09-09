@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS200
 title:
 - content: Minimum security requirements for federal information and information systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.200
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.200.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 200
@@ -21,33 +20,58 @@ docid:
 - id: 10.6028/NIST.FIPS.200
   type: DOI
 date:
-- type: published
-  value: 2006-03
+- type: issued
+  value: '2017'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2006-03
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
+  role:
+  - type: publisher
+abstract:
+- content: FIPS 200 is the second standard that was specified by the Information Technology
+    Management Reform Act of 1996 (FISMA). It is an integral part of the risk management
+    framework that the National Institute of Standards and Technology (NIST) has developed
+    to assist federal agencies in providing levels of information security based on
+    levels of risk. FIPS 200 specifies minimum security requirements for federal information
+    and information systems and a risk-based process for selecting the security controls
+    necessary to satisfy the minimum requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: '200'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2063
 title:
-- content: Pool Boiling of R515A, R1234ze(E) and R1233zd(E) on a Reentrant Cavity
-    Surface; Extensive Measurement and Analysis
+- content: Pool boiling of R515A, R1234ze(E) and R1233zd(E) on a reentrant cavity
+    surface
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: extensive measurement and analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Pool boiling of R515A, R1234ze(E) and R1233zd(E) on a reentrant cavity
+    surface - extensive measurement and analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2063
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2063.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2063
@@ -22,67 +36,69 @@ docid:
 - id: 10.6028/NIST.TN.2063
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lingnan
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: This paper quantifies the pool boiling performance of R515A, R1234ze(E),
+    and R1233zd(E) on a flattened, horizontal Turbo-ESP surface for air-conditioning
+    applications for heat fluxes between roughly 10 kWm-2 and 100 kWm-2. Both R515A
+    and R1234ze(E) are replacements for R134a, while R1233zd(E) is a replacement for
+    R123. The measured boiling curve for R515A had roughly a 14 [percent] larger heat
+    flux than that of R1234ze(E) for heat fluxes greater than 45 kWm-2. For heat fluxes
+    between 14 kWm-2 and 85 kWm-2, R515A and R1234ze(E) exhibited a heat flux that
+    was 33 [percent] and 17 [percent] larger than that for R134a. The heat flux of
+    R1233zd(E) was roughly 18 [percent] larger than that for R123 for heat fluxes
+    between 30 kWm-2 and 87 kWm-2. A pool boiling model that was previously developed
+    for pure and mixed refrigerants on the Turbo-ESP surface was improved by nondimensionalizing
+    the model constants and improving their statistical significance. For most heat
+    fluxes, the model predicted the measured superheat to within +/- 0.7 K. The model
+    was used to show that the vapor Prandtl number and the product of the latent heat
+    and vapor density significantly influenced the boiling heat flux.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2063'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

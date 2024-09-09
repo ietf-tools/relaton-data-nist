@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-3010
 title:
 - content: Comparison of measured and calculated mutual coupling in the near field
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-3010
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-3010.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-3010
@@ -22,69 +21,51 @@ docid:
 - id: 10.6028/NBS.IR.84-3010
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Carl F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stubenrauch
+      completename:
+        content: Stubenrauch, Carl F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84176584
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Francis
+      completename:
+        content: Francis, Michael H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83218675
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1984'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-3010
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

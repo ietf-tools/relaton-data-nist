@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4935
 title:
 - content: Evaluation of compact fluorescent lamp performance at different ambient
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4935
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4935.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4935
@@ -22,72 +21,58 @@ docid:
 - id: 10.6028/NIST.IR.4935
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Belinda L
-          script:
-          - Latn
-      surname:
-        content: Collins
-        script:
-        - Latn
+      completename:
+        content: Collins, Belinda Lowenhaupt.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80004000
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen J
-          script:
-          - Latn
-      surname:
-        content: Treado
-        script:
-        - Latn
+      completename:
+        content: Treado, S. J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80024248
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael J
-          script:
-          - Latn
-      surname:
-        content: Ouellette
-        script:
-        - Latn
+      completename:
+        content: Ouellette, Michael J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4935'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-44
 title:
 - content: Understanding anisotropic tensile properties of laser powder bed fusion
-    additive metals :a detailed review of select examples
+    additive metals
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a detailed review of select examples
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Understanding anisotropic tensile properties of laser powder bed fusion
+    additive metals - a detailed review of select examples
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-44
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-44.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-44
@@ -22,56 +36,31 @@ docid:
 - id: 10.6028/NIST.AMS.100-44
   type: DOI
 date:
-- type: published
-  value: '2021-11-18'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jordan S
-          script:
-          - Latn
-      surname:
-        content: Weaver
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Weaver, Jordan S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Idan
-          script:
-          - Latn
-      surname:
-        content: Rosenthal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rosenthal, Idan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-11-18'
-script:
-- Latn
 abstract:
 - content: There are several physical reasons for anisotropic mechanical properties
     in additively manufactured metals. These include but are not limited to directionally
@@ -98,16 +87,22 @@ abstract:
     of anisotropy. Strategies to characterize and manipulate crystallographic texture,
     porosity, grain and phase morphology, and melt pool macrostructures are required
     to better understand and control mechanical anisotropy in AM metals.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-44
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

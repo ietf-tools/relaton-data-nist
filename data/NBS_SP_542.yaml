@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP542
 title:
 - content: Possible contributions of cement and concrete technology to energy conservation
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.542
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication542.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 542
@@ -21,86 +20,82 @@ docid:
 - id: 10.6028/NBS.SP.542
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Geoffrey
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frohnsdorff
+      completename:
+        content: Frohnsdorff, Geoffrey.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79099154
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brown
+      completename:
+        content: Brown, Paul W. (Paul Wencil),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79097782
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clifton
+      completename:
+        content: Clifton, James R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79099186
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: A workshop on possible contributions of cement and concrete technology
+    to energy conservation by the year 2000 was held at the National Bureau of Standards
+    on October 3 and 4, 1977. The purpose of the workshop was to identify and record
+    ideas on possible contributions of cement and concrete technology to energy conservation
+    in the near term and by the year 2000. This included consideration of current
+    technology as well as areas in which technological advances might be realized.
+    The workshop was divided into working groups on cement composition, cement production,
+    blending materials, concrete production, efficient use of concrete, and institutional
+    factors. The essential results from the six working groups were statements of
+    Energy-Saving Opportunities, Research Needs, and Unresolved Issues. The statements,
+    which are the major part of this report, are presented without critical analysis.
+    They suggest, however, that there are a large number of possible opportunities
+    which should be evaluated for their ability to contribute to energy conservation
+    in the cement and concrete industries.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '542'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

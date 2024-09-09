@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-10
 title:
-- content: 'NIST Big Data Interoperability Framework: volume 9, adoption and modernization'
+- content: NIST Big Data Interoperability Framework
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: volume 9, adoption and modernization
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Big Data Interoperability Framework - volume 9, adoption and modernization
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-10
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-10.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-10
@@ -21,33 +34,65 @@ docid:
 - id: 10.6028/NIST.SP.1500-10
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: NIST Big Data Public Working Group.
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: NIST Big Data Public Working Group.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
+  role:
+  - type: publisher
+abstract:
+- content: The potential for organizations to capture value from Big Data improves
+    every day as the pace of the Big Data revolution continues to increase, but the
+    level of value captured by companies deploying Big Data initiatives has not been
+    equivalent across all industries. Most companies are struggling to capture a small
+    fraction of the available potential in Big Data initiatives. The healthcare and
+    manufacturing industries, for example, have so far been less successful at taking
+    advantage of data and analytics than other industries such as logistics and retail.
+    Effective capture of value will likely require organizational investment in change
+    management strategies that support transformation of the culture, and redesign
+    of legacy processes. In some cases, the less-than-satisfying impacts of Big Data
+    projects are not for lack of significant financial investments in new technology.
+    It is common to find reports pointing to a shortage of technical talent as one
+    of the largest barriers to undertaking projects, and this issue is expected to
+    persist into the future. This volume explores the adoption of Big Data systems
+    and barriers to adoption; factors in maturity of Big Data projects, organizations
+    implementing those projects, and the Big Data technology market; and considerations
+    for implementation and modernization of Big Data systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-10
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

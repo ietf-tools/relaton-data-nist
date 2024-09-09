@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT2494
 title:
-- content: Propagation of radio waves over land at 1046 MC :report for the Air Navigation
+- content: Propagation of radio waves over land at 1046 MC
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: report for the Air Navigation Development Board
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Propagation of radio waves over land at 1046 MC - report for the Air Navigation
     Development Board
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.2494
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport2494.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 2494
@@ -22,138 +35,106 @@ docid:
 - id: 10.6028/NBS.RPT.2494
   type: DOI
 date:
-- type: published
-  value: 1953-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A P
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, A. P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80006175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B R
-          script:
-          - Latn
-          initial: B
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: B R
-          script:
-          - Latn
-      surname:
-        content: Bean
-        script:
-        - Latn
+      completename:
+        content: Bean, B. R. (Bradford R.),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90690082
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J W
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: J W
-          script:
-          - Latn
-      surname:
-        content: Herbstreit
-        script:
-        - Latn
+      completename:
+        content: Herbstreit, J. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K O
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: O
-        formatted_initials:
-          content: K O
-          script:
-          - Latn
-      surname:
-        content: Hornberg
-        script:
-        - Latn
+      completename:
+        content: Hornberg, K. O.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          script:
-          - Latn
-      surname:
-        content: Norton
-        script:
-        - Latn
+      completename:
+        content: Norton, Kenneth A.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021015342
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1953-05
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The purpose of this report is to present the experimental data on 1046
+    Mc obtained at the Cheyenne Mountain Field Station for the period February 1,
+    1952 through January 31, 1953. Continuous recordings were not made prior to this
+    period and consequently any previous data are not considered. In addition, this
+    report includes the analysis of diurnal and seasonal variations in hourly median
+    signal levels, the analysis of variations in instantaneous signal levels and the
+    analysis of prolonged space-wave fade-outs within the radio horizon for the period
+    investigated, an analysis of the effects of irregular terrain at points within
+    the radio horizon, an analysis of the scattered signals at points far beyond the
+    radio horizon, including estimates of the expected effective gains of large antenna
+    arrays, the required spacing for diversity arrays and the effective intelligence
+    bearing bandwidths of the propagation paths. Finally, as a result of a recent
+    investigation of propagation over high mountain ridges, an analysis is presented
+    of the obstacle gains expected on 1000 Mc in mountainous terrain.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '2494'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

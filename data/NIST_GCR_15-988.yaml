@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-988
 title:
 - content: On extending an ISO standard for exchanging product manufacturing information
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-988
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-988.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-988
@@ -21,50 +20,57 @@ docid:
 - id: 10.6028/NIST.GCR.15-988
   type: DOI
 date:
-- type: published
-  value: 2015-02
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Thurman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Thurman, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87146487
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-02
-script:
-- Latn
+abstract:
+- content: 'Industrial users of ISO 10303 (STEP) protocols need the ability to exchange
+    design product data that is in conformance with recently updated ISO Geometric
+    Product Specifications (GPS) ISO 1101:2012; with AWS A2.4:2012 Standard Symbols
+    for Welding, Brazing, and Nondestructive Examination; with ISO 2553: 2013 Welding
+    and allied processes -- Symbolic representation on drawings -- Welded joints;
+    with SAE AS8879D and ISO 3161:1999 Aerospace -- UNJ threads -- General requirements
+    and limit dimensions; with and ISO 5855-1:1999 -- Aerospace -- MJ threads -- Part
+    1: General requirements. The LOTAR consortium created a project to extend ISO
+    10303-242 for these new capabilities. Changes to relevant STEP information models
+    have been proposed to support the additions to ISO 1101, and new information models
+    proposed to support the welding and thread standards.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-988
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-41
 title:
-- content: 'NIST measurement services :spectroradiometric detector measurements: part
-    I-Ultraviolet detectors and part II-visible to near-infrared detectors'
+- content: Spectroradiometric detector measurements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: part 1-ultraviolet detectors and part II-visible to near-infrared detectors
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Spectroradiometric detector measurements - part 1-ultraviolet detectors
+    and part II-visible to near-infrared detectors
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-41
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-41.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-41
@@ -22,86 +35,62 @@ docid:
 - id: 10.6028/NIST.SP.250-41
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Larason
+      completename:
+        content: Larason, Thomas C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98087762
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sally S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bruce
+      completename:
+        content: Bruce, Sally S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98087760
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Albert C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: parr
+      completename:
+        content: Parr, A. C. (Albert C.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97109332
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physics Laboratory (U.S.).
+    - content: Optical Technology Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010189576
   role:
   - type: publisher
-revdate: '1998'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-41
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

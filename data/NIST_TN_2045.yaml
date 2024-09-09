@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2045
 title:
 - content: Confirming a performance threshold with a binary experimental response
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2045
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2045.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2045
@@ -21,93 +20,79 @@ docid:
 - id: 10.6028/NIST.TN.2045
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis D
-          script:
-          - Latn
-      surname:
-        content: Leber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Leber, Dennis D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Leticia
-          script:
-          - Latn
-      surname:
-        content: Pibida
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Pibida, Leticia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022071928
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexander L
-          script:
-          - Latn
-      surname:
-        content: Enders
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Enders, Alexander L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Physical Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: 'When designing a test to confirm that an artifact (e.g., a radiation detection
+    system) meets a performance threshold where the artifact''s performance is estimated
+    based on a binary response, the number of required observations is often an initial
+    question. To determine the required sample size, two pieces of information are
+    necessary: the performance threshold; and a statement of acceptable risk or required
+    confidence. In this chapter, we provide guidance on developing a defensible and
+    successful test through the informed selection of a performance threshold and
+    statement of acceptable risk. Using the statistical hypothesis testing framework,
+    we illustrate the meaning of risk and confidence from both the consumer and producer''s
+    perspectives. We define the power of a test and demonstrate how an experimenter
+    can use a power curve to balance the tradeoffs between test burden (costs) and
+    producer risk (type II error) while satisfying the required confidence. We provide
+    a sample size and acceptance criterion table to define a fixed sample test that
+    will satisfy a variety of performance thresholds and levels of acceptable risk.
+    We conclude with a general discussion of sequential sampling tests and provide
+    important considerations and contrasts to their fixed sample counterparts.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2045'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8406
 title:
-- content: Cybersecurity Framework Profile for Liquefied Natural Gas
+- content: Cybersecurity framework profile for liquefied natural gas
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8406
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8406.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8406
@@ -21,46 +20,135 @@ docid:
 - id: 10.6028/NIST.IR.8406
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Newhouse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Newhouse, William
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-4873-7648"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Long, Josephine
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Weitzel. David
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Warren, Jason
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Thompson, Michael
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0836-244X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Yates, Chris
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Tran, Hillary
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mink, Alicia
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Herriott, Aurora
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Cottle, Tom
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: This document is the Cybersecurity Framework Profile developed for the
+    Liquefied Natural Gas (LNG) industry and the subsidiary functions that support
+    the overarching liquefaction process, transport, and distribution of LNG. The
+    LNG Cybersecurity Framework Profile can be used by liquefaction facilities, LNG
+    vessels, and other supporting entities of the LNG lifecycle so that cybersecurity
+    risks associated with these critical processes and systems can be minimized. The
+    LNG Profile provides a voluntary, risk-based approach for managing cybersecurity
+    activities and reducing cyber risk to the overall LNG process. The Cybersecurity
+    Framework LNG Profile is meant to supplement but not replace current cybersecurity
+    standards, regulations, and industry guidelines that are already being used by
+    the Liquefied Natural Gas industry.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8406'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8406'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

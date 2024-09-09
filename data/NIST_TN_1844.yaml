@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1844
 title:
-- content: Potential Research Areas in Residential Energy Storage for NIST’s Engineering
+- content: Potential research areas in residential energy storage for NIST's Engineering
     Laboratory
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1844
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1844.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1844
@@ -22,108 +21,63 @@ docid:
 - id: 10.6028/NIST.TN.1844
   type: DOI
 date:
-- type: published
-  value: 2014-09
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: M. A.
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: M. A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W. V.
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: W. V.
-          script:
-          - Latn
-      surname:
-        content: Payne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078668
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H. M.
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H. M.
-          script:
-          - Latn
-      surname:
-        content: Skye
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Skye, Harrison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022084007
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Energy and Environment Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-09
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1844'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

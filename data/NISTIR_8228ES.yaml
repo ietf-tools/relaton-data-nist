@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8228es
 title:
 - content: Consideraciones para la gestión de riesgos a la ciberseguridad y la privacidad
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8228es
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8228es.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8228es
@@ -22,186 +21,127 @@ docid:
 - id: 10.6028/NIST.IR.8228es
   type: DOI
 date:
-- type: published
-  value: '2021-03-29'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katie
-          script:
-          - Latn
-      surname:
-        content: Boeckl
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boeckl, Katie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Fagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fagan, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Fisher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fisher, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Naomi
-          script:
-          - Latn
-      surname:
-        content: Lefkovitz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lefkovitz, Naomi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katerina N.
-          script:
-          - Latn
-      surname:
-        content: Megas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Megas, Katerina N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ellen
-          script:
-          - Latn
-      surname:
-        content: Nadeau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nadeau, Ellen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Danna Gabel
-          script:
-          - Latn
-      surname:
-        content: O’Rourke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Rourke, Danna Gabel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ben
-          script:
-          - Latn
-      surname:
-        content: Piccarreta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Piccarreta, Ben.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Scarfone, Karen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-03-29'
-script:
-- Latn
+abstract:
+- content: La internet de las cosas (IoT) es un conjunto de diversas tecnolog as que
+    evolucionan y se difunden con rapidez, y que interact an con el mundo f sico.
+    Muchas organizaciones no se dan cuenta del gran n mero de dispositivos de IoT
+    que ya est n utilizando, ni de que los dispositivos de IoT pueden afectar a los
+    riesgos a la ciberseguridad y la privacidad de manera distinta de los dispositivos
+    de tecnolog a de la informaci n (TI) convencionales. El objetivo de esta publicaci
+    n es ayudar a los organismos federales y otras organizaciones a conocer y gestionar
+    mejor los riesgos a la ciberseguridad y la privacidad asociados con sus dispositivos
+    individuales de IoT durante el ciclo de vida de estos. Esta publicaci n es un
+    documento introductorio que sirve de base para una serie de publicaciones planificadas
+    sobre aspectos m s espec ficos de este tema.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: editionOf
+  bibitem:
+    id: NISTIR8228
+    docid:
+    - id: NIST IR 8228
+      type: NIST
+    formattedref:
+      content: NIST IR 8228
+      format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8228es
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

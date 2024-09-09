@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2116
 title:
-- content: Seismic Evaluation of a 2-Story Cold-Formed Steel Framed Building using
+- content: Seismic evaluation of a 2-story cold-formed steel framed building using
     ASCE 41-17
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2116
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2116.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2116
@@ -22,84 +21,76 @@ docid:
 - id: 10.6028/NIST.TN.2116
   type: DOI
 date:
-- type: published
-  value: '2020-09-29'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew S.
-          script:
-          - Latn
-      surname:
-        content: Speicher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Speicher, Matthew S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ivana
-          script:
-          - Latn
-      surname:
-        content: Olivares
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Olivares, Ivana.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin W.
-          script:
-          - Latn
-      surname:
-        content: Schafer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Schafer, Benjamin W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-09-29'
-script:
-- Latn
+abstract:
+- content: The objective of this report is to assess the adequacy of new provisions
+    in ASCE 41 for seismic assessment of cold-formed steel framed buildings. A two-story
+    cold-formed steel (CFS) framed building that has been designed to contemporary
+    seismic standards (ASCE 7 and AISI S400) and tested on a shake table was selected
+    as the archetype building for this study. Shake table tests of the CFS-framed
+    building indicated only minimal damage at earthquake levels exceeding the ASCE
+    7 maximum considered earthquake. Further, previously conducted incremental dynamic
+    analyses of the CFS-framed building indicated the ASCE 7 design led to acceptable
+    collapse margin ratios, which equates to acceptable performance. Assessment of
+    the selected CFS-framed building is performed per the linear procedure in ASCE
+    41. A retrofit design, and a new design, for the same CFS-framed building are
+    also completed per ASCE 41. The ASCE 41 assessment indicates that the building
+    is inadequate, despite the known good performance in experimental shaking and
+    complementary nonlinear time history analyses. The ASCE 41 retrofit requires nearly
+    a doubling in the strength of the shear walls and the remaining elements of the
+    seismic force resisting system. It is shown that ASCE 41 s predicted demands for
+    short period buildings, and its lack of a simple means to account for large system
+    overstrength, are the two primary contributors to the overly-conservative predictions
+    from the ASCE 41 provisions. These findings are intended to be used to improve
+    future versions of ASCE 41, with a focus on CFS-framed building provisions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2116'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

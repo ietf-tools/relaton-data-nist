@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS7
 title:
-- content: High temperature properties and decomposition of inorganic salts :part
+- content: High temperature properties and decomposition of inorganic salts
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: part 1. sulfates
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: High temperature properties and decomposition of inorganic salts - part
     1. sulfates
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 7
@@ -22,93 +35,51 @@ docid:
 - id: 10.6028/NBS.NSRDS.7
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1966'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K H
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: K H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stern
+      completename:
+        content: Stern, K. H. (Kurt H.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83825960
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E L
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: E L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weise
+      completename:
+        content: Weise, E. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89632344
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1966'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '7'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

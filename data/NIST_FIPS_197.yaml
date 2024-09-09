@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS197
 title:
-- content: Advanced encryption standard (AES)
+- content: Advanced Encryption Standard (AES)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.197
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 197
@@ -21,33 +20,58 @@ docid:
 - id: 10.6028/NIST.FIPS.197
   type: DOI
 date:
-- type: published
-  value: 2001-11
+- type: issued
+  value: '2017'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2001-11
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
+  role:
+  - type: publisher
+abstract:
+- content: The Advanced Encryption Standard (AES) specifies a FIPS-approved cryptographic
+    algorithm that can be used to protect electronic data. The AES algorithm is a
+    symmetric block cipher that can encrypt (encipher) and decrypt (decipher) information.
+    Encryption converts data to an unintelligible form called ciphertext; decrypting
+    the ciphertext converts the data back into its original form, called plaintext.
+    The AES algorithm is capable of using cryptographic keys of 128, 192, and 256
+    bits to encrypt and decrypt data in blocks of 128 bits.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: '197'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

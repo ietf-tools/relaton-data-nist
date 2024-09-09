@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-1
 title:
-- content: A Summary Report on the Model-Based Enterprise Capability Index and Guidebook
-    Workshop
+- content: A summary report on the model-based enterprise capability index and guidebook
+    workshop
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-1
@@ -22,101 +21,83 @@ docid:
 - id: 10.6028/NIST.AMS.100-1
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joan
-          script:
-          - Latn
-      surname:
-        content: Pellegrino
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pellegrino, Joan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yannick
-          script:
-          - Latn
-      surname:
-        content: Tamm
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Tamm, Yannick.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Barnard Feeney, Allison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022002972
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas D.
-          script:
-          - Latn
-      surname:
-        content: Hedberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg Jr., Thomas D.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) held a Model-Based
+    Enterprise Summit from April 12-14, 2016 with the intention of identifying challenges,
+    research, implementation issues, and lessons learned in manufacturing and quality
+    assurance where a digital three-dimensional (3D) model of the product serves as
+    the authoritative information source for all activities in the product''s lifecycle.
+    This 3D model is considered a model-based definition (MBD) and acts as a digital
+    thread of sorts to weave and link all the phases of the product lifecycle together.
+    The U.S. Department of Defense (DoD) and NIST developed a tool to help organizations
+    assess whether they are ready for an MBE or smart manufacturing platform. The
+    tool was appropriately named: MBE Capability Index Assessment Tool. As part of
+    the summit, NIST was also interested in collecting input specific to the MBE Capability
+    Index Assessment Tool and the consideration for developing a guidebook for the
+    tool.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

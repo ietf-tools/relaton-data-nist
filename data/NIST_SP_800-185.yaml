@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-185
 title:
 - content: 'SHA-3 derived functions: cSHAKE, KMAC, TupleHash and ParallelHash'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-185
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-185
@@ -21,84 +20,71 @@ docid:
 - id: 10.6028/NIST.SP.800-185
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Kelsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kelsey, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014038767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shu-jen
-          script:
-          - Latn
-      surname:
-        content: Change
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Change, Shu-jen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ray
-          script:
-          - Latn
-      surname:
-        content: Perlner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Perlner, Ray.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: 'This Recommendation specifies four types of SHA-3-derived functions: cSHAKE,
+    KMAC, TupleHash, and ParallelHash, each defined for a 128- and 256-bit security
+    strength. cSHAKE is a customizable variant of the SHAKE function, as defined in
+    Federal Information Processing Standard (FIPS) 202. KMAC (for KECCAK Message Authentication
+    Code) is a variable-length message authentication code algorithm based on KECCAK;
+    it can also be used as a pseudorandom function. TupleHash is a variable-length
+    hash function designed to hash tuples of input strings without trivial collisions.
+    ParallelHash is a variable-length hash function that can hash very long messages
+    in parallel.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-185
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

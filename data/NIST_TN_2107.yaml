@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2107
 title:
-- content: Development of a Kinematic Measurement Method for Knee Exoskeleton Fit
-    to a User
+- content: Development of a kinematic measurement method for knee exoskeleton fit
+    to a user
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2107
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2107.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2107
@@ -22,101 +21,85 @@ docid:
 - id: 10.6028/NIST.TN.2107
   type: DOI
 date:
-- type: published
-  value: '2020-08-04'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karl
-          script:
-          - Latn
-      surname:
-        content: Van Wyk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Van Wyk, Karl.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mili
-          script:
-          - Latn
-      surname:
-        content: Shah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Shah, Mili.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: '2020-08-04'
-script:
-- Latn
+abstract:
+- content: Proper exoskeleton fit to user impacts the safety of the human robot interaction.
+    Exoskeletons are now being marketed by several manufacturers and yet there are
+    currently no defined methods to measure the exoskeleton fit to the user. This
+    research aims to develop a quantifiable test and measurement framework for evaluating
+    exoskeleton performance, beginning with the tracking of knee kinematics. Key challenges
+    in knee kinematic measurements include the complexity of human biomechanics, the
+    variability of human anthropometry as well as the uncertainty of marker position,
+    relative to underlying skeletal features, as computed by an optical tracking system
+    (OTS). A measurement methodology to assess exoskeleton-to-leg fit based on comparison
+    of knee kinematics between the human and the exoskeleton is proposed. The methodology
+    is based on the use of rigid artifacts to minimize marker motion, and therefore
+    measurement error. Separate artifacts for the exoskeleton and the human limbs
+    enable independent tracking of exoskeleton and knee joint kinematics in order
+    to assess exoskeleton fit to user. A prosthetic test apparatus and a 3D printed
+    human knee model apparatus were also designed and developed to simulate the biomechanics
+    of the human knee. The experimental data from the prosthetic leg test apparatus
+    showed agreement with both the simulated analytical model and the ground truth
+    skeletal structure relative to the artifacts placed on the simulated leg. The
+    reconfigurable artifact was also tested by the researchers to demonstrate how
+    the novel design can be used to track knee kinematics between the human leg and
+    the exoskeleton leg.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2107'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

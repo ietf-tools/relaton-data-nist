@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1256
 title:
 - content: A NIST-hosted virtual workshop on measuring SARS-CoV-2 in wastewater and
-    fecal Material:a call for standards
+    fecal Material
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a call for standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A NIST-hosted virtual workshop on measuring SARS-CoV-2 in wastewater and
+    fecal Material - a call for standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1256
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1256.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1256
@@ -22,152 +36,105 @@ docid:
 - id: 10.6028/NIST.SP.1256
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra M
-          script:
-          - Latn
-      surname:
-        content: Da Silva
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Da Silva, Sandra M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paulina K
-          script:
-          - Latn
-      surname:
-        content: Piotrowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Piotrowski, Paulina K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christina M
-          script:
-          - Latn
-      surname:
-        content: Jones
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jones, Christina M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephanie L
-          script:
-          - Latn
-      surname:
-        content: Servetas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Servetas, Stephanie L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nancy J
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lin, Nancy J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katrice A
-          script:
-          - Latn
-      surname:
-        content: Lippa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lippa, Katrice A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Scott A
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jackson, Scott A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) has leveraged
+    its expertise in chemical and biological metrology and standards development as
+    well as its strong relationships with stakeholders to host a virtual workshop
+    on June 16, 2020 that explored the challenges associated with the measurement
+    of SARS-CoV-2 in human stool and wastewater. The workshop was comprised of a diverse
+    range of speakers that represent international experts in gut microbiome therapeutics,
+    clinical diagnostics and wastewater surveillance, together with a general attendance
+    by over 450 U.S. and international participants from 20 countries. Attendees were
+    spread out over academia, commercial industry, local, state and federal government,
+    and non- profit and standards organizations. The main output of the workshop report
+    is summarizing the current needs and possible standards and measurement science
+    solutions that would be applicable to the gut microbiome therapeutics, clinical
+    diagnostics and wastewater surveillance communities. This includes documentation
+    of key insights from workshop presentations, stakeholder needs assessment through
+    a panel Q&A and discussion together with both in-workshop and post-workshop polls,
+    and a plan forward for NIST to develop community-relevant standards. As was requested
+    by the participants, NIST will plan to host a follow up webinar by the end of
+    the calendar year 2020.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1256'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

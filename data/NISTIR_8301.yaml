@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8301
 title:
-- content: 'Blockchain Networks: Token Design and Management Overview'
+- content: Blockchain networks
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: token design and management overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Blockchain networks - token design and management overview
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8301
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8301
@@ -21,84 +34,92 @@ docid:
 - id: 10.6028/NIST.IR.8301
   type: DOI
 date:
-- type: published
-  value: '2021-02-09'
+- type: issued
+  value: '2024'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Loïc
-          script:
-          - Latn
-      surname:
-        content: Lesavre
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lesavre, Loïc
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Priam
-          script:
-          - Latn
-      surname:
-        content: Varin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Varin, Priam
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0751-5739"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dylan
-          script:
-          - Latn
-      surname:
-        content: Yaga
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Yaga, Dylan
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-4058-3645"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-02-09'
-script:
-- Latn
+abstract:
+- content: 'Blockchain technology has enabled a new software paradigm for managing
+    digital ownership in partial- or zero-trust environments. It uses tokens to conduct
+    transactions, exchange verifiable data, and achieve coordination across organizations
+    and on the web. Fundamental to this representation is that users can independently
+    control token custody in digital wallets through public-key cryptography and interact
+    with one another in a peer-to-peer manner. Blockchain networks provide secure
+    transaction reconciliation, linkage, and storage in consolidated, integrity-protected
+    distributed ledgers forming mutually operated record-keeping execution environments.
+    Data models with varied capabilities and scopes have been defined to issue tokens,
+    which additional protocols can help manage while enabling separation of concerns.
+    Security and recovery mechanisms allow users to set up self-hosted, externally
+    hosted, and hybrid account custody models. Scaling schemes have been developed
+    to accommodate transactions off-chain with deferred on-chain settlement, as well
+    as deposit contracts with built-in, self-enforceable conditions to exchange tokens
+    without intermediaries, transaction submission rules to fit in with different
+    deployment scenarios, and privacy-enhancing techniques to protect user confidentiality.
+    Software design patterns and infrastructure tools can also make it easier to integrate
+    blockchain networks, wallets, and external resources in user interfaces. This
+    document provides a high-level technical overview and conceptual framework of
+    token designs and management methods. It is built around five views: the token
+    view, wallet view, transaction view, user interface view, and protocol view. The
+    purpose is to lower the barriers to study, prototype, and integrate token-related
+    standards and protocols by helping readers understand the building blocks involved
+    both on-chain and off-chain.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8301'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8301'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

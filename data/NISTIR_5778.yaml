@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5778
 title:
-- content: A collection of results for the SPCE water model
+- content: A collection of results for the SPC/E water model
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5778
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5778.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5778
@@ -21,72 +20,47 @@ docid:
 - id: 10.6028/NIST.IR.5778
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R D
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          script:
-          - Latn
-      surname:
-        content: Mountain
-        script:
-        - Latn
+      completename:
+        content: Mountain, R. D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82116806
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          script:
-          - Latn
-      surname:
-        content: Wallqvist
-        script:
-        - Latn
+      completename:
+        content: Wallqvist, A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5778'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

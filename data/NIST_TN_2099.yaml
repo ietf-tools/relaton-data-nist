@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2099
 title:
-- content: Quasi-static position calibration of the galvanometer scanner on the additive
-    manufacturing metrology testbed
+- content: Quasi-static position calibration of the galvanometer scanner on the Additive
+    Manufacturing Metrology Testbed
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2099
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2099.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2099
@@ -22,118 +21,87 @@ docid:
 - id: 10.6028/NIST.TN.2099
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          script:
-          - Latn
-      surname:
-        content: Lane
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lane, Brandon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shawn
-          script:
-          - Latn
-      surname:
-        content: Moylan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Moylan, Shawn.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ho
-          script:
-          - Latn
-      surname:
-        content: Yeung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeung, Ho.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jorge
-          script:
-          - Latn
-      surname:
-        content: Neira
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Neira, Jorge.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Josephine
-          script:
-          - Latn
-      surname:
-        content: Chavez-Chao
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chavez-Chao, Josephine.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: LAB.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: The Additive Manufacturing Metrology Testbed (AMMT) is a fully customized
+    laser powder bed fusion (LPBF) additive manufacturing (AM) research platform designed
+    and constructed at the National Institute of Standards and Technology. This system
+    incorporates a galvanometer (galvo) scanner, consisting of two mirrors which can
+    be controlled to rotate over fixed angles and reflect and position a focused,
+    high power laser onto a substrate. This Technical Note describes the methods for
+    calibrating the quasi-static position of the laser spot, positioned via the galvo,
+    as a function of the digital command to the galvo controller. In addition, the
+    procedures for calibrating the galvo position encoders to the physical laser spot
+    position are provided. An example is provided of measured galvo position errors
+    before and after calibration and compensation. Finally, an error reporting and
+    uncertainty budget is provided.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2099'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO6
 title:
-- content: Properties of high-temperature ceramics and cermets :elasticity and density
+- content: Properties of high-temperature ceramics and cermets
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: elasticity and density at room temperature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Properties of high-temperature ceramics and cermets - elasticity and density
     at room temperature
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 6
@@ -22,64 +35,40 @@ docid:
 - id: 10.6028/NBS.MONO.6
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S M
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: S M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lang
+      completename:
+        content: Lang, S. M. (Solomon Max),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2014126686
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1960'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '6'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

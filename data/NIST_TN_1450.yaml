@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1450
 title:
-- content: CCT-K3 :key comparison of realizations of the ITS-90 over the range 83.8058
+- content: CCT-K3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: key comparison of realizations of the ITS-90 over the range 83.8058 K to
+    933.473 K
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: CCT-K3 - key comparison of realizations of the ITS-90 over the range 83.8058
     K to 933.473 K
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1450
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1450.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1450
@@ -22,64 +36,40 @@ docid:
 - id: 10.6028/NIST.TN.1450
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B W
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: B W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mangum
+      completename:
+        content: Mangum, B. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84049362
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '2002'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1450'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

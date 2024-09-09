@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS300-4
 title:
 - content: Guide to industrial wireless systems deployments
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.300-4
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.300-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 300-4
@@ -21,135 +20,104 @@ docid:
 - id: 10.6028/NIST.AMS.300-4
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Candell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Candell, Richard, .
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0002-6679-8823
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mohamed
-          script:
-          - Latn
-      surname:
-        content: Hany
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Hany, Mohamed.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kang B
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Lee, Kang B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99066984
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yongkang
-          script:
-          - Latn
-      surname:
-        content: Liu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Liu, Yongkang.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91006307
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanne
-          script:
-          - Latn
-      surname:
-        content: Quimby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Quimby, Jeanne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Remley, Kate.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: This document is intended to be a practical guide used by engineers and
+    managers facilitating them to go through the process of defining the objectives
+    of their wireless systems and examining the environments where the wireless systems
+    are to be deployed, then helping them in selecting, designing, deploying, and
+    monitoring the wireless systems using existing technology in a factory. Sufficient
+    background materials about wireless technologies are provided, so that the users
+    have some basic understanding of wireless systems being addressed. Thus the document
+    is aimed to be a light-weighted, easy-to-use, reference guide, equipped with checklists
+    throughout the lifecycle of wireless technology from concept and design to deployment
+    and monitoring.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 300-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP815
 title:
-- content: Directory of state and local government laboratory accreditationdesignation
+- content: Directory of state and local government laboratory accreditation/designation
     programs
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.815
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication815.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 815
@@ -22,69 +21,54 @@ docid:
 - id: 10.6028/NIST.SP.815
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hyer
+      completename:
+        content: Hyer, Charles W.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Charles W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hyer
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92058694
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The directory is a guide to laboratory accreditation and similar types
+    of programs conducted by state and local government agencies. These programs accredit
+    or designate laboratories or other entities to conduct testing to assist the agencies
+    in carrying out their responsibilities. The accreditation or designation is based
+    on some type of assessment regarding the capability of the laboratory to conduct
+    the testing. However, the nature of such assessments varies considerably from
+    agency to agency. Entries in the directory are based primarily on information
+    provided by each state and local government agency and reflect the agency's view
+    of its activities.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '815'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

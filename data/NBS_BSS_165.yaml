@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBSS165
 title:
 - content: Engineering aspects of the September 19, 1985 Mexico earthquake
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BSS.165
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience165.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BSS 165
@@ -21,120 +20,81 @@ docid:
 - id: 10.6028/NBS.BSS.165
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stone
+      completename:
+        content: Stone, W. C. (William C.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81152535
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Felix Y
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yokel
+      completename:
+        content: Yokel, Felix Y.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50014037
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mehmet
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Celebi
+      completename:
+        content: Çelebi, Mehmet.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85183970
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hanks
+      completename:
+        content: Hanks, Thomas.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edgar V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Leyendecker
+      completename:
+        content: Leyendecker, Edgar V.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50051472
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '165'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-24
 title:
 - content: Proceedings of the 10th model-based enterprise summit (MBE 2019)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-24
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-24.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-24
@@ -21,67 +20,81 @@ docid:
 - id: 10.6028/NIST.AMS.100-24
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Hedberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg, Jr., Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9024-2059"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          script:
-          - Latn
-      surname:
-        content: Carlisle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Carlisle, Mark.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021149382
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) hosted the tenth
+    installment of the Model-Based Enterprise Summit (MBE 2019) on April 2-4, 2019
+    in Gaithersburg, Maryland. The MBE 2019 witnessed another year-over-year registration
+    and attendance growth. The MBE Summit saw 340 attendees gather over three days
+    to share their experiences with Model-Based Enterprise (MBE). This speaks to the
+    growing interest of MBE within the community and the importance of the Summit
+    output. The MBE 2019 Program Committee continues to believe that the MBE Summit
+    is the best place for gathering and sharing information dedicated to the digital
+    transformation across the product lifecycle. The goal of the MBE Summit is to
+    identify challenges, research, implementation issues, and lessons learned in design,
+    manufacturing, quality assurance, and sustainment of products and processes where
+    a digital three-dimensional (3D) model of the product serves as the authoritative
+    information source for all activities in a product s lifecycle. The theme of MBE
+    2019 was Democratizing the Implementation of MBE. The model-based community moved
+    beyond the question of why is MBE important? to how do we deploy MBE? . The tenth
+    MBE Summit was focused on highlighting the long history of MBE and real-world
+    implementations of MBE in practice. Authors from academia, government, and industry
+    submitted papers on topics related to this year s theme using the following tracks:
+    1) Systems Engineering and Lifecycle Management; 2) Design; 3) Manufacturing;
+    4) Quality and Inspection; and 5) Operations, Logistics, and Sustainment. This
+    volume contains the papers presented at MBE 2019. There were 58 submissions. Each
+    submission was reviewed by experts and decided upon by the program committee.
+    The committee decided to accept 30 papers. The MBE 2019 program also included
+    five invited talks and three panels.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-24
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

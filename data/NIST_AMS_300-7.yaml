@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS300-7
 title:
 - content: Proposed expansion of quality information framework (QIF) standard schema
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.300-7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.300-7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 300-7
@@ -22,67 +21,65 @@ docid:
 - id: 10.6028/NIST.AMS.300-7
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Hui-Min
-          script:
-          - Latn
-      surname:
-        content: Huang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Huang, Huimin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79074377
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Hedberg Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg Jr., Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9024-2059"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: Potential Failure Mode and Effects Analysis (FMEA) contains a method and
+    the associated information requirements for quality management and risk analysis.
+    FMEA is applicable to manufacturing processes and product design. Quality Information
+    Framework (QIF) is a standard that covers the quality measurement and analysis
+    phase within a model based enterprise (MBE) for manufacturing. An information
+    model, developed in Extensible Markup Language (XML) for FMEA is described in
+    this paper and is proposed to be included as a part of QIF. This paper also identifies
+    key information sharing between FMEA and QIF.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 300-7
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

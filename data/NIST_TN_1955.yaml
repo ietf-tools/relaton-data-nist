@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1955
 title:
 - content: Mobile manipulator stability measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1955
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1955.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1955
@@ -21,67 +20,59 @@ docid:
 - id: 10.6028/NIST.TN.1955
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger V
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bostelman, Roger V.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tsai
-          script:
-          - Latn
-      surname:
-        content: Hong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hong, Tsai.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: Mobile manipulators are being marketed for material handling and other
+    tasks. Manufacturers suggest the stability of the vehicle best when the onboard
+    loading tapers the centroid to the center of the wheelbase as the payload height
+    increases. Experiments were performed at NIST that verify this notion on an Adept
+    Lynx mobile robot with onboard Universal Robot UR5 manipulator. Results show that
+    cantilevered loads near the payload top height cause vehicle instability during
+    navigation that can roll the vehicle and cause off-path navigation. This paper
+    describes the stability experiments and results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1955'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

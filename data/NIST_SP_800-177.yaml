@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-177
 title:
-- content: Trustworthy Email
+- content: Trustworthy email
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-177
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-177
@@ -21,101 +20,88 @@ docid:
 - id: 10.6028/NIST.SP.800-177
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Scott W.
-          script:
-          - Latn
-      surname:
-        content: Rose
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Rose, Scott.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011193200
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen J.
-          script:
-          - Latn
-      surname:
-        content: Nightingale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nightingale, Stephen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022064507
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simson L.
-          script:
-          - Latn
-      surname:
-        content: Garfinkel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Garfinkel, Simson L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ramaswamy
-          script:
-          - Latn
-      surname:
-        content: Chandramouli
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: 'This document gives recommendations and guidelines for enhancing trust
+    in email. The primary audience includes enterprise email administrators, information
+    security specialists and network managers. This guideline applies to federal IT
+    systems and will also be useful for small or medium sized organizations. Technologies
+    recommended in support of core Simple Mail Transfer Protocol (SMTP) and the Domain
+    Name System (DNS) include mechanisms for authenticating a sending domain: Sender
+    Policy Framework (SPF), Domain Keys Identified Mail (DKIM) and Domain based Message
+    Authentication, Reporting and Conformance (DMARC). Recommendations for email transmission
+    security include Transport Layer Security (TLS) and associated certificate authentication
+    protocols. Recommendations for email content security include the encryption and
+    authentication of message content using S/MIME (Secure/Multipurpose Internet Mail
+    Extensions) and associated certificate and key distribution protocols.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-177
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

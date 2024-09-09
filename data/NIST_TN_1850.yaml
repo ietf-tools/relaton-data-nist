@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1850
 title:
-- content: Performance of Portable Radios Exposed to Elevated Temperatures
+- content: Performance of portable radios exposed to elevated temperatures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1850
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1850.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1850
@@ -21,93 +20,67 @@ docid:
 - id: 10.6028/NIST.TN.1850
   type: DOI
 date:
-- type: published
-  value: 2014-09
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle K.
-          script:
-          - Latn
-      surname:
-        content: Donnelly
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Physical Measurements Laboratory
+      completename:
+        content: Donnelly, Michelle.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139801
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F.
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Physical Measurements Laboratory
+      completename:
+        content: Young, William F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dennis
-          script:
-          - Latn
-      surname:
-        content: Camell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Physical Measurements Laboratory
+      completename:
+        content: Camell, Dennis.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Fire Research Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-09
-script:
-- Latn
+- organization:
+    name:
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Electromagnetics Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1850'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

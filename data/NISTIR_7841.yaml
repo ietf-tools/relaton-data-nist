@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7841
 title:
 - content: Study of early-age bridge deck cracking in Nevada and Wyoming
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7841
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7841.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7841
@@ -21,85 +20,69 @@ docid:
 - id: 10.6028/NIST.IR.7841
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dale P
-          script:
-          - Latn
-      surname:
-        content: Bentz
-        script:
-        - Latn
+      completename:
+        content: Bentz, Dale P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002057595
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
+      completename:
+        content: Stutzman, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007151334
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aaron R
-          script:
-          - Latn
-      surname:
-        content: Sakulich
-        script:
-        - Latn
+      completename:
+        content: Sakulich, Aaron R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Jason
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
+      completename:
+        content: Weiss, W. (W. Jason)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002160332
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2012'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7841'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

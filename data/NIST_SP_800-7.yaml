@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-7
 title:
 - content: Security in open systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-7
@@ -21,56 +20,61 @@ docid:
 - id: 10.6028/NIST.SP.800-7
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barkley
+      completename:
+        content: Barkley, John.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87912676
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1994'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Public Switched Network (PSN) provides National Security and Emergency
+    Preparedness (NS/EP) telecommunications. Service vendors, equipment manufacturers,
+    and the federal government are concerned that vulnerabilities in the PSN could
+    be exploited and result in disruptions or degradation of service. To address these
+    threats, NIST is assisting the Office of the Manager, National Communications
+    System (OMNCS), in the areas of computer and network security research and development.
+    NIST is investigating the vulnerabilities and related security issues that result
+    from the use of open systems platforms, i.e., products based on open standards
+    such as POSIX and OSI, in the telecommunications industry. This report is intended
+    to provide information for the practicing programmer involved in development of
+    telecommunications application software. In short, it provides answers to the
+    question, How do I build security into software based on open system platforms?
+    It is not intended to be tutorial in nature and assumes some knowledge of open
+    systems and Unix. Many of the references cited are tutorial and may be used to
+    obtain any background information required.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-7
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

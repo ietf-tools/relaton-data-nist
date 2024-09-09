@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1223
 title:
 - content: Technical review of NIST's free standard reference data products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1223
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1223.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1223
@@ -21,67 +20,68 @@ docid:
 - id: 10.6028/NIST.SP.1223
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Debra L
-          script:
-          - Latn
-      surname:
-        content: Kaiser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kaiser, Debra L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2017015327
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert J
-          script:
-          - Latn
-      surname:
-        content: Hanisch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hanisch, Robert J., 0000-0002-6853-4602.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: Over the past two years, the ODI has undertaken an ambitious effort to
+    modernize the SRD Program. This report covers one aspect of this modernization
+    effort, a comprehensive internal technical review of the 75 free data products
+    currently carrying the SRD label. As part of this review, guidelines for critical
+    evaluation were developed, and specific evaluation methods used by SRD researchers
+    were compiled. Each of the 75 data products was analyzed for compliance with the
+    guidelines and use of the methods, taking into consideration that the 2017 SRD
+    Act Update stipulated data to include digital data objects. The outcome of this
+    analysis was that 65% of the data products will retain the SRD label. The remaining
+    35% of the data products will be assigned to other categories that better describe
+    their content, including data compilations, bibliographic collections, and information
+    resources. This report also includes an analysis of the latest date of new content
+    for all 75 current free data products and a discussion of the implications of
+    this analysis. Planning is underway for an external review of selected SRD Databases
+    and other data products.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1223'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

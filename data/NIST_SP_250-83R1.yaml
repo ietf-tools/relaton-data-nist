@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-83r1
 title:
 - content: Calibration of hygrometers with the hybrid humidity generator
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-83r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-83r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-83r1
@@ -21,94 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.250-83r1
   type: DOI
 date:
-- type: published
-  value: '2021-09-23'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C W
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: C W
-          script:
-          - Latn
-      surname:
-        content: Meyer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Meyer, C. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          script:
-          - Latn
-      surname:
-        content: Herman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Herman, T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W W
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W W
-          script:
-          - Latn
-      surname:
-        content: Miller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Miller, W. W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory
   role:
   - type: publisher
-revdate: '2021-09-23'
-script:
-- Latn
 abstract:
 - content: We describe here the calibration of customer hygrometers using the NIST
     Hybrid Humidity Generator (HHG). This generator produces humidified air with water
@@ -141,27 +85,32 @@ abstract:
     of less than 0.2 % for amount fractions above 2 10?5. For relative humidity in
     the test chamber, the budget yields a total expanded relative uncertainty of less
     than 0.3 %.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     id: NISTSP250-83
     docid:
     - id: NIST SP 250-83
       type: NIST
-      primary: true
     formattedref:
       content: NIST SP 250-83
       format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-83r1
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

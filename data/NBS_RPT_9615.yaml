@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9615
 title:
 - content: Investigation of the directional effects in the stress corrosion of aluminum
-    alloys:quarterly report for the period ending 63067
+    alloys
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: quarterly report for the period ending 6/30/67
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Investigation of the directional effects in the stress corrosion of aluminum
+    alloys - quarterly report for the period ending 6/30/67
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9615
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9615.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9615
@@ -22,80 +36,49 @@ docid:
 - id: 10.6028/NBS.RPT.9615
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1967'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jerome
-          script:
-          - Latn
-      surname:
-        content: Kruger
-        script:
-        - Latn
+      completename:
+        content: Kruger, Jerome.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S Wayne
-          script:
-          - Latn
-      surname:
-        content: Stiefel
-        script:
-        - Latn
+      completename:
+        content: Stiefel, S. Wayne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J R
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J R
-          script:
-          - Latn
-      surname:
-        content: Ambrose
-        script:
-        - Latn
+      completename:
+        content: Ambrose, J. R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1967'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9615'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

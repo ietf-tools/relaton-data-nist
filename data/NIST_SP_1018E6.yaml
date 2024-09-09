@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1018e6
 title:
-- content: Fire dynamics simulator technical reference guide volume 1 :mathematical
+- content: Fire dynamics simulator technical reference guide volume 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: mathematical model
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fire dynamics simulator technical reference guide volume 1 - mathematical
     model
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1018e6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1018e6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1018e6
@@ -22,137 +35,85 @@ docid:
 - id: 10.6028/NIST.SP.1018e6
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McGrattan
+      completename:
+        content: McGrattan, Kevin B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00054299
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Randall
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McDermott
+      completename:
+        content: McDermott, Randall.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weinschenk
+      completename:
+        content: Weinschenk, Craig.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristopher
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Overholt
+      completename:
+        content: Overholt, Kristopher.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simo
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hostikka
+      completename:
+        content: Hostikka, Simo.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009024429
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Floyd
+      completename:
+        content: Floyd, Jason.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001002095
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2013'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1018e6
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

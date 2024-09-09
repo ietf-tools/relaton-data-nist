@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO67
 title:
 - content: Methods for the dynamic calibration of pressure transducers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.67
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph67.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 67
@@ -21,180 +20,78 @@ docid:
 - id: 10.6028/NBS.MONO.67
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1963'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J L
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: J L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schweppe
+      completename:
+        content: Schweppe, J. L. (Joseph Louis),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008136795
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L C
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: L C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Eichberger
+      completename:
+        content: Eichberger, LeRoy Carl,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2014005308
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D F
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: D F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Muster
+      completename:
+        content: Muster, D. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E L
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: E L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Michaels
+      completename:
+        content: Michaels, E. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G F
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: G F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Paskusz
+      completename:
+        content: Paskusz, Gerhard F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003110752
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1963'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '67'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

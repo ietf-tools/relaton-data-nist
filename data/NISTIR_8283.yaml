@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8283
 title:
-- content: Verifying executability of SysML behavior models using satisfiability modulo
-    theory solvers
+- content: Verifying executability of SysML behavior models using Satisfiability Modulo
+    Theory solvers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8283
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8283.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8283
@@ -22,67 +21,67 @@ docid:
 - id: 10.6028/NIST.IR.8283
   type: DOI
 date:
-- type: published
-  value: 2020-06
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Raphael
-          script:
-          - Latn
-      surname:
-        content: Barbau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Barbau, Raphael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Conrad
-          script:
-          - Latn
-      surname:
-        content: Bock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bock, C. (Conrad)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87943852
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-06
-script:
-- Latn
+abstract:
+- content: This report presents an approach to verifying executability of system behavior
+    models by treating them as logical constraint problems solved using Satisfiability
+    Modulo Theory (SMT). With behavior models interpreted as logical constraints on
+    execution order, these solvers can determine whether the models are executable
+    by finding executions that meet those constraints, or not executable because they
+    are overconstrained. The approach relies on Ontological Behavior Modeling (OBM)
+    to unify behavior modeling in the Systems Modeling Language (SysML) under a logical
+    framework based on its structural elements. Translation patterns are proposed
+    between SysML structural models, OBM, and logical constructs in SMT-LIB, a language
+    used as input to SMT solvers. Software developed based on these patterns automatically
+    translates SysML models extended with OBM into SMT-LIB files. Finally, the approach
+    and software are demonstrated by translating and solving example SysML behavior
+    models.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8283'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7512
 title:
 - content: A report on the certification of an absolute molecular mass distribution
-    polymer standard:standard reference materials 2881
+    polymer standard
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Standard Reference Material 2881
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A report on the certification of an absolute molecular mass distribution
+    polymer standard - Standard Reference Material 2881
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7512
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7512.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7512
@@ -22,85 +36,69 @@ docid:
 - id: 10.6028/NIST.IR.7512
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles M
-          script:
-          - Latn
-      surname:
-        content: Guttman
-        script:
-        - Latn
+      completename:
+        content: Guttman, Charles M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001075880
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kathleen M
-          script:
-          - Latn
-      surname:
-        content: Flynn
-        script:
-        - Latn
+      completename:
+        content: Flynn, Kathleen M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90011843
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William E
-          script:
-          - Latn
-      surname:
-        content: Wallace
-        script:
-        - Latn
+      completename:
+        content: Wallace, William E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93049216
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony J
-          script:
-          - Latn
-      surname:
-        content: Kearsley
-        script:
-        - Latn
+      completename:
+        content: Kearsley, Anthony J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7512'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

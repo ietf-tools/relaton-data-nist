@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7030
 title:
-- content: Picture password :a visual login technique for mobile devices
+- content: Picture password
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a visual login technique for mobile devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Picture password - a visual login technique for mobile devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7030
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7030.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7030
@@ -21,120 +34,67 @@ docid:
 - id: 10.6028/NIST.IR.7030
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Wayne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jansen
+      completename:
+        content: Jansen, Wayne.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Serban
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gavrila
+      completename:
+        content: Gavrila, Serban.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vlad
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Korolev
+      completename:
+        content: Korolev, Vlad.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ayers
+      completename:
+        content: Ayers, Rick.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swanstrom
+      completename:
+        content: Swanstrom, Ryan.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7030'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

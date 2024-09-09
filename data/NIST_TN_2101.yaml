@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2101
 title:
 - content: A side-by-side energy use comparison of a variable-speed small duct high
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2101
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2101.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2101
@@ -22,67 +21,71 @@ docid:
 - id: 10.6028/NIST.TN.2101
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Vance
-          script:
-          - Latn
-      surname:
-        content: Payne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian P
-          script:
-          - Latn
-      surname:
-        content: Dougherty
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dougherty, Brian P.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: Two air-source, split system heat pumps were installed in a residential,
+    net-zero energy home that was constructed as a laboratory on the campus of the
+    National Institute of Standards and Technology (NIST) in Gaithersburg, Maryland
+    USA. The first heat pump was a two-stage, 7 kW (2 ton), 15.8 seasonal energy efficiency
+    ratio (SEER), 9.05 heating seasonal performance ratio (HSPF) conventionally ducted
+    system, and the second heat pump was a variable-speed, 10.6 kW (3 ton), 14 SEER,
+    8.35 HSPF, high velocity ducted system. These two systems operated side-by-side,
+    using separate supply ducts and a common return duct, on a weekly alternating
+    schedule to condition the home that was operated with very consistent, simulated
+    thermal loads. We wanted to know if the high velocity system could provide comparable
+    energy use efficiency to the conventional system. The results of this study showed
+    that it did meet the required loads while doing so with slightly greater efficiency;
+    the average cooling coefficient of performance (COP) was (0.40+/-0.11) higher,
+    and the average heating COP was statistically equal. A new firmware was provided
+    at the end of the heating season which greatly improved the performance of the
+    high velocity system; its average heating COP went from (1.8+/-0.9) to (2.5+/-1.1)
+    at a 95 % confidence level. The new firmware heating COP averaged (1.05+/-0.23)
+    higher than the old firmware over the same outdoor temperatures. Defrost performance
+    is very different for these two systems yet they consumed equivalent energy per
+    HDD; the conventional system uses a timed-initiate, temperature-terminate algorithm
+    with auxiliary electric resistive heating while the high velocity system uses
+    calculated evaporator parameters with a hot-gas bypass before a full reverse cycle
+    defrost with no supplementary resistive heat.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2101'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

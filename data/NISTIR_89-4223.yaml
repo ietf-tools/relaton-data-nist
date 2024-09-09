@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR89-4223
 title:
-- content: Electrical design of the infraredultrasonic sensing for a robot gripper
+- content: Electrical design of the infrared/ultrasonic sensing for a robot gripper
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.89-4223
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir89-4223.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 89-4223
@@ -21,46 +20,39 @@ docid:
 - id: 10.6028/NIST.IR.89-4223
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091704
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 89-4223
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

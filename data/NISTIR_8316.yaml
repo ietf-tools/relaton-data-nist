@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8316
 title:
 - content: Internet of Things (IoT) component capability model for research testbed
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8316
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8316.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8316
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.IR.8316
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: Simmon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Simmon, Eric.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: Internet of Things (IoT) is the product of the worlds of information technology
+    (IT) and operational technology (OT)converging. IoT combines the ability to observe
+    the physical world with distributed computing systems that can combine and analyze
+    the resulting data, using the results to better inform decision making, alter
+    the physical environment, and predict future events. While the basic ideas related
+    to IoT are understood, a precise understanding of the IoT concept is lacking,
+    with different groups (including standards development organizations, private
+    companies, consortium, and even government agencies) providing varying definitions
+    for IoT, which results in confusion among stakeholders. This document provides
+    a foundation for IoT that can be used to encourage discussion and conversation
+    around IoT. It describes several key terms and core concepts related to IoT and
+    explains how those terms and concepts relate to each other. The model provides
+    a common language that can be used to communicate, specify, review, analyze, and
+    reason about IoT definitions, documents, architectures, components, and systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8316'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

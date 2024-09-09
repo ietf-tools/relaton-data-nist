@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR88-4010
 title:
-- content: Relationship between appearance and protective durability and coatings:a
-    literature review
+- content: Relationship between appearance and protective durability and coatings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a literature review
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Relationship between appearance and protective durability and coatings
+    - a literature review
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.88-4010
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir88-4010.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 88-4010
@@ -22,123 +35,74 @@ docid:
 - id: 10.6028/NIST.IR.88-4010
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
+      completename:
+        content: Nguyen, T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80111434
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: B
-          script:
-          - Latn
-      surname:
-        content: Collins
-        script:
-        - Latn
+      completename:
+        content: Collins, B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          script:
-          - Latn
-      surname:
-        content: Kaetzel
-        script:
-        - Latn
+      completename:
+        content: Kaetzel, L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          script:
-          - Latn
-      surname:
-        content: Martin
-        script:
-        - Latn
+      completename:
+        content: Martin, J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79082575
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          script:
-          - Latn
-      surname:
-        content: McKnight
-        script:
-        - Latn
+      completename:
+        content: McKnight, M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1988'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-4010
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8119viet
 title:
-- content: Hướng dẫn các yêu cầu về tuân thủ luật lệ của hoa kỳ cho dồ gỗ
+- content: Hướng Dẫn Các Yêu Cầu về Tuân Thủ Luật Lệ Của Hoa Kỳ Cho Đồ Gỗ
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8119viet
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8119viet.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8119viet
@@ -21,53 +20,43 @@ docid:
 - id: 10.6028/NIST.IR.8119viet
   type: DOI
 date:
-- type: published
-  value: 2016-03
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Karen K.
-          script:
-          - Latn
-      surname:
-        content: Reczek
-        script:
-        - Latn
+      completename:
+        content: Reczek, Karen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: 2016-03
-script:
-- Latn
-relation:
-- type: translatedFrom
-  bibitem:
-    id: NISTIR8119
-    docid:
-    - id: NIST IR 8119
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST IR 8119
-      format: text/plain
+abstract:
+- content: This guide addresses children's furniture, upholstered furniture and other
+    types of furniture. This document does NOT address mattresses or other home furnishings
+    such as carpets and rugs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 8119viet
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

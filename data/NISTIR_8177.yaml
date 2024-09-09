@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8177
 title:
 - content: Metrics and key performance indicators for robotic cybersecurity performance
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8177
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8177.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8177
@@ -22,50 +21,53 @@ docid:
 - id: 10.6028/NIST.IR.8177
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy A
-          script:
-          - Latn
-      surname:
-        content: Zimmerman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zimmerman, Timothy A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology has constructed a testbed
+    to measure the performance impact of cybersecurity defenses on Industrial Control
+    Systems (ICS). The testbed allows researchers to emulate real-world industrial
+    manufacturing processes and their control systems without replicating an entire
+    factory environment or its machinery. This report focuses on the Robotic Enclave
+    of the testbed, which is comprised of two robotic arms that emulate a material
+    handling application where parts are transported collaboratively through simulated
+    sequential machining operations. Metrics, key performance indicators, and methodologies
+    for the performance measurements on the manufacturing process and specific subsystems
+    are described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8177'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

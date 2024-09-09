@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1931
 title:
-- content: Novel Method and Apparatus Design for Testing Small Magnetocaloric Samples
+- content: Novel method and apparatus design for testing small magnetocaloric samples
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1931
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1931.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1931
@@ -21,84 +20,81 @@ docid:
 - id: 10.6028/NIST.TN.1931
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vance
-          script:
-          - Latn
-      surname:
-        content: Payne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Payne, W. Vance.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003078668
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harrison M.
-          script:
-          - Latn
-      surname:
-        content: Skye
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Skye, Harrison M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: This report presents a design for a novel test apparatus to directly measure
+    the magnetocaloric effect (MCE). The design of the apparatus was focused primarily
+    on being able to measure the MCE with minimized uncertainties for test samples
+    of 5 g. The effort is meant to aid U.S. industry in selecting new, limited-quantity
+    magnetocaloric (MC) materials for commercial development. A different measurement
+    approach is also required because of the small test sample size and because of
+    the wide disagreement in the validity of some indirect measurement techniques.
+    These concerns require an accurate and direct measure of MCE in order to develop
+    superior room temperature magnetocaloric materials. For the test apparatus design
+    presented here, the estimated uncertainties for the adiabatic temperature change
+    and the increased internal energy are 0.3 K and 0.6 % of the measurement, respectively.
+    The small uncertainties were achieved for the small sample by leveraging the incompressibility
+    of liquid as an amplifier to increase the sensitivity of energy measurement. Drawings,
+    parts list, and required test equipment were specified for the construction of
+    the test apparatus. A calibration technique using a first law of thermodynamics
+    approach was outlined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1931'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

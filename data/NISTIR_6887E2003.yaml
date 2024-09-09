@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6887e2003
 title:
-- content: Government smart card interoperability specification :version 2.1
+- content: Government smart card interoperability specification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 2.1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Government smart card interoperability specification - version 2.1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6887e2003
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6887e2003.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6887e2003
@@ -21,137 +34,82 @@ docid:
 - id: 10.6028/NIST.IR.6887e2003
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Teresa
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwarzhoff
+      completename:
+        content: Schwarzhoff, Teresa.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007065852
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dray
+      completename:
+        content: Dray, Jim.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wack
+      completename:
+        content: Wack, John.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dalci
+      completename:
+        content: Dalci, Eric.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Goldfine
+      completename:
+        content: Goldfine, Alan.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michaela
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Iorga
+      completename:
+        content: Iorga, Michaela.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142260
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 6887e2003
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-189
 title:
-- content: Certification of standard reference material 2372a human DNA quantitation
-    standard
+- content: Certification of Standard Reference Material 2372a
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Human DNA Quantitation Standard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Certification of Standard Reference Material 2372a - Human DNA Quantitation
+    Standard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-189
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-189.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-189
@@ -22,148 +35,100 @@ docid:
 - id: 10.6028/NIST.SP.260-189
   type: DOI
 date:
-- type: published
-  value: 2018-03
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Erica L
-          script:
-          - Latn
-      surname:
-        content: Romsos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Romsos, Erica L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Margaret C
-          script:
-          - Latn
-      surname:
-        content: Kline
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Kline, Margaret C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020100705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055891
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Natalia
-          script:
-          - Latn
-      surname:
-        content: Farkas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Farkas, Natalia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139124
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.).
+    - content: Information Technology Laboratory.
+    - content: Physical Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-03
-script:
-- Latn
+abstract:
+- content: Standard Reference Material (SRM) 2372a is intended for use in the value
+    assignment of human genomic deoxyribonucleic acid (DNA) forensic quantitation
+    materials. A unit of SRM 2372a consists of three well-characterized human genomic
+    DNA materials solubilized in 10 mmol/L 2- amino-2-(hydroxymethyl)-1,3 propanediol
+    hydrochloride (Tris HCl) and 0.1 mmol/L thylenediaminetetraacetic acid disodium
+    salt (disodium EDTA) pH 8.0 buffer (TE 4). The three component genomic DNA materials,
+    labeled A, B, and C, are respectively derived from a single male donor, a single
+    female donor, and 1:3 mixture of a male and a female donor. A unit of the SRM
+    consists of one 0.5 mL tube of each component, each tube containing approximately
+    55 ℗ÿL of DNA solution. Each of these tubes is labeled and is sealed with a color
+    coded screw cap. This publication documents the production, analytical methods,
+    and statistical evaluations involved in production of this SRM.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-189
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

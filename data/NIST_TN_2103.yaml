@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2103
 title:
 - content: 'Evacuation decision-making in the 2016 chimney tops 2 fire: results of
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2103
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2103.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2103
@@ -22,118 +21,95 @@ docid:
 - id: 10.6028/NIST.TN.2103
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Emily H
-          script:
-          - Latn
-      surname:
-        content: Walpole
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Walpole, Emily H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erica D
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kuligowski, Erica D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lauren
-          script:
-          - Latn
-      surname:
-        content: Cain
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cain, Lauren.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alicea
-          script:
-          - Latn
-      surname:
-        content: Fitzpatrick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fitzpatrick, Alicea.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christin
-          script:
-          - Latn
-      surname:
-        content: Salley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Salley, Christin
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: To gain insight into the emergency communication and evacuation decision-making
+    surrounding the 2016 Chimney Tops 2 fire, NIST conducted (via a small business
+    survey research contractor) an online survey targeting homeowners in the Gatlinburg,
+    TN area from October 2018 to May 2019. Among the 323 participants selected in
+    our final sample, it was found that the majority were largely unaware of wildfire
+    risks and had not experienced evacuations previously. On the day the fire spread
+    into residential areas, only a small percentage reported receiving information
+    from official sources or official evacuation notices, instead relying more commonly
+    on information from the media, social sources, and cues from the fire itself (such
+    as smoke, embers, and flames) to become informed about the impending wildfire
+    threat. The great majority of the sample evacuated from the area, most commonly
+    on the day the fire spread into residential areas in response to intense fire
+    cues and feeling afraid for themselves and others. A thematic analysis of voluntary
+    end of survey comments provide additional nuance to these findings, in that many
+    participants felt unprepared for the evacuation, and took independent action to
+    try and get themselves to safety. Recommendations from these findings include
+    the need for greater public outreach and awareness of local wildfire risks and
+    preparation in the region, as well as what to expect in terms of evacuation procedures.
+    In addition to having a better-prepared public, these results highlight the importance
+    of giving timely, coordinated, and clear warning messages and signage to avoid
+    chaotic or difficult evacuation processes. Specific recommendations on the construction
+    of effective warning messages are provided in Section 5, as well as limitations
+    of this work.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2103'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS202
 title:
-- content: 'SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions'
+- content: SHA-3 standard
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: permutation-based hash and extendable-output functions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SHA-3 standard - permutation-based hash and extendable-output functions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.202
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 202
@@ -21,50 +34,40 @@ docid:
 - id: 10.6028/NIST.FIPS.202
   type: DOI
 date:
-- type: published
-  value: 2015-07
+- type: issued
+  value: '2015'
 contributor:
-- person:
-    name:
-      given:
-        forename:
-        - content: Morris J.
-          script:
-          - Latn
-      surname:
-        content: Dworkin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-  role:
-  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: 2015-07
-script:
-- Latn
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: '202'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

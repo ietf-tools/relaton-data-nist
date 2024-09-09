@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8293
 title:
-- content: NISTNIH Vitamin D Metabolites Quality Assurance Program (VitDQAP):final
+- content: NIST/NIH Vitamin D Metabolites Quality Assurance Program (VitDQAP)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST/NIH Vitamin D Metabolites Quality Assurance Program (VitDQAP) - final
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8293
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8293.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8293
@@ -22,101 +35,77 @@ docid:
 - id: 10.6028/NIST.IR.8293
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mary
-          script:
-          - Latn
-      surname:
-        content: Bedner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bedner, Mary.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katrice A
-          script:
-          - Latn
-      surname:
-        content: Lippa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lippa, Katrice A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan S-C
-          script:
-          - Latn
-      surname:
-        content: Tai
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Tai, Susan S.-C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carolyn Q
-          script:
-          - Latn
-      surname:
-        content: Burdette
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Burdette, Carolyn Q.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) established a
+    Vitamin D Metabolites Quality Assurance Program (VitDQAP) in collaboration with
+    the National Institutes of Health Office of Dietary Supplements (NIH-ODS) in 2009.
+    The VitDQAP at NIST administered twelve interlaboratory comparison exercises through
+    2016 for the measurement of vitamin D metabolites in human serum and plasma. The
+    comparability of participant measurements for target analytes improved substantially
+    over time through the development and promulgation of robust measurement technologies,
+    identification and production of suitable reference materials, isolation and identification
+    of measurement system biases, and support and encouragement of within-laboratory
+    measurement quality control efforts. This VitDQAP Final Report summarizes the
+    program and provides highlights of the twelve exercises conducted during the program's
+    eight-year lifetime.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8293'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

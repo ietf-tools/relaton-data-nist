@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-4r1
 title:
-- content: 'NIST Big Data Interoperability Framework: volume 4, security and privacy,
-    version 2'
+- content: NIST Big Data Interoperability Framework
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: volume 4, security and privacy, version 2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Big Data Interoperability Framework - volume 4, security and privacy,
+    version 2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-4r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-4r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-4r1
@@ -22,33 +35,61 @@ docid:
 - id: 10.6028/NIST.SP.1500-4r1
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: NIST Big Data Public Working Group.
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: NIST Big Data Public Working Group.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
+  role:
+  - type: publisher
+abstract:
+- content: Big Data is a term used to describe the large amount of data in the networked,
+    digitized, sensor-laden, information-driven world. While opportunities exist with
+    Big Data, the data can overwhelm traditional technical approaches and the growth
+    of data is outpacing scientific and technological advances in data analytics.
+    To advance progress in Big Data, the NIST Big Data Public Working Group (NBD-PWG)
+    is working to develop consensus on important, fundamental concepts related to
+    Big Data. The results are reported in the NIST Big Data Interoperability Framework
+    (NBDIF) series of volumes. This volume, Volume 4, contains an exploration of security
+    and privacy topics with respect to Big Data. The volume considers new aspects
+    of security and privacy with respect to Big Data, reviews security and privacy
+    use cases, proposes security and privacy taxonomies, presents details of the Security
+    and Privacy Fabric of the NIST Big Data Reference Architecture (NBDRA), and begins
+    mapping the security and privacy use cases to the NBDRA.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-4r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

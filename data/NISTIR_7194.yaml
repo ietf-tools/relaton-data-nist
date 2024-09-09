@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7194
 title:
-- content: NIST response to the 7th CORM report:pressing problems and projected national
-    needs in optical radiation measurement
+- content: NIST response to the 7th CORM report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: pressing problems and projected national needs in optical radiation measurement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST response to the 7th CORM report - pressing problems and projected
+    national needs in optical radiation measurement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7194
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7194.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7194
@@ -22,72 +35,58 @@ docid:
 - id: 10.6028/NIST.IR.7194
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Albert C
-          script:
-          - Latn
-      surname:
-        content: Parr
-        script:
-        - Latn
+      completename:
+        content: Parr, A. C. (Albert C.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97109332
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gerald T
-          script:
-          - Latn
-      surname:
-        content: Fraser
-        script:
-        - Latn
+      completename:
+        content: Fraser, Gerald T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003054012
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yoshi
-          script:
-          - Latn
-      surname:
-        content: Ohno
-        script:
-        - Latn
+      completename:
+        content: Ohno, Yoshi.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7194'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

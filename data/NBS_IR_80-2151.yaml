@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2151
 title:
 - content: A new method of assigning uncertainty in volume calibration
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2151
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2151.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2151
@@ -21,86 +20,59 @@ docid:
 - id: 10.6028/NBS.IR.80-2151
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lecher
+      completename:
+        content: Lecher, James A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reeve
+      completename:
+        content: Reeve, Charles P.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86105504
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Clifford H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Spiegelman
+      completename:
+        content: Spiegelman, Clifford H. (Clifford Henry)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85145823
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2151
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

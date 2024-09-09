@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1877
 title:
-- content: Quantitative Imaging of Clinker and Cement Microstructure
+- content: Quantitative imaging of clinker and cement microstructure
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1877
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1877.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1877
@@ -21,84 +20,79 @@ docid:
 - id: 10.6028/NIST.TN.1877
   type: DOI
 date:
-- type: published
-  value: 2015-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E.
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Stutzman, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007151334
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          script:
-          - Latn
-      surname:
-        content: Bullard
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bullard, Jeffrey F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pan
-          script:
-          - Latn
-      surname:
-        content: Feng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pan, Feng.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr92020313
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-04
-script:
-- Latn
+abstract:
+- content: e combination of scanning electron microscopy (SEM) with X-ray microanalysis
+    and image processing provides a powerful ability to image and quantify microstructural
+    features of construction materials. is document provides guidance for collecting
+    backsca ered electron images and X-ray element maps of polished sections of Portland
+    cement clinker. It furnishes step-by-step procedures for processing image data
+    to produce segmentation of an image eld into its constituent mineral phases, and
+    describes ways use the segmented image to measure the abundance, surface area,
+    and spatial distribution of phases in the image eld. Inherent heterogeneity of
+    the microstructure implies that di erent image elds of the same material will
+    contain di erent phase abundances; the document suggests ways to estimate and
+    compensate for the heterogeneity length scale through statistical analysis of
+    multiple image elds. and analysis using a scanning electron microscope will be
+    illustrated using an example from the development of Standard Reference Materials
+    for portland cement clinker.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1877'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

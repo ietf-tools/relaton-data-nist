@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-16
 title:
-- content: Information technology security training requirements :a role- and performance-based
+- content: Information technology security training requirements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a role- and performance-based model
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology security training requirements - a role- and performance-based
     model
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-16
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-16.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-16
@@ -22,140 +35,89 @@ docid:
 - id: 10.6028/NIST.SP.800-16
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
+      completename:
+        content: Wilson, Mark,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85331008
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dorothea E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: de Zafra
+      completename:
+        content: De Zafra, Dorothea E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99037075
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sadie I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pitcher
+      completename:
+        content: Pitcher, Sadie I.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tressler
+      completename:
+        content: Tressler, John D.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ippolito
+      completename:
+        content: Ippolito, John B.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document supersedes NIST SP 500-172, Computer Security Training Guidelines,
+    published in 1989. The new document supports the Computer Security Act (Public
+    Law 100-235) and OMB Circular A-130 Appendix III requirements that NIST develop
+    and issue computer security training guidance. This publication presents a new
+    conceptual framework for providing information technology (IT) security training.
+    This framework includes the IT security training requirements appropriate for
+    today's distributed computing environment and provides flexibility for extension
+    to accommodate future technologies and the related risk management decisions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-16
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1949
 title:
 - content: Preliminary models for viscosity, thermal conductivity, and surface tension
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1949
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1949.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1949
@@ -22,50 +21,56 @@ docid:
 - id: 10.6028/NIST.TN.1949
   type: DOI
 date:
-- type: published
-  value: 2017-01
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marcia L
-          script:
-          - Latn
-      surname:
-        content: Huber
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Huber, Marcia L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022032592
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2017-01
-script:
-- Latn
+abstract:
+- content: We describe preliminary models for the viscosity, thermal conductivity,
+    and surface tension for pure fluids that are constituents of four surrogate fuels
+    for ultralow-sulfur diesel fuels developed under the auspices of the Coordinating
+    Research Council (CRC). These fluids do not presently have published reference
+    fluid quality models in the open literature, so we provide here preliminary models
+    based on available data as an interim measure to allow calculations of these properties
+    for both the pure fluids and the four surrogate mixtures. Comparisons with selected
+    experimental pure fluid data are given, and text files compatible with the NIST
+    REFPROP computer program are included as supplementary material. We also present
+    tabulations of the viscosity, thermal conductivity, and surface tension along
+    the bubble point for four surrogate fuels.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1949'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

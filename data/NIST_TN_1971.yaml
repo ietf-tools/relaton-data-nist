@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1971
 title:
 - content: Interference tests at room temperature applied to deployed low-noise receivers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1971
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1971.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1971
@@ -21,101 +20,89 @@ docid:
 - id: 10.6028/NIST.TN.1971
   type: DOI
 date:
-- type: published
-  value: '2017-10-18'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel G
-          script:
-          - Latn
-      surname:
-        content: Kuester
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Kuester, Daniel G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Duncan A
-          script:
-          - Latn
-      surname:
-        content: McGillivray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: McGillivray, Duncan A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Wunderlich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wunderlich, Adam.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Young, William F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2017-10-18'
-script:
-- Latn
+abstract:
+- content: Wireless interference tests are often performed in shielded anechoic and
+    semi-anechoic chambers near room temperature. The corresponding test condition
+    experienced by a receiver DUT is antenna noise temperature equal to physical room
+    temperature (barring EMI in the test zone). This technical note considers a simple
+    analytical model for adjusting interference response from these room temperature
+    tests for use in deployment antenna noise environments. The method we propose
+    is focused toward applications in which the total receiver system noise is less
+    sensitive to potential variability in antenna noise temperature than receiver
+    noise performance (like noise figure and dissipative losses inside the antenna).
+    Example applications include ground-based satellite receivers (for which antenna
+    noise temperature is likely the averaged sky temperature) or cellular handsets
+    (for which noise may originate primarily within the receiver electronics and antenna).
+    As a case study, we analyze test results published in NIST Technical Note 1952.
+    The DUTs under study are GPS L1 receivers exposed to antenna (sky) noise temperatures
+    of 90 K to 340 K. For practical combinations of receiver noise figure and receive
+    antenna efficiency performance, we develop an regression correction model that
+    transforms interference power levels from the room temperature test environment
+    into estimated equivalents in deployment. The regression is a function of antenna
+    noise temperature, leaving receiver performance variability as a fit error. The
+    worst-case error across the receiver performance parameter space was +/- 1.6 dB,
+    which is tighter than the +/- 2.4 dB uncertainty in the measurement of interference
+    power level.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1971'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

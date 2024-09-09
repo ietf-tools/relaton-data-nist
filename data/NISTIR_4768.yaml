@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4768
 title:
-- content: Finite-rate diffusion-controlled reaction in a vortex:a report
+- content: Finite-rate diffusion-controlled reaction in a vortex
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Finite-rate diffusion-controlled reaction in a vortex - a report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4768
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4768.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4768
@@ -21,85 +34,69 @@ docid:
 - id: 10.6028/NIST.IR.4768
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald R
-          script:
-          - Latn
-      surname:
-        content: Rehm
-        script:
-        - Latn
+      completename:
+        content: Rehm, Ronald R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Howard R
-          script:
-          - Latn
-      surname:
-        content: Baum
-        script:
-        - Latn
+      completename:
+        content: Baum, Howard R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83163247
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hai C
-          script:
-          - Latn
-      surname:
-        content: Tang
-        script:
-        - Latn
+      completename:
+        content: Tang, Hai C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001055534
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel W
-          script:
-          - Latn
-      surname:
-        content: Lozier
-        script:
-        - Latn
+      completename:
+        content: Lozier, Daniel W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89009466
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4768'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

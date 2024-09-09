@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-113
 title:
 - content: Guide to SSL VPNs
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-113
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-113.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-113
@@ -21,157 +20,86 @@ docid:
 - id: 10.6028/NIST.SP.800-113
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S E
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: S E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Frankel
+      completename:
+        content: Frankel, S. E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoffman
+      completename:
+        content: Hoffman, P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2012200428
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A D
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: A D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orebaugh
+      completename:
+        content: Orebaugh, A. D.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Park
+      completename:
+        content: Park, R.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Secure Sockets Layer (SSL) Virtual Private Networks (VPNs) provide users
+    with secure remote access to an organization's resources. An SSL VPN consists
+    of one or more VPN devices to which users connect using their Web browsers. The
+    traffic between the Web browser and SSL VPN device is encrypted with the SSL protocol.
+    SSL VPNs can provide remote users with access to Web applications and client/server
+    applications, as well as connectivity to internal networks. They offer versatility
+    and ease of use because they use the SSL protocol, which is included with all
+    standard Web browsers, so special client configuration or installation is often
+    not required. In planning a VPN deployment, many organizations are faced with
+    a choice between an IPsec-based VPN and an SSL-based VPN. This document seeks
+    to assist organizations in understanding SSL VPN technologies. The publication
+    also makes recommendations for designing, implementing, configuring, securing,
+    monitoring, and maintaining SSL VPN solutions. SP 800-113 provides a phased approach
+    to SSL VPN planning and implementation that can help in achieving successful SSL
+    VPN deployments. It also includes a comparison with other similar technologies
+    such as Internet Protocol Security (IPsec) VPNs and other VPN solutions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-113
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

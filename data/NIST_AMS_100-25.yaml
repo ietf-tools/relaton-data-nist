@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-25
 title:
-- content: Flow time innovations:the effect on productivity and production in US manufacturing
+- content: Flow time innovations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the effect on productivity and production in US manufacturing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Flow time innovations - the effect on productivity and production in US
+    manufacturing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-25
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-25.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-25
@@ -21,50 +35,69 @@ docid:
 - id: 10.6028/NIST.AMS.100-25
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113838
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: Between 2005 and 2016, US multifactor productivity declined an average
+    0.3 % annually. Some debate has ensued about the cause of this decline or whether
+    there even was a decline in productivity. One aspect of productivity that is neglected
+    in the literature is the effect of flow time on production and productivity. This
+    paper examines the impact that innovations in material, finished goods, and work-in-process
+    flow time have on productivity and production, measured using the multifactor
+    productivity index and manufacturing value added. Using data on US manufacturing
+    from 2005 to 2015, 12 regression models are presented and 19 simulations are developed
+    to examine the impact of flow time on productivity and value added. The flow time
+    for work-in-process goods and that for inventories is examined. The results suggest
+    that flow time innovations have a significant impact on multifactor productivity
+    and production. That is, manufacturers can increase productivity through flow
+    time or lose productivity through increases in flow time, as might be expected.
+    The more significant findings are in regards to the magnitude of impact of flow
+    time. A simulated 20 % decrease in work-in-process flow time results in a 1.21
+    % increase in multifactor productivity and a 2.23 % increase in value added. A
+    simulated 20 % decrease in material and finished goods flow time increases productivity
+    by 0.29 % and increases value added by 2.80 %. These changes may seem small; however,
+    the average industry s work-in-process flow time from 2005 to 2015 increased 98.8
+    %. During this same period, multifactor productivity declined an average of 2.2
+    %. If flow time had remained unchanged from 2005, however, multifactor productivity
+    would have increased between 1.73 % and 3.38 % through other factors, according
+    to our model.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-25
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2033
 title:
-- content: Effect of IF-WS2 nanolubricant on R134a boiling on a reentrant cavity surface:extensive
-    measurement and analysis details
+- content: Effect of IF-WS2 nanolubricant on R134a boiling on a reentrant cavity surface;
+    extensive measurement and analysis details
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2033
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2033.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2033
@@ -22,67 +21,68 @@ docid:
 - id: 10.6028/NIST.TN.2033
   type: DOI
 date:
-- type: published
-  value: 2019-02
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lingnan
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-02
-script:
-- Latn
+abstract:
+- content: This report quantifies the influence of inorganic fullerene-like tungsten
+    disulfide (IF-WS2) nanoparticles on the pool-boiling performance of R134a/polyolester
+    mixtures on a commercial (Turbo-ESP) boiling surface. Tungsten disulfide nanoparticles,
+    of roughly 150 nm, were used at a 15 % mass fraction in a base polyolester lubricant
+    to produce the test nanolubricant. The nanolubricant was mixed with R134a at a
+    1 % mass fraction. The study showed that the nanolubricant caused an average 37
+    % degradation in the boiling heat flux as compared to R134a/neat-lubricant boiling
+    on a reentrant cavity surface at the same superheat. Similarly, boiling with R134a/neat-lubricant
+    caused, on average, a 27 % degradation in the boiling heat flux as compared to
+    pure R134a boiling and the same superheat. An analysis was presented which showed
+    that the nanoparticles were too large and too dense to promote a boiling enhancement.
+    In addition, the fullerene-like structure and the large size encouraged nanoparticle
+    settling, which presumably filled cavities of the boiling surface leading toadditional
+    boiling degradations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2033'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

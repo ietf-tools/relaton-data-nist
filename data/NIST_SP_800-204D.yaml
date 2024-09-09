@@ -1,0 +1,94 @@
+---
+schema-version: v1.2.9
+id: NISTSP800-204D
+title:
+- content: Strategies for the integration of software supply chain security in DevSecOps
+    CI/CD pipelines
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.SP.800-204D
+  type: doi
+type: standard
+docid:
+- id: NIST SP 800-204D
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.SP.800-204D
+  type: DOI
+date:
+- type: issued
+  value: '2024'
+contributor:
+- person:
+    name:
+      completename:
+        content: Chandramouli, Ramaswamy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7387-5858"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kautz, Frederick.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Torres-Arias, Santiago.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: The predominant application architecture for cloud-native applications
+    consists of multiple microservices, accompanied in some instances by a centralized
+    application infrastructure, such as a service mesh, that provides all application
+    services. This class of applications is generally developed using a flexible and
+    agile software development paradigm called DevSecOps. A salient feature of this
+    paradigm is the use of flow processes called continuous integration and continuous
+    deployment (CI/CD) pipelines, which initially take the software through various
+    stages (e.g., build, test, package, and deploy) in the form of source code through
+    operations that constitute the software supply chain (SSC) in order to deliver
+    a new version of software. This document outlines strategies for integrating SSC
+    security measures into CI/CD pipelines.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST special publication
+    format: text/plain
+  number: 800-204D
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-204D
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

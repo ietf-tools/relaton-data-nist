@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7954
 title:
 - content: Measurement uncertainty in cell image segmentation data analysis
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7954
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7954.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7954
@@ -21,133 +20,75 @@ docid:
 - id: 10.6028/NIST.IR.7954
   type: DOI
 date:
-- type: published
-  value: 2013-08
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jin Chu
-          script:
-          - Latn
-      surname:
-        content: Wu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Biosystems and Biomaterials Division, Material Measurement Laboratory
+      completename:
+        content: Wu, Jin Chu.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020098846
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Halter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Biosystems and Biomaterials Division, Material Measurement Laboratory
+      completename:
+        content: Halter, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raghu N.
-          script:
-          - Latn
-      surname:
-        content: Kacker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Biosystems and Biomaterials Division, Material Measurement Laboratory
+      completename:
+        content: Kacker, Raghu N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2013027210
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John T.
-          script:
-          - Latn
-      surname:
-        content: Elliot
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Biosystems and Biomaterials Division, Material Measurement Laboratory
+      completename:
+        content: Elliott, John T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne L.
-          script:
-          - Latn
-      surname:
-        content: Plant
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Biosystems and Biomaterials Division, Material Measurement Laboratory
+      completename:
+        content: Plant, Ann.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Information Technology Laboratory, Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-08
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7954'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

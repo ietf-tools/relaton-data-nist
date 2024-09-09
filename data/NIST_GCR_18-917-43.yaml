@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR18-917-43
 title:
 - content: Recommendations for improved seismic performance of nonstructural components
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.18-917-43
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2018/NIST.GCR.18-917-43.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 18-917-43
@@ -21,33 +20,57 @@ docid:
 - id: 10.6028/NIST.GCR.18-917-43
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+- organization:
+    name:
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
+  role:
+  - type: publisher
+abstract:
+- content: The goal of this second phase of work is to improve technical aspects of
+    nonstructural system design in the areas that will have the largest impact for
+    public safety and economic welfare. This report summarizes the body of knowledge
+    gathered and developed to advance the understanding of the response of nonstructural
+    components to earthquakes. The report also makes recommendations for changes to
+    building codes and practice.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 18-917-43
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

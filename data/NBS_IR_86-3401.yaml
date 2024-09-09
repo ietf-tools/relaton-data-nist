@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR86-3401
 title:
 - content: Report to the management of the Automated Manufacturing Research Facility
@@ -10,11 +10,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.86-3401
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir86-3401.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 86-3401
@@ -23,59 +22,50 @@ docid:
 - id: 10.6028/NBS.IR.86-3401
   type: DOI
 date:
-- type: published
-  value: 1985-01
+- type: issued
+  value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Philip
-          script:
-          - Latn
-      surname:
-        content: Nanzetta
-        script:
-        - Latn
+      completename:
+        content: Nanzetta, Philip.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85042170
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joan
-          script:
-          - Latn
-      surname:
-        content: Wellington
-        script:
-        - Latn
+      completename:
+        content: Wellington, Joan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83128511
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 1985-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 86-3401
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

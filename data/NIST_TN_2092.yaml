@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2092
 title:
 - content: Estimating the impact of 16 CFR part 1633 on bed fire outcomes
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2092
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2092.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2092
@@ -21,101 +20,103 @@ docid:
 - id: 10.6028/NIST.TN.2092
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley W
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022013709
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick D
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152727
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard G
-          script:
-          - Latn
-      surname:
-        content: Gann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gann, Richard G.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96095572
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: Effective July 1, 2007, the U.S. Consumer Product Safety Commission promulgated
+    a Standard that would severely reduce the heat release rate and the early heat
+    output from mattresses and foundations that had been ignited by a flaming ignition
+    source. Mattresses complying with this Standard have now been sold for more than
+    a decade. This study establishes a methodology for evaluating the effect of this
+    Standard on the number of bed fires and the extent of their fire spread, fatalities,
+    and injuries, and then estimates the Standard's success over its first decade.
+    Because it is possible there were changes other than the Standard that affected
+    the outcome of bed fires, the study normalized the changes to the numbers of residential
+    upholstered furniture (RUF) fires, all residential fires, and all bed fires. The
+    Standard is accomplishing its purpose, resulting in considerable reductions in
+    fatalities and injuries from bed fires ignited by flaming sources. Approximately
+    65 fatalities were prevented annually during the two-year period 2015-2016. Relative
+    to RUF fires, flaming ignitions of beds led to decreases in the numbers of fires
+    by 12 %, injuries by 34 %, and deaths by 82 % between 2005-2006 and 2015-2016.
+    Per bed fire, injuries decreased by 25 % and fatalities decreased by 67 %. The
+    decreases in injuries and, especially, fatalities are larger than the decrease
+    in the number of fires, suggesting that the most severe fires are being prevented
+    by the Standard. There was no systematic evidence that the calculations were significantly
+    affected by (1) the calculation method for calculating the replacement rate of
+    pre-Standard mattresses, (2) variability in fire reporting among fire departments,
+    (3) whether the initial combustible was reported as the mattress or bedding, or
+    (4) whether the mattress or bedding was reported as the item most contributing
+    to flame spread.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2092'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

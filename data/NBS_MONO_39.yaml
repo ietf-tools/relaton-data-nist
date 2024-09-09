@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO39
 title:
 - content: Calibration procedures for direct-current resistance apparatus
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.39
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph39.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 39
@@ -21,52 +20,37 @@ docid:
 - id: 10.6028/NBS.MONO.39
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul P B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brooks
+      completename:
+        content: Brooks, Paul P. B.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '39'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

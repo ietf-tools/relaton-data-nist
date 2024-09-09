@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-14
 title:
-- content: Protecting the integrity of internet routing:border gateway protocol (BGP)
-    route origin validation
+- content: Protecting the integrity of internet routing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: border gateway protocol (BGP) route origin validation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Protecting the integrity of internet routing - border gateway protocol
+    (BGP) route origin validation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-14
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-14.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-14
@@ -22,101 +35,89 @@ docid:
 - id: 10.6028/NIST.SP.1800-14
   type: DOI
 date:
-- type: published
-  value: 2019-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Haag
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Haag, William.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Doug
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Montgomery, Doug.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00013999
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          script:
-          - Latn
-      surname:
-        content: Barker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Barker, William C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97036643
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Tan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Tan, Allen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-06
-script:
-- Latn
+abstract:
+- content: The Border Gateway Protocol (BGP) is the default routing protocol to route
+    traffic among internet domains. While BGP performs adequately in identifying viable
+    paths that reflect local routing policies and preferences to destinations, the
+    lack of built-in security allows the protocol to be exploited by route hijacking.
+    Route hijacking occurs when an entity accidentally or maliciously alters an intended
+    route. Such attacks can (1) deny access to internet services, (2) detour internet
+    traffic to permit eavesdropping and to facilitate on-path attacks on end points
+    (sites), (3) misdeliver internet network traffic to malicious end points, (4)
+    undermine internet protocol (IP) address-based reputation and filtering systems,
+    and (5) cause routing instability in the internet. This document describes a security
+    platform that demonstrates how to improve the security of inter-domain routing
+    traffic exchange. The platform provides route origin validation (ROV) by using
+    the Resource Public Key Infrastructure (RPKI) in a manner that mitigates some
+    misconfigurations and malicious attacks associated with route hijacking. The example
+    solutions and architectures presented here are based upon standards-based, open-source,
+    and commercially available products.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-14
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-11
 title:
-- content: 'Data Integrity: Recovering from Ransomware and Other Destructive Events'
+- content: Data integrity
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: recovering from ransomware and other destructive events
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Data integrity - recovering from ransomware and other destructive events
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-11
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-11.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-11
@@ -21,118 +34,79 @@ docid:
 - id: 10.6028/NIST.SP.1800-11
   type: DOI
 date:
-- type: published
-  value: '2020-09-22'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Timothy
-          script:
-          - Latn
-      surname:
-        content: McBride
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Townsend, Anne R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Ekstrom
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McBride, Timothy J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lauren
-          script:
-          - Latn
-      surname:
-        content: Lusty
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lusty, Lauren N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Julian
-          script:
-          - Latn
-      surname:
-        content: Sexton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sexton, Julian T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne
-          script:
-          - Latn
-      surname:
-        content: Townsend
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ekstrom, Michael R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Cybersecurity Center of Excellence (U.S.)
   role:
   - type: publisher
-revdate: '2020-09-22'
-script:
-- Latn
+abstract:
+- content: Businesses face a near-constant threat of destructive malware, ransomware,
+    malicious insider activities, and even honest mistakes that can alter or destroy
+    critical data. These data corruption events could cause a significant loss to
+    a company s reputation, business operations, and bottom line. These types of adverse
+    events, that ultimately impact data integrity, can compromise critical corporate
+    information including emails, employee records, financial records, and customer
+    data. It is imperative for organizations to recover quickly from a data integrity
+    attack and trust the accuracy and precision of the recovered data.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-11
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

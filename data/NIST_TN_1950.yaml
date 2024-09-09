@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1950
 title:
 - content: 'Outdoor siren systems: a review of technology, usage, and public response
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1950
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1950.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1950
@@ -22,67 +21,78 @@ docid:
 - id: 10.6028/NIST.TN.1950
   type: DOI
 date:
-- type: published
-  value: 2017-02
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Erica D
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kuligowski, Erica D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katrina
-          script:
-          - Latn
-      surname:
-        content: Wakeman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wakeman, Katrina.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-02
-script:
-- Latn
+abstract:
+- content: The NIST Technical Investigation of the 2011 Joplin, MO tornado identified
+    that no widely accepted standards exist for emergency communications in tornado
+    events and more specifically, policies involving the use of outdoor siren systems
+    to alert the public in advance of tornadoes. As a result, siren usage, testing,
+    education and training, and all-clear procedures vary widely across the U.S.;
+    leading to distrust and confusion among community residents surrounding emergency
+    communications. This Technical Note is the first in a series to develop evidence-based
+    guidance for communities on the creation and provision of public alerts, including
+    both outdoor siren (warning) systems and social media (including mobile alerts).
+    It is the hope that this guidance can eventually be used as a basis for standardization,
+    through codes and standards, of the procedures and policies for outdoor siren
+    systems and social media used by communities across the United States. Standardization
+    of emergency communication policies and procedures could occur at multiple levels,
+    including among multiple jurisdictions, state-wide, regionally, or even nationally.
+    This document focuses on outdoor siren systems, specifically presenting a review
+    on technology, usage and public response. First, this document provides an overview
+    on the current status of siren systems in the United States, i.e., the current
+    siren technology available to communities and the ways in which this technology
+    is used in communities across the United States. Second, this document presents
+    a review of the literature on the ways in which people respond to alerting signals
+    (including siren systems) and the current limitations of siren systems in light
+    of these findings. This document ends with a discussion on the key findings and
+    recommendations from the literature on the ways in which to improve current outdoor
+    siren systems, based on the methods by which people receive and process alerts.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1950'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

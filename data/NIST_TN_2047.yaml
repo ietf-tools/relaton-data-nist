@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2047
 title:
 - content: Aqueous-based amphiphile solutions used as gel coatings to reduce flammability
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2047
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2047.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2047
@@ -22,84 +21,75 @@ docid:
 - id: 10.6028/NIST.TN.2047
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andre L
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thompson, Andre L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian J
-          script:
-          - Latn
-      surname:
-        content: Love
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Love, Brian J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2019014206
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick D
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152727
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: This study reports on the change in flammability of cotton fabrics caused
+    by water-insoluble gel coatings applied from a single bath solution formulated
+    with polymeric micelles and flame retardant amphiphiles. The flame resistant coatings
+    are made from low concentration aqueous formulations of polyethylene oxide-polypropylene
+    oxide-polyethylene oxide, and 5 % to 15 % mass fraction melamine and sodium hexametaphosphate.
+    The coated cotton fabrics were tested and characterized by a variety of bench-scale
+    tools, such as vertical flame testing, micro-scale combustion calorimetry, and
+    thermogravimetric analysis. Properties such as increased ignition resistance,
+    self-extinguishment, and higher decomposition temperatures were measured, relative
+    to the uncoated cotton.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2047'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

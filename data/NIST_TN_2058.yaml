@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2058
 title:
 - content: IREX validation dataset 2019
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2058
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2058.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2058
@@ -21,84 +20,85 @@ docid:
 - id: 10.6028/NIST.TN.2058
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James R
-          script:
-          - Latn
-      surname:
-        content: Matey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Matey, James R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George W
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Quinn, George W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098146
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick J
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: 'The IRis EXchange (IREX) program at NIST employs best measurement practices
+    to support the development, standardization, and interoperability of iris-based
+    technology through ongoing evaluations of that technology; IREX evaluations provide
+    information that helps advance the development of a marketplace of iris-based
+    applications based on standardized interoperable iris imagery and provides decision
+    makers with information critical to their decisions about deployment of the technology.
+    IREX has conducted a series of evaluations of iris algorithms which are documented
+    on the IREX website at https://www.nist.gov/programs-projects/iris-exchange-irex-overview.
+    To assure that algorithms submitted for evaluation produce the same results in
+    the NIST evaluation environment that they do in the developer/vendor environment,
+    we need to compare results on a common set of iris images in the two environments.
+    IREX-Validation-2019 is a dataset developed to facilitate such comparisons. In
+    brief: The images in the dataset were collected under protocols approved by the
+    NIST Institutional Review Board. The images are from subjects who provided model
+    releases that permit use of the images in publications and datasets that are distributed
+    by NIST. The dataset is distributed under user agreements associated with IREX
+    evaluations. Inquiries regarding the IREX program may be directed to the IREX
+    Liaison at irex@nist.gov. Any papers or reports making use of the dataset should
+    cite this report as discussed in section 2.1 Carried out under NIST IRB Approved
+    protocol ITL-16-0002.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2058'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,8 +1,23 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR87-3620
 title:
-- content: Center for Electronics and Electrical Engineering :technical publication
+- content: Center for Electronics and Electrical Engineering
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: technical publication announcements covering center programs October to
+    December 1986, with 1987 CEEE events calendar
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Center for Electronics and Electrical Engineering - technical publication
     announcements covering center programs October to December 1986, with 1987 CEEE
     events calendar
   language:
@@ -10,11 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.87-3620
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir87-3620.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 87-3620
@@ -23,86 +37,59 @@ docid:
 - id: 10.6028/NBS.IR.87-3620
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Walter J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rossiter
+      completename:
+        content: Rossiter, Walter J., Jr.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Willard E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Roberts
+      completename:
+        content: Roberts, Willard E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82208448
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mathey
+      completename:
+        content: Mathey, Robert G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80113759
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 87-3620
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

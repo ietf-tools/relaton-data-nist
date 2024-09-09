@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1799
 title:
-- content: Impact of Test and Foam Design on Smoldering
+- content: Impact of test and foam design on smoldering
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1799
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1799.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1799
@@ -21,84 +20,62 @@ docid:
 - id: 10.6028/NIST.TN.1799
   type: DOI
 date:
-- type: published
-  value: 2013-05
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mauro
-          script:
-          - Latn
-      surname:
-        content: Zammarano
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Fire Research Division, Engineering Laboratory
+      completename:
+        content: Zammarano, Mauro.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022048537
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Szabolcs
-          script:
-          - Latn
-      surname:
-        content: Matko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Fire Research Division, Engineering Laboratory
+      completename:
+        content: Szabolcs, Matko.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022075999
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rick D.
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Fire Research Division, Engineering Laboratory
+      completename:
+        content: Davis, Rick D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152727
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2013-05
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1799'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

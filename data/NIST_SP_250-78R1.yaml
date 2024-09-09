@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-78r1
 title:
 - content: NIST calibration services for hydrometers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-78r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-78r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-78r1
@@ -21,84 +20,80 @@ docid:
 - id: 10.6028/NIST.SP.250-78r1
   type: DOI
 date:
-- type: published
-  value: 2018-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          script:
-          - Latn
-      surname:
-        content: Wright
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Wright, John D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81115024
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vern E
-          script:
-          - Latn
-      surname:
-        content: Bean
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Bean, Vern E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95081248
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jesus
-          script:
-          - Latn
-      surname:
-        content: Aguilera
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Aguilera, Jesus.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139596
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2018-12
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) provides calibration
+    services for hydrometers by Cuckow s method, i.e. by weighing the hydrometer while
+    it is immersed to specified scale markings in a liquid of known density (tridecane).
+    Normally a calibration is done at three points, at approximately 10 %, 50 %, and
+    90 % of the scale. The calibration report includes a simple equation for each
+    calibration point that gives the user a correction to the hydrometer reading that
+    accounts for the surface tension of the liquid in which the hydrometer is used.
+    The calibration results have an expanded uncertainty (with coverage factor of
+    2) of 100 parts in 10^6 or less of the liquid density. The apparatus was validated
+    by comparisons using liquids of known density: water, toluene, tridecane, and
+    trichloroethylene. Results from these comparisons agreed within 40 parts in 10^6
+    or less.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-78r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1843
 title:
 - content: Characterization of airborne nanoparticle released from consumer products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1843
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1843.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1843
@@ -21,118 +20,98 @@ docid:
 - id: 10.6028/NIST.TN.1843
   type: DOI
 date:
-- type: published
-  value: 2014-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew K
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Persily, Andrew K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9542-3318"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Lo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lo, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015061183
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Nabinger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nabinger, Steven.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lipiin
-          script:
-          - Latn
-      surname:
-        content: Sung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sung, Lipiin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3682-0321"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-12
-script:
-- Latn
+abstract:
+- content: Polymer and other coatings are commonly used to protect, enhance or decorate
+    wood, plastic and metal products used in homes and other buildings. Nanoparticles
+    (i.e., particles having at least one dimension smaller than 100 nm) are increasingly
+    being added to coating formulations to reduce damage as well as to enhance their
+    performance. Because of their small size and large surface area, nanomaterials
+    may exhibit unique physical, chemical and transport behaviors in the environment
+    and in the human body. Research in recent years has indicated that nanoparticles
+    may be potentially harmful to the environment and to human health. In order to
+    better understand human exposure associated with the airborne release of such
+    particles, material specimens with coatings containing nanoparticles were tested
+    in a small environmental chamber in which coated materials were subjected to surface
+    abrasion intended to simulate normal wear and tear. This report describes the
+    experimental approach and the results obtained, which showed minimal airborne
+    release of the nanoparticles in the tested coatings.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1843'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

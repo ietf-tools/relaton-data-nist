@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4719
 title:
-- content: Protection of archival record from pollutants:the measurement of the diffusion
-    of SO2 through and absorption of SO2 by archival boxboard
+- content: Protection of archival record from pollutants
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the measurement of the diffusion of SO2 through and absorption of SO2 by
+    archival boxboard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Protection of archival record from pollutants - the measurement of the
+    diffusion of SO2 through and absorption of SO2 by archival boxboard
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4719
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4719.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4719
@@ -22,59 +36,50 @@ docid:
 - id: 10.6028/NIST.IR.4719
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles M
-          script:
-          - Latn
-      surname:
-        content: Guttman
-        script:
-        - Latn
+      completename:
+        content: Guttman, Charles M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001075880
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth L
-          script:
-          - Latn
-      surname:
-        content: Jewett
-        script:
-        - Latn
+      completename:
+        content: Jewett, Kenneth L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001075881
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4719'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

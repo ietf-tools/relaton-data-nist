@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB162
 title:
 - content: NIST MEP cybersecurity self-assessment handbook for assessing NIST SP 800-171
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.162
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.162.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 162
@@ -22,50 +21,48 @@ docid:
 - id: 10.6028/NIST.HB.162
   type: DOI
 date:
-- type: published
-  value: 2017-11
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Patricia
-          script:
-          - Latn
-      surname:
-        content: Toth
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Toth, Patricia.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2017-11
-script:
-- Latn
+abstract:
+- content: This Handbook provides guidance on implementing NIST SP 800-171 in response
+    to the Defense Federal Acquisition Regulation Supplement (DFARS) clause 202.254-7012
+    Safeguarding Covered Defense Information and Cyber Incident Reporting. The Handbook
+    provides a step-by-step guide to assessing a small manufacturer's information
+    systems against the security requirements in NIST SP 800-171 rev 1, Protecting
+    Controlled Unclassified Information in Nonfederal Systems and Organizations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '162'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

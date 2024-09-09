@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR89-4207
 title:
-- content: Overview of the IGESPDES testing project
+- content: Overview of the IGES/PDES testing project
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.89-4207
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir89-4207.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 89-4207
@@ -21,111 +20,76 @@ docid:
 - id: 10.6028/NIST.IR.89-4207
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark R
-          script:
-          - Latn
-      surname:
-        content: Pearson
-        script:
-        - Latn
+      completename:
+        content: Pearson, Mark R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark E
-          script:
-          - Latn
-      surname:
-        content: Palmer
-        script:
-        - Latn
+      completename:
+        content: Palmer, Mark E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jesse L
-          script:
-          - Latn
-      surname:
-        content: Crusey
-        script:
-        - Latn
+      completename:
+        content: Crusey, Jesse L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Constance L
-          script:
-          - Latn
-      surname:
-        content: Bracken
-        script:
-        - Latn
+      completename:
+        content: Bracken, Constance L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry A
-          script:
-          - Latn
-      surname:
-        content: Mankins
-        script:
-        - Latn
+      completename:
+        content: Mankins, Larry A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David O
-          script:
-          - Latn
-      surname:
-        content: Remington
-        script:
-        - Latn
+      completename:
+        content: Remington, David O.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 89-4207
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

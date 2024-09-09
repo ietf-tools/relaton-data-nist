@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2065
 title:
 - content: Room temperature fracture toughness characterization of additively manufactured
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2065
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2065.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2065
@@ -22,84 +21,75 @@ docid:
 - id: 10.6028/NIST.TN.2065
   type: DOI
 date:
-- type: published
-  value: 2019-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jake
-          script:
-          - Latn
-      surname:
-        content: Benzing
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Benzing, Jake.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nik
-          script:
-          - Latn
-      surname:
-        content: Hrabe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory.
+      completename:
+        content: Hrabe, Nikolas Wilson.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011023050
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-09
-script:
-- Latn
+abstract:
+- content: 'The room temperature elastic-plastic fracture toughness of additively
+    manufactured (AM) Ti-6Al-4V was characterized by means of Elastic Compliance (EC)
+    tests on Charpy-type fatigue precracked and side-grooved specimens. Various fabrication
+    and material conditions were investigated: as-built parameters (effects of scan
+    length and use of supports) and hot isostatic pressing parameters (effects of
+    temperature and cooling rate). The results, although strictly not fully compliant
+    with ASTM E1820-18ae1, can be considered representative of the fracture toughness
+    of the material in the different conditions, and compare favorably with literature
+    data for both non-AM and AM Ti-6Al-4V. Additional analyses were conducted with
+    another single-specimen approach (Normalization Data Reduction) and were compared
+    with EC results.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2065'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8507
 title:
 - content: Early strength, flow and dimensional changes obtained on amalgam prepared
-    with a standardized mechanical technic:progress report
+    with a standardized mechanical technic
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Early strength, flow and dimensional changes obtained on amalgam prepared
+    with a standardized mechanical technic - progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8507
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8507.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8507
@@ -22,80 +36,49 @@ docid:
 - id: 10.6028/NBS.RPT.8507
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1964'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harold J
-          script:
-          - Latn
-      surname:
-        content: Caul
-        script:
-        - Latn
+      completename:
+        content: Caul, Harold J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Dean
-          script:
-          - Latn
-      surname:
-        content: Kimmel
-        script:
-        - Latn
+      completename:
+        content: Kimmel, W. Dean.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G C
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: G C
-          script:
-          - Latn
-      surname:
-        content: Paffenbarger
-        script:
-        - Latn
+      completename:
+        content: Paffenbarger, G. C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1964'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8507'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

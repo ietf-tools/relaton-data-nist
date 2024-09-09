@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6326
 title:
-- content: Evaluation of dental cutting procedure:method and apparatus, progress report
+- content: Evaluation of dental cutting procedure
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: method and apparatus, progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Evaluation of dental cutting procedure - method and apparatus, progress
+    report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6326
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6326.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6326
@@ -21,59 +35,41 @@ docid:
 - id: 10.6028/NBS.RPT.6326
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1958'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          script:
-          - Latn
-      surname:
-        content: Perkins
-        script:
-        - Latn
+      completename:
+        content: Perkins, Robert R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          script:
-          - Latn
-      surname:
-        content: Kumpula
-        script:
-        - Latn
+      completename:
+        content: Kumpula, John W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1958'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6326'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

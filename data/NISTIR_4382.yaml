@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4382
 title:
-- content: Working implementation agreements for open systems interconnection protocols:based
-    on the proceedings of the NIST workshop for implementers of OSI Plenary Assembly
-    held June 22, 1990
+- content: Working implementation agreements for open systems interconnection protocols
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: based on the proceedings of the NIST workshop for implementers of OSI Plenary
+    Assembly held June 22, 1990
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Working implementation agreements for open systems interconnection protocols
+    - based on the proceedings of the NIST workshop for implementers of OSI Plenary
+    Assembly held June 22, 1990
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4382
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4382.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4382
@@ -23,46 +37,39 @@ docid:
 - id: 10.6028/NIST.IR.4382
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1990'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Tim
-          script:
-          - Latn
-      surname:
-        content: Boland
-        script:
-        - Latn
+      completename:
+        content: Boland, Tim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90016358
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1990'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4382'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

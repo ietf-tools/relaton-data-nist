@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1945
 title:
 - content: 'Email authentication mechanisms: DMARC, SPF and DKIM'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1945
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1945.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1945
@@ -21,50 +20,52 @@ docid:
 - id: 10.6028/NIST.TN.1945
   type: DOI
 date:
-- type: published
-  value: 2017-02
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen J
-          script:
-          - Latn
-      surname:
-        content: Nightingale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nightingale, Stephen J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-02
-script:
-- Latn
+abstract:
+- content: In recent years the IETF has been making a range of efforts to secure the
+    email infrastructure and its use. Infrastructure protection includes source authentication
+    by RFC 7208 Sender Policy Framework (SPF), message integrity authentication by
+    RFC 6376 Domain Keys Identified Mail (DKIM), and domain owner feedback on the
+    effectiveness of these methods by RFC 7489 Domain- based Message Authentication,
+    Reporting and Conformance (DMARC). The High Assurance Domains (HAD) secure email
+    project at NIST has been supporting the development of these initiatives by developing
+    and deploying test infrastructure. This report describes our cumulative experiences
+    with a test system for DMARC and its related protocols.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1945'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

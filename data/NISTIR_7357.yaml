@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7357
 title:
 - content: Proceedings of the 3rd NIST workshop on the performance evaluation of 3D
-    imaging systems, March 2-3, 2006
+    imaging systems
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: March 2 - 3, 2006
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Proceedings of the 3rd NIST workshop on the performance evaluation of 3D
+    imaging systems - March 2 - 3, 2006
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7357
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7357.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7357
@@ -22,52 +36,59 @@ docid:
 - id: 10.6028/NIST.IR.7357
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Geraldine S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cheok
+      completename:
+        content: Cheok, Geraldine S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8335-1743"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Building and Fire Research Laboratory.
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Two 3D Imaging Systems Performance Evaluation Workshops have been held
+    at the National Institute of Standards and Technology (NIST) the first in 2003
+    and the second in 2005. These workshops were conducted in an effort to determine
+    the need for standard test methods for evaluating 3D imaging systems (previously
+    referred to as LADAR systems), to determine the types of measurements and test
+    methods required, to provide a forum to discuss the on-going efforts in this area,
+    and to initiate the process towards standardization of these test methods or protocols.
+    To continue the effort, NIST conducted a 3rd Workshop on the Performance Evaluation
+    of 3D Imaging systems on March 2-3, 2006. This report presents the proceedings
+    from the third workshop.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '7357'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '7357'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

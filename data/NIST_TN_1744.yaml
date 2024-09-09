@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1744
 title:
-- content: 'Annex 47 Report 2: Commissioning Tools for Existing and Low Energy Buildings'
+- content: Annex 47 report 2
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: commissioning tools for existing and low energy buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Annex 47 report 2 - commissioning tools for existing and low energy buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1744
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1744.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1744
@@ -21,266 +34,39 @@ docid:
 - id: 10.6028/NIST.TN.1744
   type: DOI
 date:
-- type: published
-  value: 2012-09
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Christian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Neumann
+      completename:
+        content: Neumann, Christian.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Dirk
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jacob
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Henk
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peitsman
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Harunori
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yoshida
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Hideki
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yuzawa
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Takeshi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Watanabe
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Katsuhiro
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kamitani
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Hiroshige
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kikuchi
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Oliver
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Baumann
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Choiniére
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Natascha
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Milesi Ferretti
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93107180
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-09
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
-  number: '1744'
+  number: no. 1744
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

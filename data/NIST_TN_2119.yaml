@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2119
 title:
-- content: 'Estimating Instrument Performance: with Confidence Intervals and Confidence
-    Bounds'
+- content: Estimating instrument performance
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: with confidence intervals and confidence bounds
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Estimating instrument performance - with confidence intervals and confidence
+    bounds
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2119
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2119.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2119
@@ -22,50 +35,48 @@ docid:
 - id: 10.6028/NIST.TN.2119
   type: DOI
 date:
-- type: published
-  value: '2020-09-29'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Zhan-Qian John
-          script:
-          - Latn
-      surname:
-        content: Lu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lu, Zhan-Qian John.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: '2020-09-29'
-script:
-- Latn
+abstract:
+- content: Instrument performance is evaluated through performing a set of tests,
+    and the test results determine whether the instrument meets or fails the standard
+    requirements. The performance test data are analyzed and usually point estimate
+    and confidence bounds are calculated, on which a testing decision is made. This
+    chapter provides recipes of statistical analysis of the test data, including estimation
+    of probability of detection or identification, or false alarm rate, and particularly
+    on how various confidence intervals and confidence bounds are computed based on
+    sound statistical principles.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2119'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

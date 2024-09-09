@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6498
 title:
-- content: SEM Sentinel:SEM performance measurement system, part 1
+- content: SEM Sentinel
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: SEM performance measurement system, part 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SEM Sentinel - SEM performance measurement system, part 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6498
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6498.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6498
@@ -21,98 +34,77 @@ docid:
 - id: 10.6028/NIST.IR.6498
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alice V
-          script:
-          - Latn
-      surname:
-        content: Ling
-        script:
-        - Latn
+      completename:
+        content: Ling, Alice V. (Alice Valeria)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003115013
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: András
-          script:
-          - Latn
-      surname:
-        content: Vládar
-        script:
-        - Latn
+      completename:
+        content: Vla?¹dar, Andra?¹s.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bradley N
-          script:
-          - Latn
-      surname:
-        content: Damazo
-        script:
-        - Latn
+      completename:
+        content: Damazo, Bradley N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M Alkan
-          script:
-          - Latn
-      surname:
-        content: Donmez
-        script:
-        - Latn
+      completename:
+        content: Donmez, M. Alkan,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003051247
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael T
-          script:
-          - Latn
-      surname:
-        content: Postek
-        script:
-        - Latn
+      completename:
+        content: Postek, Michael T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87825975
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6498'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

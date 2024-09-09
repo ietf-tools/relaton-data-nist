@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8179
 title:
-- content: 'Criticality analysis process model: prioritizing systems and components'
+- content: Criticality analysis process model
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: prioritizing systems and components
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Criticality analysis process model - prioritizing systems and components
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8179
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8179.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8179
@@ -21,101 +34,94 @@ docid:
 - id: 10.6028/NIST.IR.8179
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Celia
-          script:
-          - Latn
-      surname:
-        content: Paulsen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Paulsen, Celia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142976
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jon
-          script:
-          - Latn
-      surname:
-        content: Boyens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boyens, Jon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142969
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nadya
-          script:
-          - Latn
-      surname:
-        content: Bartol
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bartol, Nadya.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142965
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kris
-          script:
-          - Latn
-      surname:
-        content: Winkler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Winkler, Kris.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: In the modern world, where complex systems and systems-of-systems are integral
+    to the functioning of society and businesses, it is increasingly important to
+    be able to understand and manage risks that these systems and components may present
+    to the missions that they support. However, in the world of finite resources,
+    it is not possible to apply equal protection to all assets. This publication describes
+    a comprehensive Criticality Analysis Process Model - a structured method of prioritizing
+    programs, systems, and components based on their importance to the goals of an
+    organization and the impact that their inadequate operation or loss may present
+    to those goals. A criticality analysis can help organizations identify and better
+    understand the systems, subsystems, components, and subcomponents that are most
+    essential to their operations and the environment in which they operate. That
+    understanding facilitates better decision making related to the management of
+    an organization's information assets, including information security and privacy
+    risk management, project management, acquisition, maintenance, and upgrade decisions.
+    The Model is structured to logically follow how organizations design and implement
+    projects and systems, can be used as a component of a holistic and comprehensive
+    risk management approach that considers all risks, and can be used with a variety
+    of risk management standards and guidelines.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8179'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

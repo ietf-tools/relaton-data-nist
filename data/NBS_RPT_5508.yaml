@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5508
 title:
 - content: Survey of propagation characteristics of sea test range in vicinity of
-    the Naval Air Missile Test Center, Point Mugu :progress report no. 5
+    the Naval Air Missile Test Center, Point Mugu
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: progress report no. 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Survey of propagation characteristics of sea test range in vicinity of
+    the Naval Air Missile Test Center, Point Mugu - progress report no. 5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5508
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5508.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5508
@@ -22,54 +36,58 @@ docid:
 - id: 10.6028/NBS.RPT.5508
   type: DOI
 date:
-- type: published
-  value: 1957-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: F M
-          script:
-          - Latn
-          initial: F
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: F M
-          script:
-          - Latn
-      surname:
-        content: Capps
-        script:
-        - Latn
+      completename:
+        content: Capps, F. M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1957-08
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The object of this study is to investigate over-water tropospheric propagation
+    characteristics for both within and beyond line-of-sight paths. Information on
+    the reliability of propagation and on variations in the velocity of propagation
+    will be obtained for various tropospheric conditions. These measurements will
+    supplement the measurements obtained in the Cheyenne Mountain experiment and will
+    have particular application to ground-to-ground propagation in the Pacific coast
+    region.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5508'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

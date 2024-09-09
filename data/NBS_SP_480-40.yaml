@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP480-40
 title:
 - content: Paint solubility testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.480-40
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication480-40.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 480-40
@@ -21,103 +20,73 @@ docid:
 - id: 10.6028/NBS.SP.480-40
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thornton
+      completename:
+        content: Thornton, John I.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82070843
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shmuel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kraus
+      completename:
+        content: Kraus, Shmuel.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99075932
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lerner
+      completename:
+        content: Lerner, Bruce.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022047690
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Beth
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hendrickson
+      completename:
+        content: Hendrickson, Beth.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022028249
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 480-40
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

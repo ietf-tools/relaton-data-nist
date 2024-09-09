@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1285
 title:
 - content: NIST conference papers fiscal year 2020
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1285
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1285.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1285
@@ -21,36 +20,50 @@ docid:
 - id: 10.6028/NIST.SP.1285
   type: DOI
 date:
-- type: published
-  value: '2022-09-22'
+- type: issued
+  value: '2022'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Resources, Access, and Data Team, Information Services Office.
   role:
   - type: publisher
-revdate: '2022-09-22'
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: |-
+          Office, Resources, Access, and Data Team, Information
+                          Services.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory
+  role:
+  - type: publisher
 abstract:
 - content: This Special Publication represents the work of researchers at professional
     conferences, as reported by NIST employees in Fiscal Year 2020 (October 1, 2019
     September 30, 2020).
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1285'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

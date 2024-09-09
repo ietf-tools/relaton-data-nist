@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-182
 title:
-- content: 'Re-Certification of SRM 2492: Bingham Paste Mixture for Rheological Measurements'
+- content: Re-certification of SRM 2492
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Bingham Paste Mixture for rheological measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Re-certification of SRM 2492 - Bingham Paste Mixture for rheological measurements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-182
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-182.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-182
@@ -21,113 +34,110 @@ docid:
 - id: 10.6028/NIST.SP.260-182
   type: DOI
 date:
-- type: published
-  value: 2015-08
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alex
-          script:
-          - Latn
-      surname:
-        content: Olivas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Olivas, Alex.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065425
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William F
-          script:
-          - Latn
-      surname:
-        content: Guthrie
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guthrie, William F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021110731
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020055891
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-08
-script:
-- Latn
+abstract:
+- content: Rheological measurements are often performed using a rotational rheometer.
+    In this type of rheometer, the tested fluid is sheared between two surfaces, one
+    of which is rotating [1]. Usually, an angular velocity is imposed on the fluid
+    (through the rotating surface) and this angular velocity determines the shear
+    rate the fluid is subjected to. The response of the material is monitored by the
+    measurement of the resultant torque on the shaft of the rheometer; this torque
+    can then be converted to shear stress. In order to calibrate a rheometer, a standard
+    oil of known viscosity should be tested in the rheometer to verify that the instrument
+    is operating correctly. However, these standard oils are expensive; which makes
+    it impractical for use in calibrating with the rheometer with a large capacity
+    as needed for concrete. Additional, these standard oils that are not suspensions
+    (i.e. they do not have solid particles suspended in the media), and thus using
+    them may not capture some issues that may occur in a suspension rheology. Therefore,
+    a relatively inexpensive, reference material is needed that incorporates aggregates
+    for concrete rheometers. As concrete and mortar are non-Newtonian, the reference
+    material should also be non-Newtonian. This report follows the development and
+    serves as re-certification of a Standard Reference Material (SRM) for cement paste
+    [2]. A multiscale approach will be utilized to develop SRMs for mortar and concrete
+    in the future. The SRM 2492 will be the matrix fluid for a mortar SRM that will
+    in turn become the matrix fluid for a concrete SRM. The report SP 260-174 Rev.2012
+    [2] describes how this SRM 2492, a Bingham Paste Mixture for Rheological Measurements
+    was developed and provides all the details on the various ingredients. After an
+    inter-laboratory study under the sponsorship of the American Concrete Institute
+    (ACI) committee 238, Workability of Fresh Concrete, it was found that the instructions
+    provided to prepare the SRM were inadequate to obtain reproducible data in all
+    laboratories. Thus after establishing a better preparation method, new instructions
+    were drafted and it was found that the certified values were no longer valid.
+    Thus, it was necessary to redo a series of testing to obtain a new certified value.
+    This report provides all measurements obtained, the calculation of the new rheological
+    characteristics and the statistical analyses.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-182
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

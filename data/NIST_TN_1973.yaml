@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1973
 title:
-- content: A methodology for estimating seismic retroft costs
+- content: A methodology for estimating seismic retrofit costs
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1973
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1973.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1973
@@ -21,101 +20,92 @@ docid:
 - id: 10.6028/NIST.TN.1973
   type: DOI
 date:
-- type: published
-  value: 2017-09
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Juan F
-          script:
-          - Latn
-      surname:
-        content: Fung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fung, Juan F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Siamak
-          script:
-          - Latn
-      surname:
-        content: Sattar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sattar, Siamak.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven L
-          script:
-          - Latn
-      surname:
-        content: McCabe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McCabe, S. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96014692
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-09
-script:
-- Latn
+abstract:
+- content: Presidential Executive Order 13717 (EO 13717), Establishing a Federal Earthquake
+    Risk Management Standard, encourages federal agencies to enhance resilience...[to]
+    future earthquakes by evaluating and retrofitting existing federal buildings based
+    on current existing building codes. However, while guidance on evaluation and
+    retrofit practices is readily available, a standard approach to estimating retrofit
+    costs does not exist. Moreover, the absence of easily obtainable estimates can
+    make retrofits prohibitive for decision-makers. This paper develops a cost-estimating
+    methodology for seismic retrofits that (1) captures the essential factors that
+    drive seismic retrofit costs, such as building construction and square footage;
+    and (2) is reproducible using data available to decision-makers. The methodology
+    builds on FEMA 156 and 157, Typical Costs for Seismic Rehabilitation of Existing
+    Buildings, Volumes 1 and 2. A series of regression models is fit to the data used
+    for the FEMA reports, with the models varying in the level of data required; e.g.,
+    a decision-maker may not have information on building construction for each asset
+    in their inventory. Thus, the trade-off from estimating retrofit costs subject
+    to data limitations can be quantified in terms of prediction error, providing
+    decision-makers with a set of options for estimating costs together with a measure
+    of predictive performance. We find that a simple model, in terms of data requirements,
+    can deliver reliable predictions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1973'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

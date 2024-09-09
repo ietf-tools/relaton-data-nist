@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1217
 title:
 - content: 'A workshop report on "electron microscopy frontiers: challenges and opportunities"'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1217
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1217.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1217
@@ -21,118 +20,91 @@ docid:
 - id: 10.6028/NIST.SP.1217
   type: DOI
 date:
-- type: published
-  value: '2017-12-21'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Bonevich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bonevich, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ann
-          script:
-          - Latn
-      surname:
-        content: Chiaramonti Debay
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Chiaramonti Debay, Ann.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Herzing
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Herzing, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bob
-          script:
-          - Latn
-      surname:
-        content: Keller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Keller, Bob.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88005764
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: June
-          script:
-          - Latn
-      surname:
-        content: Lau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lau, June.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: '2017-12-21'
-script:
-- Latn
+abstract:
+- content: 'For two days beginning on March 8, 2017, a planning workshop entitled
+    Electron Microscopy Frontiers: Opportunities and Challenges was hosted by the
+    Material Measurement Laboratory (MML) of the National Institute of Standards and
+    Technology (NIST). Grass root efforts from electron microscopists across three
+    MML divisions (642, 643, and 647) and two campuses (Boulder and Gaithersburg)
+    co-organized this event. The organizers (in alphabetical order) John Bonevich,
+    Ann Chiaramonti Debay, Andrew Herzing, Robert Keller, and June Lau, contributed
+    equally to this workshop as well as this final report. The information contained
+    herein is based in part on the results of the workshop, which was attended by
+    stakeholders working in the field of electron microscopy (EM), as well as non-microscopy
+    experts in selected fields. This report presents the expert perspectives of the
+    participants, but is not intended to be taken as prevailing opinion across the
+    represented field. Ideas from a series of conversations among the organizers prior
+    to, and following the workshop, are also reflected in this writing.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1217'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

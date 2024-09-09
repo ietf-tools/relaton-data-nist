@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5522
 title:
-- content: Information technology engineering and measurement model:adding lane markings
-    to the information superhighway
+- content: Information technology engineering and measurement model
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: adding lane markings to the information superhighway
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology engineering and measurement model - adding lane
+    markings to the information superhighway
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5522
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5522.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5522
@@ -22,33 +35,43 @@ docid:
 - id: 10.6028/NIST.IR.5522
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
+- person:
+    name:
+      completename:
+        content: Zelkowitz, Marvin.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Cuthill, Barbara.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5522'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8145
 title:
-- content: A Comparative Analysis of NIST Charpy Machines and Internal Reference Materials
+- content: A comparative analysis of NIST Charpy machines and internal reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8145
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8145.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8145
@@ -21,67 +20,80 @@ docid:
 - id: 10.6028/NIST.IR.8145
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raymond L.
-          script:
-          - Latn
-      surname:
-        content: Santoyo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Santoyo, Ray.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139166
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Boulder
-        state: CO
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: This report documents the results of a series of comparative analyses which
+    were conducted on the Charpy machines located at NIST in Boulder, Colorado. The
+    analyses were performed both on historical data, collected over a period of more
+    than 20 years, and newly obtained test results from almost 300 instrumented and
+    non-instrumented impact tests on verification specimens of low energy (13 J to
+    20 J), high energy (88 J to 136 J), and super-high energy (176 J to 244 J). The
+    comparative analyses were completed for the purpose of understanding the limits
+    of calibrating instrumented strikers for use in dynamic test through conventional
+    static calibration procedures. Test results, obtained both in the past and within
+    the current study, show that one of the so-called master machines (used to establish
+    reference values for ASTM verification specimens) delivers consistently lower
+    energy values than the other two master machines in the 15 J - 20 J range. This
+    is suspected to be due to its higher stiffness and hammer design (C-type), which
+    increases its natural frequency of vibration and causes early fracture in a quasi-brittle
+    (low-energy) test. The extremely large number of instrumented Charpy tests performed
+    within this investigation (more than 200) allowed us to assess the reliability
+    of the conventional static calibration procedure for our instrumented strikers,
+    as compared to different approaches for the adjustment/correction of measured
+    force values. Even though these approaches were found beneficial in improving
+    the between-machine consistency, statistically significant differences remained
+    nonetheless. It appears that, in order to reliably calibrate an instrumented striker,
+    forces must be applied at loading rates that are equivalent to those encountered
+    during actual tests (dynamic calibration of instrumented strikers). This should
+    become a clear objective of the NIST Charpy program going forward.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8145'
 place:
-- Boulder, CO
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

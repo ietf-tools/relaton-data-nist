@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5231
 title:
-- content: Electronics and Electrical Engineering Laboratory:technical publication
-    announcements covering laboratory programs, January to March, 1993 with 19931994
-    EEEL events calendar
+- content: Electronics and Electrical Engineering Laboratory
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: technical publication announcements covering laboratory programs, January
+    to March, 1993 with 1993 / 1994 EEEL events calendar
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Electronics and Electrical Engineering Laboratory - technical publication
+    announcements covering laboratory programs, January to March, 1993 with 1993 /
+    1994 EEEL events calendar
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5231
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5231.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5231
@@ -23,33 +37,35 @@ docid:
 - id: 10.6028/NIST.IR.5231
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
+- person:
+    name:
+      completename:
+        content: Rohrbaugh, J. M.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5231'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

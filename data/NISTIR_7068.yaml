@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7068
 title:
-- content: Deposition rates of fine and course particles in residential buildings:literature
-    review and measurements in an occupied townhouse
+- content: Deposition rates of fine and course particles in residential buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: literature review and measurements in an occupied townhouse
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Deposition rates of fine and course particles in residential buildings
+    - literature review and measurements in an occupied townhouse
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7068
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7068.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7068
@@ -22,72 +35,61 @@ docid:
 - id: 10.6028/NIST.IR.7068
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Cynthia
-          script:
-          - Latn
-      surname:
-        content: Howard-Reed
-        script:
-        - Latn
+      completename:
+        content: Howard-Reed, Cynthia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022030653
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lance
-          script:
-          - Latn
-      surname:
-        content: Wallace
-        script:
-        - Latn
+      completename:
+        content: Wallace, Lance,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87151897
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
+      completename:
+        content: Emmerich, Steven J. (Steven John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003076634
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7068'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

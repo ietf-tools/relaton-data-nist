@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2105
 title:
-- content: Camp Fire Reconnaissance
+- content: Camp Fire preliminary reconnaissance
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2105
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2105.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2105
@@ -21,186 +20,123 @@ docid:
 - id: 10.6028/NIST.TN.2105
   type: DOI
 date:
-- type: published
-  value: '2020-08-27'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alexander
-          script:
-          - Latn
-      surname:
-        content: Maranghides
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Maranghides, Alexander.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William Ruddy
-          script:
-          - Latn
-      surname:
-        content: Mell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mell, William Ruddy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Hawks
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hawks, Steven.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wilson, Mike.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Will
-          script:
-          - Latn
-      surname:
-        content: Brewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brewer, Will.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: Link
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Link, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Brown, Chris.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cartier
-          script:
-          - Latn
-      surname:
-        content: Murrill
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Murrill, Cartier.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erin
-          script:
-          - Latn
-      surname:
-        content: Ashley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ashley, Erin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-08-27'
-script:
-- Latn
+abstract:
+- content: The Camp Fire ignited on the morning of November 8, 2018, in Pulga, CA.
+    Fanned by high winds, the fire spread quickly through wildlands and burned into
+    the wildland-urban interface (WUI) communities of Concow, Paradise, and Magalia,
+    CA. Within hours, thousands of structures were destroyed as over 30,000 residents
+    evacuated the area. The Camp Fire burned for 18 days, consumed 62,053 ha (153,336
+    ac), destroyed or damaged 19,531 structures, and resulted in 85 fatalities. As
+    part of the NIST Disaster and Failure Studies Program, a reconnaissance team was
+    deployed to Butte County, CA to collect any perishable data, along with preliminary
+    field data which would be used to assess the need and ability to fully reconstruct
+    this fire. A multiagency team consisting of NIST, US Forest Service, and Federal
+    Emergency Management Agency members worked closely with the California Department
+    of Forestry and Fire Protection (CAL FIRE) incident command. Data collected from
+    two deployments, totaling 18 days in the field, were used in a preliminary assessment
+    of the incident to determine the need for a more comprehensive case study research
+    effort. The reconnaissance deployment team determined that the Camp Fire was unique
+    in terms of the extreme fire behavior, losses, evacuation and notification challenges.
+    Based on the unique opportunities to better understand the behavior and response
+    to wildland-urban interface fires, and the availability of data to support in-depth
+    studies, the team recommended that a more comprehensive study be undertaken.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2105'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

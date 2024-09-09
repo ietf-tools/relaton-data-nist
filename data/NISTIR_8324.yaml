@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8324
 title:
-- content: '2018 Multimedia Forensics Challenges (MFC18): Summary and Results'
+- content: 2018 Media Forensics Challenges (MFC18)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary and results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 2018 Media Forensics Challenges (MFC18) - summary and results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8324
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8324.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8324
@@ -21,152 +34,114 @@ docid:
 - id: 10.6028/NIST.IR.8324
   type: DOI
 date:
-- type: published
-  value: '2020-11-13'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yooyoung
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lee, Yooyoung.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amy N.
-          script:
-          - Latn
-      surname:
-        content: Yates
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Yates, Amy N.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1250-1967"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Haiying
-          script:
-          - Latn
-      surname:
-        content: Guan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guan, Haiying.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1461-265X"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Delgado
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Delgado, Andrew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          script:
-          - Latn
-      surname:
-        content: Zhou
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Zhou, Daniel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Timothee
-          script:
-          - Latn
-      surname:
-        content: Kheyrkhah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kheyrkhah, Timothee.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          script:
-          - Latn
-      surname:
-        content: Fiscus
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fiscus, Jonathan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2020-11-13'
-script:
-- Latn
+abstract:
+- content: The interest in forensic techniques capable of detecting many different
+    media manipulation types has been growing, and system development with machine
+    learning technology has been evolving in recent years. There has been, however,
+    a lack of diversity in the data collections and in the evaluation methodologies
+    for advancing multimedia forensics technologies. For the forensics research community,
+    a well-defined evaluation is necessary to rapidly measure the accuracy and robustness
+    of systems over diverse datasets collected under various environments. In this
+    paper, we propose an evaluation framework and associated performance metrics and
+    apply them to the 2018 Multimedia Forensics Challenge (MFC18). This MFC18 evaluation
+    consists of five tasks and two challenges. A large number of datasets were created
+    to support each task and for conducting the experiments using a structured evaluation
+    framework. A total of 25 teams participated in the MFC18 evaluation; we analyse
+    their performance on the tasks and challenges, and provide performance rankings
+    for each team’s best-performing system.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
+  number: '8324'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
   number: '8324'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

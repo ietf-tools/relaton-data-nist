@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10674
 title:
 - content: Experimental evaluation of analytical methods for determining lead in paint
-    and building materials:milestone 2a, interim report of progress October 1 - November
-    15, 1971
+    and building materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: milestone 2a, interim report of progress October 1 - November 15, 1971
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Experimental evaluation of analytical methods for determining lead in paint
+    and building materials - milestone 2a, interim report of progress October 1 -
+    November 15, 1971
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10674
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10674.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10674
@@ -23,72 +37,49 @@ docid:
 - id: 10.6028/NBS.RPT.10674
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bernard
-          script:
-          - Latn
-      surname:
-        content: Greifer
-        script:
-        - Latn
+      completename:
+        content: Greifer, Bernard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Durst
-        script:
-        - Latn
+      completename:
+        content: Durst, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Oscar
-          script:
-          - Latn
-      surname:
-        content: Menis
-        script:
-        - Latn
+      completename:
+        content: Menis, Oscar.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1972'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10674'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

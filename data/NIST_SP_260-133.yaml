@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-133
 title:
-- content: Standard Reference Materials :Acetylene 12C2H2 absorption reference for
-    1510-1540 nm wavelength calibration - SRM 2517/
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: acetylene 12C2H2 absorption reference for 1510-1540 nm wavelength calibration
+    - SRM 2517
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - acetylene 12C2H2 absorption reference for
+    1510-1540 nm wavelength calibration - SRM 2517
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-133
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-133.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-133
@@ -22,69 +36,50 @@ docid:
 - id: 10.6028/NIST.SP.260-133
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swann
+      completename:
+        content: Gilbert, Sarah L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2010042945
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sarah L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gilbert
+      completename:
+        content: Swann, W. C. (William C.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022077627
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-133
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

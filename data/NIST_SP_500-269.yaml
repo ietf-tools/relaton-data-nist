@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-269
 title:
-- content: Software assurance tools :web application security scanner functional specification
-    version 1.0
+- content: Software assurance tools
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: web application security scanner functional specification version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Software assurance tools - web application security scanner functional
+    specification version 1.0
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-269
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-269.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-269
@@ -22,103 +35,72 @@ docid:
 - id: 10.6028/NIST.SP.500-269
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Black
+      completename:
+        content: Black, Paul E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth,
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fong
+      completename:
+        content: Fong, Elizabeth.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50023905
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vadim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Okun
+      completename:
+        content: Okun, Vadim.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065355
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Romain
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gaucher
+      completename:
+        content: Gaucher, Romain.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022012049
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-269
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

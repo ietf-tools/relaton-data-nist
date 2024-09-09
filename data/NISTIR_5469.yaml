@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5469
 title:
 - content: NIST form-based handprint recognition system
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5469
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5469.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5469
@@ -21,111 +20,91 @@ docid:
 - id: 10.6028/NIST.IR.5469
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gerald T
-          script:
-          - Latn
-      surname:
-        content: Candela
-        script:
-        - Latn
+      completename:
+        content: Garris, Michael D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Darrin L
-          script:
-          - Latn
-      surname:
-        content: Dimmick
-        script:
-        - Latn
+      completename:
+        content: Blue, James L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jon
-          script:
-          - Latn
-      surname:
-        content: Geist
-        script:
-        - Latn
+      completename:
+        content: Candela, Gerald T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick J
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
+      completename:
+        content: Dimmick, Darrin L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley A
-          script:
-          - Latn
-      surname:
-        content: Janet
-        script:
-        - Latn
+      completename:
+        content: Geist, Jon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles L
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        script:
-        - Latn
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Janet, Stanley A.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Wilson, Charles L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5469'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

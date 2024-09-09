@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC418
 title:
-- content: Circular of the Bureau of Standards no. 418:architectural acoustics
+- content: Circular of the Bureau of Standards no. 418
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: architectural acoustics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 418 - architectural acoustics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.418
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular418.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 418
@@ -21,67 +34,59 @@ docid:
 - id: 10.6028/NBS.CIRC.418
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1938'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul R
-          script:
-          - Latn
-      surname:
-        content: Heyl
-        script:
-        - Latn
+      completename:
+        content: Heyl, Paul R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91015410
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: V L
-          script:
-          - Latn
-          initial: V
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: V L
-          script:
-          - Latn
-      surname:
-        content: Chrisler
-        script:
-        - Latn
+      completename:
+        content: Chrisler, V. L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85240529
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1938'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '418'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

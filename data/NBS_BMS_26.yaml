@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBMS26
 title:
-- content: Structural properties of "Nelson pre-cast concrete foundation" wall construction
-    sponsored by the Nelson Cement Stone Company, Inc.
+- content: Structural properties of Nelson pre-cast concrete foundation wall construction
+    sponsored by the Nelson Cement Stone Company, Inc
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BMS.26
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BMS/nbsbuildingmaterialsstructures26.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BMS 26
@@ -22,86 +21,62 @@ docid:
 - id: 10.6028/NBS.BMS.26
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1939'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Herbert L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Whittemore
+      completename:
+        content: Whittemore, Herbert L. (Herbert Lucius),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85252655
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ambrose H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stang
+      completename:
+        content: Stang, A. H. (Ambrose Henry),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2007089261
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cyrus C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fishburn
+      completename:
+        content: Fishburn, Cyrus Charles,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018080970
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1939'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Materials and Structures Reports
+    content: NBS building materials and structures report; NBS BMS
     format: text/plain
-  abbreviation:
-    content: BMS
   number: '26'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

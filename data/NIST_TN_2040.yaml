@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2040
 title:
 - content: Measurement of SVOC emission parameters for building materials using solid-phase
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2040
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2040.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2040
@@ -22,67 +21,75 @@ docid:
 - id: 10.6028/NIST.TN.2040
   type: DOI
 date:
-- type: published
-  value: 2019-04
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mengyan
-          script:
-          - Latn
-      surname:
-        content: Gong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gong, Mengyan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-04
-script:
-- Latn
+abstract:
+- content: Semi-volatile organic compounds (SVOCs) are ubiquitous indoors and associated
+    with adverse health effects. y0 (the SVOC concentration in air close to the material
+    surface) is the key parameter to predict SVOC emissions from source materials.
+    However, to develop consensus standard methods for measuring y0, better understanding
+    and validation of current approaches are needed. A solid-phase microextraction
+    (SPME)-based method published in the literature was chosen for this study. Tris(1-chloro-2-propyl)
+    phosphate (TCPP) from spray polyurethane foam (SPF) and Di-2-ethylhexyl phthalate
+    (DEHP) from polyvinyl chloride (PVC) flooring were chosen as target chemicals.
+    First, TCPP concentrations in two SPF materials were measured. The values for
+    open cell and closed cell SPF were 1.24 x 106 mg m-3 and 2.84 x 105 mg m-3, respectively.
+    Second, to apply the SPME-based method, an improved method to calibrate chemical
+    mass collected on SPME fibers was evaluated. The results show that, for DEHP and
+    Benzo[a]pyrene (BaP), the direct SPME loading method was able to calibrate masses
+    collected on SPME fibers, but not for more volatile chemicals (TCPP and 2,2?,5,5?-Tetrachlorobiphenyl
+    (PCB 52)). Unfortunately, the application of the improved direct loading method
+    may be limited due to the need for evaluation of every target chemical, the physical
+    challenge of spiking onto the fiber, and the variability of SPME fiber's adsorption
+    ability. Third, y0 for DEHP from PVC flooring at different temperatures were measured
+    using the SPME-based method and a specially designed stainless-steel chamber.
+    However, due to the potential problems relating to the variability of SPME fiber's
+    adsorption property, the variability of measured y0 values may be as large as
+    a factor of two. Overall, given the essential drawbacks of SPME-based method for
+    measuring y0, it is not yet suggested until the problems relating to SPME calibration
+    and the variability of SPME fiber adsorption property are overcome.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2040'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

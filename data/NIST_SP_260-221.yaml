@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-221
 title:
-- content: Certification of Standard Reference Material 2917 :plasmid DNA for fecal
+- content: Certification of Standard Reference Material 2917
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: plasmid DNA for fecal indicator detection and identification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Certification of Standard Reference Material 2917 - plasmid DNA for fecal
     indicator detection and identification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-221
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-221.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-221
@@ -22,141 +35,71 @@ docid:
 - id: 10.6028/NIST.SP.260-221
   type: DOI
 date:
-- type: published
-  value: '2021-12-06'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Kralj
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kralj, Jason.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephanie
-          script:
-          - Latn
-      surname:
-        content: Servetas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Servetas, Stephanie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Monique
-          script:
-          - Latn
-      surname:
-        content: Hunter
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hunter, Monique.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Blaza
-          script:
-          - Latn
-      surname:
-        content: Toman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Toman, Blaza.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Scott
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Jackson, Scott.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Orin
-          script:
-          - Latn
-      surname:
-        content: Shanks
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Shanks, Orin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica
-          script:
-          - Latn
-      surname:
-        content: Willis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Willis, Jessica.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-12-06'
-script:
-- Latn
 abstract:
 - content: Standard Reference Material (SRM) 2917 is intended for calibrating qPCR-based
     assays of fecal indicator bacteria (FIB) for assessing water quality. A unit of
@@ -168,16 +111,22 @@ abstract:
     centrifuge vials. In total, approximately 1000 units were generated. The material
     is both stable and should be stored at 4? C. The production, analytical methods,
     statistical evaluation, and certified values of this SRM are described herein.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-221
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

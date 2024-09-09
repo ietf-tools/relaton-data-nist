@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-16
 title:
 - content: Literature review of metal additive manufacturing defects
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-16
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-16.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-16
@@ -21,67 +20,66 @@ docid:
 - id: 10.6028/NIST.AMS.100-16
   type: DOI
 date:
-- type: published
-  value: 2018-05
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Felix H
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kim, Felix H., .
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: 0000-0002-1042-9500
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shawn P
-          script:
-          - Latn
-      surname:
-        content: Moylan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Moylan, Shawn P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062454
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-05
-script:
-- Latn
+abstract:
+- content: Additive manufacturing (AM) is a revolutionary manufacturing technique,
+    which is expected to reshape the future manufacturing industries. While various
+    materials are used in AM, metal AM is expected to provide a high impact to the
+    industries by producing high-strength structural components. Defects occurring
+    in AM, however, prevent the technique from a wide spread adoption to the mainstream
+    industry. This paper provides a review of commonly-occurring defects in metal
+    AM-produced components. It describes various types and causes of defects, provides
+    implications on the needs of non-destructive evaluation (NDE) techniques to inspect
+    such defects.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-16
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

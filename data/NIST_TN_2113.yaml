@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2113
 title:
-- content: Developing Cost Functions for Estimating Solar Photovoltaic System Installed
-    and Life Cycle Costs Using Historical Quote Data
+- content: Developing cost functions for estimating solar photovoltaic system installed
+    and life cycle costs using historical quote data
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2113
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2113.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2113
@@ -22,84 +21,81 @@ docid:
 - id: 10.6028/NIST.TN.2113
   type: DOI
 date:
-- type: published
-  value: '2020-09-22'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cheyney
-          script:
-          - Latn
-      surname:
-        content: O’Fallon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Fallon, Cheyney.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-09-22'
-script:
-- Latn
+abstract:
+- content: Residential solar photovoltaic (PV) system installations have become more
+    prevalent as the installed cost has decreased over the last 10 years while system
+    performance has improved. As these installations have increased, so too has interest
+    in determining their economic value to a homeowner. PV installation cost estimates
+    have typically assumed the entire cost as marginal (average cost per watt) using
+    reported data aggregated to a state or country. This study implements a cost function
+    that includes a fixed cost and marginal cost element to account for differences
+    in cost structures while controlling for panel quality and specific location.
+    The analysis uses county level installed quote data applied to estimate cost functions
+    and apply these functions to life cycle cost analyses of the Washington DC-Maryland-Virginia
+    (DMV) metropolitan area while incorporating state and county level differences
+    in pricing and incentives. The estimated cost function is found to provide an
+    installed cost estimate that is statistically different than using the traditional
+    total average cost per watt approach for both standard and premium systems up
+    to 9 kW and 11 kWh, respectively. The analysis finds no statistical difference
+    in the installed cost function across counties, but clear differences in the life-cycle
+    cost-effectiveness to a homeowner due to state policies and retail electricity
+    prices. Absent financing, only PV systems in DC are life-cycle cost effective
+    compared to retail electricity due to DC s strong solar renewable energy credit
+    (SREC) market. PV can be cost effective in Maryland if financing and incentives
+    are applied while no combination of financing or incentives makes PV cost effective
+    in Virginia due to its lower relative electricity prices. Sensitivity analysis
+    finds that the homeowner s assumed discount rate and the upcoming phase out of
+    the federal investment tax credit (ITC) has a significant impact on residential
+    PV economics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2113'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

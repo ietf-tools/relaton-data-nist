@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP611
 title:
 - content: New technology challenges metrology
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.611
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication611.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 611
@@ -21,52 +20,52 @@ docid:
 - id: 10.6028/NBS.SP.611
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1981'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Judson C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: French
+      completename:
+        content: French, Judson C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82003501
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1981'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Assurance of measurement quality to meet requirements for regulatory agencies,
+    marketplace equity, and productivity and quality control in manufacturing and
+    research is challenged by unprecedented demands for sensitivity, speed, precision,
+    and accuracy over wide ranges of properties and signal characteristics. New approaches
+    are needed. Examples of NBS response, principally in electrical and electronic
+    engineering are described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '611'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP996
 title:
 - content: On the fractographic analysis of machining cracks in ground ceramics
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.996
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication996.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 996
@@ -21,103 +20,71 @@ docid:
 - id: 10.6028/NIST.SP.996
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Quinn, G. D. (George D.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95111854
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Ives, L. K. (Lewis K.),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83143037
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lewis K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ives
+      completename:
+        content: Jahanmir, Said.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Said
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jahanmir
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92082176
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Public update by NIST of its 24-month building and fire safety investigation
+    of the World Trade Center (WTC) disaster summarizes the progress made since its
+    December 2002 report. NIST expects to release the draft of the final investigation
+    report for public comment in December 2004.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '996'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

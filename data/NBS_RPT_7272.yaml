@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7272
 title:
 - content: Insertion loss of a brick wall at UHF
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7272
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7272.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7272
@@ -21,117 +20,92 @@ docid:
 - id: 10.6028/NBS.RPT.7272
   type: DOI
 date:
-- type: published
-  value: '1962'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G D
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: G D
-          script:
-          - Latn
-      surname:
-        content: Gierhart
-        script:
-        - Latn
+      completename:
+        content: Gierhart, G. D. (Gary D.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81117524
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L G
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: L G
-          script:
-          - Latn
-      surname:
-        content: Hause
-        script:
-        - Latn
+      completename:
+        content: Hause, L. G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111756
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J E
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: J E
-          script:
-          - Latn
-      surname:
-        content: Farrow
-        script:
-        - Latn
+      completename:
+        content: Farrow, J. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80007395
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M T
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: M T
-          script:
-          - Latn
-      surname:
-        content: Decker
-        script:
-        - Latn
+      completename:
+        content: Decker, Martin T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002003372
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Measurements of the effects of inserting a brick wall into a radio propagation
+    path are reported. The technique used for measuring insertion loss at frequencies
+    of 518 Mc/s and 1046 Mc/s is described. Distributions of the resulting data indicate
+    the variability of insertion loss with changes in measurement location. The median
+    insertion loss at both frequencies was on the order of 2.5 db.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7272'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

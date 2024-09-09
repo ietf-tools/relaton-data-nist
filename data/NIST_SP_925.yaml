@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP925
 title:
-- content: 'A Unique Institution: The National Bureau of Standards, 1950-1969'
+- content: A unique institution
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the National Bureau of Standards, 1950-1969
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A unique institution - the National Bureau of Standards, 1950-1969
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.925
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication925.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 925
@@ -21,59 +34,41 @@ docid:
 - id: 10.6028/NIST.SP.925
   type: DOI
 date:
-- type: published
-  value: '1999'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elio
-          script:
-          - Latn
-      surname:
-        content: Passaglia
-        script:
-        - Latn
+      completename:
+        content: Passaglia, Elio.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karma A.
-          script:
-          - Latn
-      surname:
-        content: Beal
-        script:
-        - Latn
+      completename:
+        content: Beal, Karma A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1999'
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '925'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

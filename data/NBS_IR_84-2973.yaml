@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-2973
 title:
-- content: An automatic ACDC thermal voltage converter and AC voltage calibration
+- content: An automatic AC/DC thermal voltage converter and AC voltage calibration
     system
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-2973
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-2973.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-2973
@@ -22,122 +21,59 @@ docid:
 - id: 10.6028/NBS.IR.84-2973
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1984'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K J
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: K J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lentner
+      completename:
+        content: Lentner, K. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021015340
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D R
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: D R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Flach
+      completename:
+        content: Flach, D. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B A
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: B A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bell
+      completename:
+        content: Bell, B. A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81136285
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1984'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-2973
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

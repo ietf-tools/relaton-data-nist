@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6660
 title:
 - content: Workshop on quantitative tools for condition assessment of aging infrastructure
-    :May 4-5, 2010, Boulder, Colorado
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: May 4-5, 2010, Boulder, Colorado
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Workshop on quantitative tools for condition assessment of aging infrastructure
+    - May 4-5, 2010, Boulder, Colorado
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6660
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6660.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6660
@@ -22,154 +35,93 @@ docid:
 - id: 10.6028/NIST.IR.6660
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Terry
+      completename:
+        content: Terry, Jessica.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tom
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Siewert
+      completename:
+        content: Siewert, Tom.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McColskey
+      completename:
+        content: McColskey, David.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139160
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ward
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Johnson
+      completename:
+        content: Johnson, Ward.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83017976
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Luecke
+      completename:
+        content: Luecke, William.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Iadicola
+      completename:
+        content: Iadicola, Mark.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dat
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Duthinh
+      completename:
+        content: Duthinh, Dat.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001252
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6660'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

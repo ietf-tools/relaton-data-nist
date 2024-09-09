@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTIBM16
 title:
-- content: Thermal insulation :summary and conclusions
+- content: Thermal insulation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary and conclusions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Thermal insulation - summary and conclusions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TIBM.16
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TIBM/nbstibm16.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TIBM 16
@@ -21,35 +34,33 @@ docid:
 - id: 10.6028/NBS.TIBM.16
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1936'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1936'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Technical Information on Building Materials
+    content: NBS technical information on building materials; NBS TIBM
     format: text/plain
-  abbreviation:
-    content: TIBM
   number: '16'
-place:
-- Gaithersburg, MD
-doctype: standard
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

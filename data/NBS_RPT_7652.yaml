@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7652
 title:
 - content: Transmission loss variability and fading characteristics for long knife-edge
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7652
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7652.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7652
@@ -22,46 +21,61 @@ docid:
 - id: 10.6028/NBS.RPT.7652
   type: DOI
 date:
-- type: published
-  value: '1963'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Albrecht P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, Albrecht P.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1963'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: In this report transmission loss data in the 7 50-900 Mc/s range from three
+    long knife-edge diffraction paths (in Colorado, Alaska, and Europe) are evaluated
+    and analyzed in terms of power fading (long-term variability) and short-term variability
+    represented by prolonged space-wave fadeouts. A comparison is made of calculated
+    and measured cumulative distributions of hourly median transmission loss values.
+    It appears that long-term variability over a knife-edge diffraction path can be
+    estimated by convoluting the distributions of hourly medians for the two component
+    line-of-sight paths, and that short-term variations represented by space-wave
+    fadeouts are more prevalent when substantial phase interference due to ground
+    reflections in the vicinity of the terminal is likely to exist.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7652'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

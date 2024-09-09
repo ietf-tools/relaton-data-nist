@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP393
 title:
-- content: Colorimetry and spectrophotometry :a bibliography of NBS publications January
-    1906 through January 1973
+- content: Colorimetry and spectrophotometry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a bibliography of NBS publications January 1906 through January 1973
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Colorimetry and spectrophotometry - a bibliography of NBS publications
+    January 1906 through January 1973
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.393
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication393.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 393
@@ -22,52 +35,40 @@ docid:
 - id: 10.6028/NBS.SP.393
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1974'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kenneth L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kelly
+      completename:
+        content: Kelly, Kenneth L.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50048153
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1974'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '393'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

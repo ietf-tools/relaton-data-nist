@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8112
 title:
-- content: 'Attribute metadata: a proposed schema for evaluating federated attributes'
+- content: Attribute metadata
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a proposed schema for evaluating federated attributes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Attribute metadata - a proposed schema for evaluating federated attributes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8112
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8112.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8112
@@ -21,118 +34,91 @@ docid:
 - id: 10.6028/NIST.IR.8112
   type: DOI
 date:
-- type: published
-  value: '2018-01-11'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          script:
-          - Latn
-      surname:
-        content: Grassi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grassi, Paul A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085231
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Naomi B
-          script:
-          - Latn
-      surname:
-        content: Lefkovitz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lefkovitz, Naomi B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085243
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ellen M
-          script:
-          - Latn
-      surname:
-        content: Nadeau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nadeau, Ellen M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan J
-          script:
-          - Latn
-      surname:
-        content: Galluzzo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Galluzzo, Ryan J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Abhiraj T
-          script:
-          - Latn
-      surname:
-        content: Dinh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dinh, Abhiraj T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2018-01-11'
-script:
-- Latn
+abstract:
+- content: This NIST Internal Report contains a metadata schema for attributes that
+    may be asserted about an individual during an online transaction. The schema can
+    be used by relying parties to enrich access control policies, as well as during
+    run-time evaluation of an individual's ability to access protected resources.
+    Attribute metadata could also create the possibility for data sharing permissions
+    and limitations on individual data elements. There are other possible applications
+    of attribute metadata, such as evaluation and execution of business logic in decision
+    support systems or associated with devices or non-person entities; however, the
+    metadata contained herein is focused on supporting an organization's risk-informed
+    authorization policies and evaluation for individuals.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8112'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

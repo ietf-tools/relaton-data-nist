@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS600-4
 title:
-- content: 'Network charter: Manufacturing USA program (2018)'
+- content: Network charter
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Manufacturing USA program (2018)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Network charter - Manufacturing USA program (2018)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.600-4
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.600-4.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 600-4
@@ -21,50 +34,48 @@ docid:
 - id: 10.6028/NIST.AMS.600-4
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael F
-          script:
-          - Latn
-      surname:
-        content: Molnar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Molnar, Michael F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: Under the authority of the Revitalize American Manufacturing and Innovation
+    Act of 2014, the Secretary of Commerce shall establish the Network for Manufacturing
+    Innovation, generally called the Manufacturing USA network. The network, along
+    with its manufacturing innovation institutes, makes up the Manufacturing USA program.
+    This document hereby charters the Manufacturing USA network.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 600-4
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

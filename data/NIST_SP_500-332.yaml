@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-332
 title:
 - content: The NIST Cloud Federation Reference Architecture
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-332
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-332.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-332
@@ -21,84 +20,72 @@ docid:
 - id: 10.6028/NIST.SP.500-332
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Craig A
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lee, C. A. (Craig A.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00014841
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert B
-          script:
-          - Latn
-      surname:
-        content: Bohn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bohn, Robert B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martial
-          script:
-          - Latn
-      surname:
-        content: Michel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Michel, Martial.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: This document presents the NIST Federated Cloud Reference Architecture
+    model. This actor/role- based model used the guiding principles of the NIST Cloud
+    Computing Reference Architecture to develop an eleven component model. This document
+    describes these components individually and how they function as an ensemble.
+    There are many possible deployments and governance options which lend themselves
+    to create a suite of federation options from simple to complex. The basics of
+    cloud federation can be described through the interactions of the actors in a
+    layered three planes representation of trust, security, and resource sharing and
+    usage. A discussion on possible future standards and use cases are also described
+    in great detail.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-332
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

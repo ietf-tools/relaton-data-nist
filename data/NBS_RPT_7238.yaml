@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7238
 title:
 - content: The prediction of service volumes for air navigation facilities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7238
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7238.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7238
@@ -21,117 +20,98 @@ docid:
 - id: 10.6028/NBS.RPT.7238
   type: DOI
 date:
-- type: published
-  value: '1962'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G D
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: G D
-          script:
-          - Latn
-      surname:
-        content: Gierhart
-        script:
-        - Latn
+      completename:
+        content: Gierhart, G. D. (Gary D.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81117524
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J S
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: J S
-          script:
-          - Latn
-      surname:
-        content: Miller
-        script:
-        - Latn
+      completename:
+        content: Miller, J. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92076646
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M E
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: M E
-          script:
-          - Latn
-      surname:
-        content: Johnson
-        script:
-        - Latn
+      completename:
+        content: Johnson, M. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81113033
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A P
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, A. P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80006175
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: This report deals with the prediction of service volumes (i. e., service
+    ranges in three dimensions) for VOR and TACAN air navigation facilities in the
+    presence of noise and interfering stations. Propagation mechanisms applicable
+    to the frequency ranges employed are discussed first, together with calculation
+    of transmission loss and its variability. Second, the statistical treatment of
+    the interference problem is explained. Finally, it is shown how service volumes
+    are determined based on transmission loss and its variations, specified or assumed
+    criteria on signal-to-noise and signal-to-interference ratio, and the spatial
+    relations of the aircraft, the desired facility, and the undesired facility. The
+    results of the entire study are presented in graphical form. Detailed procedures,
+    mathematical formulas, and computer programs used are discussed in the Appendix.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7238'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

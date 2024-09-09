@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-189
 title:
-- content: Resilient interdomain traffic exchange:BGP security and DDos mitigation
+- content: Resilient interdomain traffic exchange
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: BGP security and DDos mitigation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Resilient interdomain traffic exchange - BGP security and DDos mitigation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-189
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-189.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-189
@@ -21,67 +34,66 @@ docid:
 - id: 10.6028/NIST.SP.800-189
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kotikalapudi
-          script:
-          - Latn
-      surname:
-        content: Sriram
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Doug
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sriram, Kotikalapudi.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021120228
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: In recent years, numerous routing control plane anomalies, such as Border
+    Gateway Protocol (BGP) prefix hijacking and route leaks, have resulted in denial-of-service
+    (DoS), unwanted data traffic detours, and performance degradation. Large-scale
+    distributed denial-of-service (DDoS) attacks on servers using spoofed internet
+    protocol (IP) addresses and reflection-amplification in the data plane have also
+    been frequent, resulting in significant disruption of services and damages. This
+    special publication on Resilient Interdomain Traffic Exchange (RITE) includes
+    initial guidance on securing the interdomain routing control traffic, preventing
+    IP address spoofing, and certain aspects of DoS/DDoS detection and mitigation.
+    Many of the recommendations in this publication focus on the Border Gateway Protocol
+    (BGP). BGP is the control protocol used to distribute and compute paths between
+    the tens of thousands of autonomous networks that comprise the internet. Technologies
+    recommended in this document for securing the interdomain routing control traffic
+    include Resource Public Key Infrastructure (RPKI), BGP origin validation (BGP-OV),
+    and prefix filtering. Additionally, technologies recommended for mitigating DoS/DDoS
+    attacks focus on prevention of IP address spoofing using source address validation
+    (SAV) with access control lists (ACLs) and unicast Reverse Path Forwarding (uRPF).
+    Other technologies (including some application plane methods) such as remotely
+    triggered black hole (RTBH) filtering, flow specification (Flowspec), and response
+    rate limiting (RRL) are also recommended as part of the overall security mechanisms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-189
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9448
 title:
 - content: Effects of spin relaxation on the EPR spectrum of gaseous N atoms
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9448
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9448.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9448
@@ -21,46 +20,70 @@ docid:
 - id: 10.6028/NBS.RPT.9448
   type: DOI
 date:
-- type: published
-  value: '1966'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert L
-          script:
-          - Latn
-      surname:
-        content: Brown
-        script:
-        - Latn
+      completename:
+        content: Brown, Robert L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2021046956
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1966'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Experimental evidence is presented which indicates that N atoms produced
+    in a flow system by a microwave discharge through purified N2 have a 'spin-lattice'
+    relaxation time T1 of the order of 25 msec. In a fast flow system, the residence
+    time of the atoms in the EPR magnet can easily be shorter than this. As a result,
+    atoms which are generated outside of the magnet may arrive at the microwave cavity
+    before they have had time to reach their equilibrium magnetization. Addition to
+    the discharged gas of as little as 10 p.p.m. 02 (which did not affect the N atom
+    concentration) decreased the spin relaxation time, and led to increases as great
+    as 7-fold in the N atom EPR signal. Because of the long relaxation time it was
+    necessary to work at the low microwave power level of 0.006 uW to avoid saturation
+    effects. Power saturation was governed primarily by the rate at which unsaturated
+    atoms entered the cavity and not by collision relaxation processes. Interpretation
+    of the effects of 02 addition in terms of a two level spin model allowed us to
+    estimate a value of ~1.5 x 10^-15 cm^2 for the spin exchange cross section for
+    N-02 collisions. Several qualitative observations regarding the nitrogen pink
+    afterglow, electron production, and the effects of N0 addition are also reported.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9448'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2032
 title:
 - content: Building for environmental and economic sustainability (BEES) online 2.0
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2032
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2032.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2032
@@ -22,101 +21,92 @@ docid:
 - id: 10.6028/NIST.TN.2032
   type: DOI
 date:
-- type: published
-  value: 2018-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne Landfield
-          script:
-          - Latn
-      surname:
-        content: Greig
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greig, Anne Landfield.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022021989
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Priya
-          script:
-          - Latn
-      surname:
-        content: Lavappa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavappa, Priya.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113180
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Polidoro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Polidoro, Brian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021116837
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-12
-script:
-- Latn
+abstract:
+- content: Building stakeholders need practical metrics, data, and tools to support
+    decisions related to sustainable building product selection. The Engineering Laboratory
+    of the National Institute of Standards and Technology (NIST) has addressed this
+    national need by developing a new version of its metrics and tools for sustainable
+    building products, known as Building for Environmental and Economic Sustainability
+    (BEES) Online. BEES Online 2.0 implements the same BEES framework using metrics
+    based on process-based life-cycle assessment (LCA) and life-cycle costing (LCC)
+    approaches to assess the environmental and economic performance of building products.
+    BEES Online 2.0 includes a more user-friendly interface with more expansive user
+    customization, options, and guidance. The existing products in BEES Online 1.0
+    (and new products) are in the process of being transitioned to BEES Online 2.0,
+    including updating the LCA and LCC results using up-to-date methodologies and
+    data sources, with focus on the largest and most widely viewed product categories.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2032'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

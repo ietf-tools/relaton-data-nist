@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR89-4023
 title:
-- content: Small computer system interface (SCSI) command system:software support
+- content: Small computer system interface (SCSI) command system
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: software support for control of small computer system interface devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Small computer system interface (SCSI) command system - software support
     for control of small computer system interface devices
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.89-4023
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir89-4023.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 89-4023
@@ -22,59 +35,44 @@ docid:
 - id: 10.6028/NIST.IR.89-4023
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Gorczyca
-        script:
-        - Latn
+      completename:
+        content: Gorczyca, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eduardo Sanchez
-          script:
-          - Latn
-      surname:
-        content: Villagran
-        script:
-        - Latn
+      completename:
+        content: Villagran, Eduardo Sanchez.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 89-4023
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

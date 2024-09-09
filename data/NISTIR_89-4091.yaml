@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR89-4091
 title:
 - content: Burning, smoke production, and smoke dispersion from oil spill combustion
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.89-4091
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir89-4091.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 89-4091
@@ -21,141 +20,88 @@ docid:
 - id: 10.6028/NIST.IR.89-4091
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
+      completename:
+        content: Evans, D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2002053460
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          script:
-          - Latn
-      surname:
-        content: Mulholland
-        script:
-        - Latn
+      completename:
+        content: Mulholland, G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb97051191
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          script:
-          - Latn
-      surname:
-        content: Gross
-        script:
-        - Latn
+      completename:
+        content: Gross, D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H
-          script:
-          - Latn
-      surname:
-        content: Baum
-        script:
-        - Latn
+      completename:
+        content: Baum, H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97070583
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          script:
-          - Latn
-      surname:
-        content: Walton
-        script:
-        - Latn
+      completename:
+        content: Walton, W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr97014295
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: K
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K
-          script:
-          - Latn
-      surname:
-        content: Saito
-        script:
-        - Latn
+      completename:
+        content: Saito, K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 89-4091
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

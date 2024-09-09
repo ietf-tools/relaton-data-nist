@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6657
 title:
 - content: A rational methodology for estimating the luminous flux based upon color
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6657
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6657.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6657
@@ -22,85 +21,69 @@ docid:
 - id: 10.6028/NIST.IR.6657
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward F
-          script:
-          - Latn
-      surname:
-        content: Kelley
-        script:
-        - Latn
+      completename:
+        content: Kelley, Edward F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001013422
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karl
-          script:
-          - Latn
-      surname:
-        content: Lang
-        script:
-        - Latn
+      completename:
+        content: Lang, Karl.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88625981
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Louis D
-          script:
-          - Latn
-      surname:
-        content: Silverstein
-        script:
-        - Latn
+      completename:
+        content: Silverstein, Louis D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael H
-          script:
-          - Latn
-      surname:
-        content: Brill
-        script:
-        - Latn
+      completename:
+        content: Brill, Michael H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr90023414
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6657'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

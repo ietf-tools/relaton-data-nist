@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2080
 title:
-- content: On the cooling of a 360� video camera to observe fire dynamics in situ
+- content: On the cooling of a 360̊ video camera to observe fire dynamics in situ
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2080
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2080.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2080
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.TN.2080
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jiann C
-          script:
-          - Latn
-      surname:
-        content: Yang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yang, Jiann C. (Jiann Chyuan)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010118971
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: An analysis was performed to provide design guidance on the cooling of
+    an NIST-developed in situ fire visualization device, called Burn Observation Bubble
+    (BOB). The analysis was to address the question of how long the device can be
+    operated in a fire without being damaged by the fire. The analysis included single-pass
+    and recirculating cooling systems. The resulting design equations depend only
+    on the fire scenario, cooling water flow rate, and the volume ratio of the device
+    to recirculating cooling water reservoir. In the limit of infinite recirculating
+    cooling water reservoir, the design equations reduce to those of a single-pass
+    system. Sample calculations were given to illustrate the applicability of the
+    equations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2080'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

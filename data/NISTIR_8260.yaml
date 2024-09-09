@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8260
 title:
 - content: Compression guidance for 1000 ppi palm and hand friction ridge imagery
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8260
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8260.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8260
@@ -21,84 +20,76 @@ docid:
 - id: 10.6028/NIST.IR.8260
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Libert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Libert, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grantham, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Watson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Watson, Craig.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021005762
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: In a previous special publication, NIST provided guidance for the compression
+    of 1000 ppi fingerprint images using Part I of the JPEG 2000 standard. The present
+    document extends the Guidance to the compression of 1000 ppi palm and whole-hand
+    images. The NIST Spectral Image Validation Verification (SIVV) metric is used
+    to determine JPEG 2000 compression ratios at which palm and hand images exhibit
+    spectral fidelity to non-compressed source images comparable to that exhibited
+    by fingerprint images compressed at 10:1. The investigators discuss the effect
+    of untextured regions (i.e. large areas of low-texture or white space) in enabling
+    compression ratios as high as 12:1 for palms and 22:1 for whole hand images as
+    indicated by the spectral analysis. However, they note several factors that advise
+    against deviating from the compression ratio recommended in the Guidance. Hence,
+    NIST recommends that a single compression ratio, 10:1, be applied to all friction
+    ridge impression types to ensure interoperability, in general, and support of
+    latent matching, in particular.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8260'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

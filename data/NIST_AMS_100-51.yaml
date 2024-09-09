@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-51
 title:
-- content: On Migrating ISO 10303 PMI Models to a Common Core
+- content: On migrating ISO 10303 PMI models to a common core
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-51
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-51.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-51
@@ -21,46 +20,66 @@ docid:
 - id: 10.6028/NIST.AMS.100-51
   type: DOI
 date:
-- type: published
-  value: '2022'
+- type: issued
+  value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Barnard Feeney, Allison.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0866-9572"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Thurman, Thomas R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Communications Technology Laboratory.
   role:
   - type: publisher
-revdate: '2022'
-script:
-- Latn
+abstract:
+- content: 'Industrial users of ISO 10303 STandard for the Exchange of Product Model
+    Data (STEP) protocols needed the ability to exchange design product data that
+    is in conformance with recently updated ISO geometric product specification (GPS)
+    standards, the American Society of Mechanical Engineers (ASME) dimensioning and
+    tolerancing standard, and recently updated digital product data definition practice
+    standards. Updates to those standards were made to support continued migration
+    from drawing-based product and manufacturing information (PMI) exchange to full
+    model-based exchange, sharing and management across life-cycle viewpoints (i.e.,
+    design to fabrication to inspection). The aerospace and automotive industries
+    created a joint project to merge ISO 10303-203: Configuration controlled 3D design
+    (AP 203) [1] and ISO 10303-214: Core data for automotive mechanical design processes
+    (AP 214) [2] into a new ISO 10303-242: Managed model-based 3D engineering (AP
+    242) [3] rather than pursue individual updates. Relevant STEP information models
+    have been updated and new information models created to support the ASME and ISO
+    standards, resulting in the publication of AP 242 in 2014.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-51
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

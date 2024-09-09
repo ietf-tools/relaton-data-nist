@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS600-6
 title:
 - content: Manufacturing USA 2019-2020 highlights report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.600-6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.600-6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 600-6
@@ -21,90 +20,47 @@ docid:
 - id: 10.6028/NIST.AMS.600-6
   type: DOI
 date:
-- type: published
-  value: '2021-02-25'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Frank W
-          script:
-          - Latn
-      surname:
-        content: Gayle
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Gayle, Frank W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael F
-          script:
-          - Latn
-      surname:
-        content: Molnar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Molnar, Michael F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Roth
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Roth, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zahraha
-          script:
-          - Latn
-      surname:
-        content: Brunner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Brunner, Zahraha.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-02-25'
-script:
-- Latn
 abstract:
 - content: Manufacturing USA is a network of public-private partnerships united to
     secure U.S. global leadership in advanced manufacturing through large scale collaboration
@@ -116,16 +72,22 @@ abstract:
     manufacturing innovation, education, and collaboration. This report provides a
     summary of the technology innovation and workforce development projects involving
     the institutes and their 1,900 member organizations.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 600-6
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

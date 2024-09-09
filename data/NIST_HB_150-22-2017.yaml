@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-22-2017
 title:
 - content: National Voluntary Laboratory Accreditation Program (NVLAP) voting system
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-22-2017
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.150-22-2017.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-22-2017
@@ -22,84 +21,73 @@ docid:
 - id: 10.6028/NIST.HB.150-22-2017
   type: DOI
 date:
-- type: published
-  value: 2017-07
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dana
-          script:
-          - Latn
-      surname:
-        content: Leaman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Leaman, Dana.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brad
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Moore, Brad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012117806
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John P
-          script:
-          - Latn
-      surname:
-        content: Wack
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Wack, John P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92009380
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2017-07
-script:
-- Latn
+abstract:
+- content: The 2017 edition of NIST Handbook 150-22 incorporates changes resulting
+    from revisions to the Voluntary Voting System Guidelines (VVSG) Version 1.1, the
+    Election Assistance Commission's (EAC) Testing and Certification Program Manual
+    Version 2.0, and the EAC Voting System Test Laboratory Program Manual Version
+    2.0., as well as editorial improvements. The requirements of NIST Handbook 150
+    and the specific requirements and interpretations in NIST Handbook 150-22 must
+    be combined to produce the criteria for accreditation in the NVLAP Voting System
+    Testing program. For more information, visit the NVLAP website.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-22-2017
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

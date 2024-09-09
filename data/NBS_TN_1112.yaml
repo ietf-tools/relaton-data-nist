@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN1112
 title:
-- content: User evaluation of crystal data products and services :Questionnaire analysis
+- content: User evaluation of crystal data products and services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: questionnaire analysis and impact
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: User evaluation of crystal data products and services - questionnaire analysis
     and impact
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.1112
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1112.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 1112
@@ -22,64 +35,40 @@ docid:
 - id: 10.6028/NBS.TN.1112
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J K
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: J K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stalick
+      completename:
+        content: Stalick, J. K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80082768
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1112'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

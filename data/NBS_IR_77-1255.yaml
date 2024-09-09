@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR77-1255
 title:
-- content: A Report on the fiber content of eighty industrial talc samples obtained
+- content: A report on the fiber content of eighty industrial talc samples obtained
     from, and using the procedures of, the Occupational and Safety and Health Administration
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.77-1255
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir77-1255.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 77-1255
@@ -22,52 +21,40 @@ docid:
 - id: 10.6028/NBS.IR.77-1255
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1977'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Philip D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: LaFleur
+      completename:
+        content: LaFleur, Philip D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n89659243
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1977'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 77-1255
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

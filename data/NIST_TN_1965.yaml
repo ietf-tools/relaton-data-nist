@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1965
 title:
 - content: Mobile manipulator performance measurement data
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1965
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1965.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1965
@@ -21,118 +20,92 @@ docid:
 - id: 10.6028/NIST.TN.1965
   type: DOI
 date:
-- type: published
-  value: 2017-06
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091704
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steve
-          script:
-          - Latn
-      surname:
-        content: Legowik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Legowik, Steve.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tsai
-          script:
-          - Latn
-      surname:
-        content: Hong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hong, Tsai.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sebti
-          script:
-          - Latn
-      surname:
-        content: Foufou
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Foufou, Sebti.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2016013444
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-06
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology, Intelligent Systems
+    Division has collected data detailing the performance measurement of a mobile
+    manipulator, i.e., an automatic guided vehicle (AGV) with onboard robot arm from
+    two different manufacturers. The performance measurement concept uses a novel
+    artifact and method that is verified using an optical tracking system (OTS) to
+    measure the AGV and manipulator motion and position uncertainty. Associated data
+    from each of the three systems (AGV, manipulator, and OTS) was collected during
+    two tests and all tests have corresponding timestamps relative to global positioning
+    system (GPS) time, where the computer clocks are synchronized using the Network
+    Time Protocol. This paper provides detailed explanation of the data from mobile
+    manipulator performance measurement tests.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1965'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

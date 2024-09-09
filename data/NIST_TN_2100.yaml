@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2100
 title:
 - content: Measurements and modeling of spherical CH2F2-Air flames
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2100
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2100.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2100
@@ -21,152 +20,101 @@ docid:
 - id: 10.6028/NIST.TN.2100
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael J
-          script:
-          - Latn
-      surname:
-        content: Hegetschweiler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hegetschweiler, Michael J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Pagliaro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pagliaro, John L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lukas
-          script:
-          - Latn
-      surname:
-        content: Berger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Berger, Lukas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raik
-          script:
-          - Latn
-      surname:
-        content: Hesse
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hesse, Raik.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joachim
-          script:
-          - Latn
-      surname:
-        content: Beeckmann
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Beeckmann, Joachim.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Heinz
-          script:
-          - Latn
-      surname:
-        content: Pitsch
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pitsch, Heinz.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory T
-          script:
-          - Latn
-      surname:
-        content: Linteris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Linteris, Gregory T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: The burning velocity of mixtures of the refrigerant R-32 (CH2F2) with air
+    over a range of equivalence ratios are studied via spherically expanding flames
+    SEFs in a large, optically accessible spherical chamber at constant pressure.
+    Shadowgraph images from a high-speed video camera are analysed to yield flame
+    radius as a function of time. Data reduction techniques are explored and direct
+    numerical simulations of the flame are performed with the FlameMaster code, using
+    detailed kinetics. The flame radius as a function of time is accurately predicted
+    by the simulations. Flame stretch and thermal radiation (using an optically thin
+    model) occur simultaneously and make extraction of the unstretched burning velocity
+    from the experimental data difficult. For these low burning velocity flames, the
+    numerical simulations show that stretch and radiation effects are particularly
+    important, and different data reduction schemes can have large effects on the
+    inferred burning velocity.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2100'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

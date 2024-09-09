@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-235
 title:
-- content: Structured testing :a testing methodology using the cyclomatic complexity
+- content: Structured testing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a testing methodology using the cyclomatic complexity metric
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Structured testing - a testing methodology using the cyclomatic complexity
     metric
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-235
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-235.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-235
@@ -22,86 +35,58 @@ docid:
 - id: 10.6028/NIST.SP.500-235
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dolores R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wallace
+      completename:
+        content: Wallace, Dolores R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85352161
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Arthur H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Watson
+      completename:
+        content: Watson, Arthur H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCabe
+      completename:
+        content: McCabe, Thomas J.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83047926
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-235
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

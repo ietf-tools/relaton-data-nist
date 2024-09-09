@@ -1,18 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7776
 title:
-- content: Providing NIST Supervisors with a Continuous Learning Program
+- content: Providing NIST supervisors with a continuous learning program
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: building the next generation 7 special study group project, March 2010-October
+    2010 final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Providing NIST supervisors with a continuous learning program - building
+    the next generation 7 special study group project, March 2010-October 2010 final
+    report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7776
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7776.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7776
@@ -21,137 +37,101 @@ docid:
 - id: 10.6028/NIST.IR.7776
   type: DOI
 date:
-- type: published
-  value: 2011-04
+- type: issued
+  value: '2011'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Griffith
-        script:
-        - Latn
+      completename:
+        content: Griffith, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79138012
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan
-          script:
-          - Latn
-      surname:
-        content: Heller-Zeisler
-        script:
-        - Latn
+      completename:
+        content: Heller-Zeisler, Susan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joy
-          script:
-          - Latn
-      surname:
-        content: Herman
-        script:
-        - Latn
+      completename:
+        content: Herman, Joy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        script:
-        - Latn
+      completename:
+        content: Jackson, Andrew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95070655
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Janine
-          script:
-          - Latn
-      surname:
-        content: Kerns
-        script:
-        - Latn
+      completename:
+        content: Kerns, Janine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donna
-          script:
-          - Latn
-      surname:
-        content: Kimball
-        script:
-        - Latn
+      completename:
+        content: Kimball, Donna.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William E.
-          script:
-          - Latn
-      surname:
-        content: Wallace
-        script:
-        - Latn
+      completename:
+        content: Wallace, William E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93049216
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian A.
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
+      completename:
+        content: Weiss, Brian A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2011-04
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7776'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-8-2018
 title:
 - content: NVLAP acoustical testing services
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-8-2018
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2018/NIST.HB.150-8-2018.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-8-2018
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.HB.150-8-2018
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kari K
-          script:
-          - Latn
-      surname:
-        content: Harper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Harper, Kari K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: NIST Handbook 150-8 presents technical requirements and guidance for the
+    accreditation of laboratories under the National Voluntary Laboratory Accreditation
+    Program (NVLAP) Acoustical Testing Services program. It is intended for information
+    and use by accredited laboratories, laboratories seeking accreditation, laboratory
+    accreditation systems, users of laboratory services, and others needing information
+    on the requirements for accreditation under this program. The 2018 edition of
+    NIST Handbook 150-8 incorporates changes resulting from the release of the newest
+    editions of ISO/IEC 17025, General requirements for the competence of testing
+    and calibration laboratories, and NIST Handbook 150, NVLAP Procedures and General
+    Requirements, as well as editorial improvements. The requirements of NIST Handbook
+    150, ISO/IEC 17025, and the specific requirements in NIST Handbook 150-8, must
+    be combined to produce the criteria for accreditation in the NVLAP Acoustical
+    Testing Services program.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-8-2018
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

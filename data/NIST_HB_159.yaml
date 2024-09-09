@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB159
 title:
-- content: Examination of Grain Moisture Meters Using Air-oven Reference Method Transfer
-    Standards
+- content: Examination of grain moisture meters using air-oven reference method transfer
+    standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.159
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2016/NIST.HB.159.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 159
@@ -22,50 +21,78 @@ docid:
 - id: 10.6028/NIST.HB.159
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gloria Diane
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Lee, G. Diane (Gloria Diane)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003004210
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Harris, Georgia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005113746
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: 'State and local weights and measures jurisdictions or other testing laboratories
+    that use transfer standards developed using the air-oven reference methods (referred
+    to as air-oven reference standards) to test commercial grain moisture meters,
+    collect grains that are typically grown and traded in their State, and transport
+    them to their laboratory for testing. In the laboratory, these grains are cleaned,
+    mixed, and tested for moisture content and weight per bushel. The grains are then
+    divided into smaller grain samples and assigned moisture and weight per bushel
+    reference values. These samples with known reference moisture and weight per bushel
+    values are issued to weights and measures officials to test commercial grain moisture
+    meters in accordance with NIST Handbook 44, Specifications, Tolerances, and Other
+    Technical Requirements for Weighing and Measuring Devices, Section 5.56.(a) Grain
+    Moisture Meters. Commercial grain moisture meters are meters that provide rapid
+    grain moisture content to a buyer. The moisture content of grain is used to determine
+    the amount of money a seller will receive for the grain. For example, if grain
+    moisture content is too high, the buyer must dry the grain before storage, so
+    cost adjustments are made by the buyer to offset the cost for drying. Conversely,
+    if the moisture is too low the grain quality may be affected and cost adjustments
+    may be made for low moisture. This reference manual provides technical guidelines
+    for: (1) laboratory grain sample preparation and testing; and (2) the field evaluation
+    of grain moisture meters, in accordance with NIST Handbook 44, Section 5.56.(a)
+    for field testing using air-oven reference method transfer standards.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '159'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

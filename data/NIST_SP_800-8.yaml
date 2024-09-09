@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-8
 title:
 - content: Security issues in the database language SQL
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-8
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-8.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-8
@@ -21,77 +20,68 @@ docid:
 - id: 10.6028/NIST.SP.800-8
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Timothy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, Tim,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90727805
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lawrence E, III
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bassham
+      completename:
+        content: Bassham, Lawrence E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91102724
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Database Language SQL (SQL) is a standard interface for accessing and
+    manipulating relational databases. An SQL-compliant database management system
+    (DBMS) will include a minimum level of functionality in a variety of areas. However,
+    many additional areas are left unspecified by the SQL standard. In addition, there
+    are multiple versions of the SQL standard; the functionality will vary according
+    to the particular version. This document examines the security functionality that
+    might be required of relational DBMS's, and compares them with the requirements
+    and options of the SQL specifications. The comparison will show that the security
+    functionality of an SQL-compliant DBMS may vary greatly. A variety of security
+    policies are considered which can be supported by SQL. The document ends by showing
+    which types of functions are required by the examined security policies.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-8
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

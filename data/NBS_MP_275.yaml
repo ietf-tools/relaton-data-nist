@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP275
 title:
-- content: Measures for progress :a history of the National Bureau of Standards
+- content: Measures for progress
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a history of the National Bureau of Standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Measures for progress - a history of the National Bureau of Standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.275
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub275.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 275
@@ -21,35 +34,40 @@ docid:
 - id: 10.6028/NBS.MP.275
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1966'
 contributor:
+- person:
+    name:
+      completename:
+        content: Cochrane, Rexmond C. (Rexmond Canning),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2002084891
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1966'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '275'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

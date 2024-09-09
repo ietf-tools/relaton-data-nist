@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7345
 title:
-- content: Screening candidates for 30 nm spheres
+- content: Screening candidates for 30 nm Spheres
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7345
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7345.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7345
@@ -21,59 +20,50 @@ docid:
 - id: 10.6028/NIST.IR.7345
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle K
-          script:
-          - Latn
-      surname:
-        content: Donnelly
-        script:
-        - Latn
+      completename:
+        content: Donnelly, Michelle.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139801
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jiann C
-          script:
-          - Latn
-      surname:
-        content: Yang
-        script:
-        - Latn
+      completename:
+        content: Yang, Jiann C. (Jiann Chyuan)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010118971
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7345'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

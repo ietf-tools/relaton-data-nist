@@ -1,8 +1,24 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO127
 title:
-- content: NBS papers on underground corrosion of steel piling 1962-1971 :corrosion
+- content: NBS papers on underground corrosion of steel piling 1962-1971
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: corrosion of steel pilings in soil, corrosion evaluation of steel test
+    piles exposed to permafrost soils, performance of steel pilings in soils, polarization
+    measurements as related to corrosion of underground steel piling
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NBS papers on underground corrosion of steel piling 1962-1971 - corrosion
     of steel pilings in soil, corrosion evaluation of steel test piles exposed to
     permafrost soils, performance of steel pilings in soils, polarization measurements
     as related to corrosion of underground steel piling
@@ -11,11 +27,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.127
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph127.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 127
@@ -24,81 +39,48 @@ docid:
 - id: 10.6028/NBS.MONO.127
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W J
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: W J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwerdtfeger
+      completename:
+        content: Schwerdtfeger, W. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melvin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Romanoff
+      completename:
+        content: Romanoff, Melvin.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr94007571
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1972'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '127'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

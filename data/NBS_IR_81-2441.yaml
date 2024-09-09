@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR81-2441
 title:
 - content: National Measurement Laboratory Office of Measurements for Nuclear Technology
-    :annual Report 1981
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: annual Report 1981
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National Measurement Laboratory Office of Measurements for Nuclear Technology
+    - annual Report 1981
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.81-2441
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir81-2441.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 81-2441
@@ -22,98 +35,59 @@ docid:
 - id: 10.6028/NBS.IR.81-2441
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoffman
+      completename:
+        content: Hoffman, John D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87836567
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H Thomas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yolken
+      completename:
+        content: Yolken, H. Thomas.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79004556
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W P
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: W P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reed
+      completename:
+        content: Reed, W. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 81-2441
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

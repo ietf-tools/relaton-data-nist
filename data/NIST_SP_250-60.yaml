@@ -1,20 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-60
 title:
-- content: NIST measurement services :measurement assurance program for wavelength
-    dependence of polarization dependent loss in fiber optic devices over the wavelength
-    range from 1535 nm to 1560 nm
+- content: Measurement assurance program for wavelength dependence of polarization
+    dependent loss of fiberoptic devices in the 1535 nm to 1560 nm wavelength range
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-60
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-60.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-60
@@ -23,69 +21,47 @@ docid:
 - id: 10.6028/NIST.SP.250-60
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Rex M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Craig
+      completename:
+        content: Craig, Rex M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chih-Ming
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wang
+      completename:
+        content: Wang, C. M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88672735
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-60
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

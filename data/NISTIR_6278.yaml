@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6278
 title:
 - content: An authentication framework for web access to remote hosts
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6278
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6278.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6278
@@ -21,72 +20,58 @@ docid:
 - id: 10.6028/NIST.IR.6278
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ryan P
-          script:
-          - Latn
-      surname:
-        content: McCormack
-        script:
-        - Latn
+      completename:
+        content: McCormack, Ryan P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020084872
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John E
-          script:
-          - Latn
-      surname:
-        content: Koontz
-        script:
-        - Latn
+      completename:
+        content: Koontz, John E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Judith
-          script:
-          - Latn
-      surname:
-        content: Devaney
-        script:
-        - Latn
+      completename:
+        content: Devaney, Judith E. (Judith Ellen),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99041021
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6278'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1213
 title:
-- content: Summary of workshop large outdoor fires and the built environment
+- content: Summary of workshop Large Outdoor Fires and the Built Environment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: sponsored by the International Association for Fire Safety Science (IAFSS)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Summary of workshop Large Outdoor Fires and the Built Environment - sponsored
+    by the International Association for Fire Safety Science (IAFSS)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1213
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1213.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1213
@@ -21,169 +35,116 @@ docid:
 - id: 10.6028/NIST.SP.1213
   type: DOI
 date:
-- type: published
-  value: '2017-07-13'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Samuel L
-          script:
-          - Latn
-      surname:
-        content: Manzello
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Manzello, Samuel L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raphaele
-          script:
-          - Latn
-      surname:
-        content: Blanchi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Blanchi, Raphaele.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Gollner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gollner, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sara
-          script:
-          - Latn
-      surname:
-        content: McAllister
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McAllister, Sara.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011105837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eulalia
-          script:
-          - Latn
-      surname:
-        content: Planas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Planas, Eulalia.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Guillermo
-          script:
-          - Latn
-      surname:
-        content: Rein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Rein, Guillermo.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2010016402
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pedro
-          script:
-          - Latn
-      surname:
-        content: Reszka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Reszka, Pedro.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sayaka
-          script:
-          - Latn
-      surname:
-        content: Suzuki
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Suyuki, Sayaka.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2017-07-13'
-script:
-- Latn
+abstract:
+- content: Large outdoor fires present a risk to the built environment. In this workshop,
+    presentations highlighted large outdoor fires throughout the world, and explored
+    common characteristics between these fires. Specifically, each presentation provided
+    an overview of the large outdoor fire risk to the built environment from each
+    region, and highlighted critical research needs for this problem in the context
+    of fire safety science. The workshop seeks to develop the foundation for an international
+    research needs roadmap to reduce the risk of large outdoor fires to the built
+    environment. This workshop also provided a forum for next generation researchers
+    to contribute to this important topic.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1213'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

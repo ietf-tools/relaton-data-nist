@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7859
 title:
-- content: 'ELFT-EFS Evaluation of Latent Fingerprint Technologies: Extended Feature
-    Sets [Evaluation #2]'
+- content: Evaluation of latent fingerprint technologies
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'extended feature sets [evaluation #2]'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Evaluation of latent fingerprint technologies - extended feature sets
+    [evaluation #2]'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7859
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7859.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7859
@@ -22,97 +35,71 @@ docid:
 - id: 10.6028/NIST.IR.7859
   type: DOI
 date:
-- type: published
-  value: 2012-05
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Indovina
-        script:
-        - Latn
+      completename:
+        content: Indovina, M. (Michael D.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020149175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: V.
-          script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: V.
-          script:
-          - Latn
-      surname:
-        content: Dvornychenko
-        script:
-        - Latn
+      completename:
+        content: Dvornychenko, V.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R.A.
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: R.A.
-          script:
-          - Latn
-      surname:
-        content: Hicklin
-        script:
-        - Latn
+      completename:
+        content: Hicklin, R. Austin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018039492
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G.I
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: G.I
-          script:
-          - Latn
-      surname:
-        content: Kiebuzinski
-        script:
-        - Latn
+      completename:
+        content: Kiebuzinski, George.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113181
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Information Access Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011180823
   role:
   - type: publisher
-revdate: 2012-05
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7859'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

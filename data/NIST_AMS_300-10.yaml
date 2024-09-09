@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS300-10
 title:
 - content: Recommendations on ensuring traceability and trustworthiness of manufacturing-related
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.300-10
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.300-10.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 300-10
@@ -22,101 +21,79 @@ docid:
 - id: 10.6028/NIST.AMS.300-10
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jr, Thomas
-          script:
-          - Latn
-      surname:
-        content: Hedberg
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hedberg, Thomas Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Moneer
-          script:
-          - Latn
-      surname:
-        content: Helu
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helu, Moneer.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sylvere
-          script:
-          - Latn
-      surname:
-        content: Krima
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Krima, Sylvere.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Allison
-          script:
-          - Latn
-      surname:
-        content: Barnard Feeney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Feeney, Allison Barnard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: The purpose of this recommendations report is to provide practical how-to
+    guidance for ensuring traceability and trustworthiness of manufacturing-related
+    data. The recommendations contained herein address both subtractive and additive
+    manufacturing processes. Commercial-solution developers, technical-assessment
+    personnel, and interested end-users are the intended audience of this recommendations
+    report. Guidance for deploying a system, or set of systems, for ensuring traceability
+    and trustworthiness of manufacturing-related data is the scope of this recommendations
+    report. Data formats conforming to selected international, open, consensus-based
+    standards are in scope. Proprietary data formats are out of scope. File-based
+    and data-stream representations are in scope. Data collected from computer numerical
+    control subtractive fabrication processes (e.g., milling, turning) and CNC metal-forming
+    additive (e.g., directed-energy deposition, powder-bed fusion) fabrication processes
+    is in scope. Data collected from polymer-based additive processes, fiber-reinforced
+    plastic (FRP) composite processes, and mass-conserving fabrication processes (e.g.,
+    casting, forging) is out of scope.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 300-10
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

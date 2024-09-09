@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB155-2017
 title:
 - content: 'Weights and measures program requirements: a handbook for the weights
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.155-2017
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.155-2017.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 155-2017
@@ -22,67 +21,65 @@ docid:
 - id: 10.6028/NIST.HB.155-2017
   type: DOI
 date:
-- type: published
-  value: 2017-05
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Linda
-          script:
-          - Latn
-      surname:
-        content: Crown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Crown, Linda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006134842
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Olson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Olson, Douglas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96098610
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2017-05
-script:
-- Latn
+abstract:
+- content: When a weights and measures administrator makes decisions within a specific
+    jurisdiction, it is beneficial to understand the scope of the entire system and
+    to reflect upon methods and practices that have been tested over the years. This
+    handbook was developed for the weights and measures administrator to be used as
+    a reference tool. It is designed to read in sections as needed for a specific
+    situation or to learn piece by piece about the weights and measures system as
+    a whole. The reader is invited to submit comments on any section within this document
+    and to provide updates and corrections as they are identified.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 155-2017
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

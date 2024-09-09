@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1894
 title:
-- content: Effects of Wind Speed and Angle on Fire Spread along Privacy Fences
+- content: Effects of wind speed and angle on fire spread along privacy fences
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1894
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1894.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1894
@@ -21,67 +20,76 @@ docid:
 - id: 10.6028/NIST.TN.1894
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Erik L.
-          script:
-          - Latn
-      surname:
-        content: Johnsson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Johnsson, Erik L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022022789
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexander
-          script:
-          - Latn
-      surname:
-        content: Maranghides
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Maranghides, Alexander.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139790
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: A series of experiments was conducted to examine fire spread along fences
+    subjected to wind at various speeds and angles. Specifically, sections of western
+    redcedar, California redwood, or vinyl privacy fences were ignited with a burner.
+    Wind fields of 9 m/s, 13.5 m/s, or 18 m/s aligned with, perpendicular to, or at
+    a 45 angle to the fences were applied during the experiments. To simulate fine
+    fuels typically present in real installations, dried shredded hardwood mulch beds
+    were placed under most of the fence sections. Also, some fence sections were coated
+    with fence preservative to assess its effect on fire spread. Pans of mulch were
+    downwind targets for firebrands produced by the burning fence and mulch bed. At
+    all wind speeds tested, a mulch bed was required for flames to spread. Fastest
+    flame spread was achieved with the fence aligned with the wind field. During most
+    experiments, the burning mulch and fences produced firebrands which ignited spot
+    fires in the mulch targets. These experiments demonstrated that ignited wood fence
+    structures can be rapid conduits for fire along them and potentially spread fire
+    to attached or adjacent structures. Additionally, it was found that burning fences
+    can produce spot fires from their own firebrand generation. This study of fence
+    fire spread is part of a series designed to better inform standards and codes
+    regarding placement of landscape features around homes at risk of exposure to
+    wildland-urban interface fires.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1894'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR80-2152
 title:
-- content: Proceedings of NBSAir Force ICAM Workshop on Robot Interfaces
+- content: Proceedings of NBS/Air Force ICAM Workshop on Robot Interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.80-2152
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir80-2152.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 80-2152
@@ -21,86 +20,62 @@ docid:
 - id: 10.6028/NBS.IR.80-2152
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wheatley
+      completename:
+        content: Wheatley, Thomas.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87819409
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Albus
+      completename:
+        content: Albus, James Sacra.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81084213
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Roger N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nagel
+      completename:
+        content: Nagel, Roger N.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89007526
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 80-2152
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

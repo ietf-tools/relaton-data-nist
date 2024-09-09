@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8291
 title:
 - content: NIST 2019 interlaboratory study to determine starch content in corn grain
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8291
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8291.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8291
@@ -22,50 +21,49 @@ docid:
 - id: 10.6028/NIST.IR.8291
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jacolin A
-          script:
-          - Latn
-      surname:
-        content: Murray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Murray, Jacolin A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) is currently
+    developing reference materials (RMs) to support the corn-to-ethanol industry.
+    Two candidate RMs consisting of dried corn biomass intermediates before and after
+    conversion (fermentation) were obtained from commercial ethanol plant facilities.
+    Interlaboratory studies will be used to screen the candidate RMs. This report
+    describes the results of an interlaboratory study for laboratories analyzing starch
+    content for these two candidate RMs and for two starch-based control materials.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8291'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

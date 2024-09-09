@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-14
 title:
 - content: Prediction of solidification phases in Cr-Ni stainless steel alloys manufactured
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-14
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-14.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-14
@@ -22,50 +21,68 @@ docid:
 - id: 10.6028/NIST.AMS.100-14
   type: DOI
 date:
-- type: published
-  value: 2018-03
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gregor
-          script:
-          - Latn
-      surname:
-        content: Jacob
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Jacob, Gregor.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-03
-script:
-- Latn
+abstract:
+- content: The knowledge of material phases in chromium (Cr), nickel (Ni) stainless
+    steel alloys is sometimes important during parts and structures fabrication processed
+    with additive manufacturing (AM) technologies. Laser-based powder bed fusion (LPBF)
+    is one of these AM- process, which allowed to manufacture parts out of Cr-Ni stainless
+    steel alloys. Mechanical behavior and microstructure of these LPBF manufactured
+    steels are strongly dependent on their chemical composition and thermal conditions
+    during the LPBF process as well as during the post process treatment. This current
+    work is for users of laser-based PBF process to predict the material microstructure
+    in Cr-Ni stainless steel alloys manufactured in a PBF process and help to develop
+    guidelines for optimizing the microstructure in Cr-Ni stainless steel alloys and
+    help to develop and to improve their manufacture process. This work outlines the
+    use of established methods to predict the material microstructure of stainless
+    steel weld metals for Cr-Ni stainless steel alloys manufactured by laser based
+    Powder Bed Fusion Process. Predictions to the phase solidification in Cr-Ni stainless
+    steel alloys were shown with the calculation of the ration between the chromium
+    and nickel equivalent and inscribe these values into the phase reaction diagram
+    helps to predict whether the solidification in a Cr-Ni stainless steel occurs
+    either primary ferritic of austenitic. Inscribing these values of the chromium
+    and nickel equivalent into the Schaeffler and DeLong diagram showed a strong effect
+    of the nitrogen content, which led to a higher amount of retained austenite in
+    the material microstructure, when the nitrogen content in the additively manufactured
+    S17-4 PH increased. The stability of this retained austenite to decompose into
+    the Cr-Ni stainless steel phase, such as martensite and cementite could be quantified
+    with the calculation of the Md30 temperature and shown with the increase of the
+    hardness after the as manufactured
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-14
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

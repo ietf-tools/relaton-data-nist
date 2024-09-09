@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8268
 title:
 - content: Status report on the first round of the NIST lightweight cryptography standardization
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8268
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8268.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8268
@@ -22,118 +21,91 @@ docid:
 - id: 10.6028/NIST.IR.8268
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Meltem Sönmez
-          script:
-          - Latn
-      surname:
-        content: Turan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Turan, Meltem SoÌⁿnmez.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1950-7130"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kerry A
-          script:
-          - Latn
-      surname:
-        content: McKay
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: McKay, Kerry A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Çağdaş
-          script:
-          - Latn
-      surname:
-        content: Çalık
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: CáI§al¿k, CáI§agáI⁶dasáI&#x00a7.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donghoon
-          script:
-          - Latn
-      surname:
-        content: Chang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Chang, Donghoon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Larry
-          script:
-          - Latn
-      surname:
-        content: Bassham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Bassham, Larry.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) is in the process
+    of selecting one or more authenticated encryption and hashing schemes suitable
+    for constrained environments through a public, competition-like process. In February
+    2019, 57 candidate algorithms were submitted to NIST for consideration. Among
+    these, 56 were accepted as first-round candidates in April 2019, marking the beginning
+    of the first round of the NIST Lightweight Cryptography Standardization Process.
+    Due to the large number of submissions and the short timeline of the process,
+    NIST has decided to eliminate some of the algorithms from consideration early
+    in the first evaluation phase in order to focus analysis on the more promising
+    submissions. This report describes the evaluation criteria and selection process
+    based on public feedback and internal review of the first-round candidates and
+    provides the list of 32 candidate algorithms selected for the second round of
+    the evaluation process.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: '8268'
+  number: '8278'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

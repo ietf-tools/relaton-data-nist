@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-17-2021
 title:
 - content: NVLAP cryptographic and security testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-17-2021
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2021/NIST.HB.150-17-2021.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-17-2021
@@ -21,107 +20,47 @@ docid:
 - id: 10.6028/NIST.HB.150-17-2021
   type: DOI
 date:
-- type: published
-  value: '2021-06-30'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Bradley
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Moore, Bradley.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Fox
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Trapnell, Beverly.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carolyn
-          script:
-          - Latn
-      surname:
-        content: French
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: Fox, James.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bradley
-          script:
-          - Latn
-      surname:
-        content: Moore
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Beverly
-          script:
-          - Latn
-      surname:
-        content: Trapnell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Laboratory Programs
+      completename:
+        content: French, Carolyn.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Laboratory Programs.
   role:
   - type: publisher
-revdate: '2021-06-30'
-script:
-- Latn
 abstract:
 - content: NIST Handbook 150-17 presents the technical requirements and guidance for
     the accreditation of laboratories under the National Voluntary Laboratory Accreditation
@@ -135,27 +74,32 @@ abstract:
     requirements and interpretations in NIST Handbook 150-17 must be combined to produce
     the criteria for accreditation in the NVLAP Cryptographic and Security Testing
     (CST) program. For more information, visit the NVLAP website.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    id: NISTHB150-17;106028-NISTHB150-17-2020
+    id: NISTHB150-17-2020
     docid:
-    - id: NIST HB 150-17; 10 6028/NIST HB 150-17-2020
+    - id: NIST HB 150-17-2020
       type: NIST
-      primary: true
     formattedref:
-      content: NIST HB 150-17; 10 6028/NIST HB 150-17-2020
+      content: NIST HB 150-17-2020
       format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-17-2021
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

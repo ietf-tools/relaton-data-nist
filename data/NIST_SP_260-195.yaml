@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-195
 title:
-- content: Certification of standard reference material SRM2687a, Portland cement
+- content: Certification of standard reference material SRM2687a
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Portland cement clinker
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Certification of standard reference material SRM2687a - Portland cement
     clinker
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-195
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-195.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-195
@@ -22,67 +35,83 @@ docid:
 - id: 10.6028/NIST.SP.260-195
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Stutzman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Stutzman, Paul.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5160-9006"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Heckert, Alan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022027346
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: 'A new Standard Reference Material (SRM) for portland cement clinker has
+    been produced for the Office of Standard Reference Materials at the National Institute
+    of Standards and Technology (NIST). The SRM clinkers are intended for use in developing
+    and testing quantitative methods of phase analysis for portland cement and cement
+    clinker. The new SRM is one of three clinkers available from NIST representing
+    the range of textures and compositions of North American clinker production. As
+    the original SRM stock for SRM2687 has been depleted, new material was obtained
+    that retained the fine-grained texture of that SRM. Certification of the phase
+    composition of the clinker is based upon consensus means and uncertainties of
+    two independent analytical methods: scanning electron microscopy with image analysis
+    and X-ray powder diffraction (XRD) analyses. The XRD data were subdivided to provide
+    two separate sample sets and were processed by two different Rietveld refinement
+    codes. These codes differed slightly in the determination of the silicate phases,
+    which have very similar powder diffraction patterns and can be difficult to decompose.
+    Therefore, the input data set for determination of the consensus means, uncertainties
+    and informational values is composed of two distinct XRD data sets and one SEM/image
+    analysis data set. The XRD data are close to that determined by microscopy, but
+    some distinct differences are seen. The disagreements may reflect the difficulty
+    in resolving the fine-sized aluminate and ferrite interstitial phases using the
+    microscope and challenges in decomposing highly overlapped powder diffraction
+    data. The XRD data do display greater precision than replicate measurements by
+    microscopy, likely the result of the specimen homogenization resulting from grinding
+    the clinker to a powder. The certified reference values are consensus values,
+    calcuated by combining the results from both measurement techniques using the
+    DerSimonian-Laird method with the standard un'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-195
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

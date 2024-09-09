@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-142
 title:
 - content: Practical combinatorial testing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-142
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-142.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-142
@@ -21,117 +20,73 @@ docid:
 - id: 10.6028/NIST.SP.800-142
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2010'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D R
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: D R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R N
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: R N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kacker
+      completename:
+        content: Kacker, R. N.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Y
-          language:
-          - en
-          script:
-          - Latn
-          initial: Y
-        formatted_initials:
-          content: Y
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lei
+      completename:
+        content: Lei, Y.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2010'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Combinatorial testing can help detect problems like this early in the testing
+    life cycle. The key insight underlying t-way combinatorial testing is that not
+    every parameter contributes to every fault and most faults are caused by interactions
+    between a relatively small number of parameters. This publication provides a self-contained
+    tutorial on using combinatorial testing for real-world software, including how
+    to use it effectively for system and software assurance. It introduces the key
+    concepts and methods, explains use of software tools for generating combinatorial
+    tests (freely available on the NIST web site csrc.nist.gov/acts), and discusses
+    advanced topics such as the use of formal models of software to determine the
+    expected results for each set of test inputs. With each topic, a section on costs
+    and practical considerations explains tradeoffs and limitations that may impact
+    resources or funding. The material is accessible to an undergraduate student of
+    computer science or engineering, and includes an extensive set of references to
+    papers that provide more depth on each topic.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-142
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

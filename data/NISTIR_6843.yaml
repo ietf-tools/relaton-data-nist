@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6843
 title:
-- content: Office of Law Enforcement Standards:programs, activities, and accomplishments
+- content: Office of Law Enforcement Standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: programs, activities, and accomplishments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Office of Law Enforcement Standards - programs, activities, and accomplishments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6843
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6843.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6843
@@ -21,33 +34,45 @@ docid:
 - id: 10.6028/NIST.IR.6843
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Electronics and Electrical Engineering Laboratory (National Institute
+        of Standards and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91025820
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: Electronics and Electrical Engineering Laboratory.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6843'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

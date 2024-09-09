@@ -1,8 +1,24 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS28
 title:
-- content: Molten salts :volume 2. section 1. electrochemistry of molten salts, gibbs
+- content: Molten salts
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: volume 2. section 1. electrochemistry of molten salts, gibbs free energies
+    and excess free energies from equilibrium-type cells, section 2. surface tension
+    data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Molten salts - volume 2. section 1. electrochemistry of molten salts, gibbs
     free energies and excess free energies from equilibrium-type cells, section 2.
     surface tension data
   language:
@@ -10,11 +26,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.28
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds28.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 28
@@ -23,168 +38,78 @@ docid:
 - id: 10.6028/NBS.NSRDS.28
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1969'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Janz
+      completename:
+        content: Janz, George J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79043982
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G M
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: G M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dijkhuis
+      completename:
+        content: Dijkhuis, G. M.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G R
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: G R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lakshminarayanan
+      completename:
+        content: Lakshminarayanan, G. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R P T
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: R P T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tomkins
+      completename:
+        content: Tomkins, R. P. T. (Reginald P. T.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012522
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wong
+      completename:
+        content: Wong, J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85809488
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1969'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '28'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

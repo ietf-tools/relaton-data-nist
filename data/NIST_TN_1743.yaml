@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1743
 title:
-- content: Proposed General Approach to fire-Safety Scenarios
+- content: Proposed general approach to fire-safety scenarios
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1743
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1743.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1743
@@ -21,90 +20,80 @@ docid:
 - id: 10.6028/NIST.TN.1743
   type: DOI
 date:
-- type: published
-  value: 2012-05
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A.P.
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A.P.
-          script:
-          - Latn
-      surname:
-        content: Robbins
-        script:
-        - Latn
+      completename:
+        content: Robbins, A. P.,
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S.M.V.
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: V
-        formatted_initials:
-          content: S.M.V.
-          script:
-          - Latn
-      surname:
-        content: Gwynne
-        script:
-        - Latn
+      completename:
+        content: Gwynne, S. (Steve)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb97078106
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E.D.
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: E.D.
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
-        script:
-        - Latn
+      completename:
+        content: Kuligowski, Erica D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141182
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-05
-script:
-- Latn
+abstract:
+- content: This report is a summary of the work performed by A.P. Robbins, S.M.V.
+    Gwynne and E. D. Kuligowski on a standardized approach for selection of scenarios
+    used in performance-based analysis with fire-safety in mind. This report provides
+    a flowchart that analysts can follow to select the fire-safety scenarios to be
+    used to assess an engineering building design performance for fire hazards. The
+    method published in this report evolved from discussions of the draft of ISO/WD
+    29761 (Fire-safety engineering - Selection of design occupant behavioural scenarios
+    and design behaviours) that was in development by Working Group 11 of ISO/TC92/SC4
+    during meetings in 2010. The method incorporates and builds on concepts from ISO/TS
+    16733 (2006), where appropriate. In preparing this report, some text from ISO/TS
+    16733 (2006) has been used as a starting point, with permission from the chairs
+    of the ISO Working Group (WG6) and Sub Committee (ISO/TC92/SC4) directly responsible
+    for the standard, and then expanded where applicable and appropriate for the purposes
+    of this document. It is recommended that the reader of this report familiarizes
+    themselves with ISO 16733 (2006) to provide a more comprehensive background for
+    the context and terminology used here.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1743'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

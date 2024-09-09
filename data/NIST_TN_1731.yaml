@@ -1,19 +1,20 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1731
 title:
-- content: Helium Dispersion in an Attached Single-Car Residential Garage with and
-    Without Vehicle
+- content: Helium dispersion in an attached single-car residential garage with and
+    without vehicle
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1731
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1731.pdf
-  type: pdf
+- content: https://purl.fdlp.gov/GPO/gpo102019
+  type: src
 type: standard
 docid:
 - id: NIST TN 1731
@@ -22,119 +23,28 @@ docid:
 - id: 10.6028/NIST.TN.1731
   type: DOI
 date:
-- type: published
-  value: 2012-10
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William M.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pitts
+      completename:
+        content: Pitts, William M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Jiann C.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yang
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Marco G.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fernandez
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Kuldeep
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Prasad
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: 2012-10
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note
     format: text/plain
-  abbreviation:
-    content: TN
-  number: '1731'
-place:
-- Gaithersburg, MD
-doctype: standard
+  number: '1713'
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

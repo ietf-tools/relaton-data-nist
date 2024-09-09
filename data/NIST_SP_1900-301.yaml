@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1900-301
 title:
-- content: Automated driving system safety measurement part I :operating envelope
+- content: Automated driving system safety measurement part I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: operating envelope specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Automated driving system safety measurement part I - operating envelope
     specification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1900-301
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1900-301.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1900-301
@@ -22,73 +35,39 @@ docid:
 - id: 10.6028/NIST.SP.1900-301
   type: DOI
 date:
-- type: published
-  value: '2021-12-02'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward
-          script:
-          - Latn
-      surname:
-        content: Griffor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Griffor, Edward.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Wollman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wollman, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Greer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Greer, Christopher.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Communications Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-12-02'
-script:
-- Latn
 abstract:
 - content: The safety of Automated Driving System (ADS) equipped vehicles and reliable
     methods for assessing that safety are critical for successfully deploying these
@@ -98,16 +77,22 @@ abstract:
     brings together the concept of an Operating Envelope Specification (OES) a structured
     description of environmental factors or aspects that an ADS may encounter during
     operation and the NIST Framework for Cyber-Physical Systems.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1900-301
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

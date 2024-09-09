@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP802
 title:
 - content: Effect of a free surface on stress distribution in a bimaterial composite
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.802
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication802.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 802
@@ -21,122 +20,69 @@ docid:
 - id: 10.6028/NIST.SP.802
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: V K
-          language:
-          - en
-          script:
-          - Latn
-          initial: V
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: V K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tewary
+      completename:
+        content: Tewary, V. K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78000413
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: V K
-          language:
-          - en
-          script:
-          - Latn
-          initial: V
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: V K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tewary
+      completename:
+        content: Kriz, Ronald D.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: R D
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: R D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kriz
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022042624
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The paper is in two parts. In Part I, the SI Green's function is calculated
+    and applied to plane-strain problems in cubic solids. In Part II, an extension
+    of the Green's function method to the generalized-plane-strain problem is described,
+    which enables the calculation of the elastic response of a solid to a prescribed
+    out-of-plane strain. It is applied to calculate the stress distribution in a composite
+    solid subjected to an out-of-plane load. The final results are in the form of
+    an analytical closed integral representation which can be calculated numerically
+    as well as analytically. The analytical evaluation of the integral by using the
+    contour integration method gives the result in the form of a series. The series
+    contains singular as well as non-singular terms. In general, it is difficult to
+    ascertain the convergence of the series representation. The analytical series
+    representation can be used to identify precisely the nature and the weight of
+    each singularity in the stress distribution.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '802'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

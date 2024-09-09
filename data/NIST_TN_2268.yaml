@@ -1,0 +1,109 @@
+---
+schema-version: v1.2.9
+id: NISTTN2268
+title:
+- content: Flexible resource controller
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: A price and voltage-responsive device controller for gridlab-d co-simulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Flexible resource controller - A price and voltage-responsive device controller
+    for gridlab-d co-simulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.TN.2268
+  type: doi
+type: standard
+docid:
+- id: NIST TN 2268
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.TN.2268
+  type: DOI
+date:
+- type: issued
+  value: '2024'
+contributor:
+- person:
+    name:
+      completename:
+        content: Holmberg, David,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1738-8190"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Roth, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9986-7784"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory
+  role:
+  - type: publisher
+abstract:
+- content: The Flexible Resource Controller (FRC) is a controller that manages heat
+    pumps (HP), electric water heaters (HWH) and batteries with multiple objectives.
+    The first objective is to manage energy use to save customer money—charging storage
+    when electricity prices are low and avoiding energy use (or discharging battery)
+    when prices are high, while maintaining comfort. A second objective is to implement
+    reactive power control at the battery inverter based on local voltage levels (Volt-VAr)
+    so as to minimize voltage excursions outside of acceptable limits. The FRC has
+    been developed as a federate for transactive energy co-simulations to study the
+    impact of price-responsive controls on voltage and other building and grid metrics.
+    It takes as inputs the house thermal properties, weather and electricity price
+    data and generates control variables (e.g., hot water temperature setpoint, battery
+    real and reactive power settings) that are input to the GridLAB-D simulation engine
+    on each time step. The FRC makes use of day-ahead hourly prices in addition to
+    optional adjustment of control parameters in response to 5-min real-time prices.
+    The FRC currently implements simple patterns that shift power usage based on prices.
+    The FRC HP controller implements pre-cooling prior to the evening price peak and
+    then a raised house setpoint temperature during the price peak. The HWH controller
+    lowers tank setpoint in the afternoon. The battery is set to charge at night and
+    discharge during the price peak. Battery inverter Volt-VAr voltage control is
+    implemented independently of price response, operating at all hours of the day
+    when activated.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST technical note; NIST tech note; NIST TN
+    format: text/plain
+  number: '2268'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

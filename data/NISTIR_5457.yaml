@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5457
 title:
 - content: Report on the Workshop of Advanced Digital Video in the National Information
-    Infrastructure:May 10-11, 1994, Georgetown University Conference Center, Washington,
+    Infrastructure
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: May 10-11, 1994, Georgetown University Conference Center, Washington, DC
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on the Workshop of Advanced Digital Video in the National Information
+    Infrastructure - May 10-11, 1994, Georgetown University Conference Center, Washington,
     DC
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5457
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5457.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5457
@@ -23,111 +37,91 @@ docid:
 - id: 10.6028/NIST.IR.5457
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Howard
-          script:
-          - Latn
-      surname:
-        content: Frank
-        script:
-        - Latn
+      completename:
+        content: Fenimore, Charles.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elden
-          script:
-          - Latn
-      surname:
-        content: Georg
-        script:
-        - Latn
+      completename:
+        content: Field, Bruce.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Papillo
-        script:
-        - Latn
+      completename:
+        content: Frank, Howard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Glenn
-          script:
-          - Latn
-      surname:
-        content: Reitmeier
-        script:
-        - Latn
+      completename:
+        content: Georg, Elden.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Will
-          script:
-          - Latn
-      surname:
-        content: Stackhouse
-        script:
-        - Latn
+      completename:
+        content: Papillo, Michael.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Van Degrift
-        script:
-        - Latn
+      completename:
+        content: Reitmeier, Glenn.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Stackhouse, Will.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Degrift, Craig Van.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5457'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

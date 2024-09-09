@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS15
 title:
-- content: Molten salts :volume 1. electrical conductance, density, and viscosity
+- content: Molten salts
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: volume 1. electrical conductance, density, and viscosity data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Molten salts - volume 1. electrical conductance, density, and viscosity
     data
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.15
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds15.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 15
@@ -22,185 +35,72 @@ docid:
 - id: 10.6028/NBS.NSRDS.15
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G J
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: G J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Janz
+      completename:
+        content: Janz, G. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F W
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: F W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dampier
+      completename:
+        content: Dampier, F. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G R
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: G R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lakshminarayanan
+      completename:
+        content: Lakshminarayanan, G. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P K
-          language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: P K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lorenz
+      completename:
+        content: Lorenz, P. K.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R P T
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: R P T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tomkins
+      completename:
+        content: Tomkins, R. P. T. (Reginald P. T.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81012522
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1968'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '15'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

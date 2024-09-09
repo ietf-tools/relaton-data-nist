@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2104
 title:
 - content: Design of a direct-contact thermal energy storage heat exchanger for the
-    NIST net-zero residential test facility
+    NIST Net-Zero Residential Test Facility
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2104
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2104.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2104
@@ -22,80 +21,70 @@ docid:
 - id: 10.6028/NIST.TN.2104
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: MA
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: MA
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, M. A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: This report describes the design of a direct-contact heat exchanger (DCHEX)
+    to be used for thermal energy storage at the National Institute of Standards and
+    Technology s Net-Zero Energy Residential Test Facility (NZERTF). The heat exchanger
+    was designed for heat exchange between a phase-change material (PCM) and refrigerant.
+    The design required the selection of a PCM that would be immiscible with the refrigerant
+    and have a freezing point temperature of approximately of 285 K. A key facet of
+    the investigation was the construction of a test apparatus to observe the flow
+    between the refrigerant and the freezing PCM to ensure a well distributed flow
+    and one where the refrigerant could flow past the frozen PCM. The final part of
+    the project presents a design for direct-contact heat exchange between octanoic
+    acid (continuous phase) and the dispersed phase R410A. Twin DCHEXs were designed
+    to house a vertical column of PCM and to distribute the refrigerant flow throughout
+    the PCM. The height of the PCM column was determined with measurements from the
+    literature that were re-correlated to predict the droplet heat transfer coefficient
+    and the required height of the PCM column. A disengagement section was designed
+    to prevent entrainment of PCM droplets into the exiting refrigerant vapor during
+    the PCM charging. Basic equations are provided so that the design may be modified
+    for a different PCM mass, refrigerant flow rate, temperature difference and operating
+    fluids. An overall drawing of the DCHEX with placement of orifice holes, mist
+    eliminator, and piping was given. The energy storage capacity of the DCHEX is
+    approximately 191 MJ and has the potential of providing a 33 % energy savings
+    in cooling the NZERTF.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2104'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

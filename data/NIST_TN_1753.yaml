@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1753
 title:
-- content: Model Based Enterprise / Technical Data Package Summit Report
+- content: Model based enterprise / technical data package
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summit report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Model based enterprise / technical data package - summit report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1753
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1753.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1753
@@ -21,89 +34,95 @@ docid:
 - id: 10.6028/NIST.TN.1753
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Lubell
-        script:
-        - Latn
+      completename:
+        content: Lubell, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113187
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kenway K.
-          script:
-          - Latn
-      surname:
-        content: Chen
-        script:
-        - Latn
+      completename:
+        content: Chen, Kenway.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John A.
-          script:
-          - Latn
-      surname:
-        content: Horst
-        script:
-        - Latn
+      completename:
+        content: Horst, John.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020102859
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simon P.
-          script:
-          - Latn
-      surname:
-        content: Frechette
-        script:
-        - Latn
+      completename:
+        content: Frechette, Simon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021110725
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul J.
-          script:
-          - Latn
-      surname:
-        content: Huang
-        script:
-        - Latn
+      completename:
+        content: Huang, Paul,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015041998
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-script:
-- Latn
+abstract:
+- content: This report summarizes the presentations, discussions and recommendations
+    of a workshop held at the National Institute of Standards and Technology in December
+    of 2011. The purpose of the workshop was to identify challenges, research, and
+    implementation issues in product design, manufacturing, and quality assurance
+    where a digital three-dimensional (3D) model of the product serves as the authoritative
+    information source for all activities in the product's lifecycle. The report includes
+    an overview of model-based engineering and its technical challenges, summaries
+    of the presentations given at the workshop, and conclusions that emerged from
+    the presentations and discussions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1753'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10869
 title:
 - content: Potential uses of court related video recording
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10869
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10869.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10869
@@ -21,103 +20,70 @@ docid:
 - id: 10.6028/NBS.RPT.10869
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nancy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kingsbury
+      completename:
+        content: Baldwin, Nancy,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97113506
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donald
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Corrigan
+      completename:
+        content: Corrigan, Donald.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83053136
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stuart
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fribush
+      completename:
+        content: Fribush, Stuart.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Suellen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Halpin
+      completename:
+        content: Halpin, Suellen.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80047939
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1972'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10869'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

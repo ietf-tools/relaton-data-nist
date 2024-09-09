@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7880-47
 title:
 - content: 'NIST micronutrients measurement quality assurance program winter and summer
@@ -10,11 +10,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7880-47
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.7880-47.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7880-47
@@ -23,67 +22,62 @@ docid:
 - id: 10.6028/NIST.IR.7880-47
   type: DOI
 date:
-- type: published
-  value: 2017-03
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice M
-          script:
-          - Latn
-      surname:
-        content: Brown Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Brown Thomas, Jeanice M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2017-03
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology coordinates the Micronutrients
+    Measurement Quality Assurance Program (MMQAP) for laboratories that measure fat-soluble
+    vitamins and carotenoids in human serum and plasma. This report describes the
+    design of and results for the Winter and Summer 2016 MMQAP measurement comparability
+    improvement studies: 1) Round Robin LXXIX Fat-Soluble Vitamins and Carotenoids
+    in Human Serum (RR79) and 2) Round Robin LXXX Fat-Soluble Vitamins and Carotenoids
+    in Human Serum (RR80). The RR79 samples were shipped in early March 2016, with
+    results due May 16, 2016. The RR80 samples were shipped in late June 2016, with
+    results due September 12, 2016.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 7880-47
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

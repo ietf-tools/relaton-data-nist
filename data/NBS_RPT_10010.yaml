@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10010
 title:
-- content: Examination of mileage measuring devices :preliminary report of a manual
+- content: Examination of mileage measuring devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: preliminary report of a manual for weights and measures officials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Examination of mileage measuring devices - preliminary report of a manual
     for weights and measures officials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10010
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10010.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10010
@@ -22,88 +35,48 @@ docid:
 - id: 10.6028/NBS.RPT.10010
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1969'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hasko
+      completename:
+        content: Hasko, Skënder.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91039447
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schreyer
+      completename:
+        content: Schreyer, C. H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1969'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10010'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

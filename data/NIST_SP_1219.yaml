@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1219
 title:
 - content: Future generation wireless research and development gaps report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1219
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1219.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1219
@@ -21,101 +20,80 @@ docid:
 - id: 10.6028/NIST.SP.1219
   type: DOI
 date:
-- type: published
-  value: '2018-02-05'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Nada
-          script:
-          - Latn
-      surname:
-        content: Golmie
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Golmie, Nada.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2007021499
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Cypher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Cypher, David.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc
-          script:
-          - Latn
-      surname:
-        content: Leh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Leh, Marc.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022047038
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Darcy
-          script:
-          - Latn
-      surname:
-        content: Ziegler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Ziegler, Darcy.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2018-02-05'
-script:
-- Latn
+abstract:
+- content: This report identifies and describes several of the most significant gaps
+    within various components of the wireless industry. This report is intended to
+    serve solely as a knowledge product that recognizes the major challenges facing
+    the broader research community, and does not prescribe to make R&D recommendations
+    in light of specific organizations, initiatives, or standards development efforts.
+    The data presented in this report was gathered through market research, a series
+    of stakeholder interviews, and public working group meetings.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1219'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

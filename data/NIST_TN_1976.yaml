@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1976
 title:
-- content: Building industry reporting and design for sustainability (BIRDS) neutral
-    environment software tool (NEST) technical manual
+- content: Building Industry Reporting and Design for Sustainability (BIRDS) Neutral
+    Environment Software Tool (NEST) technical manual
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1976
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1976.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1976
@@ -22,118 +21,116 @@ docid:
 - id: 10.6028/NIST.TN.1976
   type: DOI
 date:
-- type: published
-  value: 2017-10
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric
-          script:
-          - Latn
-      surname:
-        content: O'Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shannon
-          script:
-          - Latn
-      surname:
-        content: Grubb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Grubb, Shannon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Priya
-          script:
-          - Latn
-      surname:
-        content: Lavappa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavappa, Priya.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113180
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne Landfield
-          script:
-          - Latn
-      surname:
-        content: Greig
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greig, Anne Landfield.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022021989
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-10
-script:
-- Latn
+abstract:
+- content: Building stakeholders need practical metrics, data, and tools to support
+    decisions related to sustainable building designs, technologies, standards, and
+    codes. The Engineering Laboratory of the National Institute of Standards and Technology
+    (NIST) has addressed this high priority national need by extending its metrics
+    and tools for sustainable building products, known as Building for Environmental
+    and Economic Sustainability (BEES), to whole-buildings through its Building Industry
+    Reporting and Design for Sustainability (BIRDS) framework. The BIRDS framework
+    is a sustainability measurement system consisting of whole-building sustainability
+    metrics that are based on innovative extensions to life-cycle assessment (LCA)
+    and life-cycle costing (LCC) approaches involving whole-building energy simulations.
+    The measurement system evaluates the sustainability of both the materials and
+    the energy used by a building over time. It assesses the 'carbon footprint' of
+    buildings as well as 11 other environmental performance metrics, and integrates
+    economic performance metrics to yield science based measures of the business case
+    for investment choices in high-performance green buildings. The BIRDS framework
+    has been leveraged to assist building architects and designers to evaluate the
+    sustainability performance of custom building designs through the development
+    of BIRDS NEST (Neutral Environment Software Tool), an application programming
+    interface (API) that allows other software tools to submit building characteristics
+    and performance information (in a standardized format) to develop sustainability
+    performance metrics for a customized building design. The beta version of BIRDS
+    NEST is focused on performing a life-cycle environmental impact assessment (LCIA)
+    based on 12 impact categories for single-family residential buildings. The BIRDS
+    NEST has been designed to interact with NREL's OpenStudio (OS), an open-source,
+    cross-platform collection of software tools that supports whole building energy
+    modeling using EnergyPlus. In collaboration with NREL's OS Team, an OS Measure
+    has been developed to successfully send and receive information to and from BIRDS
+    NEST, allowing OS users to develop LCIA estimates for OS building models without
+    leaving the OS application. This technical manual describes BIRDS and its LCA
+    and LCIA methodology and data, development of BIRDS NEST and the associated OS
+    Measure, and BIRDS NEST's limitations, planned release, and the development of
+    its future capabilities.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1976'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

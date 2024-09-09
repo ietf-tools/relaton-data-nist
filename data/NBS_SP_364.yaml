@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP364
 title:
 - content: Solid state chemistry
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.364
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication364.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 364
@@ -21,69 +20,51 @@ docid:
 - id: 10.6028/NBS.SP.364
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Roth
+      completename:
+        content: Roth, Robert S. (Robert Sidney)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84050758
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Samuel J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schneider
+      completename:
+        content: Schneider, Samuel J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88077080
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1972'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '364'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

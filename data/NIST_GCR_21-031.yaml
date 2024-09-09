@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR21-031
 title:
-- content: NIST PSCR :economic impact analysis
+- content: NIST PSCR
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: economic impact analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST PSCR - economic impact analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.21-031
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2021/NIST.GCR.21-031.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 21-031
@@ -21,92 +34,49 @@ docid:
 - id: 10.6028/NIST.GCR.21-031
   type: DOI
 date:
-- type: published
-  value: '2021-06-01'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lou
-          script:
-          - Latn
-      surname:
-        content: Nadeau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Nadeau, Lou.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melanie
-          script:
-          - Latn
-      surname:
-        content: Sands
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Sands, Melanie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Lyons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Lyons, Douglas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Clara
-          script:
-          - Latn
-      surname:
-        content: Berger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Berger, Clara.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-06-01'
-script:
-- Latn
 abstract:
-- content: NIST s Public Safety Communications Research (PSCR) Division is the primary
+- content: NIST's Public Safety Communications Research (PSCR) Division is the primary
     federal laboratory focused on conducting research, development, testing, and evaluation
     for public safety communications technologies. Their mission is to accelerate
     communications innovation in support of public safety communities and the citizens
@@ -114,17 +84,41 @@ abstract:
     provisions for the development and build out of the Nationwide Public Safety Broadband
     Network (NPSBN) and established The Public Safety Trust Fund (PSTF) to support
     the design and implementation of the Network. The Act charged the NIST with utilizing
-    up to
+    up to $300 million of PSTF allocations to establish an R&D program to support
+    the development and deployment of NPSBN from fiscal year 2016 through 2022. In
+    response to the Act s mandate, NIST PSCR developed the Public Safety Innovation
+    Accelerator Program to augment internal research by providing funds to support
+    a range of research mechanisms that span from external grants and cooperative
+    research agreements to prize challenge competitions. The aim of these research
+    mechanisms is to accelerate communications innovation in support of public safety
+    communities and the citizens they serve. NIST PSCR contracted Eastern Research
+    Group, Inc. (ERG) of Lexington, MA to conduct an economic impact analysis (EIA)
+    of PSTF investments into NIST PSCR s research mechanisms. ERG conducted an EIA
+    using standard economic input-output multipliers from the Bureau of Economic Analysis
+    (BEA) to show how NIST PSCR s research investments translate into broader impacts
+    to states, focusing on new jobs, earnings, value added, and total economic output.
+    The results of the EIA (presented in 2020 dollars) show that NIST PSCR s investment
+    of $230 million into the suite of research mechanisms generated 4,280 jobs, $262
+    million in earnings, $431 million in value added, and $513 million in total economic
+    output.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 21-031
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

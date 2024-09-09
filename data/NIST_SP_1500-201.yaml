@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-201
 title:
 - content: 'Framework for cyber-physical systems: volume 1, overview'
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-201
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-201.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-201
@@ -21,101 +20,89 @@ docid:
 - id: 10.6028/NIST.SP.1500-201
   type: DOI
 date:
-- type: published
-  value: '2017-06-26'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Edward R
-          script:
-          - Latn
-      surname:
-        content: Griffor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Griffor, Edward R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94014080
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Greer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Greer, Chris.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr91025227
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David A
-          script:
-          - Latn
-      surname:
-        content: Wollman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Wollman, David A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin J
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Burns, Martin J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-06-26'
-script:
-- Latn
+abstract:
+- content: 'Cyber-Physical Systems (CPS) comprise interacting digital, analog, physical,
+    and human components engineered for function through integrated physics and logic.
+    CPS and related systems (including the Internet of Things, Industrial Internet,
+    and more) are widely recognized as having great potential to enable innovative
+    applications and impact multiple economic sectors in the world-wide economy. These
+    application areas include energy infrastructures, advanced manufacturing, building
+    control, transportation, health care, and others. NIST established the CPS Public
+    Working Group (CPS PWG) to bring together a broad range of CPS experts in an open
+    public forum to help define and shape key characteristics of CPS, so as to better
+    manage development and implementation within and across multiple ''smart'' application
+    domains, including smart manufacturing, transportation, energy, and healthcare.
+    The resulting CPS Framework provides an organized presentation of a CPS analysis
+    methodology based on the CPS Framework core concepts of facets (modes of the system
+    engineering process: conceptualization, realization and assurance) and aspects
+    (clusters of concerns: functional, business, human, trustworthiness, timing, data,
+    composition, boundaries, and lifecycle).'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-201
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

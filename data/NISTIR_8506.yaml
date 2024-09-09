@@ -1,0 +1,88 @@
+---
+schema-version: v1.2.9
+id: NISTIR8506
+title:
+- content: A characterization of OFDMA uplink activation for industrial applications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.IR.8506
+  type: doi
+type: standard
+docid:
+- id: NIST IR 8506
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8506
+  type: DOI
+date:
+- type: issued
+contributor:
+- person:
+    name:
+      completename:
+        content: Montgomery, Karl
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Candell, Rick.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6679-8823"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Communications Technology Laboratory
+  role:
+  - type: publisher
+abstract:
+- content: This report serves to determine how Orthogonal Frequency Division Multiple
+    Access (OFDMA) is triggered in commercial IEEE 802.11ax (Wi-Fi 6) access points
+    for industrial application scenarios. It presents an overview of OFDMA and how
+    it works in IEEE 802.11ax (Wi-Fi 6). Then, it provides the measurement methodologies
+    for determining OFDMA triggering conditions by performing experiments that vary
+    the traffic, number of wireless stations, and transmitted packet lengths. A wireless
+    sniffer is used to determine when OFDMA trigger frames are sent, indicating OFDMA
+    activation. The resulting table shows what set of conditions activate OFDMA in
+    the test environment. Of the two commercial access points tested in this report,
+    both are observed to follow the same condition for OFDMA activation, namely when
+    two or more stations send over 100 packets per second, regardless of packet size.
+    Another contribution is a method to determine when OFDMA is activated using an
+    industrial computer, configured as a wireless sniffer.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NISTIR
+    format: text/plain
+  number: '8506'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8506'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

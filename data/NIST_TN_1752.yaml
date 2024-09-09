@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1752
 title:
 - content: Digital image correlation measurements during gusset plate connection testing
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1752
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1752.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1752
@@ -22,37 +21,66 @@ docid:
 - id: 10.6028/NIST.TN.1752
   type: DOI
 date:
-- type: published
-  value: 2012-08
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Iadicola
-        script:
-        - Latn
+      completename:
+        content: Iadicola, Mark.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-08
-script:
-- Latn
+abstract:
+- content: This report describes 3-dimensional (3D) digital image correlation to measure
+    the 3D shape, displacement, and in-plane strain field, during testing of gusset
+    plate structural connections. Twelve full-scale bridge gusset plate connections
+    of various geometries and boundary conditions were tested at the the Federal Highway
+    Administration (FHWA) Turner-Fairbank Highway Research Center (Ocel et al., 2012).
+    These experiments are part of the verification of numerical models as part of
+    NCHRP Project 12-84 Guidelines for the Load and Resistance Factor Design and Rating
+    of Riveted and Bolted Gusset Plate Connections for Steel Bridge. The measurements
+    described here are in regards to the tests performed to failure (i.e., maximum
+    load carrying capacity of the connection). During each of the twelve tests to
+    failure, a series (typically about 150) of image pairs were taken for subsequent
+    digital image correlation analysis. Although all of the image pairs were processed,
+    only a very small portion of the results are presented here. It is intended to
+    give general access to the overall data set for use by other researchers. Overall
+    the measurements, showed reasonable uncertainties on the order of 150 ?m/m of
+    maximum in-plane shear strain, and the measured out of plane initial shapes of
+    the plates typically matched qualitative inspections of the connections. The layout,
+    calibration, and measurement procedure associated with the digital image correlation
+    system are described in detail to aid in understanding of the results. The results
+    shown here include a sample of the measured and derived variables for one experiment
+    at two conditions to inform the reader of the type of data that is available.
+    The results also include an abbreviated set of results that show the evolution
+    of the out of plane shape and maximum shear strain field at four points in loading
+    from the initial condition to failure.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1752'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

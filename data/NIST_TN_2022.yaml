@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2022
 title:
-- content: Pool boiling of HFO-1336mzz(Z) on a reentrant cavity surface; extensive
+- content: Pool boiling of HFO-1336mzz(Z) on a reentrant cavity surface
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: extensive measurement and analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Pool boiling of HFO-1336mzz(Z) on a reentrant cavity surface - extensive
     measurement and analysis
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2022
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2022.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2022
@@ -22,67 +35,68 @@ docid:
 - id: 10.6028/NIST.TN.2022
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lingnan
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: This paper quantifies the pool boiling performance of R1336mzz(Z), and
+    R123 on a flattened, horizontal Turbo-ESP surface for heat fluxes between roughly
+    10 kWm-2 and 120 kWm-2. The study showed that the boiling performance of R1336mzz(Z)
+    on the TurboESP did not differ statistically from that of R123 for heat fluxes
+    between 13 kWm-2 and59 kWm-2. For heat fluxes larger than 59 kWm-2, the R123 boiling
+    heat flux was up to 5 % larger than the heat flux for R1336mzz(Z). For heat fluxes
+    between 4 kWm-2and 13 kWm-2, the R123 heat flux was approximately 53 % larger
+    than that of R1336mzz(Z). The R1336mzz(Z) pool boiling curve was measured for
+    three saturation temperatures and exhibited an optimum with respect to saturation
+    temperature near the middle saturation temperature of 298.1 K. A pool boiling
+    model from the present authors was modified to include a single-phase transfer
+    term and was used to predict both single-component and multi-component performance
+    of the test refrigerants on the Turbo-ESP surface. For most heat fluxes, the modified
+    model predicted the measured superheat to within +/- 0.5 K.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2022'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

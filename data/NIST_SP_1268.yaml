@@ -1,19 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1268
 title:
-- content: 'Workshop report :challenges for digital proximity detection in pandemics
-    :'
+- content: Workshop report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: challenges for digital proximity detection in pandemics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Workshop report - challenges for digital proximity detection in pandemics
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1268
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1268.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1268
@@ -22,158 +34,79 @@ docid:
 - id: 10.6028/NIST.SP.1268
   type: DOI
 date:
-- type: published
-  value: '2021-05-24'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michelle
-          script:
-          - Latn
-      surname:
-        content: Stephens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Stephens, Michelle.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Greg
-          script:
-          - Latn
-      surname:
-        content: Cala
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Cala, Greg.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kristen
-          script:
-          - Latn
-      surname:
-        content: Greene
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Greene, Kristen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kathryn E
-          script:
-          - Latn
-      surname:
-        content: Keenan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Keenan, Kathryn E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Angela
-          script:
-          - Latn
-      surname:
-        content: Robinson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Robinson, Angela.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lu
-          script:
-          - Latn
-      surname:
-        content: Shi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Shi, Lu.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Don
-          script:
-          - Latn
-      surname:
-        content: Ufford
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Ufford, Don.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zachary
-          script:
-          - Latn
-      surname:
-        content: Valdez
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Valdez, Zachary.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory.
   role:
   - type: publisher
-revdate: '2021-05-24'
-script:
-- Latn
 abstract:
 - content: 'NIST held a three-day workshop, Challenges for Digital Proximity Detection
     in Pandemics: Privacy, Accuracy, and Impact Jan. 26th 28th, 2021. Members of industry,
@@ -189,16 +122,22 @@ abstract:
     key themes that emerged during the workshop. The agenda, video of the invited
     talks on Jan. 26th and of the panel discussion on Jan. 27th, and slides from the
     contributed talks are available on the website, https://www.nist.gov/newsevents/events/2021/01/challenges-digital-proximity-detection-pandemics-privacy-accuracyand.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1268'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

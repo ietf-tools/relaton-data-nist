@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP162
 title:
 - content: Summary report of research at the National Bureau of Standards on the stability
-    and preservation of records on photographic film/
+    and preservation of records on photographic film
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.162
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub162.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 162
@@ -22,64 +21,37 @@ docid:
 - id: 10.6028/NBS.MP.162
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1939'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B W
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: B W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scribner
+      completename:
+        content: Scribner, B. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1939'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '162'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

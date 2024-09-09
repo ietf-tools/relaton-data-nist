@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-010
 title:
 - content: Survey and new directions for physics-based attack detection in control
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-010
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-010.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-010
@@ -22,224 +21,129 @@ docid:
 - id: 10.6028/NIST.GCR.16-010
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Urbina
+      completename:
+        content: Urbina, David I.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jairo
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Giraldo
+      completename:
+        content: Giraldo, Jairo.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no98022318
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alvaro A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cardenas
+      completename:
+        content: Cardenas, Alvaro A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Junia
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Valente
+      completename:
+        content: Valente, Junia.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mustafa
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Faisal
+      completename:
+        content: Faisal, Mustafa.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nils Ole
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tippenhauer
+      completename:
+        content: Tippenhauer, Nils Ole.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2021006435
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Justin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ruths
+      completename:
+        content: Ruths, Justin.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Candell
+      completename:
+        content: Candell, Richard.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Henrik
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sandberg
+      completename:
+        content: Sandberg, Henrik,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2021019808
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-11
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'Monitoring the physics of control systems to detect attacks is a growing
+    area of research. In its basic form a security monitor creates time-series models
+    of sensor readings for an industrial control system and identifies anomalies in
+    these measurements in order to identify potentially false control commands or
+    false sensor readings. In this paper, we review previous work based on a unified
+    taxonomy that allows us to identify limitations, unexplored challenges, and new
+    solutions. In particular, we propose a new adversary model and a way to compare
+    previous work with a new evaluation metric based on the trade-off between false
+    alarms and the negative impact of undetected attacks. We also show the advantages
+    and disadvantages of three experimental scenarios to test the performance of attacks
+    and defenses: real-world network data captured from a large-scale operational
+    facility, a fully-functional testbed that can be used operationally for water
+    treatment, and a simulation of frequency control in the power grid.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-010
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

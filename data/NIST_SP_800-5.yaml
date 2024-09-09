@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-5
 title:
 - content: A guide to the selection of anti-virus tools and techniques
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-5
@@ -21,77 +20,65 @@ docid:
 - id: 10.6028/NIST.SP.800-5
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Timothy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Polk
+      completename:
+        content: Polk, Tim,
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90727805
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lawrence E, III
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bassham
+      completename:
+        content: Bassham, Lawrence E.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91102724
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Computer viruses continue to pose a threat to the integrity and availability
+    of computer systems. This is especially true for users of personal computers.
+    A variety of anti-virus tools are now available to help manage this threat. These
+    tools use a wide range of techniques to detect, identify, and remove viruses.
+    This guide provides criteria for judging the functionality, practicality, and
+    convenience of anti-virus tools. It furnishes information which readers can use
+    to determine which tools are best suited to target environments, but it does not
+    weigh the merits of specific tools.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-5
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

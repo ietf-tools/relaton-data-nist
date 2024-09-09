@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP959e2017
 title:
-- content: 2014 CODATA RECOMMENDED VALUES OF THE FUNDAMENTAL CONSTANTS OF PHYSICS
-    AND CHEMISTRY
+- content: 2014 CODATA recommended values of the fundamental constants of physics
+    and chemistry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.959e2017
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.959e2017.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 959e2017
@@ -22,50 +21,48 @@ docid:
 - id: 10.6028/NIST.SP.959e2017
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Peter J
-          script:
-          - Latn
-      surname:
-        content: Mohr
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Mohr, Peter J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no98110189
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: Wallet card of 2014 CODATA RECOMMENDED VALUES OF THE FUNDAMENTAL CONSTANTS
+    OF PHYSICS AND CHEMISTRY, NIST SP-959 (Apr 2017)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 959e2017
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

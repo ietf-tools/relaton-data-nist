@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8454
 title:
-- content: Status Report on the Final Round of the NIST Lightweight Cryptography Standardization
-    Process
+- content: Status report on the final round of the NIST lightweight cryptography standardization
+    process
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8454
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8454.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8454
@@ -22,46 +21,139 @@ docid:
 - id: 10.6028/NIST.IR.8454
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Meltem Sonmez
-          script:
-          - Latn
-      surname:
-        content: Turan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sonmez Turan, Meltem.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1950-7130"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: McKay, Kerry.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-5956-587X"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Chang, Donghoon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1249-2869"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Bassham, Lawrence E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0856-9990"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kang, Jinkeon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2142-8236"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Waller, Noah D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-6979-9725"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Kelsey, John M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3427-1744"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Hong, Deukjo.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0998-2958"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) initiated a public
+    standardization process to select one or more schemes that provide Authenticated
+    Encryption with Associated Data (AEAD) and optional hashing functionalities and
+    are suitable for constrained environments. In February 2019, 57 candidates were
+    submitted to NIST for consideration. Among these, 56 were accepted as first-round
+    candidates in April 2019. After four months, NIST selected 32 of the candidates
+    for the second round. In March 2021, NIST announced 10 finalists – namely ASCON,
+    Elephant, GIFT-COFB, Grain-128AEAD, ISAP, PHOTON-Beetle, Romulus, SPARKLE, TinyJAMBU,
+    and Xoodyak – to move forward to the final round of the selection process. On
+    February 7, 2023, NIST announced the decision to standardize the ASCON family
+    for lightweight cryptography applications. This report describes the evaluation
+    criteria and selection process, which is based on public feedback and internal
+    review of the finalists.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8454'
-doctype: standard
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8454'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

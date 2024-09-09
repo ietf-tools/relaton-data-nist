@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7867
 title:
-- content: Usability of PIV Smartcards for Logical Access
+- content: Usability of PIV smartcards for logical access
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7867
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7867.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7867
@@ -21,102 +20,46 @@ docid:
 - id: 10.6028/NIST.IR.7867
   type: DOI
 date:
-- type: published
-  value: 2012-06
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Emile
-          script:
-          - Latn
-      surname:
-        content: Morse
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Mary
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Yee-Yin
-          script:
-          - Latn
-      surname:
-        content: Choong
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Celeste
-          script:
-          - Latn
-      surname:
-        content: Paul
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Aiping
-          script:
-          - Latn
-      surname:
-        content: Zhang
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Hannah
-          script:
-          - Latn
-      surname:
-        content: Wald
-        script:
-        - Latn
+      completename:
+        content: Morse, Emile.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-06
-script:
-- Latn
+abstract:
+- content: This manuscript is being revised to correct an error in the original regarding
+    the specific certificates on the PIV card. The corrections are in two paragraphs
+    of Section 4.2.5 (?Certificates?). This version supersedes the version published
+    in June 2012.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7867'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

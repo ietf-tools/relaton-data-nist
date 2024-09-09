@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-13
 title:
 - content: Telecommunications security guidelines for telecommunications management
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-13
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-13.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-13
@@ -22,98 +21,78 @@ docid:
 - id: 10.6028/NIST.SP.800-13
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kimmins
+      completename:
+        content: Kimmins, John.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96102872
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dinkel
+      completename:
+        content: Dinkel, Charles.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96102871
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dale
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walters
+      completename:
+        content: Walters, Dale.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no95039290
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This Telecommunication Security Guideline is intended to provide a security
+    baseline for Network Elements (NEs) and Mediation Devices (MDs) that is based
+    on commercial security needs. In addition, some National Security and Emergency
+    Preparedness (NS/EP) security requirements will be integrated into the baseline
+    to address specific network security needs. The guideline should assist telecommunications
+    vendors in developing systems and service providers in implementing systems with
+    appropriate security for integration into the Public Switched Network (PSN). It
+    can also be used by a government agency or a commercial organization to formulate
+    a specific security policy. It does not stipulate regulatory requirements or mandated
+    standards of the National Institute of Standards and Technology.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-13
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

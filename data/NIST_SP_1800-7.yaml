@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-7
 title:
 - content: Situational awareness for electric utilities
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-7
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-7.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-7
@@ -21,186 +20,145 @@ docid:
 - id: 10.6028/NIST.SP.1800-7
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          script:
-          - Latn
-      surname:
-        content: McCarthy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCarthy, Jim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92118514
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Otis
-          script:
-          - Latn
-      surname:
-        content: Alexander
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Alexander, Otis.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sallie
-          script:
-          - Latn
-      surname:
-        content: Edwards
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Crouse, Sarah Edwards,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95034876
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Don
-          script:
-          - Latn
-      surname:
-        content: Faatz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Faatz, Don.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chris
-          script:
-          - Latn
-      surname:
-        content: Peloquin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Peloquin, Chris.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan
-          script:
-          - Latn
-      surname:
-        content: Symington
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Symington, Susan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2001014962
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andre
-          script:
-          - Latn
-      surname:
-        content: Thibault
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Thibault, André.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb98030333
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Wiltberger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wiltberger, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Viani
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Viani, Karen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: Situational awareness, in the context of this guide, is the understanding
+    of one's environment and the ability to predict how it might change due to various
+    factors. As part of their current cybersecurity efforts, some electric utilities
+    monitor physical, operational, and information technology (IT) separately. According
+    to energy sector stakeholders, many utilities are currently assessing a more comprehensive
+    approach to situational awareness, which, through increased real-time or near
+    real-time cybersecurity monitoring, can enhance the resilience of their operations.
+    The National Cybersecurity Center of Excellence (NCCoE) at the National Institute
+    of Standards and Technology (NIST) built a laboratory environment to explore an
+    example solution that can be used by energy sector companies to alert their staff
+    to potential or actual cyber attacks directed at the grid. The security characteristics
+    in our situational awareness platform are informed by guidance and best practices
+    from standards organizations, including the NIST Cybersecurity Framework and North
+    American Electric Reliability Corporation's (NERC) Critical Infrastructure Protection
+    (CIP) Version 5 standards. This NIST Cybersecurity Practice Guide demonstrates
+    how organizations can use commercially available products that can be integrated
+    with an organization's existing infrastructure. The combination of these products
+    provides a converged view of all sensor data within the utility's network systems,
+    including IT, operational, cyber, and physical access control systems, which often
+    exists in separate 'silos.' The example solution is packaged as a 'how to' guide
+    that demonstrates implementation of standardsbased cybersecurity technologies
+    in the real world and based on risk management. The guide may help inform electric
+    utilities in their efforts to gain situational awareness efficiencies. Doing so
+    may enable faster monitoring, identification, and response to incidents while
+    also saving research and proof-ofconcept costs for the sector and its ratepayers
+    and customers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-7
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

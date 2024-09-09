@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1939
 title:
-- content: Detailed Study of Uncertainties in On-Wafer Transistor Noise-Parameter
-    Measurements
+- content: Detailed study of uncertainties in on-wafer transistor noise-parameter
+    measurements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1939
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1939.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1939
@@ -22,50 +21,55 @@ docid:
 - id: 10.6028/NIST.TN.1939
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James P.
-          script:
-          - Latn
-      surname:
-        content: Randa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Randa, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80021029
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Boulder
-        state: CO
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: This paper uses a Monte Carlo simulation program to explore various aspects
+    of uncertainties associated with the measurement of the noise parameters of transistors
+    on wafers. The dependence of the noise-parameter uncertainties on the different
+    input uncertainties is investigated in detail. Other issues that are considered
+    include the effect of probe losses, the importance (or not) of including input
+    terminations with reflection coefficients as near as possible to the edge of the
+    Smith chart, improvements due to inclusion of an input termination with noise
+    temperature well below ambient, and the effect of including a 'reverse' measurement.
+    We also briefly consider the case of well-matched amplifiers on wafers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1939'
 place:
-- Boulder, CO
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

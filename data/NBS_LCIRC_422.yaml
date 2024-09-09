@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC422
 title:
-- content: Letter Circular 422:the painting of structural metal (steel, galvanized
-    metal, tin plate and copper)
+- content: "\"Letter Circular 422"
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the painting of structural metal (steel, galvanized metal, tin plate and
+    copper)"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: '"Letter Circular 422 - the painting of structural metal (steel, galvanized
+    metal, tin plate and copper)"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.422
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular422.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 422
@@ -22,67 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.422
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1934'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Percy H
-          script:
-          - Latn
-      surname:
-        content: Walker
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: EF
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: EF
-          script:
-          - Latn
-      surname:
-        content: Hickson
-        script:
-        - Latn
+      completename:
+        content: '"Walker, Percy H."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1934'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '422'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

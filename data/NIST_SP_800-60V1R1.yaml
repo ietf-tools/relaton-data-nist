@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-60v1r1
 title:
-- content: Volume I :guide for mapping types of information and information systems
+- content: Volume I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: guide for mapping types of information and information systems to security
+    categories
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Volume I - guide for mapping types of information and information systems
     to security categories
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-60v1r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-60v1r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-60v1r1
@@ -22,120 +36,93 @@ docid:
 - id: 10.6028/NIST.SP.800-60v1r1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stine
+      completename:
+        content: Stine, Kevin.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009176437
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rich
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kissel
+      completename:
+        content: Kissel, Rich.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barker
+      completename:
+        content: Barker, William C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97036643
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fahlsing
+      completename:
+        content: Fahlsing, Jim.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jessica
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gulick
+      completename:
+        content: Gulick, Jessica.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Title III of the E-Government Act, titled the Federal Information Security
+    Management Act (FISMA) of 2002, tasked NIST to develop (1) standards to be used
+    by all Federal agencies to categorize information and information systems collected
+    or maintained by or on behalf of each agency based on the objectives of providing
+    appropriate levels of information security according to a range of risk levels;
+    and (2) guidelines recommending the types of information and information systems
+    to be included in each such category. Special Publication 800-60 was issued in
+    response to the second of these tasks. The revision to Volume I contains the basic
+    guidelines for mapping types of information and information systems to security
+    categories. The appendices contained in Volume I include security categorization
+    recommendations and rationale for mission-based and management and support information
+    types.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-60v1r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

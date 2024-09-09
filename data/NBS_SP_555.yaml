@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP555
 title:
 - content: Achievement in radio
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.555
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication555.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 555
@@ -21,69 +20,51 @@ docid:
 - id: 10.6028/NBS.SP.555
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Wilbert F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Snyder
+      completename:
+        content: Snyder, Wilbert F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85323347
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bragaw
+      completename:
+        content: Bragaw, Charles L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85323348
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '555'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

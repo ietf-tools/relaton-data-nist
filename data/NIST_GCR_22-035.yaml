@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR22-035
 title:
 - content: Database-assisted design of high-rise structures using ETABS software
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.22-035
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2022/NIST.GCR.22-035.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 22-035
@@ -21,73 +20,39 @@ docid:
 - id: 10.6028/NIST.GCR.22-035
   type: DOI
 date:
-- type: published
-  value: '2022-08-01'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dikshant S
-          script:
-          - Latn
-      surname:
-        content: Saini
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Saini, Dikshant S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alice
-          script:
-          - Latn
-      surname:
-        content: Alipour
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Alipour, Alice.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Behrouz
-          script:
-          - Latn
-      surname:
-        content: Shafei
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Shafei, Behrouz.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-08-01'
-script:
-- Latn
 abstract:
 - content: This User s Manual is associated with the DAD_ETABS vesion 1.0 software
     based on the Database-Assisted Design (DAD) procedure for the design of high-rise
@@ -112,16 +77,24 @@ abstract:
     any appropriate extreme value estimation tool. The DAD_ETABS version 1.0 software
     was developed for the design of steel prismatic structures with rectangular shapes
     in plan. The User s Manual includes an example of the application of the software.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: |-
+      NIST GCR; NIST grant-contract report; NIST grant contract
+                      report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 22-035
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

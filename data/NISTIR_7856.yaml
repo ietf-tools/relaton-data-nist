@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7856
 title:
-- content: Applied and Computational Mathematics Division, Summary of Activities for
-    Fiscal Year 2011
+- content: Applied and Computational Mathematics Division
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary of activities for fiscal year 2011
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Applied and Computational Mathematics Division - summary of activities
+    for fiscal year 2011
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7856
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7856.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7856
@@ -22,45 +35,41 @@ docid:
 - id: 10.6028/NIST.IR.7856
   type: DOI
 date:
-- type: published
-  value: 2012-05
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R.F.
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: R.F.
-          script:
-          - Latn
-      surname:
-        content: Boisvert
-        script:
-        - Latn
+      completename:
+        content: Boisvert, Ronald F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84012297
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Applied and Computational Mathematics Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015104603
   role:
   - type: publisher
-revdate: 2012-05
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7856'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

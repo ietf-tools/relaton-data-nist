@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1966r1
 title:
-- content: Horizontal Convective Boiling of R1234yf, R134a, and R450A within a Micro-Fin
-    Tube; Extensive Measurement and Analysis
+- content: Horizontal convective boiling of R1234yf, R134a, and R450A within a micro-fin
+    tube
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: extensive measurement and analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Horizontal convective boiling of R1234yf, R134a, and R450A within a micro-fin
+    tube - extensive measurement and analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1966r1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1966r1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1966r1
@@ -22,67 +36,78 @@ docid:
 - id: 10.6028/NIST.TN.1966r1
   type: DOI
 date:
-- type: published
-  value: '2022-04-21'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A.
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donggyu
-          script:
-          - Latn
-      surname:
-        content: Kang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kang, Donggyu.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-04-21'
-script:
-- Latn
+abstract:
+- content: 'This report presents local convective boiling heat transfer and Fanning
+    friction factor measurements in a micro-fin tube for R134a and two possible low
+    global warming potential (GWP) refrigerant replacements for R134a: R1234yf and
+    R450A. Test section heating was achieved with water in either counterflow or in
+    parallel flow with the test refrigerant to provide for a range of heat fluxes
+    for each thermodynamic quality. An existing correlation from the literature for
+    single and multi-component mixtures was shown to not satisfactorily predict the
+    convective boiling measurements for flow qualities greater than 40 %. Accordingly,
+    a new correlation was developed specifically for the test fluids of this study
+    so that a fair comparison of the heat transfer performance of the low GWP refrigerants
+    to that of R134a could be made. The new correlation was used to compare the heat
+    transfer coefficient of the three test fluids at the same heat flux, saturated
+    refrigerant temperature, and refrigerant mass flux. The resulting example comparison,
+    for the same operating conditions, showed that the heat transfer coefficient of
+    the multi-component R450A and the single-component R1234yf were, on average, 15
+    % less and 5 % less, respectively, than that of the single-component R134a. Friction
+    factor measurements were also compared to predictions from an existing correlation.
+    A new correlation for the friction factor was developed to provide a more accurate
+    prediction. The measurements and the new models are important for the evaluation
+    of potential low-GWP refrigerants replacements for R134a.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTTN1966r1
+    docid:
+    - id: NIST TN 1966r1
+      type: NIST
+    formattedref:
+      content: NIST TN 1966r1
+      format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 1966r1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

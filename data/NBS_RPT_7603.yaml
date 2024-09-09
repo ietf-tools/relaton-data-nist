@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT7603
 title:
 - content: Quarterly report for June 1, 1962 to September 1, 1962 on elastomeric seals
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.7603
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport7603.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 7603
@@ -22,135 +21,92 @@ docid:
 - id: 10.6028/NBS.RPT.7603
   type: DOI
 date:
-- type: published
-  value: '1962'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D H
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: D H
-          script:
-          - Latn
-      surname:
-        content: Weitzel
-        script:
-        - Latn
+      completename:
+        content: Weitzel, D. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P R
-          script:
-          - Latn
-          initial: P
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: P R
-          script:
-          - Latn
-      surname:
-        content: Ludtke
-        script:
-        - Latn
+      completename:
+        content: Ludtke, P. R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Y
-          script:
-          - Latn
-          initial: Y
-        formatted_initials:
-          content: Y
-          script:
-          - Latn
-      surname:
-        content: Ohori
-        script:
-        - Latn
+      completename:
+        content: Ohori, Y.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R F
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: R F
-          script:
-          - Latn
-      surname:
-        content: Robbins
-        script:
-        - Latn
+      completename:
+        content: Robbins, R. F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C F
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: C F
-          script:
-          - Latn
-      surname:
-        content: Peterson
-        script:
-        - Latn
+      completename:
+        content: Peterson, C. F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017080007
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Additional data from the experiments on force decay, sealability, thermal
+    expansion, and T are presented, together with brief discussions of the new results.
+    Trie high speed rotating seal effort has been reactivated (with partial funding
+    from another source) and machining of parts for the tester has begun. A simple
+    method for automatic recording of rebound resilience has been developed. Two papers
+    presented at the 1962 Cryogenic Engineering Conference are included.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '7603'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

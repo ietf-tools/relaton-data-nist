@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC699r1942
 title:
-- content: Letter Circular 699:electrodeposition (supersedes Letter Circular 625)
+- content: Letter Circular 699
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: electrodeposition (supersedes Letter Circular 625)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 699 - electrodeposition (supersedes Letter Circular 625)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.699r1942
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular699r1942.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 699r1942
@@ -21,33 +34,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.699r1942
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1942'
 contributor:
+- person:
+    name:
+      completename:
+        content: National Bureau of Standards.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1942'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: 699r1942
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

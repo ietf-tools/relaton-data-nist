@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB110-1
 title:
-- content: National electrical safety code Part 1. rules for the installation and
+- content: National Electrical Safety Code
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: part 1. rules for the installation and maintenance of electrical supply
+    stations and equipment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National Electrical Safety Code - part 1. rules for the installation and
     maintenance of electrical supply stations and equipment
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.110-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook110-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 110-1
@@ -22,33 +36,46 @@ docid:
 - id: 10.6028/NBS.HB.110-1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1972'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1972'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 110-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

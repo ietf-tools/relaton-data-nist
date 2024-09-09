@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8311
 title:
-- content: Ongoing Face Recognition Vendor Test (FRVT) part 6A:face recognition accuracy
-    with masks using pre-COVID-19 algorithms
+- content: Ongoing Face Recognition Vendor Test (FRVT) part 6A
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: face recognition accuracy with masks using pre-COVID-19 algorithms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Ongoing Face Recognition Vendor Test (FRVT) part 6A - face recognition
+    accuracy with masks using pre-COVID-19 algorithms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8311
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8311.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8311
@@ -22,84 +35,64 @@ docid:
 - id: 10.6028/NIST.IR.8311
   type: DOI
 date:
-- type: published
-  value: 2020-07
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mei
-          script:
-          - Latn
-      surname:
-        content: Ngan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ngan, Mei.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kayee
-          script:
-          - Latn
-      surname:
-        content: Hanaoka
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Hanaoka, Kayee
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: 2020-07
-script:
-- Latn
+abstract:
+- content: This is the first of a series of reports on the performance of face recognition
+    algorithms on faces occluded by masks, run under the Ongoing Face Recognition
+    Vendor Test (FRVT) executed by the National Institute of Standards and Technology
+    (NIST). This report documents accuracy of algorithms to recognize persons wearing
+    face masks. The algorithms tested were one-to-one algorithms submitted to the
+    FRVT 1:1 Verification track.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8311'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1951
 title:
 - content: Industrial wireless systems radio propagation measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1951
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1951.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1951
@@ -21,217 +20,128 @@ docid:
 - id: 10.6028/NIST.TN.1951
   type: DOI
 date:
-- type: published
-  value: 2017-01
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Candell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Candell, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Remley, Kate A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanne T
-          script:
-          - Latn
-      surname:
-        content: Quimby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Quimby, Jeanne T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Novotny
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Novotný, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021089922
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexandra
-          script:
-          - Latn
-      surname:
-        content: Curtin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Curtin, Alexandra.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter B
-          script:
-          - Latn
-      surname:
-        content: Papazian
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Papazian, Peter B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007083196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mohamed
-          script:
-          - Latn
-      surname:
-        content: Kashef
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kashef, Mohamed.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          script:
-          - Latn
-      surname:
-        content: Diener
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Diener, Joseph.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Communications Technology Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-01
-script:
-- Latn
+abstract:
+- content: Radio frequency (RF) propagation measurements were conducted at three facilities
+    representing a cross-section of different classes of industrial environments.
+    Selected sites included a multi-acre transmission assembly factory typical of
+    the automotive industry; a medium-sized machine shop primarily engaged in metalworking
+    located on the NIST campus in Gaithersburg; and a steam generation plant located
+    on the NIST campus in Boulder. A spread spectrum correlation sounder was used
+    to take the measurements at a continuum of points throughout the facility by fixing
+    the transmitter and moving the receiver at a constant rate throughout each facility.
+    We analyzed the data collected from the RF propagation measurements of each site.
+    Analysis is based on channel impulse response (CIR) measurements collected during
+    the measurement using equipment developed by the National Institute of Standards
+    and Technology. The results of our analysis includes a tabulated summary and detailed
+    exploration of various industry accepted channel metrics such as path loss, delay
+    spread, and K factor. Our interpretation of the measurements contributes to an
+    improved understanding of radio frequency propagation in factories and an additional
+    perspective on deploying wireless communication devices within factories. The
+    raw measurement data and analysis software is made freely available for public
+    download.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1951'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

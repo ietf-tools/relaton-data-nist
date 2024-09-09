@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7804
 title:
 - content: Technical evaluation, testing, and validatiaon of the usability of electronic
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7804
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7804.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7804
@@ -22,188 +21,121 @@ docid:
 - id: 10.6028/NIST.IR.7804
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Svetlana Z
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lowry
+      completename:
+        content: Lowry, Svetlana Z.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020085953
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Quinn, Matthew T.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022050535
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mala
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ramaiah
+      completename:
+        content: Ramaiah, Mala.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schumacher
+      completename:
+        content: Schumacher, Robert M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2009043366
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Emily S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Patterson
+      completename:
+        content: Patterson, Emily S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2010005162
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: North
+      completename:
+        content: North, Robert.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79125336
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jiajie
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zhang
+      completename:
+        content: Zhang, Jiajie.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88155373
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gibbons
+      completename:
+        content: Gibbons, Michael C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patricia
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Abbott
+      completename:
+        content: Abbott, Patricia.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2002028616
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2012'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7804'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

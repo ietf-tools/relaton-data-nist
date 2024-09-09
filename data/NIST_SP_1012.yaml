@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1012
 title:
 - content: An approach to the metrologically sound traceable assessment of the chemical
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1012
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1012.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1012
@@ -22,137 +21,83 @@ docid:
 - id: 10.6028/NIST.SP.1012
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Duewer
+      completename:
+        content: Duewer, David L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Duewer
+      completename:
+        content: Parris, Reenie M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00010703
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Reenie M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Parris
+      completename:
+        content: White, Edward V.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006050699
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: White
+      completename:
+        content: May, Willie E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80154422
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Willie E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: May
+      completename:
+        content: Elbaum, Howard.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Howard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Elbaum
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022001876
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1012'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTFIPS140-3
 title:
 - content: Security requirements for cryptographic modules
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.FIPS.140-3
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST FIPS 140-3
@@ -21,33 +20,66 @@ docid:
 - id: 10.6028/NIST.FIPS.140-3
   type: DOI
 date:
-- type: published
-  value: 2019-04
+- type: issued
+  value: '2019'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-04
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
+  role:
+  - type: publisher
+abstract:
+- content: The selective application of technological and related procedural safeguards
+    is an important responsibility of every federal organization in providing adequate
+    security in its computer and telecommunication systems. This standard is applicable
+    to all federal agencies that use cryptographic-based security systems to provide
+    adequate information security for all agency operations and assets as defined
+    in 15 U.S.C. § 278g-3. This standard shall be used in designing and implementing
+    cryptographic modules that federal departments and agencies operate or are operated
+    for them under contract. The standard provides four increasing, qualitative levels
+    of security intended to cover a wide range of potential applications and environments.
+    The security requirements cover areas related to the secure design, implementation
+    and operation of a cryptographic module. These areas include cryptographic module
+    specification; cryptographic module interfaces; roles, services, and authentication;
+    software/firmware security; operating environment; physical security; non-invasive
+    security; sensitive security parameter management; self-tests; life-cycle assurance;
+    and mitigation of other attacks.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: 140-3
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

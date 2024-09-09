@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2236
 title:
 - content: Evaluation of DAD_ETABS procedure and software for the design of high-rise
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2236
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2236.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2236
@@ -22,73 +21,39 @@ docid:
 - id: 10.6028/NIST.TN.2236
   type: DOI
 date:
-- type: published
-  value: '2022-10-03'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sophie
-          script:
-          - Latn
-      surname:
-        content: Sisson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sisson, Sophie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mehedy
-          script:
-          - Latn
-      surname:
-        content: Mashnad
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mashnad, Mehedy.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory
   role:
   - type: publisher
-revdate: '2022-10-03'
-script:
-- Latn
 abstract:
 - content: The National Institute of Standards and Technology has developed advanced
     Database-Assisted Design (DAD) procedures for the design of structural members
@@ -105,16 +70,22 @@ abstract:
     for routine use in structural engineering design practice is then presented, followed
     by a set of recommendations on future work aimed at enhancing the software's capabilities
     as a widely used practical design tool.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2236'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

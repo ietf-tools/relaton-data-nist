@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-24
 title:
-- content: PBX vulnerability analysis :finding holes in your PBX before someone else
+- content: PBX vulnerability analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: finding holes in your PBX before someone else does
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: PBX vulnerability analysis - finding holes in your PBX before someone else
     does
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-24
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-24.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-24
@@ -22,56 +35,55 @@ docid:
 - id: 10.6028/NIST.SP.800-24
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kuhn
+      completename:
+        content: Kuhn, D. Richard.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85246800
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'This report presents a generic methodology for conducting an analysis
+    of a Private Branch Exchange (PBX) in order to identify security vulnerabilities.
+    The report focuses on digital-based PBXs and addresses the following areas for
+    study: System Architecture; Hardware; Maintenance; Administrative Database/Software;
+    and User Features. The methods described in this report are designed to assist
+    administrators in conducting this type of testing. Computer based telephony systems
+    and new techniques such as voice over IP (VOIP) present an entirely new collection
+    of vulnerabilities and are not addressed in this report. However, some of the
+    evaluation methods described here may be applied to these systems as well.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-24
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

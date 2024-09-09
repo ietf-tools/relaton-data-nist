@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6969-2018
 title:
 - content: Selected laboratory and measurement practices and procedures to support
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6969-2018
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.6969-2018.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6969-2018
@@ -22,50 +21,51 @@ docid:
 - id: 10.6028/NIST.IR.6969-2018
   type: DOI
 date:
-- type: published
-  value: '2018-02-07'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Georgia L
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Harris, Georgia L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91104296
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: '2018-02-07'
-script:
-- Latn
+abstract:
+- content: This publication contains good laboratory practices, good measurement practices,
+    and standard operating procedures to support the Basic Mass CD-ROM (SP 1001, SP
+    1001-S) and the Office of Weights and Measures Mass Metrology Seminar. It contains
+    previously published materials from NIST Handbook 145 (1986) and the prior editions
+    of NISTIR 6969 (2003, 2012, 2014).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 6969-2018
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

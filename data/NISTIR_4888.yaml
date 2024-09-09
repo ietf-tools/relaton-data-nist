@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4888
 title:
-- content: NIST support to the next generation controller program:1991 final technical
+- content: NIST support to the next generation controller program
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 1991 final technical report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST support to the next generation controller program - 1991 final technical
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4888
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4888.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4888
@@ -22,124 +35,93 @@ docid:
 - id: 10.6028/NIST.IR.4888
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James S
-          script:
-          - Latn
-      surname:
-        content: Albus
-        script:
-        - Latn
+      completename:
+        content: Albus, James Sacra.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81084213
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Quintero
-        script:
-        - Latn
+      completename:
+        content: Quintero, Richard.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022075515
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Frederick
-          script:
-          - Latn
-      surname:
-        content: Proctor
-        script:
-        - Latn
+      completename:
+        content: Proctor, Frederick.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Michaloski
-        script:
-        - Latn
+      completename:
+        content: Michaloski, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: Dagalakis
-        script:
-        - Latn
+      completename:
+        content: Dagalakis, Nicholas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nicholas
-          script:
-          - Latn
-      surname:
-        content: Tarnoff
-        script:
-        - Latn
+      completename:
+        content: Tarnoff, Nicholas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          script:
-          - Latn
-      surname:
-        content: Kramer
-        script:
-        - Latn
+      completename:
+        content: Kramer, Thomas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88277686
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4888'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR21-917-48v2B
 title:
 - content: Seismic design of archetype steel buildings in central and eastern United
-    States :volume 2B - 7-story healthcare building in Long Island, New York supplementary
+    States
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: volume 2B - 7-story healthcare building in Long Island, New York supplementary
     documentation
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-part
+- content: Seismic design of archetype steel buildings in central and eastern United
+    States - volume 2B - 7-story healthcare building in Long Island, New York supplementary
+    documentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.21-917-48v2B
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2021/NIST.GCR.21-917-48v2B.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 21-917-48v2B
@@ -23,46 +38,34 @@ docid:
 - id: 10.6028/NIST.GCR.21-917-48v2B
   type: DOI
 date:
-- type: published
-  value: '2021-09-01'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Harris, John L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-09-01'
-script:
-- Latn
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 21-917-48v2B
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

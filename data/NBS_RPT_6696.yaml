@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6696
 title:
-- content: Report on dental research at the National Bureau of Standards:progress
+- content: Report on dental research at the National Bureau of Standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report July 1 to December 31, 1960
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Report on dental research at the National Bureau of Standards - progress
     report July 1 to December 31, 1960
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6696
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6696.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6696
@@ -22,33 +35,33 @@ docid:
 - id: 10.6028/NBS.RPT.6696
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1960'
 contributor:
+- person:
+    name:
+      completename:
+        content: Dental Research Laboratory.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1960'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6696'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

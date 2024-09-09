@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8256
 title:
-- content: Measurement of airborne emissions from extinguished cigarettes:final report
+- content: Measurement of airborne emissions from extinguished cigarettes
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: final report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Measurement of airborne emissions from extinguished cigarettes - final
+    report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8256
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8256.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8256
@@ -21,67 +35,68 @@ docid:
 - id: 10.6028/NIST.IR.8256
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Dustin
-          script:
-          - Latn
-      surname:
-        content: Poppendieck
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Poppendieck, Dustin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mengyan
-          script:
-          - Latn
-      surname:
-        content: Gong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gong, Mengyan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: 'Three series of experiments were conducted in this study. First, studies
+    were performed to the determine the relative distributions of the target chemicals
+    in freshly smoked butts by analyzing six types of samples consisting of different
+    parts of the butts, i.e. filter, tobacco and ash. Each sample was analyzed using
+    headspace-thermal desorption (TD) gas-chromatograph- mass spectrometry (GC-MS).
+    The goal of the headspace analysis was not to fully extract all chemicals remaining
+    on the cigarette butt, rather to provide a consistent basis to compare chemical
+    emissions into the air from the cigarette butts. Second, the butts were placed
+    in a range of controlled conditioning environments for 2 h to 144 h to examine
+    the influence of various factors on emissions: temperature, relative humidity,
+    ultraviolet (UV) radiation, water saturation and air change rate. Butts were also
+    conditioned outdoors in summer and winter seasons to understand butt emissions
+    in real environments. After conditioning, each cigarette butt was also analyzed
+    using headspace-TD-GC-MS. Lastly, a set of experiments was conducted to measure
+    the chemical emission rates from cigarette butts in a walk-in chamber. Air samples
+    were collected from the chamber up to 24 h after butts were placed in the walk-in
+    chamber and were analyzed using TD-GC-MS.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8256'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

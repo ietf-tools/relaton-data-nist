@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4971
 title:
 - content: Asymptotic behavior of modulated Taylor-Couette flows with a crystalline
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4971
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4971.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4971
@@ -22,117 +21,75 @@ docid:
 - id: 10.6028/NIST.IR.4971
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1992'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B T
-          script:
-          - Latn
-          initial: B
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: B T
-          script:
-          - Latn
-      surname:
-        content: Murray
-        script:
-        - Latn
+      completename:
+        content: Braun, R. J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S R
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: S R
-          script:
-          - Latn
-      surname:
-        content: Coriell
-        script:
-        - Latn
+      completename:
+        content: McFadden, G. B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M E
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: M E
-          script:
-          - Latn
-      surname:
-        content: Glicksman
-        script:
-        - Latn
+      completename:
+        content: Murray, B. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M E
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: M E
-          script:
-          - Latn
-      surname:
-        content: Selleck
-        script:
-        - Latn
+      completename:
+        content: Coriell, S. R.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Glicksman, M. E.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Selleck, M. E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1992'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4971'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

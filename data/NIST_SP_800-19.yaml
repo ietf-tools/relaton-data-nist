@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-19
 title:
 - content: Mobile agent security
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-19
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-19.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-19
@@ -21,77 +20,66 @@ docid:
 - id: 10.6028/NIST.SP.800-19
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1999'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Wayne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jansen
+      completename:
+        content: Jansen, Wayne.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tom
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Karygiannis
+      completename:
+        content: Karygiannis, Tom.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007053177
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1999'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Mobile agent technology offers a new computing paradigm in which a program,
+    in the form of a software agent, can suspend its execution on a host computer,
+    transfer itself to another agent-enabled host on the network, and resume execution
+    on the new host. The use of mobile code has a long history dating back to the
+    use of remote job entry systems in the 1960's. Today's agent incarnations can
+    be characterized in a number of ways ranging from simple distributed objects to
+    highly organized software with embedded intelligence. As the sophistication of
+    mobile software has increased over time, so too have the associated threats to
+    security. This report provides an overview of the range of threats facing the
+    designers of agent platforms and the developers of agent-based applications. The
+    report also identifies generic security objectives, and a range of measures for
+    countering the identified threats and fulfilling these security objectives.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-19
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

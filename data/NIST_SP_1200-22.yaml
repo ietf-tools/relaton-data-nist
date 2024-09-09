@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1200-22
 title:
 - content: Challenges and approaches for particle size analysis on micrographs of
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1200-22
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1200-22.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1200-22
@@ -22,67 +21,70 @@ docid:
 - id: 10.6028/NIST.SP.1200-22
   type: DOI
 date:
-- type: published
-  value: 2017-05
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Samuel J
-          script:
-          - Latn
-      surname:
-        content: Underwood
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Underwood, Samuel J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Justin M
-          script:
-          - Latn
-      surname:
-        content: Gorham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Gorham, Justin M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2017-05
-script:
-- Latn
+abstract:
+- content: This NIST Special Publication (SP) is one in a series of NIST SPs that
+    address research needs articulated in the National Nanotechnology Initiative (NNI)
+    Environmental, Health, and Safety Research Strategy published in 2011[1]. This
+    Strategy identified a Nanomaterial Measurement Infrastructure (NMI) as essential
+    for science-based risk assessment and risk management of nanotechnology-enabled
+    products as pertaining to human health, exposure, and the environment. NIST was
+    identified as the lead federal agency in the NMI core research area of the Strategy.
+    This research area includes development of measurement tools for the detection
+    and characterization of engineered nanomaterials in nanotechnology-enabled products.
+    Textiles containing silver nanoparticles are consumer products of great interest
+    for nanotechnology environmental, health, and safety (nano-EHS) research and for
+    product regulation. Detection and characterization of these nanomaterials is a
+    focus of this SP The protocol in this SP describes challenges and solutions for
+    acquiring and analyzing microscope images of nanoparticles to give particle size
+    distributions. An example methodology is also proposed which is designed to be
+    high throughput and internally consistent while minimizing the number of subjective
+    choices. While this protocol was developed with the AgNP- loaded textile system
+    in mind, the strategies described herein could be applied to particles of any
+    size, and the required micrographs could be gathered via SEM, TEM, light microscopy,
+    or myriad other techniques
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1200-22
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

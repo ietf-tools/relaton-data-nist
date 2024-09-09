@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5593
 title:
 - content: Coincidence phase detector for special control applications
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5593
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5593.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5593
@@ -21,72 +20,77 @@ docid:
 - id: 10.6028/NBS.RPT.5593
   type: DOI
 date:
-- type: published
-  value: 1958-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Donald M
-          script:
-          - Latn
-      surname:
-        content: Waters
-        script:
-        - Latn
+      completename:
+        content: Waters, Donald M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donald P
-          script:
-          - Latn
-      surname:
-        content: Harris
-        script:
-        - Latn
+      completename:
+        content: Harris, Donald P.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006084653
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Moody C Jr
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        script:
-        - Latn
+      completename:
+        content: Thompson, Moody C. Jr.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1958-07
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: This report describes a phase detector circuit capable of providing a large
+    DC output voltage isolated from ground. The Circuit employs a gated beam vacuum
+    tube or similar coincidence device to produce a carrier signal amplitude-modulated
+    as a function of the relative phase shift between two input signals. The resulting
+    carrier may be coupled across any desired DC potential, and then demodulated with
+    a simple AM detector. Output voltages as high as 500 volts have been obtained
+    with the circuit.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5593'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

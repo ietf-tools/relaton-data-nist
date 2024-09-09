@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7203
 title:
 - content: Spaceborn optoelectronic sensors and their radiometric calibration. terms
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7203
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7203.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7203
@@ -22,137 +21,104 @@ docid:
 - id: 10.6028/NIST.IR.7203
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Alexander V
-          script:
-          - Latn
-      surname:
-        content: Prokhorov
-        script:
-        - Latn
+      completename:
+        content: Prokhorov, Alexander V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015087280
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raju U
-          script:
-          - Latn
-      surname:
-        content: Dalta
-        script:
-        - Latn
+      completename:
+        content: Dalta, Raju U.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vitaly P
-          script:
-          - Latn
-      surname:
-        content: Zakharenkov
-        script:
-        - Latn
+      completename:
+        content: Zakharenkov, Vitaly P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victor
-          script:
-          - Latn
-      surname:
-        content: Privalsky
-        script:
-        - Latn
+      completename:
+        content: Privalʹskiĭ, V. E. (Viktor Evseevich)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83186481
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas W
-          script:
-          - Latn
-      surname:
-        content: Humpherys
-        script:
-        - Latn
+      completename:
+        content: Humpherys, Thomas W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victor I
-          script:
-          - Latn
-      surname:
-        content: Sapritsky
-        script:
-        - Latn
+      completename:
+        content: Sapritsky, Victor I.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Albert C
-          script:
-          - Latn
-      surname:
-        content: Parr
-        script:
-        - Latn
+      completename:
+        content: Parr, A. C. (Albert C.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97109332
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lev K
-          script:
-          - Latn
-      surname:
-        content: Issaev
-        script:
-        - Latn
+      completename:
+        content: Isaev, L. K.,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n00002376
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7203'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1968
 title:
 - content: Pool boiling of low-GWP replacements for R134a on a reentrant cavity surface;
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1968
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1968.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1968
@@ -22,84 +21,79 @@ docid:
 - id: 10.6028/NIST.TN.1968
   type: DOI
 date:
-- type: published
-  value: 2017-10
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark A
-          script:
-          - Latn
-      surname:
-        content: Kedzierski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kedzierski, Mark A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00026878
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lingnan
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, Lingnan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donggyu
-          script:
-          - Latn
-      surname:
-        content: Kang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kang, Donggyu.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022038785
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-10
-script:
-- Latn
+abstract:
+- content: This paper quantifies the pool boiling performance of R134a, R1234yf, R513A,
+    and R450A on a flattened, horizontal Turbo-ESP surface. The study showed that
+    the boiling performance of R134a on the Turbo-ESP exceeded that of the replacement
+    refrigerants for heat fluxes greater than 20 kWm-2. On average, the heat flux
+    for R1234yf and R513A was 16 % and 19 % less than that for R134a, respectively,
+    for R134a heat fluxes between 20 kWm-2 and 110 kWm-2. The heat flux for R450A
+    was on average 57 % less than that of R134a for heat fluxes between 30 kWm-2 and
+    110 kWm-2. A model was developed to predict both single-component and multi-component
+    pool boiling of the test refrigerants on the Turbo-ESP surface. The model accounts
+    for viscosity effects on bubble population and uses the Fritz (1935) equation
+    to account for increased vapor production with increasing superheat. Both loss
+    of available superheat and mass transfer resistance effects were modeled for the
+    refrigerant mixtures. For most heat fluxes, the model predicted the measured superheat
+    to within ± 0.31 K.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1968'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

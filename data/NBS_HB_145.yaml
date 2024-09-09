@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSHB145
 title:
 - content: Handbook for the quality assurance of metrological measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.HB.145
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook145.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS HB 145
@@ -21,59 +20,59 @@ docid:
 - id: 10.6028/NBS.HB.145
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John K
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        script:
-        - Latn
+      completename:
+        content: Taylor, John K. (John Keenan),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85051338
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Henry V
-          script:
-          - Latn
-      surname:
-        content: Opperman
-        script:
-        - Latn
+      completename:
+        content: Opperman, Henry V.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022066583
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1986'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Handbooks
+    content: NBS handbook; NBS HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: '145'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

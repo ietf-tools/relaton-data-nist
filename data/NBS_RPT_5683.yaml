@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5683
 title:
 - content: Use of a D.C. amplifier and recorder to balance a high precision resistance
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5683
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5683.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5683
@@ -22,88 +21,80 @@ docid:
 - id: 10.6028/NBS.RPT.5683
   type: DOI
 date:
-- type: published
-  value: 1957-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George T
-          script:
-          - Latn
-      surname:
-        content: Armstrong
-        script:
-        - Latn
+      completename:
+        content: Armstrong, George Thomson,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81040759
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P K
-          script:
-          - Latn
-          initial: P
-        - script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: P K
-          script:
-          - Latn
-      surname:
-        content: Wong
-        script:
-        - Latn
+      completename:
+        content: Wong, P. K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009146058
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L A
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: L A
-          script:
-          - Latn
-      surname:
-        content: Krieger
-        script:
-        - Latn
+      completename:
+        content: Krieger, L. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1957-10
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: By taking corrective action for electrical noise deriving from thermal
+    agitation, alternating current pickup, and induced electrostatic charges, it has
+    been possible to use a commercially available high gain d. c. amplifier and a
+    recorder to balance a G-3 Mueller Bridge. Noise levels below 0. 01 microvolt peak
+    to peak were observed with a response time of approximately five seconds. A precision
+    of approximately two microhms was obtained in measuring a ten ohm resistor in
+    a short series of measurements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5683'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

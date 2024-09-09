@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR86-3414
 title:
-- content: A computer code for gas-liquid two-phase vortex motions :GLVM
+- content: A computer code for gas-liquid two-phase vortex motions
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: GLVM
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: A computer code for gas-liquid two-phase vortex motions - GLVM
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.86-3414
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir86-3414.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 86-3414
@@ -21,64 +34,40 @@ docid:
 - id: 10.6028/NBS.IR.86-3414
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T T
-          language:
-          - en
-          script:
-          - Latn
-          initial: T
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yeh
+      completename:
+        content: Yeh, T. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no90008984
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 86-3414
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

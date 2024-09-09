@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1916
 title:
 - content: Methods for characterizing a radiation detector for specifying radiation
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1916
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1916.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1916
@@ -22,127 +21,97 @@ docid:
 - id: 10.6028/NIST.TN.1916
   type: DOI
 date:
-- type: published
-  value: 2016-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A. L.
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: A. L.
-          script:
-          - Latn
-      surname:
-        content: Sallaska
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sallaska, Anne L. (Anne Louise),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011116860
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L.
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          script:
-          - Latn
-      surname:
-        content: Pibida
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Minniti, B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B.
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: B.
-          script:
-          - Latn
-      surname:
-        content: Minniti
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: O'Brien, C. M. (Carl M.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003017095
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C. M.
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: C. M.
-          script:
-          - Latn
-      surname:
-        content: O'Brien
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Pibida, Leticia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022071928
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-04
-script:
-- Latn
+abstract:
+- content: A wide variability exists among commercial radiation detection instruments
+    used to measure exposure rate or ambient dose equivalent rate. These instruments
+    are used to measure both the radiation background and the radiation field produced
+    by radioactive sources that are used to test other types of radiation detection
+    systems against different consensus document standards. Most radiation fields
+    specified in the ANSI standard are quite low, ranging from 0.05 Sv/h to 0.5 Sv/h
+    above background. Due to the radiation fields being so low in intensity, the uncertainty
+    of the measurements made with these instruments can be potentially quite large.
+    As a result of these large uncertainties, it is possible that the response of
+    the various parameters being tested by the standards (e.g., alarm indication,
+    radionuclide identification) will be dependent on the specific radiation detector
+    employed by the testing laboratory. In this work, we used two different methods
+    to set the radiation fields to analyze the differences that can be expected. One
+    method is based on measurements performed with a high pressure ion chamber while
+    the second method is based on calculating the radiation fields from a known source
+    activity using a point source estimate. The sources of uncertainties in both methods
+    are identified and are reflected in the differences that can be expected in setting
+    the radiation fields. In order to achieve consistency across different testing
+    laboratories in setting radiation fields, we provide insight to what are the most
+    relevant factors that affect the determination of the field using either one of
+    the two methods.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1916'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

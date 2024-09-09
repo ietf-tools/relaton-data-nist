@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7071
 title:
-- content: Modeling and simulation for emergency response:workshop report, standards
+- content: Modeling and simulation for emergency response
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: workshop report, standards and tools
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Modeling and simulation for emergency response - workshop report, standards
     and tools
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7071
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7071.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7071
@@ -22,59 +35,33 @@ docid:
 - id: 10.6028/NIST.IR.7071
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sanjay
-          script:
-          - Latn
-      surname:
-        content: Jain
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Charles R
-          script:
-          - Latn
-      surname:
-        content: McLean
-        script:
-        - Latn
+      completename:
+        content: Jain, Sanjay.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7071'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

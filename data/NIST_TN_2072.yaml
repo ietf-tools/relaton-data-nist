@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2072
 title:
 - content: Airflow and indoor air quality models of DOE prototype commercial buildings
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2072
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2072.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2072
@@ -21,101 +20,105 @@ docid:
 - id: 10.6028/NIST.TN.2072
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa C
-          script:
-          - Latn
-      surname:
-        content: Ng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Ng, Lisa C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022064506
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Amy
-          script:
-          - Latn
-      surname:
-        content: Musser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Musser, Amy.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015170653
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew K
-          script:
-          - Latn
-      surname:
-        content: Persily
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Persily, Andrew K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-9542-3318"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven J
-          script:
-          - Latn
-      surname:
-        content: Emmerich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Emmerich, Steven J. (Steven John)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003076634
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: A previous report, NIST Technical Note 1734, Airflow and Indoor Air Quality
+    Models of DOE Reference Commercial Buildings [1], detailed the CONTAM models of
+    the 16 U. S. Department of Energy (DOE) reference commercial building models [2].
+    DOE developed the EnergyPlus building models for use in assessing new technologies
+    and supporting the development of energy codes in pursuing building energy efficiency
+    improvements. The DOE commercial reference buildings were developed to represent
+    buildings that were constructed before 1980, constructed between 1980-2003, and
+    constructed in 2004. Further details on the DOE reference building models can
+    be found in Deru, et al. (2). Since the release of the DOE reference building
+    models, updates have been made by Pacific Northwest National Laboratory (PNNL)
+    so that the modeled buildings comply with newer versions of ASHRAE Standard 90.1
+    Energy Standard for Buildings Except Low-Rise Residential Buildings [3] and the
+    International Energy Conservation Code (IECC) [4]. These building models are referred
+    to as the prototype buildings, rather than the reference buildings. Thus, NIST
+    Technical Note 1734 is updated in this report to reflect the changes to the CONTAM
+    models to match the prototype buildings that comply with ASHRAE Standard 90.1-2013.
+    Updates to the NIST Technical Note 1734 are denoted by red text in this document.
+    In general, the building geometry and layout of the prototype buildings are the
+    same as the reference buildings, with minor changes to the layout of the Large
+    Office only. In addition, both the reference and prototype building models contain
+    16 building types. However, the reference buildings include a Supermarket while
+    the prototype buildings include a Highrise Apartment. DOE did not provide reasoning
+    for excluding a Supermarket from the prototype set [5]. All CONTAM models of the
+    prototype buildings required updates to the building envelope airtightness, ventilation
+    airflow rates, ventilation system operation, occupancy, and thermostat setpoint
+    schedules.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2072'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

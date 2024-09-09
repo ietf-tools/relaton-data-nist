@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2053
 title:
 - content: Users guide to Type277 loosely-coupled integration of TRNSYS with Java
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2053
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2053.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2053
@@ -21,50 +20,55 @@ docid:
 - id: 10.6028/NIST.TN.2053
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Farhad
-          script:
-          - Latn
-      surname:
-        content: Omar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Omar, Farhad.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022066522
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to provide instructions for using a newly
+    developed TRNSYS component (Type277). Type277 utilizes socket communication to
+    provide loosely-coupled integration between TRNSYS and Java-based components.
+    Bi-directional flow of information is facilitated using the client-server architecture
+    of Java. Type277 is compiled as both a 32-bit and 64-bit dynamic link library
+    to support co-simulation with TRNSYS17 and TRNSYS18 projects. An application of
+    Type277 is demonstrated by modifying an example TRNSYS project. The Java project
+    and files, TRNSYS modified example projects, and Type277 dynamic link libraries
+    are being made available to the public through the NIST GitHub site.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2053'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

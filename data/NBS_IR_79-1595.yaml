@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR79-1595
 title:
-- content: CMOSSOS test patterns for process evaluation and control :annual report,
+- content: CMOS/SOS test patterns for process evaluation and control
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: annual report, March 1 to November 1, 1978
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: CMOS/SOS test patterns for process evaluation and control - annual report,
     March 1 to November 1, 1978
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.79-1595
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir79-1595.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 79-1595
@@ -22,52 +35,40 @@ docid:
 - id: 10.6028/NBS.IR.79-1595
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Loren W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Linholm
+      completename:
+        content: Linholm, Loren W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81036098
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 79-1595
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

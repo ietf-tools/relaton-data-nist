@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7879
 title:
-- content: Statistical Analysis of Reader Measurement Variability in Nodule Sizing
-    with CT Phantom Imaging Data
+- content: Statistical analysis of reader measurement variability in nodule sizing
+    with CT phantom imaging data
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7879
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7879.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7879
@@ -22,323 +21,36 @@ docid:
 - id: 10.6028/NIST.IR.7879
   type: DOI
 date:
-- type: published
-  value: 2012-11
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Zhan-Qian John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lu
+      completename:
+        content: Lu, Zhan-Qian John.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fenimore
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Nicholas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Petrick
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Rongping
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zeng
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Marios A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gavrielides
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clunie
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Kristin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Borradaile
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Robert
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ford
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Hyun J. Grace
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kim
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael F.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McNitt-Gray
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Binsheng
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zhao
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Andrew J.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Buckler
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-    - organization:
-        name:
-        - content: Information Access Division, Information Technology Laboratory
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-11
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7879'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

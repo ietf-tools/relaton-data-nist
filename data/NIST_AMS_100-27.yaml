@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-27
 title:
 - content: Influence of optical system operation on stability of single tracks in
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-27
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-27.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-27
@@ -22,153 +21,103 @@ docid:
 - id: 10.6028/NIST.AMS.100-27
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ivan
-          script:
-          - Latn
-      surname:
-        content: Zhirnov
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zhirnov, Ivan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Igor
-          script:
-          - Latn
-      surname:
-        content: Yadroitsev
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yadroitsev, Igor.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          script:
-          - Latn
-      surname:
-        content: Lane
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lane, Brandon.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sergey
-          script:
-          - Latn
-      surname:
-        content: Mekhontsev
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Mekhontsev, Sergey.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Grantham, Steven.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ina
-          script:
-          - Latn
-      surname:
-        content: Yadroitsava
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yadroitsava, Ina.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: 'Additive manufacturing (AM) technologies are increasingly being studied
+    and introduced into the modern industry, but for wide applications there exists
+    some ''lack of confidence'' about the quality of the parts produced by AM. This
+    distrust has an objective basis: it was shown that the final 3D object is a superposition
+    of a huge number of tracks and layers, and deviations from the optimal process
+    parameters can lead to non-regular shape, unmelted places (lack of fusion) and
+    porosity. Experiments with different bare substrates were performed to classify
+    instabilities and artifacts in single tracks derived from laser beam characteristics,
+    the optical system, scanning strategy, etc. demonstrating an adjustment scheme
+    for testing and verifying LPBF equipment. An important point is that this research
+    can be useful for the custom experimental setup. The paper describes the importance
+    of checking the system before each build to identify problems caused by optical
+    system operation. Also, possible deviations from the stable process, methods of
+    their diagnostics and solutions are described. The proposed method is a cost-free
+    way to diagnose the stability of the selective laser melting, which does not imply
+    the necessity of having additional systems for detecting problems. The diagnostic
+    scheme was used to evaluate in situ diagnostics of the LPBF processes on the Additive
+    Manufacturing Metrology Testbed (AMMT) at the National Institute of Standards
+    and Technology (NIST).'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-27
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

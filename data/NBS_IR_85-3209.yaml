@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR85-3209
 title:
 - content: Radiation measurements on a portable 1.5 MeV electron linac
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.85-3209
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3209.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 85-3209
@@ -21,114 +20,69 @@ docid:
 - id: 10.6028/NBS.IR.85-3209
   type: DOI
 date:
-- type: published
-  value: 1985-01
+- type: issued
+  value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C E
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: C E
-          script:
-          - Latn
-      surname:
-        content: Dick
-        script:
-        - Latn
+      completename:
+        content: Dick, C. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016028
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          script:
-          - Latn
-      surname:
-        content: Polansky
-        script:
-        - Latn
+      completename:
+        content: Polansky, D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C G
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: C G
-          script:
-          - Latn
-      surname:
-        content: Soares
-        script:
-        - Latn
+      completename:
+        content: Soares, C. G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85075091
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S M
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: S M
-          script:
-          - Latn
-      surname:
-        content: Seltzer
-        script:
-        - Latn
+      completename:
+        content: Seltzer, Stephen M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82209458
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 1985-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3209
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO25-12
 title:
-- content: Standard x-ray diffraction powder patterns :section 12- data for 57 substances
+- content: Standard x-ray diffraction powder patterns
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: section 12- data for 57 substances
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard x-ray diffraction powder patterns - section 12- data for 57 substances
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.25-12
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph25-12.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 25-12
@@ -21,154 +34,94 @@ docid:
 - id: 10.6028/NBS.MONO.25-12
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1975'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Howard F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McMurdie
+      completename:
+        content: McMurdie, Howard F.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82044746
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marlene C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Morris
+      completename:
+        content: Morris, Marlene C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81112301
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eloise H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Evans
+      completename:
+        content: Evans, Eloise H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Boris
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Paretzkin
+      completename:
+        content: Paretzkin, Boris.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Johan H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: de Groot
+      completename:
+        content: de Groot, Johan H.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Camden R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hubbard
+      completename:
+        content: Hubbard, Camden R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Simon J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carmel
+      completename:
+        content: Carmel, Simon J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2020068157
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1975'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: 25-12
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

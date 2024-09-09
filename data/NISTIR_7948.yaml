@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7948
 title:
-- content: 'IREX VI : Temporal Stability of Iris Recognition Accuracy'
+- content: IREX VI
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: temporal stability of iris recognition accuracy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: IREX VI - temporal stability of iris recognition accuracy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7948
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7948.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7948
@@ -21,149 +34,85 @@ docid:
 - id: 10.6028/NIST.IR.7948
   type: DOI
 date:
-- type: published
-  value: 2013-07
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: P.
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P.
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J. R.
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: J. R.
-          script:
-          - Latn
-      surname:
-        content: Matey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Matey, Jim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003012277
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E.
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: E.
-          script:
-          - Latn
-      surname:
-        content: Tabassi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Tabassi, Elham.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148717
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G. W.
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: G. W.
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Quinn, George W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151236
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M.
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M.
-          script:
-          - Latn
-      surname:
-        content: Chumakov
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Chumakov, Michael P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020151270
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Information Access Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011180823
   role:
   - type: publisher
-revdate: 2013-07
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7948'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

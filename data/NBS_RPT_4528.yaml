@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4528
 title:
 - content: Spectrophotometric and colorimetric record of some leaves of trees, vegetation,
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4528
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4528.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4528
@@ -22,72 +21,49 @@ docid:
 - id: 10.6028/NBS.RPT.4528
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1956'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harry J
-          script:
-          - Latn
-      surname:
-        content: Keegan
-        script:
-        - Latn
+      completename:
+        content: Keegan, Harry J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wiley A, Jr
-          script:
-          - Latn
-      surname:
-        content: Hall
-        script:
-        - Latn
+      completename:
+        content: Hall, Wiley A., Jr.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gladys M
-          script:
-          - Latn
-      surname:
-        content: Haas
-        script:
-        - Latn
+      completename:
+        content: Haas, Gladys M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1956'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4528'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

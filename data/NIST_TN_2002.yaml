@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2002
 title:
-- content: 'NIST special database 301: nail to nail fingerprint challenge dry run'
+- content: NIST special database 301
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: nail to nail fingerprint challenge dry run
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST special database 301 - nail to nail fingerprint challenge dry run
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2002
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2002
@@ -21,118 +34,96 @@ docid:
 - id: 10.6028/NIST.TN.2002
   type: DOI
 date:
-- type: published
-  value: 2018-07
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory
-          script:
-          - Latn
-      surname:
-        content: Fiumara
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Fiumara, Gregory.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patricia
-          script:
-          - Latn
-      surname:
-        content: Flanagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Flanagan, Patricia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148726
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Schwarz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Schwarz, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148759
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elham
-          script:
-          - Latn
-      surname:
-        content: Tabassi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Tabassi, Elham.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020148717
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          script:
-          - Latn
-      surname:
-        content: Boehnen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory.
+      completename:
+        content: Boehnen, Christopher.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020149143
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-07
-script:
-- Latn
+abstract:
+- content: In April 2017, the Intelligence Advanced Research Projects Activity (IARPA)
+    held a dry run for the data collection portion of its Nail to Nail (N2N) Fingerprint
+    Challenge. This data collection event was designed to ensure that the real data
+    collection event held in September 2017 would be successful. To this end, real
+    biometric data from unhabituated individuals needed to be collected. The National
+    Institute of Standards and Technology (NIST), on behalf of IARPA, has released
+    a dataset of the biometric images obtained during the N2N Fingerprint Challenge
+    dry run data collection. The image distribution, entitled Special Database 301
+    (SD 301), can be freely downloaded from the NIST website.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2002'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

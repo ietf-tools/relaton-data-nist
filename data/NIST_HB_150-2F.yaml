@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-2F
 title:
 - content: 'National voluntary laboratory accreditation program: calibration laboratories;
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-2F
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nisthandbook150-2F.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-2F
@@ -22,67 +21,47 @@ docid:
 - id: 10.6028/NIST.HB.150-2F
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C D
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: C D
-          script:
-          - Latn
-      surname:
-        content: Faison
-        script:
-        - Latn
+      completename:
+        content: Faison, C. D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carroll S
-          script:
-          - Latn
-      surname:
-        content: Brickenkamp
-        script:
-        - Latn
+      completename:
+        content: Brickenkamp, C. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81140869
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-script:
-- Latn
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-2F
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1239-1
 title:
-- content: 'NIST conference papers fiscal year 2017:volume 1: Engineering Laboratory'
+- content: NIST conference papers fiscal year 2017
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'volume 1: Engineering Laboratory'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'NIST conference papers fiscal year 2017 - volume 1: Engineering Laboratory'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1239-1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1239-1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1239-1
@@ -21,84 +34,78 @@ docid:
 - id: 10.6028/NIST.SP.1239-1
   type: DOI
 date:
-- type: published
-  value: 2019-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrea
-          script:
-          - Latn
-      surname:
-        content: Medina-Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Medina-Smith, Andrea.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1217-701X"
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kathryn
-          script:
-          - Latn
-      surname:
-        content: Miller
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Miller, Kathryn.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-8005-089X"
   role:
-  - type: editor
+  - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Wick
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Wick, Karen.
+        language:
+        - en
   role:
-  - type: editor
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-08
-script:
-- Latn
+abstract:
+- content: NIST is committed to the idea that results of federally funded research
+    are a valuable national resource and a strategic asset. To the extent feasible
+    and consistent with law, agency mission, resource constraints, and U.S. national,
+    homeland, and economic security, NIST will promote the deposit of scientific data
+    arising from unclassified research and programs, funded wholly or in part by NIST,
+    except for Standard Reference Data, free of charge in publicly accessible databases.
+    Subject to the same conditions and constraints listed above, NIST also intends
+    to make freely available to the public, in publicly accessible repositories, all
+    peer-reviewed scholarly publications arising from unclassified research and programs
+    funded wholly or in part by NIST. This Special Publication represents the work
+    of Engineering Laboratory researchers at professional conferences, as reported
+    in Fiscal Year 2017. More information on public access to NIST research is available
+    at https://www.nist.gov/open.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1239-1
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

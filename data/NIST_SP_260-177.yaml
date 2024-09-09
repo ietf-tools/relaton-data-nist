@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-177
 title:
-- content: 'Standard Reference Materials(R) User''s Guide for RM 8096 and 8097: The
-    MEMS 5-in-1, 2013 Edition'
+- content: Standard Reference Materials(R) User's Guide for RM 8096 and 8097
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: The MEMS 5-in-1, 2013 edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard Reference Materials(R) User's Guide for RM 8096 and 8097 - The
+    MEMS 5-in-1, 2013 edition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-177
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-177.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-177
@@ -22,153 +35,92 @@ docid:
 - id: 10.6028/NIST.SP.260-177
   type: DOI
 date:
-- type: published
-  value: 2013-02
+- type: issued
+  value: '2013'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Janet M.
-          script:
-          - Latn
-      surname:
-        content: Cassard
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Cassard, Janet M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021149457
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jon
-          script:
-          - Latn
-      surname:
-        content: Geist
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Geist, Jon.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87846691
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Theodore V.
-          script:
-          - Latn
-      surname:
-        content: Vorburger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Vorburger, Theodore V.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T.
-          script:
-          - Latn
-      surname:
-        content: Read
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Read, D. T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82208926
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Gaitan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Gaitan, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022011870
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David G.
-          script:
-          - Latn
-      surname:
-        content: Seiler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Seiler, David G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85214620
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Physical Measurement Laboratory, Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2013-02
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-177
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

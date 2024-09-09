@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7241
 title:
-- content: NIST in the CFR :a report on references to NIST (and NBS) products and
+- content: NIST in the CFR
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a report on references to NIST (and NBS) products and services in the code
+    of federal regulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST in the CFR - a report on references to NIST (and NBS) products and
     services in the code of federal regulations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7241
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7241.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7241
@@ -22,86 +36,51 @@ docid:
 - id: 10.6028/NIST.IR.7241
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ileana
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Martinez
+      completename:
+        content: Martinez, Ileana.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ajit
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jillavenkatesa
+      completename:
+        content: Jillavenkatesa, Ajit.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Carmina
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Londono
+      completename:
+        content: Londono, Carmina.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7241'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6893
 title:
 - content: Bridging the gap between structure and properties in nano-particle filled
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6893
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6893.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6893
@@ -22,85 +21,66 @@ docid:
 - id: 10.6028/NIST.IR.6893
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2002'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Erik
-          script:
-          - Latn
-      surname:
-        content: Hobbie
-        script:
-        - Latn
+      completename:
+        content: Hobbie, Erik.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003083221
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jack
-          script:
-          - Latn
-      surname:
-        content: Douglas
-        script:
-        - Latn
+      completename:
+        content: Douglas, Jack.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb90774392
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Francis
-          script:
-          - Latn
-      surname:
-        content: Starr
-        script:
-        - Latn
+      completename:
+        content: Starr, Francis.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          script:
-          - Latn
-      surname:
-        content: Han
-        script:
-        - Latn
+      completename:
+        content: Han, Charles.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2002'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6893'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

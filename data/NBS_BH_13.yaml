@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBH13
 title:
-- content: Recommended minimum requirements for plumbing :report of subcommittee on
-    plumbing of the building code committee revised August 30, 1928
+- content: Recommended minimum requirements for plumbing
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: report of subcommittee on plumbing of the building code committee revised
+    August 30, 1928
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Recommended minimum requirements for plumbing - report of subcommittee
+    on plumbing of the building code committee revised August 30, 1928
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BH.13
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BH/nbsbuildinghousing13.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BH 13
@@ -22,195 +36,117 @@ docid:
 - id: 10.6028/NBS.BH.13
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1929'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Whipple
+      completename:
+        content: Whipple, George Chandler,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87816195
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harry Y
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Carson
+      completename:
+        content: Carson, Harry Y.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020066389
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: August E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hansen
+      completename:
+        content: Hansen, August E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021136709
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Groeninger
+      completename:
+        content: Groeninger, William C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021136710
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J L
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: J L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Murphy
+      completename:
+        content: Murphy, J. L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88654350
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gries
+      completename:
+        content: Gries, John M. (John Matthew),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91072306
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thompson
+      completename:
+        content: Thompson, George N.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2004066278
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R B
-          language:
-          - en
-          script:
-          - Latn
-          initial: R
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: R B
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hunter
+      completename:
+        content: Hunter, R. B.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021136714
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1929'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building and Housing Reports
+    content: NBS building and housing; NBS BH
     format: text/plain
-  abbreviation:
-    content: BH
   number: '13'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

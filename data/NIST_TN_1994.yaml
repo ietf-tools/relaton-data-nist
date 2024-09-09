@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1994
 title:
-- content: 'Calibration of dynamic pressure in a tubing system and optimized design
-    of tube configuration: a numerical and experimental study'
+- content: Calibration of dynamic pressure in a tubing system and optimized design
+    of tube configuration
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a numerical and experimental study
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Calibration of dynamic pressure in a tubing system and optimized design
+    of tube configuration - a numerical and experimental study
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1994
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1994.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1994
@@ -22,194 +36,120 @@ docid:
 - id: 10.6028/NIST.TN.1994
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Kovaerk
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kovaerk, Matthew.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Luke
-          script:
-          - Latn
-      surname:
-        content: Amatucci
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Amatucci, Luke.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Keith A
-          script:
-          - Latn
-      surname:
-        content: Gillis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gillis, Keith A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Florian A
-          script:
-          - Latn
-      surname:
-        content: Potra
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Potra, Florian A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Ratino
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Ratino, James.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marc
-          script:
-          - Latn
-      surname:
-        content: Levitan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Levitan, Marc.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2018048920
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.)).
+    - content: Information Technology Laboratory.
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: 'Accurate prediction of aerodynamic pressures on a building is a key factor
+    in the estimation of wind loads on the building. Since the analytical approach
+    has limited capacity in providing pressure estimates, wind tunnel testing is widely
+    used. The experimental approach faces a challenge: pressures on building models
+    cannot be directly measured by pressure sensors. Rather, a tubing system connecting
+    the model to the sensor is required. The pressure waves propagating inside a thin,
+    circular tube distort the aerodynamic pressures on the model owing to the acoustic
+    and visco-thermal effects due to the fluid action on the tube, As a result, pressure
+    fluctuations measured through a tubing system experience amplitude change and
+    phase shift that depend on the pressure fluctuations'' frequencies. It is therefore
+    necessary to develop a correction procedure for converting the distorted pressures
+    data measured by a transducer into pressures that differ insignificantly from
+    the actual aerodynamic pressures on the model. To address this issue, we reviewed
+    the Navier-Stokes equations, thermodynamic effects, wave propagation issues, and
+    mass and energy conservation associated with sinusoidal air motions in cylindrical
+    tubing systems, and developed a MATLAB-based program to calibrate the amplitude
+    change and phase lag in tubing configurations used in wind tunnel testing. To
+    validate the requisite amplitude ratio and phase lag transfer functions an experimental
+    device was designed and built using a function generator and a speaker. In addition,
+    the validation accounted for phase changes due to the measuring sequence in a
+    multi-channel pressure scanner. The results showed that the transfer functions
+    obtained by the numerical approaches match their experimental counterparts to
+    a remarkably close approximation. An optimized configuration of typical tubing
+    systems was designed for minimization of tubing effects on pressure measurements.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1994'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1657
 title:
 - content: Effect of accelerated ultraviolet (UV) weathering on firefighter protective
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1657
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1657.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1657
@@ -22,101 +21,92 @@ docid:
 - id: 10.6028/NIST.TN.1657
   type: DOI
 date:
-- type: published
-  value: 2010-03
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Rick
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95026885
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joannie
-          script:
-          - Latn
-      surname:
-        content: Chin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chin, Joannie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107282
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiao-Chi
-          script:
-          - Latn
-      surname:
-        content: Lin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lin, Chiao-Chi.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sylvain
-          script:
-          - Latn
-      surname:
-        content: Petit
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Petit, Sylvain.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2010-03
-script:
-- Latn
+abstract:
+- content: The outer shell of the jacket and pants of a firefighter's protective clothing
+    is constructed of a fabric that is commonly a blend of polyaramid, polybenzimidazole,
+    and/or poly(melamine-formaldehyde) fibers. The outer shell contributes to the
+    thermal and moisture protection of the garment, but its primary purpose is to
+    provide protection from other physical hazards, such as sharp objects and abrasive
+    surfaces. The research discussed in this manuscript indicates that the mechanical
+    performance, which is critical to the outer shell providing protection against
+    these physical hazards, of polyaramid and polybenzimidazole based outer shell
+    fabrics will rapidly deteriorate when exposed to simulated ultraviolet sunlight
+    at 50 degree C and 50 % relative humidity. For example, these fabrics lost as
+    high as 80 % of their tear and tensile strength after only 13 days of exposure
+    to these conditions. In addition, a water repellant coating on these fabrics was
+    significantly degraded as a result of these conditions. Even though these exposure
+    conditions caused catastrophic mechanical failure, the amount of ultraviolet light
+    transmitted through these fabrics was quite low. More specifically, after 13 days
+    exposure these fabrics blocked more than 94 % of the ultraviolet light (Ultraviolet
+    Protection Factor of 18). Using a conversion factor (defined in the manuscript),
+    these outer shell fabrics will lose a high as 80 % of its mechanical performance,
+    but still block at least 94 % of the sunlight after being in service for 6.3 years.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1657'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

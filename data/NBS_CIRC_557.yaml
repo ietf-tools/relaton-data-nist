@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC557
 title:
-- content: Circular of the Bureau of Standards no. 557:worldwide radio noise levels
+- content: Circular of the Bureau of Standards no. 557
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: worldwide radio noise levels expected in the frequency band 10 kilocycles
+    to 100 megacycles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 557 - worldwide radio noise levels
     expected in the frequency band 10 kilocycles to 100 megacycles
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.557
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular557.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 557
@@ -22,96 +36,64 @@ docid:
 - id: 10.6028/NBS.CIRC.557
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1955'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Q
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: Q
-        formatted_initials:
-          content: W Q
-          script:
-          - Latn
-      surname:
-        content: Crichlow
-        script:
-        - Latn
+      completename:
+        content: Crichlow, W. Q. (William Quarles),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022000243
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R N
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: R N
-          script:
-          - Latn
-      surname:
-        content: Morton
-        script:
-        - Latn
+      completename:
+        content: Morton, R. N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W R
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: W R
-          script:
-          - Latn
-      surname:
-        content: Corliss
-        script:
-        - Latn
+      completename:
+        content: Corliss, W. R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1955'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '557'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2050
 title:
 - content: Use and validation of the slope determination by the analysis of residuals
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2050
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2050.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2050
@@ -22,50 +21,61 @@ docid:
 - id: 10.6028/NIST.TN.2050
   type: DOI
 date:
-- type: published
-  value: 2019-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-06
-script:
-- Latn
+abstract:
+- content: The Slope Determination by the Analysis of Residuals (SDAR) algorithm has
+    recently been standardized in ASTM E3076-18 for the determination of the slope
+    in the linear region of a test record. It offers an automated and objective linear-fitting
+    method, based on the least normalized residual, and in its full form provides
+    metrics for evaluating the quality of the test record and of the resultant fit.
+    In this investigation, SDAR was used to calculate values of crack size in elastic-plastic
+    fracture toughness tests, conducted in accordance with ASTM E1820-18 by means
+    of thesingle-specimen elastic compliance methodology. Our analyses show that the
+    use of SDAR is not advisable in case of noisy unloading/reloading cycles and/or
+    in the presence of significant hysteresis, since the most linear portion identified
+    by the algorithm may not necessarily represent the true elasticbehavior of the
+    specimen. Such issues could be alleviated by increasing the minimum number of
+    data points used from 20 % of the search range (E3076) to at least 50 %. Nevertheless,
+    SDAR remains an extremely useful tool to determine a repeatable and operator-independent
+    slope in numerous types of mechanical tests, such as tensile tests, linear elastic
+    fracture mechanics tests, and others.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2050'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

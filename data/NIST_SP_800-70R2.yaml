@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-70r2
 title:
-- content: National checklist program for IT products :guidelines for checklist users
+- content: National checklist program for IT products
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: guidelines for checklist users and developers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: National checklist program for IT products - guidelines for checklist users
     and developers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-70r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-70r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-70r2
@@ -22,162 +35,86 @@ docid:
 - id: 10.6028/NIST.SP.800-70r2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2011'
 contributor:
+- organization:
+    name:
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
+  role:
+  - type: publisher
 - person:
     name:
-      given:
-        forename:
-        - content: S D
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: S D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Quinn
+      completename:
+        content: Souppaya, M. P.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M P
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: M P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Souppaya
+      completename:
+        content: Cook, M.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2003008265
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M
-          language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cook
+      completename:
+        content: Scarfone, K. A.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: K A
-          language:
-          - en
-          script:
-          - Latn
-          initial: K
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Quinn (S.D.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012055634
   role:
   - type: publisher
-revdate: '2011'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Special Publication 800-70 Revision 2, National Checklist Program for IT
+    Products Guidelines for Checklist Users and Developers, describes security configuration
+    checklists and their benefits, and it explains how to use the NIST National Checklist
+    Program (NCP) to find and retrieve checklists. The publication also describes
+    the policies, procedures, and general requirements for participation in the NCP.
+    SP 800-70 Revision 2 updates the previous version of the document, which was released
+    in 2009, primarily by adding additional SCAP-oriented guidance and content related
+    to the United States Government Configuration Baseline (USGCB).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-70r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

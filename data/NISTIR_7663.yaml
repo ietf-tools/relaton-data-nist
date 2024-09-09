@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7663
 title:
 - content: Overlap-based cell tracker
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7663
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7663.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7663
@@ -21,120 +20,67 @@ docid:
 - id: 10.6028/NIST.IR.7663
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joe
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chalfoun
+      completename:
+        content: Chalfoun, Joe.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cardone
+      completename:
+        content: Cardone, Antonio.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alden A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dima
+      completename:
+        content: Dima, Alden A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Allen
+      completename:
+        content: Allen, Daniel P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Halter
+      completename:
+        content: Halter, Michael W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2009'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7663'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

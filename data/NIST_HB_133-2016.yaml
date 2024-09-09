@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB133-2016
 title:
-- content: Checking the Net Contents of Packaged Goods (NIST HB 133-2016)
+- content: Checking the net contents of packaged goods
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.133-2016
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2016/NIST.HB.133-2016.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 133-2016
@@ -21,84 +20,95 @@ docid:
 - id: 10.6028/NIST.HB.133-2016
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Linda D
-          script:
-          - Latn
-      surname:
-        content: Crown
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Crown, Linda.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2006134842
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David A
-          script:
-          - Latn
-      surname:
-        content: Sefcik
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Hockert, Carol.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021114720
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Warfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sefcik, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056628
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Warfield, Lisa.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2014056629
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: This handbook has been prepared as a procedural guide for the compliance
+    testing of net contents statements on packaged goods. Compliance testing of packaged
+    goods is the determination of the conformance results of the packaging, distribution,
+    and retailing process (the packages) to specific legal requirements for net content
+    declarations. This handbook has been developed primarily for the use of government
+    officials; however, it should also be useful to commercial and industrial establishments
+    in the areas of packaging, distribution, and sale of commodities. In conducting
+    compliance testing, the conversion of quantity values from one measuring system
+    to another (e.g., from the metric system to the avoirdupois system) should be
+    handled with careful regard to the implied correspondence between accuracy of
+    the data and the number of digits displayed. In all conversion, the number of
+    significant digits retained should ensure that accuracy is neither sacrificed
+    nor exaggerated. For this edition of Handbook 133, all dimensions for test procedures,
+    devices, or environments have been rounded to two significant digits (e.g., 2.5
+    cm to 1.0 in) or to a precision level applicable to the test equipment (e.g.,
+    200 kPa for 25 psi and 35 MPs for 5000 psi).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 133-2016
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

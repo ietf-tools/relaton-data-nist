@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7123
 title:
-- content: Fingerprint vendor technology evaluation 2003 :summary of results and analysis
-    report
+- content: Fingerprint vendor technology evaluation 2003
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summary of results and analysis report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Fingerprint vendor technology evaluation 2003 - summary of results and
+    analysis report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7123
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7123.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7123
@@ -22,205 +35,107 @@ docid:
 - id: 10.6028/NIST.IR.7123
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
+      completename:
+        content: Wilson, Charles.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R Austin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hicklin
+      completename:
+        content: Hicklin, R Austin.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harold
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Korves
+      completename:
+        content: Korves, Harold.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bradford
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ulery
+      completename:
+        content: Ulery, Bradford.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zoepfl
+      completename:
+        content: Zoepfl, Melissa.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bone
+      completename:
+        content: Bone, Mike.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grother
+      completename:
+        content: Grother, Patrick.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ross
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Micheals
+      completename:
+        content: Micheals, Ross.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steve
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Otto
+      completename:
+        content: Otto, Steve.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Watson
+      completename:
+        content: Watson, Craig.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7123'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

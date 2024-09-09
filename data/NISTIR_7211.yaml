@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7211
 title:
-- content: Product lifecycle management support :a challenge in supporting product
+- content: Product lifecycle management support
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: a challenge in supporting product design and manufacturing in a networked
+    economy
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Product lifecycle management support - a challenge in supporting product
     design and manufacturing in a networked economy
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7211
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7211.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7211
@@ -22,120 +36,80 @@ docid:
 - id: 10.6028/NIST.IR.7211
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Eswaran
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Subrahmanian
+      completename:
+        content: Subrahmanian, Eswaran.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005040153
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sudarsan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rachuri
+      completename:
+        content: Rachuri, Sudarsan.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2005010837
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Steven
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Fenves
+      completename:
+        content: Fenves, Steven.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sebti
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Foufou
+      completename:
+        content: Foufou, Sebti.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2016013444
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ram D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sriram
+      completename:
+        content: Sriram, Ram D.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97029427
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7211'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

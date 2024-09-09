@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP626
 title:
 - content: Nuclear data for the efficiency calibration of germanium spectormeter systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.626
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication626.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 626
@@ -21,93 +20,66 @@ docid:
 - id: 10.6028/NBS.SP.626
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hoppes
+      completename:
+        content: Hoppes, D. D.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82126408
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F J
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: F J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schima
+      completename:
+        content: Schima, F. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82126368
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Members of the Alpha-, Beta-, and Gamma-Ray Spectrometry Group of the International
+    Committee for Radionuclide Metrology agreed in 1979 to collect the nuclear data
+    from any measurements in their laboratories that were pertinent to the calibration
+    of the efficiency of germanium spectrometer systems. This report is composed of
+    the contributions from 14 laboratories, as listed in part II. If a self-contained
+    contribution was received, it has been incorporated without editing. Less formal
+    communications, or references to published articles, are discussed in short comments
+    prepared by the compilers. Part IV is a compilation of a selected portion of the
+    data, arranged by radionuclide.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '626'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

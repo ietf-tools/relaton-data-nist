@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP154
 title:
-- content: Summary report of Bureau of Standards research on preservation of records/
+- content: Summary report of Bureau of Standards research on preservation of records
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.154
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub154.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 154
@@ -21,93 +20,48 @@ docid:
 - id: 10.6028/NBS.MP.154
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1937'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: B W
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: B W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scribner
+      completename:
+        content: Kimberly, Arthur E. (Arthur Evarts),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no99000588
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A E
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        - language:
-          - en
-          script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: A E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kimberly
+      completename:
+        content: Scribner, B. W.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1937'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '154'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

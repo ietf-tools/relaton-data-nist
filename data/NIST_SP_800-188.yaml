@@ -1,0 +1,151 @@
+---
+schema-version: v1.2.9
+id: NISTSP800-188
+title:
+- content: De-identifying government datasets
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: techniques and governance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: De-identifying government datasets - techniques and governance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.SP.800-188
+  type: doi
+type: standard
+docid:
+- id: NIST SP 800-188
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.SP.800-188
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Garfinkel, Simson.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-1294-2831"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Near, Joseph.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-3203-3742"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Dajani, Aref.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0361-5409"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Singer, Phyllis.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8885-7273"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Guttman, Barbara.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-9706-389X"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Software and Systems Division.
+  role:
+  - type: publisher
+abstract:
+- content: De-identification is a general term for any process of removing the association
+    between a set of identifying data and the data subject. This document describes
+    the use of de-identification with the goal of preventing or limiting disclosure
+    risks to individuals and establishments while still allowing for the production
+    of meaningful statistical analysis. Government agencies can use de-identification
+    to reduce the privacy risk associated with collecting, processing, archiving,
+    distributing, or publishing government data. Previously, NIST IR 8053, De-Identification
+    of Personal Information, provided a detailed survey of de-identification and re-identification
+    techniques. This document provides specific guidance to government agencies that
+    wish to use de-identification. Before using de-identification, agencies should
+    evaluate their goals for using de-identification and the potential risks that
+    releasing de-identified data might create. Agencies should decide upon a data-sharing
+    model, such as publishing de-identified data, publishing synthetic data based
+    on identified data, providing a query interface that incorporates de-identification,
+    or sharing data in non-public protected enclaves. Agencies can create a Disclosure
+    Review Board to oversee the process of de-identification. They can also adopt
+    a de-identification standard with measurable performance levels and perform re-identification
+    studies to gauge the risk associated with de-identification. Several specific
+    techniques for de-identification are available, including de-identification by
+    removing identifiers, transforming quasi-identifiers, and generating synthetic
+    data using models. People who perform de-identification generally use special-purpose
+    software tools to perform the data manipulation and calculate the likely risk
+    of re-identification. However, not all tools that merely mask personal information
+    provide sufficient functionality for performing de-identification. This document
+    also includes an extensive list of references, a glossary, and a list of specific
+    de-identification tools, which is only included to convey the range of tools currently
+    available and is not intended to imply a recommendation or endorsement by NIST.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST special publication
+    format: text/plain
+  number: 800-188
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-188
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

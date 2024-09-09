@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1979
 title:
 - content: NIST channel sounder overview and channel measurements in manufacturing
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1979
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1979.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1979
@@ -22,193 +21,127 @@ docid:
 - id: 10.6028/NIST.TN.1979
   type: DOI
 date:
-- type: published
-  value: '2017-11-08'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanne T
-          script:
-          - Latn
-      surname:
-        content: Quimby
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Quimby, Jeanne T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard
-          script:
-          - Latn
-      surname:
-        content: Candell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Candell, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kate A
-          script:
-          - Latn
-      surname:
-        content: Remley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Remley, Kate A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021143253
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Novotny
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Novotný, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021089922
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          script:
-          - Latn
-      surname:
-        content: Diener
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Diener, Joseph.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter B
-          script:
-          - Latn
-      surname:
-        content: Papazian
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Papazian, Peter B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007083196
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexandra
-          script:
-          - Latn
-      surname:
-        content: Curtin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Curtin, Alexandra.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Galen
-          script:
-          - Latn
-      surname:
-        content: Koepke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Koepke, Galen.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2017-11-08'
-script:
-- Latn
+abstract:
+- content: Manufacturers are increasingly choosing wireless platforms to replace wired
+    ones due to their ease of installation, upgrade, and reconfigurability. Reliable
+    and secure real-time performance of wireless platforms is technically challenging
+    because wireless data communication, reliability, and throughput can be easily
+    affected by the physical environment in which the wireless platforms are operate.
+    These effects need to be investigated and better understood through physics-based
+    modeling, correlated with real-world measurements. To support U.S. manufacturers,
+    the NIST Engineering Laboratory has launched a five-year project entitled Wireless
+    Systems for Industrial Environments as part of the NIST Standards for Manufacturing
+    Systems Program. The key idea for this project is to develop best-practice guidelines
+    for integrated performance evaluation of secure wireless platforms in dynamic
+    production systems. This will include a methodology for selecting wireless technology
+    and protocols that will assure real-time performance of wireless platforms in
+    various manufacturing environments. These guidelines will enable manufacturers,
+    technology providers, and solution providers to design, deploy, and assess robust,
+    secure integrated wireless solutions for use in smart manufacturing. As part of
+    this project, NIST will be characterizing the wireless environment through measurements
+    in representative production facilities.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1979'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

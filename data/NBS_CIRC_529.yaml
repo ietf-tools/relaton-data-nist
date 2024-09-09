@@ -1,8 +1,23 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIRC529
 title:
-- content: Circular of the Bureau of Standards no. 529:electrodeposition research-
+- content: Circular of the Bureau of Standards no. 529
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: electrodeposition research- proceedings of the NBS semicentennial symposium
+    on eletrodeposition research held at the NBS on December 4-6, 1951
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Circular of the Bureau of Standards no. 529 - electrodeposition research-
     proceedings of the NBS semicentennial symposium on eletrodeposition research held
     at the NBS on December 4-6, 1951
   language:
@@ -10,11 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIRC.529
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular529.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIRC 529
@@ -23,33 +37,46 @@ docid:
 - id: 10.6028/NBS.CIRC.529
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1953'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1953'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Circulars
+    content: National Bureau of Standards circular
     format: text/plain
-  abbreviation:
-    content: CIRC
   number: '529'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

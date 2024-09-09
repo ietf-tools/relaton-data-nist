@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7839
 title:
-- content: Examination of Downsampling Strategies for Converting 1000 ppi Fingerprint
-    Imagery to 500 ppi
+- content: A methodology for developing authentication assurance level taxonomy for
+    smart card-based identity verification
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7839
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7839.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7839
@@ -22,233 +21,41 @@ docid:
 - id: 10.6028/NIST.IR.7839
   type: DOI
 date:
-- type: published
-  value: 2013-01
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shahram
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orandi
+      completename:
+        content: Chandramouli, Ramaswamy.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John M.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Libert
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Kenneth
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ko
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Stephen S.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wood
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Stephen G.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Harvey
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: John D.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grantham
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Margaret
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lepley
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Lindsay M.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Petersen
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bandini
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Access Division ‐ Image Group, Information Technology
-            Laboratories
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003002931
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008015449
   role:
   - type: publisher
-revdate: 2013-01
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: '7839'
+  number: '7849'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

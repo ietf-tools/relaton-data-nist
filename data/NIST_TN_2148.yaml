@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2148
 title:
 - content: Data reduction tool for spherical constant volume flame experiments
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2148
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2148.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2148
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.TN.2148
   type: DOI
 date:
-- type: published
-  value: '2021-04-02'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael J
-          script:
-          - Latn
-      surname:
-        content: Hegetschweiler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hegetschweiler, Michael J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gregory T
-          script:
-          - Latn
-      surname:
-        content: Linteris
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Linteris, Gregory T.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-02'
-script:
-- Latn
 abstract:
 - content: A data reduction tool was developed to conveniently post-process spherical
     constant volume flame experiments. Such experiments are employed to obtain laminar
@@ -84,16 +58,22 @@ abstract:
     note describes the installation and provides a user guide with additional details
     about the models and the algorithms. Its purpose is to help users efficiently
     use the tool and obtain physically meaningful results.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2148'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

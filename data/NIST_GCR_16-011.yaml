@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR16-011
 title:
 - content: Case Studies of Community Resilience and Disaster Recovery from the 2013
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.16-011
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2017/NIST.GCR.16-011.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 16-011
@@ -22,101 +21,108 @@ docid:
 - id: 10.6028/NIST.GCR.16-011
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher T
-          script:
-          - Latn
-      surname:
-        content: Clavin
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Clavin, Christopher T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152899
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Zoe E
-          script:
-          - Latn
-      surname:
-        content: Petropoulos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Petropoulos, Zoe E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152903
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nayanee
-          script:
-          - Latn
-      surname:
-        content: Gupta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gupta, Nayanee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152906
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christopher K
-          script:
-          - Latn
-      surname:
-        content: Tokita
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Tokita, Christopher K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152912
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+abstract:
+- content: In September 2013, an area of the Rocky Mountains region referred to as
+    the Colorado Front Range experienced unprecedented rainfall that resulted in multiple
+    days of flooding. This flooding caused significant damage to homes, commercial
+    structures, roads, bridges, infrastructure systems, and parks and open space across
+    the region, including Boulder County⁰₉s communities and mountain towns. Flooding,
+    particularly flash flooding, is a primary hazard of concern in the region. The
+    City of Boulder and Boulder County have implemented programs and preparedness
+    measures to mitigate the risk, respond to, and recover from floods. Boulder County
+    communities have been investing for decades to improve infrastructure systems,
+    avoid development in hazard-prone areas, and implement financial and administrative
+    programs to mitigate potential flooding damage. Government officials who had gained
+    experience during the 2010 Fourmile Canyon Wildfire were also responsible for
+    ensuring that their communities had the resources and support necessary to rebuild
+    and restore community services after the 2013 flood. In the years since the 2013
+    flood, communities have rebuilt and recovered with an emphasis on reducing future
+    vulnerability. The collective experiences of those who helped prepare for and
+    recover from the Boulder County flood are documented in this series of case studies
+    of community resilience planning. The IDA Science and Technology Policy Institute,
+    with support from the National Institute for Standards and Technology (NIST) Community
+    Resilience Group, conducted case studies of Boulder County community resilience
+    planning before, during, and after the 2013 flood. Three case studies focus on
+    unincorporated Boulder County, the City of Boulder, and the towns of Lyons and
+    Jamestown. A primary focus of the research was to document the recovery efforts
+    within each case study; the programs, policies, or broader efforts employed by
+    each community to design and construct resilient infrastructure; and the efforts
+    to ensure community services (e.g., housing and public health) were provided throughout
+    the multi-year recovery process. Research is based on publicly available literature,
+    including reports published by Boulder County governments, and discussions with
+    Boulder County community officials in 2015 and 2016.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 16-011
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

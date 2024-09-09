@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6819
 title:
-- content: Comparison of concrete rheometers:international test at LCPC (Nantes, France)
-    in October, 2000
+- content: Comparison of concrete rheometers
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: international test at LCPC (Nantes, France) in October, 2000
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Comparison of concrete rheometers - international test at LCPC (Nantes,
+    France) in October, 2000
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6819
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6819.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6819
@@ -22,176 +35,125 @@ docid:
 - id: 10.6028/NIST.IR.6819
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2001019109
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lynn E
-          script:
-          - Latn
-      surname:
-        content: Brower
-        script:
-        - Latn
+      completename:
+        content: Brower, Lynn E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Phil
-          script:
-          - Latn
-      surname:
-        content: Banfill
-        script:
-        - Latn
+      completename:
+        content: Banfill, Phil.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Denis
-          script:
-          - Latn
-      surname:
-        content: Beaupré
-        script:
-        - Latn
+      completename:
+        content: Beaupre?¹, Denis.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Frédéric
-          script:
-          - Latn
-      surname:
-        content: Chapdelaine
-        script:
-        - Latn
+      completename:
+        content: Chapdelaine, Fre?¹de?¹ric.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: François de
-          script:
-          - Latn
-      surname:
-        content: Larrard
-        script:
-        - Latn
+      completename:
+        content: Larrard, François de.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90717996
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          script:
-          - Latn
-      surname:
-        content: Domone
-        script:
-        - Latn
+      completename:
+        content: Domone, P. L. J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94038162
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Laurent
-          script:
-          - Latn
-      surname:
-        content: Nachbaur
-        script:
-        - Latn
+      completename:
+        content: Nachbaur, Laurent.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thierry
-          script:
-          - Latn
-      surname:
-        content: Sedran
-        script:
-        - Latn
+      completename:
+        content: Sedran, Thierry.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Olaf
-          script:
-          - Latn
-      surname:
-        content: Wallevik
-        script:
-        - Latn
+      completename:
+        content: Wallevik, Olaf.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jon E
-          script:
-          - Latn
-      surname:
-        content: Wallevik
-        script:
-        - Latn
+      completename:
+        content: Wallevik, Jon E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6819'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

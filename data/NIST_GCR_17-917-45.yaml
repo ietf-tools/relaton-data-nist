@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR17-917-45
 title:
 - content: Recommended modeling parameters and acceptance criteria for nonlinear analysis
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.17-917-45
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2017/NIST.GCR.17-917-45.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 17-917-45
@@ -22,33 +21,70 @@ docid:
 - id: 10.6028/NIST.GCR.17-917-45
   type: DOI
 date:
-- type: published
-  value: 2017-04
+- type: issued
+  value: '2018'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
   role:
   - type: publisher
-revdate: 2017-04
-script:
-- Latn
+- organization:
+    name:
+    - content: Applied Technology Council.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77018286
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
+  role:
+  - type: publisher
+abstract:
+- content: In September 2014, the Applied Technology Council (ATC) commenced a task
+    order project under National Institute of Standards and Technology (NIST) Contract
+    SB1341-13-CQ-0009 to conduct comprehensive review of the generalized component
+    models published in the current ASCE/SEI standard and relevant research, and develop
+    recommendations for improvement (ATC-114 Project). The need for defining parameters
+    for nonlinear force-deformation models for components, elements, or assemblies
+    is identified as a high-priority research and development topic in NIST GCR 14-917-27
+    report, Nonlinear Analysis Study and Development Program for Performance-Based
+    Seismic Engineering, (NIST, 2013) which outlines a research and development program
+    for addressing the gap between state-of-the-art academic research and state-of-practice
+    engineering applications for nonlinear structural analysis, analytical structural
+    modeling, and computer simulation in support of performance-based seismic engineering.
+    The current standard, ASCE/SEI 41-13, Seismic Evaluation and Retrofit of Existing
+    Buildings (ASCE, 2014), is widely used by designers for evaluating and upgrading
+    existing buildings. The component models in the current standard were developed
+    for use in existing building analysis, but they have also become widely employed
+    in new building analysis. The purpose of this report is to recommend broad improvements
+    to seismic nonlinear modeling and acceptance criteria requirements for different
+    structural systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 17-917-45
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

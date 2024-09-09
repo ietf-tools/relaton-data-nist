@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSTN40-9
 title:
 - content: Mean electron density variations of the quiet ionosphere no. 9
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.TN.40-9
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote40-9.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS TN 40-9
@@ -21,122 +20,62 @@ docid:
 - id: 10.6028/NBS.TN.40-9
   type: DOI
 date:
-- type: published
-  value: '1959'
+- type: issued
+  value: '1963'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: DJ
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: DJ
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brown
+      completename:
+        content: Wright, J. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82029680
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: LR
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: LR
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wescott
+      completename:
+        content: Brown, D. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84180387
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J W
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: J W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wright
+      completename:
+        content: Wescott, L. R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062527
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1959'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Technical Notes
+    content: NBS technical note; NBS tech note; NBS TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 40-9
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

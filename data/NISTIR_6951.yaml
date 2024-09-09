@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6951
 title:
 - content: Automated security self-evaluation tool technical documentation, version
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6951
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6951.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6951
@@ -22,67 +21,65 @@ docid:
 - id: 10.6028/NIST.IR.6951
   type: DOI
 date:
-- type: published
-  value: 2003-01
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mark
-          script:
-          - Latn
-      surname:
-        content: McLarnon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: McLarnon, Mark.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022056180
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marianne
-          script:
-          - Latn
-      surname:
-        content: Swanson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology.
+      completename:
+        content: Swanson, Marianne.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91015913
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2003-01
-script:
-- Latn
+abstract:
+- content: The Automated Security Self-Evaluation Tool (ASSET) automates the process
+    of completing a system self-assessment. ASSET will assist organizations in completing
+    the self-assessment questionnaire contained in NIST Special Publication (Special
+    Publication) 800-26, Security Self-Assessment Guide for Information Technology
+    Systems. This technical manual is intended as a development guide for software
+    engineers/database administrators who wish to troubleshoot unique installations
+    of ASSET, reproduce the development version of ASSET, or extend the functionality
+    of ASSET.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6951'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

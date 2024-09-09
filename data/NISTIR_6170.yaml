@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6170
 title:
-- content: A basis for using fire modeling with 1-d thermal analyses of barrierspartitions
-    to simulate 2-d and 3-D barrierpartition structural performance in real fires
+- content: A basis for using fire modeling with 1-D thermal analyses of barriers/partitions
+    to simulate 2-D and 3-D barrier/partition structural performance in real fires
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6170
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6170.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6170
@@ -22,59 +21,50 @@ docid:
 - id: 10.6028/NIST.IR.6170
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Leonard Y
-          script:
-          - Latn
-      surname:
-        content: Cooper
-        script:
-        - Latn
+      completename:
+        content: Cooper, Leonard Y.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83170952
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jean-Marc
-          script:
-          - Latn
-      surname:
-        content: Franssen
-        script:
-        - Latn
+      completename:
+        content: Franssen, Jean-Marc.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2009010332
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6170'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

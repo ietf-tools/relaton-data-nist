@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8133
 title:
-- content: 'NIST/NIH Vitamin D Metabolites Quality Assurance Program Report of Participant
-    Results: Winter 2014 Comparability Study (Exercise 8)'
+- content: 'NIST/NIH Vitamin D Metabolites Quality Assurance Program report of participant
+    results: winter 2014 comparability study (exercise 8)'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8133
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8133.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8133
@@ -22,67 +21,65 @@ docid:
 - id: 10.6028/NIST.IR.8133
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mary
-          script:
-          - Latn
-      surname:
-        content: Bedner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Bedner, Mary.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Susan S.-C.
-          script:
-          - Latn
-      surname:
-        content: Tai
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Tai, Susan S.-C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) has established
+    a Vitamin D Metabolites Quality Assurance Program (VitDQAP) in collaboration with
+    the National Institutes of Health (NIH) Office of Dietary Supplements. Participants
+    in the eighth exercise of this program, the Winter 2014 Comparability Study, were
+    asked to use the methodology of their choice to measure concentrations of 25-hydroxyvitamin
+    D in pooled human serum control and study materials distributed by NIST. The study
+    materials consisted of Standard Reference Material (SRM) 909c Human Serum and
+    VitDQAP-III (a material designed for the VitDQAP). SRM 968d Fat-Soluble Vitamins,
+    Carotenoids, and Cholesterol in Human Serum Level 1 was provided as a control
+    material. Participants provided their data to NIST, where it was compiled and
+    evaluated for trueness relative to the NIST value and concordance within the participant
+    community. A report of results was provided to all participants of the study,
+    and laboratories were identified by code numbers known only to them. The results
+    from this eighth study are reported along with a summary of the analytical methods
+    used.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8133'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

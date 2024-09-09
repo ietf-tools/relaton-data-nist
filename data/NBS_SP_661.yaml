@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP661
 title:
-- content: ASTMNBS basestock consistency study data
+- content: ASTM/NBS basestock consistency study data
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.661
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication661.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 661
@@ -21,110 +20,79 @@ docid:
 - id: 10.6028/NBS.SP.661
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1983'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S J
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: S J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weeks
+      completename:
+        content: Weeks, S. J. (Stephan J.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83169676
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Donald A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Becker
+      completename:
+        content: Becker, Donald A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77009961
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S M
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: S M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hsu
+      completename:
+        content: Hsu, S. M. (Stephen M.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83169677
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1983'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: 'ASTM and NBS co-sponsored a Basestock Consistency Study (BCS) to assess
+    the quality consistency of lubricating base oils. This study, which is the first
+    of its kind, will impact on developing basestock characterization methodology
+    and on efficient utilization of energy resources as well as their conservation
+    through recycling. The purpose of this publication is to present the ASTM/NBS
+    BCS data for data analysis. Monthly production samples from six re-refiners and
+    four refiners were analyzed by 14 laboratories for a 13 month period. The results
+    of over 55 tests are divided according to six major categories: rheology, physical
+    properties, chemical properties, hydrocarbon type analysis, general performance
+    tests, and oxidation and wear bench tests. The data are presented in tabular and
+    grphical form, which is quite amenable to further data analysis.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '661'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

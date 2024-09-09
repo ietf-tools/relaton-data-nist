@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8157
 title:
-- content: BLER Performance Evaluation of LTE Device-to-Device Communications
+- content: BLER performance evaluation of LTE Device-to-Device communications
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8157
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8157.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8157
@@ -21,67 +20,63 @@ docid:
 - id: 10.6028/NIST.IR.8157
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jian
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wang, Jian.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n78067693
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A.
-          script:
-          - Latn
-      surname:
-        content: Rouil
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Rouil, Richard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: Long-Term Evolution (LTE) supporting Device-to-Device (D2D) communication
+    is a feature introduced in 3rd Generation Partnership Project (3GPP) release 12.
+    D2D communication is critical in public safety applications, which enables communication
+    among first responders when the network infrastructure may not be available. In
+    order to characterize the performance of D2D communications using network simulation
+    tool (e.g. ns-3), accurate physical layer error model is important. In this document,
+    we present our D2D physical channel simulations to study the BLock Error Rate
+    (BLER) performance of the physical channels. We also demonstrate how to integrate
+    the simulation results into network simulator to perform system level simulation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8157'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

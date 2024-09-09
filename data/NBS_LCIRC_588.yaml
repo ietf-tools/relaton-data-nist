@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC588
 title:
-- content: Letter Circular 588:the National Association of Hosiery Manufactures NAHM
-    snag resistance tester
+- content: "\"Letter Circular 588"
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the National Association of Hosiery Manufactures ""NAHM"" snag resistance
+    tester"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: '"Letter Circular 588 - the National Association of Hosiery Manufactures
+    ""NAHM"" snag resistance tester"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.588
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular588.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 588
@@ -22,59 +36,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.588
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1940'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Howard E
-          script:
-          - Latn
-      surname:
-        content: Shearer
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: EMax
-          script:
-          - Latn
-      surname:
-        content: Schenke
-        script:
-        - Latn
+      completename:
+        content: '"Shearer, Howard E."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1940'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '588'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

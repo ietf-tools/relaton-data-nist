@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1888
 title:
-- content: Hydrogen Field Test Standard Design, Operating Instructions, and Specifications
+- content: Hydrogen field test standard design, operating instructions, [and] specifications
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1888
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1888.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1888
@@ -21,50 +20,58 @@ docid:
 - id: 10.6028/NIST.TN.1888
   type: DOI
 date:
-- type: published
-  value: 2015-08
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jodie G
-          script:
-          - Latn
-      surname:
-        content: Pope
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Pope, Jodie G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022073168
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: 2015-08
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology (NIST) developed a
+    prototype field test standard (FTS) that incorporates three test methods that
+    could be used by state weights and measures inspectors to periodically test the
+    accuracy of fuel delivery at retail hydrogen gas vehicle refueling dispensers,
+    much as gasoline dispensers are tested today. The three field test methods are:
+    1) gravimetric, 2) Pressure, Volume, Temperature (PVT), and 3) master meter. The
+    FTS was tested in NIST s Transient Flow Facility with helium gas and in the field
+    at a hydrogen dispenser location. This document describes the design and construction
+    of the test standard, necessary safety instrumentation for working with high pressure
+    hydrogen gas, how to execute tests with the FTS, and the operating specifications
+    of the FTS components. This document is intended to aid others attempting to design
+    and construct similar apparatuses.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1888'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

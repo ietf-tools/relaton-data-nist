@@ -1,6 +1,6 @@
 ---
-schema-version: v1.2.3
-id: NISTIR7092A
+schema-version: v1.2.9
+id: NISTIR7092a
 title:
 - content: Air-kerma rate coefficients for selected photon-emitting radionuclide sources
   language:
@@ -8,59 +8,51 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
-- content: https://doi.org/10.6028/NIST.IR.7092A
+- content: https://doi.org/10.6028/NIST.IR.7092a
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7092A.pdf
-  type: pdf
 type: standard
 docid:
-- id: NIST IR 7092A
+- id: NIST IR 7092a
   type: NIST
   primary: true
-- id: 10.6028/NIST.IR.7092A
+- id: 10.6028/NIST.IR.7092a
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen M
-          script:
-          - Latn
-      surname:
-        content: Seltzer
-        script:
-        - Latn
+      completename:
+        content: Seltzer, Stephen M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82209458
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: 7092A
+  number: 7092a
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

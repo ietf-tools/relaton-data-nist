@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS47
 title:
 - content: Tables of collision integrals and second virial coefficients for the (m,6,8)
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.47
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds47.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 47
@@ -22,120 +21,73 @@ docid:
 - id: 10.6028/NBS.NSRDS.47
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1974'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Max
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Klein
+      completename:
+        content: Klein, Max.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85128182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: H J M
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: H J M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hanley
+      completename:
+        content: Hanley, H. J. M. (Howard J. M.)
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81119978
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Francis J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, Francis J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90663777
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Holland
+      completename:
+        content: Holland, Paul.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n94074674
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1974'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '47'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

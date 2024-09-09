@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7880-35
 title:
-- content: 'NIST Micronutrients Measurement Quality Assurance Program Winter, Spring,
-    and Fall 1989 Comparability Studies: Results for Round Robins XV, XVI, and XVII
-    Fat-Soluble Vitamins and Carotenoids in Human Serum'
+- content: NIST Micronutrients Measurement Quality Assurance Program winter, spring,
+    and fall 1989 comparability studies
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: results for round robins XV, XVI, and XVII fat-soluble vitamins and carotenoids
+    in human serum
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Micronutrients Measurement Quality Assurance Program winter, spring,
+    and fall 1989 comparability studies - results for round robins XV, XVI, and XVII
+    fat-soluble vitamins and carotenoids in human serum
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7880-35
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.7880-35.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7880-35
@@ -23,118 +38,97 @@ docid:
 - id: 10.6028/NIST.IR.7880-35
   type: DOI
 date:
-- type: published
-  value: 2016-08
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice M.
-          script:
-          - Latn
-      surname:
-        content: Brown Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Craft, Neal E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L.
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Margaret C.
-          script:
-          - Latn
-      surname:
-        content: Kline
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Thomas, Jeanice B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Willie E.
-          script:
-          - Latn
-      surname:
-        content: May
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Kline, Margaret C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020100705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neal E.
-          script:
-          - Latn
-      surname:
-        content: Craft
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: May, Willie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011110822
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-08
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology coordinates the Micronutrients
+    Measurement Quality Assurance Program (MMQAP) for laboratories that measure fat
+    -soluble vitamins and carotenoids in human serum and plasma. This report describes
+    the design of and results for the Winter, Spring and Fall 1989 MMQAP measurement
+    comparability improvement studies: 1) Round Robin XV Fat-Soluble Vitamins and
+    Carotenoids in Human Serum, 2) Round Robin XVI FatSoluble Vitamins and Carotenoids
+    in Human Serum, and 3) Round Robin XVII Fat-Soluble Vitamins and Carotenoids in
+    Human Serum. The materials for Round Robin XV were shipped to participants in
+    January 1989; participants were requested to provide their measurement results
+    by February 6, 1989. The materials for Round Robin XVI were shipped to participants
+    in April 1989; participants were requested to provide their measurement results
+    by May 15, 1989. The materials for Round Robin XVII were shipped to participants
+    in August 1989; participants were requested to provide their measurement results
+    by October 1, 1989.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 7880-35
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

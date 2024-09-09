@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7311
 title:
 - content: Engineered infills for concrete barriers
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7311
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7311.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7311
@@ -21,106 +20,68 @@ docid:
 - id: 10.6028/NIST.IR.7311
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K A
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: K A
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        script:
-        - Latn
+      completename:
+        content: Snyder, K. A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Christine
-          script:
-          - Latn
-      surname:
-        content: Langton
-        script:
-        - Latn
+      completename:
+        content: Langton, Christine.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Boyd
-          script:
-          - Latn
-      surname:
-        content: Clark
-        script:
-        - Latn
+      completename:
+        content: Clark, Boyd.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chiara
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
+      completename:
+        content: Ferraris, Chiara.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jana
-          script:
-          - Latn
-      surname:
-        content: Dawson
-        script:
-        - Latn
+      completename:
+        content: Dawson, Jana.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2006'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7311'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

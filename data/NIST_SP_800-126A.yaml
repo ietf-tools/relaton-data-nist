@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-126A
 title:
-- content: 'SCAP 1.3 component specification version updates: an annex to NIST special
-    publication 800-126 revision 3'
+- content: SCAP 1.3 component specification version updates
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: an annex to NIST special publication 800-126 revision 3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SCAP 1.3 component specification version updates - an annex to NIST special
+    publication 800-126 revision 3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-126A
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-126A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-126A
@@ -22,135 +35,108 @@ docid:
 - id: 10.6028/NIST.SP.800-126A
   type: DOI
 date:
-- type: published
-  value: '2018-02-14'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Harold
-          script:
-          - Latn
-      surname:
-        content: Booth
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Booth, Harold.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Waltermire
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Waltermire, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021047735
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lee
-          script:
-          - Latn
-      surname:
-        content: Badger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Badger, Lee.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142246
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Melanie
-          script:
-          - Latn
-      surname:
-        content: Cook
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cook, Melanie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2001001957
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen D
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Quinn, Stephen D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2009169335
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007017003
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2018-02-14'
-script:
-- Latn
+abstract:
+- content: The Security Content Automation Protocol (SCAP) is a multi-purpose framework
+    of component specifications that support automated configuration, vulnerability,
+    and patch checking, security measurement, and technical control compliance activities.
+    The SCAP version 1.3 specification is defined by the combination of NIST Special
+    Publication (SP) 800-126 Revision 3, a set of schemas, and this document. This
+    document allows the use of particular minor version updates to SCAP 1.3 component
+    specifications and the use of particular Open Vulnerability and Assessment Language
+    (OVAL) core schema and platform schema versions. Allowing use of these updates
+    and schemas provides additional functionality for SCAP 1.3 without causing any
+    loss of existing functionality.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-126A
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

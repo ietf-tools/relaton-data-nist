@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP774
 title:
 - content: Directory of U.S. private sector product certification programs
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.774
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication774.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 774
@@ -21,69 +20,53 @@ docid:
 - id: 10.6028/NIST.SP.774
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Maureen A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Breitenberg
+      completename:
+        content: Breitenberg, Maureen A.
         language:
         - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Maureen A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Breitenberg
-        language:
-        - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83016077
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The document presents information on 132 private sector groups in the United
+    States which engage in product certification activities. Entries describe the
+    type and purpose of each organization, the nature of the activity, products certified,
+    standards used, certification requirements, any accreditation or recognition by
+    a U.S. or foreign private sector or government agency, availability of services,
+    methods of cost determination, and other relevant details. The directory is part
+    of an ongoing NIST (formerly NBS) effort to establish and maintain comprehensive
+    information on standards, regulations, certification programs and related topics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '774'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

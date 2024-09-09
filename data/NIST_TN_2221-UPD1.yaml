@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2221-upd1
 title:
-- content: Implementing NIST Infiltration Correlations
+- content: Implementing NIST infiltration correlations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2221-upd1
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2221-upd1.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2221-upd1
@@ -21,46 +20,66 @@ docid:
 - id: 10.6028/NIST.TN.2221-upd1
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          script:
-          - Latn
-      surname:
-        content: Ng
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Teo, Jyrteanna.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Ng, Lisa C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-7317-0973"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
+abstract:
+- content: 'This tutorial is a guide on how to implement the NIST infiltration correlations
+    [1] into EnergyPlus building energy simulation software for the US Department
+    of Energy prototype commercial buildings. The implementation can also be generalized
+    to other building energy simulation software and other building models. Revision
+    is documented in Appendix B: Change Log.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: updates
+  bibitem:
+    id: NISTTN2221
+    docid:
+    - id: NIST TN 2221
+      type: NIST
+    formattedref:
+      content: NIST TN 2221
+      format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 2221-upd1
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

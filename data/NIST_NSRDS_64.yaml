@@ -1,18 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTNSRDS64
 title:
-- content: NIST Electron Elastic-Scattering Cross-Section Database, Version 4.0
+- content: NIST Electron Elastic-Scattering Cross-Section Database
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: version 4.0 users guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Electron Elastic-Scattering Cross-Section Database - version 4.0 users
+    guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.NSRDS.64
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/NSRDS/NIST.NSRDS.64.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST NSRDS 64
@@ -21,101 +35,73 @@ docid:
 - id: 10.6028/NIST.NSRDS.64
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Cedric J.
-          script:
-          - Latn
-      surname:
-        content: Powell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Jablonski, A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aleksander
-          script:
-          - Latn
-      surname:
-        content: Jablonski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Salvat, F. (Francine)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085169
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Francesc
-          script:
-          - Latn
-      surname:
-        content: Salvat
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Angela Y.
-          script:
-          - Latn
-      surname:
-        content: Lee
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Materials Measurement Laboratory
+      completename:
+        content: Powell, C. J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50019550
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: Version 4.0 of this database (SRD 64) provides values of differential elastic-scattering
+    cross sections, total elastic-scattering cross sections, phase shifts, and transport
+    cross sections for elements with atomic numbers from 1 to 96 and for electron
+    energies between 50 eV and 300 keV (in steps of 1 eV). Knowledge of elastic-scattering
+    effects is important for the development of theoretical models for quantitative
+    analysis by Auger-electron spectroscopy, X-ray photoelectron spectroscopy, electron
+    microprobe analysis, and analytical electron microscopy. An analysis of available
+    elastic-scattering cross-section data has been published [A. Jablonski, F. Salvat,
+    and C. J. Powell, J. Phys. Chem. Ref. Data 33, 409 (2004)].
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: '64'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

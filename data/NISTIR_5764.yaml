@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5764
 title:
-- content: Smoke plume trajectory from in situ burning of crude oil in Alaska:field
+- content: Smoke plume trajectory from in situ burning of crude oil in Alaska
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: field experiments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Smoke plume trajectory from in situ burning of crude oil in Alaska - field
     experiments
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5764
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5764.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5764
@@ -22,111 +35,91 @@ docid:
 - id: 10.6028/NIST.IR.5764
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1995'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin B
-          script:
-          - Latn
-      surname:
-        content: McGrattan
-        script:
-        - Latn
+      completename:
+        content: McGrattan, Kevin B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00054299
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William D
-          script:
-          - Latn
-      surname:
-        content: Walton
-        script:
-        - Latn
+      completename:
+        content: Walton, W. Douglas.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony D
-          script:
-          - Latn
-      surname:
-        content: Putorti
-        script:
-        - Latn
+      completename:
+        content: Putorti, Anthony D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr99000843
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William H
-          script:
-          - Latn
-      surname:
-        content: Twilley
-        script:
-        - Latn
+      completename:
+        content: Twilley, William H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83650028
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jay
-          script:
-          - Latn
-      surname:
-        content: McElroy
-        script:
-        - Latn
+      completename:
+        content: McElroy, Jay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David D
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
+      completename:
+        content: Evans, David D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79137078
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1995'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5764'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

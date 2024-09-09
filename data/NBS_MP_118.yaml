@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMP118
 title:
 - content: The optical rotation of liquids its variation with wave length temperature,
-    solvent and concentration/
+    solvent and concentration
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MP.118
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub118.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MP 118
@@ -22,52 +21,40 @@ docid:
 - id: 10.6028/NBS.MP.118
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1932'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: T Martin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lowry
+      completename:
+        content: Lowry, T. Martin (Thomas Martin),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87805187
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1932'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Miscellaneous Publications
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: MP
   number: '118'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

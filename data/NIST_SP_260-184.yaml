@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-184
 title:
-- content: Method for Measuring the Volume of Nominally 100 μm Diameter Spherical
-    Water-in-Oil Emulsion Droplets
+- content: Method for measuring the volume of nominally 100 ?m diameter spherical
+    water-in-oil emulsion droplets
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-184
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-184.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-184
@@ -22,84 +21,61 @@ docid:
 - id: 10.6028/NIST.SP.260-184
   type: DOI
 date:
-- type: published
-  value: 2016-02
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John A.
-          script:
-          - Latn
-      surname:
-        content: Dagata
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Dagata, John A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139123
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Natalia
-          script:
-          - Latn
-      surname:
-        content: Farkas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Farkas, Natalia.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139124
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John A.
-          script:
-          - Latn
-      surname:
-        content: Kramer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Kramar, John A. (John Adam)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022043066
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-02
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-184
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2115
 title:
-- content: Associating Disaster Deaths with Risk Profiles
+- content: Associating disaster deaths with risk profiles
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2115
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2115.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2115
@@ -21,118 +20,95 @@ docid:
 - id: 10.6028/NIST.TN.2115
   type: DOI
 date:
-- type: published
-  value: '2020-09-28'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley W.
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer F.
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David H.
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Juan F.
-          script:
-          - Latn
-      surname:
-        content: Fung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fung, Juan F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anand
-          script:
-          - Latn
-      surname:
-        content: Kandaswamy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kandaswamy, Anand.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2020-09-28'
-script:
-- Latn
+abstract:
+- content: In this paper we set out to identify which risk profiles contribute most
+    to deaths in disasters. A risk profile represents an identifiable group of people
+    who would be at risk of death in a disaster through some mechanism. Four risk
+    profiles were considered in this report, Population (representing the overall
+    population of a location), Frailty (representing people who are in some sense
+    physically vulnerable to injury or illness), Mobile Homes residents, and Risk
+    Takers (proxied by the population of heavy drinkers). Overall the single greatest
+    contributor to deaths was the Mobile Home risk profile, although that varied by
+    disaster event type. The prominence of the mobile-home risk profile suggests that
+    in many cases it proxies for a larger group, possibly related to income or educational
+    level. The risk profile associated with disaster fatalities depends on the type
+    of event. For Katrina-type hurricanes and extreme-temperature events, frailty
+    was the most important risk profile. For wind and flood events the Mobile Home
+    population was overwhelmingly the most significant risk profile. For avalanche
+    events the Risk-Taker profile was the most significant one. For all other event
+    types (including non-Katrina hurricanes) fatalities were attributed to a mix of
+    the Mobile Home and Frailty risk profiles. Disaster-related deaths do not appear
+    to strike people at random from the population as a whole. Looking at the county-level
+    results, there are identifiable spatial patterns to the risk profiles. High frailty
+    clusters tend to be found around high population regions, while high mobile home
+    clusters are in more rural areas. Much of the U.S., spatially, is in a moderate
+    cluster both for frailty and mobile homes, while most major population centers
+    are part of clusters of similar values for risk profile.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2115'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

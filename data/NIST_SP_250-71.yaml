@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-71
 title:
-- content: 0 :45 surface color
+- content: '0'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 45 surface color
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 0 - 45 surface color
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-71
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-71.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-71
@@ -21,86 +34,61 @@ docid:
 - id: 10.6028/NIST.SP.250-71
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2008'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Maria E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nadal
+      completename:
+        content: Nadal, Maria E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022063285
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Early
+      completename:
+        content: Early, Edward A. (Edward Allen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003077732
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bousquet
+      completename:
+        content: Bousquet, Robert R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021144921
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2008'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-71
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

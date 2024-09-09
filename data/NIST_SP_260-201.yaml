@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-201
 title:
 - content: Certification of Standard Reference Material 1450e fibrous glass board
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-201
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-201.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-201
@@ -21,67 +20,75 @@ docid:
 - id: 10.6028/NIST.SP.260-201
   type: DOI
 date:
-- type: published
-  value: 2020-04
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          script:
-          - Latn
-      surname:
-        content: Zarr
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Zarr, Robert R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb97058583
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: N Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Heckert, N. Alan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-04
-script:
-- Latn
+abstract:
+- content: 'Thermal conductivity measurements at and near room temperature are presented
+    as the basis for certified values of thermal conductivity for SRM 1450e, Fibrous
+    Glass Board. The meas-urements have been conducted in accordance with a randomized
+    full factorial experimental design with three variables (bulk density, mean temperature,
+    and ambient pressure) using the NIST 500 mm guarded-hot-plate apparatus. The thermal
+    conductivity of the SRM specimens was measured over a range of bulk densities
+    from 110 kg?m-3 to 154 kg?m-3, mean tempera-tures from 280 K to 360 K, and ambient
+    pressure of 60 kPa to 100 kPa. Uncertainties of the measurements, consistent in
+    format with current international guidelines, have been prepared. Statistical
+    analyses of the physical properties from the SRM are presented and include varia-tions
+    between boards, as well as within board. Each unit of SRM 1450e is individually
+    certified for bulk density, ?, and batch certified for thermal conductivity with
+    the following equation: where ? is the predicted thermal conductivity (W?m-1?K-1),
+    ? is the bulk density (kg?m-3), and Tm is the mean temperature (K) valid over
+    the temperature range of 280 K to 360 K. Certi-fied values of ? are valid for
+    barometric pressures from 60 kPa to sea-level pressure (101.325 kPa). There is
+    no pressure dependence on the thermal conductivity included in the certifica-tion
+    equation above because no statistically significant relationship between ? and
+    pressure was determined over the limited range of 60 kPa to 100 kPa. The expanded
+    uncertainty for ? values from the above equation is 1 % with a coverage factor
+    of approximately k = 2.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-201
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

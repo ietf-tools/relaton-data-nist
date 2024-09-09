@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTBSS180
 title:
-- content: Database-assisted design for wind :concepts, software, and examples for
+- content: Database-assisted design for wind
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: concepts, software, and examples for rigid and flexible buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Database-assisted design for wind - concepts, software, and examples for
     rigid and flexible buildings
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.BSS.180
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nistbuildingscience180.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST BSS 180
@@ -22,52 +35,47 @@ docid:
 - id: 10.6028/NIST.BSS.180
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2006'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Seymour M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Spence
+      completename:
+        content: Main, Joseph A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168767
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Fritz, William P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168774
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institue of Standards and Technology (U.S.).
   role:
   - type: publisher
-revdate: '2006'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '180'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

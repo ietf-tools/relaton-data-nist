@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT8812
 title:
 - content: A compilation of the property differences of ortho and para hydrogen or
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.8812
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport8812.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 8812
@@ -22,75 +21,72 @@ docid:
 - id: 10.6028/NBS.RPT.8812
   type: DOI
 date:
-- type: published
-  value: '1965'
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J G
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: J G
-          script:
-          - Latn
-      surname:
-        content: Hust
-        script:
-        - Latn
+      completename:
+        content: Hust, J. G. (Jerome G.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82113818
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R B
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: R B
-          script:
-          - Latn
-      surname:
-        content: Stewart
-        script:
-        - Latn
+      completename:
+        content: Stewart, R. B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88010004
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1965'
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: The experimental property differences of ortho and para hydrogen and their
+    mixtures as reported in the world literature for temperatures below 300¿̐¿K are
+    tabulated. Properties included are specific heat, velocity of sound, thermal conductivity,
+    density, viscosity, vapor pressure, saturated liquid and saturated vapor densities,
+    and latent heat of vaporization. Pertinent comments regarding the experimental
+    methods employed, the pressure and temperature range of the data, and the accuracy
+    of the data are included when available.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '8812'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

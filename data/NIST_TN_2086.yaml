@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2086
 title:
 - content: A review of social media use during disaster response and recovery phases
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2086
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2086.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2086
@@ -21,84 +20,83 @@ docid:
 - id: 10.6028/NIST.TN.2086
   type: DOI
 date:
-- type: published
-  value: 2020-01
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Camila E
-          script:
-          - Latn
-      surname:
-        content: Young
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Young, Camila E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Erica D
-          script:
-          - Latn
-      surname:
-        content: Kuligowski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kuligowski, Erica D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011141182
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Aashna
-          script:
-          - Latn
-      surname:
-        content: Pradhan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Pradhan, Aashna.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-01
-script:
-- Latn
+abstract:
+- content: Under the National Construction Safety Team Act, the National Institute
+    of Standards and Technology (NIST) conducted an investigation of the May 22, 2011
+    tornado in Joplin, Missouri. The final report concluded with a list of sixteen
+    recommendations, including but not limited to recommendations for action in improved
+    and standardized emergency communications. Specifically, NIST recommended "the
+    development of national codes and standards and uniform guidance for clear, consistent,
+    recognizable, and accurate emergency communications, encompassing alerts and warnings,
+    to enable safe, effective, and timely responses." (Kuligowski et al. 2014, p.367)
+    This is the third study in the NIST effort to develop evidence-based guidance
+    on the creation and provision of public alerts. First, an overview of current
+    popular social media platforms and the capabilities that they feature, as well
+    as their potential application for emergency management is presented. Then, the
+    findings of research related to social media use for disaster response are outlined
+    in three themes. These themes are about the use of these tools for formal emergency
+    management, innovative social media applications for disaster response, and how
+    the general public uses these platforms, respectively. In turn, the findings of
+    the research about social media use for disaster recovery are presented through
+    three themes as well. These themes focus on social media during recovery for mental
+    health, recovery assessment, and relationship development, respectively. The research
+    findings are followed by the limitations and practical considerations for emergency
+    managers. This report ends with the future research section.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2086'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

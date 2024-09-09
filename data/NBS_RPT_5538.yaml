@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5538
 title:
 - content: Translation of Advantages gained by considering polarization in the planning
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5538
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5538.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5538
@@ -22,75 +21,75 @@ docid:
 - id: 10.6028/NBS.RPT.5538
   type: DOI
 date:
-- type: published
-  value: 1957-11
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: K H
-          script:
-          - Latn
-          initial: K
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: K H
-          script:
-          - Latn
-      surname:
-        content: Kappelhoff
-        script:
-        - Latn
+      completename:
+        content: Kappelhoff, K. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A P
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, A. P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80006175
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1957-11
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Measurements of the horizontally and vertically polarized field components
+    of VHF transmissions were performed within the urban areas of Muenster (Westphalia)
+    and Hamburg, and the spatial distribution of the ratio of the field components
+    determined. Vertically and horizontally polarized fields obtain cross-polarized
+    components by reflections. The relative intensity of these components depends
+    on the number, size, shape, and composition of the reflecting obstacles. For instance,
+    for vertically polarized transmissions, the ratio of the vertically polarized
+    to the horizontally polarized measured field component is infinite over absolutely
+    flat terrain; however, this ratio may become less than unity if measured in the
+    narrow canyons of a large city. In order to obtain estimates of the spatial distribution
+    of this ratio, two series of measurements were performed during which the received
+    field strength was measured simultaneously on the same spot with a vertical and
+    a horizontal antenna. The results were evaluated by use of statistical analysis.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5538'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

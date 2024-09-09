@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCIS10
 title:
-- content: 'Consumer Information Series 10: automation in the marketplace'
+- content: Automation in the marketplace
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CIS.10
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/CIS/nbscis10.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CIS 10
@@ -21,59 +20,47 @@ docid:
 - id: 10.6028/NBS.CIS.10
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1978'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shirley M
-          script:
-          - Latn
-      surname:
-        content: Radack
-        script:
-        - Latn
+      completename:
+        content: Radack, Shirley M.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n82088860
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Grace G
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
+      completename:
+        content: Burns, Grace G.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1978'
-script:
-- Latn
 series:
 - title:
-    content: NBS Consumer Information Series
+    content: NBS consumer information series; CIS
     format: text/plain
-  abbreviation:
-    content: CIS
   number: '10'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

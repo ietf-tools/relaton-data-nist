@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR76-1156
 title:
-- content: Measurements on insulating materials at cryogenic temperatures :annual
+- content: Measurements on insulating materials at cryogenic temperatures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: annual report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Measurements on insulating materials at cryogenic temperatures - annual
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.76-1156
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir76-1156.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 76-1156
@@ -22,209 +35,100 @@ docid:
 - id: 10.6028/NBS.IR.76-1156
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1976'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Anderson
+      completename:
+        content: Anderson, William E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85009811
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Davis
+      completename:
+        content: Davis, Richard S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87817829
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F I
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: F I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mopsik
+      completename:
+        content: Mopsik, F. I.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021038928
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S J
-          language:
-          - en
-          script:
-          - Latn
-          initial: S
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: S J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kryder
+      completename:
+        content: Kryder, S. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F
-          language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Khoury
+      completename:
+        content: Khoury, F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86135754
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J P
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: J P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Colson
+      completename:
+        content: Colson, J. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L H
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: L H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bolz
+      completename:
+        content: Bolz, L. H.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021097738
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1976'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 76-1156
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

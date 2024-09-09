@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10069
 title:
 - content: Compatibility of protective coatings, materials, and liquid propellants
-    :quarterly progress report no. 14 - April 1 to June 30, 1969
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: quarterly progress report no. 14 - April 1 to June 30, 1969
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Compatibility of protective coatings, materials, and liquid propellants
+    - quarterly progress report no. 14 - April 1 to June 30, 1969
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10069
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10069.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10069
@@ -22,93 +35,48 @@ docid:
 - id: 10.6028/NBS.RPT.10069
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1969'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J P
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: J P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Young
+      completename:
+        content: Young, John Preston,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2006060275
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G I
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: G I
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reid
+      completename:
+        content: Reid, G. I.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1969'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10069'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

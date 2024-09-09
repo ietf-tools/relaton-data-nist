@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8234
 title:
 - content: Preparation of cylindrical tensile specimens for simultaneous mechanical
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8234
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8234.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8234
@@ -22,93 +21,78 @@ docid:
 - id: 10.6028/NIST.IR.8234
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Felix H
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kim, Felix H.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1042-9500"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shawn P
-          script:
-          - Latn
-      surname:
-        content: Moylan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Moylan, Shawn P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022062454
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Edward J
-          script:
-          - Latn
-      surname:
-        content: Garboczi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Garboczi, Edward J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96075666
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: Cylindrical tensile specimens were designed and prepared for in situ mechanical
+    testing using X- ray computed tomography (XCT). Powder bed fusion-based metal
+    additive manufacturing was used to produce tensile specimens to a near-net shape.
+    Natural and designed defects were embedded in the tensile specimen using the additive
+    manufacturing process. Conventional machining was used to refine the shape of
+    the tensile specimens to their final shape with low surface roughness. The process
+    of developing a cylindrical tensile specimen is described and recommendations
+    for future builds are provided. An XCT-based dimensional measurement technique
+    to inspect the part quality is introduced and described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8234'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

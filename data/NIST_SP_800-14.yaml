@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-14
 title:
 - content: Generally accepted principles and practices for securing information technology
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-14
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-14.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-14
@@ -22,77 +21,67 @@ docid:
 - id: 10.6028/NIST.SP.800-14
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marianne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swanson
+      completename:
+        content: Swanson, Marianne.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n91015913
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Guttman
+      completename:
+        content: Guttman, Barbara.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92114452
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1996'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: As more organizations share information electronically, a common understanding
+    of what is needed and expected in securing information technology (IT) resources
+    is required. This document provides a baseline that organizations can use to establish
+    and review their IT security programs. The document gives a foundation that organizations
+    can reference when conducting multi-organizational business as well as internal
+    business. Management, internal auditors, users, system developers, and security
+    practioners can use the guideline to gain an understanding of the basic security
+    requirements most IT systems should contain. The foundation begins with generally
+    accepted system security principles and continues with common practices that are
+    used in securing IT systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-14
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

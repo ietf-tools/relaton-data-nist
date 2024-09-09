@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2013
 title:
 - content: Improving the economic viability of investment in building sustainability
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2013
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2013.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2013
@@ -22,67 +21,79 @@ docid:
 - id: 10.6028/NIST.TN.2013
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer F
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017065489
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric G
-          script:
-          - Latn
-      surname:
-        content: O'Rear
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Rear, Eric G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022066603
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: In recent years, building designers and community planners have recognized
+    the importance of taking an integrated approach to sustainability and resilience,
+    but in practical application this dual objective approach is not often intentionally
+    realized. For some time, the two efforts have been largely disconnected despite
+    overlapping agendas and shared co-benefits. A building cannot be classified as
+    sustainable if it is not durable enough to withstand the impacts of natural disasters
+    and maintain its functional resilience. Therefore, formally integrating the two
+    concepts is important to ensure the development of long-term sustainable residential
+    and commercial buildings that can withstand the increasing large-scale disaster
+    events of greater magnitude than ever before. A common deterrent for many homeowners
+    to invest in sustainable building elements are the significant upfront costs required.
+    However, the economic viability of such investments can be improved if homeowners
+    facing hazard events or stressors see their investments in sustainability as a
+    way to increase the resilience of their homes to disasters, benefiting from the
+    monetization of numerous direct and/or indirect cost savings or losses avoided.
+    A case study based on a single-family home in Maryland with an installed rooftop
+    solar photovoltaic (PV) system with the option for additional battery storage
+    is used to reveal the potential effects of considering resilience benefits in
+    economic analyses of investments in residential sustainability. The results of
+    an environmental impact assessment are then used to reveal underlying tradeoffs
+    between investments in building sustainability (indirect resilience) and a building's
+    environmental footprint.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2013'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9078
 title:
-- content: Surface studies of natural and synthetic bone mineral and teeth:progress
+- content: Surface studies of natural and synthetic bone mineral and teeth
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: progress report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Surface studies of natural and synthetic bone mineral and teeth - progress
     report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9078
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9078.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9078
@@ -22,46 +35,33 @@ docid:
 - id: 10.6028/NBS.RPT.9078
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1965'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William V
-          script:
-          - Latn
-      surname:
-        content: Loebenstein
-        script:
-        - Latn
+      completename:
+        content: Loebenstein, William V.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1965'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9078'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

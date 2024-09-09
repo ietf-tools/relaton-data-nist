@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2020
 title:
 - content: Estimating smoke alarm effectiveness and spatial distribution in homes
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2020
@@ -21,50 +20,67 @@ docid:
 - id: 10.6028/NIST.TN.2020
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n96024300
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: This report sets out to answer three questions. What effect does installing
+    smoke detectors have on reported fires and casualties for the average household?
+    How much of an effect would increasing smoke detector utilization have on the
+    total number of fires and casualties in the United States? And what are the attributes
+    of homes currently without smoke detectors and where are they located? We estimate
+    the installation of smoke detectors in homes without them reduces the expected
+    number of fires reported from a (formerly) non-smoke-detector residence by a factor
+    of 3.5 to 5, and reduces the number of expected casualties by a factor of 2.5
+    to 3.5. Unexpectedly, we find the number of casualties per reported fire is lower
+    for non-smoke- detector households compared to smoke-detector households. This
+    could be due to changes in people's behavior when they have a smoke detector in
+    the house or because the less dangerous fires are preferentially extinguished
+    when smoke detectors are present. If smoke detectors were installed in all residences,
+    the number of fires reported to the fire department could be reduced by 25 % or
+    more. More realistically, each percent increase in smoke detector penetration
+    reduces reported fires by more than 2.6 %. Finally, estimates of smoke detector
+    utilization at the census tract level were developed for the entire country. We
+    find evidence that the number of homes with smoke detectors are lower than current
+    estimates that rely on telephone-only survey interviews. We estimate actual smoke
+    detector usage is likely below 92 %. It seems likely that this is due to a correlation
+    between phone presence and smoke detector utilization.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2020'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

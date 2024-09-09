@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-2016
 title:
-- content: 'National Voluntary Laboratory Accreditation Program: Procedures and General
-    Requirements'
+- content: National Voluntary Laboratory Accreditation Program procedures and general
+    requirements
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-2016
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2016/NIST.HB.150-2016.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-2016
@@ -22,67 +21,71 @@ docid:
 - id: 10.6028/NIST.HB.150-2016
   type: DOI
 date:
-- type: published
-  value: 2016-07
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Warren
-          script:
-          - Latn
-      surname:
-        content: Merkel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Standards Coordination Office
+      completename:
+        content: Merkel, Warren R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vanda
-          script:
-          - Latn
-      surname:
-        content: White
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Standards Coordination Office
+      completename:
+        content: White, Vanda R.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00041322
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Laboratory Programs.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-07
-script:
-- Latn
+abstract:
+- content: 'NIST Handbook 150, 2015 edition, sets forth the procedures and general
+    requirements under which the National Voluntary Laboratory Accreditation Program
+    (NVLAP) operates as an unbiased third party to accredit testing and calibration
+    laboratories. The 2015 edition of NIST Handbook 150 supersedes and replaces the
+    2006 edition. In addition to a number of editorial revisions, the 2015 edition
+    incorporates the following main changes with respect to the previous edition:
+    (1) incorporation of previously issued NVLAP Policy Guides and updated definitions
+    and references; (2) addition of Annex E, which contains the requirements for accredited
+    laboratories wishing to use the Accredited Laboratory Combined ILAC MRA Mark;
+    and (3) removal of the managerial and technical requirements of ISO/IEC 17025,
+    which were previously contained in NIST Handbook 150 clauses 4 and 5, respectively.
+    Annexes A through E form a normative part of this handbook, meaning they contain
+    provisions that laboratories must meet in order to conform to the requirements
+    for accreditation. Testing and calibration laboratories use NIST Handbook 150
+    in developing the management and technical systems that govern their operations.
+    Laboratory customers, regulatory authorities, and accreditation bodies may also
+    use it as a basis upon which to judge the competence of laboratories.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-2016
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

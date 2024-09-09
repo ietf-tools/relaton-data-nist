@@ -1,20 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSFIPS122
 title:
-- content: 'Federal Information Processing Standards Publication: interface between
-    data terminal equipement (DTE) and data circuit-terminating equipment (DCE) for
-    operation with packet-switched data communications networks'
+- content: Interface between data terminal equipement (DTE) and data circuit-terminating
+    equipment (DCE) for operation with packet-switched data communications networks
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.FIPS.122
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub122.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS FIPS 122
@@ -23,33 +21,46 @@ docid:
 - id: 10.6028/NBS.FIPS.122
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1986'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1986'
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS Federal Information Processing Standards Publications
+    content: Federal information processing standards publication; FIPS
     format: text/plain
-  abbreviation:
-    content: FIPS
   number: '122'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

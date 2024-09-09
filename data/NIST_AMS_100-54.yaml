@@ -1,0 +1,94 @@
+---
+schema-version: v1.2.9
+id: NISTAMS100-54
+title:
+- content: Process-structure-property data alignment for additive manufacturing data
+    registration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.AMS.100-54
+  type: doi
+type: standard
+docid:
+- id: NIST AMS 100-54
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.AMS.100-54
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Feng, Shaw C
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Lu, Yan.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Jones, Albert T.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Engineering Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Melt-pool-monitoring, layer-wise-imaging, microstructure-analysis, and
+    mechanical-property test data are becoming increasingly available during the additive
+    manufacturing (AM) fabrication process. These data along with data analytics tools
+    are becoming more important because they are needed to plan and control AM processes,
+    validate part quality, and accelerate the qualification process. A major impediment
+    to using those datasets, however, is that they sets are highly correlated. Even
+    though they are obtained from different sensors, instruments, and testing machines
+    that live in their own local, coordinate systems. Additionally, these correlated
+    datasets must also be aligned with other build data such as process parameters
+    and scan paths. This paper presents an innovative, data-registration procedure,
+    which is the first step towards addressing the correlation problem. This procedure
+    results in a common, reference, coordinate system that provides an effective way
+    to use those datasets as inputs to downstream applications such as simulation,
+    machine learning, and data analytics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST advanced manufacturing series
+    format: text/plain
+  number: 100-54
+- title:
+    content: NIST advanced manufacturing series; NIST AMS
+    format: text/plain
+  number: 100-54
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

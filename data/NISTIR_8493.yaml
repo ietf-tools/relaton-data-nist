@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.9
+id: NISTIR8493
+title:
+- content: Vulnerability test suite generator (VTSG) version 3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.IR.8493
+  type: doi
+type: standard
+docid:
+- id: NIST IR 8493
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8493
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7561-6614"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mentzer, William.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Fong, Elizabeth.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Stivalet, Bertrand.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: 'The Vulnerability Test Suite Generator (VTSG) Version 3 can create vast
+    numbers of synthetic programs with and without specific flaws or vulnerabilities.
+    Such programs are useful for measuring static analysis tools. VTSG was designed
+    by the Software Assurance Metrics and Tool Evaluation (SAMATE) team and originally
+    implemented by students at TELECOM Nancy. The latest version is structured to
+    be able to generate vulnerable and nonvulnerable synthetic programs expressing
+    specific flaws in typical programming languages. It has libraries to generate
+    programs in PHP: Hypertext Preprocessor (PHP), C#, and Python. This document may
+    help if you are trying to generate test cases in PHP, C#, or Python, adding new
+    complexities or flaws or vulnerability, or modifying VTSG to have new capabilities
+    or to generate test cases in other programming languages.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NISTIR
+    format: text/plain
+  number: '8493'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8493'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

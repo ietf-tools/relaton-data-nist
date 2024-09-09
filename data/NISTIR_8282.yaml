@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8282
 title:
-- content: Forensic handwriting examination and human factors:improving the practice
+- content: Forensic handwriting examination and human factors
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: improving the practice through a systems approach
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Forensic handwriting examination and human factors - improving the practice
     through a systems approach
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8282
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8282.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8282
@@ -22,33 +35,62 @@ docid:
 - id: 10.6028/NIST.IR.8282
   type: DOI
 date:
-- type: published
-  value: 2020-02
+- type: issued
+  value: '2020'
 contributor:
+- person:
+    name:
+      completename:
+        content: |-
+          The Working Group on Human Factors in Handwriting
+                          Examination.
+        language:
+        - en
+  role:
+  - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2020-02
-script:
-- Latn
+abstract:
+- content: For some 6,000 years, humans have made an indelible mark on history through
+    the loops, strokes, and other characters that constitute the written form of language
+    - handwriting. The study of handwriting is also an important part of forensic
+    science. By analyzing the characteristics of a handwritten note or signature,
+    a trained forensic document examiner may be able to extract valuable information
+    for determining whether a note or signature is genuine, as well as the likely
+    writer. As with all human endeavors, handwriting examination is not immune to
+    errors. In June 2015, the US National Institute of Standards and Technology convened
+    the Expert Working Group for Human Factors in Handwriting Examination to conduct
+    a scientific assessment of the effects of human factors on forensic handwriting
+    examination with the goal of recommending strategies and approaches to improve
+    its practice and reduce the likelihood of errors. This report provides a comprehensive
+    discussion of how human factors relate to all aspects of handwriting examinations
+    including communicating conclusions to all relevant parties through reports and
+    testimony. The report also discusses education, training, and certification as
+    well as the role of quality assurance, quality control, and management in reducing
+    errors.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8282'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

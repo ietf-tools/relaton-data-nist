@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR88-3795
 title:
-- content: Benchmarks to supplant export "FPDR" calculations
+- content: Benchmarks to supplant export FPDR calculations
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.88-3795
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir88-3795.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 88-3795
@@ -21,137 +20,95 @@ docid:
 - id: 10.6028/NBS.IR.88-3795
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bailey
+      completename:
+        content: Bailey, David.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n97097740
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eugene
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Brooks
+      completename:
+        content: Brooks, Eugene,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2007073906
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jack
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dongarra
+      completename:
+        content: Dongarra, J. J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79058186
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ann
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hayes
+      completename:
+        content: Hayes, Ann.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88254640
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heath
+      completename:
+        content: Heath, Michael.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2007020202
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gordon
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lyon
+      completename:
+        content: Lyon, Gordon.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n77017550
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 88-3795
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

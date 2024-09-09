@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT2188
 title:
-- content: Quantum dynamics :part I
+- content: Quantum dynamics
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: part I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Quantum dynamics - part I
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.2188
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport2188.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 2188
@@ -21,52 +34,40 @@ docid:
 - id: 10.6028/NBS.RPT.2188
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1952'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Julian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwinger
+      completename:
+        content: Schwinger, Julian,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79058968
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1952'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '2188'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

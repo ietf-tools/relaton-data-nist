@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-227
 title:
 - content: Certification of Standard Reference Material 3461 reference cantilevers
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-227
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-227.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-227
@@ -22,107 +21,55 @@ docid:
 - id: 10.6028/NIST.SP.260-227
   type: DOI
 date:
-- type: published
-  value: '2022-08-15'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard S
-          script:
-          - Latn
-      surname:
-        content: Gates
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Gates, Richard S.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William A
-          script:
-          - Latn
-      surname:
-        content: Osborn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Osborn, William A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mark J
-          script:
-          - Latn
-      surname:
-        content: McLean
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: McLean, Mark J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gordon A
-          script:
-          - Latn
-      surname:
-        content: Shaw
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Shaw, Gordon A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James J
-          script:
-          - Latn
-      surname:
-        content: Filliben
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Filliben, James J.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-08-15'
-script:
-- Latn
 abstract:
 - content: A batch of 94 silicon chips containing arrays of uniform rectangular cantilevers
     were microfabricated from a single silicon wafer and their stiffnesses and resonance
@@ -142,16 +89,22 @@ abstract:
     is described. An example of the reference cantilever method is also provided for
     individuals wishing to use these devices to make direct calibrations of AFM test
     cantilevers.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-227
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

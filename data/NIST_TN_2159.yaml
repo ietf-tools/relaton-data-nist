@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2159
 title:
 - content: Laboratory method for recording AWS-3 LTE waveforms
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2159
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2159.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2159
@@ -21,107 +20,55 @@ docid:
 - id: 10.6028/NIST.TN.2159
   type: DOI
 date:
-- type: published
-  value: '2021-05-11'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Aric W
-          script:
-          - Latn
-      surname:
-        content: Sanders
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Sanders, Aric W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M Keith
-          script:
-          - Latn
-      surname:
-        content: Forsyth
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Forsyth, M. Keith.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert D
-          script:
-          - Latn
-      surname:
-        content: Horansky
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Horansky, Robert D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Azizollah
-          script:
-          - Latn
-      surname:
-        content: Kord
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Kord, Azizollah.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Duncan A
-          script:
-          - Latn
-      surname:
-        content: McGillivray
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: McGillivray, Duncan A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Communications Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-05-11'
-script:
-- Latn
 abstract:
 - content: The focus of this work provides a library of actual long-term evolution
     (LTE) user equipment (UE) emissions with sufficient time resolution and dynamic
@@ -139,16 +86,22 @@ abstract:
     Node B (eNB). NBIT's hybrid radio frequency (RF) testbed allows for a radiated
     free-space connection to the UE in conjunction with a cabled user equipment traffic
     generator (UTG) for control of cell loading conditions.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2159'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT10655
 title:
-- content: Specifications for resinous flooring:requirements and test methods
+- content: Specifications for resinous flooring
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: requirements and test methods
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Specifications for resinous flooring - requirements and test methods
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.10655
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport10655.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 10655
@@ -21,46 +34,33 @@ docid:
 - id: 10.6028/NBS.RPT.10655
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1971'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Winthrop C
-          script:
-          - Latn
-      surname:
-        content: Wolfe
-        script:
-        - Latn
+      completename:
+        content: Wolfe, Winthrop C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1971'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '10655'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8140
 title:
-- content: Review of Research for Docking Automatic Guided Vehicles and Mobile Robots
+- content: Review of research for docking automatic guided vehicles and mobile robots
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8140
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8140.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8140
@@ -21,67 +20,68 @@ docid:
 - id: 10.6028/NIST.IR.8140
   type: DOI
 date:
-- type: published
-  value: 2016-10
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger V.
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091704
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tsai Hong
-          script:
-          - Latn
-      surname:
-        content: Hong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hong, Tsai.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-10
-script:
-- Latn
+abstract:
+- content: This paper provides a literature review of docking research, an area that
+    has relatively few research articles as compared to generic automatic guided vehicle
+    (AGV) or mobile robot research. Docking refers to the arrival and stopping at
+    a position relative to another object. Docking can include positioning the vehicle
+    or the equipment onboard the vehicle relative to another object, for example a
+    tray station, trailer, or pallet. The paper is expected to be useful to ASTM Committee
+    F45 for development of docking and navigation standards and to industrial vehicle
+    research communities as basis to further docking research. The paper covers research
+    on vehicle control for docking and on the use of sensors combined with intelligent
+    vehicle control. Docking research on AGV or mobile robots with onboard robot arms
+    is also included. Other related research described includes flexible cells and
+    docking of other than ground vehicles, e.g., unmanned surface vehicles. Closing
+    the survey is a discussion of patents related to docking and an extensive list
+    of references.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8140'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

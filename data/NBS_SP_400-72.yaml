@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP400-72
 title:
-- content: NBSRADC workshop moisture measurement technology for hermetic semiconductor
+- content: NBS/RADC workshop moisture measurement technology for hermetic semiconductor
     devices II
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.400-72
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication400-72.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 400-72
@@ -22,69 +21,51 @@ docid:
 - id: 10.6028/NBS.SP.400-72
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaine C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cohen
+      completename:
+        content: Cohen, Elaine C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81105782
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ruthberg
+      completename:
+        content: Ruthberg, Stanley.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81105783
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 400-72
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

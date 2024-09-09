@@ -1,20 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-172
 title:
-- content: 'Enhanced Security Requirements for Protecting Controlled Unclassified
-    Information: A Supplement to NIST Special Publication 800-171A Supplement to NIST
-    Special Publication 800-171'
+- content: Enhanced security requirements for protecting controlled unclassified information
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a supplement to NIST Special Publication 800-171
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Enhanced security requirements for protecting controlled unclassified information
+    - a supplement to NIST Special Publication 800-171
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-172
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-172
@@ -23,148 +35,74 @@ docid:
 - id: 10.6028/NIST.SP.800-172
   type: DOI
 date:
-- type: published
-  value: '2021-01-28'
-- type: confirmed
-  value: '2021-01-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: RON
-          script:
-          - Latn
-      surname:
-        content: ROSS
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ross, Ron.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: VICTORIA
-          script:
-          - Latn
-      surname:
-        content: PILLITTERI
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Pilliterri, Victoria.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: GARY
-          script:
-          - Latn
-      surname:
-        content: GUISSANIE
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Guissanie, Gary.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: RYAN
-          script:
-          - Latn
-      surname:
-        content: WAGNER
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wagner, Ryan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: RICHARD
-          script:
-          - Latn
-      surname:
-        content: GRAUBART
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Graubart, Richard.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DEB
-          script:
-          - Latn
-      surname:
-        content: BODEAU
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bodeau, Deb.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
   role:
   - type: publisher
-revdate: '2021-01-28'
-script:
-- Latn
-relation:
-- type: obsoletes
-  bibitem:
-    id: NISTSP800-172-draft
-    docid:
-    - id: NIST SP 800-172-draft
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST SP 800-172-draft
-      format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-172
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

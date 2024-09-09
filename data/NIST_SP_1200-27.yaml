@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1200-27
 title:
 - content: Evaluation of methods for assessing the proportion of single-stranded nuclear
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1200-27
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1200-27.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1200-27
@@ -22,67 +21,69 @@ docid:
 - id: 10.6028/NIST.SP.1200-27
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Margaret C
-          script:
-          - Latn
-      surname:
-        content: Kline
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kline, Margaret C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2020100705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: 'This report documents our evaluation of three digital PCR (dPCR) based
+    methods for estimating the proportion, if any, of single-stranded DNA (ssDNA)
+    in a sample that is believed to be mostly double-stranded DNA (dsDNA). These methods
+    are: 1) a modification of a published real time chamber-digital PCR (cdPCR) method,
+    2) comparing droplet-digital (ddPCR) results for native samples with those of
+    an aliquot that has been gently heat-denatured, and 3) comparing ddPCR results
+    for native samples with those of an aliquot in which dsDNA entities have been
+    enzymatically rendered non amplifiable. The cdPCR method requires use of exceptionally
+    efficient PCR assays and appears to be insensitive to ssDNA proportions less than
+    about 8%. The denaturation/native comparison does not provide a unique estimate
+    of ssDNA proportion but rather an upper limit. The enzymatic method requires careful
+    choice and evaluation of restriction enzyme and PCR assay but has the potential
+    to provide metrologically traceable estimates of the proportion of ssDNA.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1200-27
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

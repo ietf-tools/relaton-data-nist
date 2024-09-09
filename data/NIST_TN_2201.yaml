@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2201
 title:
 - content: Laser-assisted atom probe tomography of c-plane and m-plane InGaN test
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2201
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2201.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2201
@@ -22,175 +21,87 @@ docid:
 - id: 10.6028/NIST.TN.2201
   type: DOI
 date:
-- type: published
-  value: '2022-04-29'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Norman A
-          script:
-          - Latn
-      surname:
-        content: Sanford
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Sanford, Norman A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul T
-          script:
-          - Latn
-      surname:
-        content: Blanchard
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Blanchard, Paul T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew D
-          script:
-          - Latn
-      surname:
-        content: Brubaker
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Brubaker, Matthew D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ashwin K
-          script:
-          - Latn
-      surname:
-        content: Rishinaramangalam
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Rishinaramangalam, Ashwin K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Qihua
-          script:
-          - Latn
-      surname:
-        content: Zhang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Zhang, Qihua.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alexana
-          script:
-          - Latn
-      surname:
-        content: Roshko
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Roshko, Alexana.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Daniel F
-          script:
-          - Latn
-      surname:
-        content: Feezell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Feezell, Daniel F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Benjamin D B
-          script:
-          - Latn
-      surname:
-        content: Klein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Klein, Benjamin D. B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Albert V
-          script:
-          - Latn
-      surname:
-        content: Davydov
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Davydov, Albert V.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory
   role:
   - type: publisher
-revdate: '2022-04-29'
-script:
-- Latn
 abstract:
 - content: Laser-assisted atom probe tomography (L-APT) was used to measure the indium
     mole fraction x of c-plane, MOCVD-grown, GaN/InxGa1-xN/GaN test structures and
@@ -215,16 +126,22 @@ abstract:
     that is consistent with an electrostatic effect arising from spontaneous polarization.
     Both c-plane and m-plane sample types showed depth-dependent variations in absolute
     ion counts that depended upon ROI placement.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2201'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

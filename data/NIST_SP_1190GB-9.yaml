@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1190GB-9
 title:
-- content: 'Guide Brief 9: summarizing goals and objectives using performance goal
-    tables'
+- content: Guide brief 9
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: summarizing goals and objectives using performance goal tables
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Guide brief 9 - summarizing goals and objectives using performance goal
+    tables
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1190GB-9
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1190GB-9.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1190GB-9
@@ -22,50 +35,52 @@ docid:
 - id: 10.6028/NIST.SP.1190GB-9
   type: DOI
 date:
-- type: published
-  value: 2017-05
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Therese P
-          script:
-          - Latn
-      surname:
-        content: McAllister
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McAllister, Therese.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2002021681
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2017-05
-script:
-- Latn
+abstract:
+- content: This Guide Brief reviews the performance goals tables used in Step 3 of
+    the Guide. These tables offer an approach to evaluate the anticipated recovery
+    of building clusters and infrastructure systems and the services they support.
+    The summary performance goals table gives community resilience planners a one-page
+    view of what the community needs from its buildings and infrastructure systems
+    when a routine, design, or extreme hazard event occurs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1190GB-9
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

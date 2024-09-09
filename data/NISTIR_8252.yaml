@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8252
 title:
-- content: IREX IX part two:multispectral iris recognition
+- content: IREX IX part two
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: multispectral iris recognition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: IREX IX part two - multispectral iris recognition
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8252
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8252.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8252
@@ -21,84 +34,84 @@ docid:
 - id: 10.6028/NIST.IR.8252
   type: DOI
 date:
-- type: published
-  value: 2019-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: George W
-          script:
-          - Latn
-      surname:
-        content: Quinn
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Quinn, George W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098146
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          script:
-          - Latn
-      surname:
-        content: Grother
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Grother, Patrick J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005043592
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Matey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Matey, James.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-06
-script:
-- Latn
+abstract:
+- content: Iris Exchange (IREX) IX is an evaluation of automated iris recognition
+    algorithms. The first part of the evaluation was a performance test of both verification
+    (one-to-one) and identification (one-to-many) recognition algorithms over operational
+    test data. Those results are summarized in NIST IR 8207. The second part of the
+    evaluation constitutes a multispectral evaluation of iris recognition. Those results
+    are summarized in this report. All currently deployed iris recognition systems
+    operate on images of the iris illuminated in the near infrared band of the electromagnetic
+    spectrum. The ISO/IEC 19794-6 and 29794-6 standards require the eye to be illuminated
+    between 'approximately 700 and 900 nanometers (nm)'. Near infrared light is specified
+    because melanin, the pigment that makes dark eyes dark, is nearly transparent
+    in the near infrared. This evaluation assesses the accuracy of state-of-the-art
+    iris matchers over a much wider range of the spectrum. Particular attention is
+    placed on the visible (400 nm to 700 nm) and short wave infrared (700 nm to 1550
+    nm) bands. Principle testing was performed over the Consolidated Multispectral
+    Iris Dataset (CMID) which was provided to NIST by the Southern Methodist University.
+    Collected in well controlled laboratory settings, the dataset is ideal for multispectral
+    analysis. It contains about a quarter-million iris samples from over 200 subjects,
+    by far the largest of its kind as of this writing. Thirteen research institutions
+    submitted matching algorithms for testing.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8252'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

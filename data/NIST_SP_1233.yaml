@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1233
 title:
-- content: NIST nanotechnology environmental, health, and safety research program:2009
-    2016
+- content: NIST nanotechnology environmental, health, and safety research program
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 2009 2016
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST nanotechnology environmental, health, and safety research program
+    - 2009 2016
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1233
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1233.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1233
@@ -22,67 +35,72 @@ docid:
 - id: 10.6028/NIST.SP.1233
   type: DOI
 date:
-- type: published
-  value: 2018-11
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Debra L
-          script:
-          - Latn
-      surname:
-        content: Kaiser
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Kaiser, Debra L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2017015327
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent A
-          script:
-          - Latn
-      surname:
-        content: Hackley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hackley, Vincent A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-4166-2724"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2018-11
-script:
-- Latn
+abstract:
+- content: In response to needs of a government-wide initiative in nanotechnology
+    led by a subcommittee within the White House s Office of Science and Technology
+    Policy, NIST established a nanotechnology environmental, health, and safety (nano-EHS)
+    research program in 2009 that remained active through 2016. This document summarizes
+    the NIST Nano-EHS Program goals, projects, outputs, and impacts. The program was
+    designed to address, in collaboration with other agencies, the research needs
+    for a comprehensive U.S. measurement infrastructure for nano-EHS as identified
+    by federal agencies participating in the National Nanotechnology Initiative. Such
+    an infrastructure included a suite of measurement tools methods, protocols, standards
+    (reference materials and documentary), instruments, models, and benchmark (validated)
+    data. The NIST Nano-EHS Program made substantial progress in developing the required
+    infrastructure, producing 9 reference materials, 24 web-accessible protocols,
+    and 212 archival journal articles, 59% of which have been published in journals
+    with impact factors greater than 3. In addition, program team members held leadership
+    positions in the nanotechnology committees of major standards development organizations
+    and led and contributed to the development of standards in these committees.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1233'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

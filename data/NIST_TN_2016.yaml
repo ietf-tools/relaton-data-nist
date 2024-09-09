@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2016
 title:
 - content: Spectrum occupancy and ambient power distributions for the 3.5 GHz band
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2016
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2016.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2016
@@ -22,118 +21,90 @@ docid:
 - id: 10.6028/NIST.TN.2016
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W Max
-          script:
-          - Latn
-      surname:
-        content: Lees
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Lees, W. Max.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Wunderlich
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Wunderlich, Adam.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-8463-9156"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          script:
-          - Latn
-      surname:
-        content: Jeavons
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Jeavons, Peter.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul D
-          script:
-          - Latn
-      surname:
-        content: Hale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Hale, Paul D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael R
-          script:
-          - Latn
-      surname:
-        content: Souryal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Souryal, Michael R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: 'This report presents descriptive statistics characterizing a set of over
+    14,000 spectrograms covering the 3.5 GHz band that were recorded by a recent measurement
+    campaign at two coastal locations: Point Loma, in San Diego, California and Fort
+    Story, in Virginia Beach, Virginia. Specifically, occupancy and vacancy statistics
+    are compiled for each frequency where a primary federal incumbent system in the
+    3.5 GHz band, the shipborne SPN-43 air traffic control radar, was observed. In
+    addition, empirical ambient (SPN-43 absent) power density distributions are presented
+    for each multiple of 10 MHz between 3430-3680 MHz. These descriptive statistics
+    are potentially informative to federal regulators and potential commercial users
+    of the Citizens Broadband Radio Service (CBRS) that permits commercial wireless
+    networks to share spectrum with federal users in the 3550-3700 MHz band in the
+    United States.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2016'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

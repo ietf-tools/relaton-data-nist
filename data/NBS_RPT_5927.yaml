@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT5927
 title:
 - content: Effect of variation of emissivity of internal surfaces of heated box beams
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.5927
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport5927.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 5927
@@ -22,93 +21,87 @@ docid:
 - id: 10.6028/NBS.RPT.5927
   type: DOI
 date:
-- type: published
-  value: 1958-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: S
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S
-          script:
-          - Latn
-      surname:
-        content: Goodman
-        script:
-        - Latn
+      completename:
+        content: Goodman, S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2003060197
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S B
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: S B
-          script:
-          - Latn
-      surname:
-        content: Russell
-        script:
-        - Latn
+      completename:
+        content: Russell, S. B.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90656369
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C E
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: C E
-          script:
-          - Latn
-      surname:
-        content: Noble
-        script:
-        - Latn
+      completename:
+        content: Noble, C. E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no95050930
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1958-06
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Transient temperature distribution histories, thermal stresses, and deflections
+    were computed for 13 box beams uniformly heated along one cover. Various heating
+    rates, geometries of beam cross-section, and thermal properties were considered.
+    Heat transfer was by radiation and conduction. Gaseous heat transfer and possible
+    effects of yielding, creep, and buckling were neglected. For maximum beam temperatures
+    above 700-900¿̐¿ F, change in emissivity of the interior surfaces of the beam
+    had an appreciable effect on the cover (but not the web) temperatures and, to
+    an even greater extent, on the beam deflection. At maximum beam temperatures of
+    1200¿̐¿ F, an increase in interior surface emissivity caused an appreciable decrease
+    of the maximum thermal stress. A rough experimental check of temperature distri¿̐¿
+    bution and beam deflection was made for one case.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '5927'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

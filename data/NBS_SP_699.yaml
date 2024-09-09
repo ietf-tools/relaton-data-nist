@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP699
 title:
 - content: A bibliography of sources of thermodynamic data for the systems
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.699
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication699.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 699
@@ -21,81 +20,60 @@ docid:
 - id: 10.6028/NBS.SP.699
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert N
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Golderberg
+      completename:
+        content: Golderberg, Robert N.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D K
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: D K
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Steckler
+      completename:
+        content: Steckler, D. K.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85223448
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1985'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: Contained herein is a bibliography of sources of experimental and correlated
+    thermodynamic data for the systems CO2 + NH3 + H2O, CO2 + H2S + H2O, H2S + NH3
+    + H2O, and CO2 + NH3 + H2S + H2O. The types of data in this bibliography include
+    all types of equilibrium data, including both equilibria in solution and vapor-liquid
+    equilibrium data, enthalpies, heat capacities, and densities. There are 215 references
+    cited.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '699'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

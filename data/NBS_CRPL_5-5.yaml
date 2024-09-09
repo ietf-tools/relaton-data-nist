@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCRPL5-5
 title:
 - content: Back-scatter observations by the Central Radio Propagation Laboratory August
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CRPL.5-5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/crpl/crpl-5-5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CRPL 5-5
@@ -22,105 +21,53 @@ docid:
 - id: 10.6028/NBS.CRPL.5-5
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1948'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W L
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: W L
-          script:
-          - Latn
-      surname:
-        content: Hartsfield
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Hartsfield, W. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: S M
-          script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: S M
-          script:
-          - Latn
-      surname:
-        content: Ostrow
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Ostrow, S. M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R
-          script:
-          - Latn
-      surname:
-        content: Silberstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Silberstein, R.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Central Radio Propogation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1948'
-script:
-- Latn
 series:
 - title:
-    content: NBS CRPL Solar-Geophysical Data
+    content: NBS Central Radio Propogation Laboratory Report; NBS CRPL Report
     format: text/plain
-  abbreviation:
-    content: CRPL
   number: 5-5
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

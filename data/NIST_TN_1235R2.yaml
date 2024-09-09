@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1235r2
 title:
-- content: NASANBS standard reference model for telerobot control system architecture
+- content: NASA/NBS standard reference model for telerobot control system architecture
     (NASREM) (supersedes NBS Technical Note 1235 issued July 1987)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1235r2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1235r2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1235r2
@@ -22,86 +21,61 @@ docid:
 - id: 10.6028/NIST.TN.1235r2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1989'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Albus
+      completename:
+        content: Albus, James Sacra.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81084213
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harry G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCain
+      completename:
+        content: McCain, Harry G.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89012237
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ronald
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lumia
+      completename:
+        content: Lumia, Ronald.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no89012238
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1989'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: 1235r2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

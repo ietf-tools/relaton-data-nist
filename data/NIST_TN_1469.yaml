@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1469
 title:
-- content: Precise theory of levels of hydrogen and deuterium :the one-photon self
+- content: Precise theory of levels of hydrogen and deuterium
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: the one-photon self energy correction
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Precise theory of levels of hydrogen and deuterium - the one-photon self
     energy correction
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1469
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1469.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1469
@@ -22,103 +35,69 @@ docid:
 - id: 10.6028/NIST.TN.1469
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2005'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ulrich D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jantschura
+      completename:
+        content: Jantschura, Ulrich D.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Svetlana
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kotochigova
+      completename:
+        content: Kotochigova, Svetlana.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr99021193
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric-Olivier
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Le Bigot
+      completename:
+        content: Le Bigot, Eric-Olivier.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022045205
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mohr
+      completename:
+        content: Mohr, Peter J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no98110189
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2005'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1469'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

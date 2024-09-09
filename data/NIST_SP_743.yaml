@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP743
 title:
 - content: NIST research reports
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.743
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication743.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 743
@@ -21,35 +20,52 @@ docid:
 - id: 10.6028/NIST.SP.743
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1988'
 contributor:
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1988'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Conventional liquid lubricants, when subjected to temperatures of 250 deg
+    C and above for extended time in an air atmosphere, degrade rapidly to make large
+    amounts of solid sludge and deposits. Based on boundary lubrication of bearings,
+    these same lubricants, when subjected to 250 deg C to the melting point of the
+    bearing metal, produce in the micro- to milli-second residence time in the bearing
+    contact enough 'friction polymer' to result in good lubrication. The report describes
+    the use of these conventional liquid lubricants delivered in a homogeneous vapor
+    phase where the carrier gas is nitrogen, air or mixtures of these two gases. The
+    lubricants studied include alkyl and aryl phosphate esters, organic acid esters,
+    polyphenyl ethers, and mineral oil.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '743'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

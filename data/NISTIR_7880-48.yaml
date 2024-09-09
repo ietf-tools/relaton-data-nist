@@ -1,20 +1,35 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7880-48
 title:
-- content: 'NIST micronutrients measurement quality assurance program winter and summer
-    2017 comparability studies: results for round robins LXXXI and LXXXII fat-soluble
-    vitamins and carotenoids in human serum'
+- content: NIST micronutrients measurement quality assurance program winter and summer
+    2017 comparability studies
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: results for round robins LXXXI and LXXXII fat-soluble vitamins and carotenoids
+    in human serum
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST micronutrients measurement quality assurance program winter and summer
+    2017 comparability studies - results for round robins LXXXI and LXXXII fat-soluble
+    vitamins and carotenoids in human serum
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7880-48
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.7880-48.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7880-48
@@ -23,67 +38,65 @@ docid:
 - id: 10.6028/NIST.IR.7880-48
   type: DOI
 date:
-- type: published
-  value: '2018-01-10'
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice B
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Thomas, Jeanice B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: '2018-01-10'
-script:
-- Latn
+abstract:
+- content: 'The National Institute of Standards and Technology coordinates the Micronutrients
+    Measurement Quality Assurance Program (MMQAP) for laboratories that measure fat-soluble
+    vitamins and carotenoids in human serum and plasma. This report describes the
+    design of and results for the Winter and Summer 2017 MMQAP measurement comparability
+    improvement studies: 1) Round Robin LXXXI Fat-Soluble Vitamins and Carotenoids
+    in Human Serum (RR81) and 2) Round Robin LXXXII Fat-Soluble Vitamins and Carotenoids
+    in Human Serum (RR82). To avoid increasing participation fees, the overhead costs
+    for these programs were minimized by shipping the materials for both studies in
+    the same package in February 2017. Participants were requested not to analyze
+    the Summer samples before June 5, 2017 but to provide their measurement results
+    by September 4, 2017. Participants were reminded of the due-date by e-mail in
+    early August 2017.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 7880-48
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

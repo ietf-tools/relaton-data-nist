@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2052
 title:
 - content: Development of a spatially resolved optical technique for measuring heat
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2052
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2052.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2052
@@ -22,50 +21,62 @@ docid:
 - id: 10.6028/NIST.TN.2052
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Yasin M
-          script:
-          - Latn
-      surname:
-        content: Abul-Huda
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Abul-Huda, Yasin M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: Firebrand showers have been identified as a primary mechanism of fire spread
+    and cause of destruction in wildland-urban interface fires. The heat transfer
+    processes that follow deposition of firebrands and lead to ignition have received
+    little attention until recently. While conventional methods of measuring temperature
+    and heat flux provide bulk-averaged information regarding deposited firebrand
+    piles, they fall short of elucidating essential information such as surface contact
+    areas and heat feed-back mechanisms, that are necessary for understanding ignition
+    propensity and developing high-fidelity physics-based models. This work describes
+    the development and implementation of a spatially resolved optical technique for
+    quantifying heat flux and thermal footprint of firebrand piles using laser induced
+    phosphorescence of YAG:Dy. The technique involves coating the surface of a UVtransparent
+    substrate with YAG:Dy phosphors to yield surface temperature. Heat flux is inferred
+    through simultaneously measuring the top and bottom substrate surface temperatures
+    after they are coated with a staggered grating pattern. An intensity ratio over
+    two separate spectral regions of emission is used to calibrate the optical measurement
+    system and infer temperature from 300 K - 1100 K over a 7 cm diameter interrogation
+    area. The uncertainty in temperature and heat flux are discussed in detail. The
+    spatial resolution of the temperature and heat flux measurements are 0.5 mm and
+    4 mm, respectively.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2052'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

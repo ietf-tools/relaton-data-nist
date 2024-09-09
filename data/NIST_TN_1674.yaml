@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1674
 title:
 - content: Fabrication, characterization and flammability testing of carbon nanofiber
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1674
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1674.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1674
@@ -22,67 +21,72 @@ docid:
 - id: 10.6028/NIST.TN.1674
   type: DOI
 date:
-- type: published
-  value: 2010-09
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Rick
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Davis, Rick.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95026885
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yeon Seok
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kim, Yeon Seok.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022040058
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2010-09
-script:
-- Latn
+abstract:
+- content: This is the first reported use of Layer-by-Layer (LBL) assembly to fabricate
+    thin film coatings on polyurethane foam, of incorporating carbon nanofibers (CNF)
+    into LBL fabricated coatings, and of using LBL fabricated coatings to reduce the
+    flammability of polyurethane foam. The (359 ± 36) nm thick four bilayer coating
+    of polyethyleneimine/CNF (cationic layer) and poly(acrylic acid) (anionic layer)
+    contained (50.9 ± 0.1) mass fraction % CNF. This CNF coating covered the entire
+    internal and external surfaces of the porous foam. The distribution of the CNFs
+    was non-uniform on the microscale with regions of large CNF aggregation to regions
+    with individual CNFs and isolated regions that appeared to contain no CNFs. Even
+    though the microscopic CNF distribution was non-uniform, the macroscopic CNF network
+    armor that was generated from this LBL process significantly reduced the flammability
+    of the foam; i.e., 55% ± 6% reduction in total heat release and peak heat release
+    rate. This reduction caused by the CNF coating is 50% better than previously reported
+    by incorporating twice as much CNFs directly into the foam and 12% to 47% greater
+    than other technologies currently used to reduce foam flammability.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1674'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

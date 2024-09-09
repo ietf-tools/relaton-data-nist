@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1800-23
 title:
-- content: Energy Sector Asset Management For Electric Utilities, Oil & Gas Industry
+- content: Energy sector asset management for electric utilities, oil and gas industry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1800-23
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-23.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1800-23
@@ -21,169 +20,118 @@ docid:
 - id: 10.6028/NIST.SP.1800-23
   type: DOI
 date:
-- type: published
-  value: '2020-05-19'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: McCarthy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: McCarthy, James.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2019072324
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lauren
-          script:
-          - Latn
-      surname:
-        content: Acierto
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Acierto, Lauren.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Glen
-          script:
-          - Latn
-      surname:
-        content: Joy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Joy, Glen.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jason
-          script:
-          - Latn
-      surname:
-        content: Kuruvilla
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kuruvilla, Jason.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Titilayo
-          script:
-          - Latn
-      surname:
-        content: Ogunyale
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ogunyale, Titilayo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nikolas
-          script:
-          - Latn
-      surname:
-        content: Urlaub
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Urlaub, Nikolas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          script:
-          - Latn
-      surname:
-        content: Wiltberger
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wiltberger, John.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Devin
-          script:
-          - Latn
-      surname:
-        content: Wynne
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Wynne, Devin.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: '2020-05-19'
-script:
-- Latn
+abstract:
+- content: 'Industrial control systems (ICS) compose a core part of our nation''s
+    critical infrastructure. Energy sector companies rely on ICS to generate, transmit,
+    and distribute power and to drill, produce, refine, and transport oil and natural
+    gas. Given the wide variety of ICS assets, such as programmable logic controllers
+    and intelligent electronic devices, that provide command and control information
+    on operational technology (OT) networks, it is essential to protect these devices
+    to maintain continuity of operations. These assets must be monitored and managed
+    to reduce the risk of a cyber attack on ICS-networked environments. Having an
+    accurate OT asset inventory is a critical component of an overall cybersecurity
+    strategy. NIST SP 1800-23B: Energy Sector Asset Management iii The NCCoE at NIST
+    is responding to the energy sector''s request for an automated OT asset management
+    solution. To remain fully operational, energy sector entities should be able to
+    effectively identify, control, and monitor their OT assets. This document provides
+    guidance on how to enhance OT asset management practices by leveraging capabilities
+    that may already exist in an energy organization''s operating environment as well
+    as implementing new capabilities.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1800-23
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

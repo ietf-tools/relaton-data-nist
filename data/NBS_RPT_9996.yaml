@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9996
 title:
-- content: Microplasticity I :measurement of small microstrains at ambient temperature
+- content: Microplasticity I
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: measurement of small microstrains at ambient temperature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Microplasticity I - measurement of small microstrains at ambient temperature
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9996
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9996.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9996
@@ -21,93 +34,48 @@ docid:
 - id: 10.6028/NBS.RPT.9996
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1969'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G W
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: G W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Geil
+      completename:
+        content: Geil, Glenn W.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no00051869
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: I J
-          language:
-          - en
-          script:
-          - Latn
-          initial: I
-        - language:
-          - en
-          script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: I J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Feinberg
+      completename:
+        content: Feinberg, I. J.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1969'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9996'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

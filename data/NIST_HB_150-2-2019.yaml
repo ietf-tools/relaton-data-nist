@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB150-2-2019
 title:
 - content: NVLAP Calibration Laboratories
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.150-2-2019
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2019/NIST.HB.150-2-2019.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 150-2-2019
@@ -21,84 +20,66 @@ docid:
 - id: 10.6028/NIST.HB.150-2-2019
   type: DOI
 date:
-- type: published
-  value: 2019-07
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Barbara
-          script:
-          - Latn
-      surname:
-        content: Belzer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Belzer, Barbara.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kari K
-          script:
-          - Latn
-      surname:
-        content: Harper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Harper, Kari K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Titilayo
-          script:
-          - Latn
-      surname:
-        content: Shodiya
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Shodiya, Titilayo.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2019-07
-script:
-- Latn
+abstract:
+- content: 'NIST Handbook 150-2, NVLAP Calibration Laboratories, presents the technical
+    requirements and guidance for the accreditation of laboratories under the NVLAP
+    Calibration Laboratories LAP. The 2019 edition of NIST Handbook 150-2 supersedes
+    and replaces the 2016 edition. The handbook was revised with the participation
+    of technical experts in the eight fields of calibration: dimensional, electromagnetics
+    dc/low frequency, electromagnetics rf/microwave frequency, time and frequency,
+    ionizing radiation, mechanical, optical radiation, and thermodynamic.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 150-2-2019
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

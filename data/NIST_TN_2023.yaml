@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2023
 title:
 - content: Programmers guide to the BACnet communications DLL
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2023
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2023.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2023
@@ -21,50 +20,64 @@ docid:
 - id: 10.6028/NIST.TN.2023
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A.
-          script:
-          - Latn
-      surname:
-        content: Galler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Galler, Michael A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2303-8274"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: ASHRAE Standard 135- BACnet--A Data Communication Protocol for Building
+    Automation and Control Networks defines a communications protocol for information
+    exchange between components of a distributed building automation and control system.
+    The proliferation of BACnet enabled heating, ventilating, and air conditioning
+    (HVAC) systems has enabled direct access to HVAC system data. The BACnet communications
+    dynamic linked library (DLL) enables researchers to implement selected BACnet
+    communications, creating an interface for data collection that is easy to use.
+    The ability to access HVAC controllers from a computer is valuable because it
+    allows researchers, designers, or other users to retrieve data directly from the
+    BACnet objects on the controllers. These data could include information on the
+    conditions in the building space served by the equipment, the conditions and status
+    of the equipment, the actions the controller is currently taking, and other values
+    that may be set by internal program logic. These data could then be used for a
+    variety of research purposes, including real-time monitoring of the HVAC system,
+    commissioning, fault detection and diagnostics (FDD), data logging, or other applications.
+    Researchers can integrate the BACnet communications DLL (BCD) into existing tools,
+    create a new tool with the BCD, or use the BCD with common data acquisition and
+    analysis tools.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2023'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

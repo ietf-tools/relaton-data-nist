@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9816
 title:
-- content: A strain standard for use to 3000 �F (1650 �C)
+- content: A strain standard for use to 3000 [degrees] F (1650 [degrees] C)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9816
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9816.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9816
@@ -21,117 +20,91 @@ docid:
 - id: 10.6028/NBS.RPT.9816
   type: DOI
 date:
-- type: published
-  value: 1968-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R L
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: R L
-          script:
-          - Latn
-      surname:
-        content: Bloss
-        script:
-        - Latn
+      completename:
+        content: Bloss, R. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J T
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: J T
-          script:
-          - Latn
-      surname:
-        content: Trumbo
-        script:
-        - Latn
+      completename:
+        content: Trumbo, J. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          script:
-          - Latn
-      surname:
-        content: Melton
-        script:
-        - Latn
+      completename:
+        content: Melton, C. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J S
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: J S
-          script:
-          - Latn
-      surname:
-        content: Steel
-        script:
-        - Latn
+      completename:
+        content: Steel, J. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021057810
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1968-06
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: An extensometer for use as a laboratory standard at temperatures up to
+    3000 ¿̐¿F (1650 ¿̐¿C) was designed. This extensometer was to operate in normal
+    atmosphere under static and transient mechanical and thermal conditions, including
+    intense thermal radiation. A prototype system, extensometer and indicating unit,
+    was constructed. Static tests at temperatures up to 1500 ¿̐¿F (815 ¿̐¿C) and dynamic
+    tests to temperatures above 2500 ¿̐¿F (1390 ¿̐¿C) were conducted. The results
+    of these tests show that the system has a range of at least 0.085 inch (2.2 mm),
+    has a resolution of 10^-5 inch, is linear to within about 0.1 percent of range,
+    and has a random error of about 2 x 10^-5 inch. The results indicate that the
+    extensometer could probably be used at temperatures approaching 3000 ¿̐¿F (1650
+    ¿̐¿C) although it was not tested under these conditions. The design of the extensometer
+    and indicator, materials used, description of components, methods of fabrication
+    and assembly, and testing procedures are given.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9816'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

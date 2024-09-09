@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS63indx
 title:
-- content: 1983 cumulative indexes to EPANIH mass spectral data base
+- content: 1983 cumulative indexes to EPA/NIH mass spectral data base
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.63indx
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds63indx.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 63indx
@@ -21,115 +20,62 @@ docid:
 - id: 10.6028/NBS.NSRDS.63indx
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1980'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heller
+      completename:
+        content: Heller, Stephen R.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n83157793
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G W A
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: G W A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Milne
+      completename:
+        content: Milne, George W. A.,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81020407
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L H
-          language:
-          - en
-          script:
-          - Latn
-          initial: L
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: L H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gevantman
+      completename:
+        content: Gevantman, L. H.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80044319
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1980'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: 63indx
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

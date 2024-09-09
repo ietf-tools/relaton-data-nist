@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4981
 title:
-- content: Evaluation tests of a developmental model of a modified ANAVQ-2A searchlight
+- content: Evaluation tests of a developmental model of a modified AN/AVQ-2A searchlight
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4981
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4981.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4981
@@ -21,75 +20,41 @@ docid:
 - id: 10.6028/NBS.RPT.4981
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1957'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L R
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: L R
-          script:
-          - Latn
-      surname:
-        content: Noffsinger
-        script:
-        - Latn
+      completename:
+        content: Noffsinger, L. R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W A
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: W A
-          script:
-          - Latn
-      surname:
-        content: Hall
-        script:
-        - Latn
+      completename:
+        content: Hall, W. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1957'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4981'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

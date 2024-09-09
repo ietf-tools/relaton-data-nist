@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4889
 title:
 - content: The design guide for CMOS-on-SIMOX test chips NIST3 and NIST4
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4889
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4889.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4889
@@ -21,156 +20,79 @@ docid:
 - id: 10.6028/NIST.IR.4889
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: J C
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: J C
-          script:
-          - Latn
-      surname:
-        content: Marshall
-        script:
-        - Latn
+      completename:
+        content: Marshall, J. C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M W
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: M W
-          script:
-          - Latn
-      surname:
-        content: Cresswell
-        script:
-        - Latn
+      completename:
+        content: Cresswell, M. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C H
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: C H
-          script:
-          - Latn
-      surname:
-        content: Ellenwood
-        script:
-        - Latn
+      completename:
+        content: Ellenwood, C. H.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: L W
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: L W
-          script:
-          - Latn
-      surname:
-        content: Linholm
-        script:
-        - Latn
+      completename:
+        content: Linholm, L. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: P
-          script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: P
-          script:
-          - Latn
-      surname:
-        content: Roitman
-        script:
-        - Latn
+      completename:
+        content: Roitman, P.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M E
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: M E
-          script:
-          - Latn
-      surname:
-        content: Zaghloul
-        script:
-        - Latn
+      completename:
+        content: Zaghloul, M. E. (Mona Elwakkad)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87802536
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4889'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

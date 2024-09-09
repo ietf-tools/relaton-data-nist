@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT1555
 title:
 - content: Evaluation of four test methods for fire retardant
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.1555
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport1555.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 1555
@@ -21,98 +20,62 @@ docid:
 - id: 10.6028/NBS.RPT.1555
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1952'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marjorie W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sandholzer
+      completename:
+        content: Sandholzer, Marjorie W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2014045789
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E W
-          language:
-          - en
-          script:
-          - Latn
-          initial: E
-        - language:
-          - en
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: E W
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bender
+      completename:
+        content: Bender, E. W.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97013450
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Catherine
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rhodes
+      completename:
+        content: Rhodes, Catherine.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr95001384
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1952'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '1555'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

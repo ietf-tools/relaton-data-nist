@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8188
 title:
 - content: Key performance indicators for process control system cybersecurity performance
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8188
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8188.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8188
@@ -22,50 +21,56 @@ docid:
 - id: 10.6028/NIST.IR.8188
   type: DOI
 date:
-- type: published
-  value: '2017-08-03'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: CheeYee
-          script:
-          - Latn
-      surname:
-        content: Tang
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Tang, CheeYee.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: '2017-08-03'
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology has constructed a testbed
+    to measure the performance impact induced by cybersecurity technologies on Industrial
+    Control Systems (ICS). The testbed allows researchers to emulate real-world industrial
+    manufacturing processes and their control systems without the need to replicate
+    an entire production or factory environment. The focus of this report is the Process
+    Control System of the Testbed, which emulate an industrial continuous manufacturing
+    system. A continuous manufacturing is a process to manufacture, produce, or process
+    materials without interruption, the materials being processed are continuously
+    in motion, undergoing chemical reactions or subject to mechanical or heat treatment.
+    Continuous manufacturing usually implies a 24x7 operation with infrequent maintenance
+    shutdowns. Continuous manufacturing is contrasted with batch manufacturing . Examples
+    of continuous manufacturing include, chemical production, oil refining, natural
+    gas processing, and waste water treatment process.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8188'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

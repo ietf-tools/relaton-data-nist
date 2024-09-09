@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT3655
 title:
 - content: Check of method for computing influence coefficients of delta and other
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.3655
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport3655.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 3655
@@ -22,46 +21,57 @@ docid:
 - id: 10.6028/NBS.RPT.3655
   type: DOI
 date:
-- type: published
-  value: 1954-09
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ruth M
-          script:
-          - Latn
-      surname:
-        content: Woolley
-        script:
-        - Latn
+      completename:
+        content: Woolley, Ruth M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1954-09
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: Computations, based on a proposed method of computing the influence coefficients
+    of a delta wing, were made to determine the influence coefficients of a swept-back
+    model wing for which experimental results were available. Comparison of computed
+    results with experimental data showed poor agreement. The lack of agreement is
+    in part attributed to insufficient knowledge regarding the shear stiffness of
+    ribs and bulkheads.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '3655'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

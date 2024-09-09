@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP480-20e1996
 title:
 - content: Directory of law enforecement and criminal justice associations and research
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.480-20e1996
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication480-20e1996.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 480-20e1996
@@ -22,86 +21,59 @@ docid:
 - id: 10.6028/NBS.SP.480-20e1996
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1996'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sharon
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lyles
+      completename:
+        content: Lyles, Sharon.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86023183
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marilyn
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Leach
+      completename:
+        content: Leach, Marilyn.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2010175132
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ruth
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Joel
+      completename:
+        content: Joel, Ruth.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1996'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 480-20e1996
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

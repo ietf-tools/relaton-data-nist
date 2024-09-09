@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR84-2946
 title:
 - content: Polymers Division, technical activities 1984
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.84-2946
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir84-2946.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 84-2946
@@ -21,180 +20,73 @@ docid:
 - id: 10.6028/NBS.IR.84-2946
   type: DOI
 date:
-- type: published
-  value: 1985-01
+- type: issued
+  value: '1985'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: L E
-          script:
-          - Latn
-          initial: L
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: L E
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
+      completename:
+        content: Smith, L. E.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B M
-          script:
-          - Latn
-          initial: B
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: B M
-          script:
-          - Latn
-      surname:
-        content: Fanconi
-        script:
-        - Latn
+      completename:
+        content: Davis, G. T.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: G T
-          script:
-          - Latn
-          initial: G
-        - script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: G T
-          script:
-          - Latn
-      surname:
-        content: Davis
-        script:
-        - Latn
+      completename:
+        content: Wang, F. W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: F W
-          script:
-          - Latn
-          initial: F
-        - script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: F W
-          script:
-          - Latn
-      surname:
-        content: Wang
-        script:
-        - Latn
+      completename:
+        content: Sanchez, I. C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: I C
-          script:
-          - Latn
-          initial: I
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: I C
-          script:
-          - Latn
-      surname:
-        content: Sanchez
-        script:
-        - Latn
+      completename:
+        content: Hunston, D. L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: D L
-          script:
-          - Latn
-          initial: D
-        - script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: D L
-          script:
-          - Latn
-      surname:
-        content: Hunston
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: J A
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: J A
-          script:
-          - Latn
-      surname:
-        content: Tesk
-        script:
-        - Latn
+      completename:
+        content: Tesk, J. A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: 1985-01
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 84-2946
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

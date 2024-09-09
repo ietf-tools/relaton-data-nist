@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBSS44
 title:
 - content: Full scale test on a two-story house subjected to lateral load
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BSS.44
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience44.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BSS 44
@@ -21,86 +20,62 @@ docid:
 - id: 10.6028/NBS.BSS.44
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1973'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Felix Y
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yokel
+      completename:
+        content: Yokel, Felix Y.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50014037
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hsi
+      completename:
+        content: Hsi, George.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87152688
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Norman F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Somes
+      completename:
+        content: Somes, N. F.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021054613
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1973'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Science Series
+    content: NBS building science series; NBS building science; NBS BSS
     format: text/plain
-  abbreviation:
-    content: BSS
   number: '44'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

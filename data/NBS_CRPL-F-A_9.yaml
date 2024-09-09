@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCRPL-F-A9
 title:
 - content: Ionospheric data
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CRPL-F-A.9
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/crpl-f-a/crpl-f-a9.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CRPL-F-A 9
@@ -21,33 +20,47 @@ docid:
 - id: 10.6028/NBS.CRPL-F-A.9
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1945'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Central Radio Propagation Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50060786
   role:
   - type: publisher
-revdate: '1945'
-script:
-- Latn
+- person:
+    name:
+      completename:
+        content: Central Radio Propagation Laboratory.
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Central Radio Propogation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS CRPL-F-A
+    content: |-
+      NBS Central Radio Propogation Laboratory-F Part A: Ionospheric Data;
+                      CRPL-F-A
     format: text/plain
-  abbreviation:
-    content: CRPL-F-A
   number: '9'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

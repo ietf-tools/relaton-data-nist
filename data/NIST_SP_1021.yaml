@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1021
 title:
-- content: Cook County Administration Building fire, 69 West Washington, Chicago,
-    Illinois, October 17, 2003 :heat release rate experiments and FDS simulations
+- content: Cook county administration building fire, 69 West Washington, Chicago,
+    Illinois, October 17, 2003
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: heat release rate experiments and FDS simulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Cook county administration building fire, 69 West Washington, Chicago,
+    Illinois, October 17, 2003 - heat release rate experiments and FDS simulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1021
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1021.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1021
@@ -22,88 +36,47 @@ docid:
 - id: 10.6028/NIST.SP.1021
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: D
-          language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Madrzykowski
+      completename:
+        content: Madrsykowski, Daniel.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W D
-          language:
-          - en
-          script:
-          - Latn
-          initial: W
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: W D
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Walton
+      completename:
+        content: Walton, W. Douglas.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84098841
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Building and Fire Research Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no91023146
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1021'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

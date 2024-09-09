@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-18
 title:
 - content: The costs and benefits of advanced maintenance in manufacturing
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-18
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-18.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-18
@@ -21,50 +20,60 @@ docid:
 - id: 10.6028/NIST.AMS.100-18
   type: DOI
 date:
-- type: published
-  value: 2018-04
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas S
-          script:
-          - Latn
-      surname:
-        content: Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Thomas, Douglas S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113838
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-04
-script:
-- Latn
+abstract:
+- content: 'The manufacturing atmosphere is continually changing with new technologies
+    and standards being swiftly developed. Firms create competitive advantages using
+    their knowledge, skills, supply chains, and processes to create superior products
+    at lower prices. In such a competitive environment, efficient machinery maintenance
+    methods can mean the difference between a thriving profitable firm and one that
+    loses money and sales. Currently, at the national level there is limited understanding
+    of the costs and losses associated with machinery maintenance or the different
+    machinery maintenance techniques. This report examines the literature and data
+    available for estimating the costs and losses relevant to different manufacturing
+    maintenance techniques. It extends further to identify the data needed for making
+    such estimates and the feasibility of collecting the relevant data. This report
+    focuses on, but is not limited to, four categories of manufacturing: machinery,
+    computer and electronic products, electrical equipment, and transportation equipment
+    manufacturers.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-18
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

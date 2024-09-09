@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8242
 title:
 - content: 2017 pilot open speech analytic technologies evaluation (2017 NIST pilot
-    OpenSAT):post evaluation summary
+    OpenSAT)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: post evaluation summary
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 2017 pilot open speech analytic technologies evaluation (2017 NIST pilot
+    OpenSAT) - post evaluation summary
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8242
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8242.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8242
@@ -22,67 +36,62 @@ docid:
 - id: 10.6028/NIST.IR.8242
   type: DOI
 date:
-- type: published
-  value: 2019-03
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Fred
-          script:
-          - Latn
-      surname:
-        content: Byers
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Byers, Fred.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Omid
-          script:
-          - Latn
-      surname:
-        content: Sadjadi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Sadjadi, Omid.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-03
-script:
-- Latn
+abstract:
+- content: NIST conducted the 2017 Pilot Open Speech Analytic Technologies Evaluation
+    (OpenSAT) Evaluation as the first in a new type of evaluation series. This new
+    series is being designed to combine data domains and speech-analytic tasks including
+    the public-safetycommunications domain. This report summarizes the set up and
+    results of the Pilot. The report includes 1) anonymous, composite plots, 2) an
+    analysis of systems output, and 3) the dataset challenges in the evaluation. The
+    methods used in the Pilot OpenSAT Evaluation included speech-activity detection;
+    keyword search; automatic, speech recognition; and, three data domains. Those
+    domains were low-resource language, public-safety communications, and YouTube
+    videos. For the speech-analytics task, participants in the evaluation could choose
+    one or all of the methods and one or all of the data domains.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8242'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

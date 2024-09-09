@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2108
 title:
-- content: Towards Measurement of Advanced Mobile Manipulator Performance for Assembly
-    Applications
+- content: Towards measurement of advanced mobile manipulator performance for assembly
+    applications
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2108
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2108.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2108
@@ -22,118 +21,96 @@ docid:
 - id: 10.6028/NIST.TN.2108
   type: DOI
 date:
-- type: published
-  value: '2020-08-11'
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Soocheol
-          script:
-          - Latn
-      surname:
-        content: Yoon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yoon, Soocheol.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mili
-          script:
-          - Latn
-      surname:
-        content: Shah
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Shah, Mili.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Omar
-          script:
-          - Latn
-      surname:
-        content: Aboul-Enein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Aboul-Enein, Omar.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
   role:
   - type: publisher
-revdate: '2020-08-11'
-script:
-- Latn
+abstract:
+- content: Advanced mobile manipulators offer the manufacturing industry the potential
+    of a highly adaptive system to perform precision assembly tasks in agile environments.
+    Developing performance measurement capabilities for mobile manipulator systems
+    will support the advancement of manipulator-vehicle coordination, precision, accuracy,
+    and robustness. The National Institute of Standards and Technology (NIST) developed
+    a measurement methodology for advanced mobile manipulators, which are mobile robots
+    with an onboard robot arm, each from a different manufacturer and with a different
+    controller. The measurement methodology is designed to assess the performance
+    of mobile manipulators for manufacturing applications such as assembly, where
+    position and orientation accuracy are critically important. The proposed methodology
+    used an artifact designed at NIST to simulate an assembly task station. An optical
+    tracking system measured the location of the targets, the mobile base position
+    and orientation, and the position of a manipulator end-of-arm tool. The experimental
+    data collected, using three different system computers, were timestamped using
+    local clocks synchronized via the NIST internal and local area networks to align
+    the data streams. The mobile manipulator system, the experimental methodology,
+    the data analysis, and the results of the measurement methodology uncertainty
+    and mobile manipulator positioning uncertainty using the novel artifacts are described
+    in this paper. For the system tested, the mobile manipulator detection of 2 mm
+    diameter fiducials can be achieved after registration. With validation from the
+    optical tracking system, the study demonstrated that the Reconfigurable Mobile
+    Manipulator Artifact (RMMA) has potential for serving as a novel standalone, low-cost
+    test method for measuring the positioning uncertainty of mobile manipulators within
+    a measurement uncertainty of 2 mm.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2108'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

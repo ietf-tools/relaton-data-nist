@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7500
 title:
 - content: Programs to estimate UV dosage and damage
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7500
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2008/NIST.IR.7500.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7500
@@ -21,39 +20,23 @@ docid:
 - id: 10.6028/NIST.IR.7500
   type: DOI
 date:
-- type: published
-  value: '2008-06-03'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Brian
-          script:
-          - Latn
-      surname:
-        content: Dickens
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dickens, Brian.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2008-06-03'
-script:
-- Latn
 abstract:
 - content: The system of programs described in this paper is concerned with estimating
     the damage ensuing from exposure of specimens in dry and humid atmospheres to
@@ -64,16 +47,24 @@ abstract:
     These programs allow rapid estimation of dosage and damage from regions of data,
     and manipulation and processing of the massive amounts of data required to carry
     out such comprehensive tests in a complete yet user-friendly manner.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7500'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

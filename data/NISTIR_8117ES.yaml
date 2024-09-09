@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8117es
 title:
-- content: Guía estadounidense para el cumplimiento de requerimientos para acero laminado
+- content: Guía Estadounidense para el cumplimiento de requerimientos para acero laminado
     plano
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8117es
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8117es.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8117es
@@ -22,66 +21,45 @@ docid:
 - id: 10.6028/NIST.IR.8117es
   type: DOI
 date:
-- type: published
-  value: '2017-12-04'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Lisa M
-          script:
-          - Latn
-      surname:
-        content: Benson
-        script:
-        - Latn
+      completename:
+        content: Benson, Lisa M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen K.
-          script:
-          - Latn
-      surname:
-        content: Reczek
-        script:
-        - Latn
+      completename:
+        content: Reczek, Karen K.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: National Institute of Standards and Technology.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2017-12-04'
-script:
-- Latn
-relation:
-- type: translatedFrom
-  bibitem:
-    id: NISTIR8117
-    docid:
-    - id: NIST IR 8117
-      type: NIST
-      primary: true
-    formattedref:
-      content: NIST IR 8117
-      format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
-  number: 8117es
-doctype: standard
+  number: '8117'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

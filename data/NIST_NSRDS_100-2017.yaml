@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTNSRDS100-2017
 title:
 - content: Simulation of electron spectra for surface analysis (SESSA) version 2.1
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.NSRDS.100-2017
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/NSRDS/NIST.NSRDS.100-2017.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST NSRDS 100-2017
@@ -22,108 +21,85 @@ docid:
 - id: 10.6028/NIST.NSRDS.100-2017
   type: DOI
 date:
-- type: published
-  value: '2017-12-21'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: W S M
-          script:
-          - Latn
-          initial: W
-        - script:
-          - Latn
-          initial: S
-        - script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: W S M
-          script:
-          - Latn
-      surname:
-        content: Werner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Werner, W. S. M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W
-          script:
-          - Latn
-          initial: W
-        formatted_initials:
-          content: W
-          script:
-          - Latn
-      surname:
-        content: Smekal
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Smekal, W.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C J
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: C J
-          script:
-          - Latn
-      surname:
-        content: Powell
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Powell, C. J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50019550
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: '2017-12-21'
-script:
-- Latn
+abstract:
+- content: 'The objective of the NIST database for Simulation of Electron Spectra
+    for Surface Analysis (SESSA) is to facilitate quantitative interpretation of Auger-electron
+    and X-ray photoelectron spectra (AES/XPS). The database contains physical data
+    required to perform quantitative interpretation of an electron spectrum for a
+    specimen with a given composition. Retrieval of relevant data is performed by
+    a small expert system that queries the comprehensive databases. A simulation module
+    is also available within SESSA that provides an estimate of peak intensities as
+    well as the energy and angular distribution of the emitted electron flux. The
+    information needed by the expert system to accomplish its task closely matches
+    instrument settings made by an experimenter when actually performing a measurement
+    and is complemented by an initial estimate of the sample composition. SESSA can
+    be used for two main applications. First, data are provided for many parameters
+    needed in quantitative AES and XPS (differential inverse inelastic mean free paths,
+    total inelastic mean free paths, differential elastic-scattering cross sections,
+    total elastic-scattering cross sections, transport cross sections, photoionization
+    cross sections, photoionization asymmetry parameters, electron-impact ionization
+    cross sections, photoelectron lineshapes, Auger-electron lineshapes, fluorescence
+    yields, and Auger-electron backscattering factors). Second, Auger-electron and
+    photoelectron spectra can be simulated for layered samples and for samples with
+    selected nanomorphologies such as islands, spheres, and layered spheres. This
+    version of SESSA has the following new features: (1) Two new databases have been
+    added to provide additional options for obtaining electron inelastic mean free
+    paths and inner-shell ionization cross sections by electron impact; (2) Users
+    now have the option of reading a file to describe additional types of sample nano-morphologies.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: 100-2017
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-172A
 title:
 - content: Assessing enhanced security requirements for controlled unclassified information
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-172A
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172A.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-172A
@@ -21,73 +20,39 @@ docid:
 - id: 10.6028/NIST.SP.800-172A
   type: DOI
 date:
-- type: published
-  value: '2022-03-15'
+- type: issued
+  value: '2022'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Ron
-          script:
-          - Latn
-      surname:
-        content: Ross
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ross, Ron.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Victoria
-          script:
-          - Latn
-      surname:
-        content: Pillitteri
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Pillitteri, Victoria.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kelley
-          script:
-          - Latn
-      surname:
-        content: Dempsey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Dempsey, Kelley.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory
   role:
   - type: publisher
-revdate: '2022-03-15'
-script:
-- Latn
 abstract:
 - content: 'The protection of Controlled Unclassified Information (CUI) in nonfederal
     systems and organizations is important to federal agencies and can directly impact
@@ -103,16 +68,22 @@ abstract:
     on customer-defined depth and coverage attributes. The findings and evidence produced
     during the assessments can be used to facilitate risk-based decisions by organizations
     related to the CUI enhanced security requirements.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-172A
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP609
 title:
 - content: Proceedings of a meeting on traceability for ionizing radiation measurements
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.609
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication609.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 609
@@ -21,64 +20,53 @@ docid:
 - id: 10.6028/NBS.SP.609
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1982'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H T
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: H T
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Heaton
+      completename:
+        content: Heaton, H. T.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80025819
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1982'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: These proceedings are the compilation of 21 papers presented at a seminar
+    on Traceability for Ionizing Radiation Measurements held at the National Bureau
+    of Standards, Gaithersburg, MD, on May 8-9, 1980. General concepts for traceability
+    were presented from several perspectives. The national standards for radiation
+    dosimetry, radioactivity measurements, and neutron measurements were described.
+    Specific programs for achieving traceability to the national standards for radiation
+    measurements in medical, occupational, and environmental applications were summarized.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '609'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

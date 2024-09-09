@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5027
 title:
 - content: Superconductor critical current standards for fusion applications
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5027
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5027.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5027
@@ -21,75 +20,59 @@ docid:
 - id: 10.6028/NIST.IR.5027
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A N
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: N
-        formatted_initials:
-          content: A N
-          script:
-          - Latn
-      surname:
-        content: Srivastava
-        script:
-        - Latn
+      completename:
+        content: Goodrich, L. F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T C
-          script:
-          - Latn
-          initial: T
-        - script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: T C
-          script:
-          - Latn
-      surname:
-        content: Stauffer
-        script:
-        - Latn
+      completename:
+        content: Wiejaczka, J. A.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Srivastaval, A. N.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Stauffer, T. C.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5027'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

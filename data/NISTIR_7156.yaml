@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7156
 title:
 - content: Is the urn well-mixed? Uncovering false cofactor homogeneity assumptions
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7156
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7156.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7156
@@ -22,75 +21,44 @@ docid:
 - id: 10.6028/NIST.IR.7156
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: R J
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: R J
-          script:
-          - Latn
-      surname:
-        content: Michaels
-        script:
-        - Latn
+      completename:
+        content: Michaels, R. J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: T E
-          script:
-          - Latn
-          initial: T
-        - script:
-          - Latn
-          initial: E
-        formatted_initials:
-          content: T E
-          script:
-          - Latn
-      surname:
-        content: Boult
-        script:
-        - Latn
+      completename:
+        content: Boult, T. E.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7156'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

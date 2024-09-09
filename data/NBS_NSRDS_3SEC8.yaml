@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSNSRDS3sec8
 title:
 - content: Selected tables of atomic spectra - A atomic energy levels-second edition,
-    B multiplet tables :O VI, O VII, O VIII - data derived from the analyses of optical
+    B multiplet tables
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: O VI, O VII, O VIII - data derived from the analyses of optical spectra
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Selected tables of atomic spectra - A atomic energy levels-second edition,
+    B multiplet tables - O VI, O VII, O VIII - data derived from the analyses of optical
     spectra
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.NSRDS.3sec8
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds3sec8.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS NSRDS 3sec8
@@ -23,52 +37,40 @@ docid:
 - id: 10.6028/NBS.NSRDS.3sec8
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Charlotte E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Moore
+      completename:
+        content: Moore, Charlotte Emma,
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50004194
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS National Standard Reference Data Series
+    content: NIST NSRDS; NSRDS-NIST; National standard reference data series
     format: text/plain
-  abbreviation:
-    content: NSRDS
   number: 3sec8
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

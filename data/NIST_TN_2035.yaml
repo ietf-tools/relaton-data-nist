@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2035
 title:
 - content: A general methodology for deriving network propagation models of computer
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2035
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2035.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2035
@@ -22,101 +21,90 @@ docid:
 - id: 10.6028/NIST.TN.2035
   type: DOI
 date:
-- type: published
-  value: 2019-02
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Shuvo
-          script:
-          - Latn
-      surname:
-        content: Bardhan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Bardhan, Shuvo.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Douglas
-          script:
-          - Latn
-      surname:
-        content: Montgomery
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Montgomery, Douglass,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86139997
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Filliben
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Filliben, James.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alan
-          script:
-          - Latn
-      surname:
-        content: Heckert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Heckert, Alan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022027346
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-02
-script:
-- Latn
+abstract:
+- content: 'Externally-launched computer worms which maliciously propagate within
+    networks are one of the most serious and dangerous security threats facing the
+    commercial, political, military, and research community today. With an eye to
+    the ultimate goal of detection and prevention of such worms, this paper addresses
+    the preliminary step of constructing a predictive model for worm propagation.
+    For this model we have chosen 3 fundamental factors known to affect worm propagation:
+    size of the network IP space, proportion of the IP space with susceptible hosts,
+    and rate at which an infected host scans other vulnerable hosts. This paper presents
+    in detail the methodology (simulator construction + data generation + 2 sequential
+    fitting steps) for constructing similar such general models; this methodology
+    will have application across a variety f worm modeling scenarios. For demonstration
+    purposes (and with no loss of generality), we apply this methodology to a 3-factor
+    Class B network and derive a high quality (error < 4%) predictive model across
+    the 3 factors and across the entire iterative life of the worm. Further for this
+    example, this paper presents a worm propagation sensitivity analysis which provides
+    valuable insight into the most important factors and interactions affecting worm
+    propagation speed.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2035'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

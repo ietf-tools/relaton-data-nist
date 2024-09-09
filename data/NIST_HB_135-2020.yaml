@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB135-2020
 title:
 - content: Life cycle cost manual for the federal energy management program
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.135-2020
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.135-2020.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 135-2020
@@ -21,67 +20,76 @@ docid:
 - id: 10.6028/NIST.HB.135-2020
   type: DOI
 date:
-- type: published
-  value: 2020-09
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: 2020-09
-script:
-- Latn
+abstract:
+- content: Handbook 135 is a guide to understanding the life cycle cost (LCC) methodology
+    and criteria established by the Federal Energy Management Program (FEMP) for the
+    economic evaluation of high-performance facility projects, including energy efficiency,
+    water conservation, and renewable energy projects in all federal facilities. It
+    expands on the life cycle cost methods and criteria contained in the FEMP rules
+    published in 10 CFR 436, Subpart A, which applies to all federal agencies. The
+    purpose of this handbook is to facilitate the implementation of the FEMP rules
+    by explaining the LCC method, defining the measures of economic performance used,
+    describing the assumptions and procedures to follow in performing evaluations,
+    giving examples, and noting NIST computer software available for computation and
+    reporting purposes. An annual supplement to Handbook 135, Energy Price Indices
+    and Discount Factors for LCC Analysis, NISTIR 85-3273, is also published by NIST
+    to provide the current discount rate, discount factors, and energy escalation
+    factors used for conducting an LCC analysis in accordance with the FEMP rules.
+    This annual supplement is required when using Handbook 135 and is used in updating
+    NIST LCC-related software. This new edition of Handbook 135 replaces the 1995
+    version. The new edition is extensively revised and organized around the key steps
+    in an LCC analysis. Although the underlying LCC methodology has not changed, the
+    content of the handbook has been updated to include the most relevant information.
+    Given the technological developments since its 1995 release, the manual worksheets
+    previously provided for completing LCC analysis have been removed. The examples
+    have been updated and expanded to provide explicit use cases for projects with
+    a broader scope than energy efficiency and water conservation to include all considerations
+    of high-performance facilities, including sustainability and resilience. Additionally,
+    the handbook provides additional information resources (e.g., data sources, requirements,
+    codes and standards, and guidance by project goal). The handbook will be updated
+    on an ad hoc basis dependent on future changes in federal statutes and regulations,
+    agency goals and guidance, LCCA support resource development, and available funding.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 135-2020
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9889
 title:
-- content: Electrodeless electrolysis of solid electrolytes:semi-annual progress report
-    - November 1, 1967 to May 31, 1968
+- content: Electrodeless electrolysis of solid electrolytes
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: semi-annual progress report - November 1, 1967 to May 31, 1968
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Electrodeless electrolysis of solid electrolytes - semi-annual progress
+    report - November 1, 1967 to May 31, 1968
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9889
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9889.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9889
@@ -22,46 +35,33 @@ docid:
 - id: 10.6028/NBS.RPT.9889
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1968'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Abner
-          script:
-          - Latn
-      surname:
-        content: Brenner
-        script:
-        - Latn
+      completename:
+        content: Brenner, Abner.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1968'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9889'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

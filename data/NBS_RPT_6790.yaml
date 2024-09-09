@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT6790
 title:
 - content: Fading characteristics and bandwidth capability for within-the-horizon
-    propagation at 1040 and 9300 MCs
+    propagation at 1040 and 9300 MC/s
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.6790
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport6790.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 6790
@@ -22,96 +21,102 @@ docid:
 - id: 10.6028/NBS.RPT.6790
   type: DOI
 date:
-- type: published
-  value: 1961-08
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: A F
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: A F
-          script:
-          - Latn
-      surname:
-        content: Barghausen
-        script:
-        - Latn
+      completename:
+        content: Barghausen, A. F.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A P
-          script:
-          - Latn
-          initial: A
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: A P
-          script:
-          - Latn
-      surname:
-        content: Barsis
-        script:
-        - Latn
+      completename:
+        content: Barsis, A. P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n80006175
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R S
-          script:
-          - Latn
-          initial: R
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: R S
-          script:
-          - Latn
-      surname:
-        content: Kirby
-        script:
-        - Latn
+      completename:
+        content: Kirby, R. S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: 1961-08
-script:
-- Latn
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
+  role:
+  - type: publisher
+abstract:
+- content: During the early months of 1961 the National Bureau of Standards established
+    a 113 km tropospheric within-the-horizon path in Eastern Colorado in order to
+    investigate propagation characteristics of signals in the 9300 Mc/s range over
+    such a path. Special attention was given to the short-term fading characteristics
+    of the received carrier envelopes, and to the bandwidth capability of the medium.
+    The latter was studied by comparing the amplitude variations of two continuous-wave
+    carriers separated by 100 Mc/s in the 9300 Mc/s frequency range. Separate antennas
+    were used in transmission and reception of the two carriers; consequently, the
+    results include the effects of space diversity. In addition to studying the correlation
+    of carrier envelopes as a measure of the bandwidth capability, an analysis was
+    also made of the distribution of the carrier amplitude ratios, which is related
+    to the correlation coefficient, and is believed to be a better indicator, at least
+    for line-of-sight paths, of selective fading phenomena. Short-term fading in the
+    9300 Mc/s range can be characterized in terms of prolonged space-wave fadeouts,
+    which have previously been observed and described for lower carrier frequencies
+    over this and similar paths. Fadeouts appear to be well correlated in time of
+    occurrence on the two frequencies 9350 and 9350 Mc/s. The fading durations range
+    from a few tenths of a minute to 10 minutes, and the maximum observed depth was
+    25 db below the median of a five-day observation period. The cross-correlation
+    coefficient of instantaneous carrier envelopes separated by 100 Me/s had an overall
+    value of 0.91, as determined by sampling of the carrier amplitudes at the rate
+    of one per second. The standard deviation of the amplitude ratios averaged 0.76
+    db, with a maximum hourly value of 1.81 db. These results support the feasibility
+    of wide-band modulation techniques for within- the-horizon paths if evaluated
+    by amplitude variations of discrete frequencies within the bandwidth of interest.
+    Sufficient margin in transmitter power has to be provided to allow for the short-term
+    signal variations observed. Supporting measurements on 1040.1 Mc/s over this path
+    confirmed previously established fadeout characteristics with regard to diurnal
+    variations, depth, and duration of fadeouts. However, the distribution of hourly
+    median signal levels on this frequency showed a much larger month-to-month variation
+    than had previously been observed over this path. This is attributed to the small
+    sample size available in the current measurement series.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '6790'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

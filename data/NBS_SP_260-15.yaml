@@ -1,20 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP260-15
 title:
-- content: Standard Reference Materials :Recommended method of use of standard light-sensitive
-    paper for calibrating carbon arcs used in testing textiles for colorfastness to
-    light/
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: recommended method of use of standard light-sensitive paper for calibrating
+    carbon arcs used in testing textiles for colorfastness to light
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - recommended method of use of standard light-sensitive
+    paper for calibrating carbon arcs used in testing textiles for colorfastness to
+    light
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.260-15
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-15.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 260-15
@@ -23,69 +37,51 @@ docid:
 - id: 10.6028/NBS.SP.260-15
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1967'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Shouse
+      completename:
+        content: Passaglia, Elio.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112129
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elio
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Passaglia
+      completename:
+        content: Shouse, Paul J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022083450
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1967'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS miscellaneous publication; NBS miscellaneous pub; NBS MP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-15
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

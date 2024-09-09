@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR19-021
 title:
 - content: Characterization of residential air distribution system performance for
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.19-021
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2019/NIST.GCR.19-021.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 19-021
@@ -22,101 +21,80 @@ docid:
 - id: 10.6028/NIST.GCR.19-021
   type: DOI
 date:
-- type: published
-  value: 2019-12
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Hyojin
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kim, Hyojin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017135350
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Khiem
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Nguyen, Khiem.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Anne
-          script:
-          - Latn
-      surname:
-        content: McGuinness
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McGuinness, Anne.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Toan Vo
-          script:
-          - Latn
-      surname:
-        content: Dai
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dai, Toan Vo.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-12
-script:
-- Latn
+abstract:
+- content: Despite broad recognition that air distribution plays an important role
+    in comfort for residential buildings, previous efforts to evaluate and characterize
+    the performance of residential air distribution systems have largely focused on
+    their impact on the heating and cooling energy consumption. However, fewer studies
+    addressed the effectiveness of the tested residential air distribution systems
+    to provide and maintain comfort in the conditioned space by delivering the designed
+    air temperature to individual rooms throughout the house. Therefore, the purpose
+    of this research is to develop an improved understanding of the impact of residential
+    air distribution systems on whole-house thermal comfort and to propose analytical
+    methods for evaluating this impact.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 19-021
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

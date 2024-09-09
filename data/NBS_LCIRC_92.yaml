@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSLCIRC92
 title:
-- content: Letter Circular 92:radio signals of standard frequency and their utilization
+- content: Letter Circular 92
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: radio signals of standard frequency and their utilization
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Letter Circular 92 - radio signals of standard frequency and their utilization
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.LCIRC.92
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular92.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS LCIRC 92
@@ -21,54 +34,33 @@ docid:
 - id: 10.6028/NBS.LCIRC.92
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1923'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: HJ
-          script:
-          - Latn
-          initial: H
-        - script:
-          - Latn
-          initial: J
-        formatted_initials:
-          content: HJ
-          script:
-          - Latn
-      surname:
-        content: Walls
-        script:
-        - Latn
+      completename:
+        content: '"Walls, H. J."'
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1923'
-script:
-- Latn
 series:
 - title:
-    content: NBS Letter Circular
+    content: NBSLCIRC; NBS LCIRC; NBS letter circular
     format: text/plain
-  abbreviation:
-    content: LCIRC
   number: '92'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

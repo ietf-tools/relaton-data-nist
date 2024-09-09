@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP250-90
 title:
-- content: Calibration uncertainty for the NIST PMAM noise standards
+- content: Calibration uncertainty for the NIST PM/AM noise standards
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.250-90
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication250-90.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 250-90
@@ -21,103 +20,66 @@ docid:
 - id: 10.6028/NIST.SP.250-90
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Archita
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hati
+      completename:
+        content: Hati, Archita.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nelson
+      completename:
+        content: Nelson, Craig.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2017008957
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Neil
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ashby
+      completename:
+        content: Ashby, Neil.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2004024535
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Howe
+      completename:
+        content: Howe, David.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2012'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 250-90
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

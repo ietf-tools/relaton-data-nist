@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSCRPL1-6
 title:
 - content: The variability of sky-wave field intensities at medium and high frequencies
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.CRPL.1-6
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/crpl/crpl-1-6.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS CRPL 1-6
@@ -21,75 +20,45 @@ docid:
 - id: 10.6028/NBS.CRPL.1-6
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1948'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Newbern
-          script:
-          - Latn
-      surname:
-        content: Smith
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Smith, Newbern.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: M B
-          script:
-          - Latn
-          initial: M
-        - script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: M B
-          script:
-          - Latn
-      surname:
-        content: Harrington
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Central Radio Propogation Laboratory
+      completename:
+        content: Harrington, M. B.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Central Radio Propogation Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1948'
-script:
-- Latn
 series:
 - title:
-    content: NBS CRPL Solar-Geophysical Data
+    content: NBS Central Radio Propogation Laboratory Report; NBS CRPL Report
     format: text/plain
-  abbreviation:
-    content: CRPL
   number: 1-6
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

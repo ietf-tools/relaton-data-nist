@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2041
 title:
 - content: Towards a process to quantify the hazard of fire protection design alternatives
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2041
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2041.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2041
@@ -21,152 +20,133 @@ docid:
 - id: 10.6028/NIST.TN.2041
   type: DOI
 date:
-- type: published
-  value: 2019-05
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul A
-          script:
-          - Latn
-      surname:
-        content: Reneke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Reneke, Paul A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008048705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Morgan C
-          script:
-          - Latn
-      surname:
-        content: Bruns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bruns, Morgan C.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stanley W
-          script:
-          - Latn
-      surname:
-        content: Gilbert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Gilbert, Stanley W.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-0461-008X"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Chandler
-          script:
-          - Latn
-      surname:
-        content: MacLaren
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: MacLaren, Chandler.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D
-          script:
-          - Latn
-      surname:
-        content: Peacock
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Peacock, Richard D.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79111603
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas G
-          script:
-          - Latn
-      surname:
-        content: Cleary
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cleary, Thomas G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152651
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David T
-          script:
-          - Latn
-      surname:
-        content: Butry
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Butry, David T.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107278
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-05
-script:
-- Latn
+abstract:
+- content: There are a variety of new, improved, and/or innovative fire protection
+    technologies that have the potential to improve fire protection and life safety
+    in residences including barrier fabrics for upholstered furniture, new nano-scaled
+    flame retardants, and better fire detection technology. However, there is no accepted
+    methodology available to determine the absolute or even relative performance of
+    different technologies. The Engineering Laboratory of the National Institute for
+    Standards and Technology (NIST) has undertaken an effort to develop a method to
+    better quantify the relative improvements in fire safety provided by different
+    technologies to evaluate the impact of changes in prescriptive or performance-based
+    requirements. In order to better understand the overall process for the analysis,
+    this report examines the process for quantitative calculation of fire hazard of
+    fire protection design alternatives using as an example case study the potential
+    benefits of alternate requirements for residential smoke alarms. The case study
+    will help define the process, data, and tools necessary for a quantitative analysis
+    of changes in fire protection designs. The long-term goal of the project is to
+    develop a well-defined process and set of tools for such analyses. This report
+    shows the result of the case study as well as a discussion of the procedure itself.
+    Several conclusions are apparent. With the speed of current machines and zone
+    fire models, it is practical to generate tens of thousands of cases to analyze.
+    There is also a need for additional data, including but not limited to fire data,
+    information about the distribution of floor plans and about type and arrangement
+    of the contents. Finally, there needs to be guidance and modeling available to
+    account for the impact of occupants actions and their interactions with fires.
+    Going forward, research should focus on a two-prong approach. First, tools are
+    needed to make Monte Carlo analysis more efficient. Second, additional opportunities
+    to apply Monte Carlo analysis to real research problems would develop a base of
+    expertise to further the use of this analysis.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2041'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

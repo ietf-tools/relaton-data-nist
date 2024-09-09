@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8241
 title:
 - content: Organizational views of NIST cryptographic standards and testing and validation
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8241
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8241.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8241
@@ -22,113 +21,89 @@ docid:
 - id: 10.6028/NIST.IR.8241
   type: DOI
 date:
-- type: published
-  value: 2018-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Julie
-          script:
-          - Latn
-      surname:
-        content: Haney
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Haney, Julie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mary
-          script:
-          - Latn
-      surname:
-        content: Theofanos
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Theofanos, Mary.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yasemin
-          script:
-          - Latn
-      surname:
-        content: Acar
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Acar, Yasemin.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sandra Spickard
-          script:
-          - Latn
-      surname:
-        content: Prettyman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Prettyman, Sandra Spickard,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005072199
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology).
+    - content: Material Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-12
-script:
-- Latn
+abstract:
+- content: Cryptography is an essential component of modern computing. Unfortunately,
+    implementing cryptography correctly is a non-trivial undertaking. Past research
+    studies have supported this observation by revealing a multitude of errors and
+    pitfalls in the cryptographic implementations of software products. However, the
+    emphasis of these studies was on the practices of less-experienced, individual
+    developers. Therefore, there is little understanding of the cryptographic development
+    practices of organizations, including the benefits and challenges of using cryptographic
+    resources such as standards specifications and libraries. To address this gap,
+    a research team led by the National Institute of Standards and Technology (NIST)
+    Information Technology Laboratory Visualization and Usability Group conducted
+    a qualitative investigation into the processes and resources that organizations
+    employ in the development and testing of cryptographic products. The study involved
+    21 in-depth interviews of 29 participants representing organizations that develop
+    either a security product that uses cryptography or a non-security product that
+    heavily relies on cryptography. This report categorizes and enumerates a subset
+    of findings that document participant comments specific to NIST cryptographic
+    publications and testing/validation programs, with a goal of informing future
+    decisions of NIST and other standards bodies working in this space.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8241'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

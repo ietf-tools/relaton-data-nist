@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR5498
 title:
-- content: Challenges to the National Information Infrastructure:the barriers to product
-    data sharing
+- content: Challenges to the National Information Infrastructure
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the barriers to product data sharing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Challenges to the National Information Infrastructure - the barriers to
+    product data sharing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.5498
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5498.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 5498
@@ -22,46 +35,51 @@ docid:
 - id: 10.6028/NIST.IR.5498
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1994'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Allison Barnard
-          script:
-          - Latn
-      surname:
-        content: Feeney
-        script:
-        - Latn
+      completename:
+        content: Sauder, David A.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Mitchell, Mary J.
+        language:
+        - en
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Feeney, Allison Barnard.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1994'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '5498'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

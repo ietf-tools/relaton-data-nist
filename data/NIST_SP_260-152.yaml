@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP260-152
 title:
-- content: Standard Reference MaterialsCertification of a polystyrene synthetic polymer,
-    SRM 2888
+- content: Standard reference materials
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: certification of a polystyrene synthetic polymer, SRM 2888
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Standard reference materials - certification of a polystyrene synthetic
+    polymer, SRM 2888
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.260-152
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication260-152.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 260-152
@@ -22,137 +35,94 @@ docid:
 - id: 10.6028/NIST.SP.260-152
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2003'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Blair
+      completename:
+        content: Blair, William R.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021144283
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Robert J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Goldschmidt
+      completename:
+        content: Goldschmidt, Robert J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022015795
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: VanderHart
+      completename:
+        content: VanderHart, David L.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022022825
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William E
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wallace
+      completename:
+        content: Wallace, William E.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n93049216
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephanie J
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wetzel
+      completename:
+        content: Wetzel, Stephanie J.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022022819
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Charles M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Guttman
+      completename:
+        content: Guttman, Charles M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001075880
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2003'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 260-152
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

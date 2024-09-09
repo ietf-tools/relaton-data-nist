@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT4117
 title:
-- content: Evaluation test of a modification kit for the ANAVQ-2A aircraft searchlight
-    :January through March 1955
+- content: Evaluation test of a modification kit for the AN/AVQ-2A aircraft searchlight
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: January through March 1955
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Evaluation test of a modification kit for the AN/AVQ-2A aircraft searchlight
+    - January through March 1955
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.4117
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport4117.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 4117
@@ -22,35 +35,38 @@ docid:
 - id: 10.6028/NBS.RPT.4117
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1955'
 contributor:
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1955'
-language:
-- en
-script:
-- Latn
+- organization:
+    name:
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
+  role:
+  - type: publisher
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '4117'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-25
 title:
 - content: Federal agency use of public key technology for digital signatures and
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-25
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-25.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-25
@@ -22,56 +21,54 @@ docid:
 - id: 10.6028/NIST.SP.800-25
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2000'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Kathy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lyons-Burke
+      completename:
+        content: Lyons-Burke, Kathy.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003063355
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2000'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: This document builds on the Federal IT Security Assessment Framework (Framework)
+    developed by NIST for the Federal Chief Information Officer (CIO) Council. The
+    Framework established the groundwork for standardizing on five levels of security
+    status and criteria agencies could use to determine if the five levels were adequately
+    implemented. This document provides guidance on applying the Framework by identifying
+    17 control areas, such as those pertaining to identification and authentication
+    and contingency planning. In addition, the guide provides control objectives and
+    techniques that can be measured for each area.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-25
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

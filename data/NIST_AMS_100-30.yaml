@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS100-30
 title:
-- content: Summary report:standards requirements gathering workshop for natural language
-    analysis
+- content: Summary report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: standards requirements gathering workshop for natural language analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Summary report - standards requirements gathering workshop for natural
+    language analysis
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.100-30
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.100-30.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 100-30
@@ -22,84 +35,72 @@ docid:
 - id: 10.6028/NIST.AMS.100-30
   type: DOI
 date:
-- type: published
-  value: 2020-03
+- type: issued
+  value: '2020'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Brundage
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Brundage, Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2003014858
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Brian A
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Weiss, Brian A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joan
-          script:
-          - Latn
-      surname:
-        content: Pellegrino
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Pellegrino, Joan.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2020-03
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) hosted the Standards
+    Requirements Workshop for Natural Language Analysis on May 21, 2019, on the NIST
+    Gaithersburg, Maryland campus. The purpose of the workshop was to discuss the
+    current trends, successes, challenges, and standards requirements needs with respect
+    to natural language document analysis for decision support in manufacturing. This
+    report documents the event including the summarization of inclusive presentations
+    and brainstorming sessions and identification of key themes. The next steps in
+    this effort are presented towards the end of this document, including planning
+    additional forums and meetings to further engage stakeholders on this important
+    topic.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series; NIST AMS
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 100-30
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

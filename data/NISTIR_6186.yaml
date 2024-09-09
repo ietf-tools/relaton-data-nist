@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6186
 title:
-- content: Phase II final report:air transportable expeditionary crane (ATEC) project
+- content: Phase II final report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: air transportable expeditionary crane (ATEC) project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Phase II final report - air transportable expeditionary crane (ATEC) project
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6186
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6186.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6186
@@ -21,72 +34,61 @@ docid:
 - id: 10.6028/NIST.IR.6186
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1998'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Roger
-          script:
-          - Latn
-      surname:
-        content: Bostelman
-        script:
-        - Latn
+      completename:
+        content: Bostelman, Roger.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091704
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Adam
-          script:
-          - Latn
-      surname:
-        content: Jacoff
-        script:
-        - Latn
+      completename:
+        content: Jacoff, Adam.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012091705
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: James S
-          script:
-          - Latn
-      surname:
-        content: Albus
-        script:
-        - Latn
+      completename:
+        content: Albus, James Sacra.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81084213
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1998'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6186'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

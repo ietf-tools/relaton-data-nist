@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1031
 title:
 - content: Round robin study of total heat flux gauge calibration at fire laboratories
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1031
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1031.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1031
@@ -21,154 +20,90 @@ docid:
 - id: 10.6028/NIST.SP.1031
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: William M
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pitts
+      completename:
+        content: Pitts, William M.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86085883
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Annageri V
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Murthy
+      completename:
+        content: Murthy, Annageri V.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: deRis
+      completename:
+        content: deRis, John L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jean-Remy R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Filtz
+      completename:
+        content: Filtz, Jean-Remy R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kjell
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nygard
+      completename:
+        content: Nygard, Kjell.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Debbie
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, Debbie.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n98011402
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ingrid
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wetterlund
+      completename:
+        content: Wetterlund, Ingrid.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1031'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

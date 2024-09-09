@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSIR86-3300
 title:
-- content: STOVE :a predictive model for heat transfer from solid-fuel appliances
+- content: STOVE
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: a predictive model for heat transfer from solid-fuel appliances
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: STOVE - a predictive model for heat transfer from solid-fuel appliances
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.IR.86-3300
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir86-3300.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS IR 86-3300
@@ -21,69 +34,48 @@ docid:
 - id: 10.6028/NBS.IR.86-3300
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1987'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Richard D P
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peacock
+      completename:
+        content: Peacock, Richard D. P.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dipert
+      completename:
+        content: Dipert, Richard A.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88098677
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1987'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS IR (Interagency/Internal Reports)
+    content: NBSIR; NBS IR; NBS interagency report; NBS internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 86-3300
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

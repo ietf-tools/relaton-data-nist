@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTHB133e3supp2
 title:
 - content: Checking the net contents of packaged goods
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.HB.133e3supp2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nisthandbook133e3supp2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST HB 133e3supp2
@@ -21,67 +20,50 @@ docid:
 - id: 10.6028/NIST.HB.133e3supp2
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1991'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C S
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: C S
-          script:
-          - Latn
-      surname:
-        content: Brickenkamp
-        script:
-        - Latn
+      completename:
+        content: Brickenkamp, C. S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81140869
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joan A
-          script:
-          - Latn
-      surname:
-        content: Koenig
-        script:
-        - Latn
+      completename:
+        content: Koenig, Joan A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022042936
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1991'
-script:
-- Latn
 series:
 - title:
-    content: NIST Handbooks
+    content: NIST handbook; NIST HB
     format: text/plain
-  abbreviation:
-    content: HB
   number: 133e3supp2
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

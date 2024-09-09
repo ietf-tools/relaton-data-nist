@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2030
 title:
 - content: A calibration of timing accuracy in the NIST cyber-physical systems testbed
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2030
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2030.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2030
@@ -21,193 +20,123 @@ docid:
 - id: 10.6028/NIST.TN.2030
   type: DOI
 date:
-- type: published
-  value: 2018-12
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Marc
-          script:
-          - Latn
-      surname:
-        content: Weiss
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Weiss, Marc.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008000717
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ya-Shian
-          script:
-          - Latn
-      surname:
-        content: Li-Baboud
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Li-Baboud, Ya-Shian.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Dhananjay
-          script:
-          - Latn
-      surname:
-        content: Anand
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Anand, Dhananjay.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kevin G
-          script:
-          - Latn
-      surname:
-        content: Brady Jr.
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Brady Jr., Kevin G.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul
-          script:
-          - Latn
-      surname:
-        content: Boynton
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boyton, Paul,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2003004025
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cuong
-          script:
-          - Latn
-      surname:
-        content: Nguyen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nguyen, Cuong.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Martin
-          script:
-          - Latn
-      surname:
-        content: Burns
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Burns, Martin.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97033846
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Avi
-          script:
-          - Latn
-      surname:
-        content: Gopstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Gopstein, Avi.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    - content: Information Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-12
-script:
-- Latn
+abstract:
+- content: We propose a general methodology for assessing the time accuracy and uncertainties,
+    and report results from a project to calibrate timing in the NIST Cyber-Physical
+    System (CPS) and Smart Grid Testbeds. We measured clock synchronization accuracy
+    and stability as well as latencies for potential experiments in the testbeds.
+    We determined calibrations of GPS receivers to UTC(NIST) with an uncertainty of
+    16 ns. However, an anomaly occurred coincident with a power shutdown, which resulted
+    in a total uncertainty of receiver calibrations against UTC(NIST) of 100 ns. Synchronization
+    at testbed locations relative to an IEEE 1588 Precision Time Protocol (PTP) grandmaster
+    was found to have a max offset of 36 ns ± 6 ns one sigma from the grandmaster
+    through two transparent clocks (TCs). Finally, we measured the time error relative
+    to the grandmaster of an embedded device attached to a switch without PTP support
+    with a mean offset of 50 Âèys ± 10 Âèys, and at 8 ms ± 500 Âèys for timestamping
+    at the general-purpose input/output (GPIO). We report the methodology used, as
+    well as some of the challenges encountered and solutions developed in the process.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2030'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

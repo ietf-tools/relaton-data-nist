@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS600-12
 title:
-- content: Manufacturing USA Semiconductor Institute(s) Summary of Responses to Request
-    for InformationSubtitle
+- content: Manufacturing USA Semiconductor Institute(s) summary of responses to request
+    for information
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.600-12
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.600-12.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 600-12
@@ -22,39 +21,23 @@ docid:
 - id: 10.6028/NIST.AMS.600-12
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2023'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Mani
-          script:
-          - Latn
-      surname:
-        content: Mahesh
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Mani, Mahesh.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Office of Advanced Manufacturing.
   role:
   - type: publisher
-revdate: '2023'
-script:
-- Latn
 abstract:
 - content: This document provides an overview of the stakeholder responses, consensus
     and an overarching summary of some of the thematic areas that emerged from the
@@ -70,16 +53,26 @@ abstract:
     the text of the general responses to specific RFI questions. Where applicable,
     specific suggestions from the responses were reproduced as part of the high-level
     summary.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 600-12
-doctype: standard
+- title:
+    content: NIST advanced manufacturing series; NIST AMS
+    format: text/plain
+  number: 600-12
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSSP539
 title:
 - content: Metrology in industry and government
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.SP.539
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication539.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS SP 539
@@ -21,86 +20,85 @@ docid:
 - id: 10.6028/NBS.SP.539
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1979'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H Steffen
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Peiser
+      completename:
+        content: Peiser, H. Steffen (Herbert Steffen),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81127604
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Raymond C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sangster
+      completename:
+        content: Sangster, Raymond C.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n81022003
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Wun
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jung
+      completename:
+        content: Jung, Wun.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79052008
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1979'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: A regional seminar sponsored by the Korea Standards Research Institute,
+    the National Bureau of Standards, and the U.S. Agency for International Development
+    was held at the new K-SRI Laboratories at Daeduk near Dae Jeon in the Republic
+    of Korea on September 27-28, 1978. The participants representing most of the countries
+    in the South Asian and Western Pacific Region discussed the importance of providing
+    services in measurement science and technology (metrology) to governmental and
+    industrial organizations in the region. The consensus was that a need for a central
+    national capability in metrology existed in countries at all levels of development,
+    and that that central organization could be a focal point for intra- and international
+    cooperation, which alone could lead to compatibility of measurements, a prerequisite
+    for quality control for all kinds of products in domestic and international markets.
+    Australia and New Zealand had established a group of accredited test laboratories
+    to disseminate the accuracies inherent in the national measurement system. Industry
+    was increasingly aware that metrology was essential to development, but the specific
+    needs at appropriate accuracies needed to be established by surveys. The Korean
+    Government strongly supported the establishment of metrological services as is
+    well illustrated by the new K-SRI laboratories.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NBS Special Publications (General)
+    content: NBS special publication; NBS special pub; NBS SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '539'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

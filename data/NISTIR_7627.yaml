@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7627
 title:
-- content: Development of soft armor conditioning protocols for NIJ standard - 0101.06:analytical
-    results
+- content: Development of soft armor conditioning protocols for NIJ standard - 0101.06
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: analytical results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Development of soft armor conditioning protocols for NIJ standard - 0101.06
+    - analytical results
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7627
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7627.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7627
@@ -22,163 +35,114 @@ docid:
 - id: 10.6028/NIST.IR.7627
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2009'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Amanda L
-          script:
-          - Latn
-      surname:
-        content: Forester
-        script:
-        - Latn
+      completename:
+        content: Forester, Amanda L.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Kirk D
-          script:
-          - Latn
-      surname:
-        content: Rice
-        script:
-        - Latn
+      completename:
+        content: Rice, Kirk D.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael A
-          script:
-          - Latn
-      surname:
-        content: Riley
-        script:
-        - Latn
+      completename:
+        content: Riley, Michael A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2007019285
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Guillaume H R
-          script:
-          - Latn
-      surname:
-        content: Messin
-        script:
-        - Latn
+      completename:
+        content: Messin, Guillaume H. R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sylvain
-          script:
-          - Latn
-      surname:
-        content: Petit
-        script:
-        - Latn
+      completename:
+        content: Petit, Sylvain.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cyril
-          script:
-          - Latn
-      surname:
-        content: Clerici
-        script:
-        - Latn
+      completename:
+        content: Clerici, Cyril.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Marie-Cecile
-          script:
-          - Latn
-      surname:
-        content: Vigoroux
-        script:
-        - Latn
+      completename:
+        content: Vigoroux, Marie-Cecile.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Pierre
-          script:
-          - Latn
-      surname:
-        content: Pintus
-        script:
-        - Latn
+      completename:
+        content: Pintus, Pierre.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Gale
-          script:
-          - Latn
-      surname:
-        content: Holmes
-        script:
-        - Latn
+      completename:
+        content: Holmes, Gale.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joannie
-          script:
-          - Latn
-      surname:
-        content: Chin
-        script:
-        - Latn
+      completename:
+        content: Chin, Joannie.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021107282
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2009'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7627'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

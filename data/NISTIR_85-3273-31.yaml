@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR85-3273-31
 title:
-- content: Energy Price Indices and Discount Factors for Life-Cycle Cost Analysis
-    – 2016 Annual Supplement to NIST Handbook 135
+- content: Energy price indices and discount factors for life-cycle cost analysis
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 2016 annual supplement to NIST Handbook 135
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Energy price indices and discount factors for life-cycle cost analysis
+    - 2016 annual supplement to NIST Handbook 135
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.85-3273-31
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.85-3273-31.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 85-3273-31
@@ -22,67 +35,64 @@ docid:
 - id: 10.6028/NIST.IR.85-3273-31
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Priya D.
-          script:
-          - Latn
-      surname:
-        content: Lavappa
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lavappa, Priya.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113180
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Joshua D.
-          script:
-          - Latn
-      surname:
-        content: Kneifel
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kneifel, Joshua.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015145270
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: This is the 2016 edition of energy price indices and discount factors for
+    performing life-cycle cost analyses of energy and water conservation and renewable
+    energy projects in federal facilities. It will be effective from April 1, 2016
+    to March 31, 2017. This publication supports the federal life-cycle costing methodology
+    described in 10 CFR 436A and OMB Circular A-94 by updating the energy price projections
+    and discount factors that are described, explained, and illustrated in NIST Handbook
+    135 (HB 135, Life-Cycle Costing Manual for the Federal Energy Management Program.)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 85-3273-31
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1986
 title:
 - content: Investigation of residential cooktop ignition prevention technologies
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1986
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1986
@@ -21,84 +20,93 @@ docid:
 - id: 10.6028/NIST.TN.1986
   type: DOI
 date:
-- type: published
-  value: 2018-05
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Anthony
-          script:
-          - Latn
-      surname:
-        content: Hamins
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Hamins, Anthony,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n87136328
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Sung Chan
-          script:
-          - Latn
-      surname:
-        content: Kim
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kim, Sŭng-chʻan.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n86031322
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          script:
-          - Latn
-      surname:
-        content: Bundy
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bundy, Matthew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021146338
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-05
-script:
-- Latn
+abstract:
+- content: Several international standards and regulations regarding residential cooktop
+    ignition prevention have existed for as long as a decade. A series of cooking
+    experiments were conducted by National Institute of Standards and Technology (NIST)
+    to examine the effectiveness of the cooktop ignition prevention technologies.
+    Several types of commercially available full-scale residential cooktops with integrated
+    ignition prevention technologies were tested. The experiments provided data on
+    the character of the ignition prevention technologies and their performance in
+    terms of ignition prevention of oil-based cooking fires. About 80 experiments
+    were conducted using both gas and electric cooktops, including four propane gas
+    powered cooktops sold in Asia and one stove with electric coil heating elements
+    sold in the USA. One retrofit ignition prevention system for electric coil heating
+    elements was also tested. The ignition prevention technologies used a variety
+    of configurations and engineering designs. Experiments were conducted using four
+    types of cooking vessels. The pans tested were approximately round, about 20 cm
+    to 22 cm in diameter, and 4 cm to 5 cm in depth. The tests followed the UL 858
+    standard on abnormal cooktop fire hazards. Five thermocouples were attached on
+    the bottom of the pans in a cross pattern and the average pan temperature during
+    cooking was monitored. For the experiments involving cooking oil, the incidence
+    of auto-ignition was observed. About half of the experiments were conducted using
+    dry pans and about half were conducted on pans that held small amounts of Canola
+    oil. The results showed that some of the cooktop technologies were more reliable
+    than others in preventing oil ignition and maintaining temperatures below the
+    UL 858 standard's limit temperature criteria. And the results confirm that residential
+    cooktop ignition prevention technologies can be effective for both electric and
+    gas cooktops.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1986'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

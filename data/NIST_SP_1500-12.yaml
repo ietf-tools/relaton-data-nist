@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1500-12
 title:
 - content: Time distribution alternatives for the smart grid workshop report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1500-12
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-12.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1500-12
@@ -21,50 +20,56 @@ docid:
 - id: 10.6028/NIST.SP.1500-12
   type: DOI
 date:
-- type: published
-  value: '2017-11-13'
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Allen
-          script:
-          - Latn
-      surname:
-        content: Goldstein
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Physical Measurement Laboratory
+      completename:
+        content: Goldstein, Allen
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2016112646
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Physical Measurement Laboratory (National Institute of Standards and
+        Technology (U.S.))
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019028800
   role:
   - type: publisher
-revdate: '2017-11-13'
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) hosted the Time
+    Distribution Alternatives for the Smart Grid Workshop at its Gaithersburg, Maryland
+    Campus on March 21, 2017. The event, co-hosted by the U.S. Department of Energy,
+    brought together experts from industry, government, national laboratories, and
+    academia to determine research and development (R&D) priorities for alternatives
+    to global positioning system (GPS) time distribution in electrical power systems.
+    The information gained will inform future NIST, DOE, national laboratories and
+    private sector technical programs and strategic planning. The workshop also served
+    to drive discussion for the North American Synchrophasor Initiative (NASPI) working
+    group meeting held following the workshop.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1500-12
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

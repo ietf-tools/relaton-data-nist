@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8228
 title:
 - content: Considerations for managing Internet of Things (IoT) cybersecurity and
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8228
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8228.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8228
@@ -22,186 +21,132 @@ docid:
 - id: 10.6028/NIST.IR.8228
   type: DOI
 date:
-- type: published
-  value: 2019-06
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katie
-          script:
-          - Latn
-      surname:
-        content: Boeckl
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Boeckl, Katie.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Michael
-          script:
-          - Latn
-      surname:
-        content: Fagan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fagan, James Michael.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1861-2609"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William
-          script:
-          - Latn
-      surname:
-        content: Fisher
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fisher, William.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no96031619
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Naomi
-          script:
-          - Latn
-      surname:
-        content: Lefkovitz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lefkovitz, Naomi.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-3777-3106"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Katerina N
-          script:
-          - Latn
-      surname:
-        content: Megas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Megas, Katerina N.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ellen
-          script:
-          - Latn
-      surname:
-        content: Nadeau
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Nadeau, Ellen.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-2553-9304"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Danna Gabel
-          script:
-          - Latn
-      surname:
-        content: O'Rourke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: O'Rourke, Danna Gabel.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ben
-          script:
-          - Latn
-      surname:
-        content: Piccarreta
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Piccarreta, Ben.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Karen
-          script:
-          - Latn
-      surname:
-        content: Scarfone
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Kent, Karen (Karen Ann)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0001-6334-9486"
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2019-06
-script:
-- Latn
+abstract:
+- content: The Internet of Things (IoT) is a rapidly evolving and expanding collection
+    of diverse technologies that interact with the physical world. Many organizations
+    are not necessarily aware of the large number of IoT devices they are already
+    using and how IoT devices may affect cybersecurity and privacy risks differently
+    than conventional information technology (IT) devices do. The purpose of this
+    publication is to help federal agencies and other organizations better understand
+    and manage the cybersecurity and privacy risks associated with their individual
+    IoT devices throughout the devices lifecycles. This publication is the introductory
+    document providing the foundation for a planned series of publications on more
+    specific aspects of this topic.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8228'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

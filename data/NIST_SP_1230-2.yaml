@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1230-2
 title:
 - content: Community resilience-focused technical investigation of the 2016 Lumberton,
-    North Carolina flood :community recovery one year later
+    North Carolina flood
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: community recovery one year later
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Community resilience-focused technical investigation of the 2016 Lumberton,
+    North Carolina flood - community recovery one year later
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1230-2
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1230-2.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1230-2
@@ -22,73 +36,39 @@ docid:
 - id: 10.6028/NIST.SP.1230-2
   type: DOI
 date:
-- type: published
-  value: '2021-04-21'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elaina J
-          script:
-          - Latn
-      surname:
-        content: Sutley
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sutley, Elaina J.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Maria K
-          script:
-          - Latn
-      surname:
-        content: Dillard
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Dillard, Maria K.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John W
-          script:
-          - Latn
-      surname:
-        content: van de Lindt
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: van de Lindt, John W.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-04-21'
-script:
-- Latn
 abstract:
 - content: 'In early October 2016 Hurricane Matthew crossed North Carolina as a category
     1 storm with some areas receiving 15-18 inches of rainfall on already saturated
@@ -112,16 +92,22 @@ abstract:
     and recovery. Wave 2 dealt primarily with the recovery process of the most heavily
     affected households and businesses through systematic surveys. Analysis revealed
     that even after 14 months, Lumberton is only in the early stages of recovery.'
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1230-2
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

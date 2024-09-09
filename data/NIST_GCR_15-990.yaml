@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-990
 title:
 - content: Proposed recommended practice for the representation of schematic symbols
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-990
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-990.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-990
@@ -22,101 +21,81 @@ docid:
 - id: 10.6028/NIST.GCR.15-990
   type: DOI
 date:
-- type: published
-  value: 2015-04
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: James
-          script:
-          - Latn
-      surname:
-        content: Stori
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Stori, James.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tom R
-          script:
-          - Latn
-      surname:
-        content: Thurman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Thurman, Tom R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Craig
-          script:
-          - Latn
-      surname:
-        content: Lanning
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Lanning, Craig.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Mike
-          script:
-          - Latn
-      surname:
-        content: Benda
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Benda, Mike.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2015-04
-script:
-- Latn
+abstract:
+- content: The purpose of this document is to propose a recommended practice for the
+    representation of schematic symbols and the integration of schematic symbols with
+    functional and physical representations of packaged electronic component models
+    in ISO 10303-210 (STEP AP 210). While the representation of AP 210 packages and
+    packaged parts has been previously validated through existing implementations,
+    the representation of component functional models and associated schematic symbols
+    has been less thoroughly exercised. AP 210 has dedicated concepts for the representation
+    of a functional element, as well as the association of a functional element with
+    a physical realization through a packaged part and associated package model. The
+    intent in the development of this recommended practice was to leverage existing
+    draughting capabilities within the STEP standards for the presentation of a schematic
+    symbol in AP 210. The schematic symbol is a presentation of the functional model
+    for human visualization, interpretation, and manipulation - the schematic symbol
+    should be a draughting representation of a functional element.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-990
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSRPT9992
 title:
 - content: Report on the performance of asbestos fiber-base built-up roofs
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.RPT.9992
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/RPT/nbsreport9992.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS RPT 9992
@@ -21,46 +20,33 @@ docid:
 - id: 10.6028/NBS.RPT.9992
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1969'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Thomas H
-          script:
-          - Latn
-      surname:
-        content: Boone
-        script:
-        - Latn
+      completename:
+        content: Boone, Thomas H.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '1969'
-script:
-- Latn
 series:
 - title:
-    content: NBS NBS Reports
+    content: NBS report
     format: text/plain
-  abbreviation:
-    content: RPT
   number: '9992'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

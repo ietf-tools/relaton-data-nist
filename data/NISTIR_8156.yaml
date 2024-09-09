@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8156
 title:
-- content: 'Improving biometric and forensic technology: the future of research datasets
-    symposium report'
+- content: Improving biometric and forensic technology
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: the future of research datasets symposium report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Improving biometric and forensic technology - the future of research datasets
+    symposium report
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8156
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8156.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8156
@@ -22,84 +35,70 @@ docid:
 - id: 10.6028/NIST.IR.8156
   type: DOI
 date:
-- type: published
-  value: 2017-03
+- type: issued
+  value: '2017'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa K
-          script:
-          - Latn
-      surname:
-        content: Taylor
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Taylor, Melissa K.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022087567
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Shannan R
-          script:
-          - Latn
-      surname:
-        content: Williams
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Williams, Shannan R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          script:
-          - Latn
-      surname:
-        content: Kiebuzinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Kiebuzinski, George.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113181
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2017-03
-script:
-- Latn
+abstract:
+- content: 'On January 26th and 27th, 2015, the National Institute of Standards and
+    Technology (NIST), in collaboration with the National Institute of Justice (NIJ),
+    held a workshop entitled: Improving Biometric and Forensic Technology: The Future
+    of Research Datasets at NIST''s campus in Gaithersburg, Maryland. This document
+    summarizes the discussions and conclusions of the workshop, including feedback
+    obtained from workshop participants during panel discussions.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8156'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

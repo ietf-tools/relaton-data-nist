@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7097
 title:
-- content: Particle size analysis by laser diffraction spectrometry:application to
-    cementitious powders
+- content: Particle size analysis by laser diffraction spectrometry
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: application to cementitious powders
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Particle size analysis by laser diffraction spectrometry - application
+    to cementitious powders
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7097
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7097.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7097
@@ -22,85 +35,41 @@ docid:
 - id: 10.6028/NIST.IR.7097
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent A
-          script:
-          - Latn
-      surname:
-        content: Hackley
-        script:
-        - Latn
+      completename:
+        content: Gintautas, Vadas.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lin-Sien
-          script:
-          - Latn
-      surname:
-        content: Lum
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Vadas
-          script:
-          - Latn
-      surname:
-        content: Gintautas
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Chiara F
-          script:
-          - Latn
-      surname:
-        content: Ferraris
-        script:
-        - Latn
+      completename:
+        content: Ferraris, Chiara F.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
   role:
   - type: publisher
-revdate: '2004'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '7097'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

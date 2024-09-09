@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8206
 title:
 - content: Mission critical voice QoE mouth-to-ear latency measurement methods
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8206
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8206.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8206
@@ -21,84 +20,81 @@ docid:
 - id: 10.6028/NIST.IR.8206
   type: DOI
 date:
-- type: published
-  value: 2018-02
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jesse
-          script:
-          - Latn
-      surname:
-        content: Frey
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Frey, Jesse.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jaden
-          script:
-          - Latn
-      surname:
-        content: Pieper
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Pieper, Jaden.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Tim
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Communications Technology Laboratory
+      completename:
+        content: Thompson, Tim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr95032380
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Communications Technology Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2018-02
-script:
-- Latn
+abstract:
+- content: Mouth-to-ear (M2E) latency describes the time it takes speech input in
+    a voice communication transmit device to be output from a receiving device, and
+    has been identified as a key component of quality of experience (QoE) in communications.
+    NIST's PSCR division developed a method to measure and quantify the M2E latency
+    of any communications system transmitting audio, with specific emphasis on push
+    to talk (PTT) devices. This measurement method is the first step in establishing
+    QoE key performance indicators (KPI) for mission critical voice (MCV) and a measurement
+    system to quantify these QoE KPIs. Additional measurement methods will be established
+    and published in the near future. The measurement system provides a fair platform
+    for the comparisons of M2E latency across radio communications technologies. Both
+    single and two location measurement systems were developed. The single location
+    measurement system is a simpler setup ideal for measurements performed in a single,
+    controlled setting. The two location system allows for the measurement of M2E
+    latency between devices in two distinct locations and adds the capability to see
+    potential effects of distance and signal propagation on the latency a user experiences.
+    Example measurements of the M2E latency of VHF and UHF land mobile radios (LMR)
+    operating in both direct mode and in trunked mode were performed. These tests
+    demonstrated that both the single and two location tests return consistent measurement
+    results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8206'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,19 +1,32 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR4930
 title:
-- content: DARPA TIMIT:acoustic-phonetic continuous speech corpus CD-ROM, NIST speech
+- content: DARPA TIMIT
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: acoustic-phonetic continuous speech corpus CD-ROM, NIST speech disc 1-1.1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: DARPA TIMIT - acoustic-phonetic continuous speech corpus CD-ROM, NIST speech
     disc 1-1.1
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.4930
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4930.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 4930
@@ -22,111 +35,88 @@ docid:
 - id: 10.6028/NIST.IR.4930
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1993'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John S
-          script:
-          - Latn
-      surname:
-        content: Garofolo
-        script:
-        - Latn
+      completename:
+        content: Garofolo, John S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003104538
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Lori F
-          script:
-          - Latn
-      surname:
-        content: Lamel
-        script:
-        - Latn
+      completename:
+        content: Lamel, Lori.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021043459
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William M
-          script:
-          - Latn
-      surname:
-        content: Fisher
-        script:
-        - Latn
+      completename:
+        content: Fisher, William M.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jonathan G
-          script:
-          - Latn
-      surname:
-        content: Fiscus
-        script:
-        - Latn
+      completename:
+        content: Fiscus, Jonathan G.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nb2007001528
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David S
-          script:
-          - Latn
-      surname:
-        content: Pallett
-        script:
-        - Latn
+      completename:
+        content: Pallett, David S.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88607093
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nancy L
-          script:
-          - Latn
-      surname:
-        content: Dahlgren
-        script:
-        - Latn
+      completename:
+        content: Dahlgren, Nancy L.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '1993'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '4930'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

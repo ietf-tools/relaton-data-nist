@@ -1,19 +1,33 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2000
 title:
-- content: 'Database-assisted design and equivalent static wind loads for mid- and
-    high-rise structures: concepts, software, and user�s manual'
+- content: Database-assisted design and equivalent static wind loads for mid- and
+    high-rise structures
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: concepts, software, and user's manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Database-assisted design and equivalent static wind loads for mid- and
+    high-rise structures - concepts, software, and user's manual
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2000
   type: doi
-- content: http://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2000.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2000
@@ -22,67 +36,77 @@ docid:
 - id: 10.6028/NIST.TN.2000
   type: DOI
 date:
-- type: published
-  value: 2018-06
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Sejun
-          script:
-          - Latn
-      surname:
-        content: Park
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Park, Sejun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021152839
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: DongHun
-          script:
-          - Latn
-      surname:
-        content: Yeo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Yeo, DongHun.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2018048920
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-06
-script:
-- Latn
+abstract:
+- content: 'This report presents the software DAD_ESWL v1.0 capable of computing efficiently
+    the response to wind of mid- and high-rise structures consisting of up to thousands
+    of members. The report also documents the following features of the software:
+    (1) Use of the Database-Assisted Design (DAD) procedure or of the Equivalent Static
+    Wind Load (ESWL) procedure for the iterative structural design of mid- and high-rise
+    buildings. (2) Incorporation into the design of second-order elastic analysis
+    (both P-? member chord rotation, and P-? member curvature). DAD_ESWL uses a geometric
+    stiffness method allowing the second-order effects to be accounted for with no
+    iterations. (3) Improvements in the graphical user interface, including: (i) definition
+    of pressure tap locations, (ii) pressure distribution displays, (iii) calculation
+    of floor wind loads due to pressures at taps, and (iv) use of MATLAB tools enabling
+    free editing of displays of computation results. (4) Updates of steel member interaction
+    formulas applicable to various types of beam-column joints, bracing connection
+    details, and cross-sectional shapes. (5) Generation of biaxial interaction strength
+    surface for determining the demand-to-capacity indexes of reinforced concrete
+    columns or shear walls with rectangular cross section specified by the user. The
+    demand-to-capacity index for the shear wall can be calculated as well. (6) Inclusion
+    of the capability to use OpenSees for the efficient calculation of modal shapes
+    and frequencies of vibration, as well as of influence coefficients. The report
+    includes a detailed user''s manual.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2000'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

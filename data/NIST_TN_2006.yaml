@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2006
 title:
 - content: Interlaboratory mechanical-property study for Cobalt-Chromium alloy made
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2006
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2006.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2006
@@ -22,101 +21,87 @@ docid:
 - id: 10.6028/NIST.TN.2006
   type: DOI
 date:
-- type: published
-  value: 2018-08
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: John A
-          script:
-          - Latn
-      surname:
-        content: Slotwinski
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Slotwinski, John A. (John Anthony),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022084010
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: William E.
-          script:
-          - Latn
-      surname:
-        content: Luecke
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Luecke, William E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0003-0587-4500"
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Eric A
-          script:
-          - Latn
-      surname:
-        content: Lass
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lass, Eric A.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Antonio
-          script:
-          - Latn
-      surname:
-        content: Possolo
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Possolo, Antonio.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n92088106
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-08
-script:
-- Latn
+abstract:
+- content: An eight-laboratory study provided the data to evaluate variability in
+    tensile mechanical properties of cobalt-chrome alloy (UNS R31538) made by metals-based
+    additive manufacturing. In the study, six laboratories employed laser powder-bed-fusion
+    additive manufacturing, and two additional laboratories employed electron-beam
+    powder-bed fusion. For the fve laboratories that employed nominally identical
+    laser powder-bed fusion systems, the between-laboratory variability in yield strength
+    and tensile strength was several times larger than the within-laboratory variability.
+    Microstructural analysis using scanning electron microscopy revealed that each
+    laboratory produced slightly different microstructures. Thermodynamic modeling
+    of the solidifcation and subsequent post-build heat treating demonstrated that
+    the fnal microstructure is sensitive to the exact heat-treating conditions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2006'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN2029
 title:
-- content: A computable general equilibrium model of cedar rapids
+- content: A computable general equilibrium model of Cedar Rapids
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.2029
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2029.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 2029
@@ -21,118 +20,93 @@ docid:
 - id: 10.6028/NIST.TN.2029
   type: DOI
 date:
-- type: published
-  value: 2018-09
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Jennifer
-          script:
-          - Latn
-      surname:
-        content: Helgeson
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Helgeson, Jennifer.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2017065489
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Juan
-          script:
-          - Latn
-      surname:
-        content: Fung
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Fung, Juan.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Cheyney
-          script:
-          - Latn
-      surname:
-        content: O'Fallon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: O'Fallon, Cheyney.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011134150
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David
-          script:
-          - Latn
-      surname:
-        content: Webb
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Webb, David.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n84072142
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Harvey
-          script:
-          - Latn
-      surname:
-        content: Cutler
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Cutler, Harvey.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2018-09
-script:
-- Latn
+abstract:
+- content: This report presents the development of a Computable General Equilibrium
+    (CGE) model for the regional economy of Cedar Rapids, Iowa. The general approach
+    that this case study takes is outlined in Helgeson et al. [1] as a method to quantify
+    the net co-benefits of investing in increased resilience, or the "resilience dividend."
+    The current report provides the background on Cedar Rapids as a case study in
+    planning for increased resilience and provides an overview of the CGE model of
+    Cedar Rapids at two different time periods. This report is intended to provide
+    context and background for future applications of the Cedar Rapids CGE model to
+    quantify the resilience dividend.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '2029'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

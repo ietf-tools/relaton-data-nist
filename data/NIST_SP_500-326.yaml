@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-326
 title:
-- content: 'SATE V report: ten years of static analysis tool expositions'
+- content: SATE V report
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: ten years of static analysis tool expositions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: SATE V report - ten years of static analysis tool expositions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-326
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-326.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-326
@@ -21,135 +34,114 @@ docid:
 - id: 10.6028/NIST.SP.500-326
   type: DOI
 date:
-- type: published
-  value: 2018-10
+- type: issued
+  value: '2018'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Aurelien
-          script:
-          - Latn
-      surname:
-        content: Delaitre
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Delaitre, Aurélien.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021119894
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Bertrand
-          script:
-          - Latn
-      surname:
-        content: Stivalet
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Stivalet, Bertrand.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E
-          script:
-          - Latn
-      surname:
-        content: Black
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vadim
-          script:
-          - Latn
-      surname:
-        content: Okun
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Okun, Vadim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022065355
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Athos
-          script:
-          - Latn
-      surname:
-        content: Ribeiro
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Ribeiro, Athos.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Terry S
-          script:
-          - Latn
-      surname:
-        content: Cohen
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Cohen, Terry S.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2018-10
-script:
-- Latn
+abstract:
+- content: Software assurance has been the focus of the National Institute of Standards
+    and Technology (NIST) Software Assurance Metrics and Tool Evaluation (SAMATE)
+    team for many years. The Static Analysis Tool Exposition (SATE) is one of the
+    team s prominent projects to advance research in and adoption of static analysis,
+    one of several software assurance methods. This report describes our approach
+    and methodology. It then presents and discusses the results collected from the
+    fifth edition of SATE. Overall, the goal of SATE was not to rank static analysis
+    tools, but rather to propose a methodology to assess tool effectiveness. Others
+    can use this methodology to determine which tools fit their requirements. The
+    results in this report are presented as examples and used as a basis for further
+    discussion. Our methodology relies on metrics, such as recall and precision, to
+    determine tool effectiveness. To calculate these metrics, we designed test cases
+    that exhibit certain characteristics. Most of the test cases were large pieces
+    of software with cybersecurity implications. Fourteen participants ran their tools
+    on these test cases and sent us a report of their findings. We analyzed these
+    reports and calculated the metrics to assess the tools effectiveness. Although
+    a few results remained inconclusive, many key elements could be inferred based
+    on our methodology, test cases, and analysis. In particular, we were able to estimate
+    the propensity of tools to find critical vulnerabilities in real software, the
+    degree of noise they produced, and the type of weaknesses they were able to find.
+    Some shortcomings in the methodology and test cases were also identified and solutions
+    proposed for the next edition of SATE.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-326
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

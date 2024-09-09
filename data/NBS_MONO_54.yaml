@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSMONO54
 title:
 - content: Analytical standards for trace elements in petroleum products
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.MONO.54
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nbsmonograph54.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS MONO 54
@@ -21,190 +20,94 @@ docid:
 - id: 10.6028/NBS.MONO.54
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1962'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: H S
-          language:
-          - en
-          script:
-          - Latn
-          initial: H
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: H S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Isbell
+      completename:
+        content: Isbell, Horace S. (Horace Smith),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88152412
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: R Stuart
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tipson
+      completename:
+        content: Tipson, R. Stuart.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85300498
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J L
-          language:
-          - en
-          script:
-          - Latn
-          initial: J
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: J L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hague
+      completename:
+        content: Hague, J. L.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: B F
-          language:
-          - en
-          script:
-          - Latn
-          initial: B
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: B F
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scribner
+      completename:
+        content: Scribner, B. F.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: W Harold
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
+      completename:
+        content: Smith, W. Harold.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Clarence W R
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wade
+      completename:
+        content: Wade, Clarence W. R.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Alex
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cohen
+      completename:
+        content: Cohen, Alex.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n90700251
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1962'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Monographs
+    content: NBS monograph; NBS MONO
     format: text/plain
-  abbreviation:
-    content: MONO
   number: '54'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

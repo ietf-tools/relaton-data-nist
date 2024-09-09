@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1936
 title:
 - content: Instrumented impact tests on miniaturized Charpy specimens of additively
-    manufactured (AM) Ti6Al4V
+    manufactured (AM) Ti-6Al-4V
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1936
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1936.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1936
@@ -22,67 +21,70 @@ docid:
 - id: 10.6028/NIST.TN.1936
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Enrico
-          script:
-          - Latn
-      surname:
-        content: Lucon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Lucon, Enrico.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015169004
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nik W.
-          script:
-          - Latn
-      surname:
-        content: Hrabe
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Hrabe, Nikolas Wilson.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011023050
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Material Measurement Laboratory (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012096740
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: An investigation on the impact toughness properties of wrought and additively-manufactured
+    (AM) Ti-6Al-4V was conducted at NIST Boulder, by means of instrumented impact
+    tests on miniaturized Charpy specimens. Full transition curves for absorbed energy
+    and lateral expansion were obtained by performing tests in the temperature range
+    between -196 C and 700 C. The effect of various parameters was investigated for
+    AM specimens, namely specimen orientation, Hot Isostatic Pressing (HIPping), and
+    notch configuration (printed or machined). Our results indicate that AM specimens
+    exhibit equivalent or better impact toughness than wrought material after HIPping,
+    and that the material is more resistant to cracks growing in the plane perpendicular
+    to the build direction than in the plane containing the build direction. HIPping
+    has a significantly beneficial effect for the AM material, while no effect of
+    notch configuration was observed from the results obtained. Characteristic instrumented
+    forces allow a qualitative assessment of dynamic tensile properties, which appear
+    to be similar for wrought and AM Ti-6Al-4V.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1936'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

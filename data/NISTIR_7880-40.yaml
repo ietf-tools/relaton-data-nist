@@ -1,18 +1,34 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR7880-40
 title:
-- content: NIST Micronutrients Measurement Quality Assurance Program Analysis Tutorial
+- content: NIST Micronutrients Measurement Quality Assurance Program analysis tutorial
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: handout of the fat-soluble vitamin and carotenoid analysis tutorial October
+    27, 1997
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: NIST Micronutrients Measurement Quality Assurance Program analysis tutorial
+    - handout of the fat-soluble vitamin and carotenoid analysis tutorial October
+    27, 1997
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.7880-40
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.7880-40.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 7880-40
@@ -21,93 +37,76 @@ docid:
 - id: 10.6028/NIST.IR.7880-40
   type: DOI
 date:
-- type: published
-  value: 2016-09
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Katherine E.
-          script:
-          - Latn
-      surname:
-        content: Sharpless
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Associate Director for Laboratory Programs
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Sharpless, Katherine E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n95117015
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jeanice M.
-          script:
-          - Latn
-      surname:
-        content: Brown Thomas
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Associate Director for Laboratory Programs
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Thomas, Jeanice B.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: David L.
-          script:
-          - Latn
-      surname:
-        content: Duewer
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Associate Director for Laboratory Programs
-    - organization:
-        name:
-        - content: Material Measurement Laboratory
+      completename:
+        content: Duewer, David L.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2019178574
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Special Programs Office.
+    - content: Materials Measurement Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2016-09
-script:
-- Latn
+abstract:
+- content: Since 1984, the National Institute of Standards and Technology (NIST) has
+    coordinated what is now known as the Micronutrients Measurement Quality Assurance
+    Program (MMQAP) for laboratories that measure fat-soluble vitamins and carotenoids
+    in human serum and plasma. The MMQAP has provided participants with measurement
+    comparability assessment through use of interlaboratory studies, Standard Reference
+    Materials (SRMs) and control materials, methods development and validation, workshops,
+    and tutorials. This report reproduces the printed materials provided to participants
+    in the 1997 Fat-Soluble Vitamin and Carotenoid Analysis Tutorials, the most recent
+    in a series of hands-on training programs for laboratorians involved in fat-soluble
+    vitamin-related analytes. Some of the tutorial material has been updated.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: 7880-40
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTAMS200-12
 title:
 - content: STEP file analyzer and viewer user guide (update 7)
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.AMS.200-12
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ams/NIST.AMS.200-12.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST AMS 200-12
@@ -21,56 +20,31 @@ docid:
 - id: 10.6028/NIST.AMS.200-12
   type: DOI
 date:
-- type: published
-  value: '2021-10-13'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          script:
-          - Latn
-      surname:
-        content: Lipman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lipman, Robert R.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Soonjo
-          script:
-          - Latn
-      surname:
-        content: Kwon
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Kwon, Soonjo.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Engineering Laboratory.
   role:
   - type: publisher
-revdate: '2021-10-13'
-script:
-- Latn
 abstract:
 - content: The STEP File Analyzer and Viewer opens a STEP (ISO 10303 - STandard for
     Exchange of Product model data) Part 21 file and (1) generates a spreadsheet or
@@ -79,16 +53,22 @@ abstract:
     geometry, and datum targets that is displayed in a web browser, (3) reports and
     analyzes any semantic PMI, graphical PMI, and validation properties for conformance
     to recommended practices, and (4) checks for basic STEP file format errors.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST Advanced Manufacturing Series
+    content: NIST advanced manufacturing series
     format: text/plain
-  abbreviation:
-    content: AMS
   number: 200-12
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

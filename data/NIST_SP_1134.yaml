@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1134
 title:
 - content: Extended Feature Set Profile Specification
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1134
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1134.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1134
@@ -21,182 +20,105 @@ docid:
 - id: 10.6028/NIST.SP.1134
   type: DOI
 date:
-- type: published
-  value: 2012-12
+- type: issued
+  value: '2012'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Melissa
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taylor
+      completename:
+        content: Taylor, Melissa.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2012050127
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Will
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Chapman
+      completename:
+        content: Chapman, Will.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139174
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Austin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hicklin
+      completename:
+        content: Hicklin, R. Austin.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018039492
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: George
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kiebuzinski
+      completename:
+        content: Kiebuzinski, George.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021113181
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mayer-Splain
+      completename:
+        content: Mayer-Splain, John.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139180
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Rachel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wallner
+      completename:
+        content: Wallner, Rachel.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021139172
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Peter
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Komarinski
+      completename:
+        content: Komarinski, Peter.
         language:
         - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Law Enforcement Standards Office, Office of Special Programs
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2005005842
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: 2012-12
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1134'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

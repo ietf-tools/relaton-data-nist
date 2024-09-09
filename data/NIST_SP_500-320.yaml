@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP500-320
 title:
-- content: Report of the Workshop on Software Measures and Metrics to Reduce Security
+- content: Report of the workshop on Software Measures and Metrics to Reduce Security
     Vulnerabilities (SwMM-RSV)
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.500-320
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-320.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 500-320
@@ -22,67 +21,67 @@ docid:
 - id: 10.6028/NIST.SP.500-320
   type: DOI
 date:
-- type: published
-  value: 2016-11
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Paul E.
-          script:
-          - Latn
-      surname:
-        content: Black
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Black, Paul E.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2005073624
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth N.
-          script:
-          - Latn
-      surname:
-        content: Fong
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Information Technology Laboratory
+      completename:
+        content: Fong, Elizabeth.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50023905
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: Information Technology Laboratory (National Institute of Standards
+        and Technology)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no97056762
   role:
   - type: publisher
-revdate: 2016-11
-script:
-- Latn
+abstract:
+- content: The National Institute of Standards and Technology (NIST) workshop on Software
+    Measures and Metrics to Reduce Security Vulnerabilities (SwMM-RSV) was held on
+    July 12, 2016. The goal of this workshop is to gather ideas on how the Federal
+    Government can identify, improve, package, deliver, or boost the use of software
+    measures and metrics to significantly reduce vulnerabilities. This report contains
+    observations and recommendations based upon the workshop. This report also includes
+    position statements submitted to the workshop, presentations at the workshop,
+    and related material. Ideas from the workshop will be included in the report on
+    Dramatically Reducing Software Vulnerabilities report, requested of NIST by the
+    White House Office of Science and Technology Policy in Spring 2016.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 500-320
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

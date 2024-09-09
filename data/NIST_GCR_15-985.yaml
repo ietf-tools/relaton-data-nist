@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTGCR15-985
 title:
 - content: White paper on fire resistance of timber structures
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.GCR.15-985
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/gcr/2015/NIST.GCR.15-985.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST GCR 15-985
@@ -21,84 +20,88 @@ docid:
 - id: 10.6028/NIST.GCR.15-985
   type: DOI
 date:
-- type: published
-  value: 2014-09
+- type: issued
+  value: '2014'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          script:
-          - Latn
-      surname:
-        content: Buchanan
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Buchanan, Andrew.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2008031230
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Birgit
-          script:
-          - Latn
-      surname:
-        content: Ostman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: "?stman, Birgit."
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Andrea
-          script:
-          - Latn
-      surname:
-        content: Frangi
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Frangi, Andrea.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2001026199
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2014-09
-script:
-- Latn
+abstract:
+- content: 'Fire resistance of timber structures is a very large field. In order to
+    keep this document relatively small, the scope of is limited as follows: This
+    report attempts to define a Performance-Based framework for the fire safety design
+    of multi-story timber buildings. The report concentrates on medium-rise multi-story
+    timber buildings from 3 stories to 10 stories tall, which are likely to be most
+    popular and technical feasible. Taller buildings are discussed briefly. The report
+    concentrates on mass timber buildings, constructed from large timber posts and
+    beams (from LVL or glulam) and large wood panel construction using cross-laminated
+    timber (CLT) or other heavy timber panels. Light wood frame buildings protected
+    with gypsum plasterboard (2 by 4 construction) have been covered elsewhere and
+    are not considered to be feasible for building above about 6 stories. The report
+    concentrates on the fire resistance of structural elements and assemblies, and
+    does not include early fire safety issues such as ignition and flame-spread on
+    wood surfaces. It does not address broader fire safety issues such as fire safety
+    systems, fire fighting, or evacuation. External fire spread via building facades
+    and windows is partly included, since wooden fa ade claddings are considered by
+    many architects to be an essential feature of timber buildings, at least up to
+    8-10 stories. Automatic fire sprinkler systems are discussed briefly, since the
+    combination of active and passive fire protection is considered to be an important
+    way to provide fire safety for tall timber buildings. Fire resistance of timber
+    connections is included briefly, including both mechanical fasteners and glued
+    connections. The influence of adhesives on the fire behaviour of bonded structural
+    timber elements is discussed briefly.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Grant/Contractor Reports
+    content: NIST GCR; NIST grant-contract report; NIST grant contract report
     format: text/plain
-  abbreviation:
-    content: GCR
   number: 15-985
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

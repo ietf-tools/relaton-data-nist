@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NBSBMS78
 title:
 - content: Structural, heat-transfer, and water-permeability properties of five earth-wall
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NBS.BMS.78
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/BMS/nbsbuildingmaterialsstructures78.pdf
-  type: pdf
 type: standard
 docid:
 - id: NBS BMS 78
@@ -22,103 +21,70 @@ docid:
 - id: 10.6028/NBS.BMS.78
   type: DOI
 date:
-- type: published
+- type: issued
   value: '1941'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Herbert L
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Whittemore
+      completename:
+        content: Whittemore, Herbert L. (Herbert Lucius),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n85252655
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Ambrose H
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stang
+      completename:
+        content: Stang, A. H. (Ambrose Henry),
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n2007089261
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Elbert
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hubbell
+      completename:
+        content: Hubbell, Elbert.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Richard S
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Dill
+      completename:
+        content: Dill, Richard S.
         language:
         - en
-        script:
-        - Latn
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021007127
   role:
   - type: author
 - organization:
     name:
-    - content: National Bureau of Standards
-    abbreviation:
-      content: NBS
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: United States.
+    - content: National Bureau of Standards.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n79021148
   role:
   - type: publisher
-revdate: '1941'
-language:
-- en
-script:
-- Latn
 series:
 - title:
-    content: NBS Building Materials and Structures Reports
+    content: NBS building materials and structures report; NBS BMS
     format: text/plain
-  abbreviation:
-    content: BMS
   number: '78'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

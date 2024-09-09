@@ -1,0 +1,81 @@
+---
+schema-version: v1.2.9
+id: NISTIR8450
+title:
+- content: Overview and considerations of access control based on attribute encryption
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.IR.8450
+  type: doi
+type: standard
+docid:
+- id: NIST IR 8450
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.IR.8450
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Hu, Vincent C.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-1646-0584"
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory.
+  role:
+  - type: publisher
+abstract:
+- content: Encryption technology can be incorporated into access control mechanisms
+    based on user identities, user attributes, or resource attributes. Traditional
+    public-key encryption requires different data to have different keys that can
+    be distributed to users who satisfy perspective access control policies along
+    with the encrypted version of the data. However, some distributed or pervasive
+    system environments wish to avoid the public-key encryption’s all-or-nothing data
+    access limitation when considering their performance requirements. Attribute-based
+    encryption incorporates access control policies and attributes with encryption
+    and decryption functions and a one-to-many authorization scheme that requires
+    fewer keys than public-key encryption. It also utilizes collusion-resistance,
+    which provides a more efficient and flexible attribute-based access control mechanism
+    that supports high-performance systems (e.g., cloud, IoT, disrupt-tolerant networks,
+    wireless sensor networks, mobile ad-hoc networks, and public search service systems).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NISTIR
+    format: text/plain
+  number: '8450'
+- title:
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
+    format: text/plain
+  number: '8450'
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

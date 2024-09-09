@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1245
 title:
 - content: Large Outdoor Fire Modeling (LOFM) workshop summary report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1245
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1245.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1245
@@ -21,84 +20,96 @@ docid:
 - id: 10.6028/NIST.SP.1245
   type: DOI
 date:
-- type: published
-  value: 2019-10
+- type: issued
+  value: '2019'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Randall J
-          script:
-          - Latn
-      surname:
-        content: McDermott
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: McDermott, Randall J.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2022055602
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Nelson P
-          script:
-          - Latn
-      surname:
-        content: Bryner
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Bryner, Nelson P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021101621
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Jon A
-          script:
-          - Latn
-      surname:
-        content: Heintz
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory.
+      completename:
+        content: Heintz, Jon A.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2019-10
-script:
-- Latn
+abstract:
+- content: 'On March 18-19, 2019, NIST held a workshop on Large Outdoor Fire Modeling
+    (LOFM) to assess the state of the art in computational fire modeling and to identify
+    a set of research priorities for driving progress in the development of large
+    outdoor fire models. This workshop was broadly concerned with large outdoor fires
+    that have the potential to negatively impact communities or the environment. In
+    this context, wildfires, wildland and wildlandurban interface (WUI) fires, post-earthquake
+    fires, oil spill cleanup, and community-scale structural conflagrations may all
+    be classified as large outdoor fires. The premise of the workshop was that modeling
+    tools may assist in mitigating the large outdoor fire problem or at least in developing
+    a better understanding of the problem. The group looked at the modeling problem
+    in three different areas: (1) operational modeling, (2)forensic reconstruction,
+    and (3) planning, such as prescribed burns or forest fuels management. Operational
+    models mostly empirical rate of spread models were classified as running much
+    faster than real time, with simple user interfaces. These models are useful for
+    forecasting and generating large ensembles of fire scenarios for risk analysis.
+    Forensic models usually need to be run at landscape scale to capture terrain features
+    and incorporate weather effects. High-fidelity, physics-based models may be used
+    for understanding detailed phenomena, forensics, or for planning purposes. The
+    physics-based models tend to be limited by the level of resolution available for
+    input parameters and by the stochastic and chaotic nature of real fire events.
+    A survey of available models is presented in this report. Approximately 50 onsite
+    and 20 online attendees participated in the workshop. Plenary presentations where
+    given by Chris Lautenberger of REAX Engineering, Janice Coen of the National Center
+    for Atmospheric Research, and Rod Linn of Los Alamos National Laboratory. These
+    lectures laid out the state of the art in operational rate of spread models, fire-weather
+    interaction, and physics-based models, respectively, providing a baseline for
+    workshop discussions. Details of the workshop process are given in the report.
+    Three breakout groups, each with a balanced makeup of fire-related expertise (from
+    first responders to high-performance computing experts), convened to address user
+    needs, identify research gaps in outdoor fire models, and to suggest a set of
+    grand challenge problems to focus research efforts with a ten year horizon.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: '1245'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

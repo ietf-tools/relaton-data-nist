@@ -1,0 +1,91 @@
+---
+schema-version: v1.2.9
+id: NISTSP800-207A
+title:
+- content: A zero trust architecture model for access control in cloud-native applications
+    in multi-location environments
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://doi.org/10.6028/NIST.SP.800-207A
+  type: doi
+type: standard
+docid:
+- id: NIST SP 800-207A
+  type: NIST
+  primary: true
+- id: 10.6028/NIST.SP.800-207A
+  type: DOI
+date:
+- type: issued
+  value: '2023'
+contributor:
+- person:
+    name:
+      completename:
+        content: Chandramouli, Ramaswamy
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: "(orcid)0000-0002-7387-5858"
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Butcher, Zack
+        language:
+        - en
+  role:
+  - type: author
+- organization:
+    name:
+    - content: National Institute of Standards and Technology (U.S.)
+    - content: Information Technology Laboratory
+  role:
+  - type: publisher
+abstract:
+- content: One of the basic tenets of zero trust is to remove the implicit trust in
+    users, services, and devices based only on their network location, affiliation,
+    and ownership. NIST Special Publication 800-207 has laid out a comprehensive set
+    of zero trust principles and referenced zero trust architectures (ZTA) for turning
+    those concepts into reality. A key paradigm shift in ZTAs is the change in focus
+    from security controls based on segmentation and isolation using network parameters
+    (e.g., IP addresses, subnets, perimeter) to identities. From an application security
+    point of view, this requires authentication and authorization policies based on
+    application and service identities in addition to the underlying network parameters
+    and user identities. This in turn requires a platform that consists of API gateways,
+    sidecar proxies, and application identity infrastructures (e.g., Secure Production
+    Identity Framework for Everyone [SPIFFE]) that can enforce those policies irrespective
+    of the location of the services or applications, whether on-premises or on multiple
+    clouds. The objective of this publication is to provide guidance for realizing
+    an architecture that can enforce granular application-level policies while meeting
+    the runtime requirements of ZTA for multi-cloud and hybrid environments.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+series:
+- title:
+    content: NIST special publication
+    format: text/plain
+  number: 800-207A
+- title:
+    content: NIST special publication; NIST special pub; NIST SP
+    format: text/plain
+  number: 800-207A
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
+ext:
+  schema-version: v1.0.0

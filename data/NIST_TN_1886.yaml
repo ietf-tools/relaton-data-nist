@@ -1,19 +1,18 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTTN1886
 title:
-- content: An Experimental and Computational Study of Precast Concrete Moment Frames
-    under a Column Removal Scenario
+- content: An experimental and computational study of precast concrete moment frames
+    under a column removal scenario
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.TN.1886
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1886.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST TN 1886
@@ -22,135 +21,106 @@ docid:
 - id: 10.6028/NIST.TN.1886
   type: DOI
 date:
-- type: published
-  value: 2015-09
+- type: issued
+  value: '2015'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Joseph A.
-          script:
-          - Latn
-      surname:
-        content: Main
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Main, Joseph A.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011168767
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Yihai
-          script:
-          - Latn
-      surname:
-        content: Bao
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Bao, Yihai.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142835
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Hai
-          script:
-          - Latn
-      surname:
-        content: Lew
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Lew, H. S. (Hai Sang)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50049233
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Fahim H.
-          script:
-          - Latn
-      surname:
-        content: Sadek
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Sadek, Fahim.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003083235
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Vincent P.
-          script:
-          - Latn
-      surname:
-        content: Chiarito
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Chiarito, Vincent P.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2018161151
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Stephen D.
-          script:
-          - Latn
-      surname:
-        content: Robert
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: Robert, Stephen Douglas,
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2011029053
+  role:
+  - type: author
+- person:
+    name:
+      completename:
+        content: Torres, Jorge O.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2021142843
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2015-09
-script:
-- Latn
 series:
 - title:
-    content: NIST Technical Notes
+    content: NIST technical note; NIST tech note; NIST TN
     format: text/plain
-  abbreviation:
-    content: TN
   number: '1886'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

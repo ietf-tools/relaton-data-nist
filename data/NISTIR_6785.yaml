@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR6785
 title:
 - content: MatML - materials markup language workshop report
@@ -8,11 +8,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.6785
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6785.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 6785
@@ -21,96 +20,61 @@ docid:
 - id: 10.6028/NIST.IR.6785
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2001'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: C P
-          script:
-          - Latn
-          initial: C
-        - script:
-          - Latn
-          initial: P
-        formatted_initials:
-          content: C P
-          script:
-          - Latn
-      surname:
-        content: Sturrock
-        script:
-        - Latn
+      completename:
+        content: Sturrock, C. P. (Charles P.)
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003063456
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: E F
-          script:
-          - Latn
-          initial: E
-        - script:
-          - Latn
-          initial: F
-        formatted_initials:
-          content: E F
-          script:
-          - Latn
-      surname:
-        content: Begley
-        script:
-        - Latn
+      completename:
+        content: Begley, E. F.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2003070156
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: J G
-          script:
-          - Latn
-          initial: J
-        - script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: J G
-          script:
-          - Latn
-      surname:
-        content: Kaufman
-        script:
-        - Latn
+      completename:
+        content: Kaufman, J. G. (John Gilbert),
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n50070242
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.)
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2001'
-script:
-- Latn
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: NISTIR; NIST IR; NIST interagency report; NIST internal report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '6785'
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

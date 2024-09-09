@@ -1,18 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP1190GB-5
 title:
-- content: 'Guide Brief 5: Assessing Energy System Dependencies'
+- content: 'Guide brief 5: assessing energy system dependencies'
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.1190GB-5
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1190GB-5.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 1190GB-5
@@ -21,50 +20,54 @@ docid:
 - id: 10.6028/NIST.SP.1190GB-5
   type: DOI
 date:
-- type: published
-  value: 2016-12
+- type: issued
+  value: '2016'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Therese
-          script:
-          - Latn
-      surname:
-        content: McAllister
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Engineering Laboratory
+      completename:
+        content: McAllister, Therese.
+        language:
+        - en
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/nr2002021681
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Engineering Laboratory.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/no2015040956
   role:
   - type: publisher
-revdate: 2016-12
-script:
-- Latn
+abstract:
+- content: A major aspect of characterizing the built environment is identifying key
+    infrastructure dependencies that may exist. Some of these dependencies are obvious;
+    others are not. This Guide Brief focuses on Step 2, understanding the built environment,
+    and focuses on understanding dependencies from an energy system perspective. It
+    is intended to help the collaborative planning team understand where energy is
+    a critical dependency for other systems in the community. The Guide Brief is also
+    useful for planners who work with building inspection departments, planners for
+    first responders, and planners who are responsible for shelters.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 1190GB-5
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

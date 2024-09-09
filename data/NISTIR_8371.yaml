@@ -1,18 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTIR8371
 title:
-- content: Promising practices for equitable hiring :guidance for NIST laboratories
+- content: Promising practices for equitable hiring
   language:
   - en
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: guidance for NIST laboratories
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Promising practices for equitable hiring - guidance for NIST laboratories
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.IR.8371
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8371.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST IR 8371
@@ -21,56 +34,31 @@ docid:
 - id: 10.6028/NIST.IR.8371
   type: DOI
 date:
-- type: published
-  value: '2021-04-28'
+- type: issued
+  value: '2021'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: Elizabeth
-          script:
-          - Latn
-      surname:
-        content: Hoffman
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Hoffman, Elizabeth.
+        language:
+        - en
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: Heather M
-          script:
-          - Latn
-      surname:
-        content: Evans
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: National Institute of Standards and Technology
+      completename:
+        content: Evans, Heather M.
+        language:
+        - en
   role:
   - type: author
 - organization:
     name:
     - content: National Institute of Standards and Technology (U.S.)
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology.
   role:
   - type: publisher
-revdate: '2021-04-28'
-script:
-- Latn
 abstract:
 - content: To ensure NIST is taking a strategic and long-term approach to building
     a diverse workforce, explicit steps should be taken in hiring practices. The best
@@ -83,16 +71,24 @@ abstract:
     intervention strategies. The report also provides additional information about
     the value proposition of diversity and inclusion for productive, innovative workplaces.
     This report reflects the status of NIST programs and plans as of spring 2021.
+  language:
+  - en
   script:
   - Latn
   format: text/plain
 series:
 - title:
-    content: NIST IR (Interagency/Internal Reports)
+    content: |-
+      NISTIR; NIST IR; NIST interagency report; NIST internal
+                      report
     format: text/plain
-  abbreviation:
-    content: IR
   number: '8371'
-doctype: standard
+place:
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0

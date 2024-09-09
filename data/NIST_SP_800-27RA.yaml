@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NISTSP800-27ra
 title:
 - content: Engineering principles for information technology security (a baseline
@@ -9,11 +9,10 @@ title:
   script:
   - Latn
   format: text/plain
+  type: main
 link:
 - content: https://doi.org/10.6028/NIST.SP.800-27ra
   type: doi
-- content: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-27ra.pdf
-  type: pdf
 type: standard
 docid:
 - id: NIST SP 800-27ra
@@ -22,107 +21,71 @@ docid:
 - id: 10.6028/NIST.SP.800-27ra
   type: DOI
 date:
-- type: published
+- type: issued
   value: '2004'
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - content: G
-          language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Stoneburner
+      completename:
+        content: Stoneburner, G.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: C
-          language:
-          - en
-          script:
-          - Latn
-          initial: C
-        formatted_initials:
-          content: C
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hayden
+      completename:
+        content: Hayden, C.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - person:
     name:
-      given:
-        forename:
-        - content: A
-          language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Feringa
+      completename:
+        content: Feringa, A.
         language:
         - en
-        script:
-        - Latn
   role:
   - type: author
 - organization:
     name:
-    - content: National Institute of Standards and Technology
-    abbreviation:
-      content: NIST
-    contact:
-    - address:
-        city: Gaithersburg
-        state: MD
-        country: US
+    - content: National Institute of Standards and Technology (U.S.).
+    - content: Computer Security Division.
+    identifier:
+    - type: uri
+      id: https://id.loc.gov/authorities/names/n88112126
   role:
   - type: publisher
-revdate: '2004'
-language:
-- en
-script:
-- Latn
+abstract:
+- content: The Engineering Principles for Information Technology (IT) Security (EP-ITS)
+    presents a list of system-level security principles to be considered in the design,
+    development, and operation of an information system. This document is to be used
+    by IT security stakeholders and the principles introduced can be applied to general
+    support systems and major applications. EP-ITS presents principles that apply
+    to all systems, not ones tied to specific technology areas. These principles provide
+    a foundation upon which a more consistent and structured approach to the design,
+    development, and implementation of IT security capabilities can be constructed.
+    While the primary focus of these principles remains on the implementation of technical
+    countermeasures, these principles highlight the fact that, to be effective, a
+    system security design should also consider non-technical issues, such as policy,
+    operational procedures, and user education.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 series:
 - title:
-    content: NIST Special Publications (General)
+    content: NIST special publication; NIST special pub; NIST SP
     format: text/plain
-  abbreviation:
-    content: SP
   number: 800-27ra
 place:
-- Gaithersburg, MD
-doctype: standard
+- city: Gaithersburg
+  region:
+  - name: Maryland
+    iso: MD
+doctype:
+  type: standard
 ext:
   schema-version: v1.0.0
