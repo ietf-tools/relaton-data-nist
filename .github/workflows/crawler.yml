@@ -21,6 +21,6 @@ jobs:
     uses: relaton/support/.github/workflows/crawler.yml@main
     with:
       override-files: |
-        https://raw.githubusercontent.com/ietf-tools/relaton-data-nist/feat/relaton-nist-1.19.3/Gemfile=Gemfile
+        https://raw.githubusercontent.com/ietf-tools/relaton-data-nist/rc/Gemfile=Gemfile
       args: ${{ github.event.inputs.args }}
       commit-indexes: false
