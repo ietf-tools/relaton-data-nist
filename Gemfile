@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem 'relaton-nist', "~>1.19.3"
+gem 'relaton-nist', git: 'https://github.com/kesara/relaton-nist.git', branch: 'fix/deletion'
